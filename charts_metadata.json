@@ -59,16 +59,23 @@
     "F": {
       "presets": {
         "costs": {
-          "updated": "Jan 16, 2026 03:13 PM"
+          "updated": "Jan 16, 2026 03:26 PM"
         },
         "revenue": {
-          "updated": "Jan 16, 2026 03:13 PM"
+          "updated": "Jan 16, 2026 03:26 PM"
         },
         "cash": {
-          "updated": "Jan 16, 2026 03:13 PM"
+          "updated": "Jan 16, 2026 03:26 PM"
         }
       },
-      "last_updated": "2026-01-16T15:13:08.739001"
+      "last_updated": "2026-01-16T15:26:44.979496",
+      "company": {
+        "name": "Ford Motor Company",
+        "market_cap": "$53.67B",
+        "description": "Ford Motor Company, a pioneering force in the automotive industry since its inception in 1903, is based in Dearborn, Michigan, and offers a wide-ranging portfolio that includes trucks, SUVs, and an expanding array of electric vehicles. With a strong emphasis on electrification and digital integration, Ford is dedicated to sustainability and innovative mobility solutions. The company's established brand reputation, combined with its commitment to customer-centric design, positions it favorably for long-term growth and adaptability within the dynamic automotive landscape. Ford's strategic initiatives towards electrification and technological advancements underscore its potential to thrive in a competitive market as consumer preferences evolve.",
+        "sector": "CONSUMER CYCLICAL",
+        "industry": "AUTO MANUFACTURERS"
+      }
     },
     "GOOG": {
       "presets": {
