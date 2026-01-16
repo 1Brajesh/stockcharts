@@ -1070,6 +1070,27 @@
         "sector": "TECHNOLOGY",
         "industry": "SEMICONDUCTORS"
       }
+    },
+    "MSFT": {
+      "presets": {
+        "costs": {
+          "updated": "Jan 16, 2026 06:43 PM"
+        },
+        "revenue": {
+          "updated": "Jan 16, 2026 06:43 PM"
+        },
+        "cash": {
+          "updated": "Jan 16, 2026 06:43 PM"
+        }
+      },
+      "last_updated": "2026-01-16T18:43:01.369708",
+      "company": {
+        "name": "Microsoft Corporation",
+        "market_cap": "$3.66T",
+        "description": "Microsoft Corporation is a leading American multinational technology firm, celebrated for its diverse portfolio that encompasses operating systems, productivity software, and hardware solutions. Renowned for its Windows OS and Office suite, Microsoft also maintains a strong footprint in the gaming sector with the Xbox brand and in hardware through its Surface devices. A key player in digital transformation, the company capitalizes on its Azure cloud computing services to boost productivity and foster innovation across various industries. With a solid market position and a steadfast commitment to research and development, Microsoft continues to play a crucial role in advancing the global technology landscape.",
+        "sector": "TECHNOLOGY",
+        "industry": "SOFTWARE - INFRASTRUCTURE"
+      }
     }
   }
 }
