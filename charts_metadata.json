@@ -314,6 +314,27 @@
         "sector": "FINANCIAL SERVICES",
         "industry": "CREDIT SERVICES"
       }
+    },
+    "AMZN": {
+      "presets": {
+        "costs": {
+          "updated": "Jan 16, 2026 06:39 PM"
+        },
+        "revenue": {
+          "updated": "Jan 16, 2026 06:39 PM"
+        },
+        "cash": {
+          "updated": "Jan 16, 2026 06:39 PM"
+        }
+      },
+      "last_updated": "2026-01-16T18:39:27.991993",
+      "company": {
+        "name": "Amazon.com Inc",
+        "market_cap": "$2.42T",
+        "description": "Amazon.com, Inc. is a leading American multinational technology company, widely recognized for its dominance in e-commerce, cloud computing via Amazon Web Services (AWS), and digital streaming. As a key player among the \"Big Five\" tech giants, Amazon's innovative approach and unwavering commitment to customer-centric solutions have established it as one of the world's most valuable brands. The company remains at the forefront of technological advancement, with strategic investments in artificial intelligence and logistics, positioning itself to leverage emerging market trends and further enhance its competitive edge in the rapidly evolving digital landscape.",
+        "sector": "CONSUMER CYCLICAL",
+        "industry": "INTERNET RETAIL"
+      }
     }
   }
 }
