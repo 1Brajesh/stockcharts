@@ -27,6 +27,20 @@
         }
       },
       "last_updated": "2026-01-16T15:09:26.214650"
+    },
+    "PLTR": {
+      "presets": {
+        "costs": {
+          "updated": "Jan 16, 2026 03:11 PM"
+        },
+        "revenue": {
+          "updated": "Jan 16, 2026 03:11 PM"
+        },
+        "cash": {
+          "updated": "Jan 16, 2026 03:11 PM"
+        }
+      },
+      "last_updated": "2026-01-16T15:11:11.204465"
     }
   }
 }
