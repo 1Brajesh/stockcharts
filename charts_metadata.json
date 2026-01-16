@@ -881,6 +881,27 @@
         "sector": "CONSUMER CYCLICAL",
         "industry": "AUTO MANUFACTURERS"
       }
+    },
+    "CRWV": {
+      "presets": {
+        "costs": {
+          "updated": "Jan 16, 2026 06:42 PM"
+        },
+        "revenue": {
+          "updated": "Jan 16, 2026 06:42 PM"
+        },
+        "cash": {
+          "updated": "Jan 16, 2026 06:42 PM"
+        }
+      },
+      "last_updated": "2026-01-16T18:42:21.348191",
+      "company": {
+        "name": "CoreWeave, Inc. Class A Common Stock",
+        "market_cap": "$60.14B",
+        "description": "CoreWeave, Inc. (Ticker: CRWV) is a leading cloud infrastructure provider based in Livingston, New Jersey, specializing in high-performance computing solutions designed for generative AI applications. The company offers scalable and efficient computational resources that enable developers and enterprises to fully leverage the transformative capabilities of artificial intelligence. By prioritizing innovation and exceptional customer support, CoreWeave is well-positioned to capitalize on the surging demand for advanced computing power in the rapidly evolving AI landscape, driving substantial growth and value for its investors.",
+        "sector": "TECHNOLOGY",
+        "industry": "SOFTWARE - INFRASTRUCTURE"
+      }
     }
   }
 }
