@@ -41,6 +41,20 @@
         }
       },
       "last_updated": "2026-01-16T15:11:11.204465"
+    },
+    "F": {
+      "presets": {
+        "costs": {
+          "updated": "Jan 16, 2026 03:13 PM"
+        },
+        "revenue": {
+          "updated": "Jan 16, 2026 03:13 PM"
+        },
+        "cash": {
+          "updated": "Jan 16, 2026 03:13 PM"
+        }
+      },
+      "last_updated": "2026-01-16T15:13:08.739001"
     }
   }
 }
