@@ -797,6 +797,27 @@
         "sector": "TECHNOLOGY",
         "industry": "SEMICONDUCTORS"
       }
+    },
+    "IBM": {
+      "presets": {
+        "costs": {
+          "updated": "Jan 16, 2026 06:42 PM"
+        },
+        "revenue": {
+          "updated": "Jan 16, 2026 06:42 PM"
+        },
+        "cash": {
+          "updated": "Jan 16, 2026 06:42 PM"
+        }
+      },
+      "last_updated": "2026-01-16T18:42:17.649768",
+      "company": {
+        "name": "International Business Machines",
+        "market_cap": "$282.87B",
+        "description": "International Business Machines Corporation (IBM) is a prominent American multinational technology company headquartered in Armonk, New York, with operations spanning over 170 countries. Established in 1911, IBM has established itself as a leader in innovation through its diverse offerings in hardware, software, and consulting services, with an increasing emphasis on artificial intelligence, quantum computing, and cloud solutions. The company is recognized for its strong research capabilities, having achieved the distinction of securing the most annual U.S. patents for 28 consecutive years, reflecting its dedication to pioneering technology. With a legacy that includes groundbreaking inventions like the ATM and relational database, IBM continues to evolve and play a critical role in advancing technological solutions across various sectors, adapting to the ever-changing digital landscape.",
+        "sector": "TECHNOLOGY",
+        "industry": "INFORMATION TECHNOLOGY SERVICES"
+      }
     }
   }
 }
