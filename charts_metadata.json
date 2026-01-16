@@ -188,6 +188,27 @@
         "sector": "TECHNOLOGY",
         "industry": "SOFTWARE - INFRASTRUCTURE"
       }
+    },
+    "CRWD": {
+      "presets": {
+        "costs": {
+          "updated": "Jan 16, 2026 03:36 PM"
+        },
+        "revenue": {
+          "updated": "Jan 16, 2026 03:36 PM"
+        },
+        "cash": {
+          "updated": "Jan 16, 2026 03:36 PM"
+        }
+      },
+      "last_updated": "2026-01-16T15:36:42.224948",
+      "company": {
+        "name": "Crowdstrike Holdings Inc",
+        "market_cap": "$121.31B",
+        "description": "CrowdStrike Holdings, Inc. is a leading cybersecurity firm renowned for its innovative cloud-based solutions specializing in endpoint protection and cloud workload security. With a strong global presence across the United States, Europe, and Asia, CrowdStrike caters to a diverse clientele, including small businesses and Fortune 500 companies. By harnessing advanced artificial intelligence and machine learning, the company offers real-time defense against a wide range of cyber threats, serving as a critical ally for organizations in an increasingly complex digital environment. Headquartered in Sunnyvale, California, CrowdStrike stands out for its commitment to continuous innovation and its proactive approach in defending essential infrastructures against evolving cyber threats.",
+        "sector": "TECHNOLOGY",
+        "industry": "SOFTWARE - INFRASTRUCTURE"
+      }
     }
   }
 }
