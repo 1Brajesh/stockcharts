@@ -713,6 +713,27 @@
         "sector": "TECHNOLOGY",
         "industry": "SEMICONDUCTORS"
       }
+    },
+    "OSCR": {
+      "presets": {
+        "costs": {
+          "updated": "Jan 16, 2026 06:41 PM"
+        },
+        "revenue": {
+          "updated": "Jan 16, 2026 06:41 PM"
+        },
+        "cash": {
+          "updated": "Jan 16, 2026 06:41 PM"
+        }
+      },
+      "last_updated": "2026-01-16T18:41:38.187937",
+      "company": {
+        "name": "Oscar Health Inc",
+        "market_cap": "$5.17B",
+        "description": "Oscar Health, Inc. is a technology-driven health insurance provider headquartered in New York, distinguished for its innovative approach to healthcare solutions for individuals, families, and businesses across the United States. By leveraging a proprietary platform, Oscar enhances member engagement through personalized care management and streamlined access to medical services, which fosters improved health outcomes while effectively managing costs. As a leader in the intersection of technology and health insurance, Oscar Health is poised to reshape the industry dynamics, appealing to a broad base of health-conscious consumers and positioning itself as a key player in the rapidly evolving healthcare landscape.",
+        "sector": "HEALTHCARE",
+        "industry": "HEALTHCARE PLANS"
+      }
     }
   }
 }
