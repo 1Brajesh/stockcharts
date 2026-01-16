@@ -1028,6 +1028,27 @@
         "sector": "TECHNOLOGY",
         "industry": "COMPUTER HARDWARE"
       }
+    },
+    "META": {
+      "presets": {
+        "costs": {
+          "updated": "Jan 16, 2026 06:42 PM"
+        },
+        "revenue": {
+          "updated": "Jan 16, 2026 06:42 PM"
+        },
+        "cash": {
+          "updated": "Jan 16, 2026 06:42 PM"
+        }
+      },
+      "last_updated": "2026-01-16T18:42:59.617912",
+      "company": {
+        "name": "Meta Platforms Inc.",
+        "market_cap": "$1.62T",
+        "description": "Meta Platforms, Inc. is a leading technology firm based in Menlo Park, California, renowned for transforming social connectivity through its flagship platforms, including Facebook, Instagram, and WhatsApp. Pioneering developments in virtual and augmented reality via its Reality Labs division, Meta is at the forefront of the metaverse, exploring innovative consumer engagement avenues. By significantly investing in immersive technologies, the company not only attracts a large, diverse user base but also enhances its advertising revenue, thereby reinforcing its position as a dominant force in the rapidly evolving digital landscape.",
+        "sector": "COMMUNICATION SERVICES",
+        "industry": "INTERNET CONTENT & INFORMATION"
+      }
     }
   }
 }
