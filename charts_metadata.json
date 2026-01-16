@@ -230,6 +230,27 @@
         "sector": "CONSUMER DEFENSIVE",
         "industry": "BEVERAGES - NON-ALCOHOLIC"
       }
+    },
+    "MCD": {
+      "presets": {
+        "costs": {
+          "updated": "Jan 16, 2026 03:57 PM"
+        },
+        "revenue": {
+          "updated": "Jan 16, 2026 03:57 PM"
+        },
+        "cash": {
+          "updated": "Jan 16, 2026 03:57 PM"
+        }
+      },
+      "last_updated": "2026-01-16T15:57:30.485747",
+      "company": {
+        "name": "McDonald\u2019s Corporation",
+        "market_cap": "$220.23B",
+        "description": "McDonald\u2019s Corporation (MCD) stands as a leading force in the global fast-food landscape, celebrated for its renowned Golden Arches and diverse menu options since 1940. Serving customers in over 100 countries, the company leverages a vast franchise network dedicated to quality, innovation, and exceptional customer experience. McDonald's is at the forefront of sustainability initiatives and digital transformation, adapting to shifting consumer preferences while optimizing operational efficiencies. With a strong brand presence and a proven business model, McDonald\u2019s presents an attractive investment opportunity for institutional investors aiming for consistent growth in the evolving food service sector.",
+        "sector": "CONSUMER CYCLICAL",
+        "industry": "RESTAURANTS"
+      }
     }
   }
 }
