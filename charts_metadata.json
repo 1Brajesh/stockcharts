@@ -482,6 +482,27 @@
         "sector": "TECHNOLOGY",
         "industry": "SOFTWARE - INFRASTRUCTURE"
       }
+    },
+    "MRVL": {
+      "presets": {
+        "costs": {
+          "updated": "Jan 16, 2026 06:40 PM"
+        },
+        "revenue": {
+          "updated": "Jan 16, 2026 06:40 PM"
+        },
+        "cash": {
+          "updated": "Jan 16, 2026 06:40 PM"
+        }
+      },
+      "last_updated": "2026-01-16T18:40:44.842590",
+      "company": {
+        "name": "Marvell Technology Group Ltd",
+        "market_cap": "$85.27B",
+        "description": "Marvell Technology Group Ltd is a leading provider of infrastructure semiconductor solutions, dedicated to advancing digital transformation across networks, data centers, and enterprise storage. Headquartered in Wilmington, Delaware, the company specializes in designing cutting-edge technologies, including analog, mixed-signal, and digital signal processing integrated circuits, which serve key sectors such as cloud computing, 5G, and automotive applications. With a robust commitment to high-performance innovation, Marvell is well-positioned to capitalize on the surging demand for improved connectivity and efficient data management in today\u2019s data-centric landscape.",
+        "sector": "TECHNOLOGY",
+        "industry": "SEMICONDUCTORS"
+      }
     }
   }
 }
