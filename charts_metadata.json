@@ -734,6 +734,27 @@
         "sector": "HEALTHCARE",
         "industry": "HEALTHCARE PLANS"
       }
+    },
+    "LHX": {
+      "presets": {
+        "costs": {
+          "updated": "Jan 16, 2026 06:41 PM"
+        },
+        "revenue": {
+          "updated": "Jan 16, 2026 06:41 PM"
+        },
+        "cash": {
+          "updated": "Jan 16, 2026 06:41 PM"
+        }
+      },
+      "last_updated": "2026-01-16T18:41:39.075452",
+      "company": {
+        "name": "L3Harris Technologies Inc",
+        "market_cap": "$63.84B",
+        "description": "L3Harris Technologies Inc. (LHX) stands at the forefront of the defense and aerospace industries, delivering cutting-edge communication and electronic systems that bolster national security and enhance operational effectiveness. With a robust portfolio encompassing advanced capabilities in C6ISR, tactical communications, and next-generation avionics, L3Harris is adept at addressing the intricate challenges of modern warfare and diverse commercial applications. The company's unwavering dedication to innovation and operational excellence positions it as a key player in the dynamic geopolitical landscape, providing tailored solutions that safeguard national interests while streamlining operations for government and commercial clients alike.",
+        "sector": "INDUSTRIALS",
+        "industry": "AEROSPACE & DEFENSE"
+      }
     }
   }
 }
