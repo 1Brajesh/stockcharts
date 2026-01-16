@@ -692,6 +692,27 @@
         "sector": "COMMUNICATION SERVICES",
         "industry": "ADVERTISING AGENCIES"
       }
+    },
+    "TSM": {
+      "presets": {
+        "costs": {
+          "updated": "Jan 16, 2026 06:41 PM"
+        },
+        "revenue": {
+          "updated": "Jan 16, 2026 06:41 PM"
+        },
+        "cash": {
+          "updated": "Jan 16, 2026 06:41 PM"
+        }
+      },
+      "last_updated": "2026-01-16T18:41:37.311620",
+      "company": {
+        "name": "Taiwan Semiconductor Manufacturing",
+        "market_cap": "$1.53T",
+        "description": "Taiwan Semiconductor Manufacturing Company, Limited (TSMC) is the world's premier pure-play semiconductor foundry, recognized for its advanced manufacturing and design capabilities in integrated circuits. With its headquarters in Hsinchu, Taiwan, TSMC serves a diverse clientele, including industry leaders in smartphones, high-performance computing, and automotive sectors, underscoring its pivotal role in the global technology supply chain. The company's commitment to innovation is evidenced by substantial investments in state-of-the-art technologies, positioning it as a leader in semiconductor fabrication and facilitating critical advancements across consumer and enterprise landscapes. TSMC's strong international presence is further reflected in its predominantly foreign investor ownership, highlighting its strategic partnerships and influence in the global market.",
+        "sector": "TECHNOLOGY",
+        "industry": "SEMICONDUCTORS"
+      }
     }
   }
 }
