@@ -356,6 +356,27 @@
         "sector": "TECHNOLOGY",
         "industry": "SOFTWARE - INFRASTRUCTURE"
       }
+    },
+    "APLD": {
+      "presets": {
+        "costs": {
+          "updated": "Jan 16, 2026 06:39 PM"
+        },
+        "revenue": {
+          "updated": "Jan 16, 2026 06:39 PM"
+        },
+        "cash": {
+          "updated": "Jan 16, 2026 06:39 PM"
+        }
+      },
+      "last_updated": "2026-01-16T18:39:55.146714",
+      "company": {
+        "name": "Applied Digital Corporation",
+        "market_cap": "$10.53B",
+        "description": "Applied Digital Corporation (APLD), headquartered in Dallas, Texas, is a leading player in the cryptocurrency mining and co-hosting sector, utilizing cutting-edge technologies to optimize the performance and scalability of its data centers. With the increasing adoption of blockchain technology and decentralized finance, APLD is well-positioned to seize growth opportunities in this dynamic market. The company's focus on innovation and high operational standards presents institutional investors with a unique chance to participate in the burgeoning digital asset ecosystem, making APLD a noteworthy investment consideration.",
+        "sector": "TECHNOLOGY",
+        "industry": "INFORMATION TECHNOLOGY SERVICES"
+      }
     }
   }
 }
