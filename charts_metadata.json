@@ -335,6 +335,27 @@
         "sector": "CONSUMER CYCLICAL",
         "industry": "INTERNET RETAIL"
       }
+    },
+    "ORCL": {
+      "presets": {
+        "costs": {
+          "updated": "Jan 16, 2026 06:39 PM"
+        },
+        "revenue": {
+          "updated": "Jan 16, 2026 06:39 PM"
+        },
+        "cash": {
+          "updated": "Jan 16, 2026 06:39 PM"
+        }
+      },
+      "last_updated": "2026-01-16T18:39:28.883204",
+      "company": {
+        "name": "Oracle Corporation",
+        "market_cap": "$635.76B",
+        "description": "Oracle Corporation is a leading multinational technology company based in Austin, Texas, specializing in a broad range of software products and cloud computing solutions. As a dominant force in the cloud infrastructure sector, Oracle is committed to driving digital transformation for enterprises by leveraging cutting-edge technologies, including artificial intelligence and machine learning. The company maintains a robust focus on research and development, consistently updating its portfolio to meet the evolving needs of global businesses, thereby solidifying its reputation for innovation and excellence in the technology space.",
+        "sector": "TECHNOLOGY",
+        "industry": "SOFTWARE - INFRASTRUCTURE"
+      }
     }
   }
 }
