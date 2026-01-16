@@ -167,6 +167,27 @@
         "sector": "TECHNOLOGY",
         "industry": "SEMICONDUCTORS"
       }
+    },
+    "PANW": {
+      "presets": {
+        "costs": {
+          "updated": "Jan 16, 2026 03:36 PM"
+        },
+        "revenue": {
+          "updated": "Jan 16, 2026 03:36 PM"
+        },
+        "cash": {
+          "updated": "Jan 16, 2026 03:36 PM"
+        }
+      },
+      "last_updated": "2026-01-16T15:36:34.452604",
+      "company": {
+        "name": "Palo Alto Networks Inc",
+        "market_cap": "$130.05B",
+        "description": "Palo Alto Networks, Inc. (PANW) is a premier player in the cybersecurity sector, headquartered in Santa Clara, California, renowned for its cutting-edge platform that safeguards organizations from a diverse range of cyber threats through advanced firewall technologies, cloud security solutions, and AI-enhanced threat intelligence. The company serves a varied global clientele and maintains a strong commitment to enterprise security, risk management, and continuous innovation. As the cybersecurity landscape evolves and the demand for comprehensive protection intensifies, Palo Alto Networks is poised for growth, driving expansion of its product portfolio and reinforcing its status as an essential partner for organizations seeking to navigate today\u2019s complex security challenges.",
+        "sector": "TECHNOLOGY",
+        "industry": "SOFTWARE - INFRASTRUCTURE"
+      }
     }
   }
 }
