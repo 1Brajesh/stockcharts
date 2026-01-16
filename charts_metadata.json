@@ -986,6 +986,27 @@
         "sector": "TECHNOLOGY",
         "industry": "SEMICONDUCTOR EQUIPMENT & MATERIALS"
       }
+    },
+    "ARM": {
+      "presets": {
+        "costs": {
+          "updated": "Jan 16, 2026 06:42 PM"
+        },
+        "revenue": {
+          "updated": "Jan 16, 2026 06:42 PM"
+        },
+        "cash": {
+          "updated": "Jan 16, 2026 06:42 PM"
+        }
+      },
+      "last_updated": "2026-01-16T18:42:57.730382",
+      "company": {
+        "name": "Arm Holdings plc American Depositary Shares",
+        "market_cap": "$119.98B",
+        "description": "Arm Holdings plc is a leading technology company recognized for its innovative design and licensing of CPU architecture, crucial for semiconductor and OEMs across various electronic devices. With a robust portfolio of advanced designs, Arm enables its partners to create energy-efficient, high-performance processors that are pivotal in accelerating advancements in smartphones, servers, and other electronics. As a key contributor to the semiconductor ecosystem, Arm's intellectual property is vital for progressing technologies such as artificial intelligence, the Internet of Things (IoT), and automotive applications, positioning the company for significant growth amidst increasing global connectivity.",
+        "sector": "TECHNOLOGY",
+        "industry": "SEMICONDUCTORS"
+      }
     }
   }
 }
