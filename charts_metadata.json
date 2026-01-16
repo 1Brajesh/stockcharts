@@ -608,6 +608,27 @@
         "sector": "TECHNOLOGY",
         "industry": "SEMICONDUCTOR EQUIPMENT & MATERIALS"
       }
+    },
+    "VZ": {
+      "presets": {
+        "costs": {
+          "updated": "Jan 16, 2026 06:41 PM"
+        },
+        "revenue": {
+          "updated": "Jan 16, 2026 06:41 PM"
+        },
+        "cash": {
+          "updated": "Jan 16, 2026 06:41 PM"
+        }
+      },
+      "last_updated": "2026-01-16T18:41:09.213194",
+      "company": {
+        "name": "Verizon Communications Inc",
+        "market_cap": "$168.57B",
+        "description": "Verizon Communications Inc. is a premier telecommunications provider headquartered in New York City and is a notable component of the Dow Jones Industrial Average. The company delivers a wide array of services, encompassing wireless and wireline voice, data, and video solutions tailored for both consumer and enterprise customers. As a leader in the deployment of 5G technology, Verizon is strategically positioned to enhance customer connectivity and drive innovation within the sector. Its ongoing investment in digital infrastructure and commitment to a customer-centric approach solidify Verizon\u2019s status as a formidable player in the rapidly evolving telecommunications landscape, ensuring sustained growth and operational excellence.",
+        "sector": "COMMUNICATION SERVICES",
+        "industry": "TELECOM SERVICES"
+      }
     }
   }
 }
