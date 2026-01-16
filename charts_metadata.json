@@ -923,6 +923,27 @@
         "sector": "TECHNOLOGY",
         "industry": "SOFTWARE - APPLICATION"
       }
+    },
+    "CEG": {
+      "presets": {
+        "costs": {
+          "updated": "Jan 16, 2026 06:42 PM"
+        },
+        "revenue": {
+          "updated": "Jan 16, 2026 06:42 PM"
+        },
+        "cash": {
+          "updated": "Jan 16, 2026 06:42 PM"
+        }
+      },
+      "last_updated": "2026-01-16T18:42:23.333195",
+      "company": {
+        "name": "Constellation Energy Corp",
+        "market_cap": "$113.83B",
+        "description": "Constellation Energy Corporation (CEG), headquartered in Baltimore, Maryland, stands as a prominent leader in the U.S. energy sector, primarily focusing on clean and reliable energy solutions through its extensive investments in nuclear and renewable sources. The company is dedicated to sustainability and innovation, adeptly positioning itself to address the increasing demand for environmentally responsible energy as the market evolves. With a diverse portfolio that spans generation and retail services, Constellation Energy is strategically poised to leverage emerging opportunities and navigate the dynamic landscape of the energy industry.",
+        "sector": "UTILITIES",
+        "industry": "UTILITIES - INDEPENDENT POWER PRODUCERS"
+      }
     }
   }
 }
