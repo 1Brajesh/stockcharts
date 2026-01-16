@@ -902,6 +902,27 @@
         "sector": "TECHNOLOGY",
         "industry": "SOFTWARE - INFRASTRUCTURE"
       }
+    },
+    "DDOG": {
+      "presets": {
+        "costs": {
+          "updated": "Jan 16, 2026 06:42 PM"
+        },
+        "revenue": {
+          "updated": "Jan 16, 2026 06:42 PM"
+        },
+        "cash": {
+          "updated": "Jan 16, 2026 06:42 PM"
+        }
+      },
+      "last_updated": "2026-01-16T18:42:22.400245",
+      "company": {
+        "name": "Datadog Inc",
+        "market_cap": "$46.86B",
+        "description": "Datadog, Inc. is a premier provider of cloud-based observability solutions that enhance application performance and operational efficiency for developers and IT teams. With its robust platform offering real-time insights across extensive technology stacks, Datadog enables organizations to effectively monitor their cloud environments and improve infrastructure visibility. Headquartered in New York, the company is strategically positioned in the burgeoning observability market and caters to a diverse global clientele. By emphasizing scalability and innovation, Datadog remains a vital partner for enterprises undertaking digital transformation initiatives, solidifying its role in the evolving digital landscape.",
+        "sector": "TECHNOLOGY",
+        "industry": "SOFTWARE - APPLICATION"
+      }
     }
   }
 }
