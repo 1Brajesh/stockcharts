@@ -839,6 +839,27 @@
         "sector": "FINANCIAL SERVICES",
         "industry": "CAPITAL MARKETS"
       }
+    },
+    "HII": {
+      "presets": {
+        "costs": {
+          "updated": "Jan 16, 2026 06:42 PM"
+        },
+        "revenue": {
+          "updated": "Jan 16, 2026 06:42 PM"
+        },
+        "cash": {
+          "updated": "Jan 16, 2026 06:42 PM"
+        }
+      },
+      "last_updated": "2026-01-16T18:42:19.523058",
+      "company": {
+        "name": "Huntington Ingalls Industries Inc",
+        "market_cap": "$16.15B",
+        "description": "Huntington Ingalls Industries Inc. (HII) is the leading military shipbuilding firm in the United States, specializing in the design, construction, and maintenance of surface combatants, submarines, and amphibious assault ships. As a key player in the defense sector, HII supports national security and maritime operations while also providing diverse professional services to government and commercial clients. The company\u2019s emphasis on advanced engineering, innovation, and sustainability positions it favorably in a robust defense market, making HII an attractive investment option for institutional investors looking for stability and long-term growth potential.",
+        "sector": "INDUSTRIALS",
+        "industry": "AEROSPACE & DEFENSE"
+      }
     }
   }
 }
