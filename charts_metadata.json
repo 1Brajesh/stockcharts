@@ -377,6 +377,27 @@
         "sector": "TECHNOLOGY",
         "industry": "INFORMATION TECHNOLOGY SERVICES"
       }
+    },
+    "MU": {
+      "presets": {
+        "costs": {
+          "updated": "Jan 16, 2026 06:39 PM"
+        },
+        "revenue": {
+          "updated": "Jan 16, 2026 06:39 PM"
+        },
+        "cash": {
+          "updated": "Jan 16, 2026 06:39 PM"
+        }
+      },
+      "last_updated": "2026-01-16T18:39:56.012488",
+      "company": {
+        "name": "Micron Technology Inc",
+        "market_cap": "$266.96B",
+        "description": "Micron Technology, Inc. is a premier American manufacturer of innovative memory and storage solutions, with a pivotal role in the global semiconductor landscape. Headquartered in Boise, Idaho, the company specializes in dynamic random-access memory (DRAM), NAND flash memory, and other advanced products that cater to a diverse array of sectors, including computing, mobile, and automotive. As demand surges from trends such as artificial intelligence, data centers, and the Internet of Things, Micron's robust commitment to research and development enables it to maintain its leadership position and drive significant technological advancements in memory solutions worldwide.",
+        "sector": "TECHNOLOGY",
+        "industry": "SEMICONDUCTORS"
+      }
     }
   }
 }
