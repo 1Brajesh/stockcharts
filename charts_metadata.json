@@ -38,16 +38,23 @@
     "PLTR": {
       "presets": {
         "costs": {
-          "updated": "Jan 16, 2026 03:11 PM"
+          "updated": "Jan 16, 2026 03:26 PM"
         },
         "revenue": {
-          "updated": "Jan 16, 2026 03:11 PM"
+          "updated": "Jan 16, 2026 03:26 PM"
         },
         "cash": {
-          "updated": "Jan 16, 2026 03:11 PM"
+          "updated": "Jan 16, 2026 03:26 PM"
         }
       },
-      "last_updated": "2026-01-16T15:11:11.204465"
+      "last_updated": "2026-01-16T15:26:38.061405",
+      "company": {
+        "name": "Palantir Technologies Inc.",
+        "market_cap": "$395.10B",
+        "description": "Palantir Technologies Inc. (PLTR) is a premier software provider specializing in data integration and analytics, serving a diverse range of clients across government and commercial sectors. Renowned for its platforms, Palantir Gotham and Palantir Foundry, the company enables organizations to efficiently aggregate, analyze, and visualize extensive datasets, driving critical decision-making and operational efficiency. Headquartered in Denver, Colorado, Palantir is recognized for its innovative use of advanced artificial intelligence and machine learning technologies, positioning itself as a key player in addressing complex challenges across global industries and presenting appealing investment opportunities for institutional investors.",
+        "sector": "TECHNOLOGY",
+        "industry": "SOFTWARE - INFRASTRUCTURE"
+      }
     },
     "F": {
       "presets": {
