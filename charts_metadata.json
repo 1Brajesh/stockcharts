@@ -587,6 +587,27 @@
         "sector": "TECHNOLOGY",
         "industry": "SEMICONDUCTORS"
       }
+    },
+    "AMAT": {
+      "presets": {
+        "costs": {
+          "updated": "Jan 16, 2026 06:41 PM"
+        },
+        "revenue": {
+          "updated": "Jan 16, 2026 06:41 PM"
+        },
+        "cash": {
+          "updated": "Jan 16, 2026 06:41 PM"
+        }
+      },
+      "last_updated": "2026-01-16T18:41:08.338099",
+      "company": {
+        "name": "Applied Materials Inc",
+        "market_cap": "$208.14B",
+        "description": "Applied Materials, Inc. (AMAT) is a leading global provider of equipment, services, and software essential for semiconductor manufacturing and advanced display technologies, headquartered in Santa Clara, California. The company plays a pivotal role in the electronics sector by enabling the production of integrated circuit chips and flat panel displays, while also making significant strides in solar energy solutions and flexible electronics. With a strong focus on innovation and technological advancement, Applied Materials is well-positioned to capitalize on the increasing demand for high-performance electronic devices and sustainable energy resources, solidifying its status as an industry leader in these critical markets.",
+        "sector": "TECHNOLOGY",
+        "industry": "SEMICONDUCTOR EQUIPMENT & MATERIALS"
+      }
     }
   }
 }
