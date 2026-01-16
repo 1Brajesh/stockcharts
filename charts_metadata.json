@@ -13,6 +13,20 @@
         }
       },
       "last_updated": "2026-01-16T15:00:45.823594"
+    },
+    "ADI": {
+      "presets": {
+        "costs": {
+          "updated": "Jan 16, 2026 03:09 PM"
+        },
+        "revenue": {
+          "updated": "Jan 16, 2026 03:09 PM"
+        },
+        "cash": {
+          "updated": "Jan 16, 2026 03:09 PM"
+        }
+      },
+      "last_updated": "2026-01-16T15:09:26.214650"
     }
   }
 }
