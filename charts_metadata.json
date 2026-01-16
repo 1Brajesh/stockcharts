@@ -209,6 +209,27 @@
         "sector": "TECHNOLOGY",
         "industry": "SOFTWARE - INFRASTRUCTURE"
       }
+    },
+    "KO": {
+      "presets": {
+        "costs": {
+          "updated": "Jan 16, 2026 03:55 PM"
+        },
+        "revenue": {
+          "updated": "Jan 16, 2026 03:55 PM"
+        },
+        "cash": {
+          "updated": "Jan 16, 2026 03:55 PM"
+        }
+      },
+      "last_updated": "2026-01-16T15:55:56.642574",
+      "company": {
+        "name": "The Coca-Cola Company",
+        "market_cap": "$305.43B",
+        "description": "The Coca-Cola Company (KO) is a premier global beverage leader headquartered in Atlanta, Georgia, with an extensive portfolio of over 500 brands, including the iconic Coca-Cola soft drink. Operating in over 200 countries, the company has developed a comprehensive distribution network that connects it with a diverse consumer base worldwide. Coca-Cola's strategic focus on innovation and sustainability enables it to swiftly respond to changing consumer preferences, thereby ensuring its long-term resilience and growth in the competitive beverage landscape. This strong positioning and consistent performance make Coca-Cola an attractive investment opportunity for institutional investors seeking stability and enduring value in their portfolio.",
+        "sector": "CONSUMER DEFENSIVE",
+        "industry": "BEVERAGES - NON-ALCOHOLIC"
+      }
     }
   }
 }
