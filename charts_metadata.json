@@ -524,6 +524,27 @@
         "sector": "TECHNOLOGY",
         "industry": "COMMUNICATION EQUIPMENT"
       }
+    },
+    "DELL": {
+      "presets": {
+        "costs": {
+          "updated": "Jan 16, 2026 06:40 PM"
+        },
+        "revenue": {
+          "updated": "Jan 16, 2026 06:40 PM"
+        },
+        "cash": {
+          "updated": "Jan 16, 2026 06:40 PM"
+        }
+      },
+      "last_updated": "2026-01-16T18:40:46.592721",
+      "company": {
+        "name": "Dell Technologies Inc",
+        "market_cap": "$86.04B",
+        "description": "Dell Technologies Inc. is a prominent global leader in information technology solutions, offering a diverse range of products including personal computers, servers, data storage, and cloud infrastructure. Based in Round Rock, Texas, the company is dedicated to empowering digital transformation for businesses of all sizes through innovative technologies and customer-centric services. With a strong emphasis on operational excellence and continuous innovation, Dell is well-equipped to adapt to the rapidly changing digital landscape, thereby solidifying its competitive position and expanding its market presence across multiple sectors.",
+        "sector": "TECHNOLOGY",
+        "industry": "COMPUTER HARDWARE"
+      }
     }
   }
 }
