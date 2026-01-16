@@ -650,6 +650,27 @@
         "sector": "INDUSTRIALS",
         "industry": "ELECTRICAL EQUIPMENT & PARTS"
       }
+    },
+    "UNH": {
+      "presets": {
+        "costs": {
+          "updated": "Jan 16, 2026 06:41 PM"
+        },
+        "revenue": {
+          "updated": "Jan 16, 2026 06:41 PM"
+        },
+        "cash": {
+          "updated": "Jan 16, 2026 06:41 PM"
+        }
+      },
+      "last_updated": "2026-01-16T18:41:11.145181",
+      "company": {
+        "name": "UnitedHealth Group Incorporated",
+        "market_cap": "$305.02B",
+        "description": "UnitedHealth Group Incorporated is a premier American multinational managed healthcare and insurance company based in Minnetonka, Minnesota. As the largest insurance provider by net premiums and the second-largest healthcare entity by revenue, generating $257.1 billion as of 2020, UnitedHealth Group boasts a robust portfolio, with its UnitedHealthcare division contributing approximately 80% of total revenue. The company is strategically positioned to leverage the evolving healthcare landscape, demonstrating a commitment to innovation through investments in digital health, telemedicine, and data analytics, ultimately enhancing patient care while driving growth and operational efficiency.",
+        "sector": "HEALTHCARE",
+        "industry": "HEALTHCARE PLANS"
+      }
     }
   }
 }
