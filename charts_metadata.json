@@ -503,6 +503,27 @@
         "sector": "TECHNOLOGY",
         "industry": "SEMICONDUCTORS"
       }
+    },
+    "HPE": {
+      "presets": {
+        "costs": {
+          "updated": "Jan 16, 2026 06:40 PM"
+        },
+        "revenue": {
+          "updated": "Jan 16, 2026 06:40 PM"
+        },
+        "cash": {
+          "updated": "Jan 16, 2026 06:40 PM"
+        }
+      },
+      "last_updated": "2026-01-16T18:40:45.717398",
+      "company": {
+        "name": "Hewlett Packard Enterprise Co",
+        "market_cap": "$29.48B",
+        "description": "Hewlett Packard Enterprise Co (HPE) is a prominent American multinational technology company headquartered in Houston, Texas, specializing in delivering robust IT solutions tailored for enterprises. The company is at the forefront of hybrid cloud services, data storage, and advanced IT infrastructure, providing innovative products that drive operational efficiency and enable seamless digital transformation. With a strong focus on edge computing and intelligent data solutions, HPE positions itself as a strategic partner for businesses aiming to effectively leverage technology in a fast-evolving digital landscape, ensuring they remain competitive and responsive to market demands.",
+        "sector": "TECHNOLOGY",
+        "industry": "COMMUNICATION EQUIPMENT"
+      }
     }
   }
 }
