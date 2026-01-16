@@ -1007,6 +1007,27 @@
         "sector": "TECHNOLOGY",
         "industry": "SEMICONDUCTORS"
       }
+    },
+    "ANET": {
+      "presets": {
+        "costs": {
+          "updated": "Jan 16, 2026 06:42 PM"
+        },
+        "revenue": {
+          "updated": "Jan 16, 2026 06:42 PM"
+        },
+        "cash": {
+          "updated": "Jan 16, 2026 06:42 PM"
+        }
+      },
+      "last_updated": "2026-01-16T18:42:58.672496",
+      "company": {
+        "name": "Arista Networks",
+        "market_cap": "$161.93B",
+        "description": "Arista Networks, headquartered in Santa Clara, California, is a leading provider of software-defined networking (SDN) solutions, renowned for its high-performance, multilayer network switches tailored for large data centers, cloud environments, and high-frequency trading. The company's innovative approach and strong emphasis on technological advancement position it to effectively meet the growing demand for sophisticated networking infrastructure in an increasingly digital world. Arista's dedication to exceptional performance, scalability, and reliability underscores its strategic importance in the networking sector, making it an attractive investment for institutional investors aiming to capitalize on the digital transformation trend.",
+        "sector": "TECHNOLOGY",
+        "industry": "COMPUTER HARDWARE"
+      }
     }
   }
 }
