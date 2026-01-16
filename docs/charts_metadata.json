@@ -1,0 +1,18 @@
+{
+  "tickers": {
+    "ADI": {
+      "presets": {
+        "costs": {
+          "updated": "Jan 16, 2026 03:07 PM"
+        },
+        "revenue": {
+          "updated": "Jan 16, 2026 03:07 PM"
+        },
+        "cash": {
+          "updated": "Jan 16, 2026 03:07 PM"
+        }
+      },
+      "last_updated": "2026-01-16T15:07:46.844606"
+    }
+  }
+}
