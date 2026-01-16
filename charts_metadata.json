@@ -629,6 +629,27 @@
         "sector": "COMMUNICATION SERVICES",
         "industry": "TELECOM SERVICES"
       }
+    },
+    "VRT": {
+      "presets": {
+        "costs": {
+          "updated": "Jan 16, 2026 06:41 PM"
+        },
+        "revenue": {
+          "updated": "Jan 16, 2026 06:41 PM"
+        },
+        "cash": {
+          "updated": "Jan 16, 2026 06:41 PM"
+        }
+      },
+      "last_updated": "2026-01-16T18:41:10.144278",
+      "company": {
+        "name": "Vertiv Holdings Co",
+        "market_cap": "$68.72B",
+        "description": "Vertiv Holdings Co is a premier global provider of critical digital infrastructure technologies and lifecycle services, focusing on data centers, communication networks, and industrial environments. Based in Columbus, Ohio, the company serves a wide range of clients across the Americas, EMEA, and Asia Pacific, solidifying its role as a vital partner for organizations aimed at boosting operational resilience and efficiency. Vertiv\u2019s comprehensive portfolio of innovative solutions addresses the complexities of today\u2019s dynamic digital landscape, ensuring that clients can adapt and excel in an increasingly interconnected world.",
+        "sector": "INDUSTRIALS",
+        "industry": "ELECTRICAL EQUIPMENT & PARTS"
+      }
     }
   }
 }
