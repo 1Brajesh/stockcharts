@@ -125,6 +125,27 @@
         "sector": "HEALTHCARE",
         "industry": "DRUG MANUFACTURERS - SPECIALTY & GENERIC"
       }
+    },
+    "SMCI": {
+      "presets": {
+        "costs": {
+          "updated": "Jan 16, 2026 03:29 PM"
+        },
+        "revenue": {
+          "updated": "Jan 16, 2026 03:29 PM"
+        },
+        "cash": {
+          "updated": "Jan 16, 2026 03:29 PM"
+        }
+      },
+      "last_updated": "2026-01-16T15:29:02.098072",
+      "company": {
+        "name": "Super Micro Computer Inc",
+        "market_cap": "$19.60B",
+        "description": "Super Micro Computer, Inc. (SMCI) is a prominent provider of high-performance server and storage solutions, recognized for its innovative, open, and modular architecture. Based in San Jose, California, the company develops advanced technologies that cater to the evolving needs of data centers, cloud computing, and enterprise applications. With a strong emphasis on sustainability and efficiency, SMCI is strategically positioned to leverage the increasing demand for cutting-edge computing solutions across critical sectors such as artificial intelligence and big data analytics, making it a compelling investment opportunity for institutional investors looking to capitalize on technological advancements.",
+        "sector": "TECHNOLOGY",
+        "industry": "COMPUTER HARDWARE"
+      }
     }
   }
 }
