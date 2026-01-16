@@ -671,6 +671,27 @@
         "sector": "HEALTHCARE",
         "industry": "HEALTHCARE PLANS"
       }
+    },
+    "TTD": {
+      "presets": {
+        "costs": {
+          "updated": "Jan 16, 2026 06:41 PM"
+        },
+        "revenue": {
+          "updated": "Jan 16, 2026 06:41 PM"
+        },
+        "cash": {
+          "updated": "Jan 16, 2026 06:41 PM"
+        }
+      },
+      "last_updated": "2026-01-16T18:41:12.112112",
+      "company": {
+        "name": "Trade Desk Inc",
+        "market_cap": "$19.58B",
+        "description": "Trade Desk, Inc. is a premier technology company based in Ventura, California, specializing in digital advertising and programmatic marketing solutions. The company's advanced platform empowers advertisers to optimize campaigns across diverse channels and devices, capitalizing on data-driven insights to enhance targeting effectiveness. As a leader in the dynamic ad tech industry, Trade Desk is well-positioned for sustained growth, serving a broad clientele of global marketers and agencies. With a strategic emphasis on innovation and analytics, Trade Desk continues to redefine the advertising landscape, making it a compelling opportunity for institutional investors.",
+        "sector": "COMMUNICATION SERVICES",
+        "industry": "ADVERTISING AGENCIES"
+      }
     }
   }
 }
