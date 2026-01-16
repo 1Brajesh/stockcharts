@@ -461,6 +461,27 @@
         "sector": "TECHNOLOGY",
         "industry": "SOFTWARE - APPLICATION"
       }
+    },
+    "PATH": {
+      "presets": {
+        "costs": {
+          "updated": "Jan 16, 2026 06:39 PM"
+        },
+        "revenue": {
+          "updated": "Jan 16, 2026 06:39 PM"
+        },
+        "cash": {
+          "updated": "Jan 16, 2026 06:39 PM"
+        }
+      },
+      "last_updated": "2026-01-16T18:39:59.646473",
+      "company": {
+        "name": "Uipath Inc",
+        "market_cap": "$7.42B",
+        "description": "UiPath Inc. (PATH) is a leading force in the robotic process automation (RPA) industry, delivering a comprehensive automation platform that enhances operational efficiency and drives digital transformation across a variety of sectors. Leveraging cutting-edge artificial intelligence and machine learning capabilities, the company is ideally placed to capitalize on the rapidly growing demand for automation solutions. With a strategic presence in key markets, including the United States, Romania, and Japan, and headquartered in New York, UiPath is well-positioned to support organizations in navigating their automation journeys effectively.",
+        "sector": "TECHNOLOGY",
+        "industry": "SOFTWARE - INFRASTRUCTURE"
+      }
     }
   }
 }
