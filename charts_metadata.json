@@ -1091,6 +1091,27 @@
         "sector": "TECHNOLOGY",
         "industry": "SOFTWARE - INFRASTRUCTURE"
       }
+    },
+    "AAPL": {
+      "presets": {
+        "costs": {
+          "updated": "Jan 16, 2026 06:43 PM"
+        },
+        "revenue": {
+          "updated": "Jan 16, 2026 06:43 PM"
+        },
+        "cash": {
+          "updated": "Jan 16, 2026 06:43 PM"
+        }
+      },
+      "last_updated": "2026-01-16T18:43:02.256545",
+      "company": {
+        "name": "Apple Inc",
+        "market_cap": "$4.12T",
+        "description": "Apple Inc. is a leading American multinational technology company that specializes in innovative consumer electronics, software, and online services. With a record revenue of $274.5 billion in 2020, it holds the title of the world's most valuable publicly traded company and is a dominant force in the global technology landscape. Its flagship products, such as the iPhone, iPad, and Mac, have cemented its reputation as a trailblazer in the sector, positioning it as the fourth-largest PC vendor and smartphone manufacturer worldwide. As a cornerstone of the \"Big Five\" technology companies, Apple continues to set industry standards and drive advancements in technology and consumer engagement.",
+        "sector": "TECHNOLOGY",
+        "industry": "CONSUMER ELECTRONICS"
+      }
     }
   }
 }
