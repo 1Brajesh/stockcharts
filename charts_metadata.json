@@ -419,6 +419,27 @@
         "sector": "TECHNOLOGY",
         "industry": "SOFTWARE - INFRASTRUCTURE"
       }
+    },
+    "WMT": {
+      "presets": {
+        "costs": {
+          "updated": "Jan 16, 2026 06:39 PM"
+        },
+        "revenue": {
+          "updated": "Jan 16, 2026 06:39 PM"
+        },
+        "cash": {
+          "updated": "Jan 16, 2026 06:39 PM"
+        }
+      },
+      "last_updated": "2026-01-16T18:39:57.795569",
+      "company": {
+        "name": "Walmart Inc. Common Stock",
+        "market_cap": "$930.43B",
+        "description": "Walmart Inc. is a premier American multinational retail corporation headquartered in Bentonville, Arkansas, operating a comprehensive portfolio of hypermarkets, discount department stores, and grocery outlets, including Sam's Club. Renowned for its commitment to low prices and exceptional product diversity, Walmart effectively utilizes advanced supply chain solutions and innovative e-commerce strategies to sustain its competitive edge. The company emphasizes sustainability and digital transformation, driving operational efficiency and market expansion while significantly impacting the U.S. economy. With a focus on meeting the evolving needs of consumers, Walmart continues to lead the retail sector in both breadth and innovation.",
+        "sector": "CONSUMER DEFENSIVE",
+        "industry": "DISCOUNT STORES"
+      }
     }
   }
 }
