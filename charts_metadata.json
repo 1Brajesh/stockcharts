@@ -944,6 +944,27 @@
         "sector": "UTILITIES",
         "industry": "UTILITIES - INDEPENDENT POWER PRODUCERS"
       }
+    },
+    "CDNS": {
+      "presets": {
+        "costs": {
+          "updated": "Jan 16, 2026 06:42 PM"
+        },
+        "revenue": {
+          "updated": "Jan 16, 2026 06:42 PM"
+        },
+        "cash": {
+          "updated": "Jan 16, 2026 06:42 PM"
+        }
+      },
+      "last_updated": "2026-01-16T18:42:55.983066",
+      "company": {
+        "name": "Cadence Design Systems Inc",
+        "market_cap": "$84.97B",
+        "description": "Cadence Design Systems, Inc. (CDNS), based in San Jose, California, is a leading provider of electronic design automation (EDA) software and engineering services that drive advancements in semiconductor innovation. The company offers a wide range of solutions tailored for integrated circuit design, system on chip (SoC) development, and printed circuit board (PCB) design, enabling clients to significantly increase productivity and reduce time-to-market. By leveraging advanced technologies, including artificial intelligence and machine learning, Cadence enhances design processes and performance, positioning itself as an essential partner for organizations navigating the complexities of modern electronic design challenges.",
+        "sector": "TECHNOLOGY",
+        "industry": "SOFTWARE - APPLICATION"
+      }
     }
   }
 }
