@@ -3,16 +3,23 @@
     "TSLA": {
       "presets": {
         "costs": {
-          "updated": "Jan 16, 2026 03:00 PM"
+          "updated": "Jan 16, 2026 03:24 PM"
         },
         "revenue": {
-          "updated": "Jan 16, 2026 03:00 PM"
+          "updated": "Jan 16, 2026 03:24 PM"
         },
         "cash": {
-          "updated": "Jan 16, 2026 03:00 PM"
+          "updated": "Jan 16, 2026 03:24 PM"
         }
       },
-      "last_updated": "2026-01-16T15:00:45.823594"
+      "last_updated": "2026-01-16T15:24:32.686915",
+      "company": {
+        "name": "Tesla Inc",
+        "market_cap": "$1.42T",
+        "description": "Tesla, Inc. is a leading American electric vehicle and clean energy company headquartered in Palo Alto, California, renowned for its groundbreaking innovations in sustainable transportation and energy solutions. As the market leader, Tesla commanded a 16% share of the global plug-in vehicle market and 23% of the battery-electric vehicle sector as of 2020, reflecting its commitment to pushing the boundaries of electric mobility. The company's diverse portfolio includes electric vehicles, advanced battery technology, and solar energy solutions, with Tesla Energy focusing on battery storage and solar products that enhance renewable energy integration. With strategic investments in production capacity and continued technological advancements, Tesla is well-positioned to capitalize on the accelerating global transition towards sustainable energy.",
+        "sector": "CONSUMER CYCLICAL",
+        "industry": "AUTO MANUFACTURERS"
+      }
     },
     "ADI": {
       "presets": {

@@ -72,6 +72,46 @@
             color: #8b949e;
             font-size: 12px;
         }
+        .company-info {
+            background-color: #161b22;
+            border: 1px solid #30363d;
+            border-radius: 6px;
+            padding: 20px;
+            margin-bottom: 24px;
+        }
+        .company-info h2 {
+            color: #c9d1d9;
+            margin: 0 0 12px 0;
+            font-size: 18px;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;
+        }
+        .company-meta {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 16px;
+            margin-bottom: 16px;
+            font-size: 13px;
+        }
+        .company-meta .market-cap {
+            color: #58a6ff;
+        }
+        .company-meta .market-cap strong {
+            color: #7ee787;
+        }
+        .company-meta .sector,
+        .company-meta .industry {
+            color: #8b949e;
+            background-color: #21262d;
+            padding: 2px 8px;
+            border-radius: 4px;
+        }
+        .company-info .description {
+            color: #8b949e;
+            margin: 0;
+            font-size: 13px;
+            line-height: 1.6;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;
+        }
     </style>
 </head>
 <body>
@@ -79,8 +119,20 @@
         <header>
             <a href="index.html" class="back-link">&larr; Back to Index</a>
             <h1>TSLA</h1>
-            <div class="timestamp">Updated: Jan 16, 2026 03:00 PM</div>
+            <div class="timestamp">Updated: Jan 16, 2026 03:24 PM</div>
         </header>
+
+        
+        <div class="company-info">
+            <h2>Tesla Inc</h2>
+            <div class="company-meta">
+                <span class="market-cap">Market Cap: <strong>$1.42T</strong></span>
+                <span class="sector">CONSUMER CYCLICAL</span>
+                <span class="industry">AUTO MANUFACTURERS</span>
+            </div>
+            <p class="description">Tesla, Inc. is a leading American electric vehicle and clean energy company headquartered in Palo Alto, California, renowned for its groundbreaking innovations in sustainable transportation and energy solutions. As the market leader, Tesla commanded a 16% share of the global plug-in vehicle market and 23% of the battery-electric vehicle sector as of 2020, reflecting its commitment to pushing the boundaries of electric mobility. The company&#39;s diverse portfolio includes electric vehicles, advanced battery technology, and solar energy solutions, with Tesla Energy focusing on battery storage and solar products that enhance renewable energy integration. With strategic investments in production capacity and continued technological advancements, Tesla is well-positioned to capitalize on the accelerating global transition towards sustainable energy.</p>
+        </div>
+        
 
         
         <div class="chart-section">
