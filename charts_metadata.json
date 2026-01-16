@@ -755,6 +755,27 @@
         "sector": "INDUSTRIALS",
         "industry": "AEROSPACE & DEFENSE"
       }
+    },
+    "IONQ": {
+      "presets": {
+        "costs": {
+          "updated": "Jan 16, 2026 06:41 PM"
+        },
+        "revenue": {
+          "updated": "Jan 16, 2026 06:41 PM"
+        },
+        "cash": {
+          "updated": "Jan 16, 2026 06:41 PM"
+        }
+      },
+      "last_updated": "2026-01-16T18:41:39.940674",
+      "company": {
+        "name": "IONQ Inc",
+        "market_cap": "$16.08B",
+        "description": "None",
+        "sector": "TECHNOLOGY",
+        "industry": "COMPUTER HARDWARE"
+      }
     }
   }
 }
