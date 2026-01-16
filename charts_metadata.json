@@ -776,6 +776,27 @@
         "sector": "TECHNOLOGY",
         "industry": "COMPUTER HARDWARE"
       }
+    },
+    "INTC": {
+      "presets": {
+        "costs": {
+          "updated": "Jan 16, 2026 06:41 PM"
+        },
+        "revenue": {
+          "updated": "Jan 16, 2026 06:41 PM"
+        },
+        "cash": {
+          "updated": "Jan 16, 2026 06:41 PM"
+        }
+      },
+      "last_updated": "2026-01-16T18:41:40.809145",
+      "company": {
+        "name": "Intel Corporation",
+        "market_cap": "$217.27B",
+        "description": "Intel Corporation, headquartered in Santa Clara, California, stands as the foremost semiconductor manufacturer globally, recognized for its innovative x86 microprocessors. As a critical player in the technology landscape, Intel is evolving its strategy to prioritize data-centric technologies, artificial intelligence, and cloud computing, reflecting the burgeoning demands of modern digital infrastructure. With substantial investments in research and development, the company is strategically positioned to harness emerging technologies and maintain its leadership edge in an ever-evolving market, reinforcing its pivotal role in shaping the future of computing and connectivity.",
+        "sector": "TECHNOLOGY",
+        "industry": "SEMICONDUCTORS"
+      }
     }
   }
 }
