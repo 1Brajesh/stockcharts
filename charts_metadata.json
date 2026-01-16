@@ -251,6 +251,27 @@
         "sector": "CONSUMER CYCLICAL",
         "industry": "RESTAURANTS"
       }
+    },
+    "SOUN": {
+      "presets": {
+        "costs": {
+          "updated": "Jan 16, 2026 04:08 PM"
+        },
+        "revenue": {
+          "updated": "Jan 16, 2026 04:08 PM"
+        },
+        "cash": {
+          "updated": "Jan 16, 2026 04:08 PM"
+        }
+      },
+      "last_updated": "2026-01-16T16:08:20.623552",
+      "company": {
+        "name": "SoundHound AI Inc",
+        "market_cap": "$4.97B",
+        "description": "SoundHound AI, Inc. is a premier provider of voice artificial intelligence solutions, enabling businesses to optimize customer engagement through intuitive conversational interfaces. Headquartered in Santa Clara, California, the company harnesses cutting-edge natural language processing and machine learning capabilities to ensure precise and context-aware interactions. As the demand for advanced voice AI technology escalates in a rapidly evolving digital marketplace, SoundHound is strategically positioned to expand its innovative product offerings and cement its leadership in the industry.",
+        "sector": "TECHNOLOGY",
+        "industry": "SOFTWARE - APPLICATION"
+      }
     }
   }
 }
