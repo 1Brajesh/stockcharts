@@ -55,6 +55,27 @@
         }
       },
       "last_updated": "2026-01-16T15:13:08.739001"
+    },
+    "GOOG": {
+      "presets": {
+        "costs": {
+          "updated": "Jan 16, 2026 03:22 PM"
+        },
+        "revenue": {
+          "updated": "Jan 16, 2026 03:22 PM"
+        },
+        "cash": {
+          "updated": "Jan 16, 2026 03:22 PM"
+        }
+      },
+      "last_updated": "2026-01-16T15:22:39.056743",
+      "company": {
+        "name": "Alphabet Inc Class C",
+        "market_cap": "$3.89T",
+        "description": "Alphabet Inc. (GOOG) is a leading American multinational conglomerate, headquartered in Mountain View, California, that emerged from Google's corporate restructuring in October 2015. As the parent company of Google and a wide range of subsidiaries, Alphabet excels in technology sectors such as search services, digital advertising, cloud computing, consumer electronics, and artificial intelligence. With robust revenue generation, the company significantly contributes to the global digital economy's evolution. Under visionary leadership from its co-founders, Alphabet is strategically positioned to spearhead innovation and expand its footprint in rapidly growing technology markets.",
+        "sector": "COMMUNICATION SERVICES",
+        "industry": "INTERNET CONTENT & INFORMATION"
+      }
     }
   }
 }

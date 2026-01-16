@@ -60,6 +60,19 @@
         .ticker-link:hover {
             text-decoration: underline;
         }
+        .ticker-info {
+            display: flex;
+            flex-direction: column;
+            gap: 4px;
+        }
+        .company-subtitle {
+            color: #8b949e;
+            font-size: 12px;
+            font-weight: 400;
+        }
+        .company-subtitle .market-cap {
+            color: #7ee787;
+        }
         .view-btn {
             background-color: #238636;
             color: #ffffff;
@@ -121,13 +134,16 @@
     <div class="container">
         <header>
             <h1>Stock Charts</h1>
-            <div class="subtitle">Last updated: Jan 16, 2026 03:13 PM</div>
+            <div class="subtitle">Last updated: Jan 16, 2026 03:22 PM</div>
         </header>
 
         
         <div class="ticker-card">
             <div class="ticker-header">
-                <a href="ADI.html" class="ticker-link">ADI</a>
+                <div class="ticker-info">
+                    <a href="ADI.html" class="ticker-link">ADI</a>
+                    
+                </div>
                 <a href="ADI.html" class="view-btn">View</a>
             </div>
             <div class="preset-list">
@@ -155,7 +171,10 @@
         
         <div class="ticker-card">
             <div class="ticker-header">
-                <a href="F.html" class="ticker-link">F</a>
+                <div class="ticker-info">
+                    <a href="F.html" class="ticker-link">F</a>
+                    
+                </div>
                 <a href="F.html" class="view-btn">View</a>
             </div>
             <div class="preset-list">
@@ -183,7 +202,41 @@
         
         <div class="ticker-card">
             <div class="ticker-header">
-                <a href="PLTR.html" class="ticker-link">PLTR</a>
+                <div class="ticker-info">
+                    <a href="GOOG.html" class="ticker-link">GOOG</a>
+                    <div class="company-subtitle">Alphabet Inc Class C · <span class="market-cap">$3.89T</span></div>
+                </div>
+                <a href="GOOG.html" class="view-btn">View</a>
+            </div>
+            <div class="preset-list">
+                
+            <div class="preset-item">
+                <span class="tree-branch">├──</span>
+                <span class="preset-name">cash</span>
+                <span class="preset-date">Jan 16, 2026 03:22 PM</span>
+            </div>
+            
+            <div class="preset-item">
+                <span class="tree-branch">├──</span>
+                <span class="preset-name">costs</span>
+                <span class="preset-date">Jan 16, 2026 03:22 PM</span>
+            </div>
+            
+            <div class="preset-item">
+                <span class="tree-branch">└──</span>
+                <span class="preset-name">revenue</span>
+                <span class="preset-date">Jan 16, 2026 03:22 PM</span>
+            </div>
+            
+            </div>
+        </div>
+        
+        <div class="ticker-card">
+            <div class="ticker-header">
+                <div class="ticker-info">
+                    <a href="PLTR.html" class="ticker-link">PLTR</a>
+                    
+                </div>
                 <a href="PLTR.html" class="view-btn">View</a>
             </div>
             <div class="preset-list">
@@ -211,7 +264,10 @@
         
         <div class="ticker-card">
             <div class="ticker-header">
-                <a href="TSLA.html" class="ticker-link">TSLA</a>
+                <div class="ticker-info">
+                    <a href="TSLA.html" class="ticker-link">TSLA</a>
+                    
+                </div>
                 <a href="TSLA.html" class="view-btn">View</a>
             </div>
             <div class="preset-list">
