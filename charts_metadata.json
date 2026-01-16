@@ -293,6 +293,27 @@
         "sector": "BASIC MATERIALS",
         "industry": "OTHER INDUSTRIAL METALS & MINING"
       }
+    },
+    "SOFI": {
+      "presets": {
+        "costs": {
+          "updated": "Jan 16, 2026 06:34 PM"
+        },
+        "revenue": {
+          "updated": "Jan 16, 2026 06:34 PM"
+        },
+        "cash": {
+          "updated": "Jan 16, 2026 06:34 PM"
+        }
+      },
+      "last_updated": "2026-01-16T18:34:05.927772",
+      "company": {
+        "name": "SoFi Technologies Inc.",
+        "market_cap": "$34.36B",
+        "description": "SoFi Technologies, Inc. is a prominent digital financial services provider based in San Francisco, California, focusing on a diverse range of offerings, including personal loans, student and home refinancing, investment management, and insurance solutions. By leveraging cutting-edge technology, SoFi aims to empower individuals on their journey to financial independence while enhancing the accessibility and efficiency of financial services. The company has established a comprehensive platform that integrates borrowing, investing, and community engagement, making it a holistic financial partner for its members and differentiating it in the competitive fintech landscape.",
+        "sector": "FINANCIAL SERVICES",
+        "industry": "CREDIT SERVICES"
+      }
     }
   }
 }
