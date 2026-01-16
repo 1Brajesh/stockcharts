@@ -440,6 +440,27 @@
         "sector": "CONSUMER DEFENSIVE",
         "industry": "DISCOUNT STORES"
       }
+    },
+    "SNOW": {
+      "presets": {
+        "costs": {
+          "updated": "Jan 16, 2026 06:39 PM"
+        },
+        "revenue": {
+          "updated": "Jan 16, 2026 06:39 PM"
+        },
+        "cash": {
+          "updated": "Jan 16, 2026 06:39 PM"
+        }
+      },
+      "last_updated": "2026-01-16T18:39:58.730088",
+      "company": {
+        "name": "Snowflake Inc.",
+        "market_cap": "$76.13B",
+        "description": "Snowflake Inc. is a pioneering cloud-based data platform headquartered in San Mateo, California, transforming the way organizations manage and analyze data on a global scale. Its innovative architecture allows for seamless data sharing and collaboration, empowering businesses to leverage their data for advanced analytics and scalable data science solutions. Catering to a diverse client base, Snowflake leads the market in data warehousing and operational intelligence, making it a compelling investment opportunity within the dynamic technology sector. With a strong focus on agility and operational efficiency, the company is strategically positioned to capitalize on the burgeoning demand for data-driven decision-making in an evolving digital landscape.",
+        "sector": "TECHNOLOGY",
+        "industry": "SOFTWARE - APPLICATION"
+      }
     }
   }
 }
