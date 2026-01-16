@@ -566,6 +566,27 @@
         "sector": "TECHNOLOGY",
         "industry": "COMMUNICATION EQUIPMENT"
       }
+    },
+    "AVGO": {
+      "presets": {
+        "costs": {
+          "updated": "Jan 16, 2026 06:40 PM"
+        },
+        "revenue": {
+          "updated": "Jan 16, 2026 06:40 PM"
+        },
+        "cash": {
+          "updated": "Jan 16, 2026 06:40 PM"
+        }
+      },
+      "last_updated": "2026-01-16T18:40:48.402936",
+      "company": {
+        "name": "Broadcom Inc",
+        "market_cap": "$1.70T",
+        "description": "Broadcom Inc. is a premier American technology firm that excels in semiconductor and infrastructure software solutions, serving vital sectors including data centers, networking, broadband, wireless, and storage. The company is recognized for its cutting-edge products that enhance connectivity and data processing, thereby facilitating digital transformation across diverse industries. With a strategic focus on growth through acquisitions and substantial research and development investments, Broadcom is strategically positioned to leverage emerging technologies such as 5G, cloud computing, and the Internet of Things (IoT). As a dominant player in the global semiconductor market, Broadcom is poised for sustained growth in an increasingly interconnected landscape.",
+        "sector": "TECHNOLOGY",
+        "industry": "SEMICONDUCTORS"
+      }
     }
   }
 }
