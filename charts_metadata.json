@@ -398,6 +398,27 @@
         "sector": "TECHNOLOGY",
         "industry": "SEMICONDUCTORS"
       }
+    },
+    "ZS": {
+      "presets": {
+        "costs": {
+          "updated": "Jan 16, 2026 06:39 PM"
+        },
+        "revenue": {
+          "updated": "Jan 16, 2026 06:39 PM"
+        },
+        "cash": {
+          "updated": "Jan 16, 2026 06:39 PM"
+        }
+      },
+      "last_updated": "2026-01-16T18:39:56.916632",
+      "company": {
+        "name": "Zscaler Inc",
+        "market_cap": "$35.52B",
+        "description": "Zscaler, Inc. is a leading cloud security provider headquartered in San Jose, California, specializing in secure internet access for applications and data. The company's innovative Zero Trust Exchange platform enables enterprises to migrate from traditional network security frameworks to a modern, cloud-native architecture, offering comprehensive defense against an array of cyber threats. As organizations accelerate their digital transformations, Zscaler is well-positioned to meet the growing demand for scalable and secure cloud solutions, reinforcing its pivotal role in shaping the future of cybersecurity.",
+        "sector": "TECHNOLOGY",
+        "industry": "SOFTWARE - INFRASTRUCTURE"
+      }
     }
   }
 }
