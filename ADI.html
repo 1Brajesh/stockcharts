@@ -72,6 +72,46 @@
             color: #8b949e;
             font-size: 12px;
         }
+        .company-info {
+            background-color: #161b22;
+            border: 1px solid #30363d;
+            border-radius: 6px;
+            padding: 20px;
+            margin-bottom: 24px;
+        }
+        .company-info h2 {
+            color: #c9d1d9;
+            margin: 0 0 12px 0;
+            font-size: 18px;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;
+        }
+        .company-meta {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 16px;
+            margin-bottom: 16px;
+            font-size: 13px;
+        }
+        .company-meta .market-cap {
+            color: #58a6ff;
+        }
+        .company-meta .market-cap strong {
+            color: #7ee787;
+        }
+        .company-meta .sector,
+        .company-meta .industry {
+            color: #8b949e;
+            background-color: #21262d;
+            padding: 2px 8px;
+            border-radius: 4px;
+        }
+        .company-info .description {
+            color: #8b949e;
+            margin: 0;
+            font-size: 13px;
+            line-height: 1.6;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;
+        }
     </style>
 </head>
 <body>
@@ -79,8 +119,20 @@
         <header>
             <a href="index.html" class="back-link">&larr; Back to Index</a>
             <h1>ADI</h1>
-            <div class="timestamp">Updated: Jan 16, 2026 03:09 PM</div>
+            <div class="timestamp">Updated: Jan 16, 2026 03:26 PM</div>
         </header>
+
+        
+        <div class="company-info">
+            <h2>Analog Devices Inc</h2>
+            <div class="company-meta">
+                <span class="market-cap">Market Cap: <strong>$136.77B</strong></span>
+                <span class="sector">TECHNOLOGY</span>
+                <span class="industry">SEMICONDUCTORS</span>
+            </div>
+            <p class="description">Analog Devices, Inc. (ADI) is a prominent American multinational semiconductor firm headquartered in Wilmington, Massachusetts, recognized for its advanced solutions in data conversion, signal processing, and power management. Specializing in high-performance analog, mixed-signal, and digital signal processing integrated circuits, ADI caters to a variety of key sectors, including automotive, industrial, communications, and consumer electronics. With a steadfast commitment to innovation and precision technology, ADI has established itself as a vital contributor in the semiconductor industry, empowering its customers to enhance product performance and energy efficiency in an increasingly competitive market.</p>
+        </div>
+        
 
         
         <div class="chart-section">

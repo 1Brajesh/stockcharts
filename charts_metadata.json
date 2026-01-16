@@ -24,16 +24,23 @@
     "ADI": {
       "presets": {
         "costs": {
-          "updated": "Jan 16, 2026 03:09 PM"
+          "updated": "Jan 16, 2026 03:26 PM"
         },
         "revenue": {
-          "updated": "Jan 16, 2026 03:09 PM"
+          "updated": "Jan 16, 2026 03:26 PM"
         },
         "cash": {
-          "updated": "Jan 16, 2026 03:09 PM"
+          "updated": "Jan 16, 2026 03:26 PM"
         }
       },
-      "last_updated": "2026-01-16T15:09:26.214650"
+      "last_updated": "2026-01-16T15:26:52.765587",
+      "company": {
+        "name": "Analog Devices Inc",
+        "market_cap": "$136.77B",
+        "description": "Analog Devices, Inc. (ADI) is a prominent American multinational semiconductor firm headquartered in Wilmington, Massachusetts, recognized for its advanced solutions in data conversion, signal processing, and power management. Specializing in high-performance analog, mixed-signal, and digital signal processing integrated circuits, ADI caters to a variety of key sectors, including automotive, industrial, communications, and consumer electronics. With a steadfast commitment to innovation and precision technology, ADI has established itself as a vital contributor in the semiconductor industry, empowering its customers to enhance product performance and energy efficiency in an increasingly competitive market.",
+        "sector": "TECHNOLOGY",
+        "industry": "SEMICONDUCTORS"
+      }
     },
     "PLTR": {
       "presets": {
