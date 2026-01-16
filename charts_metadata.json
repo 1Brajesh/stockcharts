@@ -545,6 +545,27 @@
         "sector": "TECHNOLOGY",
         "industry": "COMPUTER HARDWARE"
       }
+    },
+    "CSCO": {
+      "presets": {
+        "costs": {
+          "updated": "Jan 16, 2026 06:40 PM"
+        },
+        "revenue": {
+          "updated": "Jan 16, 2026 06:40 PM"
+        },
+        "cash": {
+          "updated": "Jan 16, 2026 06:40 PM"
+        }
+      },
+      "last_updated": "2026-01-16T18:40:47.450569",
+      "company": {
+        "name": "Cisco Systems Inc",
+        "market_cap": "$309.84B",
+        "description": "Cisco Systems, Inc. is a leading technology company based in San Jose, California, recognized for its expertise in networking hardware, software, and telecommunications solutions. With a strong emphasis on innovation in areas such as the Internet of Things (IoT) and cybersecurity, Cisco enhances enterprise communications and data security globally through its Webex platform. The company's continued focus on strategic acquisitions and significant investment in research and development solidifies its position as a key player in digital transformation and network security. By offering a comprehensive portfolio of advanced connectivity solutions, Cisco is dedicated to empowering organizations to navigate the complexities of an increasingly interconnected world.",
+        "sector": "TECHNOLOGY",
+        "industry": "COMMUNICATION EQUIPMENT"
+      }
     }
   }
 }
