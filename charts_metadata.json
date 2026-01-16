@@ -965,6 +965,27 @@
         "sector": "TECHNOLOGY",
         "industry": "SOFTWARE - APPLICATION"
       }
+    },
+    "ASML": {
+      "presets": {
+        "costs": {
+          "updated": "Jan 16, 2026 06:42 PM"
+        },
+        "revenue": {
+          "updated": "Jan 16, 2026 06:42 PM"
+        },
+        "cash": {
+          "updated": "Jan 16, 2026 06:42 PM"
+        }
+      },
+      "last_updated": "2026-01-16T18:42:56.878560",
+      "company": {
+        "name": "ASML Holding NV ADR",
+        "market_cap": "$422.23B",
+        "description": "ASML Holding NV is a leading supplier of advanced semiconductor manufacturing equipment, specializing in cutting-edge lithography systems essential for the production of memory and logic chips. Headquartered in Veldhoven, Netherlands, the company is instrumental in the semiconductor supply chain, particularly through its pioneering extreme ultraviolet (EUV) lithography technology that enhances chip performance and efficiency. With a steadfast commitment to innovation and strategic partnerships with major semiconductor manufacturers, ASML is ideally positioned to benefit from the growing demand for high-performance computing solutions and the ongoing digital transformation across various industries.",
+        "sector": "TECHNOLOGY",
+        "industry": "SEMICONDUCTOR EQUIPMENT & MATERIALS"
+      }
     }
   }
 }
