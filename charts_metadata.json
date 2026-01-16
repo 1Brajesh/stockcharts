@@ -1049,6 +1049,27 @@
         "sector": "COMMUNICATION SERVICES",
         "industry": "INTERNET CONTENT & INFORMATION"
       }
+    },
+    "NVDA": {
+      "presets": {
+        "costs": {
+          "updated": "Jan 16, 2026 06:43 PM"
+        },
+        "revenue": {
+          "updated": "Jan 16, 2026 06:43 PM"
+        },
+        "cash": {
+          "updated": "Jan 16, 2026 06:43 PM"
+        }
+      },
+      "last_updated": "2026-01-16T18:43:00.489221",
+      "company": {
+        "name": "NVIDIA Corporation",
+        "market_cap": "$4.32T",
+        "description": "NVIDIA Corporation is a prominent American multinational technology firm based in Santa Clara, California, recognized for its leadership in the design and manufacturing of advanced graphics processing units (GPUs) for gaming and professional markets. The company is at the cutting edge of AI and visual computing technologies, developing critical solutions such as System on a Chip (SoC) products that enhance mobile computing and automotive applications, particularly in the expanding field of autonomous driving. With a diverse portfolio that encompasses gaming, data centers, and AI infrastructure, NVIDIA is committed to delivering innovative products and services that meet the demands of a dynamic technology landscape.",
+        "sector": "TECHNOLOGY",
+        "industry": "SEMICONDUCTORS"
+      }
     }
   }
 }
