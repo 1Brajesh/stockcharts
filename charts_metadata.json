@@ -1259,6 +1259,27 @@
         "sector": "TECHNOLOGY",
         "industry": "SOFTWARE - APPLICATION"
       }
+    },
+    "CRM": {
+      "presets": {
+        "costs": {
+          "updated": "Jan 17, 2026 12:54 AM"
+        },
+        "revenue": {
+          "updated": "Jan 17, 2026 12:54 AM"
+        },
+        "cash": {
+          "updated": "Jan 17, 2026 12:54 AM"
+        }
+      },
+      "last_updated": "2026-01-17T00:54:15.116547",
+      "company": {
+        "name": "Salesforce.com Inc",
+        "market_cap": "$247.43B",
+        "description": "Salesforce.com, Inc. (CRM) is a leading provider of cloud-based Customer Relationship Management (CRM) solutions, headquartered in San Francisco. The company offers a comprehensive suite of enterprise applications designed to enhance customer engagement through customer service, marketing automation, and advanced analytics. Renowned for its innovative integration of artificial intelligence and data analytics, Salesforce stands at the forefront of the cloud computing industry, consistently delivering sustainable growth for its clients. Its strategic acquisitions and continuous platform enhancements reinforce its commanding position in the enterprise software market, positioning Salesforce as an essential partner for organizations pursuing success in the digital era.",
+        "sector": "TECHNOLOGY",
+        "industry": "SOFTWARE - APPLICATION"
+      }
     }
   }
 }
