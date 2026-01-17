@@ -1217,6 +1217,27 @@
         "sector": "CONSUMER DEFENSIVE",
         "industry": "TOBACCO"
       }
+    },
+    "EBAY": {
+      "presets": {
+        "costs": {
+          "updated": "Jan 17, 2026 12:41 AM"
+        },
+        "revenue": {
+          "updated": "Jan 17, 2026 12:41 AM"
+        },
+        "cash": {
+          "updated": "Jan 17, 2026 12:41 AM"
+        }
+      },
+      "last_updated": "2026-01-17T00:41:11.236965",
+      "company": {
+        "name": "eBay Inc",
+        "market_cap": "$43.90B",
+        "description": "eBay Inc. is a leading American e-commerce platform headquartered in San Jose, California, established in 1995. Renowned for its innovative marketplace, eBay facilitates seamless transactions between consumers and businesses through various selling formats, including auctions and fixed-price listings. With millions of active users worldwide, the platform fosters a vibrant community and prioritizes user experience and security. As eBay adapts to shifting market dynamics and technological advancements, it remains well-positioned for sustained growth in the competitive e-commerce sector, driving value for institutional investors.",
+        "sector": "CONSUMER CYCLICAL",
+        "industry": "INTERNET RETAIL"
+      }
     }
   }
 }
