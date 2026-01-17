@@ -1196,6 +1196,27 @@
         "sector": "CONSUMER CYCLICAL",
         "industry": "AUTO MANUFACTURERS"
       }
+    },
+    "MO": {
+      "presets": {
+        "costs": {
+          "updated": "Jan 17, 2026 12:38 AM"
+        },
+        "revenue": {
+          "updated": "Jan 17, 2026 12:38 AM"
+        },
+        "cash": {
+          "updated": "Jan 17, 2026 12:38 AM"
+        }
+      },
+      "last_updated": "2026-01-17T00:38:26.995071",
+      "company": {
+        "name": "Altria Group",
+        "market_cap": "$98.59B",
+        "description": "Altria Group, Inc. is a leading American tobacco company based in Henrico County, Virginia, renowned for its portfolio of iconic brands such as Marlboro, and its significant presence in the smokeless tobacco segment. As a major player in the global tobacco market, Altria is actively pivoting towards reduced-risk alternatives by investing in e-vapor and heated tobacco technologies. The company's robust focus on innovation, regulatory adherence, and sustainable practices positions it advantageously to navigate the evolving tobacco landscape and meet the increasing consumer demand for safer product options. Through these strategic initiatives, Altria aims to redefine its role in the tobacco industry while prioritizing public health and shareholder value.",
+        "sector": "CONSUMER DEFENSIVE",
+        "industry": "TOBACCO"
+      }
     }
   }
 }

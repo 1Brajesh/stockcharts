@@ -87,9 +87,39 @@
             background-color: #1e1a2e;
             border-color: #a371f7;
         }
+        /* Left borders */
         .ticker-card.gold-border {
             border-left: 3px solid #f0b429;
         }
+        .ticker-card.red-border {
+            border-left: 3px solid #f85149;
+        }
+        .ticker-card.green-border {
+            border-left: 3px solid #3fb950;
+        }
+        .ticker-card.cyan-border {
+            border-left: 3px solid #58a6ff;
+        }
+        .ticker-card.purple-border {
+            border-left: 3px solid #a371f7;
+        }
+        /* Right borders */
+        .ticker-card.gold-border-right {
+            border-right: 3px solid #f0b429;
+        }
+        .ticker-card.red-border-right {
+            border-right: 3px solid #f85149;
+        }
+        .ticker-card.green-border-right {
+            border-right: 3px solid #3fb950;
+        }
+        .ticker-card.cyan-border-right {
+            border-right: 3px solid #58a6ff;
+        }
+        .ticker-card.purple-border-right {
+            border-right: 3px solid #a371f7;
+        }
+        /* Glow effects */
         .ticker-card.glow {
             box-shadow: 0 0 12px rgba(88, 166, 255, 0.6), 0 0 4px rgba(88, 166, 255, 0.8);
             border-color: #58a6ff;
@@ -97,6 +127,18 @@
         .ticker-card.purple-glow {
             box-shadow: 0 0 12px rgba(163, 113, 247, 0.6), 0 0 4px rgba(163, 113, 247, 0.8);
             border-color: #a371f7;
+        }
+        .ticker-card.green-glow {
+            box-shadow: 0 0 12px rgba(63, 185, 80, 0.6), 0 0 4px rgba(63, 185, 80, 0.8);
+            border-color: #3fb950;
+        }
+        .ticker-card.gold-glow {
+            box-shadow: 0 0 12px rgba(240, 180, 41, 0.6), 0 0 4px rgba(240, 180, 41, 0.8);
+            border-color: #f0b429;
+        }
+        .ticker-card.red-glow {
+            box-shadow: 0 0 12px rgba(248, 81, 73, 0.6), 0 0 4px rgba(248, 81, 73, 0.8);
+            border-color: #f85149;
         }
         .empty-msg {
             color: #8b949e;
@@ -123,14 +165,14 @@
     <div class="container">
         <header>
             <h1>Stock Charts</h1>
-            <div class="subtitle">Last updated: Jan 16, 2026 07:47 PM</div>
+            <div class="subtitle">Last updated: Jan 17, 2026 12:38 AM</div>
         </header>
 
-        <div class="count">57 tickers</div>
+        <div class="count">58 tickers</div>
 
         <div class="ticker-grid">
         
-            <a href="AAPL.html" class="ticker-card gold-border">
+            <a href="AAPL.html" class="ticker-card">
                 <div class="ticker-row">
                     <span class="ticker-symbol">AAPL</span>
                     <span class="market-cap">$4.12T</span>
@@ -154,7 +196,7 @@
                 <div class="company-name">Applied Materials Inc</div>
             </a>
 
-            <a href="AMZN.html" class="ticker-card gold-border">
+            <a href="AMZN.html" class="ticker-card">
                 <div class="ticker-row">
                     <span class="ticker-symbol">AMZN</span>
                     <span class="market-cap">$2.42T</span>
@@ -218,7 +260,7 @@
                 <div class="company-name">Constellation Energy Corp</div>
             </a>
 
-            <a href="CRWD.html" class="ticker-card glow">
+            <a href="CRWD.html" class="ticker-card">
                 <div class="ticker-row">
                     <span class="ticker-symbol">CRWD</span>
                     <span class="market-cap">$121.31B</span>
@@ -274,7 +316,7 @@
                 <div class="company-name">General Motors Company</div>
             </a>
 
-            <a href="GOOG.html" class="ticker-card gold-border">
+            <a href="GOOG.html" class="ticker-card">
                 <div class="ticker-row">
                     <span class="ticker-symbol">GOOG</span>
                     <span class="market-cap">$3.89T</span>
@@ -330,7 +372,7 @@
                 <div class="company-name">Intel Corporation</div>
             </a>
 
-            <a href="IONQ.html" class="ticker-card owned purple-glow">
+            <a href="IONQ.html" class="ticker-card owned">
                 <div class="ticker-row">
                     <span class="ticker-symbol">IONQ</span>
                     <span class="market-cap">$16.08B</span>
@@ -370,12 +412,20 @@
                 <div class="company-name">McDonald’s Corporation</div>
             </a>
 
-            <a href="META.html" class="ticker-card gold-border">
+            <a href="META.html" class="ticker-card">
                 <div class="ticker-row">
                     <span class="ticker-symbol">META</span>
                     <span class="market-cap">$1.62T</span>
                 </div>
                 <div class="company-name">Meta Platforms Inc.</div>
+            </a>
+
+            <a href="MO.html" class="ticker-card">
+                <div class="ticker-row">
+                    <span class="ticker-symbol">MO</span>
+                    <span class="market-cap">$98.59B</span>
+                </div>
+                <div class="company-name">Altria Group</div>
             </a>
 
             <a href="MRVL.html" class="ticker-card">
@@ -386,7 +436,7 @@
                 <div class="company-name">Marvell Technology Group Ltd</div>
             </a>
 
-            <a href="MSFT.html" class="ticker-card gold-border">
+            <a href="MSFT.html" class="ticker-card">
                 <div class="ticker-row">
                     <span class="ticker-symbol">MSFT</span>
                     <span class="market-cap">$3.66T</span>
@@ -402,7 +452,7 @@
                 <div class="company-name">Micron Technology Inc</div>
             </a>
 
-            <a href="NVDA.html" class="ticker-card gold-border">
+            <a href="NVDA.html" class="ticker-card">
                 <div class="ticker-row">
                     <span class="ticker-symbol">NVDA</span>
                     <span class="market-cap">$4.32T</span>
@@ -434,7 +484,7 @@
                 <div class="company-name">Oscar Health Inc</div>
             </a>
 
-            <a href="PANW.html" class="ticker-card glow">
+            <a href="PANW.html" class="ticker-card">
                 <div class="ticker-row">
                     <span class="ticker-symbol">PANW</span>
                     <span class="market-cap">$130.05B</span>
@@ -458,7 +508,7 @@
                 <div class="company-name">Palantir Technologies Inc.</div>
             </a>
 
-            <a href="QUBT.html" class="ticker-card owned purple-glow">
+            <a href="QUBT.html" class="ticker-card owned">
                 <div class="ticker-row">
                     <span class="ticker-symbol">QUBT</span>
                     <span class="market-cap">$2.57B</span>
@@ -466,7 +516,7 @@
                 <div class="company-name">Quantum Computing Inc</div>
             </a>
 
-            <a href="RGTI.html" class="ticker-card owned purple-glow">
+            <a href="RGTI.html" class="ticker-card owned">
                 <div class="ticker-row">
                     <span class="ticker-symbol">RGTI</span>
                     <span class="market-cap">$8.44B</span>
@@ -522,7 +572,7 @@
                 <div class="company-name">Stellantis NV</div>
             </a>
 
-            <a href="TSLA.html" class="ticker-card owned gold-border">
+            <a href="TSLA.html" class="ticker-card owned">
                 <div class="ticker-row">
                     <span class="ticker-symbol">TSLA</span>
                     <span class="market-cap">$1.42T</span>
