@@ -1238,6 +1238,27 @@
         "sector": "CONSUMER CYCLICAL",
         "industry": "INTERNET RETAIL"
       }
+    },
+    "ADBE": {
+      "presets": {
+        "costs": {
+          "updated": "Jan 17, 2026 12:52 AM"
+        },
+        "revenue": {
+          "updated": "Jan 17, 2026 12:52 AM"
+        },
+        "cash": {
+          "updated": "Jan 17, 2026 12:52 AM"
+        }
+      },
+      "last_updated": "2026-01-17T00:52:26.168205",
+      "company": {
+        "name": "Adobe Systems Incorporated",
+        "market_cap": "$151.20B",
+        "description": "Adobe Systems Incorporated is a leading American multinational software company headquartered in San Jose, California, distinguished for its pioneering role in digital media and marketing solutions. Renowned for its flagship products such as Adobe Photoshop, Illustrator, and Acrobat, Adobe serves as an indispensable ally to creative professionals and businesses worldwide. The company has strategically expanded its offerings with Adobe Experience Cloud, which provides a robust suite of tools designed to enhance customer engagement and optimize marketing strategies. Leveraging advancements in artificial intelligence and cloud technology, Adobe is positioned to maintain its competitive edge in a rapidly evolving digital landscape, supported by a substantial and diverse global user base.",
+        "sector": "TECHNOLOGY",
+        "industry": "SOFTWARE - APPLICATION"
+      }
     }
   }
 }
