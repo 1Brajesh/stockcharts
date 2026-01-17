@@ -1133,6 +1133,27 @@
         "sector": "TECHNOLOGY",
         "industry": "COMPUTER HARDWARE"
       }
+    },
+    "QUBT": {
+      "presets": {
+        "costs": {
+          "updated": "Jan 16, 2026 07:33 PM"
+        },
+        "revenue": {
+          "updated": "Jan 16, 2026 07:33 PM"
+        },
+        "cash": {
+          "updated": "Jan 16, 2026 07:33 PM"
+        }
+      },
+      "last_updated": "2026-01-16T19:33:56.852577",
+      "company": {
+        "name": "Quantum Computing\u00a0Inc",
+        "market_cap": "$2.57B",
+        "description": "Quantum Computing, Inc. is an innovative technology firm based in Leesburg, Virginia, focused on advancing the field of quantum computing through the development of sophisticated software applications and tools. The company aims to facilitate the widespread adoption of quantum technologies across diverse sectors such as finance, pharmaceuticals, and cybersecurity, addressing complex computational challenges with greater efficiency. With a robust commitment to research and development, Quantum Computing, Inc. is strategically positioned to emerge as a leader in delivering practical quantum solutions, thereby unlocking the transformative potential inherent in quantum systems.",
+        "sector": "TECHNOLOGY",
+        "industry": "COMPUTER HARDWARE"
+      }
     }
   }
 }
