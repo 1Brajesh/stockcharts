@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Stock Charts</title>
+    <title>Stock Charts - Grid Layout Test 2</title>
     <style>
         * {
             box-sizing: border-box;
@@ -34,12 +34,6 @@
         .subtitle {
             color: #8b949e;
             font-size: 14px;
-        }
-        .count {
-            color: #8b949e;
-            font-size: 13px;
-            margin-bottom: 16px;
-            text-align: center;
         }
         .ticker-grid {
             display: grid;
@@ -82,32 +76,19 @@
             line-height: 1.4;
             text-align: center;
         }
-        /* Highlight styles */
-        .ticker-card.owned {
-            background-color: #1e1a2e;
-            border-color: #a371f7;
-        }
-        .ticker-card.gold-border {
+        /* Highlighted cards - gold left border (M7) */
+        .ticker-card.highlight {
             border-left: 3px solid #f0b429;
         }
+        /* Glow effect - cyan glow (cybersecurity) */
         .ticker-card.glow {
             box-shadow: 0 0 10px rgba(88, 166, 255, 0.4);
             border-color: #58a6ff;
         }
-        .ticker-card.purple-bg {
+        /* Different background - purple tint (quantum) */
+        .ticker-card.highlight-bg {
             background-color: #1e1a2e;
             border-color: #a371f7;
-        }
-        .empty-msg {
-            color: #8b949e;
-            text-align: center;
-            padding: 40px;
-        }
-        .empty-msg code {
-            background-color: #21262d;
-            padding: 2px 6px;
-            border-radius: 4px;
-            font-family: 'SF Mono', monospace;
         }
         footer {
             margin-top: 32px;
@@ -117,27 +98,31 @@
             font-size: 12px;
             text-align: center;
         }
+        .count {
+            color: #8b949e;
+            font-size: 13px;
+            margin-bottom: 16px;
+            text-align: center;
+        }
     </style>
 </head>
 <body>
     <div class="container">
         <header>
             <h1>Stock Charts</h1>
-            <div class="subtitle">Last updated: Jan 16, 2026 07:33 PM</div>
+            <div class="subtitle">Last updated: Jan 16, 2026 06:43 PM</div>
         </header>
 
-        <div class="count">54 tickers</div>
+        <div class="count">56 tickers</div>
 
         <div class="ticker-grid">
-        
-            <a href="AAPL.html" class="ticker-card gold-border">
+            <a href="AAPL.html" class="ticker-card highlight">
                 <div class="ticker-row">
                     <span class="ticker-symbol">AAPL</span>
                     <span class="market-cap">$4.12T</span>
                 </div>
                 <div class="company-name">Apple Inc</div>
             </a>
-
             <a href="ADI.html" class="ticker-card">
                 <div class="ticker-row">
                     <span class="ticker-symbol">ADI</span>
@@ -145,7 +130,6 @@
                 </div>
                 <div class="company-name">Analog Devices Inc</div>
             </a>
-
             <a href="AMAT.html" class="ticker-card">
                 <div class="ticker-row">
                     <span class="ticker-symbol">AMAT</span>
@@ -153,15 +137,13 @@
                 </div>
                 <div class="company-name">Applied Materials Inc</div>
             </a>
-
-            <a href="AMZN.html" class="ticker-card gold-border">
+            <a href="AMZN.html" class="ticker-card highlight">
                 <div class="ticker-row">
                     <span class="ticker-symbol">AMZN</span>
                     <span class="market-cap">$2.42T</span>
                 </div>
                 <div class="company-name">Amazon.com Inc</div>
             </a>
-
             <a href="ANET.html" class="ticker-card">
                 <div class="ticker-row">
                     <span class="ticker-symbol">ANET</span>
@@ -169,7 +151,6 @@
                 </div>
                 <div class="company-name">Arista Networks</div>
             </a>
-
             <a href="APLD.html" class="ticker-card">
                 <div class="ticker-row">
                     <span class="ticker-symbol">APLD</span>
@@ -177,7 +158,6 @@
                 </div>
                 <div class="company-name">Applied Digital Corporation</div>
             </a>
-
             <a href="ARM.html" class="ticker-card">
                 <div class="ticker-row">
                     <span class="ticker-symbol">ARM</span>
@@ -185,7 +165,6 @@
                 </div>
                 <div class="company-name">Arm Holdings plc American Depositary Shares</div>
             </a>
-
             <a href="ASML.html" class="ticker-card">
                 <div class="ticker-row">
                     <span class="ticker-symbol">ASML</span>
@@ -193,7 +172,6 @@
                 </div>
                 <div class="company-name">ASML Holding NV ADR</div>
             </a>
-
             <a href="AVGO.html" class="ticker-card">
                 <div class="ticker-row">
                     <span class="ticker-symbol">AVGO</span>
@@ -201,15 +179,13 @@
                 </div>
                 <div class="company-name">Broadcom Inc</div>
             </a>
-
-            <a href="CDNS.html" class="ticker-card owned">
+            <a href="CDNS.html" class="ticker-card">
                 <div class="ticker-row">
                     <span class="ticker-symbol">CDNS</span>
                     <span class="market-cap">$84.97B</span>
                 </div>
                 <div class="company-name">Cadence Design Systems Inc</div>
             </a>
-
             <a href="CEG.html" class="ticker-card">
                 <div class="ticker-row">
                     <span class="ticker-symbol">CEG</span>
@@ -217,15 +193,13 @@
                 </div>
                 <div class="company-name">Constellation Energy Corp</div>
             </a>
-
-            <a href="CRWD.html" class="ticker-card">
+            <a href="CRWD.html" class="ticker-card glow">
                 <div class="ticker-row">
                     <span class="ticker-symbol">CRWD</span>
                     <span class="market-cap">$121.31B</span>
                 </div>
                 <div class="company-name">Crowdstrike Holdings Inc</div>
             </a>
-
             <a href="CRWV.html" class="ticker-card">
                 <div class="ticker-row">
                     <span class="ticker-symbol">CRWV</span>
@@ -233,7 +207,6 @@
                 </div>
                 <div class="company-name">CoreWeave, Inc. Class A Common Stock</div>
             </a>
-
             <a href="CSCO.html" class="ticker-card">
                 <div class="ticker-row">
                     <span class="ticker-symbol">CSCO</span>
@@ -241,7 +214,6 @@
                 </div>
                 <div class="company-name">Cisco Systems Inc</div>
             </a>
-
             <a href="DDOG.html" class="ticker-card">
                 <div class="ticker-row">
                     <span class="ticker-symbol">DDOG</span>
@@ -249,7 +221,6 @@
                 </div>
                 <div class="company-name">Datadog Inc</div>
             </a>
-
             <a href="DELL.html" class="ticker-card">
                 <div class="ticker-row">
                     <span class="ticker-symbol">DELL</span>
@@ -257,7 +228,6 @@
                 </div>
                 <div class="company-name">Dell Technologies Inc</div>
             </a>
-
             <a href="F.html" class="ticker-card">
                 <div class="ticker-row">
                     <span class="ticker-symbol">F</span>
@@ -265,7 +235,6 @@
                 </div>
                 <div class="company-name">Ford Motor Company</div>
             </a>
-
             <a href="GM.html" class="ticker-card">
                 <div class="ticker-row">
                     <span class="ticker-symbol">GM</span>
@@ -273,15 +242,13 @@
                 </div>
                 <div class="company-name">General Motors Company</div>
             </a>
-
-            <a href="GOOG.html" class="ticker-card gold-border">
+            <a href="GOOG.html" class="ticker-card highlight">
                 <div class="ticker-row">
                     <span class="ticker-symbol">GOOG</span>
                     <span class="market-cap">$3.89T</span>
                 </div>
                 <div class="company-name">Alphabet Inc Class C</div>
             </a>
-
             <a href="HII.html" class="ticker-card">
                 <div class="ticker-row">
                     <span class="ticker-symbol">HII</span>
@@ -289,23 +256,20 @@
                 </div>
                 <div class="company-name">Huntington Ingalls Industries Inc</div>
             </a>
-
-            <a href="HIMS.html" class="ticker-card owned">
+            <a href="HIMS.html" class="ticker-card">
                 <div class="ticker-row">
                     <span class="ticker-symbol">HIMS</span>
                     <span class="market-cap">$8.74B</span>
                 </div>
                 <div class="company-name">Hims Hers Health Inc</div>
             </a>
-
-            <a href="HOOD.html" class="ticker-card owned">
+            <a href="HOOD.html" class="ticker-card">
                 <div class="ticker-row">
                     <span class="ticker-symbol">HOOD</span>
                     <span class="market-cap">$115.54B</span>
                 </div>
                 <div class="company-name">Robinhood Markets Inc</div>
             </a>
-
             <a href="HPE.html" class="ticker-card">
                 <div class="ticker-row">
                     <span class="ticker-symbol">HPE</span>
@@ -313,7 +277,6 @@
                 </div>
                 <div class="company-name">Hewlett Packard Enterprise Co</div>
             </a>
-
             <a href="IBM.html" class="ticker-card">
                 <div class="ticker-row">
                     <span class="ticker-symbol">IBM</span>
@@ -321,7 +284,6 @@
                 </div>
                 <div class="company-name">International Business Machines</div>
             </a>
-
             <a href="INTC.html" class="ticker-card">
                 <div class="ticker-row">
                     <span class="ticker-symbol">INTC</span>
@@ -329,15 +291,13 @@
                 </div>
                 <div class="company-name">Intel Corporation</div>
             </a>
-
-            <a href="IONQ.html" class="ticker-card owned">
+            <a href="IONQ.html" class="ticker-card highlight-bg">
                 <div class="ticker-row">
                     <span class="ticker-symbol">IONQ</span>
                     <span class="market-cap">$16.08B</span>
                 </div>
                 <div class="company-name">IONQ Inc</div>
             </a>
-
             <a href="KO.html" class="ticker-card">
                 <div class="ticker-row">
                     <span class="ticker-symbol">KO</span>
@@ -345,15 +305,13 @@
                 </div>
                 <div class="company-name">The Coca-Cola Company</div>
             </a>
-
-            <a href="LAC.html" class="ticker-card owned">
+            <a href="LAC.html" class="ticker-card">
                 <div class="ticker-row">
                     <span class="ticker-symbol">LAC</span>
                     <span class="market-cap">$1.55B</span>
                 </div>
                 <div class="company-name">Lithium Americas Corp</div>
             </a>
-
             <a href="LHX.html" class="ticker-card">
                 <div class="ticker-row">
                     <span class="ticker-symbol">LHX</span>
@@ -361,23 +319,20 @@
                 </div>
                 <div class="company-name">L3Harris Technologies Inc</div>
             </a>
-
             <a href="MCD.html" class="ticker-card">
                 <div class="ticker-row">
                     <span class="ticker-symbol">MCD</span>
                     <span class="market-cap">$220.23B</span>
                 </div>
-                <div class="company-name">McDonald’s Corporation</div>
+                <div class="company-name">McDonald's Corporation</div>
             </a>
-
-            <a href="META.html" class="ticker-card gold-border">
+            <a href="META.html" class="ticker-card highlight">
                 <div class="ticker-row">
                     <span class="ticker-symbol">META</span>
                     <span class="market-cap">$1.62T</span>
                 </div>
                 <div class="company-name">Meta Platforms Inc.</div>
             </a>
-
             <a href="MRVL.html" class="ticker-card">
                 <div class="ticker-row">
                     <span class="ticker-symbol">MRVL</span>
@@ -385,15 +340,13 @@
                 </div>
                 <div class="company-name">Marvell Technology Group Ltd</div>
             </a>
-
-            <a href="MSFT.html" class="ticker-card gold-border">
+            <a href="MSFT.html" class="ticker-card highlight">
                 <div class="ticker-row">
                     <span class="ticker-symbol">MSFT</span>
                     <span class="market-cap">$3.66T</span>
                 </div>
                 <div class="company-name">Microsoft Corporation</div>
             </a>
-
             <a href="MU.html" class="ticker-card">
                 <div class="ticker-row">
                     <span class="ticker-symbol">MU</span>
@@ -401,23 +354,20 @@
                 </div>
                 <div class="company-name">Micron Technology Inc</div>
             </a>
-
-            <a href="NVDA.html" class="ticker-card gold-border">
+            <a href="NVDA.html" class="ticker-card highlight">
                 <div class="ticker-row">
                     <span class="ticker-symbol">NVDA</span>
                     <span class="market-cap">$4.32T</span>
                 </div>
                 <div class="company-name">NVIDIA Corporation</div>
             </a>
-
-            <a href="NVTS.html" class="ticker-card owned">
+            <a href="NVTS.html" class="ticker-card">
                 <div class="ticker-row">
                     <span class="ticker-symbol">NVTS</span>
                     <span class="market-cap">$1.71B</span>
                 </div>
                 <div class="company-name">Navitas Semiconductor Corp</div>
             </a>
-
             <a href="ORCL.html" class="ticker-card">
                 <div class="ticker-row">
                     <span class="ticker-symbol">ORCL</span>
@@ -425,55 +375,41 @@
                 </div>
                 <div class="company-name">Oracle Corporation</div>
             </a>
-
-            <a href="OSCR.html" class="ticker-card owned">
+            <a href="OSCR.html" class="ticker-card">
                 <div class="ticker-row">
                     <span class="ticker-symbol">OSCR</span>
                     <span class="market-cap">$5.17B</span>
                 </div>
                 <div class="company-name">Oscar Health Inc</div>
             </a>
-
-            <a href="PANW.html" class="ticker-card">
+            <a href="PANW.html" class="ticker-card glow">
                 <div class="ticker-row">
                     <span class="ticker-symbol">PANW</span>
                     <span class="market-cap">$130.05B</span>
                 </div>
                 <div class="company-name">Palo Alto Networks Inc</div>
             </a>
-
-            <a href="PATH.html" class="ticker-card owned">
+            <a href="PATH.html" class="ticker-card">
                 <div class="ticker-row">
                     <span class="ticker-symbol">PATH</span>
                     <span class="market-cap">$7.42B</span>
                 </div>
                 <div class="company-name">Uipath Inc</div>
             </a>
-
-            <a href="PLTR.html" class="ticker-card owned">
+            <a href="PLTR.html" class="ticker-card">
                 <div class="ticker-row">
                     <span class="ticker-symbol">PLTR</span>
                     <span class="market-cap">$395.10B</span>
                 </div>
                 <div class="company-name">Palantir Technologies Inc.</div>
             </a>
-
-            <a href="RGTI.html" class="ticker-card owned">
-                <div class="ticker-row">
-                    <span class="ticker-symbol">RGTI</span>
-                    <span class="market-cap">$8.44B</span>
-                </div>
-                <div class="company-name">Rigetti Computing Inc</div>
-            </a>
-
-            <a href="SMCI.html" class="ticker-card owned">
+            <a href="SMCI.html" class="ticker-card">
                 <div class="ticker-row">
                     <span class="ticker-symbol">SMCI</span>
                     <span class="market-cap">$19.60B</span>
                 </div>
                 <div class="company-name">Super Micro Computer Inc</div>
             </a>
-
             <a href="SNOW.html" class="ticker-card">
                 <div class="ticker-row">
                     <span class="ticker-symbol">SNOW</span>
@@ -481,31 +417,27 @@
                 </div>
                 <div class="company-name">Snowflake Inc.</div>
             </a>
-
-            <a href="SOFI.html" class="ticker-card owned">
+            <a href="SOFI.html" class="ticker-card">
                 <div class="ticker-row">
                     <span class="ticker-symbol">SOFI</span>
                     <span class="market-cap">$34.36B</span>
                 </div>
                 <div class="company-name">SoFi Technologies Inc.</div>
             </a>
-
-            <a href="SOUN.html" class="ticker-card owned">
+            <a href="SOUN.html" class="ticker-card">
                 <div class="ticker-row">
                     <span class="ticker-symbol">SOUN</span>
                     <span class="market-cap">$4.97B</span>
                 </div>
                 <div class="company-name">SoundHound AI Inc</div>
             </a>
-
-            <a href="TSLA.html" class="ticker-card owned gold-border">
+            <a href="TSLA.html" class="ticker-card highlight">
                 <div class="ticker-row">
                     <span class="ticker-symbol">TSLA</span>
                     <span class="market-cap">$1.42T</span>
                 </div>
                 <div class="company-name">Tesla Inc</div>
             </a>
-
             <a href="TSM.html" class="ticker-card">
                 <div class="ticker-row">
                     <span class="ticker-symbol">TSM</span>
@@ -513,7 +445,6 @@
                 </div>
                 <div class="company-name">Taiwan Semiconductor Manufacturing</div>
             </a>
-
             <a href="TTD.html" class="ticker-card">
                 <div class="ticker-row">
                     <span class="ticker-symbol">TTD</span>
@@ -521,7 +452,6 @@
                 </div>
                 <div class="company-name">Trade Desk Inc</div>
             </a>
-
             <a href="UNH.html" class="ticker-card">
                 <div class="ticker-row">
                     <span class="ticker-symbol">UNH</span>
@@ -529,7 +459,6 @@
                 </div>
                 <div class="company-name">UnitedHealth Group Incorporated</div>
             </a>
-
             <a href="VRT.html" class="ticker-card">
                 <div class="ticker-row">
                     <span class="ticker-symbol">VRT</span>
@@ -537,7 +466,6 @@
                 </div>
                 <div class="company-name">Vertiv Holdings Co</div>
             </a>
-
             <a href="VZ.html" class="ticker-card">
                 <div class="ticker-row">
                     <span class="ticker-symbol">VZ</span>
@@ -545,7 +473,6 @@
                 </div>
                 <div class="company-name">Verizon Communications Inc</div>
             </a>
-
             <a href="WMT.html" class="ticker-card">
                 <div class="ticker-row">
                     <span class="ticker-symbol">WMT</span>
@@ -553,7 +480,6 @@
                 </div>
                 <div class="company-name">Walmart Inc. Common Stock</div>
             </a>
-
             <a href="ZS.html" class="ticker-card">
                 <div class="ticker-row">
                     <span class="ticker-symbol">ZS</span>

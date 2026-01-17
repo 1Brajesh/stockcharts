@@ -1112,6 +1112,27 @@
         "sector": "TECHNOLOGY",
         "industry": "CONSUMER ELECTRONICS"
       }
+    },
+    "RGTI": {
+      "presets": {
+        "costs": {
+          "updated": "Jan 16, 2026 07:33 PM"
+        },
+        "revenue": {
+          "updated": "Jan 16, 2026 07:33 PM"
+        },
+        "cash": {
+          "updated": "Jan 16, 2026 07:33 PM"
+        }
+      },
+      "last_updated": "2026-01-16T19:33:55.934135",
+      "company": {
+        "name": "Rigetti Computing Inc",
+        "market_cap": "$8.44B",
+        "description": "None",
+        "sector": "TECHNOLOGY",
+        "industry": "COMPUTER HARDWARE"
+      }
     }
   }
 }
