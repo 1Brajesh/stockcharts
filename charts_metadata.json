@@ -1154,6 +1154,27 @@
         "sector": "TECHNOLOGY",
         "industry": "COMPUTER HARDWARE"
       }
+    },
+    "SERV": {
+      "presets": {
+        "costs": {
+          "updated": "Jan 16, 2026 07:40 PM"
+        },
+        "revenue": {
+          "updated": "Jan 16, 2026 07:40 PM"
+        },
+        "cash": {
+          "updated": "Jan 16, 2026 07:40 PM"
+        }
+      },
+      "last_updated": "2026-01-16T19:40:26.945895",
+      "company": {
+        "name": "Serve Robotics Inc. Common Stock",
+        "market_cap": "$910.19M",
+        "description": "Serve Robotics Inc. (SERV) is a pioneering technology firm specializing in low-emission delivery robots aimed at transforming food delivery logistics in urban settings across the United States. Headquartered in Redwood City, California, the company leverages cutting-edge automation to deliver efficient and sustainable services, addressing the growing consumer demand for environmentally friendly solutions. With a strategic focus on the intersection of robotics and sustainability, Serve Robotics represents a compelling investment opportunity for institutional investors looking to capitalize on the future of eco-conscious logistics and urban mobility.",
+        "sector": "INDUSTRIALS",
+        "industry": "SPECIALTY INDUSTRIAL MACHINERY"
+      }
     }
   }
 }

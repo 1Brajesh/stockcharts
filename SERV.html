@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SERV - Stock Charts</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+        body {
+            background-color: #0d1117;
+            color: #c9d1d9;
+            font-family: 'SF Mono', 'Monaco', 'Menlo', 'Ubuntu Mono', monospace;
+            font-size: 13px;
+            margin: 0;
+            padding: 20px;
+            line-height: 1.5;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        header {
+            border-bottom: 1px solid #30363d;
+            padding-bottom: 16px;
+            margin-bottom: 24px;
+        }
+        h1 {
+            color: #58a6ff;
+            margin: 0 0 8px 0;
+            font-size: 24px;
+        }
+        .timestamp {
+            color: #8b949e;
+            font-size: 12px;
+        }
+        .back-link {
+            color: #58a6ff;
+            text-decoration: none;
+            font-size: 14px;
+        }
+        .back-link:hover {
+            text-decoration: underline;
+        }
+        .chart-section {
+            background-color: #161b22;
+            border: 1px solid #30363d;
+            border-radius: 6px;
+            margin-bottom: 24px;
+            overflow: hidden;
+        }
+        .chart-section h2 {
+            background-color: #21262d;
+            color: #c9d1d9;
+            margin: 0;
+            padding: 12px 16px;
+            font-size: 14px;
+            font-weight: 600;
+            border-bottom: 1px solid #30363d;
+        }
+        .chart-section pre {
+            margin: 0;
+            padding: 16px;
+            overflow-x: auto;
+            white-space: pre;
+        }
+        footer {
+            margin-top: 32px;
+            padding-top: 16px;
+            border-top: 1px solid #30363d;
+            color: #8b949e;
+            font-size: 12px;
+        }
+        .company-info {
+            background-color: #161b22;
+            border: 1px solid #30363d;
+            border-radius: 6px;
+            padding: 20px;
+            margin-bottom: 24px;
+        }
+        .company-info h2 {
+            color: #c9d1d9;
+            margin: 0 0 12px 0;
+            font-size: 18px;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;
+        }
+        .company-meta {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 16px;
+            margin-bottom: 16px;
+            font-size: 13px;
+        }
+        .company-meta .market-cap {
+            color: #58a6ff;
+        }
+        .company-meta .market-cap strong {
+            color: #7ee787;
+        }
+        .company-meta .sector,
+        .company-meta .industry {
+            color: #8b949e;
+            background-color: #21262d;
+            padding: 2px 8px;
+            border-radius: 4px;
+        }
+        .company-info .description {
+            color: #8b949e;
+            margin: 0;
+            font-size: 13px;
+            line-height: 1.6;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <a href="index.html" class="back-link">&larr; Back to Index</a>
+            <h1>SERV</h1>
+            <div class="timestamp">Updated: Jan 16, 2026 07:40 PM</div>
+        </header>
+
+        
+        <div class="company-info">
+            <h2>Serve Robotics Inc. Common Stock</h2>
+            <div class="company-meta">
+                <span class="market-cap">Market Cap: <strong>$910.19M</strong></span>
+                <span class="sector">INDUSTRIALS</span>
+                <span class="industry">SPECIALTY INDUSTRIAL MACHINERY</span>
+            </div>
+            <p class="description">Serve Robotics Inc. (SERV) is a pioneering technology firm specializing in low-emission delivery robots aimed at transforming food delivery logistics in urban settings across the United States. Headquartered in Redwood City, California, the company leverages cutting-edge automation to deliver efficient and sustainable services, addressing the growing consumer demand for environmentally friendly solutions. With a strategic focus on the intersection of robotics and sustainability, Serve Robotics represents a compelling investment opportunity for institutional investors looking to capitalize on the future of eco-conscious logistics and urban mobility.</p>
+        </div>
+        
+
+        
+        <div class="chart-section">
+            <h2>costs</h2>
+            <pre>Using alias: rnd -&gt; researchAndDevelopment [quarterly] [income]
+Using alias: sga -&gt; sellingGeneralAndAdministrative [quarterly] [income]
+Using alias: cogs -&gt; costofGoodsAndServicesSold [quarterly] [income]
+
+
+Data Completeness:
+------------------------------------------------------------
+  ✅ researchAndDevelopment              13/13 dates (100%)
+  ✅ sellingGeneralAndAdministrative     13/13 dates (100%)
+  ✅ costofGoodsAndServicesSold          13/13 dates (100%)
+
+Plot for SERV (in M)
+  reports: quarterlyReports
+  showing last 20 entries
+  Legend: <span style="color:#00cdcd;">researchAndDevelopment</span>, <span style="color:#00cd00;">sellingGeneralAndAdministrative</span>, <span style="color:#cd00cd;">costofGoodsAndServicesSold</span>
+
+               0.00M                       3.35M                       6.71M                      10.06M                      13.41M
+               |                           |                           |                           |                           |
+
+  2022-09-30 | <span style="color:#cd00cd;">█</span><span style="color:#cd00cd;">█</span><span style="color:#cd00cd;">█</span><span style="color:#00cd00;">█</span><span style="color:#00cd00;">█</span><span style="color:#00cd00;">█</span><span style="color:#00cd00;">█</span><span style="color:#00cd00;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span> <span style="color:#00cdcd;">3.26M</span>
+  2022-12-31 | <span style="color:#cd00cd;">█</span><span style="color:#cd00cd;">█</span><span style="color:#cd00cd;">█</span><span style="color:#cd00cd;">█</span><span style="color:#00cd00;">█</span><span style="color:#00cd00;">█</span><span style="color:#00cd00;">█</span><span style="color:#00cd00;">█</span><span style="color:#00cd00;">█</span><span style="color:#00cd00;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span> <span style="color:#00cdcd;">4.29M</span>
+  2023-03-31 | <span style="color:#cd00cd;">█</span><span style="color:#cd00cd;">█</span><span style="color:#cd00cd;">█</span><span style="color:#00cd00;">█</span><span style="color:#00cd00;">█</span><span style="color:#00cd00;">█</span><span style="color:#00cd00;">█</span><span style="color:#00cd00;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span> <span style="color:#00cdcd;">2.08M</span>
+  2023-06-30 | <span style="color:#cd00cd;">█</span><span style="color:#cd00cd;">█</span><span style="color:#cd00cd;">█</span><span style="color:#00cd00;">█</span><span style="color:#00cd00;">█</span><span style="color:#00cd00;">█</span><span style="color:#00cd00;">█</span><span style="color:#00cd00;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span> <span style="color:#00cdcd;">2.13M</span>
+  2023-09-30 | <span style="color:#cd00cd;">█</span><span style="color:#cd00cd;">█</span><span style="color:#cd00cd;">█</span><span style="color:#cd00cd;">█</span><span style="color:#cd00cd;">█</span><span style="color:#00cd00;">█</span><span style="color:#00cd00;">█</span><span style="color:#00cd00;">█</span><span style="color:#00cd00;">█</span><span style="color:#00cd00;">█</span><span style="color:#00cd00;">█</span><span style="color:#00cd00;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span> <span style="color:#00cdcd;">2.96M</span>
+  2023-12-31 | <span style="color:#cd00cd;">█</span><span style="color:#cd00cd;">█</span><span style="color:#cd00cd;">█</span><span style="color:#00cd00;">█</span><span style="color:#00cd00;">█</span><span style="color:#00cd00;">█</span><span style="color:#00cd00;">█</span><span style="color:#00cd00;">█</span><span style="color:#00cd00;">█</span><span style="color:#00cd00;">█</span><span style="color:#00cd00;">█</span><span style="color:#00cd00;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span> <span style="color:#00cdcd;">2.78M</span>
+  2024-03-31 | <span style="color:#cd00cd;">█</span><span style="color:#cd00cd;">█</span><span style="color:#cd00cd;">█</span><span style="color:#00cd00;">█</span><span style="color:#00cd00;">█</span><span style="color:#00cd00;">█</span><span style="color:#00cd00;">█</span><span style="color:#00cd00;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span> <span style="color:#00cdcd;">6.64M</span>
+  2024-06-30 | <span style="color:#cd00cd;">█</span><span style="color:#cd00cd;">█</span><span style="color:#cd00cd;">█</span><span style="color:#00cd00;">█</span><span style="color:#00cd00;">█</span><span style="color:#00cd00;">█</span><span style="color:#00cd00;">█</span><span style="color:#00cd00;">█</span><span style="color:#00cd00;">█</span><span style="color:#00cd00;">█</span><span style="color:#00cd00;">█</span><span style="color:#00cd00;">█</span><span style="color:#00cd00;">█</span><span style="color:#00cd00;">█</span><span style="color:#00cd00;">█</span><span style="color:#00cd00;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span> <span style="color:#00cdcd;">5.79M</span>
+  2024-09-30 | <span style="color:#cd00cd;">█</span><span style="color:#cd00cd;">█</span><span style="color:#cd00cd;">█</span><span style="color:#00cd00;">█</span><span style="color:#00cd00;">█</span><span style="color:#00cd00;">█</span><span style="color:#00cd00;">█</span><span style="color:#00cd00;">█</span><span style="color:#00cd00;">█</span><span style="color:#00cd00;">█</span><span style="color:#00cd00;">█</span><span style="color:#00cd00;">█</span><span style="color:#00cd00;">█</span><span style="color:#00cd00;">█</span><span style="color:#00cd00;">█</span><span style="color:#00cd00;">█</span><span style="color:#00cd00;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span> <span style="color:#00cdcd;">5.01M</span>
+  2024-12-31 | <span style="color:#cd00cd;">█</span><span style="color:#cd00cd;">█</span><span style="color:#cd00cd;">█</span><span style="color:#cd00cd;">█</span><span style="color:#cd00cd;">█</span><span style="color:#cd00cd;">█</span><span style="color:#cd00cd;">█</span><span style="color:#00cd00;">█</span><span style="color:#00cd00;">█</span><span style="color:#00cd00;">█</span><span style="color:#00cd00;">█</span><span style="color:#00cd00;">█</span><span style="color:#00cd00;">█</span><span style="color:#00cd00;">█</span><span style="color:#00cd00;">█</span><span style="color:#00cd00;">█</span><span style="color:#00cd00;">█</span><span style="color:#00cd00;">█</span><span style="color:#00cd00;">█</span><span style="color:#00cd00;">█</span><span style="color:#00cd00;">█</span><span style="color:#00cd00;">█</span><span style="color:#00cd00;">█</span><span style="color:#00cd00;">█</span><span style="color:#00cd00;">█</span><span style="color:#00cd00;">█</span><span style="color:#00cd00;">█</span><span style="color:#00cd00;">█</span><span style="color:#00cd00;">█</span><span style="color:#00cd00;">█</span><span style="color:#00cd00;">█</span><span style="color:#00cd00;">█</span><span style="color:#00cd00;">█</span><span style="color:#00cd00;">█</span><span style="color:#00cd00;">█</span><span style="color:#00cd00;">█</span><span style="color:#00cd00;">█</span><span style="color:#00cd00;">█</span><span style="color:#00cd00;">█</span><span style="color:#00cd00;">█</span><span style="color:#00cd00;">█</span><span style="color:#00cd00;">█</span><span style="color:#00cd00;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span> <span style="color:#00cdcd;">6.82M</span>
+  2025-03-31 | <span style="color:#cd00cd;">█</span><span style="color:#cd00cd;">█</span><span style="color:#cd00cd;">█</span><span style="color:#cd00cd;">█</span><span style="color:#cd00cd;">█</span><span style="color:#cd00cd;">█</span><span style="color:#cd00cd;">█</span><span style="color:#cd00cd;">█</span><span style="color:#cd00cd;">█</span><span style="color:#cd00cd;">█</span><span style="color:#cd00cd;">█</span><span style="color:#cd00cd;">█</span><span style="color:#cd00cd;">█</span><span style="color:#cd00cd;">█</span><span style="color:#cd00cd;">█</span><span style="color:#cd00cd;">█</span><span style="color:#00cd00;">█</span><span style="color:#00cd00;">█</span><span style="color:#00cd00;">█</span><span style="color:#00cd00;">█</span><span style="color:#00cd00;">█</span><span style="color:#00cd00;">█</span><span style="color:#00cd00;">█</span><span style="color:#00cd00;">█</span><span style="color:#00cd00;">█</span><span style="color:#00cd00;">█</span><span style="color:#00cd00;">█</span><span style="color:#00cd00;">█</span><span style="color:#00cd00;">█</span><span style="color:#00cd00;">█</span><span style="color:#00cd00;">█</span><span style="color:#00cd00;">█</span><span style="color:#00cd00;">█</span><span style="color:#00cd00;">█</span><span style="color:#00cd00;">█</span><span style="color:#00cd00;">█</span><span style="color:#00cd00;">█</span><span style="color:#00cd00;">█</span><span style="color:#00cd00;">█</span><span style="color:#00cd00;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span> <span style="color:#00cdcd;">6.88M</span>
+  2025-06-30 | <span style="color:#cd00cd;">█</span><span style="color:#cd00cd;">█</span><span style="color:#cd00cd;">█</span><span style="color:#cd00cd;">█</span><span style="color:#cd00cd;">█</span><span style="color:#cd00cd;">█</span><span style="color:#cd00cd;">█</span><span style="color:#cd00cd;">█</span><span style="color:#cd00cd;">█</span><span style="color:#cd00cd;">█</span><span style="color:#cd00cd;">█</span><span style="color:#cd00cd;">█</span><span style="color:#cd00cd;">█</span><span style="color:#cd00cd;">█</span><span style="color:#cd00cd;">█</span><span style="color:#cd00cd;">█</span><span style="color:#cd00cd;">█</span><span style="color:#cd00cd;">█</span><span style="color:#cd00cd;">█</span><span style="color:#cd00cd;">█</span><span style="color:#cd00cd;">█</span><span style="color:#cd00cd;">█</span><span style="color:#cd00cd;">█</span><span style="color:#cd00cd;">█</span><span style="color:#cd00cd;">█</span><span style="color:#cd00cd;">█</span><span style="color:#cd00cd;">█</span><span style="color:#cd00cd;">█</span><span style="color:#cd00cd;">█</span><span style="color:#00cd00;">█</span><span style="color:#00cd00;">█</span><span style="color:#00cd00;">█</span><span style="color:#00cd00;">█</span><span style="color:#00cd00;">█</span><span style="color:#00cd00;">█</span><span style="color:#00cd00;">█</span><span style="color:#00cd00;">█</span><span style="color:#00cd00;">█</span><span style="color:#00cd00;">█</span><span style="color:#00cd00;">█</span><span style="color:#00cd00;">█</span><span style="color:#00cd00;">█</span><span style="color:#00cd00;">█</span><span style="color:#00cd00;">█</span><span style="color:#00cd00;">█</span><span style="color:#00cd00;">█</span><span style="color:#00cd00;">█</span><span style="color:#00cd00;">█</span><span style="color:#00cd00;">█</span><span style="color:#00cd00;">█</span><span style="color:#00cd00;">█</span><span style="color:#00cd00;">█</span><span style="color:#00cd00;">█</span><span style="color:#00cd00;">█</span><span style="color:#00cd00;">█</span><span style="color:#00cd00;">█</span><span style="color:#00cd00;">█</span><span style="color:#00cd00;">█</span><span style="color:#00cd00;">█</span><span style="color:#00cd00;">█</span><span style="color:#00cd00;">█</span><span style="color:#00cd00;">█</span><span style="color:#00cd00;">█</span><span style="color:#00cd00;">█</span><span style="color:#00cd00;">█</span><span style="color:#00cd00;">█</span><span style="color:#00cd00;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span> <span style="color:#00cdcd;">9.12M</span>
+  2025-09-30 | <span style="color:#cd00cd;">█</span><span style="color:#cd00cd;">█</span><span style="color:#cd00cd;">█</span><span style="color:#cd00cd;">█</span><span style="color:#cd00cd;">█</span><span style="color:#cd00cd;">█</span><span style="color:#cd00cd;">█</span><span style="color:#cd00cd;">█</span><span style="color:#cd00cd;">█</span><span style="color:#cd00cd;">█</span><span style="color:#cd00cd;">█</span><span style="color:#cd00cd;">█</span><span style="color:#cd00cd;">█</span><span style="color:#cd00cd;">█</span><span style="color:#cd00cd;">█</span><span style="color:#cd00cd;">█</span><span style="color:#cd00cd;">█</span><span style="color:#cd00cd;">█</span><span style="color:#cd00cd;">█</span><span style="color:#cd00cd;">█</span><span style="color:#cd00cd;">█</span><span style="color:#cd00cd;">█</span><span style="color:#cd00cd;">█</span><span style="color:#cd00cd;">█</span><span style="color:#cd00cd;">█</span><span style="color:#cd00cd;">█</span><span style="color:#cd00cd;">█</span><span style="color:#cd00cd;">█</span><span style="color:#cd00cd;">█</span><span style="color:#cd00cd;">█</span><span style="color:#cd00cd;">█</span><span style="color:#cd00cd;">█</span><span style="color:#cd00cd;">█</span><span style="color:#cd00cd;">█</span><span style="color:#cd00cd;">█</span><span style="color:#cd00cd;">█</span><span style="color:#cd00cd;">█</span><span style="color:#cd00cd;">█</span><span style="color:#cd00cd;">█</span><span style="color:#cd00cd;">█</span><span style="color:#cd00cd;">█</span><span style="color:#cd00cd;">█</span><span style="color:#00cd00;">█</span><span style="color:#00cd00;">█</span><span style="color:#00cd00;">█</span><span style="color:#00cd00;">█</span><span style="color:#00cd00;">█</span><span style="color:#00cd00;">█</span><span style="color:#00cd00;">█</span><span style="color:#00cd00;">█</span><span style="color:#00cd00;">█</span><span style="color:#00cd00;">█</span><span style="color:#00cd00;">█</span><span style="color:#00cd00;">█</span><span style="color:#00cd00;">█</span><span style="color:#00cd00;">█</span><span style="color:#00cd00;">█</span><span style="color:#00cd00;">█</span><span style="color:#00cd00;">█</span><span style="color:#00cd00;">█</span><span style="color:#00cd00;">█</span><span style="color:#00cd00;">█</span><span style="color:#00cd00;">█</span><span style="color:#00cd00;">█</span><span style="color:#00cd00;">█</span><span style="color:#00cd00;">█</span><span style="color:#00cd00;">█</span><span style="color:#00cd00;">█</span><span style="color:#00cd00;">█</span><span style="color:#00cd00;">█</span><span style="color:#00cd00;">█</span><span style="color:#00cd00;">█</span><span style="color:#00cd00;">█</span><span style="color:#00cd00;">█</span><span style="color:#00cd00;">█</span><span style="color:#00cd00;">█</span><span style="color:#00cd00;">█</span><span style="color:#00cd00;">█</span><span style="color:#00cd00;">█</span><span style="color:#00cd00;">█</span><span style="color:#00cd00;">█</span><span style="color:#00cd00;">█</span><span style="color:#00cd00;">█</span><span style="color:#00cd00;">█</span><span style="color:#00cd00;">█</span><span style="color:#00cd00;">█</span><span style="color:#00cd00;">█</span><span style="color:#00cd00;">█</span><span style="color:#00cd00;">█</span><span style="color:#00cd00;">█</span><span style="color:#00cd00;">█</span><span style="color:#00cd00;">█</span><span style="color:#00cd00;">█</span><span style="color:#00cd00;">█</span><span style="color:#00cd00;">█</span><span style="color:#00cd00;">█</span><span style="color:#00cd00;">█</span><span style="color:#00cd00;">█</span><span style="color:#00cd00;">█</span><span style="color:#00cd00;">█</span><span style="color:#00cd00;">█</span><span style="color:#00cd00;">█</span><span style="color:#00cd00;">█</span><span style="color:#00cd00;">█</span><span style="color:#00cd00;">█</span><span style="color:#00cd00;">█</span><span style="color:#00cd00;">█</span><span style="color:#00cd00;">█</span><span style="color:#00cd00;">█</span><span style="color:#00cd00;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span> <span style="color:#00cdcd;">13.41M</span>
+
+               |                           |                           |                           |                           |
+               0.00M                       3.35M                       6.71M                      10.06M                      13.41M
+</pre>
+        </div>
+        
+        <div class="chart-section">
+            <h2>revenue</h2>
+            <pre>Using alias: revenue -&gt; totalRevenue [quarterly] [income]
+Using alias: profit -&gt; grossProfit [quarterly] [income]
+Using alias: income -&gt; netIncome [quarterly] [income]
+
+
+Data Completeness:
+------------------------------------------------------------
+  ✅ totalRevenue                        13/13 dates (100%)
+  ✅ grossProfit                         13/13 dates (100%)
+  ✅ netIncome                           13/13 dates (100%)
+
+Plot for SERV (in M)
+  reports: quarterlyReports
+  showing last 20 entries
+  Legend: <span style="color:#00cdcd;">totalRevenue</span>, <span style="color:#00cd00;">grossProfit</span>, <span style="color:#cd00cd;">netIncome</span>
+
+               -33.02M                     -16.51M                      0.00M                      16.51M                      33.02M
+               |                           |                           |                           |                           |
+
+  2022-09-30 |                                                <span style="color:#cd00cd;">█</span><span style="color:#cd00cd;">█</span><span style="color:#cd00cd;">█</span><span style="color:#cd00cd;">█</span><span style="color:#cd00cd;">█</span><span style="color:#cd00cd;">█</span><span style="color:#cd00cd;">█</span><span style="color:#cd00cd;">█</span><span style="color:#00cd00;">█</span>|  <span style="color:#cd00cd;">-5.36M</span>
+  2022-12-31 |                                             <span style="color:#cd00cd;">█</span><span style="color:#cd00cd;">█</span><span style="color:#cd00cd;">█</span><span style="color:#cd00cd;">█</span><span style="color:#cd00cd;">█</span><span style="color:#cd00cd;">█</span><span style="color:#cd00cd;">█</span><span style="color:#cd00cd;">█</span><span style="color:#cd00cd;">█</span><span style="color:#cd00cd;">█</span><span style="color:#cd00cd;">█</span><span style="color:#00cd00;">█</span>|  <span style="color:#cd00cd;">-7.04M</span>
+  2023-03-31 |                                                <span style="color:#cd00cd;">█</span><span style="color:#cd00cd;">█</span><span style="color:#cd00cd;">█</span><span style="color:#cd00cd;">█</span><span style="color:#cd00cd;">█</span><span style="color:#cd00cd;">█</span><span style="color:#cd00cd;">█</span><span style="color:#cd00cd;">█</span><span style="color:#00cd00;">█</span>|  <span style="color:#cd00cd;">-5.14M</span>
+  2023-06-30 |                                                 <span style="color:#cd00cd;">█</span><span style="color:#cd00cd;">█</span><span style="color:#cd00cd;">█</span><span style="color:#cd00cd;">█</span><span style="color:#cd00cd;">█</span><span style="color:#cd00cd;">█</span><span style="color:#cd00cd;">█</span><span style="color:#00cd00;">█</span>|  <span style="color:#cd00cd;">-4.97M</span>
+  2023-09-30 |                                            <span style="color:#cd00cd;">█</span><span style="color:#cd00cd;">█</span><span style="color:#cd00cd;">█</span><span style="color:#cd00cd;">█</span><span style="color:#cd00cd;">█</span><span style="color:#cd00cd;">█</span><span style="color:#cd00cd;">█</span><span style="color:#cd00cd;">█</span><span style="color:#cd00cd;">█</span><span style="color:#cd00cd;">█</span><span style="color:#cd00cd;">█</span><span style="color:#cd00cd;">█</span><span style="color:#00cd00;">█</span>|  <span style="color:#cd00cd;">-7.65M</span>
+  2023-12-31 |                                             <span style="color:#cd00cd;">█</span><span style="color:#cd00cd;">█</span><span style="color:#cd00cd;">█</span><span style="color:#cd00cd;">█</span><span style="color:#cd00cd;">█</span><span style="color:#cd00cd;">█</span><span style="color:#cd00cd;">█</span><span style="color:#cd00cd;">█</span><span style="color:#cd00cd;">█</span><span style="color:#cd00cd;">█</span><span style="color:#cd00cd;">█</span><span style="color:#00cd00;">█</span>|  <span style="color:#cd00cd;">-7.06M</span>
+  2024-03-31 |                                          <span style="color:#cd00cd;">█</span><span style="color:#cd00cd;">█</span><span style="color:#cd00cd;">█</span><span style="color:#cd00cd;">█</span><span style="color:#cd00cd;">█</span><span style="color:#cd00cd;">█</span><span style="color:#cd00cd;">█</span><span style="color:#cd00cd;">█</span><span style="color:#cd00cd;">█</span><span style="color:#cd00cd;">█</span><span style="color:#cd00cd;">█</span><span style="color:#cd00cd;">█</span><span style="color:#cd00cd;">█</span><span style="color:#cd00cd;">█</span><span style="color:#cd00cd;">█</span>|<span style="color:#00cdcd;">█</span>  <span style="color:#cd00cd;">-9.04M</span>
+  2024-06-30 |                                          <span style="color:#cd00cd;">█</span><span style="color:#cd00cd;">█</span><span style="color:#cd00cd;">█</span><span style="color:#cd00cd;">█</span><span style="color:#cd00cd;">█</span><span style="color:#cd00cd;">█</span><span style="color:#cd00cd;">█</span><span style="color:#cd00cd;">█</span><span style="color:#cd00cd;">█</span><span style="color:#cd00cd;">█</span><span style="color:#cd00cd;">█</span><span style="color:#cd00cd;">█</span><span style="color:#cd00cd;">█</span><span style="color:#cd00cd;">█</span><span style="color:#cd00cd;">█</span>|  <span style="color:#cd00cd;">-9.04M</span>
+  2024-09-30 |                                           <span style="color:#cd00cd;">█</span><span style="color:#cd00cd;">█</span><span style="color:#cd00cd;">█</span><span style="color:#cd00cd;">█</span><span style="color:#cd00cd;">█</span><span style="color:#cd00cd;">█</span><span style="color:#cd00cd;">█</span><span style="color:#cd00cd;">█</span><span style="color:#cd00cd;">█</span><span style="color:#cd00cd;">█</span><span style="color:#cd00cd;">█</span><span style="color:#cd00cd;">█</span><span style="color:#cd00cd;">█</span><span style="color:#00cd00;">█</span>|  <span style="color:#cd00cd;">-8.00M</span>
+  2024-12-31 |                                   <span style="color:#cd00cd;">█</span><span style="color:#cd00cd;">█</span><span style="color:#cd00cd;">█</span><span style="color:#cd00cd;">█</span><span style="color:#cd00cd;">█</span><span style="color:#cd00cd;">█</span><span style="color:#cd00cd;">█</span><span style="color:#cd00cd;">█</span><span style="color:#cd00cd;">█</span><span style="color:#cd00cd;">█</span><span style="color:#cd00cd;">█</span><span style="color:#cd00cd;">█</span><span style="color:#cd00cd;">█</span><span style="color:#cd00cd;">█</span><span style="color:#cd00cd;">█</span><span style="color:#cd00cd;">█</span><span style="color:#cd00cd;">█</span><span style="color:#cd00cd;">█</span><span style="color:#cd00cd;">█</span><span style="color:#cd00cd;">█</span><span style="color:#cd00cd;">█</span><span style="color:#00cd00;">█</span>|  <span style="color:#cd00cd;">-13.12M</span>
+  2025-03-31 |                                   <span style="color:#cd00cd;">█</span><span style="color:#cd00cd;">█</span><span style="color:#cd00cd;">█</span><span style="color:#cd00cd;">█</span><span style="color:#cd00cd;">█</span><span style="color:#cd00cd;">█</span><span style="color:#cd00cd;">█</span><span style="color:#cd00cd;">█</span><span style="color:#cd00cd;">█</span><span style="color:#cd00cd;">█</span><span style="color:#cd00cd;">█</span><span style="color:#cd00cd;">█</span><span style="color:#cd00cd;">█</span><span style="color:#cd00cd;">█</span><span style="color:#cd00cd;">█</span><span style="color:#cd00cd;">█</span><span style="color:#cd00cd;">█</span><span style="color:#cd00cd;">█</span><span style="color:#cd00cd;">█</span><span style="color:#cd00cd;">█</span><span style="color:#00cd00;">█</span><span style="color:#00cd00;">█</span>|  <span style="color:#cd00cd;">-13.22M</span>
+  2025-06-30 |                      <span style="color:#cd00cd;">█</span><span style="color:#cd00cd;">█</span><span style="color:#cd00cd;">█</span><span style="color:#cd00cd;">█</span><span style="color:#cd00cd;">█</span><span style="color:#cd00cd;">█</span><span style="color:#cd00cd;">█</span><span style="color:#cd00cd;">█</span><span style="color:#cd00cd;">█</span><span style="color:#cd00cd;">█</span><span style="color:#cd00cd;">█</span><span style="color:#cd00cd;">█</span><span style="color:#cd00cd;">█</span><span style="color:#cd00cd;">█</span><span style="color:#cd00cd;">█</span><span style="color:#cd00cd;">█</span><span style="color:#cd00cd;">█</span><span style="color:#cd00cd;">█</span><span style="color:#cd00cd;">█</span><span style="color:#cd00cd;">█</span><span style="color:#cd00cd;">█</span><span style="color:#cd00cd;">█</span><span style="color:#cd00cd;">█</span><span style="color:#cd00cd;">█</span><span style="color:#cd00cd;">█</span><span style="color:#cd00cd;">█</span><span style="color:#cd00cd;">█</span><span style="color:#cd00cd;">█</span><span style="color:#cd00cd;">█</span><span style="color:#cd00cd;">█</span><span style="color:#00cd00;">█</span><span style="color:#00cd00;">█</span><span style="color:#00cd00;">█</span><span style="color:#00cd00;">█</span><span style="color:#00cd00;">█</span>|  <span style="color:#cd00cd;">-20.85M</span>
+  2025-09-30 | <span style="color:#cd00cd;">█</span><span style="color:#cd00cd;">█</span><span style="color:#cd00cd;">█</span><span style="color:#cd00cd;">█</span><span style="color:#cd00cd;">█</span><span style="color:#cd00cd;">█</span><span style="color:#cd00cd;">█</span><span style="color:#cd00cd;">█</span><span style="color:#cd00cd;">█</span><span style="color:#cd00cd;">█</span><span style="color:#cd00cd;">█</span><span style="color:#cd00cd;">█</span><span style="color:#cd00cd;">█</span><span style="color:#cd00cd;">█</span><span style="color:#cd00cd;">█</span><span style="color:#cd00cd;">█</span><span style="color:#cd00cd;">█</span><span style="color:#cd00cd;">█</span><span style="color:#cd00cd;">█</span><span style="color:#cd00cd;">█</span><span style="color:#cd00cd;">█</span><span style="color:#cd00cd;">█</span><span style="color:#cd00cd;">█</span><span style="color:#cd00cd;">█</span><span style="color:#cd00cd;">█</span><span style="color:#cd00cd;">█</span><span style="color:#cd00cd;">█</span><span style="color:#cd00cd;">█</span><span style="color:#cd00cd;">█</span><span style="color:#cd00cd;">█</span><span style="color:#cd00cd;">█</span><span style="color:#cd00cd;">█</span><span style="color:#cd00cd;">█</span><span style="color:#cd00cd;">█</span><span style="color:#cd00cd;">█</span><span style="color:#cd00cd;">█</span><span style="color:#cd00cd;">█</span><span style="color:#cd00cd;">█</span><span style="color:#cd00cd;">█</span><span style="color:#cd00cd;">█</span><span style="color:#cd00cd;">█</span><span style="color:#cd00cd;">█</span><span style="color:#cd00cd;">█</span><span style="color:#cd00cd;">█</span><span style="color:#cd00cd;">█</span><span style="color:#cd00cd;">█</span><span style="color:#cd00cd;">█</span><span style="color:#cd00cd;">█</span><span style="color:#cd00cd;">█</span><span style="color:#00cd00;">█</span><span style="color:#00cd00;">█</span><span style="color:#00cd00;">█</span><span style="color:#00cd00;">█</span><span style="color:#00cd00;">█</span><span style="color:#00cd00;">█</span><span style="color:#00cd00;">█</span>|  <span style="color:#cd00cd;">-33.02M</span>
+
+               |                           |                           |                           |                           |
+               -33.02M                     -16.51M                      0.00M                      16.51M                      33.02M
+</pre>
+        </div>
+        
+        <div class="chart-section">
+            <h2>cash</h2>
+            <pre>Using alias: cash -&gt; cashAndShortTermInvestments [quarterly] [balance]
+Using alias: debt -&gt; shortLongTermDebtTotal [quarterly] [balance]
+Using alias: paycheck -&gt; operatingCashflow [quarterly] [cashflow]
+
+
+Data Completeness:
+------------------------------------------------------------
+  ⚠️  cashAndShortTermInvestments         11/13 dates (85%)
+  ⚠️  shortLongTermDebtTotal              11/13 dates (85%)
+  ⚠️  operatingCashflow                   12/13 dates (92%)
+
+Plot for SERV (in M)
+  reports: quarterlyReports
+  showing last 20 entries
+  Legend: <span style="color:#00cdcd;">cashAndShortTermInvestments</span>, <span style="color:#00cd00;">shortLongTermDebtTotal</span>, <span style="color:#cd00cd;">operatingCashflow</span>
+
+               -197.76M                     -98.88M                      0.00M                      98.88M                      197.76M
+               |                           |                           |                           |                           |
+
+  2022-12-31 |                                                        <span style="color:#cd00cd;">█</span>|<span style="color:#00cd00;">█</span>  <span style="color:#00cd00;">7.48M</span>
+  2023-03-31 |                                                        <span style="color:#cd00cd;">█</span>| <span style="color:#cd00cd;">-3.71M</span> ⊗⊗
+  2023-06-30 |                                                        <span style="color:#cd00cd;">█</span>|<span style="color:#00cd00;">█</span>  <span style="color:#00cd00;">8.63M</span>
+  2023-09-30 |                                                       <span style="color:#cd00cd;">█</span><span style="color:#cd00cd;">█</span>|  <span style="color:#cd00cd;">-5.70M</span>
+  2023-12-31 |                                                        <span style="color:#cd00cd;">█</span>|  <span style="color:#00cd00;">4.37M</span>
+  2024-03-31 |                                                        <span style="color:#cd00cd;">█</span>|<span style="color:#00cd00;">█</span>  <span style="color:#00cd00;">8.47M</span>
+  2024-06-30 |                                                       <span style="color:#cd00cd;">█</span><span style="color:#cd00cd;">█</span>|<span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span>  <span style="color:#00cdcd;">28.78M</span>
+  2024-09-30 |                                                       <span style="color:#cd00cd;">█</span><span style="color:#cd00cd;">█</span>|<span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span>  <span style="color:#00cdcd;">50.91M</span>
+  2024-12-31 |                                                       <span style="color:#cd00cd;">█</span><span style="color:#cd00cd;">█</span>|<span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span>  <span style="color:#00cdcd;">123.27M</span>
+  2025-03-31 |                                                      <span style="color:#cd00cd;">█</span><span style="color:#cd00cd;">█</span><span style="color:#cd00cd;">█</span>|<span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span> <span style="color:#00cdcd;">197.76M</span>
+  2025-06-30 |                                                    <span style="color:#cd00cd;">█</span><span style="color:#cd00cd;">█</span><span style="color:#cd00cd;">█</span><span style="color:#cd00cd;">█</span><span style="color:#cd00cd;">█</span>|<span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span>  <span style="color:#00cdcd;">116.70M</span>
+  2025-09-30 |                                                  <span style="color:#cd00cd;">█</span><span style="color:#cd00cd;">█</span><span style="color:#cd00cd;">█</span><span style="color:#cd00cd;">█</span><span style="color:#cd00cd;">█</span><span style="color:#cd00cd;">█</span><span style="color:#cd00cd;">█</span>|<span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span>  <span style="color:#00cdcd;">116.84M</span>
+
+               |                           |                           |                           |                           |
+               -197.76M                     -98.88M                      0.00M                      98.88M                      197.76M
+</pre>
+        </div>
+        
+
+        <footer>
+            Generated by StocksFin
+        </footer>
+    </div>
+</body>
+</html>
