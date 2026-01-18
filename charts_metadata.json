@@ -327,16 +327,22 @@
     "SOFI": {
       "presets": {
         "costs": {
-          "updated": "Jan 16, 2026 06:34 PM"
+          "updated": "Jan 18, 2026 01:35 AM"
         },
         "revenue": {
-          "updated": "Jan 16, 2026 06:34 PM"
+          "updated": "Jan 18, 2026 01:35 AM"
         },
         "cash": {
-          "updated": "Jan 16, 2026 06:34 PM"
+          "updated": "Jan 18, 2026 01:35 AM"
+        },
+        "FCF": {
+          "updated": "Jan 18, 2026 01:35 AM"
+        },
+        "assets": {
+          "updated": "Jan 18, 2026 01:35 AM"
         }
       },
-      "last_updated": "2026-01-16T18:34:05.927772",
+      "last_updated": "2026-01-18T01:35:01.191019",
       "company": {
         "name": "SoFi Technologies Inc.",
         "market_cap": "$34.36B",
