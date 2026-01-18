@@ -1068,16 +1068,22 @@
     "ARM": {
       "presets": {
         "costs": {
-          "updated": "Jan 16, 2026 06:42 PM"
+          "updated": "Jan 18, 2026 10:50 AM"
         },
         "revenue": {
-          "updated": "Jan 16, 2026 06:42 PM"
+          "updated": "Jan 18, 2026 10:50 AM"
         },
         "cash": {
-          "updated": "Jan 16, 2026 06:42 PM"
+          "updated": "Jan 18, 2026 10:50 AM"
+        },
+        "FCF": {
+          "updated": "Jan 18, 2026 10:50 AM"
+        },
+        "assets": {
+          "updated": "Jan 18, 2026 10:50 AM"
         }
       },
-      "last_updated": "2026-01-16T18:42:57.730382",
+      "last_updated": "2026-01-18T10:50:15.983143",
       "company": {
         "name": "Arm Holdings plc American Depositary Shares",
         "market_cap": "$119.98B",
