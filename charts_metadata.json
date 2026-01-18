@@ -1071,16 +1071,22 @@
     "NVDA": {
       "presets": {
         "costs": {
-          "updated": "Jan 17, 2026 11:21 PM"
+          "updated": "Jan 18, 2026 12:59 AM"
         },
         "revenue": {
-          "updated": "Jan 17, 2026 11:21 PM"
+          "updated": "Jan 18, 2026 12:59 AM"
         },
         "cash": {
-          "updated": "Jan 17, 2026 11:21 PM"
+          "updated": "Jan 18, 2026 12:59 AM"
+        },
+        "assets": {
+          "updated": "Jan 18, 2026 12:59 AM"
+        },
+        "FCF": {
+          "updated": "Jan 18, 2026 12:59 AM"
         }
       },
-      "last_updated": "2026-01-17T23:21:26.681782",
+      "last_updated": "2026-01-18T00:59:04.444650",
       "company": {
         "name": "NVIDIA Corporation",
         "market_cap": "$4.32T",
