@@ -1502,6 +1502,33 @@
         "sector": "INDUSTRIALS",
         "industry": "SPECIALTY INDUSTRIAL MACHINERY"
       }
+    },
+    "UPST": {
+      "presets": {
+        "revenue": {
+          "updated": "Jan 18, 2026 11:08 AM"
+        },
+        "costs": {
+          "updated": "Jan 18, 2026 11:08 AM"
+        },
+        "cash": {
+          "updated": "Jan 18, 2026 11:08 AM"
+        },
+        "FCF": {
+          "updated": "Jan 18, 2026 11:08 AM"
+        },
+        "assets": {
+          "updated": "Jan 18, 2026 11:08 AM"
+        }
+      },
+      "last_updated": "2026-01-18T11:08:04.652163",
+      "company": {
+        "name": "Upstart Holdings\u00a0Inc",
+        "market_cap": "$4.68B",
+        "description": "Upstart Holdings, Inc. is an innovative fintech company based in San Mateo, California, revolutionizing the personal lending industry through its cutting-edge cloud-based artificial intelligence platform. By leveraging sophisticated machine learning algorithms, Upstart significantly optimizes the credit decision-making process, leading to higher loan approval rates, lower consumer borrowing costs, and enhanced risk assessment for lenders. This disruptive model not only redefines traditional lending norms but also establishes Upstart as a frontrunner in the rapidly growing AI-powered financial services sector, adeptly addressing the dynamic requirements of both borrowers and financial institutions.",
+        "sector": "FINANCIAL SERVICES",
+        "industry": "CREDIT SERVICES"
+      }
     }
   }
 }
