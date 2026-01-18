@@ -1475,6 +1475,33 @@
         "sector": "INDUSTRIALS",
         "industry": "SPECIALTY INDUSTRIAL MACHINERY"
       }
+    },
+    "ROK": {
+      "presets": {
+        "revenue": {
+          "updated": "Jan 18, 2026 11:08 AM"
+        },
+        "costs": {
+          "updated": "Jan 18, 2026 11:08 AM"
+        },
+        "cash": {
+          "updated": "Jan 18, 2026 11:08 AM"
+        },
+        "FCF": {
+          "updated": "Jan 18, 2026 11:08 AM"
+        },
+        "assets": {
+          "updated": "Jan 18, 2026 11:08 AM"
+        }
+      },
+      "last_updated": "2026-01-18T11:08:03.782061",
+      "company": {
+        "name": "Rockwell Automation Inc",
+        "market_cap": "$46.87B",
+        "description": "Rockwell Automation, Inc. (Ticker: ROK) is a premier global provider of industrial automation and information technology solutions, dedicated to enhancing operational efficiency and productivity across diverse sectors including manufacturing, infrastructure, and logistics. Renowned for its innovative offerings, such as the Allen-Bradley line of programmable automation controllers and FactoryTalk software, the company empowers organizations to harness data for operational excellence. Rockwell's strategic emphasis on the Internet of Things (IoT) and smart manufacturing places it at the vanguard of digital transformation, positioning the company for sustainable growth while delivering significant value to its shareholders.",
+        "sector": "INDUSTRIALS",
+        "industry": "SPECIALTY INDUSTRIAL MACHINERY"
+      }
     }
   }
 }
