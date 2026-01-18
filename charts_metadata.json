@@ -51,22 +51,22 @@
     "PLTR": {
       "presets": {
         "costs": {
-          "updated": "Jan 18, 2026 12:56 AM"
+          "updated": "Jan 18, 2026 01:26 AM"
         },
         "revenue": {
-          "updated": "Jan 18, 2026 12:56 AM"
+          "updated": "Jan 18, 2026 01:26 AM"
         },
         "cash": {
-          "updated": "Jan 18, 2026 12:56 AM"
+          "updated": "Jan 18, 2026 01:26 AM"
         },
         "assets": {
-          "updated": "Jan 18, 2026 12:56 AM"
+          "updated": "Jan 18, 2026 01:26 AM"
         },
         "FCF": {
-          "updated": "Jan 18, 2026 12:56 AM"
+          "updated": "Jan 18, 2026 01:26 AM"
         }
       },
-      "last_updated": "2026-01-18T00:56:37.694125",
+      "last_updated": "2026-01-18T01:26:02.535490",
       "company": {
         "name": "Palantir Technologies Inc.",
         "market_cap": "$395.10B",
