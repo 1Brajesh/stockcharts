@@ -414,16 +414,22 @@
     "APLD": {
       "presets": {
         "costs": {
-          "updated": "Jan 16, 2026 06:39 PM"
+          "updated": "Jan 18, 2026 12:15 PM"
         },
         "revenue": {
-          "updated": "Jan 16, 2026 06:39 PM"
+          "updated": "Jan 18, 2026 12:15 PM"
         },
         "cash": {
-          "updated": "Jan 16, 2026 06:39 PM"
+          "updated": "Jan 18, 2026 12:15 PM"
+        },
+        "FCF": {
+          "updated": "Jan 18, 2026 12:15 PM"
+        },
+        "assets": {
+          "updated": "Jan 18, 2026 12:15 PM"
         }
       },
-      "last_updated": "2026-01-16T18:39:55.146714",
+      "last_updated": "2026-01-18T12:15:43.493187",
       "company": {
         "name": "Applied Digital Corporation",
         "market_cap": "$10.53B",
