@@ -231,16 +231,22 @@
     "KO": {
       "presets": {
         "costs": {
-          "updated": "Jan 16, 2026 03:55 PM"
+          "updated": "Jan 18, 2026 01:23 AM"
         },
         "revenue": {
-          "updated": "Jan 16, 2026 03:55 PM"
+          "updated": "Jan 18, 2026 01:23 AM"
         },
         "cash": {
-          "updated": "Jan 16, 2026 03:55 PM"
+          "updated": "Jan 18, 2026 01:23 AM"
+        },
+        "assets": {
+          "updated": "Jan 18, 2026 01:23 AM"
+        },
+        "FCF": {
+          "updated": "Jan 18, 2026 01:23 AM"
         }
       },
-      "last_updated": "2026-01-16T15:55:56.642574",
+      "last_updated": "2026-01-18T01:23:17.351286",
       "company": {
         "name": "The Coca-Cola Company",
         "market_cap": "$305.43B",
