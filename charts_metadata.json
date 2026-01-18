@@ -30,16 +30,22 @@
     "ADI": {
       "presets": {
         "costs": {
-          "updated": "Jan 16, 2026 03:26 PM"
+          "updated": "Jan 18, 2026 12:15 PM"
         },
         "revenue": {
-          "updated": "Jan 16, 2026 03:26 PM"
+          "updated": "Jan 18, 2026 12:15 PM"
         },
         "cash": {
-          "updated": "Jan 16, 2026 03:26 PM"
+          "updated": "Jan 18, 2026 12:15 PM"
+        },
+        "FCF": {
+          "updated": "Jan 18, 2026 12:15 PM"
+        },
+        "assets": {
+          "updated": "Jan 18, 2026 12:15 PM"
         }
       },
-      "last_updated": "2026-01-16T15:26:52.765587",
+      "last_updated": "2026-01-18T12:15:14.270362",
       "company": {
         "name": "Analog Devices Inc",
         "market_cap": "$136.77B",
