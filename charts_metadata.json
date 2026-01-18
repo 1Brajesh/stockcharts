@@ -960,16 +960,22 @@
     "DDOG": {
       "presets": {
         "costs": {
-          "updated": "Jan 16, 2026 06:42 PM"
+          "updated": "Jan 18, 2026 10:50 AM"
         },
         "revenue": {
-          "updated": "Jan 16, 2026 06:42 PM"
+          "updated": "Jan 18, 2026 10:50 AM"
         },
         "cash": {
-          "updated": "Jan 16, 2026 06:42 PM"
+          "updated": "Jan 18, 2026 10:50 AM"
+        },
+        "FCF": {
+          "updated": "Jan 18, 2026 10:50 AM"
+        },
+        "assets": {
+          "updated": "Jan 18, 2026 10:50 AM"
         }
       },
-      "last_updated": "2026-01-16T18:42:22.400245",
+      "last_updated": "2026-01-18T10:50:11.279606",
       "company": {
         "name": "Datadog Inc",
         "market_cap": "$46.86B",
