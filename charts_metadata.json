@@ -318,16 +318,16 @@
     "AMZN": {
       "presets": {
         "costs": {
-          "updated": "Jan 16, 2026 06:39 PM"
+          "updated": "Jan 17, 2026 11:21 PM"
         },
         "revenue": {
-          "updated": "Jan 16, 2026 06:39 PM"
+          "updated": "Jan 17, 2026 11:21 PM"
         },
         "cash": {
-          "updated": "Jan 16, 2026 06:39 PM"
+          "updated": "Jan 17, 2026 11:21 PM"
         }
       },
-      "last_updated": "2026-01-16T18:39:27.991993",
+      "last_updated": "2026-01-17T23:21:29.468980",
       "company": {
         "name": "Amazon.com Inc",
         "market_cap": "$2.42T",
