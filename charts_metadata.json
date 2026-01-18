@@ -687,16 +687,22 @@
     "VRT": {
       "presets": {
         "costs": {
-          "updated": "Jan 16, 2026 06:41 PM"
+          "updated": "Jan 18, 2026 10:50 AM"
         },
         "revenue": {
-          "updated": "Jan 16, 2026 06:41 PM"
+          "updated": "Jan 18, 2026 10:50 AM"
         },
         "cash": {
-          "updated": "Jan 16, 2026 06:41 PM"
+          "updated": "Jan 18, 2026 10:50 AM"
+        },
+        "FCF": {
+          "updated": "Jan 18, 2026 10:50 AM"
+        },
+        "assets": {
+          "updated": "Jan 18, 2026 10:50 AM"
         }
       },
-      "last_updated": "2026-01-16T18:41:10.144278",
+      "last_updated": "2026-01-18T10:50:14.176699",
       "company": {
         "name": "Vertiv Holdings Co",
         "market_cap": "$68.72B",
