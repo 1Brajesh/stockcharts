@@ -864,16 +864,22 @@
     "HOOD": {
       "presets": {
         "costs": {
-          "updated": "Jan 16, 2026 06:42 PM"
+          "updated": "Jan 18, 2026 01:35 AM"
         },
         "revenue": {
-          "updated": "Jan 16, 2026 06:42 PM"
+          "updated": "Jan 18, 2026 01:35 AM"
         },
         "cash": {
-          "updated": "Jan 16, 2026 06:42 PM"
+          "updated": "Jan 18, 2026 01:35 AM"
+        },
+        "FCF": {
+          "updated": "Jan 18, 2026 01:35 AM"
+        },
+        "assets": {
+          "updated": "Jan 18, 2026 01:35 AM"
         }
       },
-      "last_updated": "2026-01-16T18:42:18.615487",
+      "last_updated": "2026-01-18T01:35:02.176363",
       "company": {
         "name": "Robinhood Markets Inc",
         "market_cap": "$115.54B",
