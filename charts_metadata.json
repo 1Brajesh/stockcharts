@@ -1116,22 +1116,22 @@
     "MSFT": {
       "presets": {
         "costs": {
-          "updated": "Jan 18, 2026 12:59 AM"
+          "updated": "Jan 18, 2026 01:31 AM"
         },
         "revenue": {
-          "updated": "Jan 18, 2026 12:59 AM"
+          "updated": "Jan 18, 2026 01:31 AM"
         },
         "cash": {
-          "updated": "Jan 18, 2026 12:59 AM"
+          "updated": "Jan 18, 2026 01:31 AM"
         },
         "assets": {
-          "updated": "Jan 18, 2026 12:59 AM"
+          "updated": "Jan 18, 2026 01:31 AM"
         },
         "FCF": {
-          "updated": "Jan 18, 2026 12:59 AM"
+          "updated": "Jan 18, 2026 01:31 AM"
         }
       },
-      "last_updated": "2026-01-18T00:59:08.026539",
+      "last_updated": "2026-01-18T01:31:01.692712",
       "company": {
         "name": "Microsoft Corporation",
         "market_cap": "$3.66T",
