@@ -726,16 +726,22 @@
     "UNH": {
       "presets": {
         "costs": {
-          "updated": "Jan 16, 2026 06:41 PM"
+          "updated": "Jan 18, 2026 12:16 PM"
         },
         "revenue": {
-          "updated": "Jan 16, 2026 06:41 PM"
+          "updated": "Jan 18, 2026 12:16 PM"
         },
         "cash": {
-          "updated": "Jan 16, 2026 06:41 PM"
+          "updated": "Jan 18, 2026 12:16 PM"
+        },
+        "FCF": {
+          "updated": "Jan 18, 2026 12:16 PM"
+        },
+        "assets": {
+          "updated": "Jan 18, 2026 12:16 PM"
         }
       },
-      "last_updated": "2026-01-16T18:41:11.145181",
+      "last_updated": "2026-01-18T12:16:10.332457",
       "company": {
         "name": "UnitedHealth Group Incorporated",
         "market_cap": "$305.02B",
