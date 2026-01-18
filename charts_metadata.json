@@ -1529,6 +1529,33 @@
         "sector": "FINANCIAL SERVICES",
         "industry": "CREDIT SERVICES"
       }
+    },
+    "ACHR": {
+      "presets": {
+        "revenue": {
+          "updated": "Jan 18, 2026 11:08 AM"
+        },
+        "costs": {
+          "updated": "Jan 18, 2026 11:08 AM"
+        },
+        "cash": {
+          "updated": "Jan 18, 2026 11:08 AM"
+        },
+        "FCF": {
+          "updated": "Jan 18, 2026 11:08 AM"
+        },
+        "assets": {
+          "updated": "Jan 18, 2026 11:08 AM"
+        }
+      },
+      "last_updated": "2026-01-18T11:08:05.541650",
+      "company": {
+        "name": "Archer Aviation Inc",
+        "market_cap": "$6.50B",
+        "description": "None",
+        "sector": "INDUSTRIALS",
+        "industry": "AEROSPACE & DEFENSE"
+      }
     }
   }
 }
