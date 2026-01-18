@@ -1280,6 +1280,27 @@
         "sector": "TECHNOLOGY",
         "industry": "SOFTWARE - APPLICATION"
       }
+    },
+    "JNJ": {
+      "presets": {
+        "costs": {
+          "updated": "Jan 17, 2026 10:50 PM"
+        },
+        "revenue": {
+          "updated": "Jan 17, 2026 10:50 PM"
+        },
+        "cash": {
+          "updated": "Jan 17, 2026 10:50 PM"
+        }
+      },
+      "last_updated": "2026-01-17T22:50:05.533011",
+      "company": {
+        "name": "Johnson & Johnson",
+        "market_cap": "$526.82B",
+        "description": "Johnson & Johnson (JNJ), founded in 1886, is a premier American multinational corporation at the forefront of the global healthcare sector, acclaimed for its diversified product offerings in pharmaceuticals, medical devices, and consumer health products. With an unwavering commitment to innovation and quality, JNJ has established a robust financial profile, highlighted by its AAA credit rating and consistent presence on the Dow Jones Industrial Average. Ranked 36th on the Fortune 500 list, the company is strategically positioned to leverage emerging opportunities in the dynamic healthcare landscape while focusing on sustainable growth and long-term value creation for its stakeholders.",
+        "sector": "HEALTHCARE",
+        "industry": "DRUG MANUFACTURERS - GENERAL"
+      }
     }
   }
 }
