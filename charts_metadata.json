@@ -1379,6 +1379,33 @@
         "sector": "HEALTHCARE",
         "industry": "DRUG MANUFACTURERS - GENERAL"
       }
+    },
+    "BE": {
+      "presets": {
+        "revenue": {
+          "updated": "Jan 18, 2026 10:22 AM"
+        },
+        "costs": {
+          "updated": "Jan 18, 2026 10:22 AM"
+        },
+        "cash": {
+          "updated": "Jan 18, 2026 10:22 AM"
+        },
+        "FCF": {
+          "updated": "Jan 18, 2026 10:22 AM"
+        },
+        "assets": {
+          "updated": "Jan 18, 2026 10:22 AM"
+        }
+      },
+      "last_updated": "2026-01-18T10:22:36.500477",
+      "company": {
+        "name": "Bloom Energy Corp",
+        "market_cap": "$31.56B",
+        "description": "Bloom Energy Corporation, based in San Jose, California, is a leader in solid oxide fuel cell technology, providing innovative on-site clean power generation solutions across multiple global markets including the U.S., Japan, China, India, and South Korea. The company plays a crucial role in the transition to sustainable energy, aiming to reduce reliance on fossil fuels and enhance operational efficiencies through its advanced energy systems. With a strong focus on innovation and sustainability, Bloom Energy is well-positioned to capitalize on the rising demand for renewable energy technologies, presenting a compelling investment opportunity for institutional investors committed to energy diversification and environmental responsibility.",
+        "sector": "INDUSTRIALS",
+        "industry": "ELECTRICAL EQUIPMENT & PARTS"
+      }
     }
   }
 }
