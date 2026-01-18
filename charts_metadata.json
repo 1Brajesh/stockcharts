@@ -999,16 +999,22 @@
     "CEG": {
       "presets": {
         "costs": {
-          "updated": "Jan 16, 2026 06:42 PM"
+          "updated": "Jan 18, 2026 10:50 AM"
         },
         "revenue": {
-          "updated": "Jan 16, 2026 06:42 PM"
+          "updated": "Jan 18, 2026 10:50 AM"
         },
         "cash": {
-          "updated": "Jan 16, 2026 06:42 PM"
+          "updated": "Jan 18, 2026 10:50 AM"
+        },
+        "FCF": {
+          "updated": "Jan 18, 2026 10:50 AM"
+        },
+        "assets": {
+          "updated": "Jan 18, 2026 10:50 AM"
         }
       },
-      "last_updated": "2026-01-16T18:42:23.333195",
+      "last_updated": "2026-01-18T10:50:15.084922",
       "company": {
         "name": "Constellation Energy Corp",
         "market_cap": "$113.83B",
