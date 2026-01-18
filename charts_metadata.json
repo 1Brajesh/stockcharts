@@ -1556,6 +1556,33 @@
         "sector": "INDUSTRIALS",
         "industry": "AEROSPACE & DEFENSE"
       }
+    },
+    "CYBN": {
+      "presets": {
+        "revenue": {
+          "updated": "Jan 18, 2026 11:16 AM"
+        },
+        "costs": {
+          "updated": "Jan 18, 2026 11:16 AM"
+        },
+        "cash": {
+          "updated": "Jan 18, 2026 11:16 AM"
+        },
+        "FCF": {
+          "updated": "Jan 18, 2026 11:16 AM"
+        },
+        "assets": {
+          "updated": "Jan 18, 2026 11:16 AM"
+        }
+      },
+      "last_updated": "2026-01-18T11:16:05.038157",
+      "company": {
+        "name": "Cybin\u00a0Inc",
+        "market_cap": "$413.12M",
+        "description": "None",
+        "sector": "HEALTHCARE",
+        "industry": "BIOTECHNOLOGY"
+      }
     }
   }
 }
