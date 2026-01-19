@@ -1640,6 +1640,33 @@
         "sector": "BASIC MATERIALS",
         "industry": "OTHER INDUSTRIAL METALS & MINING"
       }
+    },
+    "AFRM": {
+      "presets": {
+        "revenue": {
+          "updated": "Jan 19, 2026 10:12 AM"
+        },
+        "costs": {
+          "updated": "Jan 19, 2026 10:12 AM"
+        },
+        "cash": {
+          "updated": "Jan 19, 2026 10:12 AM"
+        },
+        "FCF": {
+          "updated": "Jan 19, 2026 10:12 AM"
+        },
+        "assets": {
+          "updated": "Jan 19, 2026 10:12 AM"
+        }
+      },
+      "last_updated": "2026-01-19T10:12:07.145107",
+      "company": {
+        "name": "Affirm Holdings Inc",
+        "market_cap": "$24.68B",
+        "description": "Affirm Holdings, Inc. is a prominent financial technology company headquartered in San Francisco, California, focused on providing innovative point-of-sale financing and buy now, pay later (BNPL) solutions across the U.S. and Canada. By enhancing consumer purchasing power and advocating for responsible spending practices, Affirm facilitates seamless integrations with merchants, thereby optimizing conversion rates and driving sales growth. As e-commerce continues to evolve, Affirm\u2019s differentiated financing solutions are not only transforming consumer payment experiences but are also reinforcing transparency in credit access, cementing its role as a key player in the retail industry's digital transformation.",
+        "sector": "FINANCIAL SERVICES",
+        "industry": "CREDIT SERVICES"
+      }
     }
   }
 }
