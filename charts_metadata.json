@@ -855,16 +855,22 @@
     "IONQ": {
       "presets": {
         "costs": {
-          "updated": "Jan 16, 2026 06:41 PM"
+          "updated": "Jan 19, 2026 12:26 PM"
         },
         "revenue": {
-          "updated": "Jan 16, 2026 06:41 PM"
+          "updated": "Jan 19, 2026 12:26 PM"
         },
         "cash": {
-          "updated": "Jan 16, 2026 06:41 PM"
+          "updated": "Jan 19, 2026 12:26 PM"
+        },
+        "FCF": {
+          "updated": "Jan 19, 2026 12:26 PM"
+        },
+        "assets": {
+          "updated": "Jan 19, 2026 12:26 PM"
         }
       },
-      "last_updated": "2026-01-16T18:41:39.940674",
+      "last_updated": "2026-01-19T12:26:43.140524",
       "company": {
         "name": "IONQ Inc",
         "market_cap": "$16.08B",
