@@ -657,16 +657,22 @@
     "CSCO": {
       "presets": {
         "costs": {
-          "updated": "Jan 16, 2026 06:40 PM"
+          "updated": "Jan 19, 2026 04:25 PM"
         },
         "revenue": {
-          "updated": "Jan 16, 2026 06:40 PM"
+          "updated": "Jan 19, 2026 04:25 PM"
         },
         "cash": {
-          "updated": "Jan 16, 2026 06:40 PM"
+          "updated": "Jan 19, 2026 04:25 PM"
+        },
+        "FCF": {
+          "updated": "Jan 19, 2026 04:25 PM"
+        },
+        "assets": {
+          "updated": "Jan 19, 2026 04:25 PM"
         }
       },
-      "last_updated": "2026-01-16T18:40:47.450569",
+      "last_updated": "2026-01-19T16:25:52.889480",
       "company": {
         "name": "Cisco Systems Inc",
         "market_cap": "$309.84B",
