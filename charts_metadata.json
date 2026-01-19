@@ -1667,6 +1667,33 @@
         "sector": "FINANCIAL SERVICES",
         "industry": "CREDIT SERVICES"
       }
+    },
+    "AISP": {
+      "presets": {
+        "revenue": {
+          "updated": "Jan 19, 2026 10:12 AM"
+        },
+        "costs": {
+          "updated": "Jan 19, 2026 10:12 AM"
+        },
+        "cash": {
+          "updated": "Jan 19, 2026 10:12 AM"
+        },
+        "FCF": {
+          "updated": "Jan 19, 2026 10:12 AM"
+        },
+        "assets": {
+          "updated": "Jan 19, 2026 10:12 AM"
+        }
+      },
+      "last_updated": "2026-01-19T10:12:08.070362",
+      "company": {
+        "name": "Airship AI Holdings Inc",
+        "market_cap": "$147.64M",
+        "description": "None",
+        "sector": "TECHNOLOGY",
+        "industry": "SOFTWARE - INFRASTRUCTURE"
+      }
     }
   }
 }
