@@ -234,16 +234,22 @@
     "CRWD": {
       "presets": {
         "costs": {
-          "updated": "Jan 16, 2026 03:36 PM"
+          "updated": "Jan 19, 2026 04:25 PM"
         },
         "revenue": {
-          "updated": "Jan 16, 2026 03:36 PM"
+          "updated": "Jan 19, 2026 04:25 PM"
         },
         "cash": {
-          "updated": "Jan 16, 2026 03:36 PM"
+          "updated": "Jan 19, 2026 04:25 PM"
+        },
+        "FCF": {
+          "updated": "Jan 19, 2026 04:25 PM"
+        },
+        "assets": {
+          "updated": "Jan 19, 2026 04:25 PM"
         }
       },
-      "last_updated": "2026-01-16T15:36:42.224948",
+      "last_updated": "2026-01-19T16:25:51.077196",
       "company": {
         "name": "Crowdstrike Holdings Inc",
         "market_cap": "$121.31B",
