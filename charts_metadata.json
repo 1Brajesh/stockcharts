@@ -1482,16 +1482,22 @@
     "MO": {
       "presets": {
         "costs": {
-          "updated": "Jan 17, 2026 12:38 AM"
+          "updated": "Jan 19, 2026 04:26 PM"
         },
         "revenue": {
-          "updated": "Jan 17, 2026 12:38 AM"
+          "updated": "Jan 19, 2026 04:26 PM"
         },
         "cash": {
-          "updated": "Jan 17, 2026 12:38 AM"
+          "updated": "Jan 19, 2026 04:26 PM"
+        },
+        "FCF": {
+          "updated": "Jan 19, 2026 04:26 PM"
+        },
+        "assets": {
+          "updated": "Jan 19, 2026 04:26 PM"
         }
       },
-      "last_updated": "2026-01-17T00:38:26.995071",
+      "last_updated": "2026-01-19T16:26:00.420983",
       "company": {
         "name": "Altria Group",
         "market_cap": "$98.59B",
