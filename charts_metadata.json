@@ -441,16 +441,22 @@
     "MU": {
       "presets": {
         "costs": {
-          "updated": "Jan 16, 2026 06:39 PM"
+          "updated": "Jan 19, 2026 10:01 AM"
         },
         "revenue": {
-          "updated": "Jan 16, 2026 06:39 PM"
+          "updated": "Jan 19, 2026 10:01 AM"
         },
         "cash": {
-          "updated": "Jan 16, 2026 06:39 PM"
+          "updated": "Jan 19, 2026 10:01 AM"
+        },
+        "FCF": {
+          "updated": "Jan 19, 2026 10:01 AM"
+        },
+        "assets": {
+          "updated": "Jan 19, 2026 10:01 AM"
         }
       },
-      "last_updated": "2026-01-16T18:39:56.012488",
+      "last_updated": "2026-01-19T10:01:11.564029",
       "company": {
         "name": "Micron Technology Inc",
         "market_cap": "$266.96B",
