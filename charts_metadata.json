@@ -1721,6 +1721,33 @@
         "sector": "TECHNOLOGY",
         "industry": "SOFTWARE - INFRASTRUCTURE"
       }
+    },
+    "MDB": {
+      "presets": {
+        "revenue": {
+          "updated": "Jan 19, 2026 10:49 AM"
+        },
+        "costs": {
+          "updated": "Jan 19, 2026 10:49 AM"
+        },
+        "cash": {
+          "updated": "Jan 19, 2026 10:49 AM"
+        },
+        "FCF": {
+          "updated": "Jan 19, 2026 10:49 AM"
+        },
+        "assets": {
+          "updated": "Jan 19, 2026 10:49 AM"
+        }
+      },
+      "last_updated": "2026-01-19T10:49:01.510325",
+      "company": {
+        "name": "MongoDB",
+        "market_cap": "$32.54B",
+        "description": "MongoDB, Inc. is a leading provider of modern, document-oriented database solutions, headquartered in New York, NY. The company\u2019s platform excels in delivering real-time data access, scalability, and flexibility, making it indispensable for organizations facing the demands of the digital landscape. As cloud adoption continues to rise and the need for sophisticated data management solutions grows, MongoDB is strategically positioned to capitalize on significant market opportunities. Its commitment to innovation and its comprehensive suite of technology offerings enhance its appeal as a critical investment for institutional investors focused on the future of information management.",
+        "sector": "TECHNOLOGY",
+        "industry": "SOFTWARE - INFRASTRUCTURE"
+      }
     }
   }
 }
