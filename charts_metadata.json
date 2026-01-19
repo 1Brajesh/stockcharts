@@ -303,16 +303,22 @@
     "SOUN": {
       "presets": {
         "costs": {
-          "updated": "Jan 16, 2026 04:08 PM"
+          "updated": "Jan 19, 2026 12:26 PM"
         },
         "revenue": {
-          "updated": "Jan 16, 2026 04:08 PM"
+          "updated": "Jan 19, 2026 12:26 PM"
         },
         "cash": {
-          "updated": "Jan 16, 2026 04:08 PM"
+          "updated": "Jan 19, 2026 12:26 PM"
+        },
+        "FCF": {
+          "updated": "Jan 19, 2026 12:26 PM"
+        },
+        "assets": {
+          "updated": "Jan 19, 2026 12:26 PM"
         }
       },
-      "last_updated": "2026-01-16T16:08:20.623552",
+      "last_updated": "2026-01-19T12:26:48.799576",
       "company": {
         "name": "SoundHound AI Inc",
         "market_cap": "$4.97B",
