@@ -1748,6 +1748,33 @@
         "sector": "TECHNOLOGY",
         "industry": "SOFTWARE - INFRASTRUCTURE"
       }
+    },
+    "STX": {
+      "presets": {
+        "revenue": {
+          "updated": "Jan 19, 2026 10:52 AM"
+        },
+        "costs": {
+          "updated": "Jan 19, 2026 10:52 AM"
+        },
+        "cash": {
+          "updated": "Jan 19, 2026 10:52 AM"
+        },
+        "FCF": {
+          "updated": "Jan 19, 2026 10:52 AM"
+        },
+        "assets": {
+          "updated": "Jan 19, 2026 10:52 AM"
+        }
+      },
+      "last_updated": "2026-01-19T10:52:39.064484",
+      "company": {
+        "name": "Seagate Technology PLC",
+        "market_cap": "$71.09B",
+        "description": "Seagate Technology PLC, headquartered in Ireland, stands as a premier global leader in data storage solutions, focusing on both hard disk drives (HDDs) and cutting-edge flash storage technologies. With a strategic foothold in rapidly expanding markets such as cloud computing, big data, and the Internet of Things (IoT), Seagate is well-positioned to meet the surging demand for data storage. The company emphasizes sustainability and innovation through ongoing research and development, complemented by strategic alliances that enhance its competitive edge. For institutional investors, Seagate presents a notable opportunity to engage with the burgeoning data economy, bolstered by its solid market positioning and a comprehensive portfolio of advanced storage solutions.",
+        "sector": "TECHNOLOGY",
+        "industry": "COMPUTER HARDWARE"
+      }
     }
   }
 }
