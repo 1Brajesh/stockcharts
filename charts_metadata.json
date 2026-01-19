@@ -966,16 +966,22 @@
     "GM": {
       "presets": {
         "costs": {
-          "updated": "Jan 16, 2026 06:42 PM"
+          "updated": "Jan 19, 2026 12:16 PM"
         },
         "revenue": {
-          "updated": "Jan 16, 2026 06:42 PM"
+          "updated": "Jan 19, 2026 12:16 PM"
         },
         "cash": {
-          "updated": "Jan 16, 2026 06:42 PM"
+          "updated": "Jan 19, 2026 12:16 PM"
+        },
+        "FCF": {
+          "updated": "Jan 19, 2026 12:16 PM"
+        },
+        "assets": {
+          "updated": "Jan 19, 2026 12:16 PM"
         }
       },
-      "last_updated": "2026-01-16T18:42:20.447102",
+      "last_updated": "2026-01-19T12:16:15.660727",
       "company": {
         "name": "General Motors Company",
         "market_cap": "$78.40B",
