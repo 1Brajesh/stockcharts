@@ -1613,6 +1613,33 @@
         "sector": "HEALTHCARE",
         "industry": "BIOTECHNOLOGY"
       }
+    },
+    "MP": {
+      "presets": {
+        "revenue": {
+          "updated": "Jan 19, 2026 10:12 AM"
+        },
+        "costs": {
+          "updated": "Jan 19, 2026 10:12 AM"
+        },
+        "cash": {
+          "updated": "Jan 19, 2026 10:12 AM"
+        },
+        "FCF": {
+          "updated": "Jan 19, 2026 10:12 AM"
+        },
+        "assets": {
+          "updated": "Jan 19, 2026 10:12 AM"
+        }
+      },
+      "last_updated": "2026-01-19T10:12:06.077125",
+      "company": {
+        "name": "MP Materials Corp",
+        "market_cap": "$12.23B",
+        "description": "MP Materials Corp. is the leading domestic producer of rare earth materials in North America, headquartered in Las Vegas, Nevada. The company plays a critical role in the supply chain for advanced technologies, particularly within the electric vehicle and renewable energy sectors, by providing high-purity rare earth oxides essential for the production of modern electronics and clean energy solutions. With a robust commitment to domestic supply chain enhancement and national security, MP Materials employs proprietary technologies that bolster its competitive advantages. As global demand for sustainable materials intensifies, MP Materials is strategically positioned to benefit from the shift towards a greener economy, making it a key player in the transition to renewable energy and electric mobility.",
+        "sector": "BASIC MATERIALS",
+        "industry": "OTHER INDUSTRIAL METALS & MINING"
+      }
     }
   }
 }
