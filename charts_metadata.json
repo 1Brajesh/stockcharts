@@ -1479,16 +1479,22 @@
     "EBAY": {
       "presets": {
         "costs": {
-          "updated": "Jan 17, 2026 12:41 AM"
+          "updated": "Jan 19, 2026 04:25 PM"
         },
         "revenue": {
-          "updated": "Jan 17, 2026 12:41 AM"
+          "updated": "Jan 19, 2026 04:25 PM"
         },
         "cash": {
-          "updated": "Jan 17, 2026 12:41 AM"
+          "updated": "Jan 19, 2026 04:25 PM"
+        },
+        "FCF": {
+          "updated": "Jan 19, 2026 04:25 PM"
+        },
+        "assets": {
+          "updated": "Jan 19, 2026 04:25 PM"
         }
       },
-      "last_updated": "2026-01-17T00:41:11.236965",
+      "last_updated": "2026-01-19T16:25:54.698356",
       "company": {
         "name": "eBay Inc",
         "market_cap": "$43.90B",
