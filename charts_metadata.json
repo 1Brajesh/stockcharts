@@ -1694,6 +1694,33 @@
         "sector": "TECHNOLOGY",
         "industry": "SOFTWARE - INFRASTRUCTURE"
       }
+    },
+    "HUBC": {
+      "presets": {
+        "revenue": {
+          "updated": "Jan 19, 2026 10:12 AM"
+        },
+        "costs": {
+          "updated": "Jan 19, 2026 10:12 AM"
+        },
+        "cash": {
+          "updated": "Jan 19, 2026 10:12 AM"
+        },
+        "FCF": {
+          "updated": "Jan 19, 2026 10:12 AM"
+        },
+        "assets": {
+          "updated": "Jan 19, 2026 10:12 AM"
+        }
+      },
+      "last_updated": "2026-01-19T10:12:09.016050",
+      "company": {
+        "name": "Hub Cyber Security Ltd. Ordinary Shares",
+        "market_cap": "$10.18M",
+        "description": "Hub Cyber Security Ltd. (HUBC), headquartered in Tel Aviv, is a leading provider of cutting-edge cybersecurity solutions, catering to enterprises, government agencies, and financial institutions worldwide. The company specializes in protecting sensitive data and critical infrastructure, leveraging its innovative technologies and extensive industry experience to navigate the complex and ever-changing cyber threat landscape. HUBC's commitment to enhancing cyber resilience positions it as an indispensable ally for organizations seeking to safeguard their digital assets in an increasingly interconnected world. With its strategic focus and expertise, HUBC is well-positioned to play a pivotal role in the global cybersecurity sector.",
+        "sector": "TECHNOLOGY",
+        "industry": "SOFTWARE - INFRASTRUCTURE"
+      }
     }
   }
 }
