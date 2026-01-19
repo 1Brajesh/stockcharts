@@ -1347,16 +1347,22 @@
     "QUBT": {
       "presets": {
         "costs": {
-          "updated": "Jan 16, 2026 07:33 PM"
+          "updated": "Jan 19, 2026 12:36 PM"
         },
         "revenue": {
-          "updated": "Jan 16, 2026 07:33 PM"
+          "updated": "Jan 19, 2026 12:36 PM"
         },
         "cash": {
-          "updated": "Jan 16, 2026 07:33 PM"
+          "updated": "Jan 19, 2026 12:36 PM"
+        },
+        "FCF": {
+          "updated": "Jan 19, 2026 12:36 PM"
+        },
+        "assets": {
+          "updated": "Jan 19, 2026 12:36 PM"
         }
       },
-      "last_updated": "2026-01-16T19:33:56.852577",
+      "last_updated": "2026-01-19T12:36:27.367799",
       "company": {
         "name": "Quantum Computing\u00a0Inc",
         "market_cap": "$2.57B",
