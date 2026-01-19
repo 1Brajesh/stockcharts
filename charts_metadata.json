@@ -1023,16 +1023,22 @@
     "HII": {
       "presets": {
         "costs": {
-          "updated": "Jan 16, 2026 06:42 PM"
+          "updated": "Jan 19, 2026 04:25 PM"
         },
         "revenue": {
-          "updated": "Jan 16, 2026 06:42 PM"
+          "updated": "Jan 19, 2026 04:25 PM"
         },
         "cash": {
-          "updated": "Jan 16, 2026 06:42 PM"
+          "updated": "Jan 19, 2026 04:25 PM"
+        },
+        "FCF": {
+          "updated": "Jan 19, 2026 04:25 PM"
+        },
+        "assets": {
+          "updated": "Jan 19, 2026 04:25 PM"
         }
       },
-      "last_updated": "2026-01-16T18:42:19.523058",
+      "last_updated": "2026-01-19T16:25:56.632333",
       "company": {
         "name": "Huntington Ingalls Industries Inc",
         "market_cap": "$16.15B",
