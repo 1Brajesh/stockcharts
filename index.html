@@ -159,14 +159,41 @@
             font-size: 12px;
             text-align: center;
         }
+        .nav {
+            display: flex;
+            justify-content: center;
+            gap: 24px;
+            margin-bottom: 24px;
+        }
+        .nav a {
+            color: #8b949e;
+            text-decoration: none;
+            padding: 8px 16px;
+            border-radius: 6px;
+            transition: background-color 0.2s, color 0.2s;
+        }
+        .nav a:hover {
+            background-color: #21262d;
+            color: #c9d1d9;
+        }
+        .nav a.active {
+            background-color: #21262d;
+            color: #58a6ff;
+            font-weight: 600;
+        }
     </style>
 </head>
 <body>
     <div class="container">
         <header>
             <h1>Stock Charts</h1>
-            <div class="subtitle">Last updated: Jan 19, 2026 10:52 AM</div>
+            <div class="subtitle">Last updated: Jan 19, 2026 11:24 AM</div>
         </header>
+
+        <nav class="nav">
+            <a href="index.html" class="active">All Tickers</a>
+            <a href="portfolios.html">By Portfolio</a>
+        </nav>
 
         <div class="count">74 tickers</div>
 
