@@ -807,16 +807,22 @@
     "OSCR": {
       "presets": {
         "costs": {
-          "updated": "Jan 16, 2026 06:41 PM"
+          "updated": "Jan 19, 2026 12:26 PM"
         },
         "revenue": {
-          "updated": "Jan 16, 2026 06:41 PM"
+          "updated": "Jan 19, 2026 12:26 PM"
         },
         "cash": {
-          "updated": "Jan 16, 2026 06:41 PM"
+          "updated": "Jan 19, 2026 12:26 PM"
+        },
+        "FCF": {
+          "updated": "Jan 19, 2026 12:26 PM"
+        },
+        "assets": {
+          "updated": "Jan 19, 2026 12:26 PM"
         }
       },
-      "last_updated": "2026-01-16T18:41:38.187937",
+      "last_updated": "2026-01-19T12:26:42.210989",
       "company": {
         "name": "Oscar Health Inc",
         "market_cap": "$5.17B",
