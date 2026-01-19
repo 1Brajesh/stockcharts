@@ -1572,16 +1572,22 @@
     "JNJ": {
       "presets": {
         "costs": {
-          "updated": "Jan 17, 2026 11:10 PM"
+          "updated": "Jan 19, 2026 04:25 PM"
         },
         "revenue": {
-          "updated": "Jan 17, 2026 11:10 PM"
+          "updated": "Jan 19, 2026 04:25 PM"
         },
         "cash": {
-          "updated": "Jan 17, 2026 11:10 PM"
+          "updated": "Jan 19, 2026 04:25 PM"
+        },
+        "FCF": {
+          "updated": "Jan 19, 2026 04:25 PM"
+        },
+        "assets": {
+          "updated": "Jan 19, 2026 04:25 PM"
         }
       },
-      "last_updated": "2026-01-17T23:10:15.274673",
+      "last_updated": "2026-01-19T16:25:58.478566",
       "company": {
         "name": "Johnson & Johnson",
         "market_cap": "$526.82B",
