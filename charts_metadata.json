@@ -549,16 +549,22 @@
     "PATH": {
       "presets": {
         "costs": {
-          "updated": "Jan 16, 2026 06:39 PM"
+          "updated": "Jan 19, 2026 12:26 PM"
         },
         "revenue": {
-          "updated": "Jan 16, 2026 06:39 PM"
+          "updated": "Jan 19, 2026 12:26 PM"
         },
         "cash": {
-          "updated": "Jan 16, 2026 06:39 PM"
+          "updated": "Jan 19, 2026 12:26 PM"
+        },
+        "FCF": {
+          "updated": "Jan 19, 2026 12:26 PM"
+        },
+        "assets": {
+          "updated": "Jan 19, 2026 12:26 PM"
         }
       },
-      "last_updated": "2026-01-16T18:39:59.646473",
+      "last_updated": "2026-01-19T12:26:45.871322",
       "company": {
         "name": "Uipath Inc",
         "market_cap": "$7.42B",
