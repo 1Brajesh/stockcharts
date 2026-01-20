@@ -2059,6 +2059,33 @@
         "sector": "HEALTHCARE",
         "industry": "HEALTH INFORMATION SERVICES"
       }
+    },
+    "HYMC": {
+      "presets": {
+        "revenue": {
+          "updated": "Jan 20, 2026 03:14 PM"
+        },
+        "costs": {
+          "updated": "Jan 20, 2026 03:14 PM"
+        },
+        "cash": {
+          "updated": "Jan 20, 2026 03:14 PM"
+        },
+        "FCF": {
+          "updated": "Jan 20, 2026 03:14 PM"
+        },
+        "assets": {
+          "updated": "Jan 20, 2026 03:14 PM"
+        }
+      },
+      "last_updated": "2026-01-20T15:14:44.140470",
+      "company": {
+        "name": "Hycroft Mining Holding Corporation",
+        "market_cap": "$2.88B",
+        "description": "Hycroft Mining Holding Corporation is a growing gold and silver producer headquartered in Denver, Colorado, primarily focused on its flagship Hycroft Mine located in Nevada. This strategically positioned asset is underpinned by substantial mineral resources and is poised to capitalize on the increasing global demand for precious metals. Committed to sustainable mining practices and operational efficiency, Hycroft aims to enhance its exploration and production capabilities, thereby delivering long-term value to shareholders while contributing positively to the mining sector.",
+        "sector": "BASIC MATERIALS",
+        "industry": "GOLD"
+      }
     }
   }
 }
