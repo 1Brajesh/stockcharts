@@ -531,16 +531,22 @@
     "WMT": {
       "presets": {
         "costs": {
-          "updated": "Jan 16, 2026 06:39 PM"
+          "updated": "Jan 20, 2026 12:26 AM"
         },
         "revenue": {
-          "updated": "Jan 16, 2026 06:39 PM"
+          "updated": "Jan 20, 2026 12:26 AM"
         },
         "cash": {
-          "updated": "Jan 16, 2026 06:39 PM"
+          "updated": "Jan 20, 2026 12:26 AM"
+        },
+        "FCF": {
+          "updated": "Jan 20, 2026 12:26 AM"
+        },
+        "assets": {
+          "updated": "Jan 20, 2026 12:26 AM"
         }
       },
-      "last_updated": "2026-01-16T18:39:57.795569",
+      "last_updated": "2026-01-20T00:26:22.661176",
       "company": {
         "name": "Walmart Inc. Common Stock",
         "market_cap": "$930.43B",
