@@ -2032,6 +2032,33 @@
         "sector": "TECHNOLOGY",
         "industry": "COMPUTER HARDWARE"
       }
+    },
+    "TEM": {
+      "presets": {
+        "revenue": {
+          "updated": "Jan 20, 2026 12:34 PM"
+        },
+        "costs": {
+          "updated": "Jan 20, 2026 12:34 PM"
+        },
+        "cash": {
+          "updated": "Jan 20, 2026 12:34 PM"
+        },
+        "FCF": {
+          "updated": "Jan 20, 2026 12:34 PM"
+        },
+        "assets": {
+          "updated": "Jan 20, 2026 12:34 PM"
+        }
+      },
+      "last_updated": "2026-01-20T12:34:02.953111",
+      "company": {
+        "name": "Tempus AI, Inc. Class A Common Stock",
+        "market_cap": "$12.51B",
+        "description": "Tempus AI, Inc. (Ticker: TEM) is a pioneering healthcare technology firm headquartered in Chicago, Illinois, committed to enhancing medical decision-making through the integration of artificial intelligence and advanced data analytics. By combining genomic sequencing with extensive clinical data, Tempus is at the forefront of precision medicine, particularly in oncology, ultimately aiming to improve patient outcomes significantly. With the healthcare industry increasingly embracing technology-driven solutions, Tempus's innovative platform and strategic focus on transforming healthcare practices make it an attractive investment opportunity for institutional investors seeking to leverage growth in this dynamic sector.",
+        "sector": "HEALTHCARE",
+        "industry": "HEALTH INFORMATION SERVICES"
+      }
     }
   }
 }
