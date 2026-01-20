@@ -1986,26 +1986,6 @@
         "industry": "COMPUTER HARDWARE"
       }
     },
-    "QBIT": {
-      "presets": {
-        "revenue": {
-          "updated": "Jan 19, 2026 12:26 PM"
-        },
-        "costs": {
-          "updated": "Jan 19, 2026 12:26 PM"
-        },
-        "cash": {
-          "updated": "Jan 19, 2026 12:26 PM"
-        },
-        "FCF": {
-          "updated": "Jan 19, 2026 12:26 PM"
-        },
-        "assets": {
-          "updated": "Jan 19, 2026 12:26 PM"
-        }
-      },
-      "last_updated": "2026-01-19T12:26:46.854748"
-    },
     "KDFJ": {
       "presets": {
         "revenue": {
