@@ -1479,16 +1479,22 @@
     "STLA": {
       "presets": {
         "costs": {
-          "updated": "Jan 16, 2026 07:47 PM"
+          "updated": "Jan 20, 2026 12:26 AM"
         },
         "revenue": {
-          "updated": "Jan 16, 2026 07:47 PM"
+          "updated": "Jan 20, 2026 12:26 AM"
         },
         "cash": {
-          "updated": "Jan 16, 2026 07:47 PM"
+          "updated": "Jan 20, 2026 12:26 AM"
+        },
+        "FCF": {
+          "updated": "Jan 20, 2026 12:26 AM"
+        },
+        "assets": {
+          "updated": "Jan 20, 2026 12:26 AM"
         }
       },
-      "last_updated": "2026-01-16T19:47:28.486602",
+      "last_updated": "2026-01-20T00:26:26.957938",
       "company": {
         "name": "Stellantis NV",
         "market_cap": "$31.92B",
