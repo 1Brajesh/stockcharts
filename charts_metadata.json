@@ -2059,26 +2059,6 @@
         "sector": "HEALTHCARE",
         "industry": "HEALTH INFORMATION SERVICES"
       }
-    },
-    "URA": {
-      "presets": {
-        "revenue": {
-          "updated": "Jan 20, 2026 12:38 PM"
-        },
-        "costs": {
-          "updated": "Jan 20, 2026 12:38 PM"
-        },
-        "cash": {
-          "updated": "Jan 20, 2026 12:38 PM"
-        },
-        "FCF": {
-          "updated": "Jan 20, 2026 12:38 PM"
-        },
-        "assets": {
-          "updated": "Jan 20, 2026 12:38 PM"
-        }
-      },
-      "last_updated": "2026-01-20T12:38:04.615999"
     }
   }
 }
