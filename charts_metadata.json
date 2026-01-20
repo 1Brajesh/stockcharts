@@ -1584,16 +1584,22 @@
     "ADBE": {
       "presets": {
         "costs": {
-          "updated": "Jan 17, 2026 12:52 AM"
+          "updated": "Jan 20, 2026 12:26 AM"
         },
         "revenue": {
-          "updated": "Jan 17, 2026 12:52 AM"
+          "updated": "Jan 20, 2026 12:26 AM"
         },
         "cash": {
-          "updated": "Jan 17, 2026 12:52 AM"
+          "updated": "Jan 20, 2026 12:26 AM"
+        },
+        "FCF": {
+          "updated": "Jan 20, 2026 12:26 AM"
+        },
+        "assets": {
+          "updated": "Jan 20, 2026 12:26 AM"
         }
       },
-      "last_updated": "2026-01-17T00:52:26.168205",
+      "last_updated": "2026-01-20T00:26:35.237181",
       "company": {
         "name": "Adobe Systems Incorporated",
         "market_cap": "$151.20B",
