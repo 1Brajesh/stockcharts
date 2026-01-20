@@ -2005,6 +2005,33 @@
         }
       },
       "last_updated": "2026-01-19T12:36:54.489073"
+    },
+    "QBTS": {
+      "presets": {
+        "revenue": {
+          "updated": "Jan 20, 2026 12:16 PM"
+        },
+        "costs": {
+          "updated": "Jan 20, 2026 12:16 PM"
+        },
+        "cash": {
+          "updated": "Jan 20, 2026 12:16 PM"
+        },
+        "FCF": {
+          "updated": "Jan 20, 2026 12:16 PM"
+        },
+        "assets": {
+          "updated": "Jan 20, 2026 12:16 PM"
+        }
+      },
+      "last_updated": "2026-01-20T12:16:44.748486",
+      "company": {
+        "name": "D-Wave Quantum Inc.",
+        "market_cap": "$10.44B",
+        "description": "D-Wave Quantum Inc. is a trailblazer in the quantum computing landscape, dedicated to delivering advanced quantum systems, software, and robust support services tailored to solve intricate computational problems. Based in Burnaby, Canada, the company is committed to fostering the integration of quantum technology across diverse industries, including optimization, machine learning, and artificial intelligence. With a unique strategic vision and a diverse array of innovative solutions, D-Wave is well-positioned to reshape the future of computing, driving transformative advancements while setting new benchmarks for the industry through its state-of-the-art quantum technologies.",
+        "sector": "TECHNOLOGY",
+        "industry": "COMPUTER HARDWARE"
+      }
     }
   }
 }
