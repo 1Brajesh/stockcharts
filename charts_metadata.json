@@ -762,16 +762,22 @@
     "VZ": {
       "presets": {
         "costs": {
-          "updated": "Jan 16, 2026 06:41 PM"
+          "updated": "Jan 20, 2026 12:26 AM"
         },
         "revenue": {
-          "updated": "Jan 16, 2026 06:41 PM"
+          "updated": "Jan 20, 2026 12:26 AM"
         },
         "cash": {
-          "updated": "Jan 16, 2026 06:41 PM"
+          "updated": "Jan 20, 2026 12:26 AM"
+        },
+        "FCF": {
+          "updated": "Jan 20, 2026 12:26 AM"
+        },
+        "assets": {
+          "updated": "Jan 20, 2026 12:26 AM"
         }
       },
-      "last_updated": "2026-01-16T18:41:09.213194",
+      "last_updated": "2026-01-20T00:26:25.452571",
       "company": {
         "name": "Verizon Communications Inc",
         "market_cap": "$168.57B",
