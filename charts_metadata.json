@@ -435,16 +435,22 @@
     "ORCL": {
       "presets": {
         "costs": {
-          "updated": "Jan 16, 2026 06:39 PM"
+          "updated": "Jan 20, 2026 12:26 AM"
         },
         "revenue": {
-          "updated": "Jan 16, 2026 06:39 PM"
+          "updated": "Jan 20, 2026 12:26 AM"
         },
         "cash": {
-          "updated": "Jan 16, 2026 06:39 PM"
+          "updated": "Jan 20, 2026 12:26 AM"
+        },
+        "FCF": {
+          "updated": "Jan 20, 2026 12:26 AM"
+        },
+        "assets": {
+          "updated": "Jan 20, 2026 12:26 AM"
         }
       },
-      "last_updated": "2026-01-16T18:39:28.883204",
+      "last_updated": "2026-01-20T00:26:32.742598",
       "company": {
         "name": "Oracle Corporation",
         "market_cap": "$635.76B",
