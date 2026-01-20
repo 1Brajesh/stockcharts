@@ -219,16 +219,22 @@
     "PANW": {
       "presets": {
         "costs": {
-          "updated": "Jan 16, 2026 03:36 PM"
+          "updated": "Jan 20, 2026 12:26 AM"
         },
         "revenue": {
-          "updated": "Jan 16, 2026 03:36 PM"
+          "updated": "Jan 20, 2026 12:26 AM"
         },
         "cash": {
-          "updated": "Jan 16, 2026 03:36 PM"
+          "updated": "Jan 20, 2026 12:26 AM"
+        },
+        "FCF": {
+          "updated": "Jan 20, 2026 12:26 AM"
+        },
+        "assets": {
+          "updated": "Jan 20, 2026 12:26 AM"
         }
       },
-      "last_updated": "2026-01-16T15:36:34.452604",
+      "last_updated": "2026-01-20T00:26:28.593281",
       "company": {
         "name": "Palo Alto Networks Inc",
         "market_cap": "$130.05B",
