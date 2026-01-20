@@ -1470,16 +1470,22 @@
     "SERV": {
       "presets": {
         "costs": {
-          "updated": "Jan 16, 2026 07:40 PM"
+          "updated": "Jan 20, 2026 12:26 AM"
         },
         "revenue": {
-          "updated": "Jan 16, 2026 07:40 PM"
+          "updated": "Jan 20, 2026 12:26 AM"
         },
         "cash": {
-          "updated": "Jan 16, 2026 07:40 PM"
+          "updated": "Jan 20, 2026 12:26 AM"
+        },
+        "FCF": {
+          "updated": "Jan 20, 2026 12:26 AM"
+        },
+        "assets": {
+          "updated": "Jan 20, 2026 12:26 AM"
         }
       },
-      "last_updated": "2026-01-16T19:40:26.945895",
+      "last_updated": "2026-01-20T00:26:31.855768",
       "company": {
         "name": "Serve Robotics Inc. Common Stock",
         "market_cap": "$910.19M",
