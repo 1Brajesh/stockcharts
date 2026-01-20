@@ -2005,26 +2005,6 @@
         }
       },
       "last_updated": "2026-01-19T12:36:54.489073"
-    },
-    "ABDE": {
-      "presets": {
-        "revenue": {
-          "updated": "Jan 19, 2026 04:25 PM"
-        },
-        "costs": {
-          "updated": "Jan 19, 2026 04:25 PM"
-        },
-        "cash": {
-          "updated": "Jan 19, 2026 04:25 PM"
-        },
-        "FCF": {
-          "updated": "Jan 19, 2026 04:25 PM"
-        },
-        "assets": {
-          "updated": "Jan 19, 2026 04:25 PM"
-        }
-      },
-      "last_updated": "2026-01-19T16:25:47.320941"
     }
   }
 }
