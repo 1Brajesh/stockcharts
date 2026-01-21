@@ -2106,6 +2106,33 @@
         }
       },
       "last_updated": "2026-01-21T14:37:01.006024"
+    },
+    "ZM": {
+      "presets": {
+        "revenue": {
+          "updated": "Jan 21, 2026 02:37 PM"
+        },
+        "costs": {
+          "updated": "Jan 21, 2026 02:37 PM"
+        },
+        "cash": {
+          "updated": "Jan 21, 2026 02:37 PM"
+        },
+        "FCF": {
+          "updated": "Jan 21, 2026 02:37 PM"
+        },
+        "assets": {
+          "updated": "Jan 21, 2026 02:37 PM"
+        }
+      },
+      "last_updated": "2026-01-21T14:37:02.178704",
+      "company": {
+        "name": "Zoom Video Communications Inc",
+        "market_cap": "$24.34B",
+        "description": "Zoom Video Communications, Inc. (ZM), headquartered in San Jose, California, is a prominent provider of advanced video communication solutions that cater to a diverse global clientele. Particularly renowned for its user-friendly platform that facilitates video conferencing, webinars, and collaborative tools, Zoom has solidified its position in the market during the accelerated shift towards remote work and digital collaboration. With a strong commitment to innovation and reliability, the company is well-positioned to capitalize on the increasing demand for seamless communication technologies, addressing the evolving needs of organizations across North America, Europe, and Asia Pacific. As enterprises prioritize efficient, scalable communication solutions, Zoom's expertise and strategic focus are set to drive continued growth and market leadership.",
+        "sector": "TECHNOLOGY",
+        "industry": "SOFTWARE - APPLICATION"
+      }
     }
   }
 }
