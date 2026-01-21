@@ -2113,6 +2113,27 @@
         "sector": "TECHNOLOGY",
         "industry": "SOFTWARE - APPLICATION"
       }
+    },
+    "ALH-SEC": {
+      "presets": {
+        "revenue": {
+          "updated": "Jan 21, 2026 05:16 PM"
+        },
+        "costs": {
+          "updated": "Jan 21, 2026 05:16 PM"
+        },
+        "assets": {
+          "updated": "Jan 21, 2026 05:16 PM"
+        }
+      },
+      "last_updated": "2026-01-21T17:16:16.174477",
+      "company": {
+        "name": "ALLIANCE LAUNDRY HOLDINGS INC.",
+        "market_cap": "N/A",
+        "description": "Financial data from SEC EDGAR for ALLIANCE LAUNDRY HOLDINGS INC.",
+        "sector": "",
+        "industry": ""
+      }
     }
   }
 }

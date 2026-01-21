@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ALH-SEC - Stock Charts</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+        body {
+            background-color: #0d1117;
+            color: #c9d1d9;
+            font-family: 'SF Mono', 'Monaco', 'Menlo', 'Ubuntu Mono', monospace;
+            font-size: 13px;
+            margin: 0;
+            padding: 20px;
+            line-height: 1.5;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        header {
+            border-bottom: 1px solid #30363d;
+            padding-bottom: 16px;
+            margin-bottom: 24px;
+        }
+        h1 {
+            color: #58a6ff;
+            margin: 0 0 8px 0;
+            font-size: 24px;
+        }
+        .timestamp {
+            color: #8b949e;
+            font-size: 12px;
+        }
+        .back-link {
+            color: #58a6ff;
+            text-decoration: none;
+            font-size: 14px;
+        }
+        .back-link:hover {
+            text-decoration: underline;
+        }
+        .chart-section {
+            background-color: #161b22;
+            border: 1px solid #30363d;
+            border-radius: 6px;
+            margin-bottom: 24px;
+            overflow: hidden;
+        }
+        .chart-section h2 {
+            background-color: #21262d;
+            color: #c9d1d9;
+            margin: 0;
+            padding: 12px 16px;
+            font-size: 14px;
+            font-weight: 600;
+            border-bottom: 1px solid #30363d;
+        }
+        .chart-section pre {
+            margin: 0;
+            padding: 16px;
+            overflow-x: auto;
+            white-space: pre;
+        }
+        footer {
+            margin-top: 32px;
+            padding-top: 16px;
+            border-top: 1px solid #30363d;
+            color: #8b949e;
+            font-size: 12px;
+        }
+        .company-info {
+            background-color: #161b22;
+            border: 1px solid #30363d;
+            border-radius: 6px;
+            padding: 20px;
+            margin-bottom: 24px;
+        }
+        .company-info h2 {
+            color: #c9d1d9;
+            margin: 0 0 12px 0;
+            font-size: 18px;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;
+        }
+        .company-meta {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 16px;
+            margin-bottom: 16px;
+            font-size: 13px;
+        }
+        .company-meta .market-cap {
+            color: #58a6ff;
+        }
+        .company-meta .market-cap strong {
+            color: #7ee787;
+        }
+        .company-meta .sector,
+        .company-meta .industry {
+            color: #8b949e;
+            background-color: #21262d;
+            padding: 2px 8px;
+            border-radius: 4px;
+        }
+        .company-info .description {
+            color: #8b949e;
+            margin: 0;
+            font-size: 13px;
+            line-height: 1.6;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <a href="index.html" class="back-link">&larr; Back to Index</a>
+            <h1>ALH-SEC</h1>
+            <div class="timestamp">Updated: Jan 21, 2026 05:16 PM</div>
+        </header>
+
+        
+        <div class="company-info">
+            <h2>ALLIANCE LAUNDRY HOLDINGS INC.</h2>
+            <div class="company-meta">
+                <span class="market-cap">Market Cap: <strong>N/A</strong></span>
+                
+                
+            </div>
+            <p class="description">Financial data from SEC EDGAR for ALLIANCE LAUNDRY HOLDINGS INC.</p>
+        </div>
+        
+
+        
+        <div class="chart-section">
+            <h2>revenue</h2>
+            <pre>Using alias: revenue -&gt; totalRevenue [quarterly] [income]
+Using alias: profit -&gt; grossProfit [quarterly] [income]
+Using alias: income -&gt; netIncome [quarterly] [income]
+
+
+Data Completeness:
+------------------------------------------------------------
+  ✅ totalRevenue                        2/2 dates (100%)
+  ✅ grossProfit                         2/2 dates (100%)
+  ✅ netIncome                           2/2 dates (100%)
+
+Plot for ALH-SEC (in M)
+  reports: quarterlyReports
+  showing last 20 entries
+  Legend: <span style="font-weight:bold;"><span style="color:#cd00cd;">totalRevenue</span></span>, <span style="font-weight:bold;"><span style="color:#ff8700;">grossProfit</span></span>, <span style="font-weight:bold;"><span style="color:#00ff00;">netIncome</span></span>
+
+               -437.61M                      -218.80M                         0.00M                        218.80M                         437.61M
+               |                             |                              |                             |                               |
+
+  2024-09-30 |                                                             <span style="color:#00ff00;">█</span>|<span style="color:#ff8700;">█</span><span style="color:#ff8700;">█</span><span style="color:#ff8700;">█</span><span style="color:#ff8700;">█</span><span style="color:#ff8700;">█</span><span style="color:#ff8700;">█</span><span style="color:#ff8700;">█</span><span style="color:#ff8700;">█</span><span style="color:#ff8700;">█</span><span style="color:#ff8700;">█</span><span style="color:#ff8700;">█</span><span style="color:#ff8700;">█</span><span style="color:#ff8700;">█</span><span style="color:#ff8700;">█</span><span style="color:#ff8700;">█</span><span style="color:#ff8700;">█</span><span style="color:#ff8700;">█</span><span style="color:#ff8700;">█</span><span style="color:#ff8700;">█</span><span style="color:#cd00cd;">█</span><span style="color:#cd00cd;">█</span><span style="color:#cd00cd;">█</span><span style="color:#cd00cd;">█</span><span style="color:#cd00cd;">█</span><span style="color:#cd00cd;">█</span><span style="color:#cd00cd;">█</span><span style="color:#cd00cd;">█</span><span style="color:#cd00cd;">█</span><span style="color:#cd00cd;">█</span><span style="color:#cd00cd;">█</span><span style="color:#cd00cd;">█</span><span style="color:#cd00cd;">█</span><span style="color:#cd00cd;">█</span><span style="color:#cd00cd;">█</span><span style="color:#cd00cd;">█</span><span style="color:#cd00cd;">█</span><span style="color:#cd00cd;">█</span><span style="color:#cd00cd;">█</span><span style="color:#cd00cd;">█</span><span style="color:#cd00cd;">█</span><span style="color:#cd00cd;">█</span><span style="color:#cd00cd;">█</span><span style="color:#cd00cd;">█</span><span style="color:#cd00cd;">█</span><span style="color:#cd00cd;">█</span><span style="color:#cd00cd;">█</span><span style="color:#cd00cd;">█</span><span style="color:#cd00cd;">█</span><span style="color:#cd00cd;">█</span><span style="color:#cd00cd;">█</span><span style="color:#cd00cd;">█</span><span style="color:#cd00cd;">█</span><span style="color:#cd00cd;">█</span>  <span style="color:#cd00cd;">384.30M</span>
+  2025-09-30 |                                                              |<span style="color:#00ff00;">█</span><span style="color:#00ff00;">█</span><span style="color:#00ff00;">█</span><span style="color:#00ff00;">█</span><span style="color:#ff8700;">█</span><span style="color:#ff8700;">█</span><span style="color:#ff8700;">█</span><span style="color:#ff8700;">█</span><span style="color:#ff8700;">█</span><span style="color:#ff8700;">█</span><span style="color:#ff8700;">█</span><span style="color:#ff8700;">█</span><span style="color:#ff8700;">█</span><span style="color:#ff8700;">█</span><span style="color:#ff8700;">█</span><span style="color:#ff8700;">█</span><span style="color:#ff8700;">█</span><span style="color:#ff8700;">█</span><span style="color:#ff8700;">█</span><span style="color:#ff8700;">█</span><span style="color:#ff8700;">█</span><span style="color:#ff8700;">█</span><span style="color:#cd00cd;">█</span><span style="color:#cd00cd;">█</span><span style="color:#cd00cd;">█</span><span style="color:#cd00cd;">█</span><span style="color:#cd00cd;">█</span><span style="color:#cd00cd;">█</span><span style="color:#cd00cd;">█</span><span style="color:#cd00cd;">█</span><span style="color:#cd00cd;">█</span><span style="color:#cd00cd;">█</span><span style="color:#cd00cd;">█</span><span style="color:#cd00cd;">█</span><span style="color:#cd00cd;">█</span><span style="color:#cd00cd;">█</span><span style="color:#cd00cd;">█</span><span style="color:#cd00cd;">█</span><span style="color:#cd00cd;">█</span><span style="color:#cd00cd;">█</span><span style="color:#cd00cd;">█</span><span style="color:#cd00cd;">█</span><span style="color:#cd00cd;">█</span><span style="color:#cd00cd;">█</span><span style="color:#cd00cd;">█</span><span style="color:#cd00cd;">█</span><span style="color:#cd00cd;">█</span><span style="color:#cd00cd;">█</span><span style="color:#cd00cd;">█</span><span style="color:#cd00cd;">█</span><span style="color:#cd00cd;">█</span><span style="color:#cd00cd;">█</span><span style="color:#cd00cd;">█</span><span style="color:#cd00cd;">█</span><span style="color:#cd00cd;">█</span><span style="color:#cd00cd;">█</span><span style="color:#cd00cd;">█</span><span style="color:#cd00cd;">█</span><span style="color:#cd00cd;">█</span><span style="color:#cd00cd;">█</span>  <span style="color:#cd00cd;">437.61M</span>
+
+               |                             |                              |                             |                               |
+               -437.61M                      -218.80M                         0.00M                        218.80M                         437.61M
+</pre>
+        </div>
+        
+        <div class="chart-section">
+            <h2>costs</h2>
+            <pre>Using alias: rnd -&gt; researchAndDevelopment [quarterly] [income]
+Using alias: sga -&gt; sellingGeneralAndAdministrative [quarterly] [income]
+Using alias: cogs -&gt; costofGoodsAndServicesSold [quarterly] [income]
+
+
+Data Completeness:
+------------------------------------------------------------
+  ⚠️  SPARSE researchAndDevelopment              0/2 dates (0%)
+  ⚠️  SPARSE sellingGeneralAndAdministrative     0/2 dates (0%)
+  ✅ costofGoodsAndServicesSold          2/2 dates (100%)
+
+Plot for ALH-SEC (in M)
+  reports: quarterlyReports
+  showing last 20 entries
+  Legend: <span style="font-weight:bold;"><span style="color:#5c5cff;">researchAndDevelopment</span></span>, <span style="font-weight:bold;"><span style="color:#00cdcd;">sellingGeneralAndAdministrative</span></span>, <span style="font-weight:bold;"><span style="color:#af5f00;">costofGoodsAndServicesSold</span></span>
+
+               0.00M                        68.91M                         137.83M                        206.74M                        275.65M
+               |                             |                              |                              |                              |
+
+  2024-09-30 | <span style="color:#af5f00;">█</span><span style="color:#af5f00;">█</span><span style="color:#af5f00;">█</span><span style="color:#af5f00;">█</span><span style="color:#af5f00;">█</span><span style="color:#af5f00;">█</span><span style="color:#af5f00;">█</span><span style="color:#af5f00;">█</span><span style="color:#af5f00;">█</span><span style="color:#af5f00;">█</span><span style="color:#af5f00;">█</span><span style="color:#af5f00;">█</span><span style="color:#af5f00;">█</span><span style="color:#af5f00;">█</span><span style="color:#af5f00;">█</span><span style="color:#af5f00;">█</span><span style="color:#af5f00;">█</span><span style="color:#af5f00;">█</span><span style="color:#af5f00;">█</span><span style="color:#af5f00;">█</span><span style="color:#af5f00;">█</span><span style="color:#af5f00;">█</span><span style="color:#af5f00;">█</span><span style="color:#af5f00;">█</span><span style="color:#af5f00;">█</span><span style="color:#af5f00;">█</span><span style="color:#af5f00;">█</span><span style="color:#af5f00;">█</span><span style="color:#af5f00;">█</span><span style="color:#af5f00;">█</span><span style="color:#af5f00;">█</span><span style="color:#af5f00;">█</span><span style="color:#af5f00;">█</span><span style="color:#af5f00;">█</span><span style="color:#af5f00;">█</span><span style="color:#af5f00;">█</span><span style="color:#af5f00;">█</span><span style="color:#af5f00;">█</span><span style="color:#af5f00;">█</span><span style="color:#af5f00;">█</span><span style="color:#af5f00;">█</span><span style="color:#af5f00;">█</span><span style="color:#af5f00;">█</span><span style="color:#af5f00;">█</span><span style="color:#af5f00;">█</span><span style="color:#af5f00;">█</span><span style="color:#af5f00;">█</span><span style="color:#af5f00;">█</span><span style="color:#af5f00;">█</span><span style="color:#af5f00;">█</span><span style="color:#af5f00;">█</span><span style="color:#af5f00;">█</span><span style="color:#af5f00;">█</span><span style="color:#af5f00;">█</span><span style="color:#af5f00;">█</span><span style="color:#af5f00;">█</span><span style="color:#af5f00;">█</span><span style="color:#af5f00;">█</span><span style="color:#af5f00;">█</span><span style="color:#af5f00;">█</span><span style="color:#af5f00;">█</span><span style="color:#af5f00;">█</span><span style="color:#af5f00;">█</span><span style="color:#af5f00;">█</span><span style="color:#af5f00;">█</span><span style="color:#af5f00;">█</span><span style="color:#af5f00;">█</span><span style="color:#af5f00;">█</span><span style="color:#af5f00;">█</span><span style="color:#af5f00;">█</span><span style="color:#af5f00;">█</span><span style="color:#af5f00;">█</span><span style="color:#af5f00;">█</span><span style="color:#af5f00;">█</span><span style="color:#af5f00;">█</span><span style="color:#af5f00;">█</span><span style="color:#af5f00;">█</span><span style="color:#af5f00;">█</span><span style="color:#af5f00;">█</span><span style="color:#af5f00;">█</span><span style="color:#af5f00;">█</span><span style="color:#af5f00;">█</span><span style="color:#af5f00;">█</span><span style="color:#af5f00;">█</span><span style="color:#af5f00;">█</span><span style="color:#af5f00;">█</span><span style="color:#af5f00;">█</span><span style="color:#af5f00;">█</span><span style="color:#af5f00;">█</span><span style="color:#af5f00;">█</span><span style="color:#af5f00;">█</span><span style="color:#af5f00;">█</span><span style="color:#af5f00;">█</span><span style="color:#af5f00;">█</span><span style="color:#af5f00;">█</span><span style="color:#af5f00;">█</span><span style="color:#af5f00;">█</span><span style="color:#af5f00;">█</span><span style="color:#af5f00;">█</span><span style="color:#af5f00;">█</span><span style="color:#af5f00;">█</span><span style="color:#af5f00;">█</span><span style="color:#af5f00;">█</span><span style="color:#af5f00;">█</span><span style="color:#af5f00;">█</span><span style="color:#af5f00;">█</span><span style="color:#af5f00;">█</span><span style="color:#af5f00;">█</span> <span style="color:#af5f00;">241.33M</span> ⊗⊗
+  2025-09-30 | <span style="color:#af5f00;">█</span><span style="color:#af5f00;">█</span><span style="color:#af5f00;">█</span><span style="color:#af5f00;">█</span><span style="color:#af5f00;">█</span><span style="color:#af5f00;">█</span><span style="color:#af5f00;">█</span><span style="color:#af5f00;">█</span><span style="color:#af5f00;">█</span><span style="color:#af5f00;">█</span><span style="color:#af5f00;">█</span><span style="color:#af5f00;">█</span><span style="color:#af5f00;">█</span><span style="color:#af5f00;">█</span><span style="color:#af5f00;">█</span><span style="color:#af5f00;">█</span><span style="color:#af5f00;">█</span><span style="color:#af5f00;">█</span><span style="color:#af5f00;">█</span><span style="color:#af5f00;">█</span><span style="color:#af5f00;">█</span><span style="color:#af5f00;">█</span><span style="color:#af5f00;">█</span><span style="color:#af5f00;">█</span><span style="color:#af5f00;">█</span><span style="color:#af5f00;">█</span><span style="color:#af5f00;">█</span><span style="color:#af5f00;">█</span><span style="color:#af5f00;">█</span><span style="color:#af5f00;">█</span><span style="color:#af5f00;">█</span><span style="color:#af5f00;">█</span><span style="color:#af5f00;">█</span><span style="color:#af5f00;">█</span><span style="color:#af5f00;">█</span><span style="color:#af5f00;">█</span><span style="color:#af5f00;">█</span><span style="color:#af5f00;">█</span><span style="color:#af5f00;">█</span><span style="color:#af5f00;">█</span><span style="color:#af5f00;">█</span><span style="color:#af5f00;">█</span><span style="color:#af5f00;">█</span><span style="color:#af5f00;">█</span><span style="color:#af5f00;">█</span><span style="color:#af5f00;">█</span><span style="color:#af5f00;">█</span><span style="color:#af5f00;">█</span><span style="color:#af5f00;">█</span><span style="color:#af5f00;">█</span><span style="color:#af5f00;">█</span><span style="color:#af5f00;">█</span><span style="color:#af5f00;">█</span><span style="color:#af5f00;">█</span><span style="color:#af5f00;">█</span><span style="color:#af5f00;">█</span><span style="color:#af5f00;">█</span><span style="color:#af5f00;">█</span><span style="color:#af5f00;">█</span><span style="color:#af5f00;">█</span><span style="color:#af5f00;">█</span><span style="color:#af5f00;">█</span><span style="color:#af5f00;">█</span><span style="color:#af5f00;">█</span><span style="color:#af5f00;">█</span><span style="color:#af5f00;">█</span><span style="color:#af5f00;">█</span><span style="color:#af5f00;">█</span><span style="color:#af5f00;">█</span><span style="color:#af5f00;">█</span><span style="color:#af5f00;">█</span><span style="color:#af5f00;">█</span><span style="color:#af5f00;">█</span><span style="color:#af5f00;">█</span><span style="color:#af5f00;">█</span><span style="color:#af5f00;">█</span><span style="color:#af5f00;">█</span><span style="color:#af5f00;">█</span><span style="color:#af5f00;">█</span><span style="color:#af5f00;">█</span><span style="color:#af5f00;">█</span><span style="color:#af5f00;">█</span><span style="color:#af5f00;">█</span><span style="color:#af5f00;">█</span><span style="color:#af5f00;">█</span><span style="color:#af5f00;">█</span><span style="color:#af5f00;">█</span><span style="color:#af5f00;">█</span><span style="color:#af5f00;">█</span><span style="color:#af5f00;">█</span><span style="color:#af5f00;">█</span><span style="color:#af5f00;">█</span><span style="color:#af5f00;">█</span><span style="color:#af5f00;">█</span><span style="color:#af5f00;">█</span><span style="color:#af5f00;">█</span><span style="color:#af5f00;">█</span><span style="color:#af5f00;">█</span><span style="color:#af5f00;">█</span><span style="color:#af5f00;">█</span><span style="color:#af5f00;">█</span><span style="color:#af5f00;">█</span><span style="color:#af5f00;">█</span><span style="color:#af5f00;">█</span><span style="color:#af5f00;">█</span><span style="color:#af5f00;">█</span><span style="color:#af5f00;">█</span><span style="color:#af5f00;">█</span><span style="color:#af5f00;">█</span><span style="color:#af5f00;">█</span><span style="color:#af5f00;">█</span><span style="color:#af5f00;">█</span><span style="color:#af5f00;">█</span><span style="color:#af5f00;">█</span><span style="color:#af5f00;">█</span><span style="color:#af5f00;">█</span><span style="color:#af5f00;">█</span><span style="color:#af5f00;">█</span><span style="color:#af5f00;">█</span><span style="color:#af5f00;">█</span><span style="color:#af5f00;">█</span><span style="color:#af5f00;">█</span><span style="color:#af5f00;">█</span> <span style="color:#af5f00;">275.65M</span> ⊗⊗
+
+               |                             |                              |                              |                              |
+               0.00M                        68.91M                         137.83M                        206.74M                        275.65M
+</pre>
+        </div>
+        
+        <div class="chart-section">
+            <h2>assets</h2>
+            <pre>Using alias: assets -&gt; totalAssets [quarterly] [balance]
+Using alias: liabil -&gt; totalLiabilities [quarterly] [balance]
+Using alias: equity -&gt; totalShareholderEquity [quarterly] [balance]
+
+
+Data Completeness:
+------------------------------------------------------------
+  ⚠️  SPARSE totalAssets                         2/6 dates (33%)
+  ⚠️  SPARSE totalLiabilities                    2/6 dates (33%)
+  ✅ totalShareholderEquity              6/6 dates (100%)
+
+Plot for ALH-SEC (in B)
+  reports: quarterlyReports
+  showing last 20 entries
+  Legend: <span style="font-weight:bold;"><span style="color:#e5e5e5;">totalAssets</span></span>, <span style="font-weight:bold;"><span style="color:#ff87ff;">totalLiabilities</span></span>, <span style="font-weight:bold;"><span style="color:#ffd700;">totalShareholderEquity</span></span>
+
+               -3.11B                        -1.55B                          0.00B                         1.55B                           3.11B
+               |                             |                              |                             |                               |
+
+  2023-12-31 |                                                              |<span style="color:#ffd700;">█</span><span style="color:#ffd700;">█</span><span style="color:#ffd700;">█</span><span style="color:#ffd700;">█</span><span style="color:#ffd700;">█</span><span style="color:#ffd700;">█</span><span style="color:#ffd700;">█</span><span style="color:#ffd700;">█</span><span style="color:#ffd700;">█</span><span style="color:#ffd700;">█</span>  <span style="color:#ffd700;">0.55B</span> ⊗⊗
+  2024-06-30 |                                                              |<span style="color:#ffd700;">█</span><span style="color:#ffd700;">█</span><span style="color:#ffd700;">█</span><span style="color:#ffd700;">█</span><span style="color:#ffd700;">█</span><span style="color:#ffd700;">█</span><span style="color:#ffd700;">█</span><span style="color:#ffd700;">█</span><span style="color:#ffd700;">█</span><span style="color:#ffd700;">█</span><span style="color:#ffd700;">█</span>  <span style="color:#ffd700;">0.60B</span> ⊗⊗
+  2024-09-30 |                                                        <span style="color:#ffd700;">█</span><span style="color:#ffd700;">█</span><span style="color:#ffd700;">█</span><span style="color:#ffd700;">█</span><span style="color:#ffd700;">█</span><span style="color:#ffd700;">█</span>| <span style="color:#ffd700;">-0.28B</span> ⊗⊗
+  2024-12-31 |                                                         <span style="color:#ffd700;">█</span><span style="color:#ffd700;">█</span><span style="color:#ffd700;">█</span><span style="color:#ffd700;">█</span><span style="color:#ffd700;">█</span>|<span style="color:#e5e5e5;">█</span><span style="color:#e5e5e5;">█</span><span style="color:#e5e5e5;">█</span><span style="color:#e5e5e5;">█</span><span style="color:#e5e5e5;">█</span><span style="color:#e5e5e5;">█</span><span style="color:#e5e5e5;">█</span><span style="color:#e5e5e5;">█</span><span style="color:#e5e5e5;">█</span><span style="color:#e5e5e5;">█</span><span style="color:#e5e5e5;">█</span><span style="color:#e5e5e5;">█</span><span style="color:#e5e5e5;">█</span><span style="color:#e5e5e5;">█</span><span style="color:#e5e5e5;">█</span><span style="color:#e5e5e5;">█</span><span style="color:#e5e5e5;">█</span><span style="color:#e5e5e5;">█</span><span style="color:#e5e5e5;">█</span><span style="color:#e5e5e5;">█</span><span style="color:#e5e5e5;">█</span><span style="color:#e5e5e5;">█</span><span style="color:#e5e5e5;">█</span><span style="color:#e5e5e5;">█</span><span style="color:#e5e5e5;">█</span><span style="color:#e5e5e5;">█</span><span style="color:#e5e5e5;">█</span><span style="color:#e5e5e5;">█</span><span style="color:#e5e5e5;">█</span><span style="color:#e5e5e5;">█</span><span style="color:#e5e5e5;">█</span><span style="color:#e5e5e5;">█</span><span style="color:#e5e5e5;">█</span><span style="color:#e5e5e5;">█</span><span style="color:#e5e5e5;">█</span><span style="color:#e5e5e5;">█</span><span style="color:#e5e5e5;">█</span><span style="color:#e5e5e5;">█</span><span style="color:#e5e5e5;">█</span><span style="color:#e5e5e5;">█</span><span style="color:#e5e5e5;">█</span><span style="color:#e5e5e5;">█</span><span style="color:#e5e5e5;">█</span><span style="color:#e5e5e5;">█</span><span style="color:#e5e5e5;">█</span><span style="color:#e5e5e5;">█</span><span style="color:#e5e5e5;">█</span><span style="color:#e5e5e5;">█</span><span style="color:#e5e5e5;">█</span><span style="color:#e5e5e5;">█</span><span style="color:#e5e5e5;">█</span><span style="color:#e5e5e5;">█</span><span style="color:#e5e5e5;">█</span><span style="color:#e5e5e5;">█</span><span style="color:#e5e5e5;">█</span><span style="color:#ff87ff;">█</span><span style="color:#ff87ff;">█</span><span style="color:#ff87ff;">█</span><span style="color:#ff87ff;">█</span><span style="color:#ff87ff;">█</span>  <span style="color:#ff87ff;">3.11B</span>
+  2025-06-30 |                                                           <span style="color:#ffd700;">█</span><span style="color:#ffd700;">█</span><span style="color:#ffd700;">█</span>| <span style="color:#ffd700;">-0.18B</span> ⊗⊗
+  2025-09-30 |                                                           <span style="color:#ffd700;">█</span><span style="color:#ffd700;">█</span><span style="color:#ffd700;">█</span>|<span style="color:#e5e5e5;">█</span><span style="color:#e5e5e5;">█</span><span style="color:#e5e5e5;">█</span><span style="color:#e5e5e5;">█</span><span style="color:#e5e5e5;">█</span><span style="color:#e5e5e5;">█</span><span style="color:#e5e5e5;">█</span><span style="color:#e5e5e5;">█</span><span style="color:#e5e5e5;">█</span><span style="color:#e5e5e5;">█</span><span style="color:#e5e5e5;">█</span><span style="color:#e5e5e5;">█</span><span style="color:#e5e5e5;">█</span><span style="color:#e5e5e5;">█</span><span style="color:#e5e5e5;">█</span><span style="color:#e5e5e5;">█</span><span style="color:#e5e5e5;">█</span><span style="color:#e5e5e5;">█</span><span style="color:#e5e5e5;">█</span><span style="color:#e5e5e5;">█</span><span style="color:#e5e5e5;">█</span><span style="color:#e5e5e5;">█</span><span style="color:#e5e5e5;">█</span><span style="color:#e5e5e5;">█</span><span style="color:#e5e5e5;">█</span><span style="color:#e5e5e5;">█</span><span style="color:#e5e5e5;">█</span><span style="color:#e5e5e5;">█</span><span style="color:#e5e5e5;">█</span><span style="color:#e5e5e5;">█</span><span style="color:#e5e5e5;">█</span><span style="color:#e5e5e5;">█</span><span style="color:#e5e5e5;">█</span><span style="color:#e5e5e5;">█</span><span style="color:#e5e5e5;">█</span><span style="color:#e5e5e5;">█</span><span style="color:#e5e5e5;">█</span><span style="color:#e5e5e5;">█</span><span style="color:#e5e5e5;">█</span><span style="color:#e5e5e5;">█</span><span style="color:#e5e5e5;">█</span><span style="color:#e5e5e5;">█</span><span style="color:#e5e5e5;">█</span><span style="color:#e5e5e5;">█</span><span style="color:#e5e5e5;">█</span><span style="color:#e5e5e5;">█</span><span style="color:#e5e5e5;">█</span><span style="color:#e5e5e5;">█</span><span style="color:#e5e5e5;">█</span><span style="color:#e5e5e5;">█</span><span style="color:#e5e5e5;">█</span><span style="color:#e5e5e5;">█</span><span style="color:#e5e5e5;">█</span><span style="color:#e5e5e5;">█</span><span style="color:#e5e5e5;">█</span><span style="color:#e5e5e5;">█</span><span style="color:#ff87ff;">█</span><span style="color:#ff87ff;">█</span><span style="color:#ff87ff;">█</span>  <span style="color:#ff87ff;">3.04B</span>
+
+               |                             |                              |                             |                               |
+               -3.11B                        -1.55B                          0.00B                         1.55B                           3.11B
+</pre>
+        </div>
+        
+
+        <footer>
+            Generated by StocksFin
+        </footer>
+    </div>
+</body>
+</html>
