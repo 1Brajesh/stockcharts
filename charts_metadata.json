@@ -2087,26 +2087,6 @@
         "industry": "GOLD"
       }
     },
-    "IPG": {
-      "presets": {
-        "revenue": {
-          "updated": "Jan 21, 2026 02:37 PM"
-        },
-        "costs": {
-          "updated": "Jan 21, 2026 02:37 PM"
-        },
-        "cash": {
-          "updated": "Jan 21, 2026 02:37 PM"
-        },
-        "FCF": {
-          "updated": "Jan 21, 2026 02:37 PM"
-        },
-        "assets": {
-          "updated": "Jan 21, 2026 02:37 PM"
-        }
-      },
-      "last_updated": "2026-01-21T14:37:01.006024"
-    },
     "ZM": {
       "presets": {
         "revenue": {
