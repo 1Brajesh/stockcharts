@@ -2134,6 +2134,33 @@
         "sector": "",
         "industry": ""
       }
+    },
+    "SRFM": {
+      "presets": {
+        "revenue": {
+          "updated": "Jan 21, 2026 11:00 PM"
+        },
+        "costs": {
+          "updated": "Jan 21, 2026 11:00 PM"
+        },
+        "cash": {
+          "updated": "Jan 21, 2026 11:00 PM"
+        },
+        "FCF": {
+          "updated": "Jan 21, 2026 11:00 PM"
+        },
+        "assets": {
+          "updated": "Jan 21, 2026 11:00 PM"
+        }
+      },
+      "last_updated": "2026-01-21T23:00:22.142656",
+      "company": {
+        "name": "Surf Air Mobility Inc.",
+        "market_cap": "$164.38M",
+        "description": "None",
+        "sector": "INDUSTRIALS",
+        "industry": "AIRLINES"
+      }
     }
   }
 }
