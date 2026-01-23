@@ -2161,6 +2161,33 @@
         "sector": "INDUSTRIALS",
         "industry": "AIRLINES"
       }
+    },
+    "BKE": {
+      "presets": {
+        "revenue": {
+          "updated": "Jan 23, 2026 02:18 PM"
+        },
+        "costs": {
+          "updated": "Jan 23, 2026 02:18 PM"
+        },
+        "cash": {
+          "updated": "Jan 23, 2026 02:18 PM"
+        },
+        "FCF": {
+          "updated": "Jan 23, 2026 02:18 PM"
+        },
+        "assets": {
+          "updated": "Jan 23, 2026 02:18 PM"
+        }
+      },
+      "last_updated": "2026-01-23T14:18:46.781084",
+      "company": {
+        "name": "Buckle Inc",
+        "market_cap": "$2.70B",
+        "description": "Buckle, Inc. (BKE) is a leading specialty retailer in the U.S. focused on casual apparel, footwear, and accessories for the young adult demographic. Headquartered in Kearney, Nebraska, the company operates an extensive network of stores that enhance the shopping experience through a curated selection of both recognized brands and its own proprietary labels. Buckle's dedication to high-quality products and exceptional customer service cultivates strong brand loyalty, positioning the company for continued growth in a competitive retail environment as consumer preferences evolve.",
+        "sector": "CONSUMER CYCLICAL",
+        "industry": "APPAREL RETAIL"
+      }
     }
   }
 }
