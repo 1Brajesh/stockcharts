@@ -2188,6 +2188,33 @@
         "sector": "CONSUMER CYCLICAL",
         "industry": "APPAREL RETAIL"
       }
+    },
+    "BBAI": {
+      "presets": {
+        "revenue": {
+          "updated": "Jan 24, 2026 12:12 AM"
+        },
+        "costs": {
+          "updated": "Jan 24, 2026 12:12 AM"
+        },
+        "cash": {
+          "updated": "Jan 24, 2026 12:12 AM"
+        },
+        "FCF": {
+          "updated": "Jan 24, 2026 12:12 AM"
+        },
+        "assets": {
+          "updated": "Jan 24, 2026 12:12 AM"
+        }
+      },
+      "last_updated": "2026-01-24T00:12:13.502444",
+      "company": {
+        "name": "BigBearai Holdings Inc",
+        "market_cap": "$2.63B",
+        "description": "None",
+        "sector": "TECHNOLOGY",
+        "industry": "INFORMATION TECHNOLOGY SERVICES"
+      }
     }
   }
 }
