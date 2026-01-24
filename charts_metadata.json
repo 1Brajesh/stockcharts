@@ -2242,6 +2242,33 @@
         "sector": "FINANCIAL SERVICES",
         "industry": "CAPITAL MARKETS"
       }
+    },
+    "AMD": {
+      "presets": {
+        "revenue": {
+          "updated": "Jan 24, 2026 01:43 AM"
+        },
+        "costs": {
+          "updated": "Jan 24, 2026 01:43 AM"
+        },
+        "cash": {
+          "updated": "Jan 24, 2026 01:43 AM"
+        },
+        "FCF": {
+          "updated": "Jan 24, 2026 01:43 AM"
+        },
+        "assets": {
+          "updated": "Jan 24, 2026 01:43 AM"
+        }
+      },
+      "last_updated": "2026-01-24T01:43:15.681452",
+      "company": {
+        "name": "Advanced Micro Devices Inc",
+        "market_cap": "$354.15B",
+        "description": "Advanced Micro Devices, Inc. (AMD) is a prominent American semiconductor company based in Santa Clara, California, renowned for its innovative microprocessors, graphics processors, and motherboard chipsets. Catering to diverse markets, including data centers, enterprise solutions, and consumer electronics, AMD's commitment to high-performance computing has positioned it as a significant force in the rapidly evolving semiconductor industry. The company's strategic focus on advancing technology to meet the dynamic needs of both businesses and consumers underscores its potential for continued growth and leadership in the sector.",
+        "sector": "TECHNOLOGY",
+        "industry": "SEMICONDUCTORS"
+      }
     }
   }
 }
