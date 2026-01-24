@@ -2215,6 +2215,33 @@
         "sector": "TECHNOLOGY",
         "industry": "INFORMATION TECHNOLOGY SERVICES"
       }
+    },
+    "MARA": {
+      "presets": {
+        "revenue": {
+          "updated": "Jan 24, 2026 01:41 AM"
+        },
+        "costs": {
+          "updated": "Jan 24, 2026 01:41 AM"
+        },
+        "cash": {
+          "updated": "Jan 24, 2026 01:41 AM"
+        },
+        "FCF": {
+          "updated": "Jan 24, 2026 01:41 AM"
+        },
+        "assets": {
+          "updated": "Jan 24, 2026 01:41 AM"
+        }
+      },
+      "last_updated": "2026-01-24T01:41:56.363833",
+      "company": {
+        "name": "Marathon Digital Holdings Inc",
+        "market_cap": "$4.47B",
+        "description": "Marathon Digital Holdings, Inc. is a leading cryptocurrency mining company headquartered in Las Vegas, Nevada, that plays a critical role in the blockchain ecosystem. Leveraging cutting-edge technology and operational efficiency, Marathon seeks to maximize its mining output while effectively managing costs in the volatile cryptocurrency market. The company's focus on strategic partnerships and sustainable practices positions it well to capitalize on the burgeoning demand for digital assets and decentralized finance solutions, solidifying its status as a pivotal player in the industry.",
+        "sector": "FINANCIAL SERVICES",
+        "industry": "CAPITAL MARKETS"
+      }
     }
   }
 }
