@@ -861,22 +861,22 @@
     "TTD": {
       "presets": {
         "costs": {
-          "updated": "Jan 20, 2026 12:26 AM"
+          "updated": "Jan 24, 2026 10:43 AM"
         },
         "revenue": {
-          "updated": "Jan 20, 2026 12:26 AM"
+          "updated": "Jan 24, 2026 10:43 AM"
         },
         "cash": {
-          "updated": "Jan 20, 2026 12:26 AM"
+          "updated": "Jan 24, 2026 10:43 AM"
         },
         "FCF": {
-          "updated": "Jan 20, 2026 12:26 AM"
+          "updated": "Jan 24, 2026 10:43 AM"
         },
         "assets": {
-          "updated": "Jan 20, 2026 12:26 AM"
+          "updated": "Jan 24, 2026 10:43 AM"
         }
       },
-      "last_updated": "2026-01-20T00:26:23.651168",
+      "last_updated": "2026-01-24T10:43:56.824193",
       "company": {
         "name": "Trade Desk Inc",
         "market_cap": "$19.58B",
