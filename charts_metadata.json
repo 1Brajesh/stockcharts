@@ -2219,22 +2219,22 @@
     "MARA": {
       "presets": {
         "revenue": {
-          "updated": "Jan 24, 2026 01:41 AM"
+          "updated": "Jan 24, 2026 01:49 AM"
         },
         "costs": {
-          "updated": "Jan 24, 2026 01:41 AM"
+          "updated": "Jan 24, 2026 01:49 AM"
         },
         "cash": {
-          "updated": "Jan 24, 2026 01:41 AM"
+          "updated": "Jan 24, 2026 01:49 AM"
         },
         "FCF": {
-          "updated": "Jan 24, 2026 01:41 AM"
+          "updated": "Jan 24, 2026 01:49 AM"
         },
         "assets": {
-          "updated": "Jan 24, 2026 01:41 AM"
+          "updated": "Jan 24, 2026 01:49 AM"
         }
       },
-      "last_updated": "2026-01-24T01:41:56.363833",
+      "last_updated": "2026-01-24T01:49:04.523170",
       "company": {
         "name": "Marathon Digital Holdings Inc",
         "market_cap": "$4.47B",
