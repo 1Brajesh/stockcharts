@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GLD - SPDR Gold Shares</title>
+    <style>
+        * { box-sizing: border-box; }
+        body {
+            background-color: #0d1117;
+            color: #c9d1d9;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;
+            font-size: 14px;
+            margin: 0;
+            padding: 20px;
+            line-height: 1.5;
+        }
+        .container { max-width: 900px; margin: 0 auto; }
+        header {
+            border-bottom: 1px solid #30363d;
+            padding-bottom: 16px;
+            margin-bottom: 24px;
+        }
+        h1 { color: #58a6ff; margin: 0 0 8px 0; font-size: 24px; }
+        .subtitle { color: #8b949e; font-size: 16px; }
+        .back-link {
+            color: #58a6ff;
+            text-decoration: none;
+            font-size: 13px;
+        }
+        .back-link:hover { text-decoration: underline; }
+        .info-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+            gap: 16px;
+            margin-bottom: 32px;
+        }
+        .info-box {
+            background: #161b22;
+            border: 1px solid #30363d;
+            border-radius: 6px;
+            padding: 12px;
+        }
+        .info-label { color: #8b949e; font-size: 12px; }
+        .info-value { font-size: 18px; font-weight: 600; color: #c9d1d9; }
+        .info-value.positive { color: #3fb950; }
+        .info-value.negative { color: #f85149; }
+        h2 {
+            color: #c9d1d9;
+            font-size: 16px;
+            margin: 24px 0 12px 0;
+            border-bottom: 1px solid #30363d;
+            padding-bottom: 8px;
+        }
+        .holdings-table { margin-bottom: 32px; }
+        .holding-row {
+            display: grid;
+            grid-template-columns: 30px 60px 1fr 60px;
+            gap: 8px;
+            padding: 8px 0;
+            border-bottom: 1px solid #21262d;
+            align-items: center;
+            position: relative;
+        }
+        .holding-rank { color: #8b949e; }
+        .holding-ticker { font-weight: 600; color: #58a6ff; }
+        .holding-name { color: #8b949e; font-size: 13px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+        .holding-weight { text-align: right; }
+        .holding-bar {
+            position: absolute;
+            left: 100px;
+            height: 4px;
+            background: #238636;
+            border-radius: 2px;
+            opacity: 0.3;
+            top: 50%;
+            transform: translateY(-50%);
+        }
+        .price-chart { margin-bottom: 32px; }
+        .price-row {
+            display: grid;
+            grid-template-columns: 80px 1fr 80px;
+            gap: 12px;
+            padding: 6px 0;
+            align-items: center;
+        }
+        .price-date { color: #8b949e; font-size: 13px; }
+        .price-bar-container {
+            background: #21262d;
+            border-radius: 3px;
+            height: 20px;
+            overflow: hidden;
+        }
+        .price-bar {
+            height: 100%;
+            background: linear-gradient(90deg, #238636, #3fb950);
+            border-radius: 3px;
+        }
+        .price-value { text-align: right; font-weight: 500; }
+        .returns-summary {
+            text-align: right;
+            font-size: 15px;
+            font-weight: 600;
+            margin-top: 12px;
+            padding: 8px;
+            border-radius: 6px;
+            background: #161b22;
+        }
+        .returns-summary.positive { color: #3fb950; }
+        .returns-summary.negative { color: #f85149; }
+        .cache-info {
+            color: #8b949e;
+            font-size: 12px;
+            margin-top: 32px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <a href="etfs.html" class="back-link">&larr; Back to ETF Dashboard</a>
+            <h1>GLD</h1>
+            <div class="subtitle">SPDR Gold Shares</div>
+        </header>
+
+        <div class="info-grid">
+            <div class="info-box">
+                <div class="info-label">Price</div>
+                <div class="info-value">$464.70</div>
+            </div>
+            <div class="info-box">
+                <div class="info-label">AUM</div>
+                <div class="info-value">$148.2B</div>
+            </div>
+            <div class="info-box">
+                <div class="info-label">Expense Ratio</div>
+                <div class="info-value">N/A</div>
+            </div>
+            <div class="info-box">
+                <div class="info-label">52W Range</div>
+                <div class="info-value">$253.30 - $469.28</div>
+            </div>
+            <div class="info-box">
+                <div class="info-label">YTD</div>
+                <div class="info-value ">N/A</div>
+            </div>
+        </div>
+
+        
+        <h2>Price History (10 Years)</h2>
+<div class="price-chart">
+<div class="price-row">
+                    <span class="price-date">2016-02</span>
+                    <div class="price-bar-container">
+                        <div class="price-bar" style="width: 25.53044895053552%"></div>
+                    </div>
+                    <span class="price-value">$119</span>
+                </div>
+<div class="price-row">
+                    <span class="price-date">2016-12</span>
+                    <div class="price-bar-container">
+                        <div class="price-bar" style="width: 23.587260109973606%"></div>
+                    </div>
+                    <span class="price-value">$110</span>
+                </div>
+<div class="price-row">
+                    <span class="price-date">2017-10</span>
+                    <div class="price-bar-container">
+                        <div class="price-bar" style="width: 25.967289649044577%"></div>
+                    </div>
+                    <span class="price-value">$121</span>
+                </div>
+<div class="price-row">
+                    <span class="price-date">2018-08</span>
+                    <div class="price-bar-container">
+                        <div class="price-bar" style="width: 24.426511546046605%"></div>
+                    </div>
+                    <span class="price-value">$114</span>
+                </div>
+<div class="price-row">
+                    <span class="price-date">2019-06</span>
+                    <div class="price-bar-container">
+                        <div class="price-bar" style="width: 28.66365256063292%"></div>
+                    </div>
+                    <span class="price-value">$133</span>
+                </div>
+<div class="price-row">
+                    <span class="price-date">2020-04</span>
+                    <div class="price-bar-container">
+                        <div class="price-bar" style="width: 34.17258422214327%"></div>
+                    </div>
+                    <span class="price-value">$159</span>
+                </div>
+<div class="price-row">
+                    <span class="price-date">2021-02</span>
+                    <div class="price-bar-container">
+                        <div class="price-bar" style="width: 34.82031274113779%"></div>
+                    </div>
+                    <span class="price-value">$162</span>
+                </div>
+<div class="price-row">
+                    <span class="price-date">2021-12</span>
+                    <div class="price-bar-container">
+                        <div class="price-bar" style="width: 36.789326925539605%"></div>
+                    </div>
+                    <span class="price-value">$171</span>
+                </div>
+<div class="price-row">
+                    <span class="price-date">2022-10</span>
+                    <div class="price-bar-container">
+                        <div class="price-bar" style="width: 32.689907396522955%"></div>
+                    </div>
+                    <span class="price-value">$152</span>
+                </div>
+<div class="price-row">
+                    <span class="price-date">2023-08</span>
+                    <div class="price-bar-container">
+                        <div class="price-bar" style="width: 38.738971281166904%"></div>
+                    </div>
+                    <span class="price-value">$180</span>
+                </div>
+<div class="price-row">
+                    <span class="price-date">2024-06</span>
+                    <div class="price-bar-container">
+                        <div class="price-bar" style="width: 46.268557964023806%"></div>
+                    </div>
+                    <span class="price-value">$215</span>
+                </div>
+<div class="price-row">
+                    <span class="price-date">2025-04</span>
+                    <div class="price-bar-container">
+                        <div class="price-bar" style="width: 65.36905122316577%"></div>
+                    </div>
+                    <span class="price-value">$304</span>
+                </div>
+<div class="price-row">
+                    <span class="price-date">2026-01</span>
+                    <div class="price-bar-container">
+                        <div class="price-bar" style="width: 100.0%"></div>
+                    </div>
+                    <span class="price-value">$465</span>
+                </div>
+</div>
+<div class="returns-summary positive">10Y Return: +292% (CAGR 14.6%)</div>
+        <div class="cache-info">Data cached: 2026-01-26 22:46</div>
+    </div>
+</body>
+</html>
