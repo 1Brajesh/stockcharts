@@ -2296,6 +2296,33 @@
         "sector": "FINANCIAL SERVICES",
         "industry": "CAPITAL MARKETS"
       }
+    },
+    "NBIS": {
+      "presets": {
+        "revenue": {
+          "updated": "Jan 28, 2026 12:14 AM"
+        },
+        "costs": {
+          "updated": "Jan 28, 2026 12:14 AM"
+        },
+        "cash": {
+          "updated": "Jan 28, 2026 12:14 AM"
+        },
+        "FCF": {
+          "updated": "Jan 28, 2026 12:14 AM"
+        },
+        "assets": {
+          "updated": "Jan 28, 2026 12:14 AM"
+        }
+      },
+      "last_updated": "2026-01-28T00:14:17.897612",
+      "company": {
+        "name": "Nebius Group N.V.",
+        "market_cap": "$22.06B",
+        "description": "None",
+        "sector": "COMMUNICATION SERVICES",
+        "industry": "INTERNET CONTENT & INFORMATION"
+      }
     }
   }
 }
