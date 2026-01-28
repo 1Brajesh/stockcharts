@@ -1719,22 +1719,22 @@
     "ROK": {
       "presets": {
         "revenue": {
-          "updated": "Jan 18, 2026 11:08 AM"
+          "updated": "Jan 28, 2026 12:13 AM"
         },
         "costs": {
-          "updated": "Jan 18, 2026 11:08 AM"
+          "updated": "Jan 28, 2026 12:13 AM"
         },
         "cash": {
-          "updated": "Jan 18, 2026 11:08 AM"
+          "updated": "Jan 28, 2026 12:13 AM"
         },
         "FCF": {
-          "updated": "Jan 18, 2026 11:08 AM"
+          "updated": "Jan 28, 2026 12:13 AM"
         },
         "assets": {
-          "updated": "Jan 18, 2026 11:08 AM"
+          "updated": "Jan 28, 2026 12:13 AM"
         }
       },
-      "last_updated": "2026-01-18T11:08:03.782061",
+      "last_updated": "2026-01-28T00:13:11.600705",
       "company": {
         "name": "Rockwell Automation Inc",
         "market_cap": "$46.87B",
