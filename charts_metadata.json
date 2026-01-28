@@ -1125,22 +1125,22 @@
     "CRWV": {
       "presets": {
         "costs": {
-          "updated": "Jan 19, 2026 04:25 PM"
+          "updated": "Jan 28, 2026 12:14 AM"
         },
         "revenue": {
-          "updated": "Jan 19, 2026 04:25 PM"
+          "updated": "Jan 28, 2026 12:14 AM"
         },
         "cash": {
-          "updated": "Jan 19, 2026 04:25 PM"
+          "updated": "Jan 28, 2026 12:14 AM"
         },
         "FCF": {
-          "updated": "Jan 19, 2026 04:25 PM"
+          "updated": "Jan 28, 2026 12:14 AM"
         },
         "assets": {
-          "updated": "Jan 19, 2026 04:25 PM"
+          "updated": "Jan 28, 2026 12:14 AM"
         }
       },
-      "last_updated": "2026-01-19T16:25:51.998965",
+      "last_updated": "2026-01-28T00:14:16.006087",
       "company": {
         "name": "CoreWeave, Inc. Class A Common Stock",
         "market_cap": "$60.14B",
