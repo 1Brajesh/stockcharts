@@ -1692,22 +1692,22 @@
     "SYM": {
       "presets": {
         "revenue": {
-          "updated": "Jan 28, 2026 12:13 AM"
+          "updated": "Jan 28, 2026 12:14 AM"
         },
         "costs": {
-          "updated": "Jan 28, 2026 12:13 AM"
+          "updated": "Jan 28, 2026 12:14 AM"
         },
         "cash": {
-          "updated": "Jan 28, 2026 12:13 AM"
+          "updated": "Jan 28, 2026 12:14 AM"
         },
         "FCF": {
-          "updated": "Jan 28, 2026 12:13 AM"
+          "updated": "Jan 28, 2026 12:14 AM"
         },
         "assets": {
-          "updated": "Jan 28, 2026 12:13 AM"
+          "updated": "Jan 28, 2026 12:14 AM"
         }
       },
-      "last_updated": "2026-01-28T00:13:12.681040",
+      "last_updated": "2026-01-28T00:14:15.082814",
       "company": {
         "name": "Symbotic Inc",
         "market_cap": "$41.30B",
