@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IREN - Stock Charts</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+        body {
+            background-color: #0d1117;
+            color: #c9d1d9;
+            font-family: 'SF Mono', 'Monaco', 'Menlo', 'Ubuntu Mono', monospace;
+            font-size: 13px;
+            margin: 0;
+            padding: 20px;
+            line-height: 1.5;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        header {
+            border-bottom: 1px solid #30363d;
+            padding-bottom: 16px;
+            margin-bottom: 24px;
+        }
+        h1 {
+            color: #58a6ff;
+            margin: 0 0 8px 0;
+            font-size: 24px;
+        }
+        .timestamp {
+            color: #8b949e;
+            font-size: 12px;
+        }
+        .back-link {
+            color: #58a6ff;
+            text-decoration: none;
+            font-size: 14px;
+        }
+        .back-link:hover {
+            text-decoration: underline;
+        }
+        .chart-section {
+            background-color: #161b22;
+            border: 1px solid #30363d;
+            border-radius: 6px;
+            margin-bottom: 24px;
+            overflow: hidden;
+        }
+        .chart-section h2 {
+            background-color: #21262d;
+            color: #c9d1d9;
+            margin: 0;
+            padding: 12px 16px;
+            font-size: 14px;
+            font-weight: 600;
+            border-bottom: 1px solid #30363d;
+        }
+        .chart-section pre {
+            margin: 0;
+            padding: 16px;
+            overflow-x: auto;
+            white-space: pre;
+        }
+        footer {
+            margin-top: 32px;
+            padding-top: 16px;
+            border-top: 1px solid #30363d;
+            color: #8b949e;
+            font-size: 12px;
+        }
+        .company-info {
+            background-color: #161b22;
+            border: 1px solid #30363d;
+            border-radius: 6px;
+            padding: 20px;
+            margin-bottom: 24px;
+        }
+        .company-info h2 {
+            color: #c9d1d9;
+            margin: 0 0 12px 0;
+            font-size: 18px;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;
+        }
+        .company-meta {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 16px;
+            margin-bottom: 16px;
+            font-size: 13px;
+        }
+        .company-meta .market-cap {
+            color: #58a6ff;
+        }
+        .company-meta .market-cap strong {
+            color: #7ee787;
+        }
+        .company-meta .sector,
+        .company-meta .industry {
+            color: #8b949e;
+            background-color: #21262d;
+            padding: 2px 8px;
+            border-radius: 4px;
+        }
+        .company-info .description {
+            color: #8b949e;
+            margin: 0;
+            font-size: 13px;
+            line-height: 1.6;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <a href="index.html" class="back-link">&larr; Back to Index</a>
+            <h1>IREN</h1>
+            <div class="timestamp">Updated: Jan 28, 2026 12:14 AM</div>
+        </header>
+
+        
+        <div class="company-info">
+            <h2>IREN Ltd</h2>
+            <div class="company-meta">
+                <span class="market-cap">Market Cap: <strong>$17.19B</strong></span>
+                <span class="sector">FINANCIAL SERVICES</span>
+                <span class="industry">CAPITAL MARKETS</span>
+            </div>
+            <p class="description">None</p>
+        </div>
+        
+
+        
+        <div class="chart-section">
+            <h2>revenue</h2>
+            <pre>Using alias: revenue -&gt; totalRevenue [quarterly] [income]
+Using alias: profit -&gt; grossProfit [quarterly] [income]
+Using alias: income -&gt; netIncome [quarterly] [income]
+
+
+Data Completeness:
+------------------------------------------------------------
+  ✅ totalRevenue                        20/20 dates (100%)
+  ✅ grossProfit                         20/20 dates (100%)
+  ✅ netIncome                           20/20 dates (100%)
+
+Plot for IREN (in M)
+  reports: quarterlyReports
+  showing last 20 entries
+  Legend: <span style="font-weight:bold;"><span style="color:#cd00cd;">totalRevenue</span></span>, <span style="font-weight:bold;"><span style="color:#ff8700;">grossProfit</span></span>, <span style="font-weight:bold;"><span style="color:#00ff00;">netIncome</span></span>
+
+               -489.09M                 -244.54M                   0.00M                   244.54M                  489.09M
+               |                        |                        |                        |                        |
+
+  2020-12-31 |                                                  <span style="color:#00ff00;">█</span>|  <span style="color:#00ff00;">-1.31M</span>
+  2021-03-31 |                                                   |  <span style="color:#cd00cd;">2.78M</span>
+  2021-06-30 |                                             <span style="color:#00ff00;">█</span><span style="color:#00ff00;">█</span><span style="color:#00ff00;">█</span><span style="color:#00ff00;">█</span><span style="color:#00ff00;">█</span><span style="color:#00ff00;">█</span>|  <span style="color:#00ff00;">-59.22M</span>
+  2021-09-30 | <span style="color:#00ff00;">█</span><span style="color:#00ff00;">█</span><span style="color:#00ff00;">█</span><span style="color:#00ff00;">█</span><span style="color:#00ff00;">█</span><span style="color:#00ff00;">█</span><span style="color:#00ff00;">█</span><span style="color:#00ff00;">█</span><span style="color:#00ff00;">█</span><span style="color:#00ff00;">█</span><span style="color:#00ff00;">█</span><span style="color:#00ff00;">█</span><span style="color:#00ff00;">█</span><span style="color:#00ff00;">█</span><span style="color:#00ff00;">█</span><span style="color:#00ff00;">█</span><span style="color:#00ff00;">█</span><span style="color:#00ff00;">█</span><span style="color:#00ff00;">█</span><span style="color:#00ff00;">█</span><span style="color:#00ff00;">█</span><span style="color:#00ff00;">█</span><span style="color:#00ff00;">█</span><span style="color:#00ff00;">█</span><span style="color:#00ff00;">█</span><span style="color:#00ff00;">█</span><span style="color:#00ff00;">█</span><span style="color:#00ff00;">█</span><span style="color:#00ff00;">█</span><span style="color:#00ff00;">█</span><span style="color:#00ff00;">█</span><span style="color:#00ff00;">█</span><span style="color:#00ff00;">█</span><span style="color:#00ff00;">█</span><span style="color:#00ff00;">█</span><span style="color:#00ff00;">█</span><span style="color:#00ff00;">█</span><span style="color:#00ff00;">█</span><span style="color:#00ff00;">█</span><span style="color:#00ff00;">█</span><span style="color:#00ff00;">█</span><span style="color:#00ff00;">█</span><span style="color:#00ff00;">█</span><span style="color:#00ff00;">█</span><span style="color:#00ff00;">█</span><span style="color:#00ff00;">█</span><span style="color:#00ff00;">█</span><span style="color:#00ff00;">█</span><span style="color:#00ff00;">█</span><span style="color:#00ff00;">█</span>|  <span style="color:#00ff00;">-489.09M</span>
+  2021-12-31 |                                                   |<span style="color:#ff8700;">█</span><span style="color:#00ff00;">█</span><span style="color:#00ff00;">█</span><span style="color:#00ff00;">█</span><span style="color:#00ff00;">█</span><span style="color:#00ff00;">█</span>  <span style="color:#00ff00;">70.32M</span>
+  2022-03-31 |                                                  <span style="color:#00ff00;">█</span>|<span style="color:#cd00cd;">█</span>  <span style="color:#cd00cd;">15.15M</span>
+  2022-06-30 |                                                 <span style="color:#00ff00;">█</span><span style="color:#00ff00;">█</span>|<span style="color:#cd00cd;">█</span>  <span style="color:#00ff00;">-17.73M</span>
+  2022-09-30 |                                           <span style="color:#00ff00;">█</span><span style="color:#00ff00;">█</span><span style="color:#00ff00;">█</span><span style="color:#00ff00;">█</span><span style="color:#00ff00;">█</span><span style="color:#00ff00;">█</span><span style="color:#00ff00;">█</span><span style="color:#00ff00;">█</span>|<span style="color:#cd00cd;">█</span>  <span style="color:#00ff00;">-80.95M</span>
+  2022-12-31 |                                    <span style="color:#00ff00;">█</span><span style="color:#00ff00;">█</span><span style="color:#00ff00;">█</span><span style="color:#00ff00;">█</span><span style="color:#00ff00;">█</span><span style="color:#00ff00;">█</span><span style="color:#00ff00;">█</span><span style="color:#00ff00;">█</span><span style="color:#00ff00;">█</span><span style="color:#00ff00;">█</span><span style="color:#00ff00;">█</span><span style="color:#00ff00;">█</span><span style="color:#00ff00;">█</span><span style="color:#00ff00;">█</span><span style="color:#00ff00;">█</span>|  <span style="color:#00ff00;">-143.95M</span>
+  2023-03-31 |                                                  <span style="color:#00ff00;">█</span>|  <span style="color:#cd00cd;">11.33M</span>
+  2023-06-30 |                                                  <span style="color:#00ff00;">█</span>|<span style="color:#ff8700;">█</span><span style="color:#ff8700;">█</span>  <span style="color:#cd00cd;">34.22M</span>
+  2023-09-30 |                                                  <span style="color:#00ff00;">█</span>|<span style="color:#ff8700;">█</span><span style="color:#ff8700;">█</span><span style="color:#cd00cd;">█</span>  <span style="color:#cd00cd;">34.40M</span>
+  2023-12-31 |                                                  <span style="color:#00ff00;">█</span>|<span style="color:#ff8700;">█</span><span style="color:#ff8700;">█</span><span style="color:#ff8700;">█</span>  <span style="color:#cd00cd;">42.57M</span>
+  2024-03-31 |                                                   |<span style="color:#ff8700;">█</span><span style="color:#ff8700;">█</span><span style="color:#ff8700;">█</span><span style="color:#ff8700;">█</span><span style="color:#cd00cd;">█</span>  <span style="color:#cd00cd;">54.35M</span>
+  2024-06-30 |                                                <span style="color:#00ff00;">█</span><span style="color:#ff8700;">█</span><span style="color:#ff8700;">█</span>|<span style="color:#cd00cd;">█</span><span style="color:#cd00cd;">█</span><span style="color:#cd00cd;">█</span><span style="color:#cd00cd;">█</span><span style="color:#cd00cd;">█</span>  <span style="color:#cd00cd;">55.87M</span>
+  2024-09-30 |                                              <span style="color:#00ff00;">█</span><span style="color:#00ff00;">█</span><span style="color:#00ff00;">█</span><span style="color:#00ff00;">█</span><span style="color:#00ff00;">█</span>|<span style="color:#ff8700;">█</span><span style="color:#ff8700;">█</span><span style="color:#ff8700;">█</span><span style="color:#ff8700;">█</span><span style="color:#cd00cd;">█</span>  <span style="color:#cd00cd;">54.39M</span>
+  2024-12-31 |                                                   |<span style="color:#00ff00;">█</span><span style="color:#ff8700;">█</span><span style="color:#ff8700;">█</span><span style="color:#ff8700;">█</span><span style="color:#ff8700;">█</span><span style="color:#ff8700;">█</span><span style="color:#ff8700;">█</span><span style="color:#ff8700;">█</span><span style="color:#ff8700;">█</span><span style="color:#ff8700;">█</span><span style="color:#cd00cd;">█</span>  <span style="color:#cd00cd;">117.89M</span>
+  2025-03-31 |                                                   |<span style="color:#00ff00;">█</span><span style="color:#ff8700;">█</span><span style="color:#ff8700;">█</span><span style="color:#ff8700;">█</span><span style="color:#ff8700;">█</span><span style="color:#ff8700;">█</span><span style="color:#ff8700;">█</span><span style="color:#ff8700;">█</span><span style="color:#ff8700;">█</span><span style="color:#ff8700;">█</span><span style="color:#ff8700;">█</span><span style="color:#ff8700;">█</span><span style="color:#ff8700;">█</span><span style="color:#cd00cd;">█</span>  <span style="color:#cd00cd;">148.10M</span>
+  2025-06-30 |                                                   |<span style="color:#ff8700;">█</span><span style="color:#ff8700;">█</span><span style="color:#ff8700;">█</span><span style="color:#ff8700;">█</span><span style="color:#00ff00;">█</span><span style="color:#00ff00;">█</span><span style="color:#00ff00;">█</span><span style="color:#00ff00;">█</span><span style="color:#00ff00;">█</span><span style="color:#cd00cd;">█</span><span style="color:#cd00cd;">█</span><span style="color:#cd00cd;">█</span><span style="color:#cd00cd;">█</span><span style="color:#cd00cd;">█</span><span style="color:#cd00cd;">█</span><span style="color:#cd00cd;">█</span><span style="color:#cd00cd;">█</span><span style="color:#cd00cd;">█</span>  <span style="color:#cd00cd;">187.29M</span>
+  2025-09-30 |                                                   |<span style="color:#ff8700;">█</span><span style="color:#ff8700;">█</span><span style="color:#ff8700;">█</span><span style="color:#ff8700;">█</span><span style="color:#ff8700;">█</span><span style="color:#ff8700;">█</span><span style="color:#ff8700;">█</span><span style="color:#ff8700;">█</span><span style="color:#ff8700;">█</span><span style="color:#ff8700;">█</span><span style="color:#ff8700;">█</span><span style="color:#ff8700;">█</span><span style="color:#ff8700;">█</span><span style="color:#ff8700;">█</span><span style="color:#cd00cd;">█</span><span style="color:#cd00cd;">█</span><span style="color:#cd00cd;">█</span><span style="color:#cd00cd;">█</span><span style="color:#cd00cd;">█</span><span style="color:#cd00cd;">█</span><span style="color:#cd00cd;">█</span><span style="color:#cd00cd;">█</span><span style="color:#cd00cd;">█</span><span style="color:#cd00cd;">█</span><span style="color:#00ff00;">█</span><span style="color:#00ff00;">█</span><span style="color:#00ff00;">█</span><span style="color:#00ff00;">█</span><span style="color:#00ff00;">█</span><span style="color:#00ff00;">█</span><span style="color:#00ff00;">█</span><span style="color:#00ff00;">█</span><span style="color:#00ff00;">█</span><span style="color:#00ff00;">█</span><span style="color:#00ff00;">█</span><span style="color:#00ff00;">█</span><span style="color:#00ff00;">█</span><span style="color:#00ff00;">█</span>  <span style="color:#00ff00;">384.61M</span>
+
+               |                        |                        |                        |                        |
+               -489.09M                 -244.54M                   0.00M                   244.54M                  489.09M
+</pre>
+        </div>
+        
+        <div class="chart-section">
+            <h2>costs</h2>
+            <pre>Using alias: rnd -&gt; researchAndDevelopment [quarterly] [income]
+Using alias: sga -&gt; sellingGeneralAndAdministrative [quarterly] [income]
+Using alias: cogs -&gt; costofGoodsAndServicesSold [quarterly] [income]
+
+
+Data Completeness:
+------------------------------------------------------------
+  ⚠️  SPARSE researchAndDevelopment              0/20 dates (0%)
+  ✅ sellingGeneralAndAdministrative     20/20 dates (100%)
+  ✅ costofGoodsAndServicesSold          20/20 dates (100%)
+
+Plot for IREN (in M)
+  reports: quarterlyReports
+  showing last 20 entries
+  Legend: <span style="font-weight:bold;"><span style="color:#5c5cff;">researchAndDevelopment</span></span>, <span style="font-weight:bold;"><span style="color:#00cdcd;">sellingGeneralAndAdministrative</span></span>, <span style="font-weight:bold;"><span style="color:#af5f00;">costofGoodsAndServicesSold</span></span>
+
+               0.00M                   34.21M                   68.41M                   102.62M                  136.82M
+               |                        |                        |                        |                        |
+
+  2020-12-31 | <span style="color:#00cdcd;">█</span> <span style="color:#af5f00;">0.28M</span> ⊗
+  2021-03-31 | <span style="color:#00cdcd;">█</span> <span style="color:#af5f00;">0.25M</span> ⊗
+  2021-06-30 | <span style="color:#00cdcd;">█</span> <span style="color:#af5f00;">1.39M</span> ⊗
+  2021-09-30 | <span style="color:#00cdcd;">█</span> <span style="color:#af5f00;">1.17M</span> ⊗
+  2021-12-31 | <span style="color:#af5f00;">█</span><span style="color:#00cdcd;">█</span> <span style="color:#00cdcd;">2.54M</span> ⊗
+  2022-03-31 | <span style="color:#00cdcd;">█</span> <span style="color:#af5f00;">1.45M</span> ⊗
+  2022-06-30 | <span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#af5f00;">█</span> <span style="color:#af5f00;">3.76M</span> ⊗
+  2022-09-30 | <span style="color:#00cdcd;">█</span><span style="color:#af5f00;">█</span><span style="color:#af5f00;">█</span> <span style="color:#af5f00;">4.33M</span> ⊗
+  2022-12-31 | <span style="color:#00cdcd;">█</span><span style="color:#af5f00;">█</span><span style="color:#af5f00;">█</span> <span style="color:#af5f00;">4.06M</span> ⊗
+  2023-03-31 | <span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span> <span style="color:#af5f00;">2.47M</span> ⊗
+  2023-06-30 | <span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#af5f00;">█</span><span style="color:#af5f00;">█</span><span style="color:#af5f00;">█</span> <span style="color:#af5f00;">6.76M</span> ⊗
+  2023-09-30 | <span style="color:#af5f00;">█</span><span style="color:#af5f00;">█</span><span style="color:#af5f00;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span> <span style="color:#00cdcd;">9.07M</span> ⊗
+  2023-12-31 | <span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span> <span style="color:#af5f00;">4.33M</span> ⊗
+  2024-03-31 | <span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span> <span style="color:#af5f00;">4.33M</span> ⊗
+  2024-06-30 | <span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#af5f00;">█</span><span style="color:#af5f00;">█</span><span style="color:#af5f00;">█</span><span style="color:#af5f00;">█</span><span style="color:#af5f00;">█</span><span style="color:#af5f00;">█</span><span style="color:#af5f00;">█</span><span style="color:#af5f00;">█</span><span style="color:#af5f00;">█</span><span style="color:#af5f00;">█</span><span style="color:#af5f00;">█</span><span style="color:#af5f00;">█</span><span style="color:#af5f00;">█</span><span style="color:#af5f00;">█</span><span style="color:#af5f00;">█</span><span style="color:#af5f00;">█</span><span style="color:#af5f00;">█</span><span style="color:#af5f00;">█</span><span style="color:#af5f00;">█</span><span style="color:#af5f00;">█</span><span style="color:#af5f00;">█</span><span style="color:#af5f00;">█</span><span style="color:#af5f00;">█</span><span style="color:#af5f00;">█</span><span style="color:#af5f00;">█</span><span style="color:#af5f00;">█</span><span style="color:#af5f00;">█</span><span style="color:#af5f00;">█</span><span style="color:#af5f00;">█</span><span style="color:#af5f00;">█</span><span style="color:#af5f00;">█</span><span style="color:#af5f00;">█</span><span style="color:#af5f00;">█</span><span style="color:#af5f00;">█</span><span style="color:#af5f00;">█</span><span style="color:#af5f00;">█</span><span style="color:#af5f00;">█</span><span style="color:#af5f00;">█</span><span style="color:#af5f00;">█</span><span style="color:#af5f00;">█</span><span style="color:#af5f00;">█</span><span style="color:#af5f00;">█</span><span style="color:#af5f00;">█</span><span style="color:#af5f00;">█</span><span style="color:#af5f00;">█</span><span style="color:#af5f00;">█</span> <span style="color:#af5f00;">74.22M</span> ⊗
+  2024-09-30 | <span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#af5f00;">█</span><span style="color:#af5f00;">█</span> <span style="color:#af5f00;">7.72M</span> ⊗
+  2024-12-31 | <span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span> <span style="color:#af5f00;">6.99M</span> ⊗
+  2025-03-31 | <span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span> <span style="color:#af5f00;">7.46M</span> ⊗
+  2025-06-30 | <span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#af5f00;">█</span><span style="color:#af5f00;">█</span><span style="color:#af5f00;">█</span><span style="color:#af5f00;">█</span><span style="color:#af5f00;">█</span><span style="color:#af5f00;">█</span><span style="color:#af5f00;">█</span><span style="color:#af5f00;">█</span><span style="color:#af5f00;">█</span><span style="color:#af5f00;">█</span><span style="color:#af5f00;">█</span><span style="color:#af5f00;">█</span><span style="color:#af5f00;">█</span><span style="color:#af5f00;">█</span><span style="color:#af5f00;">█</span><span style="color:#af5f00;">█</span><span style="color:#af5f00;">█</span><span style="color:#af5f00;">█</span><span style="color:#af5f00;">█</span><span style="color:#af5f00;">█</span><span style="color:#af5f00;">█</span><span style="color:#af5f00;">█</span><span style="color:#af5f00;">█</span><span style="color:#af5f00;">█</span><span style="color:#af5f00;">█</span><span style="color:#af5f00;">█</span><span style="color:#af5f00;">█</span><span style="color:#af5f00;">█</span><span style="color:#af5f00;">█</span><span style="color:#af5f00;">█</span><span style="color:#af5f00;">█</span><span style="color:#af5f00;">█</span><span style="color:#af5f00;">█</span><span style="color:#af5f00;">█</span> <span style="color:#af5f00;">136.82M</span> ⊗
+  2025-09-30 | <span style="color:#af5f00;">█</span><span style="color:#af5f00;">█</span><span style="color:#af5f00;">█</span><span style="color:#af5f00;">█</span><span style="color:#af5f00;">█</span><span style="color:#af5f00;">█</span><span style="color:#af5f00;">█</span><span style="color:#af5f00;">█</span><span style="color:#af5f00;">█</span><span style="color:#af5f00;">█</span><span style="color:#af5f00;">█</span><span style="color:#af5f00;">█</span><span style="color:#af5f00;">█</span><span style="color:#af5f00;">█</span><span style="color:#af5f00;">█</span><span style="color:#af5f00;">█</span><span style="color:#af5f00;">█</span><span style="color:#af5f00;">█</span><span style="color:#af5f00;">█</span><span style="color:#af5f00;">█</span><span style="color:#af5f00;">█</span><span style="color:#af5f00;">█</span><span style="color:#af5f00;">█</span><span style="color:#af5f00;">█</span><span style="color:#af5f00;">█</span><span style="color:#af5f00;">█</span><span style="color:#af5f00;">█</span><span style="color:#af5f00;">█</span><span style="color:#af5f00;">█</span><span style="color:#af5f00;">█</span><span style="color:#af5f00;">█</span><span style="color:#af5f00;">█</span><span style="color:#af5f00;">█</span><span style="color:#af5f00;">█</span><span style="color:#af5f00;">█</span><span style="color:#af5f00;">█</span><span style="color:#af5f00;">█</span><span style="color:#af5f00;">█</span><span style="color:#af5f00;">█</span><span style="color:#af5f00;">█</span><span style="color:#af5f00;">█</span><span style="color:#af5f00;">█</span><span style="color:#af5f00;">█</span><span style="color:#af5f00;">█</span><span style="color:#af5f00;">█</span><span style="color:#af5f00;">█</span><span style="color:#af5f00;">█</span><span style="color:#af5f00;">█</span><span style="color:#af5f00;">█</span><span style="color:#af5f00;">█</span><span style="color:#af5f00;">█</span><span style="color:#af5f00;">█</span><span style="color:#af5f00;">█</span><span style="color:#af5f00;">█</span><span style="color:#af5f00;">█</span><span style="color:#af5f00;">█</span><span style="color:#af5f00;">█</span><span style="color:#af5f00;">█</span><span style="color:#af5f00;">█</span><span style="color:#af5f00;">█</span><span style="color:#af5f00;">█</span><span style="color:#af5f00;">█</span><span style="color:#af5f00;">█</span><span style="color:#af5f00;">█</span><span style="color:#af5f00;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span> <span style="color:#00cdcd;">123.79M</span> ⊗
+
+               |                        |                        |                        |                        |
+               0.00M                   34.21M                   68.41M                   102.62M                  136.82M
+</pre>
+        </div>
+        
+        <div class="chart-section">
+            <h2>cash</h2>
+            <pre>Using alias: cash -&gt; cashAndShortTermInvestments [quarterly] [balance]
+Using alias: debt -&gt; shortLongTermDebtTotal [quarterly] [balance]
+Using alias: paycheck -&gt; operatingCashflow [quarterly] [cashflow]
+
+
+Data Completeness:
+------------------------------------------------------------
+  ⚠️  cashAndShortTermInvestments         19/20 dates (95%)
+  ⚠️  shortLongTermDebtTotal              18/20 dates (90%)
+  ✅ operatingCashflow                   20/20 dates (100%)
+
+Plot for IREN (in B)
+  reports: quarterlyReports
+  showing last 20 entries
+  Legend: <span style="font-weight:bold;"><span style="color:#00cd00;">cashAndShortTermInvestments</span></span>, <span style="font-weight:bold;"><span style="color:#cd0000;">shortLongTermDebtTotal</span></span>, <span style="font-weight:bold;"><span style="color:#ffd700;">operatingCashflow</span></span>
+
+               -1.03B                   -0.52B                    0.00B                    0.52B                    1.03B
+               |                        |                        |                        |                        |
+
+  2020-12-31 |                                                  <span style="color:#ffd700;">█</span>|  <span style="color:#cd0000;">0.02B</span>
+  2021-03-31 |                                                   |  <span style="color:#ffd700;">0.00B</span> ⊗⊗
+  2021-06-30 |                                                  <span style="color:#ffd700;">█</span>|<span style="color:#00cd00;">█</span><span style="color:#cd0000;">█</span><span style="color:#cd0000;">█</span>  <span style="color:#cd0000;">0.08B</span>
+  2021-09-30 |                                                   |<span style="color:#00cd00;">█</span><span style="color:#00cd00;">█</span><span style="color:#00cd00;">█</span><span style="color:#cd0000;">█</span><span style="color:#cd0000;">█</span><span style="color:#cd0000;">█</span><span style="color:#cd0000;">█</span><span style="color:#cd0000;">█</span><span style="color:#cd0000;">█</span>  <span style="color:#cd0000;">0.21B</span>
+  2021-12-31 |                                                   |<span style="color:#cd0000;">█</span><span style="color:#00cd00;">█</span><span style="color:#00cd00;">█</span><span style="color:#00cd00;">█</span><span style="color:#00cd00;">█</span><span style="color:#00cd00;">█</span><span style="color:#00cd00;">█</span><span style="color:#00cd00;">█</span><span style="color:#00cd00;">█</span><span style="color:#00cd00;">█</span><span style="color:#00cd00;">█</span>  <span style="color:#00cd00;">0.25B</span>
+  2022-03-31 |                                                   |<span style="color:#cd0000;">█</span><span style="color:#cd0000;">█</span><span style="color:#cd0000;">█</span><span style="color:#00cd00;">█</span><span style="color:#00cd00;">█</span><span style="color:#00cd00;">█</span><span style="color:#00cd00;">█</span>  <span style="color:#00cd00;">0.16B</span>
+  2022-06-30 |                                                   |<span style="color:#cd0000;">█</span><span style="color:#cd0000;">█</span><span style="color:#cd0000;">█</span><span style="color:#cd0000;">█</span>  <span style="color:#00cd00;">0.11B</span>
+  2022-09-30 |                                              <span style="color:#00cd00;">█</span><span style="color:#00cd00;">█</span><span style="color:#00cd00;">█</span><span style="color:#00cd00;">█</span><span style="color:#ffd700;">█</span>| <span style="color:#00cd00;">-0.11B</span> ⊗
+  2022-12-31 |                                                  <span style="color:#ffd700;">█</span>|<span style="color:#00cd00;">█</span><span style="color:#cd0000;">█</span><span style="color:#cd0000;">█</span><span style="color:#cd0000;">█</span>  <span style="color:#cd0000;">0.11B</span>
+  2023-03-31 |                                                   |<span style="color:#00cd00;">█</span><span style="color:#00cd00;">█</span>  <span style="color:#00cd00;">0.07B</span>
+  2023-06-30 |                                                <span style="color:#ffd700;">█</span><span style="color:#ffd700;">█</span><span style="color:#ffd700;">█</span>|<span style="color:#00cd00;">█</span><span style="color:#00cd00;">█</span>  <span style="color:#ffd700;">-0.07B</span>
+  2023-09-30 |                                                <span style="color:#00cd00;">█</span><span style="color:#00cd00;">█</span><span style="color:#00cd00;">█</span>|  <span style="color:#00cd00;">-0.07B</span>
+  2023-12-31 |                                                   |<span style="color:#00cd00;">█</span><span style="color:#00cd00;">█</span><span style="color:#00cd00;">█</span>  <span style="color:#00cd00;">0.09B</span>
+  2024-03-31 |                                              <span style="color:#ffd700;">█</span><span style="color:#ffd700;">█</span><span style="color:#ffd700;">█</span><span style="color:#ffd700;">█</span><span style="color:#ffd700;">█</span>|<span style="color:#00cd00;">█</span><span style="color:#00cd00;">█</span><span style="color:#00cd00;">█</span><span style="color:#00cd00;">█</span><span style="color:#00cd00;">█</span><span style="color:#00cd00;">█</span><span style="color:#00cd00;">█</span><span style="color:#00cd00;">█</span><span style="color:#00cd00;">█</span><span style="color:#00cd00;">█</span><span style="color:#00cd00;">█</span><span style="color:#00cd00;">█</span>  <span style="color:#00cd00;">0.26B</span>
+  2024-06-30 |                                                   |<span style="color:#ffd700;">█</span><span style="color:#ffd700;">█</span><span style="color:#ffd700;">█</span><span style="color:#ffd700;">█</span><span style="color:#ffd700;">█</span><span style="color:#00cd00;">█</span><span style="color:#00cd00;">█</span><span style="color:#00cd00;">█</span><span style="color:#00cd00;">█</span><span style="color:#00cd00;">█</span><span style="color:#00cd00;">█</span><span style="color:#00cd00;">█</span><span style="color:#00cd00;">█</span><span style="color:#00cd00;">█</span><span style="color:#00cd00;">█</span><span style="color:#00cd00;">█</span><span style="color:#00cd00;">█</span><span style="color:#00cd00;">█</span><span style="color:#00cd00;">█</span>  <span style="color:#00cd00;">0.40B</span>
+  2024-09-30 |                                                  <span style="color:#ffd700;">█</span>|<span style="color:#00cd00;">█</span><span style="color:#00cd00;">█</span><span style="color:#00cd00;">█</span><span style="color:#00cd00;">█</span>  <span style="color:#00cd00;">0.10B</span>
+  2024-12-31 |                                                <span style="color:#ffd700;">█</span><span style="color:#ffd700;">█</span><span style="color:#ffd700;">█</span>|<span style="color:#cd0000;">█</span><span style="color:#cd0000;">█</span><span style="color:#cd0000;">█</span><span style="color:#cd0000;">█</span><span style="color:#cd0000;">█</span><span style="color:#cd0000;">█</span><span style="color:#cd0000;">█</span><span style="color:#cd0000;">█</span><span style="color:#cd0000;">█</span><span style="color:#cd0000;">█</span><span style="color:#cd0000;">█</span><span style="color:#cd0000;">█</span><span style="color:#cd0000;">█</span><span style="color:#cd0000;">█</span><span style="color:#00cd00;">█</span><span style="color:#00cd00;">█</span><span style="color:#00cd00;">█</span><span style="color:#00cd00;">█</span><span style="color:#00cd00;">█</span><span style="color:#00cd00;">█</span>  <span style="color:#00cd00;">0.43B</span>
+  2025-03-31 |                                                 <span style="color:#ffd700;">█</span><span style="color:#ffd700;">█</span>|<span style="color:#00cd00;">█</span><span style="color:#00cd00;">█</span><span style="color:#00cd00;">█</span><span style="color:#00cd00;">█</span><span style="color:#00cd00;">█</span><span style="color:#00cd00;">█</span><span style="color:#00cd00;">█</span><span style="color:#00cd00;">█</span><span style="color:#cd0000;">█</span><span style="color:#cd0000;">█</span><span style="color:#cd0000;">█</span><span style="color:#cd0000;">█</span><span style="color:#cd0000;">█</span><span style="color:#cd0000;">█</span><span style="color:#cd0000;">█</span>  <span style="color:#cd0000;">0.32B</span>
+  2025-06-30 |                                                   |<span style="color:#ffd700;">█</span><span style="color:#ffd700;">█</span><span style="color:#ffd700;">█</span><span style="color:#ffd700;">█</span><span style="color:#ffd700;">█</span><span style="color:#ffd700;">█</span><span style="color:#ffd700;">█</span><span style="color:#ffd700;">█</span><span style="color:#ffd700;">█</span><span style="color:#ffd700;">█</span><span style="color:#ffd700;">█</span><span style="color:#ffd700;">█</span><span style="color:#ffd700;">█</span><span style="color:#ffd700;">█</span><span style="color:#ffd700;">█</span><span style="color:#ffd700;">█</span><span style="color:#ffd700;">█</span><span style="color:#ffd700;">█</span><span style="color:#00cd00;">█</span><span style="color:#00cd00;">█</span><span style="color:#00cd00;">█</span><span style="color:#00cd00;">█</span><span style="color:#00cd00;">█</span><span style="color:#00cd00;">█</span><span style="color:#00cd00;">█</span><span style="color:#00cd00;">█</span><span style="color:#cd0000;">█</span><span style="color:#cd0000;">█</span><span style="color:#cd0000;">█</span><span style="color:#cd0000;">█</span><span style="color:#cd0000;">█</span><span style="color:#cd0000;">█</span><span style="color:#cd0000;">█</span><span style="color:#cd0000;">█</span><span style="color:#cd0000;">█</span><span style="color:#cd0000;">█</span><span style="color:#cd0000;">█</span><span style="color:#cd0000;">█</span><span style="color:#cd0000;">█</span><span style="color:#cd0000;">█</span><span style="color:#cd0000;">█</span><span style="color:#cd0000;">█</span><span style="color:#cd0000;">█</span><span style="color:#cd0000;">█</span><span style="color:#cd0000;">█</span><span style="color:#cd0000;">█</span>  <span style="color:#cd0000;">0.96B</span>
+  2025-09-30 |                                                   |<span style="color:#ffd700;">█</span><span style="color:#ffd700;">█</span><span style="color:#ffd700;">█</span><span style="color:#ffd700;">█</span><span style="color:#ffd700;">█</span><span style="color:#ffd700;">█</span><span style="color:#cd0000;">█</span><span style="color:#cd0000;">█</span><span style="color:#cd0000;">█</span><span style="color:#cd0000;">█</span><span style="color:#cd0000;">█</span><span style="color:#cd0000;">█</span><span style="color:#cd0000;">█</span><span style="color:#cd0000;">█</span><span style="color:#cd0000;">█</span><span style="color:#cd0000;">█</span><span style="color:#cd0000;">█</span><span style="color:#cd0000;">█</span><span style="color:#cd0000;">█</span><span style="color:#cd0000;">█</span><span style="color:#cd0000;">█</span><span style="color:#cd0000;">█</span><span style="color:#cd0000;">█</span><span style="color:#cd0000;">█</span><span style="color:#cd0000;">█</span><span style="color:#cd0000;">█</span><span style="color:#cd0000;">█</span><span style="color:#cd0000;">█</span><span style="color:#cd0000;">█</span><span style="color:#cd0000;">█</span><span style="color:#cd0000;">█</span><span style="color:#cd0000;">█</span><span style="color:#cd0000;">█</span><span style="color:#cd0000;">█</span><span style="color:#cd0000;">█</span><span style="color:#cd0000;">█</span><span style="color:#cd0000;">█</span><span style="color:#cd0000;">█</span><span style="color:#cd0000;">█</span><span style="color:#cd0000;">█</span><span style="color:#cd0000;">█</span><span style="color:#cd0000;">█</span><span style="color:#cd0000;">█</span><span style="color:#cd0000;">█</span><span style="color:#cd0000;">█</span><span style="color:#cd0000;">█</span><span style="color:#00cd00;">█</span><span style="color:#00cd00;">█</span><span style="color:#00cd00;">█</span> <span style="color:#00cd00;">1.03B</span>
+
+               |                        |                        |                        |                        |
+               -1.03B                   -0.52B                    0.00B                    0.52B                    1.03B
+</pre>
+        </div>
+        
+        <div class="chart-section">
+            <h2>FCF</h2>
+            <pre>Using alias: paycheck -&gt; operatingCashflow [quarterly] [cashflow]
+Using alias: capex -&gt; capitalExpenditures [quarterly] [cashflow]
+
+
+Data Completeness:
+------------------------------------------------------------
+  ✅ operatingCashflow                   20/20 dates (100%)
+  ✅ capitalExpenditures                 20/20 dates (100%)
+
+Plot for IREN (in M)
+  reports: quarterlyReports
+  showing last 20 entries
+  Legend: <span style="font-weight:bold;"><span style="color:#ffd700;">operatingCashflow</span></span>, <span style="font-weight:bold;"><span style="color:#008787;">capitalExpenditures</span></span>
+
+               -443.80M                 -221.90M                   0.00M                   221.90M                  443.80M
+               |                        |                        |                        |                        |
+
+  2020-12-31 |                                                  <span style="color:#ffd700;">█</span>|  <span style="color:#008787;">8.72M</span>
+  2021-03-31 |                                                   |<span style="color:#008787;">█</span><span style="color:#008787;">█</span><span style="color:#008787;">█</span><span style="color:#008787;">█</span><span style="color:#008787;">█</span>  <span style="color:#008787;">51.62M</span>
+  2021-06-30 |                                                  <span style="color:#ffd700;">█</span>|<span style="color:#008787;">█</span>  <span style="color:#008787;">20.15M</span>
+  2021-09-30 |                                                   |  <span style="color:#008787;">7.95M</span>
+  2021-12-31 |                                                   |  <span style="color:#008787;">10.73M</span>
+  2022-03-31 |                                                   |<span style="color:#008787;">█</span><span style="color:#008787;">█</span><span style="color:#008787;">█</span><span style="color:#008787;">█</span><span style="color:#008787;">█</span><span style="color:#008787;">█</span><span style="color:#008787;">█</span><span style="color:#008787;">█</span><span style="color:#008787;">█</span><span style="color:#008787;">█</span><span style="color:#008787;">█</span><span style="color:#008787;">█</span><span style="color:#008787;">█</span><span style="color:#008787;">█</span><span style="color:#008787;">█</span><span style="color:#008787;">█</span><span style="color:#008787;">█</span><span style="color:#008787;">█</span><span style="color:#008787;">█</span><span style="color:#008787;">█</span><span style="color:#008787;">█</span><span style="color:#008787;">█</span><span style="color:#008787;">█</span>  <span style="color:#008787;">214.57M</span>
+  2022-06-30 |                                                   |<span style="color:#008787;">█</span><span style="color:#008787;">█</span><span style="color:#008787;">█</span><span style="color:#008787;">█</span><span style="color:#008787;">█</span><span style="color:#008787;">█</span><span style="color:#008787;">█</span>  <span style="color:#008787;">72.38M</span>
+  2022-09-30 |                                                  <span style="color:#ffd700;">█</span>|<span style="color:#008787;">█</span><span style="color:#008787;">█</span><span style="color:#008787;">█</span>  <span style="color:#008787;">32.33M</span>
+  2022-12-31 |                                                  <span style="color:#ffd700;">█</span>|<span style="color:#008787;">█</span><span style="color:#008787;">█</span><span style="color:#008787;">█</span>  <span style="color:#008787;">32.33M</span>
+  2023-03-31 |                                                   |<span style="color:#008787;">█</span><span style="color:#008787;">█</span>  <span style="color:#008787;">28.96M</span>
+  2023-06-30 |                                           <span style="color:#ffd700;">█</span><span style="color:#ffd700;">█</span><span style="color:#ffd700;">█</span><span style="color:#ffd700;">█</span><span style="color:#ffd700;">█</span><span style="color:#ffd700;">█</span><span style="color:#ffd700;">█</span><span style="color:#ffd700;">█</span>|<span style="color:#008787;">█</span><span style="color:#008787;">█</span>  <span style="color:#ffd700;">-71.38M</span>
+  2023-09-30 |                                                   |<span style="color:#008787;">█</span><span style="color:#008787;">█</span><span style="color:#008787;">█</span>  <span style="color:#008787;">32.01M</span>
+  2023-12-31 |                                                   |<span style="color:#ffd700;">█</span><span style="color:#008787;">█</span><span style="color:#008787;">█</span><span style="color:#008787;">█</span>  <span style="color:#008787;">46.20M</span>
+  2024-03-31 |                                       <span style="color:#ffd700;">█</span><span style="color:#ffd700;">█</span><span style="color:#ffd700;">█</span><span style="color:#ffd700;">█</span><span style="color:#ffd700;">█</span><span style="color:#ffd700;">█</span><span style="color:#ffd700;">█</span><span style="color:#ffd700;">█</span><span style="color:#ffd700;">█</span><span style="color:#ffd700;">█</span><span style="color:#ffd700;">█</span><span style="color:#ffd700;">█</span>|<span style="color:#008787;">█</span><span style="color:#008787;">█</span><span style="color:#008787;">█</span><span style="color:#008787;">█</span><span style="color:#008787;">█</span><span style="color:#008787;">█</span><span style="color:#008787;">█</span><span style="color:#008787;">█</span><span style="color:#008787;">█</span><span style="color:#008787;">█</span><span style="color:#008787;">█</span><span style="color:#008787;">█</span>  <span style="color:#008787;">119.29M</span>
+  2024-06-30 |                                                   |<span style="color:#ffd700;">█</span><span style="color:#ffd700;">█</span><span style="color:#ffd700;">█</span><span style="color:#ffd700;">█</span><span style="color:#ffd700;">█</span><span style="color:#ffd700;">█</span><span style="color:#ffd700;">█</span><span style="color:#ffd700;">█</span><span style="color:#ffd700;">█</span><span style="color:#ffd700;">█</span><span style="color:#ffd700;">█</span><span style="color:#ffd700;">█</span><span style="color:#ffd700;">█</span><span style="color:#ffd700;">█</span><span style="color:#008787;">█</span><span style="color:#008787;">█</span><span style="color:#008787;">█</span><span style="color:#008787;">█</span><span style="color:#008787;">█</span><span style="color:#008787;">█</span><span style="color:#008787;">█</span><span style="color:#008787;">█</span><span style="color:#008787;">█</span><span style="color:#008787;">█</span><span style="color:#008787;">█</span><span style="color:#008787;">█</span><span style="color:#008787;">█</span><span style="color:#008787;">█</span><span style="color:#008787;">█</span><span style="color:#008787;">█</span><span style="color:#008787;">█</span><span style="color:#008787;">█</span>  <span style="color:#008787;">296.61M</span>
+  2024-09-30 |                                                  <span style="color:#ffd700;">█</span>|<span style="color:#008787;">█</span><span style="color:#008787;">█</span><span style="color:#008787;">█</span><span style="color:#008787;">█</span><span style="color:#008787;">█</span><span style="color:#008787;">█</span><span style="color:#008787;">█</span><span style="color:#008787;">█</span><span style="color:#008787;">█</span><span style="color:#008787;">█</span><span style="color:#008787;">█</span><span style="color:#008787;">█</span><span style="color:#008787;">█</span><span style="color:#008787;">█</span><span style="color:#008787;">█</span><span style="color:#008787;">█</span><span style="color:#008787;">█</span><span style="color:#008787;">█</span><span style="color:#008787;">█</span><span style="color:#008787;">█</span><span style="color:#008787;">█</span><span style="color:#008787;">█</span><span style="color:#008787;">█</span><span style="color:#008787;">█</span><span style="color:#008787;">█</span><span style="color:#008787;">█</span><span style="color:#008787;">█</span><span style="color:#008787;">█</span><span style="color:#008787;">█</span><span style="color:#008787;">█</span><span style="color:#008787;">█</span><span style="color:#008787;">█</span><span style="color:#008787;">█</span><span style="color:#008787;">█</span><span style="color:#008787;">█</span><span style="color:#008787;">█</span><span style="color:#008787;">█</span><span style="color:#008787;">█</span><span style="color:#008787;">█</span><span style="color:#008787;">█</span><span style="color:#008787;">█</span><span style="color:#008787;">█</span>  <span style="color:#008787;">383.39M</span>
+  2024-12-31 |                                            <span style="color:#ffd700;">█</span><span style="color:#ffd700;">█</span><span style="color:#ffd700;">█</span><span style="color:#ffd700;">█</span><span style="color:#ffd700;">█</span><span style="color:#ffd700;">█</span><span style="color:#ffd700;">█</span>|<span style="color:#008787;">█</span><span style="color:#008787;">█</span><span style="color:#008787;">█</span><span style="color:#008787;">█</span><span style="color:#008787;">█</span><span style="color:#008787;">█</span><span style="color:#008787;">█</span><span style="color:#008787;">█</span><span style="color:#008787;">█</span><span style="color:#008787;">█</span><span style="color:#008787;">█</span><span style="color:#008787;">█</span><span style="color:#008787;">█</span><span style="color:#008787;">█</span><span style="color:#008787;">█</span><span style="color:#008787;">█</span><span style="color:#008787;">█</span><span style="color:#008787;">█</span><span style="color:#008787;">█</span><span style="color:#008787;">█</span>  <span style="color:#008787;">187.56M</span>
+  2025-03-31 |                                              <span style="color:#ffd700;">█</span><span style="color:#ffd700;">█</span><span style="color:#ffd700;">█</span><span style="color:#ffd700;">█</span><span style="color:#ffd700;">█</span>|<span style="color:#008787;">█</span><span style="color:#008787;">█</span><span style="color:#008787;">█</span><span style="color:#008787;">█</span><span style="color:#008787;">█</span><span style="color:#008787;">█</span><span style="color:#008787;">█</span><span style="color:#008787;">█</span><span style="color:#008787;">█</span><span style="color:#008787;">█</span><span style="color:#008787;">█</span><span style="color:#008787;">█</span><span style="color:#008787;">█</span><span style="color:#008787;">█</span><span style="color:#008787;">█</span><span style="color:#008787;">█</span><span style="color:#008787;">█</span><span style="color:#008787;">█</span><span style="color:#008787;">█</span><span style="color:#008787;">█</span><span style="color:#008787;">█</span><span style="color:#008787;">█</span><span style="color:#008787;">█</span><span style="color:#008787;">█</span><span style="color:#008787;">█</span><span style="color:#008787;">█</span><span style="color:#008787;">█</span><span style="color:#008787;">█</span><span style="color:#008787;">█</span><span style="color:#008787;">█</span><span style="color:#008787;">█</span><span style="color:#008787;">█</span><span style="color:#008787;">█</span><span style="color:#008787;">█</span><span style="color:#008787;">█</span><span style="color:#008787;">█</span><span style="color:#008787;">█</span><span style="color:#008787;">█</span><span style="color:#008787;">█</span><span style="color:#008787;">█</span><span style="color:#008787;">█</span><span style="color:#008787;">█</span><span style="color:#008787;">█</span><span style="color:#008787;">█</span><span style="color:#008787;">█</span><span style="color:#008787;">█</span><span style="color:#008787;">█</span><span style="color:#008787;">█</span><span style="color:#008787;">█</span> <span style="color:#008787;">443.80M</span>
+  2025-06-30 |                                                   |<span style="color:#008787;">█</span><span style="color:#008787;">█</span><span style="color:#008787;">█</span><span style="color:#008787;">█</span><span style="color:#008787;">█</span><span style="color:#008787;">█</span><span style="color:#008787;">█</span><span style="color:#008787;">█</span><span style="color:#008787;">█</span><span style="color:#008787;">█</span><span style="color:#008787;">█</span><span style="color:#008787;">█</span><span style="color:#008787;">█</span><span style="color:#008787;">█</span><span style="color:#008787;">█</span><span style="color:#008787;">█</span><span style="color:#008787;">█</span><span style="color:#008787;">█</span><span style="color:#008787;">█</span><span style="color:#008787;">█</span><span style="color:#008787;">█</span><span style="color:#008787;">█</span><span style="color:#008787;">█</span><span style="color:#008787;">█</span><span style="color:#008787;">█</span><span style="color:#008787;">█</span><span style="color:#008787;">█</span><span style="color:#008787;">█</span><span style="color:#008787;">█</span><span style="color:#008787;">█</span><span style="color:#008787;">█</span><span style="color:#008787;">█</span><span style="color:#008787;">█</span><span style="color:#008787;">█</span><span style="color:#008787;">█</span><span style="color:#008787;">█</span><span style="color:#008787;">█</span><span style="color:#008787;">█</span><span style="color:#008787;">█</span><span style="color:#008787;">█</span><span style="color:#008787;">█</span><span style="color:#008787;">█</span><span style="color:#ffd700;">█</span><span style="color:#ffd700;">█</span>  <span style="color:#ffd700;">398.81M</span>
+  2025-09-30 |                                                   |<span style="color:#ffd700;">█</span><span style="color:#ffd700;">█</span><span style="color:#ffd700;">█</span><span style="color:#ffd700;">█</span><span style="color:#ffd700;">█</span><span style="color:#ffd700;">█</span><span style="color:#ffd700;">█</span><span style="color:#ffd700;">█</span><span style="color:#ffd700;">█</span><span style="color:#ffd700;">█</span><span style="color:#ffd700;">█</span><span style="color:#ffd700;">█</span><span style="color:#ffd700;">█</span><span style="color:#ffd700;">█</span><span style="color:#ffd700;">█</span><span style="color:#008787;">█</span><span style="color:#008787;">█</span><span style="color:#008787;">█</span><span style="color:#008787;">█</span><span style="color:#008787;">█</span><span style="color:#008787;">█</span><span style="color:#008787;">█</span><span style="color:#008787;">█</span><span style="color:#008787;">█</span><span style="color:#008787;">█</span><span style="color:#008787;">█</span><span style="color:#008787;">█</span><span style="color:#008787;">█</span><span style="color:#008787;">█</span><span style="color:#008787;">█</span><span style="color:#008787;">█</span>  <span style="color:#008787;">280.61M</span>
+
+               |                        |                        |                        |                        |
+               -443.80M                 -221.90M                   0.00M                   221.90M                  443.80M
+</pre>
+        </div>
+        
+        <div class="chart-section">
+            <h2>assets</h2>
+            <pre>Using alias: assets -&gt; totalAssets [quarterly] [balance]
+Using alias: liabil -&gt; totalLiabilities [quarterly] [balance]
+Using alias: equity -&gt; totalShareholderEquity [quarterly] [balance]
+
+
+Data Completeness:
+------------------------------------------------------------
+  ⚠️  totalAssets                         18/20 dates (90%)
+  ⚠️  totalLiabilities                    18/20 dates (90%)
+  ⚠️  totalShareholderEquity              19/20 dates (95%)
+
+Plot for IREN (in B)
+  reports: quarterlyReports
+  showing last 20 entries
+  Legend: <span style="font-weight:bold;"><span style="color:#e5e5e5;">totalAssets</span></span>, <span style="font-weight:bold;"><span style="color:#ff87ff;">totalLiabilities</span></span>, <span style="font-weight:bold;"><span style="color:#ffd700;">totalShareholderEquity</span></span>
+
+               -4.27B                   -2.13B                    0.00B                    2.13B                    4.27B
+               |                        |                        |                        |                        |
+
+  2020-12-31 |                                                   |  <span style="color:#e5e5e5;">0.03B</span>
+  2021-06-30 |                                                  <span style="color:#ffd700;">█</span>|<span style="color:#e5e5e5;">█</span>  <span style="color:#ff87ff;">0.18B</span>
+  2021-09-30 |                                             <span style="color:#ffd700;">█</span><span style="color:#ffd700;">█</span><span style="color:#ffd700;">█</span><span style="color:#ffd700;">█</span><span style="color:#ffd700;">█</span><span style="color:#ffd700;">█</span>|<span style="color:#e5e5e5;">█</span><span style="color:#e5e5e5;">█</span><span style="color:#ff87ff;">█</span><span style="color:#ff87ff;">█</span><span style="color:#ff87ff;">█</span><span style="color:#ff87ff;">█</span><span style="color:#ff87ff;">█</span><span style="color:#ff87ff;">█</span>  <span style="color:#ff87ff;">0.78B</span>
+  2021-12-31 |                                                   |<span style="color:#ffd700;">█</span><span style="color:#ffd700;">█</span><span style="color:#ffd700;">█</span><span style="color:#ffd700;">█</span><span style="color:#e5e5e5;">█</span>  <span style="color:#e5e5e5;">0.49B</span>
+  2022-03-31 |                                                   |<span style="color:#ffd700;">█</span><span style="color:#ffd700;">█</span><span style="color:#ffd700;">█</span><span style="color:#ffd700;">█</span><span style="color:#e5e5e5;">█</span><span style="color:#e5e5e5;">█</span>  <span style="color:#e5e5e5;">0.56B</span>
+  2022-06-30 |                                                   |<span style="color:#ff87ff;">█</span><span style="color:#ffd700;">█</span><span style="color:#ffd700;">█</span><span style="color:#ffd700;">█</span><span style="color:#e5e5e5;">█</span><span style="color:#e5e5e5;">█</span>  <span style="color:#e5e5e5;">0.57B</span>
+  2022-09-30 |                                                   |<span style="color:#ffd700;">█</span><span style="color:#ffd700;">█</span><span style="color:#ffd700;">█</span><span style="color:#ffd700;">█</span>  <span style="color:#ffd700;">0.44B</span> ⊗⊗
+  2022-12-31 |                                                   |<span style="color:#ff87ff;">█</span><span style="color:#ffd700;">█</span><span style="color:#e5e5e5;">█</span><span style="color:#e5e5e5;">█</span>  <span style="color:#e5e5e5;">0.41B</span>
+  2023-03-31 |                                                   |<span style="color:#ffd700;">█</span><span style="color:#ffd700;">█</span><span style="color:#ffd700;">█</span>  <span style="color:#e5e5e5;">0.33B</span>
+  2023-06-30 |                                                   |<span style="color:#ffd700;">█</span><span style="color:#ffd700;">█</span><span style="color:#ffd700;">█</span>  <span style="color:#e5e5e5;">0.33B</span>
+  2023-09-30 |                                                   |<span style="color:#ffd700;">█</span><span style="color:#ffd700;">█</span><span style="color:#ffd700;">█</span><span style="color:#e5e5e5;">█</span>  <span style="color:#e5e5e5;">0.42B</span>
+  2023-12-31 |                                                   |<span style="color:#ffd700;">█</span><span style="color:#ffd700;">█</span><span style="color:#ffd700;">█</span><span style="color:#e5e5e5;">█</span>  <span style="color:#e5e5e5;">0.42B</span>
+  2024-03-31 |                                                   |<span style="color:#ffd700;">█</span><span style="color:#ffd700;">█</span><span style="color:#ffd700;">█</span><span style="color:#ffd700;">█</span><span style="color:#ffd700;">█</span><span style="color:#ffd700;">█</span><span style="color:#ffd700;">█</span>  <span style="color:#e5e5e5;">0.72B</span>
+  2024-06-30 |                                                   |<span style="color:#ffd700;">█</span><span style="color:#ffd700;">█</span><span style="color:#ffd700;">█</span><span style="color:#ffd700;">█</span><span style="color:#ffd700;">█</span><span style="color:#ffd700;">█</span><span style="color:#ffd700;">█</span><span style="color:#ffd700;">█</span><span style="color:#ffd700;">█</span><span style="color:#ffd700;">█</span><span style="color:#ffd700;">█</span><span style="color:#ffd700;">█</span><span style="color:#e5e5e5;">█</span>  <span style="color:#e5e5e5;">1.15B</span>
+  2024-09-30 |                                                   |<span style="color:#ff87ff;">█</span><span style="color:#ffd700;">█</span><span style="color:#ffd700;">█</span><span style="color:#ffd700;">█</span><span style="color:#ffd700;">█</span><span style="color:#ffd700;">█</span><span style="color:#ffd700;">█</span><span style="color:#ffd700;">█</span><span style="color:#ffd700;">█</span><span style="color:#ffd700;">█</span><span style="color:#ffd700;">█</span><span style="color:#ffd700;">█</span><span style="color:#e5e5e5;">█</span><span style="color:#e5e5e5;">█</span>  <span style="color:#e5e5e5;">1.28B</span>
+  2024-12-31 |                                                   |<span style="color:#ff87ff;">█</span><span style="color:#ff87ff;">█</span><span style="color:#ff87ff;">█</span><span style="color:#ff87ff;">█</span><span style="color:#ff87ff;">█</span><span style="color:#ff87ff;">█</span><span style="color:#ffd700;">█</span><span style="color:#ffd700;">█</span><span style="color:#ffd700;">█</span><span style="color:#ffd700;">█</span><span style="color:#ffd700;">█</span><span style="color:#ffd700;">█</span><span style="color:#ffd700;">█</span><span style="color:#ffd700;">█</span><span style="color:#e5e5e5;">█</span><span style="color:#e5e5e5;">█</span><span style="color:#e5e5e5;">█</span><span style="color:#e5e5e5;">█</span><span style="color:#e5e5e5;">█</span><span style="color:#e5e5e5;">█</span><span style="color:#e5e5e5;">█</span>  <span style="color:#e5e5e5;">1.85B</span>
+  2025-03-31 |                                                   |<span style="color:#ff87ff;">█</span><span style="color:#ff87ff;">█</span><span style="color:#ff87ff;">█</span><span style="color:#ff87ff;">█</span><span style="color:#ff87ff;">█</span><span style="color:#ff87ff;">█</span><span style="color:#ffd700;">█</span><span style="color:#ffd700;">█</span><span style="color:#ffd700;">█</span><span style="color:#ffd700;">█</span><span style="color:#ffd700;">█</span><span style="color:#ffd700;">█</span><span style="color:#ffd700;">█</span><span style="color:#ffd700;">█</span><span style="color:#ffd700;">█</span><span style="color:#ffd700;">█</span><span style="color:#e5e5e5;">█</span><span style="color:#e5e5e5;">█</span><span style="color:#e5e5e5;">█</span><span style="color:#e5e5e5;">█</span><span style="color:#e5e5e5;">█</span><span style="color:#e5e5e5;">█</span>  <span style="color:#e5e5e5;">1.99B</span>
+  2025-06-30 |                                                   |<span style="color:#ff87ff;">█</span><span style="color:#ff87ff;">█</span><span style="color:#ff87ff;">█</span><span style="color:#ff87ff;">█</span><span style="color:#ff87ff;">█</span><span style="color:#ff87ff;">█</span><span style="color:#ff87ff;">█</span><span style="color:#ff87ff;">█</span><span style="color:#ff87ff;">█</span><span style="color:#ff87ff;">█</span><span style="color:#ff87ff;">█</span><span style="color:#ff87ff;">█</span><span style="color:#ffd700;">█</span><span style="color:#ffd700;">█</span><span style="color:#ffd700;">█</span><span style="color:#ffd700;">█</span><span style="color:#ffd700;">█</span><span style="color:#ffd700;">█</span><span style="color:#ffd700;">█</span><span style="color:#ffd700;">█</span><span style="color:#e5e5e5;">█</span><span style="color:#e5e5e5;">█</span><span style="color:#e5e5e5;">█</span><span style="color:#e5e5e5;">█</span><span style="color:#e5e5e5;">█</span><span style="color:#e5e5e5;">█</span><span style="color:#e5e5e5;">█</span><span style="color:#e5e5e5;">█</span><span style="color:#e5e5e5;">█</span><span style="color:#e5e5e5;">█</span><span style="color:#e5e5e5;">█</span><span style="color:#e5e5e5;">█</span><span style="color:#e5e5e5;">█</span>  <span style="color:#e5e5e5;">2.94B</span>
+  2025-09-30 |                                                   |<span style="color:#ff87ff;">█</span><span style="color:#ff87ff;">█</span><span style="color:#ff87ff;">█</span><span style="color:#ff87ff;">█</span><span style="color:#ff87ff;">█</span><span style="color:#ff87ff;">█</span><span style="color:#ff87ff;">█</span><span style="color:#ff87ff;">█</span><span style="color:#ff87ff;">█</span><span style="color:#ff87ff;">█</span><span style="color:#ff87ff;">█</span><span style="color:#ff87ff;">█</span><span style="color:#ff87ff;">█</span><span style="color:#ff87ff;">█</span><span style="color:#ff87ff;">█</span><span style="color:#ffd700;">█</span><span style="color:#ffd700;">█</span><span style="color:#ffd700;">█</span><span style="color:#ffd700;">█</span><span style="color:#ffd700;">█</span><span style="color:#ffd700;">█</span><span style="color:#ffd700;">█</span><span style="color:#ffd700;">█</span><span style="color:#ffd700;">█</span><span style="color:#ffd700;">█</span><span style="color:#ffd700;">█</span><span style="color:#ffd700;">█</span><span style="color:#ffd700;">█</span><span style="color:#ffd700;">█</span><span style="color:#ffd700;">█</span><span style="color:#ffd700;">█</span><span style="color:#ffd700;">█</span><span style="color:#ffd700;">█</span><span style="color:#e5e5e5;">█</span><span style="color:#e5e5e5;">█</span><span style="color:#e5e5e5;">█</span><span style="color:#e5e5e5;">█</span><span style="color:#e5e5e5;">█</span><span style="color:#e5e5e5;">█</span><span style="color:#e5e5e5;">█</span><span style="color:#e5e5e5;">█</span><span style="color:#e5e5e5;">█</span><span style="color:#e5e5e5;">█</span><span style="color:#e5e5e5;">█</span><span style="color:#e5e5e5;">█</span><span style="color:#e5e5e5;">█</span><span style="color:#e5e5e5;">█</span><span style="color:#e5e5e5;">█</span><span style="color:#e5e5e5;">█</span> <span style="color:#e5e5e5;">4.27B</span>
+
+               |                        |                        |                        |                        |
+               -4.27B                   -2.13B                    0.00B                    2.13B                    4.27B
+</pre>
+        </div>
+        
+
+        <footer>
+            Generated by StocksFin
+        </footer>
+    </div>
+</body>
+</html>
