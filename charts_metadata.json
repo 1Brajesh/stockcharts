@@ -408,22 +408,22 @@
     "AMZN": {
       "presets": {
         "costs": {
-          "updated": "Jan 18, 2026 01:31 AM"
+          "updated": "Jan 28, 2026 11:50 PM"
         },
         "revenue": {
-          "updated": "Jan 18, 2026 01:31 AM"
+          "updated": "Jan 28, 2026 11:50 PM"
         },
         "cash": {
-          "updated": "Jan 18, 2026 01:31 AM"
+          "updated": "Jan 28, 2026 11:50 PM"
         },
         "assets": {
-          "updated": "Jan 18, 2026 01:31 AM"
+          "updated": "Jan 28, 2026 11:50 PM"
         },
         "FCF": {
-          "updated": "Jan 18, 2026 01:31 AM"
+          "updated": "Jan 28, 2026 11:50 PM"
         }
       },
-      "last_updated": "2026-01-18T01:31:00.753741",
+      "last_updated": "2026-01-28T23:50:38.218538",
       "company": {
         "name": "Amazon.com Inc",
         "market_cap": "$2.42T",
