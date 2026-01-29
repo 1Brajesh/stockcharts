@@ -69,10 +69,25 @@
           "updated": "Jan 29, 2026 12:10 AM"
         },
         "FCF": {
-          "updated": "Jan 29, 2026 12:10 AM"
+          "updated": "Jan 29, 2026 10:01 AM"
+        },
+        "Revenue": {
+          "updated": "Jan 29, 2026 10:01 AM"
+        },
+        "Costs": {
+          "updated": "Jan 29, 2026 10:01 AM"
+        },
+        "Cash": {
+          "updated": "Jan 29, 2026 10:01 AM"
+        },
+        "Assets": {
+          "updated": "Jan 29, 2026 10:01 AM"
+        },
+        "Buffet": {
+          "updated": "Jan 29, 2026 10:01 AM"
         }
       },
-      "last_updated": "2026-01-29T00:10:07.103267",
+      "last_updated": "2026-01-29T10:01:07.915894",
       "company": {
         "name": "Palantir Technologies Inc.",
         "market_cap": "$395.10B",
