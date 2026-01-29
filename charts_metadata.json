@@ -111,22 +111,22 @@
     "GOOG": {
       "presets": {
         "costs": {
-          "updated": "Jan 18, 2026 01:30 AM"
+          "updated": "Jan 29, 2026 12:08 AM"
         },
         "revenue": {
-          "updated": "Jan 18, 2026 01:30 AM"
+          "updated": "Jan 29, 2026 12:08 AM"
         },
         "cash": {
-          "updated": "Jan 18, 2026 01:30 AM"
+          "updated": "Jan 29, 2026 12:08 AM"
         },
         "assets": {
-          "updated": "Jan 18, 2026 01:30 AM"
+          "updated": "Jan 29, 2026 12:08 AM"
         },
         "FCF": {
-          "updated": "Jan 18, 2026 01:30 AM"
+          "updated": "Jan 29, 2026 12:08 AM"
         }
       },
-      "last_updated": "2026-01-18T01:30:57.007330",
+      "last_updated": "2026-01-29T00:08:51.619898",
       "company": {
         "name": "Alphabet Inc Class C",
         "market_cap": "$3.89T",
