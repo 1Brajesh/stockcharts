@@ -1289,38 +1289,26 @@
     },
     "ANET": {
       "presets": {
-        "costs": {
-          "updated": "Jan 18, 2026 10:50 AM"
-        },
-        "revenue": {
-          "updated": "Jan 18, 2026 10:50 AM"
-        },
-        "cash": {
-          "updated": "Jan 18, 2026 10:50 AM"
-        },
-        "FCF": {
-          "updated": "Jan 29, 2026 09:55 AM"
-        },
-        "assets": {
-          "updated": "Jan 18, 2026 10:50 AM"
-        },
         "Revenue": {
-          "updated": "Jan 29, 2026 09:55 AM"
+          "updated": "Jan 29, 2026 10:05 AM"
         },
         "Costs": {
-          "updated": "Jan 29, 2026 09:55 AM"
+          "updated": "Jan 29, 2026 10:05 AM"
         },
         "Cash": {
-          "updated": "Jan 29, 2026 09:55 AM"
+          "updated": "Jan 29, 2026 10:05 AM"
+        },
+        "FCF": {
+          "updated": "Jan 29, 2026 10:05 AM"
         },
         "Assets": {
-          "updated": "Jan 29, 2026 09:55 AM"
+          "updated": "Jan 29, 2026 10:05 AM"
         },
         "Buffet": {
-          "updated": "Jan 29, 2026 09:55 AM"
+          "updated": "Jan 29, 2026 10:05 AM"
         }
       },
-      "last_updated": "2026-01-29T09:55:48.085496",
+      "last_updated": "2026-01-29T10:05:57.642029",
       "company": {
         "name": "Arista Networks",
         "market_cap": "$161.93B",
