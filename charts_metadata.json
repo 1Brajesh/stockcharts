@@ -1296,13 +1296,28 @@
           "updated": "Jan 18, 2026 10:50 AM"
         },
         "FCF": {
-          "updated": "Jan 18, 2026 10:50 AM"
+          "updated": "Jan 29, 2026 09:55 AM"
         },
         "assets": {
           "updated": "Jan 18, 2026 10:50 AM"
+        },
+        "Revenue": {
+          "updated": "Jan 29, 2026 09:55 AM"
+        },
+        "Costs": {
+          "updated": "Jan 29, 2026 09:55 AM"
+        },
+        "Cash": {
+          "updated": "Jan 29, 2026 09:55 AM"
+        },
+        "Assets": {
+          "updated": "Jan 29, 2026 09:55 AM"
+        },
+        "Buffet": {
+          "updated": "Jan 29, 2026 09:55 AM"
         }
       },
-      "last_updated": "2026-01-18T10:50:13.228904",
+      "last_updated": "2026-01-29T09:55:48.085496",
       "company": {
         "name": "Arista Networks",
         "market_cap": "$161.93B",
