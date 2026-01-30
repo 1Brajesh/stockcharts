@@ -2422,6 +2422,36 @@
         "sector": "COMMUNICATION SERVICES",
         "industry": "INTERNET CONTENT & INFORMATION"
       }
+    },
+    "GAMB": {
+      "presets": {
+        "Revenue": {
+          "updated": "Jan 29, 2026 09:47 PM"
+        },
+        "Costs": {
+          "updated": "Jan 29, 2026 09:47 PM"
+        },
+        "Cash": {
+          "updated": "Jan 29, 2026 09:47 PM"
+        },
+        "FCF": {
+          "updated": "Jan 29, 2026 09:47 PM"
+        },
+        "Assets": {
+          "updated": "Jan 29, 2026 09:47 PM"
+        },
+        "Buffet": {
+          "updated": "Jan 29, 2026 09:47 PM"
+        }
+      },
+      "last_updated": "2026-01-29T21:47:58.227358",
+      "company": {
+        "name": "Gambling.com Group Ltd",
+        "market_cap": "$169.99M",
+        "description": "None",
+        "sector": "CONSUMER CYCLICAL",
+        "industry": "GAMBLING"
+      }
     }
   }
 }
