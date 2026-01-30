@@ -2332,6 +2332,36 @@
         "sector": "COMMUNICATION SERVICES",
         "industry": "INTERNET CONTENT & INFORMATION"
       }
+    },
+    "KTOS": {
+      "presets": {
+        "Revenue": {
+          "updated": "Jan 29, 2026 08:51 PM"
+        },
+        "Costs": {
+          "updated": "Jan 29, 2026 08:51 PM"
+        },
+        "Cash": {
+          "updated": "Jan 29, 2026 08:51 PM"
+        },
+        "FCF": {
+          "updated": "Jan 29, 2026 08:51 PM"
+        },
+        "Assets": {
+          "updated": "Jan 29, 2026 08:51 PM"
+        },
+        "Buffet": {
+          "updated": "Jan 29, 2026 08:51 PM"
+        }
+      },
+      "last_updated": "2026-01-29T20:51:24.995088",
+      "company": {
+        "name": "Kratos Defense & Security Solutions",
+        "market_cap": "$20.21B",
+        "description": "Kratos Defense & Security Solutions, Inc. (KTOS) is a leading defense contractor headquartered in San Diego, California, focused on cutting-edge technologies that enhance national security. Specializing in unmanned systems, satellite communications, and cybersecurity, Kratos plays a vital role in supporting the U.S. Department of Defense and various government agencies. Committed to innovation and operational excellence, the company actively seeks strategic partnerships and invests significantly in research and development, situating itself at the forefront of military technological advancements to meet evolving defense challenges.",
+        "sector": "INDUSTRIALS",
+        "industry": "AEROSPACE & DEFENSE"
+      }
     }
   }
 }
