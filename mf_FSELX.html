@@ -1,0 +1,1070 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FSELX - Fidelity Select Semiconductors</title>
+    <style>
+        * { box-sizing: border-box; }
+        body {
+            background-color: #0d1117;
+            color: #c9d1d9;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;
+            font-size: 14px;
+            margin: 0;
+            padding: 20px;
+            line-height: 1.5;
+        }
+        .container { max-width: 900px; margin: 0 auto; }
+        header {
+            border-bottom: 1px solid #30363d;
+            padding-bottom: 16px;
+            margin-bottom: 24px;
+        }
+        h1 { color: #58a6ff; margin: 0 0 8px 0; font-size: 24px; }
+        .subtitle { color: #8b949e; font-size: 16px; }
+        .back-link {
+            color: #58a6ff;
+            text-decoration: none;
+            font-size: 13px;
+        }
+        .back-link:hover { text-decoration: underline; }
+        .info-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+            gap: 16px;
+            margin-bottom: 32px;
+        }
+        .info-box {
+            background: #161b22;
+            border: 1px solid #30363d;
+            border-radius: 6px;
+            padding: 12px;
+        }
+        .info-label { color: #8b949e; font-size: 12px; }
+        .info-value { font-size: 18px; font-weight: 600; color: #c9d1d9; }
+        .info-value.positive { color: #3fb950; }
+        .info-value.negative { color: #f85149; }
+        h2 {
+            color: #c9d1d9;
+            font-size: 16px;
+            margin: 24px 0 12px 0;
+            border-bottom: 1px solid #30363d;
+            padding-bottom: 8px;
+        }
+        .holdings-table { margin-bottom: 32px; }
+        .holding-row {
+            display: grid;
+            grid-template-columns: 30px 60px 1fr 60px;
+            gap: 8px;
+            padding: 8px 0;
+            border-bottom: 1px solid #21262d;
+            align-items: center;
+            position: relative;
+        }
+        .holding-rank { color: #8b949e; }
+        .holding-ticker { font-weight: 600; color: #58a6ff; }
+        .holding-name { color: #8b949e; font-size: 13px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+        .holding-weight { text-align: right; }
+        .holding-bar {
+            position: absolute;
+            left: 100px;
+            height: 4px;
+            background: #238636;
+            border-radius: 2px;
+            opacity: 0.3;
+            top: 50%;
+            transform: translateY(-50%);
+        }
+        .price-chart { margin-bottom: 32px; }
+        .price-row {
+            display: grid;
+            grid-template-columns: 80px 1fr 80px;
+            gap: 12px;
+            padding: 6px 0;
+            align-items: center;
+        }
+        .price-date { color: #8b949e; font-size: 13px; }
+        .price-bar-container {
+            background: #21262d;
+            border-radius: 3px;
+            height: 20px;
+            overflow: hidden;
+        }
+        .price-bar {
+            height: 100%;
+            background: linear-gradient(90deg, #238636, #3fb950);
+            border-radius: 3px;
+        }
+        .price-value { text-align: right; font-weight: 500; }
+        .returns-summary {
+            text-align: right;
+            font-size: 15px;
+            font-weight: 600;
+            margin-top: 12px;
+            padding: 8px;
+            border-radius: 6px;
+            background: #161b22;
+        }
+        .returns-summary.positive { color: #3fb950; }
+        .returns-summary.negative { color: #f85149; }
+        .cache-info {
+            color: #8b949e;
+            font-size: 12px;
+            margin-top: 32px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <a href="mfs.html" class="back-link">&larr; Back to Mutual Fund Dashboard</a>
+            <h1>FSELX</h1>
+            <div class="subtitle">Fidelity Select Semiconductors</div>
+        </header>
+
+        <div class="info-grid">
+            <div class="info-box">
+                <div class="info-label">NAV</div>
+                <div class="info-value">$49.70</div>
+            </div>
+            <div class="info-box">
+                <div class="info-label">AUM</div>
+                <div class="info-value">$28.7B</div>
+            </div>
+            <div class="info-box">
+                <div class="info-label">Expense Ratio</div>
+                <div class="info-value">0.62%</div>
+            </div>
+            <div class="info-box">
+                <div class="info-label">Category</div>
+                <div class="info-value" style="font-size: 14px;">N/A</div>
+            </div>
+            <div class="info-box">
+                <div class="info-label">Fund Family</div>
+                <div class="info-value" style="font-size: 14px;">N/A</div>
+            </div>
+            <div class="info-box">
+                <div class="info-label">52W Range</div>
+                <div class="info-value">$22.88 - $49.84</div>
+            </div>
+        </div>
+
+        <h2>Top 9 Holdings (76.5% of fund)</h2>
+<div class="holdings-table">
+<div class="holding-row">
+                <span class="holding-rank">1.</span>
+                <span class="holding-ticker">NVDA</span>
+                <span class="holding-name">NVIDIA Corp</span>
+                <span class="holding-weight">23.6%</span>
+                <div class="holding-bar" style="width: 100%"></div>
+            </div>
+<div class="holding-row">
+                <span class="holding-rank">2.</span>
+                <span class="holding-ticker">AVGO</span>
+                <span class="holding-name">Broadcom Inc</span>
+                <span class="holding-weight">13.7%</span>
+                <div class="holding-bar" style="width: 100%"></div>
+            </div>
+<div class="holding-row">
+                <span class="holding-rank">3.</span>
+                <span class="holding-ticker">MRVL</span>
+                <span class="holding-name">Marvell Technology Inc</span>
+                <span class="holding-weight">9.7%</span>
+                <div class="holding-bar" style="width: 97.231194%"></div>
+            </div>
+<div class="holding-row">
+                <span class="holding-rank">4.</span>
+                <span class="holding-ticker">MU</span>
+                <span class="holding-name">Micron Technology Inc</span>
+                <span class="holding-weight">5.5%</span>
+                <div class="holding-bar" style="width: 54.565599999999996%"></div>
+            </div>
+<div class="holding-row">
+                <span class="holding-rank">5.</span>
+                <span class="holding-ticker">MPWR</span>
+                <span class="holding-name">Monolithic Power Systems Inc</span>
+                <span class="holding-weight">5.4%</span>
+                <div class="holding-bar" style="width: 53.693299999999994%"></div>
+            </div>
+<div class="holding-row">
+                <span class="holding-rank">6.</span>
+                <span class="holding-ticker">NXPI</span>
+                <span class="holding-name">NXP Semiconductors NV</span>
+                <span class="holding-weight">5.3%</span>
+                <div class="holding-bar" style="width: 53.104%"></div>
+            </div>
+<div class="holding-row">
+                <span class="holding-rank">7.</span>
+                <span class="holding-ticker">LRCX</span>
+                <span class="holding-name">Lam Research Corp</span>
+                <span class="holding-weight">5.2%</span>
+                <div class="holding-bar" style="width: 52.455403000000004%"></div>
+            </div>
+<div class="holding-row">
+                <span class="holding-rank">8.</span>
+                <span class="holding-ticker">ON</span>
+                <span class="holding-name">ON Semiconductor Corp</span>
+                <span class="holding-weight">4.6%</span>
+                <div class="holding-bar" style="width: 46.040803%"></div>
+            </div>
+<div class="holding-row">
+                <span class="holding-rank">9.</span>
+                <span class="holding-ticker">GFS</span>
+                <span class="holding-name">GLOBALFOUNDRIES Inc</span>
+                <span class="holding-weight">3.4%</span>
+                <div class="holding-bar" style="width: 34.272%"></div>
+            </div>
+</div>
+        <h2>NAV History (10Y Monthly - 120 points)</h2>
+<div class="price-chart">
+<div class="price-row">
+                    <span class="price-date">2016-02</span>
+                    <div class="price-bar-container">
+                        <div class="price-bar" style="width: 2.4913585019430777%"></div>
+                    </div>
+                    <span class="price-value">$1</span>
+                </div>
+<div class="price-row">
+                    <span class="price-date">2016-03</span>
+                    <div class="price-bar-container">
+                        <div class="price-bar" style="width: 2.7152851136929437%"></div>
+                    </div>
+                    <span class="price-value">$1</span>
+                </div>
+<div class="price-row">
+                    <span class="price-date">2016-04</span>
+                    <div class="price-bar-container">
+                        <div class="price-bar" style="width: 2.518458107064351%"></div>
+                    </div>
+                    <span class="price-value">$1</span>
+                </div>
+<div class="price-row">
+                    <span class="price-date">2016-05</span>
+                    <div class="price-bar-container">
+                        <div class="price-bar" style="width: 2.9237320276527936%"></div>
+                    </div>
+                    <span class="price-value">$1</span>
+                </div>
+<div class="price-row">
+                    <span class="price-date">2016-06</span>
+                    <div class="price-bar-container">
+                        <div class="price-bar" style="width: 2.890511733187336%"></div>
+                    </div>
+                    <span class="price-value">$1</span>
+                </div>
+<div class="price-row">
+                    <span class="price-date">2016-07</span>
+                    <div class="price-bar-container">
+                        <div class="price-bar" style="width: 3.1807083950279376%"></div>
+                    </div>
+                    <span class="price-value">$2</span>
+                </div>
+<div class="price-row">
+                    <span class="price-date">2016-08</span>
+                    <div class="price-bar-container">
+                        <div class="price-bar" style="width: 3.3620816085004654%"></div>
+                    </div>
+                    <span class="price-value">$2</span>
+                </div>
+<div class="price-row">
+                    <span class="price-date">2016-09</span>
+                    <div class="price-bar-container">
+                        <div class="price-bar" style="width: 3.539254193691596%"></div>
+                    </div>
+                    <span class="price-value">$2</span>
+                </div>
+<div class="price-row">
+                    <span class="price-date">2016-10</span>
+                    <div class="price-bar-container">
+                        <div class="price-bar" style="width: 3.4430314308791066%"></div>
+                    </div>
+                    <span class="price-value">$2</span>
+                </div>
+<div class="price-row">
+                    <span class="price-date">2016-11</span>
+                    <div class="price-bar-container">
+                        <div class="price-bar" style="width: 3.598438846681179%"></div>
+                    </div>
+                    <span class="price-value">$2</span>
+                </div>
+<div class="price-row">
+                    <span class="price-date">2016-12</span>
+                    <div class="price-bar-container">
+                        <div class="price-bar" style="width: 3.6473136952158245%"></div>
+                    </div>
+                    <span class="price-value">$2</span>
+                </div>
+<div class="price-row">
+                    <span class="price-date">2017-01</span>
+                    <div class="price-bar-container">
+                        <div class="price-bar" style="width: 3.801219361821881%"></div>
+                    </div>
+                    <span class="price-value">$2</span>
+                </div>
+<div class="price-row">
+                    <span class="price-date">2017-02</span>
+                    <div class="price-bar-container">
+                        <div class="price-bar" style="width: 3.934520290696813%"></div>
+                    </div>
+                    <span class="price-value">$2</span>
+                </div>
+<div class="price-row">
+                    <span class="price-date">2017-03</span>
+                    <div class="price-bar-container">
+                        <div class="price-bar" style="width: 4.065880051029443%"></div>
+                    </div>
+                    <span class="price-value">$2</span>
+                </div>
+<div class="price-row">
+                    <span class="price-date">2017-04</span>
+                    <div class="price-bar-container">
+                        <div class="price-bar" style="width: 3.8684531602386976%"></div>
+                    </div>
+                    <span class="price-value">$2</span>
+                </div>
+<div class="price-row">
+                    <span class="price-date">2017-05</span>
+                    <div class="price-bar-container">
+                        <div class="price-bar" style="width: 4.420168614989365%"></div>
+                    </div>
+                    <span class="price-value">$2</span>
+                </div>
+<div class="price-row">
+                    <span class="price-date">2017-06</span>
+                    <div class="price-bar-container">
+                        <div class="price-bar" style="width: 4.237674786240717%"></div>
+                    </div>
+                    <span class="price-value">$2</span>
+                </div>
+<div class="price-row">
+                    <span class="price-date">2017-07</span>
+                    <div class="price-bar-container">
+                        <div class="price-bar" style="width: 4.354071502316028%"></div>
+                    </div>
+                    <span class="price-value">$2</span>
+                </div>
+<div class="price-row">
+                    <span class="price-date">2017-08</span>
+                    <div class="price-bar-container">
+                        <div class="price-bar" style="width: 4.457997535720955%"></div>
+                    </div>
+                    <span class="price-value">$2</span>
+                </div>
+<div class="price-row">
+                    <span class="price-date">2017-09</span>
+                    <div class="price-bar-container">
+                        <div class="price-bar" style="width: 4.645895358941132%"></div>
+                    </div>
+                    <span class="price-value">$2</span>
+                </div>
+<div class="price-row">
+                    <span class="price-date">2017-10</span>
+                    <div class="price-bar-container">
+                        <div class="price-bar" style="width: 5.043722896557155%"></div>
+                    </div>
+                    <span class="price-value">$3</span>
+                </div>
+<div class="price-row">
+                    <span class="price-date">2017-11</span>
+                    <div class="price-bar-container">
+                        <div class="price-bar" style="width: 5.252820304658452%"></div>
+                    </div>
+                    <span class="price-value">$3</span>
+                </div>
+<div class="price-row">
+                    <span class="price-date">2017-12</span>
+                    <div class="price-bar-container">
+                        <div class="price-bar" style="width: 4.644647139357029%"></div>
+                    </div>
+                    <span class="price-value">$2</span>
+                </div>
+<div class="price-row">
+                    <span class="price-date">2018-01</span>
+                    <div class="price-bar-container">
+                        <div class="price-bar" style="width: 6.116708665433938%"></div>
+                    </div>
+                    <span class="price-value">$3</span>
+                </div>
+<div class="price-row">
+                    <span class="price-date">2018-02</span>
+                    <div class="price-bar-container">
+                        <div class="price-bar" style="width: 6.092889834231066%"></div>
+                    </div>
+                    <span class="price-value">$3</span>
+                </div>
+<div class="price-row">
+                    <span class="price-date">2018-03</span>
+                    <div class="price-bar-container">
+                        <div class="price-bar" style="width: 6.041111747832089%"></div>
+                    </div>
+                    <span class="price-value">$3</span>
+                </div>
+<div class="price-row">
+                    <span class="price-date">2018-04</span>
+                    <div class="price-bar-container">
+                        <div class="price-bar" style="width: 5.458075192056956%"></div>
+                    </div>
+                    <span class="price-value">$3</span>
+                </div>
+<div class="price-row">
+                    <span class="price-date">2018-05</span>
+                    <div class="price-bar-container">
+                        <div class="price-bar" style="width: 6.1584712528025936%"></div>
+                    </div>
+                    <span class="price-value">$3</span>
+                </div>
+<div class="price-row">
+                    <span class="price-date">2018-06</span>
+                    <div class="price-bar-container">
+                        <div class="price-bar" style="width: 5.886157902981888%"></div>
+                    </div>
+                    <span class="price-value">$3</span>
+                </div>
+<div class="price-row">
+                    <span class="price-date">2018-07</span>
+                    <div class="price-bar-container">
+                        <div class="price-bar" style="width: 5.948999666655332%"></div>
+                    </div>
+                    <span class="price-value">$3</span>
+                </div>
+<div class="price-row">
+                    <span class="price-date">2018-08</span>
+                    <div class="price-bar-container">
+                        <div class="price-bar" style="width: 6.074683194002222%"></div>
+                    </div>
+                    <span class="price-value">$3</span>
+                </div>
+<div class="price-row">
+                    <span class="price-date">2018-09</span>
+                    <div class="price-bar-container">
+                        <div class="price-bar" style="width: 5.859973594926897%"></div>
+                    </div>
+                    <span class="price-value">$3</span>
+                </div>
+<div class="price-row">
+                    <span class="price-date">2018-10</span>
+                    <div class="price-bar-container">
+                        <div class="price-bar" style="width: 5.105875309138226%"></div>
+                    </div>
+                    <span class="price-value">$3</span>
+                </div>
+<div class="price-row">
+                    <span class="price-date">2018-11</span>
+                    <div class="price-bar-container">
+                        <div class="price-bar" style="width: 5.304874227437466%"></div>
+                    </div>
+                    <span class="price-value">$3</span>
+                </div>
+<div class="price-row">
+                    <span class="price-date">2018-12</span>
+                    <div class="price-bar-container">
+                        <div class="price-bar" style="width: 4.121358182644479%"></div>
+                    </div>
+                    <span class="price-value">$2</span>
+                </div>
+<div class="price-row">
+                    <span class="price-date">2019-01</span>
+                    <div class="price-bar-container">
+                        <div class="price-bar" style="width: 6.588785599970895%"></div>
+                    </div>
+                    <span class="price-value">$3</span>
+                </div>
+<div class="price-row">
+                    <span class="price-date">2019-02</span>
+                    <div class="price-bar-container">
+                        <div class="price-bar" style="width: 7.013629751936458%"></div>
+                    </div>
+                    <span class="price-value">$3</span>
+                </div>
+<div class="price-row">
+                    <span class="price-date">2019-03</span>
+                    <div class="price-bar-container">
+                        <div class="price-bar" style="width: 7.170149387994389%"></div>
+                    </div>
+                    <span class="price-value">$4</span>
+                </div>
+<div class="price-row">
+                    <span class="price-date">2019-04</span>
+                    <div class="price-bar-container">
+                        <div class="price-bar" style="width: 7.982569078831984%"></div>
+                    </div>
+                    <span class="price-value">$4</span>
+                </div>
+<div class="price-row">
+                    <span class="price-date">2019-05</span>
+                    <div class="price-bar-container">
+                        <div class="price-bar" style="width: 6.586483925272768%"></div>
+                    </div>
+                    <span class="price-value">$3</span>
+                </div>
+<div class="price-row">
+                    <span class="price-date">2019-06</span>
+                    <div class="price-bar-container">
+                        <div class="price-bar" style="width: 7.474130673105241%"></div>
+                    </div>
+                    <span class="price-value">$4</span>
+                </div>
+<div class="price-row">
+                    <span class="price-date">2019-07</span>
+                    <div class="price-bar-container">
+                        <div class="price-bar" style="width: 7.944060401316892%"></div>
+                    </div>
+                    <span class="price-value">$4</span>
+                </div>
+<div class="price-row">
+                    <span class="price-date">2019-08</span>
+                    <div class="price-bar-container">
+                        <div class="price-bar" style="width: 7.653149443180853%"></div>
+                    </div>
+                    <span class="price-value">$4</span>
+                </div>
+<div class="price-row">
+                    <span class="price-date">2019-09</span>
+                    <div class="price-bar-container">
+                        <div class="price-bar" style="width: 7.996275988200381%"></div>
+                    </div>
+                    <span class="price-value">$4</span>
+                </div>
+<div class="price-row">
+                    <span class="price-date">2019-10</span>
+                    <div class="price-bar-container">
+                        <div class="price-bar" style="width: 8.510961728148406%"></div>
+                    </div>
+                    <span class="price-value">$4</span>
+                </div>
+<div class="price-row">
+                    <span class="price-date">2019-11</span>
+                    <div class="price-bar-container">
+                        <div class="price-bar" style="width: 8.995809167507959%"></div>
+                    </div>
+                    <span class="price-value">$4</span>
+                </div>
+<div class="price-row">
+                    <span class="price-date">2019-12</span>
+                    <div class="price-bar-container">
+                        <div class="price-bar" style="width: 9.338934273381158%"></div>
+                    </div>
+                    <span class="price-value">$5</span>
+                </div>
+<div class="price-row">
+                    <span class="price-date">2020-01</span>
+                    <div class="price-bar-container">
+                        <div class="price-bar" style="width: 9.687642307586328%"></div>
+                    </div>
+                    <span class="price-value">$5</span>
+                </div>
+<div class="price-row">
+                    <span class="price-date">2020-02</span>
+                    <div class="price-bar-container">
+                        <div class="price-bar" style="width: 9.078207010952939%"></div>
+                    </div>
+                    <span class="price-value">$5</span>
+                </div>
+<div class="price-row">
+                    <span class="price-date">2020-03</span>
+                    <div class="price-bar-container">
+                        <div class="price-bar" style="width: 7.914741632553782%"></div>
+                    </div>
+                    <span class="price-value">$4</span>
+                </div>
+<div class="price-row">
+                    <span class="price-date">2020-04</span>
+                    <div class="price-bar-container">
+                        <div class="price-bar" style="width: 8.460857368931956%"></div>
+                    </div>
+                    <span class="price-value">$4</span>
+                </div>
+<div class="price-row">
+                    <span class="price-date">2020-05</span>
+                    <div class="price-bar-container">
+                        <div class="price-bar" style="width: 10.500943235693715%"></div>
+                    </div>
+                    <span class="price-value">$5</span>
+                </div>
+<div class="price-row">
+                    <span class="price-date">2020-06</span>
+                    <div class="price-bar-container">
+                        <div class="price-bar" style="width: 11.227365778113416%"></div>
+                    </div>
+                    <span class="price-value">$6</span>
+                </div>
+<div class="price-row">
+                    <span class="price-date">2020-07</span>
+                    <div class="price-bar-container">
+                        <div class="price-bar" style="width: 11.58597993622778%"></div>
+                    </div>
+                    <span class="price-value">$6</span>
+                </div>
+<div class="price-row">
+                    <span class="price-date">2020-08</span>
+                    <div class="price-bar-container">
+                        <div class="price-bar" style="width: 12.422744706109818%"></div>
+                    </div>
+                    <span class="price-value">$6</span>
+                </div>
+<div class="price-row">
+                    <span class="price-date">2020-09</span>
+                    <div class="price-bar-container">
+                        <div class="price-bar" style="width: 12.542282119194015%"></div>
+                    </div>
+                    <span class="price-value">$6</span>
+                </div>
+<div class="price-row">
+                    <span class="price-date">2020-10</span>
+                    <div class="price-bar-container">
+                        <div class="price-bar" style="width: 12.588258047303318%"></div>
+                    </div>
+                    <span class="price-value">$6</span>
+                </div>
+<div class="price-row">
+                    <span class="price-date">2020-11</span>
+                    <div class="price-bar-container">
+                        <div class="price-bar" style="width: 14.822695828862706%"></div>
+                    </div>
+                    <span class="price-value">$7</span>
+                </div>
+<div class="price-row">
+                    <span class="price-date">2020-12</span>
+                    <div class="price-bar-container">
+                        <div class="price-bar" style="width: 14.914648644512205%"></div>
+                    </div>
+                    <span class="price-value">$7</span>
+                </div>
+<div class="price-row">
+                    <span class="price-date">2021-01</span>
+                    <div class="price-bar-container">
+                        <div class="price-bar" style="width: 16.291412778867222%"></div>
+                    </div>
+                    <span class="price-value">$8</span>
+                </div>
+<div class="price-row">
+                    <span class="price-date">2021-02</span>
+                    <div class="price-bar-container">
+                        <div class="price-bar" style="width: 17.304708034819207%"></div>
+                    </div>
+                    <span class="price-value">$9</span>
+                </div>
+<div class="price-row">
+                    <span class="price-date">2021-03</span>
+                    <div class="price-bar-container">
+                        <div class="price-bar" style="width: 17.54081630068472%"></div>
+                    </div>
+                    <span class="price-value">$9</span>
+                </div>
+<div class="price-row">
+                    <span class="price-date">2021-04</span>
+                    <div class="price-bar-container">
+                        <div class="price-bar" style="width: 16.930871546250287%"></div>
+                    </div>
+                    <span class="price-value">$8</span>
+                </div>
+<div class="price-row">
+                    <span class="price-date">2021-05</span>
+                    <div class="price-bar-container">
+                        <div class="price-bar" style="width: 19.016766400147%"></div>
+                    </div>
+                    <span class="price-value">$9</span>
+                </div>
+<div class="price-row">
+                    <span class="price-date">2021-06</span>
+                    <div class="price-bar-container">
+                        <div class="price-bar" style="width: 20.474683036655556%"></div>
+                    </div>
+                    <span class="price-value">$10</span>
+                </div>
+<div class="price-row">
+                    <span class="price-date">2021-07</span>
+                    <div class="price-bar-container">
+                        <div class="price-bar" style="width: 20.34698086672223%"></div>
+                    </div>
+                    <span class="price-value">$10</span>
+                </div>
+<div class="price-row">
+                    <span class="price-date">2021-08</span>
+                    <div class="price-bar-container">
+                        <div class="price-bar" style="width: 21.432436838553954%"></div>
+                    </div>
+                    <span class="price-value">$11</span>
+                </div>
+<div class="price-row">
+                    <span class="price-date">2021-09</span>
+                    <div class="price-bar-container">
+                        <div class="price-bar" style="width: 20.48532312519337%"></div>
+                    </div>
+                    <span class="price-value">$10</span>
+                </div>
+<div class="price-row">
+                    <span class="price-date">2021-10</span>
+                    <div class="price-bar-container">
+                        <div class="price-bar" style="width: 22.464684692249495%"></div>
+                    </div>
+                    <span class="price-value">$11</span>
+                </div>
+<div class="price-row">
+                    <span class="price-date">2021-11</span>
+                    <div class="price-bar-container">
+                        <div class="price-bar" style="width: 25.99773712468695%"></div>
+                    </div>
+                    <span class="price-value">$13</span>
+                </div>
+<div class="price-row">
+                    <span class="price-date">2021-12</span>
+                    <div class="price-bar-container">
+                        <div class="price-bar" style="width: 25.369874039005243%"></div>
+                    </div>
+                    <span class="price-value">$13</span>
+                </div>
+<div class="price-row">
+                    <span class="price-date">2022-01</span>
+                    <div class="price-bar-container">
+                        <div class="price-bar" style="width: 23.705979104209316%"></div>
+                    </div>
+                    <span class="price-value">$12</span>
+                </div>
+<div class="price-row">
+                    <span class="price-date">2022-02</span>
+                    <div class="price-bar-container">
+                        <div class="price-bar" style="width: 23.405170657042067%"></div>
+                    </div>
+                    <span class="price-value">$12</span>
+                </div>
+<div class="price-row">
+                    <span class="price-date">2022-03</span>
+                    <div class="price-bar-container">
+                        <div class="price-bar" style="width: 24.261316890274188%"></div>
+                    </div>
+                    <span class="price-value">$12</span>
+                </div>
+<div class="price-row">
+                    <span class="price-date">2022-04</span>
+                    <div class="price-bar-container">
+                        <div class="price-bar" style="width: 19.12444716632855%"></div>
+                    </div>
+                    <span class="price-value">$10</span>
+                </div>
+<div class="price-row">
+                    <span class="price-date">2022-05</span>
+                    <div class="price-bar-container">
+                        <div class="price-bar" style="width: 21.900598815356144%"></div>
+                    </div>
+                    <span class="price-value">$11</span>
+                </div>
+<div class="price-row">
+                    <span class="price-date">2022-06</span>
+                    <div class="price-bar-container">
+                        <div class="price-bar" style="width: 17.809825370530287%"></div>
+                    </div>
+                    <span class="price-value">$9</span>
+                </div>
+<div class="price-row">
+                    <span class="price-date">2022-07</span>
+                    <div class="price-bar-container">
+                        <div class="price-bar" style="width: 21.513971194200554%"></div>
+                    </div>
+                    <span class="price-value">$11</span>
+                </div>
+<div class="price-row">
+                    <span class="price-date">2022-08</span>
+                    <div class="price-bar-container">
+                        <div class="price-bar" style="width: 19.580831169560835%"></div>
+                    </div>
+                    <span class="price-value">$10</span>
+                </div>
+<div class="price-row">
+                    <span class="price-date">2022-09</span>
+                    <div class="price-bar-container">
+                        <div class="price-bar" style="width: 16.961738356749713%"></div>
+                    </div>
+                    <span class="price-value">$8</span>
+                </div>
+<div class="price-row">
+                    <span class="price-date">2022-10</span>
+                    <div class="price-bar-container">
+                        <div class="price-bar" style="width: 17.47308815550333%"></div>
+                    </div>
+                    <span class="price-value">$9</span>
+                </div>
+<div class="price-row">
+                    <span class="price-date">2022-11</span>
+                    <div class="price-bar-container">
+                        <div class="price-bar" style="width: 21.002623314308714%"></div>
+                    </div>
+                    <span class="price-value">$10</span>
+                </div>
+<div class="price-row">
+                    <span class="price-date">2022-12</span>
+                    <div class="price-bar-container">
+                        <div class="price-bar" style="width: 18.221398194750194%"></div>
+                    </div>
+                    <span class="price-value">$9</span>
+                </div>
+<div class="price-row">
+                    <span class="price-date">2023-01</span>
+                    <div class="price-bar-container">
+                        <div class="price-bar" style="width: 22.498295475085996%"></div>
+                    </div>
+                    <span class="price-value">$11</span>
+                </div>
+<div class="price-row">
+                    <span class="price-date">2023-02</span>
+                    <div class="price-bar-container">
+                        <div class="price-bar" style="width: 23.95687220004487%"></div>
+                    </div>
+                    <span class="price-value">$12</span>
+                </div>
+<div class="price-row">
+                    <span class="price-date">2023-03</span>
+                    <div class="price-bar-container">
+                        <div class="price-bar" style="width: 26.1899245634033%"></div>
+                    </div>
+                    <span class="price-value">$13</span>
+                </div>
+<div class="price-row">
+                    <span class="price-date">2023-04</span>
+                    <div class="price-bar-container">
+                        <div class="price-bar" style="width: 23.905243305148836%"></div>
+                    </div>
+                    <span class="price-value">$12</span>
+                </div>
+<div class="price-row">
+                    <span class="price-date">2023-05</span>
+                    <div class="price-bar-container">
+                        <div class="price-bar" style="width: 28.894301187767763%"></div>
+                    </div>
+                    <span class="price-value">$14</span>
+                </div>
+<div class="price-row">
+                    <span class="price-date">2023-06</span>
+                    <div class="price-bar-container">
+                        <div class="price-bar" style="width: 31.39726256714385%"></div>
+                    </div>
+                    <span class="price-value">$16</span>
+                </div>
+<div class="price-row">
+                    <span class="price-date">2023-07</span>
+                    <div class="price-bar-container">
+                        <div class="price-bar" style="width: 33.12210247074945%"></div>
+                    </div>
+                    <span class="price-value">$16</span>
+                </div>
+<div class="price-row">
+                    <span class="price-date">2023-08</span>
+                    <div class="price-bar-container">
+                        <div class="price-bar" style="width: 31.94194683263849%"></div>
+                    </div>
+                    <span class="price-value">$16</span>
+                </div>
+<div class="price-row">
+                    <span class="price-date">2023-09</span>
+                    <div class="price-bar-container">
+                        <div class="price-bar" style="width: 29.568671726270225%"></div>
+                    </div>
+                    <span class="price-value">$15</span>
+                </div>
+<div class="price-row">
+                    <span class="price-date">2023-10</span>
+                    <div class="price-bar-container">
+                        <div class="price-bar" style="width: 26.404307476261568%"></div>
+                    </div>
+                    <span class="price-value">$13</span>
+                </div>
+<div class="price-row">
+                    <span class="price-date">2023-11</span>
+                    <div class="price-bar-container">
+                        <div class="price-bar" style="width: 30.424608803568958%"></div>
+                    </div>
+                    <span class="price-value">$15</span>
+                </div>
+<div class="price-row">
+                    <span class="price-date">2023-12</span>
+                    <div class="price-bar-container">
+                        <div class="price-bar" style="width: 31.449137076346982%"></div>
+                    </div>
+                    <span class="price-value">$16</span>
+                </div>
+<div class="price-row">
+                    <span class="price-date">2024-01</span>
+                    <div class="price-bar-container">
+                        <div class="price-bar" style="width: 38.23624519584172%"></div>
+                    </div>
+                    <span class="price-value">$19</span>
+                </div>
+<div class="price-row">
+                    <span class="price-date">2024-02</span>
+                    <div class="price-bar-container">
+                        <div class="price-bar" style="width: 43.916970236995546%"></div>
+                    </div>
+                    <span class="price-value">$22</span>
+                </div>
+<div class="price-row">
+                    <span class="price-date">2024-03</span>
+                    <div class="price-bar-container">
+                        <div class="price-bar" style="width: 46.21024799599833%"></div>
+                    </div>
+                    <span class="price-value">$23</span>
+                </div>
+<div class="price-row">
+                    <span class="price-date">2024-04</span>
+                    <div class="price-bar-container">
+                        <div class="price-bar" style="width: 44.8013083874139%"></div>
+                    </div>
+                    <span class="price-value">$22</span>
+                </div>
+<div class="price-row">
+                    <span class="price-date">2024-05</span>
+                    <div class="price-bar-container">
+                        <div class="price-bar" style="width: 49.837522298133244%"></div>
+                    </div>
+                    <span class="price-value">$25</span>
+                </div>
+<div class="price-row">
+                    <span class="price-date">2024-06</span>
+                    <div class="price-bar-container">
+                        <div class="price-bar" style="width: 52.89522469756244%"></div>
+                    </div>
+                    <span class="price-value">$26</span>
+                </div>
+<div class="price-row">
+                    <span class="price-date">2024-07</span>
+                    <div class="price-bar-container">
+                        <div class="price-bar" style="width: 50.13729839766599%"></div>
+                    </div>
+                    <span class="price-value">$25</span>
+                </div>
+<div class="price-row">
+                    <span class="price-date">2024-08</span>
+                    <div class="price-bar-container">
+                        <div class="price-bar" style="width: 50.107318101306234%"></div>
+                    </div>
+                    <span class="price-value">$25</span>
+                </div>
+<div class="price-row">
+                    <span class="price-date">2024-09</span>
+                    <div class="price-bar-container">
+                        <div class="price-bar" style="width: 50.287184528570585%"></div>
+                    </div>
+                    <span class="price-value">$25</span>
+                </div>
+<div class="price-row">
+                    <span class="price-date">2024-10</span>
+                    <div class="price-bar-container">
+                        <div class="price-bar" style="width: 50.197251314938406%"></div>
+                    </div>
+                    <span class="price-value">$25</span>
+                </div>
+<div class="price-row">
+                    <span class="price-date">2024-11</span>
+                    <div class="price-bar-container">
+                        <div class="price-bar" style="width: 51.396348037622275%"></div>
+                    </div>
+                    <span class="price-value">$26</span>
+                </div>
+<div class="price-row">
+                    <span class="price-date">2024-12</span>
+                    <div class="price-bar-container">
+                        <div class="price-bar" style="width: 50.1672748563022%"></div>
+                    </div>
+                    <span class="price-value">$25</span>
+                </div>
+<div class="price-row">
+                    <span class="price-date">2025-01</span>
+                    <div class="price-bar-container">
+                        <div class="price-bar" style="width: 53.28373664098027%"></div>
+                    </div>
+                    <span class="price-value">$26</span>
+                </div>
+<div class="price-row">
+                    <span class="price-date">2025-02</span>
+                    <div class="price-bar-container">
+                        <div class="price-bar" style="width: 50.94302078119626%"></div>
+                    </div>
+                    <span class="price-value">$25</span>
+                </div>
+<div class="price-row">
+                    <span class="price-date">2025-03</span>
+                    <div class="price-bar-container">
+                        <div class="price-bar" style="width: 44.68486801723322%"></div>
+                    </div>
+                    <span class="price-value">$22</span>
+                </div>
+<div class="price-row">
+                    <span class="price-date">2025-04</span>
+                    <div class="price-bar-container">
+                        <div class="price-bar" style="width: 42.19785813578588%"></div>
+                    </div>
+                    <span class="price-value">$21</span>
+                </div>
+<div class="price-row">
+                    <span class="price-date">2025-05</span>
+                    <div class="price-bar-container">
+                        <div class="price-bar" style="width: 55.206677915290236%"></div>
+                    </div>
+                    <span class="price-value">$27</span>
+                </div>
+<div class="price-row">
+                    <span class="price-date">2025-06</span>
+                    <div class="price-bar-container">
+                        <div class="price-bar" style="width: 64.55693443256993%"></div>
+                    </div>
+                    <span class="price-value">$32</span>
+                </div>
+<div class="price-row">
+                    <span class="price-date">2025-07</span>
+                    <div class="price-bar-container">
+                        <div class="price-bar" style="width: 68.04501833932952%"></div>
+                    </div>
+                    <span class="price-value">$34</span>
+                </div>
+<div class="price-row">
+                    <span class="price-date">2025-08</span>
+                    <div class="price-bar-container">
+                        <div class="price-bar" style="width: 68.15459302208218%"></div>
+                    </div>
+                    <span class="price-value">$34</span>
+                </div>
+<div class="price-row">
+                    <span class="price-date">2025-09</span>
+                    <div class="price-bar-container">
+                        <div class="price-bar" style="width: 77.08481453471785%"></div>
+                    </div>
+                    <span class="price-value">$38</span>
+                </div>
+<div class="price-row">
+                    <span class="price-date">2025-10</span>
+                    <div class="price-bar-container">
+                        <div class="price-bar" style="width: 84.82799745205858%"></div>
+                    </div>
+                    <span class="price-value">$42</span>
+                </div>
+<div class="price-row">
+                    <span class="price-date">2025-11</span>
+                    <div class="price-bar-container">
+                        <div class="price-bar" style="width: 81.4129607753184%"></div>
+                    </div>
+                    <span class="price-value">$40</span>
+                </div>
+<div class="price-row">
+                    <span class="price-date">2025-12</span>
+                    <div class="price-bar-container">
+                        <div class="price-bar" style="width: 78.96582867926203%"></div>
+                    </div>
+                    <span class="price-value">$39</span>
+                </div>
+<div class="price-row">
+                    <span class="price-date">2026-01</span>
+                    <div class="price-bar-container">
+                        <div class="price-bar" style="width: 100.0%"></div>
+                    </div>
+                    <span class="price-value">$50</span>
+                </div>
+</div>
+<div class="returns-summary positive">10Y Return: +3914% (CAGR 44.7%)</div>
+        <div class="cache-info">Data cached: 2026-01-30 11:36</div>
+    </div>
+
+<script data-goatcounter="https://stocksfin.goatcounter.com/count"
+        async src="//gc.zgo.at/count.js"></script>
+</body>
+</html>
