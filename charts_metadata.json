@@ -2392,6 +2392,36 @@
         "sector": "FINANCIAL SERVICES",
         "industry": "INSURANCE - DIVERSIFIED"
       }
+    },
+    "TZOO": {
+      "presets": {
+        "Revenue": {
+          "updated": "Jan 29, 2026 09:36 PM"
+        },
+        "Costs": {
+          "updated": "Jan 29, 2026 09:36 PM"
+        },
+        "Cash": {
+          "updated": "Jan 29, 2026 09:36 PM"
+        },
+        "FCF": {
+          "updated": "Jan 29, 2026 09:36 PM"
+        },
+        "Assets": {
+          "updated": "Jan 29, 2026 09:36 PM"
+        },
+        "Buffet": {
+          "updated": "Jan 29, 2026 09:36 PM"
+        }
+      },
+      "last_updated": "2026-01-29T21:36:42.614309",
+      "company": {
+        "name": "Travelzoo",
+        "market_cap": "$65.01M",
+        "description": "Travelzoo (Ticker: TZOO) is a prominent Internet media company headquartered in New York City, focused on aggregating premium travel, entertainment, and local deals from top providers worldwide, including Asia Pacific, Europe, and North America. With a robust subscriber base exceeding 30 million, Travelzoo utilizes advanced technology to enhance user experiences while driving substantial traffic and revenue to its partners. The company's strong brand reputation, commitment to high-quality content, and strategic positioning enable it to leverage the increasing demand for personalized and digital travel solutions in a dynamic marketplace.",
+        "sector": "COMMUNICATION SERVICES",
+        "industry": "INTERNET CONTENT & INFORMATION"
+      }
     }
   }
 }
