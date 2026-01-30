@@ -1673,23 +1673,26 @@
     },
     "BE": {
       "presets": {
-        "revenue": {
-          "updated": "Jan 18, 2026 10:50 AM"
+        "Revenue": {
+          "updated": "Jan 30, 2026 11:04 AM"
         },
-        "costs": {
-          "updated": "Jan 18, 2026 10:50 AM"
+        "Costs": {
+          "updated": "Jan 30, 2026 11:04 AM"
         },
-        "cash": {
-          "updated": "Jan 18, 2026 10:50 AM"
+        "Cash": {
+          "updated": "Jan 30, 2026 11:04 AM"
         },
         "FCF": {
-          "updated": "Jan 18, 2026 10:50 AM"
+          "updated": "Jan 30, 2026 11:04 AM"
         },
-        "assets": {
-          "updated": "Jan 18, 2026 10:50 AM"
+        "Assets": {
+          "updated": "Jan 30, 2026 11:04 AM"
+        },
+        "Buffet": {
+          "updated": "Jan 30, 2026 11:04 AM"
         }
       },
-      "last_updated": "2026-01-18T10:50:10.317076",
+      "last_updated": "2026-01-30T11:04:12.525314",
       "company": {
         "name": "Bloom Energy Corp",
         "market_cap": "$31.56B",
