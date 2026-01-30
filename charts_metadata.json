@@ -2362,6 +2362,36 @@
         "sector": "INDUSTRIALS",
         "industry": "AEROSPACE & DEFENSE"
       }
+    },
+    "BRK-B": {
+      "presets": {
+        "Revenue": {
+          "updated": "Jan 29, 2026 09:13 PM"
+        },
+        "Costs": {
+          "updated": "Jan 29, 2026 09:13 PM"
+        },
+        "Cash": {
+          "updated": "Jan 29, 2026 09:13 PM"
+        },
+        "FCF": {
+          "updated": "Jan 29, 2026 09:13 PM"
+        },
+        "Assets": {
+          "updated": "Jan 29, 2026 09:13 PM"
+        },
+        "Buffet": {
+          "updated": "Jan 29, 2026 09:13 PM"
+        }
+      },
+      "last_updated": "2026-01-29T21:13:28.979963",
+      "company": {
+        "name": "Berkshire Hathaway Inc",
+        "market_cap": "$1.02T",
+        "description": "Berkshire Hathaway Inc. is a leading multinational conglomerate holding company headquartered in Omaha, Nebraska, celebrated for its diverse investment portfolio and strong financial performance. With wholly owned subsidiaries like GEICO, Dairy Queen, and BNSF Railway, and substantial equity stakes in industry heavyweights such as Apple, Bank of America, and Coca-Cola, the company is well-positioned for continued success. Under the pragmatic leadership of Warren Buffett, Berkshire Hathaway has adopted a disciplined acquisition strategy that emphasizes long-term value creation, attracting institutional investors seeking stability and dependable returns in fluctuating markets. This strategic focus and diversified business model make Berkshire Hathaway an attractive investment opportunity.",
+        "sector": "FINANCIAL SERVICES",
+        "industry": "INSURANCE - DIVERSIFIED"
+      }
     }
   }
 }
