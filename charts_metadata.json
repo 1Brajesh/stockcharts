@@ -194,23 +194,26 @@
     },
     "NVTS": {
       "presets": {
-        "costs": {
-          "updated": "Jan 19, 2026 12:26 PM"
+        "Revenue": {
+          "updated": "Jan 31, 2026 01:12 AM"
         },
-        "revenue": {
-          "updated": "Jan 19, 2026 12:26 PM"
+        "Costs": {
+          "updated": "Jan 31, 2026 01:12 AM"
         },
-        "cash": {
-          "updated": "Jan 19, 2026 12:26 PM"
+        "Cash": {
+          "updated": "Jan 31, 2026 01:12 AM"
         },
         "FCF": {
-          "updated": "Jan 19, 2026 12:26 PM"
+          "updated": "Jan 31, 2026 01:12 AM"
         },
-        "assets": {
-          "updated": "Jan 19, 2026 12:26 PM"
+        "Assets": {
+          "updated": "Jan 31, 2026 01:12 AM"
+        },
+        "Buffet": {
+          "updated": "Jan 31, 2026 01:12 AM"
         }
       },
-      "last_updated": "2026-01-19T12:26:44.925990",
+      "last_updated": "2026-01-31T01:12:48.743585",
       "company": {
         "name": "Navitas Semiconductor Corp",
         "market_cap": "$1.71B",
