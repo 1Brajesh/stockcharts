@@ -2458,6 +2458,36 @@
         "sector": "CONSUMER CYCLICAL",
         "industry": "GAMBLING"
       }
+    },
+    "SIGA": {
+      "presets": {
+        "Revenue": {
+          "updated": "Feb 01, 2026 11:30 AM"
+        },
+        "Costs": {
+          "updated": "Feb 01, 2026 11:30 AM"
+        },
+        "Cash": {
+          "updated": "Feb 01, 2026 11:30 AM"
+        },
+        "FCF": {
+          "updated": "Feb 01, 2026 11:30 AM"
+        },
+        "Assets": {
+          "updated": "Feb 01, 2026 11:30 AM"
+        },
+        "Buffet": {
+          "updated": "Feb 01, 2026 11:30 AM"
+        }
+      },
+      "last_updated": "2026-02-01T11:30:08.839539",
+      "company": {
+        "name": "SIGA Technologies Inc",
+        "market_cap": "$479.80M",
+        "description": "SIGA Technologies Inc. is a prominent biopharmaceutical company headquartered in New York, dedicated to the development and commercialization of innovative therapies for infectious diseases. The company's leading product, TPOXX, is an antiviral medication sanctioned for smallpox, underscoring SIGA's pivotal role in biodefense and public health. By fostering strategic partnerships with government agencies and focusing on both current and emerging health threats, SIGA is well-positioned to enhance public health response capabilities and address significant biothreats, ultimately contributing to global health security.",
+        "sector": "HEALTHCARE",
+        "industry": "DRUG MANUFACTURERS - SPECIALTY & GENERIC"
+      }
     }
   }
 }
