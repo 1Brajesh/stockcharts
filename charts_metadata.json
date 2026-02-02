@@ -2578,6 +2578,36 @@
         "sector": "CONSUMER DEFENSIVE",
         "industry": "PACKAGED FOODS"
       }
+    },
+    "HLT": {
+      "presets": {
+        "Revenue": {
+          "updated": "Feb 02, 2026 08:33 AM"
+        },
+        "Costs": {
+          "updated": "Feb 02, 2026 08:33 AM"
+        },
+        "Cash": {
+          "updated": "Feb 02, 2026 08:33 AM"
+        },
+        "FCF": {
+          "updated": "Feb 02, 2026 08:33 AM"
+        },
+        "Assets": {
+          "updated": "Feb 02, 2026 08:33 AM"
+        },
+        "Buffet": {
+          "updated": "Feb 02, 2026 08:33 AM"
+        }
+      },
+      "last_updated": "2026-02-02T08:33:13.063646",
+      "company": {
+        "name": "Hilton Worldwide Holdings Inc",
+        "market_cap": "$70.21B",
+        "description": "Hilton Worldwide Holdings Inc. is a leading global hospitality company renowned for its diverse portfolio of prestigious brands, including Hilton, DoubleTree, and Waldorf Astoria, which cater to a wide range of market segments. With a commitment to delivering exceptional customer experiences and operational excellence, Hilton is strategically positioned for growth through global expansion and innovation. The company\u2019s strong loyalty program and significant presence in key travel markets enhance its competitive edge, making it an attractive investment opportunity for institutional investors looking to capitalize on the recovery and growth potential within the dynamic tourism and travel industries.",
+        "sector": "CONSUMER CYCLICAL",
+        "industry": "LODGING"
+      }
     }
   }
 }
