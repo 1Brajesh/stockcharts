@@ -2608,6 +2608,36 @@
         "sector": "CONSUMER CYCLICAL",
         "industry": "LODGING"
       }
+    },
+    "BBY": {
+      "presets": {
+        "Revenue": {
+          "updated": "Feb 02, 2026 10:27 AM"
+        },
+        "Costs": {
+          "updated": "Feb 02, 2026 10:27 AM"
+        },
+        "Cash": {
+          "updated": "Feb 02, 2026 10:27 AM"
+        },
+        "FCF": {
+          "updated": "Feb 02, 2026 10:27 AM"
+        },
+        "Assets": {
+          "updated": "Feb 02, 2026 10:27 AM"
+        },
+        "Buffet": {
+          "updated": "Feb 02, 2026 10:27 AM"
+        }
+      },
+      "last_updated": "2026-02-02T10:27:36.963372",
+      "company": {
+        "name": "Best Buy Co. Inc",
+        "market_cap": "$13.68B",
+        "description": "Best Buy Co., Inc. (BBY) is a premier American retailer headquartered in Richfield, Minnesota, specializing in consumer electronics, appliances, and technology services. The company employs a dual-channel strategy that effectively integrates its vast network of physical locations with a robust e-commerce platform, enabling it to adapt to the changing preferences of consumers. Best Buy's dedication to sustainability, coupled with its consistent financial performance and strategic investments in digital innovation, make it an attractive prospect for institutional investors looking for growth opportunities within the technology retail space.",
+        "sector": "CONSUMER CYCLICAL",
+        "industry": "SPECIALTY RETAIL"
+      }
     }
   }
 }
