@@ -2488,6 +2488,36 @@
         "sector": "HEALTHCARE",
         "industry": "DRUG MANUFACTURERS - SPECIALTY & GENERIC"
       }
+    },
+    "STEX": {
+      "presets": {
+        "Revenue": {
+          "updated": "Feb 01, 2026 10:05 PM"
+        },
+        "Costs": {
+          "updated": "Feb 01, 2026 10:05 PM"
+        },
+        "Cash": {
+          "updated": "Feb 01, 2026 10:05 PM"
+        },
+        "FCF": {
+          "updated": "Feb 01, 2026 10:05 PM"
+        },
+        "Assets": {
+          "updated": "Feb 01, 2026 10:05 PM"
+        },
+        "Buffet": {
+          "updated": "Feb 01, 2026 10:05 PM"
+        }
+      },
+      "last_updated": "2026-02-01T22:05:19.372512",
+      "company": {
+        "name": "Streamex Corp",
+        "market_cap": "N/A",
+        "description": "Streamex Corp., headquartered in Winter Park, Florida, is an innovative technology firm focused on revolutionizing digital streaming solutions that enhance content delivery and user experience. The company is committed to advanced software development, aiming to transform how digital content is consumed and monetized in the rapidly evolving digital entertainment sector. With a strategic focus on scalability and high performance, Streamex is well-positioned for significant growth and is poised to become a key player in the digital landscape, empowering businesses and engaging consumers through its cutting-edge technology.",
+        "sector": "FINANCIAL SERVICES",
+        "industry": "CAPITAL MARKETS"
+      }
     }
   }
 }
