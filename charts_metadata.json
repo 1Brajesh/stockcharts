@@ -2668,6 +2668,36 @@
         "sector": "",
         "industry": ""
       }
+    },
+    "CCSI-SEC": {
+      "presets": {
+        "Revenue": {
+          "updated": "Feb 02, 2026 05:05 PM"
+        },
+        "Costs": {
+          "updated": "Feb 02, 2026 05:05 PM"
+        },
+        "Cash": {
+          "updated": "Feb 02, 2026 05:05 PM"
+        },
+        "FCF": {
+          "updated": "Feb 02, 2026 05:05 PM"
+        },
+        "Assets": {
+          "updated": "Feb 02, 2026 05:05 PM"
+        },
+        "Buffet": {
+          "updated": "Feb 02, 2026 05:05 PM"
+        }
+      },
+      "last_updated": "2026-02-02T17:05:34.287061",
+      "company": {
+        "name": "Consensus Cloud Solutions, Inc.",
+        "market_cap": "N/A",
+        "description": "Financial data from SEC EDGAR for Consensus Cloud Solutions, Inc.",
+        "sector": "",
+        "industry": ""
+      }
     }
   }
 }
