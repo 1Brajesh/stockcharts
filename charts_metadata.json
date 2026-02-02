@@ -2518,6 +2518,36 @@
         "sector": "FINANCIAL SERVICES",
         "industry": "CAPITAL MARKETS"
       }
+    },
+    "WSM": {
+      "presets": {
+        "Revenue": {
+          "updated": "Feb 01, 2026 10:31 PM"
+        },
+        "Costs": {
+          "updated": "Feb 01, 2026 10:31 PM"
+        },
+        "Cash": {
+          "updated": "Feb 01, 2026 10:31 PM"
+        },
+        "FCF": {
+          "updated": "Feb 01, 2026 10:31 PM"
+        },
+        "Assets": {
+          "updated": "Feb 01, 2026 10:31 PM"
+        },
+        "Buffet": {
+          "updated": "Feb 01, 2026 10:31 PM"
+        }
+      },
+      "last_updated": "2026-02-01T22:31:15.453704",
+      "company": {
+        "name": "Williams-Sonoma Inc",
+        "market_cap": "$24.43B",
+        "description": "Williams-Sonoma, Inc. is a premier omnichannel specialty retailer based in San Francisco, celebrated for its exceptional home goods and decor offerings, which encompass kitchenware and stylish furnishings. The company's diverse brand portfolio includes well-known names like Williams Sonoma, Pottery Barn, and West Elm, allowing it to appeal to a broad range of consumer preferences. With a strong emphasis on innovative design and sustainability, Williams-Sonoma has successfully integrated its extensive brick-and-mortar presence with a highly functional e-commerce platform, fostering enhanced customer engagement. Positioned as a key player in the home goods market, the company is strategically equipped to capitalize on evolving consumer trends, ensuring a sustained competitive edge in the industry.",
+        "sector": "CONSUMER CYCLICAL",
+        "industry": "SPECIALTY RETAIL"
+      }
     }
   }
 }
