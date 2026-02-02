@@ -2548,6 +2548,36 @@
         "sector": "CONSUMER CYCLICAL",
         "industry": "SPECIALTY RETAIL"
       }
+    },
+    "KHC": {
+      "presets": {
+        "Revenue": {
+          "updated": "Feb 02, 2026 08:28 AM"
+        },
+        "Costs": {
+          "updated": "Feb 02, 2026 08:28 AM"
+        },
+        "Cash": {
+          "updated": "Feb 02, 2026 08:28 AM"
+        },
+        "FCF": {
+          "updated": "Feb 02, 2026 08:28 AM"
+        },
+        "Assets": {
+          "updated": "Feb 02, 2026 08:28 AM"
+        },
+        "Buffet": {
+          "updated": "Feb 02, 2026 08:28 AM"
+        }
+      },
+      "last_updated": "2026-02-02T08:28:46.288410",
+      "company": {
+        "name": "Kraft Heinz Co",
+        "market_cap": "$28.10B",
+        "description": "The Kraft Heinz Company (KHC) is a powerhouse in the global food and beverage industry, formed through the landmark merger of Kraft Foods and Heinz. With its dual headquarters in Chicago and Pittsburgh, KHC offers a robust portfolio of well-known brands, including Kraft, Heinz, Oscar Mayer, and Philadelphia, which resonate strongly with consumers. The company is dedicated to innovation and sustainability, aiming to adapt to evolving consumer preferences while fostering operational excellence. Kraft Heinz's strategic positioning and ability to capitalize on emerging market trends underscore its potential for sustainable growth and the creation of long-term shareholder value.",
+        "sector": "CONSUMER DEFENSIVE",
+        "industry": "PACKAGED FOODS"
+      }
     }
   }
 }
