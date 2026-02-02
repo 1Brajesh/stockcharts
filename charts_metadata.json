@@ -2638,6 +2638,36 @@
         "sector": "CONSUMER CYCLICAL",
         "industry": "SPECIALTY RETAIL"
       }
+    },
+    "JBL-SEC": {
+      "presets": {
+        "Revenue": {
+          "updated": "Feb 02, 2026 10:45 AM"
+        },
+        "Costs": {
+          "updated": "Feb 02, 2026 10:45 AM"
+        },
+        "Cash": {
+          "updated": "Feb 02, 2026 10:45 AM"
+        },
+        "FCF": {
+          "updated": "Feb 02, 2026 10:45 AM"
+        },
+        "Assets": {
+          "updated": "Feb 02, 2026 10:45 AM"
+        },
+        "Buffet": {
+          "updated": "Feb 02, 2026 10:45 AM"
+        }
+      },
+      "last_updated": "2026-02-02T10:45:24.842895",
+      "company": {
+        "name": "JABIL INC",
+        "market_cap": "N/A",
+        "description": "Financial data from SEC EDGAR for JABIL INC",
+        "sector": "",
+        "industry": ""
+      }
     }
   }
 }
