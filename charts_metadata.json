@@ -2788,6 +2788,36 @@
         "sector": "INDUSTRIALS",
         "industry": "AIRPORTS & AIR SERVICES"
       }
+    },
+    "PYPL": {
+      "presets": {
+        "Revenue": {
+          "updated": "Feb 03, 2026 11:10 AM"
+        },
+        "Costs": {
+          "updated": "Feb 03, 2026 11:10 AM"
+        },
+        "Cash": {
+          "updated": "Feb 03, 2026 11:10 AM"
+        },
+        "FCF": {
+          "updated": "Feb 03, 2026 11:10 AM"
+        },
+        "Assets": {
+          "updated": "Feb 03, 2026 11:10 AM"
+        },
+        "Buffet": {
+          "updated": "Feb 03, 2026 11:10 AM"
+        }
+      },
+      "last_updated": "2026-02-03T11:10:57.631967",
+      "company": {
+        "name": "PayPal Holdings Inc",
+        "market_cap": "$49.99B",
+        "description": "PayPal Holdings, Inc. is a leading global technology platform transforming digital and mobile payment solutions for both consumers and merchants. Recognized for its robust security measures and innovative approach, PayPal offers a comprehensive suite of services, from peer-to-peer transfers to advanced e-commerce payment processing. With a substantial and expanding user base, the company is strategically positioned to leverage the increasing demand for fintech innovations, while continuously enhancing its products and maintaining a strong focus on customer security. This solidifies PayPal's pivotal role in the ever-evolving financial technology landscape.",
+        "sector": "FINANCIAL SERVICES",
+        "industry": "CREDIT SERVICES"
+      }
     }
   }
 }
