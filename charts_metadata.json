@@ -2698,6 +2698,36 @@
         "sector": "",
         "industry": ""
       }
+    },
+    "IRWD-SEC": {
+      "presets": {
+        "Revenue": {
+          "updated": "Feb 03, 2026 02:18 AM"
+        },
+        "Costs": {
+          "updated": "Feb 03, 2026 02:18 AM"
+        },
+        "Cash": {
+          "updated": "Feb 03, 2026 02:18 AM"
+        },
+        "FCF": {
+          "updated": "Feb 03, 2026 02:18 AM"
+        },
+        "Assets": {
+          "updated": "Feb 03, 2026 02:18 AM"
+        },
+        "Buffet": {
+          "updated": "Feb 03, 2026 02:18 AM"
+        }
+      },
+      "last_updated": "2026-02-03T02:18:05.967320",
+      "company": {
+        "name": "IRONWOOD PHARMACEUTICALS,\u00a0INC.",
+        "market_cap": "N/A",
+        "description": "Financial data from SEC EDGAR for IRONWOOD PHARMACEUTICALS,\u00a0INC.",
+        "sector": "",
+        "industry": ""
+      }
     }
   }
 }
