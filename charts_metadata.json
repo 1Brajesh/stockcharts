@@ -2728,6 +2728,36 @@
         "sector": "",
         "industry": ""
       }
+    },
+    "COLL": {
+      "presets": {
+        "Revenue": {
+          "updated": "Feb 03, 2026 02:39 AM"
+        },
+        "Costs": {
+          "updated": "Feb 03, 2026 02:39 AM"
+        },
+        "Cash": {
+          "updated": "Feb 03, 2026 02:39 AM"
+        },
+        "FCF": {
+          "updated": "Feb 03, 2026 02:39 AM"
+        },
+        "Assets": {
+          "updated": "Feb 03, 2026 02:39 AM"
+        },
+        "Buffet": {
+          "updated": "Feb 03, 2026 02:39 AM"
+        }
+      },
+      "last_updated": "2026-02-03T02:39:02.611106",
+      "company": {
+        "name": "Collegium Pharmaceutical Inc",
+        "market_cap": "$1.45B",
+        "description": "Collegium Pharmaceutical, Inc. is a specialized pharmaceutical firm based in Stoughton, Massachusetts, focused on developing and commercializing innovative pain management solutions. The company offers proprietary drug formulations aimed at effectively addressing a spectrum of pain-related conditions, reflecting its dedication to improving patient outcomes and overall quality of care. With a strategic emphasis on advancing specialty pharmaceuticals, Collegium is well-positioned for sustained growth, presenting an attractive investment opportunity for institutional investors seeking exposure to a leader in the healthcare sector dedicated to pain management innovations.",
+        "sector": "HEALTHCARE",
+        "industry": "DRUG MANUFACTURERS - SPECIALTY & GENERIC"
+      }
     }
   }
 }
