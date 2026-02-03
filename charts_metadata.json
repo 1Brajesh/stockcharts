@@ -2758,6 +2758,36 @@
         "sector": "HEALTHCARE",
         "industry": "DRUG MANUFACTURERS - SPECIALTY & GENERIC"
       }
+    },
+    "SOAR": {
+      "presets": {
+        "Revenue": {
+          "updated": "Feb 03, 2026 11:01 AM"
+        },
+        "Costs": {
+          "updated": "Feb 03, 2026 11:01 AM"
+        },
+        "Cash": {
+          "updated": "Feb 03, 2026 11:01 AM"
+        },
+        "FCF": {
+          "updated": "Feb 03, 2026 11:01 AM"
+        },
+        "Assets": {
+          "updated": "Feb 03, 2026 11:01 AM"
+        },
+        "Buffet": {
+          "updated": "Feb 03, 2026 11:01 AM"
+        }
+      },
+      "last_updated": "2026-02-03T11:01:13.617024",
+      "company": {
+        "name": "Volato Group Inc.",
+        "market_cap": "$10.42M",
+        "description": "None",
+        "sector": "INDUSTRIALS",
+        "industry": "AIRPORTS & AIR SERVICES"
+      }
     }
   }
 }
