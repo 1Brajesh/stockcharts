@@ -2821,6 +2821,36 @@
         "sector": "FINANCIAL SERVICES",
         "industry": "CREDIT SERVICES"
       }
+    },
+    "ONCY": {
+      "presets": {
+        "Revenue": {
+          "updated": "Feb 04, 2026 12:32 AM"
+        },
+        "Costs": {
+          "updated": "Feb 04, 2026 12:32 AM"
+        },
+        "Cash": {
+          "updated": "Feb 04, 2026 12:32 AM"
+        },
+        "FCF": {
+          "updated": "Feb 04, 2026 12:32 AM"
+        },
+        "Assets": {
+          "updated": "Feb 04, 2026 12:32 AM"
+        },
+        "Buffet": {
+          "updated": "Feb 04, 2026 12:32 AM"
+        }
+      },
+      "last_updated": "2026-02-04T00:32:34.505114",
+      "company": {
+        "name": "Oncolytics Biotech Inc",
+        "market_cap": "$104.19M",
+        "description": "Oncolytics Biotech Inc. (ONCY) is a clinical-stage biopharmaceutical company headquartered in Calgary, focusing on the development of advanced oncolytic virus therapies for cancer treatment. Its flagship product, pelareorep, works by selectively targeting cancer cells and enhancing the immune system's response, positioning it as a potential game-changer in oncologic care. The company boasts a strong pipeline supported by active clinical trials, showcasing its commitment to innovation and improved patient outcomes. With significant research capabilities and strategic partnerships, Oncolytics Biotech is well-positioned to capitalize on opportunities within the dynamic oncology landscape.",
+        "sector": "HEALTHCARE",
+        "industry": "BIOTECHNOLOGY"
+      }
     }
   }
 }
