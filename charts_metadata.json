@@ -2851,6 +2851,36 @@
         "sector": "HEALTHCARE",
         "industry": "BIOTECHNOLOGY"
       }
+    },
+    "GOOGL": {
+      "presets": {
+        "Revenue": {
+          "updated": "Feb 04, 2026 01:43 AM"
+        },
+        "Costs": {
+          "updated": "Feb 04, 2026 01:43 AM"
+        },
+        "Cash": {
+          "updated": "Feb 04, 2026 01:43 AM"
+        },
+        "FCF": {
+          "updated": "Feb 04, 2026 01:43 AM"
+        },
+        "Assets": {
+          "updated": "Feb 04, 2026 01:43 AM"
+        },
+        "Buffet": {
+          "updated": "Feb 04, 2026 01:43 AM"
+        }
+      },
+      "last_updated": "2026-02-04T01:43:34.084247",
+      "company": {
+        "name": "Alphabet Inc Class A",
+        "market_cap": "$4.16T",
+        "description": "Alphabet Inc. (GOOGL), headquartered in Mountain View, California, is a leading multinational conglomerate and the parent company of Google and its diverse subsidiaries. Founded in October 2015 by technology pioneers Larry Page and Sergey Brin, Alphabet stands at the forefront of innovation in sectors such as online advertising, cloud computing, consumer electronics, and artificial intelligence. The company's robust operational portfolio and commitment to technological advancement position it as a key player in the digital economy, offering substantial growth prospects and value creation opportunities for institutional investors.",
+        "sector": "COMMUNICATION SERVICES",
+        "industry": "INTERNET CONTENT & INFORMATION"
+      }
     }
   }
 }
