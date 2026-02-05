@@ -2911,6 +2911,36 @@
         "sector": "TECHNOLOGY",
         "industry": "SOFTWARE - APPLICATION"
       }
+    },
+    "DOCU": {
+      "presets": {
+        "Revenue": {
+          "updated": "Feb 05, 2026 01:00 AM"
+        },
+        "Costs": {
+          "updated": "Feb 05, 2026 01:00 AM"
+        },
+        "Cash": {
+          "updated": "Feb 05, 2026 01:00 AM"
+        },
+        "FCF": {
+          "updated": "Feb 05, 2026 01:00 AM"
+        },
+        "Assets": {
+          "updated": "Feb 05, 2026 01:00 AM"
+        },
+        "Buffet": {
+          "updated": "Feb 05, 2026 01:00 AM"
+        }
+      },
+      "last_updated": "2026-02-05T01:00:49.017393",
+      "company": {
+        "name": "DocuSign Inc",
+        "market_cap": "$9.23B",
+        "description": "DocuSign, Inc. is a leading provider of e-signature and digital transaction management solutions, empowering organizations to manage agreements securely and efficiently. Headquartered in San Francisco, the company leverages its comprehensive cloud-based platform to enhance productivity and streamline workflows across various sectors, from finance to healthcare. With a robust commitment to innovation, DocuSign actively develops advanced features, including workflow automation and compliance tools, positioning itself as a crucial partner in the digital transformation initiatives of enterprises worldwide.",
+        "sector": "TECHNOLOGY",
+        "industry": "SOFTWARE - APPLICATION"
+      }
     }
   }
 }
