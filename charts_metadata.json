@@ -2881,6 +2881,36 @@
         "sector": "COMMUNICATION SERVICES",
         "industry": "INTERNET CONTENT & INFORMATION"
       }
+    },
+    "TEAM": {
+      "presets": {
+        "Revenue": {
+          "updated": "Feb 05, 2026 12:29 AM"
+        },
+        "Costs": {
+          "updated": "Feb 05, 2026 12:29 AM"
+        },
+        "Cash": {
+          "updated": "Feb 05, 2026 12:29 AM"
+        },
+        "FCF": {
+          "updated": "Feb 05, 2026 12:29 AM"
+        },
+        "Assets": {
+          "updated": "Feb 05, 2026 12:29 AM"
+        },
+        "Buffet": {
+          "updated": "Feb 05, 2026 12:29 AM"
+        }
+      },
+      "last_updated": "2026-02-05T00:29:24.957351",
+      "company": {
+        "name": "Atlassian Corp Plc",
+        "market_cap": "$27.64B",
+        "description": "Atlassian Corporation Plc is a premier provider of collaboration and productivity software, known for its flagship products, including Jira, Confluence, and Trello, which enhance project management and team collaboration across various sectors. Headquartered in Sydney, Australia, Atlassian is a key player in the technology industry, focusing on enabling teams to streamline organization and communication through its agile software solutions. With a robust commitment to innovation and a strategic emphasis on software developers and project managers, the company is well-positioned to leverage ongoing digital transformation trends, ensuring sustained growth and a substantial footprint in the enterprise software market.",
+        "sector": "TECHNOLOGY",
+        "industry": "SOFTWARE - APPLICATION"
+      }
     }
   }
 }
