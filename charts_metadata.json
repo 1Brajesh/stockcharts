@@ -2947,6 +2947,36 @@
         "sector": "TECHNOLOGY",
         "industry": "SOFTWARE - APPLICATION"
       }
+    },
+    "ACI": {
+      "presets": {
+        "Revenue": {
+          "updated": "Feb 06, 2026 10:37 AM"
+        },
+        "Costs": {
+          "updated": "Feb 06, 2026 10:37 AM"
+        },
+        "Cash": {
+          "updated": "Feb 06, 2026 10:37 AM"
+        },
+        "FCF": {
+          "updated": "Feb 06, 2026 10:37 AM"
+        },
+        "Assets": {
+          "updated": "Feb 06, 2026 10:37 AM"
+        },
+        "Buffet": {
+          "updated": "Feb 06, 2026 10:37 AM"
+        }
+      },
+      "last_updated": "2026-02-06T10:37:36.847800",
+      "company": {
+        "name": "Albertsons Companies",
+        "market_cap": "$9.76B",
+        "description": "Albertsons Companies, Inc. (ACI) is a prominent grocery retailer in the United States, operating an extensive portfolio of supermarkets and pharmacies that cater to a diverse customer base through well-known local brands. With a strong focus on quality, customer service, and innovation, the company is actively enhancing its supply chain efficiencies and expanding its e-commerce capabilities to meet the demands of a rapidly changing retail environment. Committed to sustainability and adapting to evolving consumer preferences, Albertsons is strategically positioned to drive growth and maintain a resilient presence in the competitive grocery market.",
+        "sector": "CONSUMER DEFENSIVE",
+        "industry": "GROCERY STORES"
+      }
     }
   }
 }
