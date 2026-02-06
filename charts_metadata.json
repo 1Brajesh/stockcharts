@@ -1211,23 +1211,26 @@
     },
     "CDNS": {
       "presets": {
-        "costs": {
-          "updated": "Jan 19, 2026 12:26 PM"
+        "Revenue": {
+          "updated": "Feb 06, 2026 10:33 AM"
         },
-        "revenue": {
-          "updated": "Jan 19, 2026 12:26 PM"
+        "Costs": {
+          "updated": "Feb 06, 2026 10:33 AM"
         },
-        "cash": {
-          "updated": "Jan 19, 2026 12:26 PM"
+        "Cash": {
+          "updated": "Feb 06, 2026 10:33 AM"
         },
         "FCF": {
-          "updated": "Jan 19, 2026 12:26 PM"
+          "updated": "Feb 06, 2026 10:33 AM"
         },
-        "assets": {
-          "updated": "Jan 19, 2026 12:26 PM"
+        "Assets": {
+          "updated": "Feb 06, 2026 10:33 AM"
+        },
+        "Buffet": {
+          "updated": "Feb 06, 2026 10:33 AM"
         }
       },
-      "last_updated": "2026-01-19T12:26:49.788345",
+      "last_updated": "2026-02-06T10:33:07.398345",
       "company": {
         "name": "Cadence Design Systems Inc",
         "market_cap": "$84.97B",
