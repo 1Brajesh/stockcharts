@@ -3007,6 +3007,36 @@
         "sector": "CONSUMER DEFENSIVE",
         "industry": "HOUSEHOLD & PERSONAL PRODUCTS"
       }
+    },
+    "RIG": {
+      "presets": {
+        "Revenue": {
+          "updated": "Feb 06, 2026 08:11 PM"
+        },
+        "Costs": {
+          "updated": "Feb 06, 2026 08:11 PM"
+        },
+        "Cash": {
+          "updated": "Feb 06, 2026 08:11 PM"
+        },
+        "FCF": {
+          "updated": "Feb 06, 2026 08:11 PM"
+        },
+        "Assets": {
+          "updated": "Feb 06, 2026 08:11 PM"
+        },
+        "Buffet": {
+          "updated": "Feb 06, 2026 08:11 PM"
+        }
+      },
+      "last_updated": "2026-02-06T20:11:43.331138",
+      "company": {
+        "name": "Transocean Ltd",
+        "market_cap": "$5.44B",
+        "description": "Transocean Ltd. (RIG) is a leading provider of offshore contract drilling services, renowned for its cutting-edge fleet and commitment to safety and efficiency in the oil and gas industry. Headquartered in Steinhausen, Switzerland, the company operates strategically across key oil-producing regions worldwide, serving a wide range of clients, including major international oil corporations. With a strong focus on innovation and sustainability, Transocean is well-positioned to adapt to the evolving energy landscape, delivering exceptional value to its stakeholders while reinforcing its leadership in offshore drilling.",
+        "sector": "ENERGY",
+        "industry": "OIL & GAS DRILLING"
+      }
     }
   }
 }
