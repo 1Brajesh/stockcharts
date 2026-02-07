@@ -2977,6 +2977,36 @@
         "sector": "CONSUMER DEFENSIVE",
         "industry": "GROCERY STORES"
       }
+    },
+    "KVUE": {
+      "presets": {
+        "Revenue": {
+          "updated": "Feb 06, 2026 07:17 PM"
+        },
+        "Costs": {
+          "updated": "Feb 06, 2026 07:17 PM"
+        },
+        "Cash": {
+          "updated": "Feb 06, 2026 07:17 PM"
+        },
+        "FCF": {
+          "updated": "Feb 06, 2026 07:17 PM"
+        },
+        "Assets": {
+          "updated": "Feb 06, 2026 07:17 PM"
+        },
+        "Buffet": {
+          "updated": "Feb 06, 2026 07:17 PM"
+        }
+      },
+      "last_updated": "2026-02-06T19:17:37.204877",
+      "company": {
+        "name": "Kenvue Inc.",
+        "market_cap": "$34.62B",
+        "description": "Kenvue Inc. is a leading player in the consumer health industry, providing a diverse range of over-the-counter medications and personal care products that promote well-being. Renowned for its portfolio of trusted brands, the company emphasizes innovation and sustainability to meet the evolving needs of health-conscious consumers. Leveraging its extensive global presence and deep market insights, Kenvue is strategically positioned to capitalize on emerging health trends, presenting a compelling investment opportunity for institutional investors seeking exposure in the dynamic healthcare sector.",
+        "sector": "CONSUMER DEFENSIVE",
+        "industry": "HOUSEHOLD & PERSONAL PRODUCTS"
+      }
     }
   }
 }
