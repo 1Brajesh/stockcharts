@@ -629,23 +629,26 @@
     },
     "MRVL": {
       "presets": {
-        "costs": {
-          "updated": "Jan 19, 2026 10:01 AM"
+        "Revenue": {
+          "updated": "Feb 06, 2026 11:25 PM"
         },
-        "revenue": {
-          "updated": "Jan 19, 2026 10:01 AM"
+        "Costs": {
+          "updated": "Feb 06, 2026 11:25 PM"
         },
-        "cash": {
-          "updated": "Jan 19, 2026 10:01 AM"
+        "Cash": {
+          "updated": "Feb 06, 2026 11:25 PM"
         },
         "FCF": {
-          "updated": "Jan 19, 2026 10:01 AM"
+          "updated": "Feb 06, 2026 11:25 PM"
         },
-        "assets": {
-          "updated": "Jan 19, 2026 10:01 AM"
+        "Assets": {
+          "updated": "Feb 06, 2026 11:25 PM"
+        },
+        "Buffet": {
+          "updated": "Feb 06, 2026 11:25 PM"
         }
       },
-      "last_updated": "2026-01-19T10:01:33.503124",
+      "last_updated": "2026-02-06T23:25:22.276752",
       "company": {
         "name": "Marvell Technology Group Ltd",
         "market_cap": "$85.27B",
