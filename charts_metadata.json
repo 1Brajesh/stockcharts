@@ -3070,6 +3070,36 @@
         "sector": "CONSUMER CYCLICAL",
         "industry": "APPAREL RETAIL"
       }
+    },
+    "AMCX": {
+      "presets": {
+        "Revenue": {
+          "updated": "Feb 09, 2026 02:02 AM"
+        },
+        "Costs": {
+          "updated": "Feb 09, 2026 02:02 AM"
+        },
+        "Cash": {
+          "updated": "Feb 09, 2026 02:02 AM"
+        },
+        "FCF": {
+          "updated": "Feb 09, 2026 02:02 AM"
+        },
+        "Assets": {
+          "updated": "Feb 09, 2026 02:02 AM"
+        },
+        "Buffet": {
+          "updated": "Feb 09, 2026 02:02 AM"
+        }
+      },
+      "last_updated": "2026-02-09T02:02:11.905230",
+      "company": {
+        "name": "AMC Networks Inc",
+        "market_cap": "$332.11M",
+        "description": "AMC Networks Inc. is a leading entertainment company known for its production and distribution of critically acclaimed original programming on prominent television networks including AMC, BBC America, IFC, and SundanceTV. Based in New York, the company seamlessly integrates traditional and digital platforms to engage a diverse global audience, demonstrating its commitment to high-quality storytelling and innovation. With a strategic focus on adapting to the dynamic media landscape, AMC Networks is well-positioned to capture growth opportunities, making it an attractive investment for institutional investors looking to gain exposure in the evolving entertainment sector.",
+        "sector": "COMMUNICATION SERVICES",
+        "industry": "ENTERTAINMENT"
+      }
     }
   }
 }
