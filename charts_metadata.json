@@ -3040,6 +3040,36 @@
         "sector": "ENERGY",
         "industry": "OIL & GAS DRILLING"
       }
+    },
+    "JILL": {
+      "presets": {
+        "Revenue": {
+          "updated": "Feb 09, 2026 01:54 AM"
+        },
+        "Costs": {
+          "updated": "Feb 09, 2026 01:54 AM"
+        },
+        "Cash": {
+          "updated": "Feb 09, 2026 01:54 AM"
+        },
+        "FCF": {
+          "updated": "Feb 09, 2026 01:54 AM"
+        },
+        "Assets": {
+          "updated": "Feb 09, 2026 01:54 AM"
+        },
+        "Buffet": {
+          "updated": "Feb 09, 2026 01:54 AM"
+        }
+      },
+      "last_updated": "2026-02-09T01:54:49.177790",
+      "company": {
+        "name": "J.Jill Inc",
+        "market_cap": "$255.83M",
+        "description": "J.Jill, Inc. is a leading omnichannel retailer based in Quincy, Massachusetts, dedicated to providing stylish and comfortable women's apparel. By combining a well-established network of physical stores with a dynamic e-commerce platform, the company effectively meets the diverse needs of the modern woman. Renowned for its commitment to quality craftsmanship and exceptional customer service, J.Jill is strategically positioned for sustainable growth in the competitive womenswear market. With a keen focus on enhancing brand reputation and adapting to shifting consumer preferences, J.Jill aims to solidify its presence and drive long-term success in the fashion industry.",
+        "sector": "CONSUMER CYCLICAL",
+        "industry": "APPAREL RETAIL"
+      }
     }
   }
 }
