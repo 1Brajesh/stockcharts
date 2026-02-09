@@ -3100,6 +3100,36 @@
         "sector": "COMMUNICATION SERVICES",
         "industry": "ENTERTAINMENT"
       }
+    },
+    "FMST": {
+      "presets": {
+        "Revenue": {
+          "updated": "Feb 09, 2026 09:38 AM"
+        },
+        "Costs": {
+          "updated": "Feb 09, 2026 09:38 AM"
+        },
+        "Cash": {
+          "updated": "Feb 09, 2026 09:38 AM"
+        },
+        "FCF": {
+          "updated": "Feb 09, 2026 09:38 AM"
+        },
+        "Assets": {
+          "updated": "Feb 09, 2026 09:38 AM"
+        },
+        "Buffet": {
+          "updated": "Feb 09, 2026 09:38 AM"
+        }
+      },
+      "last_updated": "2026-02-09T09:38:38.380159",
+      "company": {
+        "name": "Foremost Lithium Resource & Technology Ltd. Common stock",
+        "market_cap": "$31.63M",
+        "description": "None",
+        "sector": "BASIC MATERIALS",
+        "industry": "OTHER INDUSTRIAL METALS & MINING"
+      }
     }
   }
 }
