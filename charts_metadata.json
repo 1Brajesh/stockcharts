@@ -3104,29 +3104,29 @@
     "FMST": {
       "presets": {
         "Revenue": {
-          "updated": "Feb 09, 2026 09:38 AM"
+          "updated": "Feb 09, 2026 09:46 AM"
         },
         "Costs": {
-          "updated": "Feb 09, 2026 09:38 AM"
+          "updated": "Feb 09, 2026 09:46 AM"
         },
         "Cash": {
-          "updated": "Feb 09, 2026 09:38 AM"
+          "updated": "Feb 09, 2026 09:46 AM"
         },
         "FCF": {
-          "updated": "Feb 09, 2026 09:38 AM"
+          "updated": "Feb 09, 2026 09:46 AM"
         },
         "Assets": {
-          "updated": "Feb 09, 2026 09:38 AM"
+          "updated": "Feb 09, 2026 09:46 AM"
         },
         "Buffet": {
-          "updated": "Feb 09, 2026 09:38 AM"
+          "updated": "Feb 09, 2026 09:46 AM"
         }
       },
-      "last_updated": "2026-02-09T09:38:38.380159",
+      "last_updated": "2026-02-09T09:46:15.571463",
       "company": {
-        "name": "Foremost Lithium Resource & Technology Ltd. Common stock",
+        "name": "Foremost Lithium Resource & Technology Ltd. Common stock aka Foremost Clean Energy",
         "market_cap": "$31.63M",
-        "description": "None",
+        "description": "Foremost Clean Energy, an exploration stage company, explores and develops uranium and lithium assets in North America. It has an option agreement of approximately 70% interest in 10 properties encompassing over 330,000 acres in Saskatchewan's Athabasca Basin. The company also has an exploration permit for the Turkey Lake Uranium Project situated along the eastern edge of the Athabasca Basin. The company was formerly known as Foremost Lithium Resource & Technology Ltd. and changed its name to Foremost Clean Energy Ltd. in September 2024. Foremost Clean Energy Ltd. was incorporated in 2005 and is headquartered in Vancouver, Canada.",
         "sector": "BASIC MATERIALS",
         "industry": "OTHER INDUSTRIAL METALS & MINING"
       }
