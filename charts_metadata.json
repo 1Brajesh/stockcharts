@@ -3160,6 +3160,36 @@
         "sector": "COMMUNICATION SERVICES",
         "industry": "ELECTRONIC GAMING & MULTIMEDIA"
       }
+    },
+    "ISRG": {
+      "presets": {
+        "Revenue": {
+          "updated": "Feb 10, 2026 12:28 AM"
+        },
+        "Costs": {
+          "updated": "Feb 10, 2026 12:28 AM"
+        },
+        "Cash": {
+          "updated": "Feb 10, 2026 12:28 AM"
+        },
+        "FCF": {
+          "updated": "Feb 10, 2026 12:28 AM"
+        },
+        "Assets": {
+          "updated": "Feb 10, 2026 12:28 AM"
+        },
+        "Buffet": {
+          "updated": "Feb 10, 2026 12:28 AM"
+        }
+      },
+      "last_updated": "2026-02-10T00:28:23.182489",
+      "company": {
+        "name": "Intuitive Surgical Inc",
+        "market_cap": "$173.36B",
+        "description": "Intuitive Surgical, Inc. is a premier American medical technology firm, recognized for pioneering robotic-assisted surgical systems, notably the da Vinci Surgical System. The company is dedicated to enhancing patient outcomes through the innovation of minimally invasive surgical technologies, complemented by a diverse range of instruments and extensive training initiatives for healthcare practitioners. Boasting a strong pipeline of technological advancements, Intuitive Surgical is strategically positioned to leverage growth opportunities in the rapidly evolving robotic surgery sector, promoting improved surgical precision and expedited patient recovery.",
+        "sector": "HEALTHCARE",
+        "industry": "MEDICAL INSTRUMENTS & SUPPLIES"
+      }
     }
   }
 }
