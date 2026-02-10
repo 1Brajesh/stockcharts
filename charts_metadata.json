@@ -1244,23 +1244,26 @@
     },
     "ASML": {
       "presets": {
-        "costs": {
-          "updated": "Jan 18, 2026 10:50 AM"
+        "Revenue": {
+          "updated": "Feb 10, 2026 03:01 PM"
         },
-        "revenue": {
-          "updated": "Jan 18, 2026 10:50 AM"
+        "Costs": {
+          "updated": "Feb 10, 2026 03:01 PM"
         },
-        "cash": {
-          "updated": "Jan 18, 2026 10:50 AM"
+        "Cash": {
+          "updated": "Feb 10, 2026 03:01 PM"
         },
         "FCF": {
-          "updated": "Jan 18, 2026 10:50 AM"
+          "updated": "Feb 10, 2026 03:01 PM"
         },
-        "assets": {
-          "updated": "Jan 18, 2026 10:50 AM"
+        "Assets": {
+          "updated": "Feb 10, 2026 03:01 PM"
+        },
+        "Buffet": {
+          "updated": "Feb 10, 2026 03:01 PM"
         }
       },
-      "last_updated": "2026-01-18T10:50:17.008500",
+      "last_updated": "2026-02-10T15:01:37.439779",
       "company": {
         "name": "ASML Holding NV ADR",
         "market_cap": "$422.23B",
