@@ -3190,6 +3190,36 @@
         "sector": "HEALTHCARE",
         "industry": "MEDICAL INSTRUMENTS & SUPPLIES"
       }
+    },
+    "FCX": {
+      "presets": {
+        "Revenue": {
+          "updated": "Feb 10, 2026 12:28 AM"
+        },
+        "Costs": {
+          "updated": "Feb 10, 2026 12:28 AM"
+        },
+        "Cash": {
+          "updated": "Feb 10, 2026 12:28 AM"
+        },
+        "FCF": {
+          "updated": "Feb 10, 2026 12:28 AM"
+        },
+        "Assets": {
+          "updated": "Feb 10, 2026 12:28 AM"
+        },
+        "Buffet": {
+          "updated": "Feb 10, 2026 12:28 AM"
+        }
+      },
+      "last_updated": "2026-02-10T00:28:24.321280",
+      "company": {
+        "name": "Freeport-McMoran Copper & Gold Inc",
+        "market_cap": "$87.12B",
+        "description": "Freeport-McMoRan Copper & Gold Inc. (FCX) is a premier mining company headquartered in Phoenix, Arizona, with extensive operations spanning the Americas and Indonesia. A significant player in the global copper and gold markets, FCX is well-positioned to capitalize on the surging demand for copper, particularly as it underpins key green technologies and infrastructural advancements. The company's commitment to sustainable mining practices, combined with its robust operational capabilities, ensures resilience amid market fluctuations. With a strong balance sheet and a focus on operational excellence, Freeport-McMoRan represents a compelling investment opportunity for institutional investors seeking exposure to essential commodities critical for future economic growth.",
+        "sector": "BASIC MATERIALS",
+        "industry": "COPPER"
+      }
     }
   }
 }
