@@ -3130,6 +3130,36 @@
         "sector": "BASIC MATERIALS",
         "industry": "OTHER INDUSTRIAL METALS & MINING"
       }
+    },
+    "GRVY": {
+      "presets": {
+        "Revenue": {
+          "updated": "Feb 09, 2026 09:58 PM"
+        },
+        "Costs": {
+          "updated": "Feb 09, 2026 09:58 PM"
+        },
+        "Cash": {
+          "updated": "Feb 09, 2026 09:58 PM"
+        },
+        "FCF": {
+          "updated": "Feb 09, 2026 09:58 PM"
+        },
+        "Assets": {
+          "updated": "Feb 09, 2026 09:58 PM"
+        },
+        "Buffet": {
+          "updated": "Feb 09, 2026 09:58 PM"
+        }
+      },
+      "last_updated": "2026-02-09T21:58:22.469710",
+      "company": {
+        "name": "Gravity Co Ltd",
+        "market_cap": "$494.48M",
+        "description": "Gravity Co., Ltd. is a leading developer and publisher of online games, renowned for its innovative flagship titles and dedication to providing engaging gameplay experiences. Headquartered in Seoul, South Korea, the company has established a strong foothold in key Asian markets such as Taiwan, Thailand, and the Philippines, while actively pursuing international expansion opportunities. With a diversified portfolio that encompasses both mobile and PC gaming, Gravity is strategically positioned to leverage the growing global demand for interactive entertainment, presenting a compelling investment opportunity for institutional investors looking to engage with the dynamic and expanding gaming industry.",
+        "sector": "COMMUNICATION SERVICES",
+        "industry": "ELECTRONIC GAMING & MULTIMEDIA"
+      }
     }
   }
 }
