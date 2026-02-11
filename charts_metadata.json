@@ -1983,25 +1983,25 @@
     "ACHR": {
       "presets": {
         "Revenue": {
-          "updated": "Feb 11, 2026 12:02 AM"
+          "updated": "Feb 11, 2026 12:06 AM"
         },
         "Costs": {
-          "updated": "Feb 11, 2026 12:02 AM"
+          "updated": "Feb 11, 2026 12:06 AM"
         },
         "Cash": {
-          "updated": "Feb 11, 2026 12:02 AM"
+          "updated": "Feb 11, 2026 12:06 AM"
         },
         "FCF": {
-          "updated": "Feb 11, 2026 12:02 AM"
+          "updated": "Feb 11, 2026 12:06 AM"
         },
         "Assets": {
-          "updated": "Feb 11, 2026 12:02 AM"
+          "updated": "Feb 11, 2026 12:06 AM"
         },
         "Buffet": {
-          "updated": "Feb 11, 2026 12:02 AM"
+          "updated": "Feb 11, 2026 12:06 AM"
         }
       },
-      "last_updated": "2026-02-11T00:02:58.704266",
+      "last_updated": "2026-02-11T00:06:46.692438",
       "company": {
         "name": "Archer Aviation Inc",
         "market_cap": "$6.50B",
