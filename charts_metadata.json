@@ -1443,28 +1443,30 @@
     "ANET": {
       "presets": {
         "Revenue": {
-          "updated": "Feb 11, 2026 12:26 AM"
+          "updated": "Feb 11, 2026 10:54 AM"
         },
         "Costs": {
-          "updated": "Feb 11, 2026 12:26 AM"
+          "updated": "Feb 11, 2026 10:54 AM"
         },
         "Cash": {
-          "updated": "Feb 11, 2026 12:26 AM"
+          "updated": "Feb 11, 2026 10:54 AM"
         },
         "FCF": {
-          "updated": "Feb 11, 2026 12:26 AM"
+          "updated": "Feb 11, 2026 10:54 AM"
         },
         "Assets": {
-          "updated": "Feb 11, 2026 12:26 AM"
+          "updated": "Feb 11, 2026 10:54 AM"
         },
         "Buffet": {
-          "updated": "Feb 11, 2026 12:26 AM"
+          "updated": "Feb 11, 2026 10:54 AM"
         }
       },
-      "last_updated": "2026-02-11T00:26:23.132760",
+      "last_updated": "2026-02-11T10:54:14.713077",
       "company": {
         "name": "Arista Networks",
         "market_cap": "$161.93B",
+        "market_cap_raw": 161931477000.0,
+        "last_q_revenue": 2308300000.0,
         "description": "Arista Networks, headquartered in Santa Clara, California, is a leading provider of software-defined networking (SDN) solutions, renowned for its high-performance, multilayer network switches tailored for large data centers, cloud environments, and high-frequency trading. The company's innovative approach and strong emphasis on technological advancement position it to effectively meet the growing demand for sophisticated networking infrastructure in an increasingly digital world. Arista's dedication to exceptional performance, scalability, and reliability underscores its strategic importance in the networking sector, making it an attractive investment for institutional investors aiming to capitalize on the digital transformation trend.",
         "sector": "TECHNOLOGY",
         "industry": "COMPUTER HARDWARE"
@@ -1775,28 +1777,30 @@
     "ADBE": {
       "presets": {
         "Revenue": {
-          "updated": "Feb 11, 2026 12:26 AM"
+          "updated": "Feb 11, 2026 10:54 AM"
         },
         "Costs": {
-          "updated": "Feb 11, 2026 12:26 AM"
+          "updated": "Feb 11, 2026 10:54 AM"
         },
         "Cash": {
-          "updated": "Feb 11, 2026 12:26 AM"
+          "updated": "Feb 11, 2026 10:54 AM"
         },
         "FCF": {
-          "updated": "Feb 11, 2026 12:26 AM"
+          "updated": "Feb 11, 2026 10:54 AM"
         },
         "Assets": {
-          "updated": "Feb 11, 2026 12:26 AM"
+          "updated": "Feb 11, 2026 10:54 AM"
         },
         "Buffet": {
-          "updated": "Feb 11, 2026 12:26 AM"
+          "updated": "Feb 11, 2026 10:54 AM"
         }
       },
-      "last_updated": "2026-02-11T00:26:22.583964",
+      "last_updated": "2026-02-11T10:54:14.676348",
       "company": {
         "name": "Adobe Systems Incorporated",
         "market_cap": "$151.20B",
+        "market_cap_raw": 151197598000.0,
+        "last_q_revenue": 6194000000.0,
         "description": "Adobe Systems Incorporated is a leading American multinational software company headquartered in San Jose, California, distinguished for its pioneering role in digital media and marketing solutions. Renowned for its flagship products such as Adobe Photoshop, Illustrator, and Acrobat, Adobe serves as an indispensable ally to creative professionals and businesses worldwide. The company has strategically expanded its offerings with Adobe Experience Cloud, which provides a robust suite of tools designed to enhance customer engagement and optimize marketing strategies. Leveraging advancements in artificial intelligence and cloud technology, Adobe is positioned to maintain its competitive edge in a rapidly evolving digital landscape, supported by a substantial and diverse global user base.",
         "sector": "TECHNOLOGY",
         "industry": "SOFTWARE - APPLICATION"
@@ -1985,28 +1989,30 @@
     "ACHR": {
       "presets": {
         "Revenue": {
-          "updated": "Feb 11, 2026 12:26 AM"
+          "updated": "Feb 11, 2026 10:54 AM"
         },
         "Costs": {
-          "updated": "Feb 11, 2026 12:26 AM"
+          "updated": "Feb 11, 2026 10:54 AM"
         },
         "Cash": {
-          "updated": "Feb 11, 2026 12:26 AM"
+          "updated": "Feb 11, 2026 10:54 AM"
         },
         "FCF": {
-          "updated": "Feb 11, 2026 12:26 AM"
+          "updated": "Feb 11, 2026 10:54 AM"
         },
         "Assets": {
-          "updated": "Feb 11, 2026 12:26 AM"
+          "updated": "Feb 11, 2026 10:54 AM"
         },
         "Buffet": {
-          "updated": "Feb 11, 2026 12:26 AM"
+          "updated": "Feb 11, 2026 10:54 AM"
         }
       },
-      "last_updated": "2026-02-11T00:26:22.454628",
+      "last_updated": "2026-02-11T10:54:14.658194",
       "company": {
         "name": "Archer Aviation Inc",
         "market_cap": "$6.50B",
+        "market_cap_raw": 6504207000.0,
+        "last_q_revenue": 0.0,
         "description": "None",
         "sector": "INDUSTRIALS",
         "industry": "AEROSPACE & DEFENSE"
