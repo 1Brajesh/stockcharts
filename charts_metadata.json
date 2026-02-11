@@ -1795,25 +1795,25 @@
     "STLA": {
       "presets": {
         "Revenue": {
-          "updated": "Feb 11, 2026 10:57 AM"
+          "updated": "Feb 11, 2026 12:27 PM"
         },
         "Costs": {
-          "updated": "Feb 11, 2026 10:57 AM"
+          "updated": "Feb 11, 2026 12:27 PM"
         },
         "Cash": {
-          "updated": "Feb 11, 2026 10:57 AM"
+          "updated": "Feb 11, 2026 12:27 PM"
         },
         "FCF": {
-          "updated": "Feb 11, 2026 10:57 AM"
+          "updated": "Feb 11, 2026 12:27 PM"
         },
         "Assets": {
-          "updated": "Feb 11, 2026 10:57 AM"
+          "updated": "Feb 11, 2026 12:27 PM"
         },
         "Buffet": {
-          "updated": "Feb 11, 2026 10:57 AM"
+          "updated": "Feb 11, 2026 12:27 PM"
         }
       },
-      "last_updated": "2026-02-11T10:57:32.427745",
+      "last_updated": "2026-02-11T12:27:51.591690",
       "company": {
         "name": "Stellantis NV",
         "market_cap": "$31.92B",
