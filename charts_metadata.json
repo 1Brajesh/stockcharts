@@ -3532,6 +3532,36 @@
         "sector": "TECHNOLOGY",
         "industry": "SOFTWARE - APPLICATION"
       }
+    },
+    "UFG": {
+      "presets": {
+        "Revenue": {
+          "updated": "Feb 11, 2026 10:23 AM"
+        },
+        "Costs": {
+          "updated": "Feb 11, 2026 10:23 AM"
+        },
+        "Cash": {
+          "updated": "Feb 11, 2026 10:23 AM"
+        },
+        "FCF": {
+          "updated": "Feb 11, 2026 10:23 AM"
+        },
+        "Assets": {
+          "updated": "Feb 11, 2026 10:23 AM"
+        },
+        "Buffet": {
+          "updated": "Feb 11, 2026 10:23 AM"
+        }
+      },
+      "last_updated": "2026-02-11T10:23:18.208141",
+      "company": {
+        "name": "Uni-Fuels Holdings Limited Class A Ordinary Shares",
+        "market_cap": "$41.17M",
+        "description": "Uni-Fuels Holdings Limited (UFG) is a leading player in the marine fuels sector, specializing in the marketing, reselling, and brokerage of marine fuel products, with a strong emphasis on high-traffic ports such as Singapore. Leveraging its extensive industry expertise and operational efficiency, UFG provides tailored fuel solutions that cater to the diverse requirements of maritime customers. The company's commitment to operational excellence and ethical practices significantly bolsters its standing in the market while driving sustainable growth and optimizing shareholder value in a competitive environment.",
+        "sector": "INDUSTRIALS",
+        "industry": "MARINE SHIPPING"
+      }
     }
   }
 }
