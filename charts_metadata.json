@@ -3256,6 +3256,36 @@
         "sector": "TECHNOLOGY",
         "industry": "SOFTWARE - APPLICATION"
       }
+    },
+    "WDAY": {
+      "presets": {
+        "Revenue": {
+          "updated": "Feb 10, 2026 11:08 PM"
+        },
+        "Costs": {
+          "updated": "Feb 10, 2026 11:08 PM"
+        },
+        "Cash": {
+          "updated": "Feb 10, 2026 11:08 PM"
+        },
+        "FCF": {
+          "updated": "Feb 10, 2026 11:08 PM"
+        },
+        "Assets": {
+          "updated": "Feb 10, 2026 11:08 PM"
+        },
+        "Buffet": {
+          "updated": "Feb 10, 2026 11:08 PM"
+        }
+      },
+      "last_updated": "2026-02-10T23:08:25.835985",
+      "company": {
+        "name": "Workday Inc",
+        "market_cap": "$41.27B",
+        "description": "Workday, Inc. is a premier provider of cloud-based enterprise applications, specializing in finance and human resources management. Headquartered in Pleasanton, California, the company utilizes advanced, data-driven solutions to enhance organizational effectiveness and maximize workforce productivity. With a strong commitment to innovation and superior customer service, Workday has established itself as a leader in the enterprise software sector, making it an attractive investment opportunity for institutional investors aiming to benefit from the increasing demand for scalable cloud solutions.",
+        "sector": "TECHNOLOGY",
+        "industry": "SOFTWARE - APPLICATION"
+      }
     }
   }
 }
