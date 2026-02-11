@@ -3226,6 +3226,36 @@
         "sector": "BASIC MATERIALS",
         "industry": "COPPER"
       }
+    },
+    "MNDY": {
+      "presets": {
+        "Revenue": {
+          "updated": "Feb 10, 2026 11:05 PM"
+        },
+        "Costs": {
+          "updated": "Feb 10, 2026 11:05 PM"
+        },
+        "Cash": {
+          "updated": "Feb 10, 2026 11:05 PM"
+        },
+        "FCF": {
+          "updated": "Feb 10, 2026 11:05 PM"
+        },
+        "Assets": {
+          "updated": "Feb 10, 2026 11:05 PM"
+        },
+        "Buffet": {
+          "updated": "Feb 10, 2026 11:05 PM"
+        }
+      },
+      "last_updated": "2026-02-10T23:05:16.714345",
+      "company": {
+        "name": "Monday.Com Ltd",
+        "market_cap": "$4.00B",
+        "description": "monday.com Ltd. is a leading software company headquartered in Tel Aviv-Yafo, Israel, specializing in a versatile work operating system that promotes collaboration and productivity across various industries. With a strong international presence, including offices in major cities such as New York and London, the company offers customizable workflows that empower organizations to optimize project management and enhance operational efficiency. Committed to continuous innovation and customer satisfaction, monday.com is strategically positioned to capitalize on the robust growth opportunities within the burgeoning collaborative software market.",
+        "sector": "TECHNOLOGY",
+        "industry": "SOFTWARE - APPLICATION"
+      }
     }
   }
 }
