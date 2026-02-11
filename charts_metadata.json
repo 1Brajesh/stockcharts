@@ -2,23 +2,26 @@
   "tickers": {
     "TSLA": {
       "presets": {
-        "costs": {
-          "updated": "Jan 18, 2026 01:30 AM"
+        "Revenue": {
+          "updated": "Feb 10, 2026 11:45 PM"
         },
-        "revenue": {
-          "updated": "Jan 18, 2026 01:30 AM"
+        "Costs": {
+          "updated": "Feb 10, 2026 11:45 PM"
         },
-        "cash": {
-          "updated": "Jan 18, 2026 01:30 AM"
-        },
-        "assets": {
-          "updated": "Jan 18, 2026 01:30 AM"
+        "Cash": {
+          "updated": "Feb 10, 2026 11:45 PM"
         },
         "FCF": {
-          "updated": "Jan 18, 2026 01:30 AM"
+          "updated": "Feb 10, 2026 11:45 PM"
+        },
+        "Assets": {
+          "updated": "Feb 10, 2026 11:45 PM"
+        },
+        "Buffet": {
+          "updated": "Feb 10, 2026 11:45 PM"
         }
       },
-      "last_updated": "2026-01-18T01:30:56.042025",
+      "last_updated": "2026-02-10T23:45:06.773527",
       "company": {
         "name": "Tesla Inc",
         "market_cap": "$1.42T",
@@ -29,27 +32,30 @@
     },
     "ADI": {
       "presets": {
-        "costs": {
-          "updated": "Jan 18, 2026 12:15 PM"
+        "Revenue": {
+          "updated": "Feb 10, 2026 11:44 PM"
         },
-        "revenue": {
-          "updated": "Jan 18, 2026 12:15 PM"
+        "Costs": {
+          "updated": "Feb 10, 2026 11:44 PM"
         },
-        "cash": {
-          "updated": "Jan 18, 2026 12:15 PM"
+        "Cash": {
+          "updated": "Feb 10, 2026 11:44 PM"
         },
         "FCF": {
-          "updated": "Jan 18, 2026 12:15 PM"
+          "updated": "Feb 10, 2026 11:44 PM"
         },
-        "assets": {
-          "updated": "Jan 18, 2026 12:15 PM"
+        "Assets": {
+          "updated": "Feb 10, 2026 11:44 PM"
+        },
+        "Buffet": {
+          "updated": "Feb 10, 2026 11:44 PM"
         }
       },
-      "last_updated": "2026-01-18T12:15:14.270362",
+      "last_updated": "2026-02-10T23:44:59.249113",
       "company": {
         "name": "Analog Devices Inc",
-        "market_cap": "$136.77B",
-        "description": "Analog Devices, Inc. (ADI) is a prominent American multinational semiconductor firm headquartered in Wilmington, Massachusetts, recognized for its advanced solutions in data conversion, signal processing, and power management. Specializing in high-performance analog, mixed-signal, and digital signal processing integrated circuits, ADI caters to a variety of key sectors, including automotive, industrial, communications, and consumer electronics. With a steadfast commitment to innovation and precision technology, ADI has established itself as a vital contributor in the semiconductor industry, empowering its customers to enhance product performance and energy efficiency in an increasingly competitive market.",
+        "market_cap": "$151.07B",
+        "description": "Analog Devices, Inc. (ADI) is a prominent multinational semiconductor company based in Wilmington, Massachusetts, known for its expertise in high-performance analog, mixed-signal, and digital signal processing integrated circuits. Catering to a wide array of industries\u2014including automotive, industrial, communications, and consumer electronics\u2014ADI provides cutting-edge solutions in data conversion, signal processing, and power management. The company's relentless focus on innovation and its robust research and development initiatives enhance its reputation as a leader in the semiconductor space, driving advancements in product performance and energy efficiency. With a proven track record of growth and a strategic vision for future advancements, ADI is well-positioned to capitalize on emerging market opportunities.",
         "sector": "TECHNOLOGY",
         "industry": "SEMICONDUCTORS"
       }
@@ -57,25 +63,25 @@
     "PLTR": {
       "presets": {
         "Revenue": {
-          "updated": "Feb 10, 2026 11:25 PM"
+          "updated": "Feb 10, 2026 11:45 PM"
         },
         "Costs": {
-          "updated": "Feb 10, 2026 11:25 PM"
+          "updated": "Feb 10, 2026 11:45 PM"
         },
         "Cash": {
-          "updated": "Feb 10, 2026 11:25 PM"
+          "updated": "Feb 10, 2026 11:45 PM"
         },
         "FCF": {
-          "updated": "Feb 10, 2026 11:25 PM"
+          "updated": "Feb 10, 2026 11:45 PM"
         },
         "Assets": {
-          "updated": "Feb 10, 2026 11:25 PM"
+          "updated": "Feb 10, 2026 11:45 PM"
         },
         "Buffet": {
-          "updated": "Feb 10, 2026 11:25 PM"
+          "updated": "Feb 10, 2026 11:45 PM"
         }
       },
-      "last_updated": "2026-02-10T23:25:12.600465",
+      "last_updated": "2026-02-10T23:45:05.338715",
       "company": {
         "name": "Palantir Technologies Inc.",
         "market_cap": "$395.10B",
@@ -86,23 +92,26 @@
     },
     "F": {
       "presets": {
-        "costs": {
-          "updated": "Jan 19, 2026 04:25 PM"
+        "Revenue": {
+          "updated": "Feb 10, 2026 11:45 PM"
         },
-        "revenue": {
-          "updated": "Jan 19, 2026 04:25 PM"
+        "Costs": {
+          "updated": "Feb 10, 2026 11:45 PM"
         },
-        "cash": {
-          "updated": "Jan 19, 2026 04:25 PM"
+        "Cash": {
+          "updated": "Feb 10, 2026 11:45 PM"
         },
         "FCF": {
-          "updated": "Jan 19, 2026 04:25 PM"
+          "updated": "Feb 10, 2026 11:45 PM"
         },
-        "assets": {
-          "updated": "Jan 19, 2026 04:25 PM"
+        "Assets": {
+          "updated": "Feb 10, 2026 11:45 PM"
+        },
+        "Buffet": {
+          "updated": "Feb 10, 2026 11:45 PM"
         }
       },
-      "last_updated": "2026-01-19T16:25:55.707128",
+      "last_updated": "2026-02-10T23:45:01.451879",
       "company": {
         "name": "Ford Motor Company",
         "market_cap": "$53.67B",
@@ -113,23 +122,26 @@
     },
     "GOOG": {
       "presets": {
-        "costs": {
-          "updated": "Jan 29, 2026 12:08 AM"
+        "Revenue": {
+          "updated": "Feb 10, 2026 11:45 PM"
         },
-        "revenue": {
-          "updated": "Jan 29, 2026 12:08 AM"
+        "Costs": {
+          "updated": "Feb 10, 2026 11:45 PM"
         },
-        "cash": {
-          "updated": "Jan 29, 2026 12:08 AM"
-        },
-        "assets": {
-          "updated": "Jan 29, 2026 12:08 AM"
+        "Cash": {
+          "updated": "Feb 10, 2026 11:45 PM"
         },
         "FCF": {
-          "updated": "Jan 29, 2026 12:08 AM"
+          "updated": "Feb 10, 2026 11:45 PM"
+        },
+        "Assets": {
+          "updated": "Feb 10, 2026 11:45 PM"
+        },
+        "Buffet": {
+          "updated": "Feb 10, 2026 11:45 PM"
         }
       },
-      "last_updated": "2026-01-29T00:08:51.619898",
+      "last_updated": "2026-02-10T23:45:01.833238",
       "company": {
         "name": "Alphabet Inc Class C",
         "market_cap": "$3.89T",
@@ -140,23 +152,26 @@
     },
     "HIMS": {
       "presets": {
-        "costs": {
-          "updated": "Jan 18, 2026 01:35 AM"
+        "Revenue": {
+          "updated": "Feb 10, 2026 11:45 PM"
         },
-        "revenue": {
-          "updated": "Jan 18, 2026 01:35 AM"
+        "Costs": {
+          "updated": "Feb 10, 2026 11:45 PM"
         },
-        "cash": {
-          "updated": "Jan 18, 2026 01:35 AM"
+        "Cash": {
+          "updated": "Feb 10, 2026 11:45 PM"
         },
         "FCF": {
-          "updated": "Jan 18, 2026 01:35 AM"
+          "updated": "Feb 10, 2026 11:45 PM"
         },
-        "assets": {
-          "updated": "Jan 18, 2026 01:35 AM"
+        "Assets": {
+          "updated": "Feb 10, 2026 11:45 PM"
+        },
+        "Buffet": {
+          "updated": "Feb 10, 2026 11:45 PM"
         }
       },
-      "last_updated": "2026-01-18T01:35:00.051678",
+      "last_updated": "2026-02-10T23:45:02.195417",
       "company": {
         "name": "Hims Hers Health Inc",
         "market_cap": "$8.74B",
@@ -167,23 +182,26 @@
     },
     "SMCI": {
       "presets": {
-        "costs": {
-          "updated": "Jan 18, 2026 01:37 AM"
+        "Revenue": {
+          "updated": "Feb 10, 2026 11:45 PM"
         },
-        "revenue": {
-          "updated": "Jan 18, 2026 01:37 AM"
+        "Costs": {
+          "updated": "Feb 10, 2026 11:45 PM"
         },
-        "cash": {
-          "updated": "Jan 18, 2026 01:37 AM"
+        "Cash": {
+          "updated": "Feb 10, 2026 11:45 PM"
         },
         "FCF": {
-          "updated": "Jan 18, 2026 01:37 AM"
+          "updated": "Feb 10, 2026 11:45 PM"
         },
-        "assets": {
-          "updated": "Jan 18, 2026 01:37 AM"
+        "Assets": {
+          "updated": "Feb 10, 2026 11:45 PM"
+        },
+        "Buffet": {
+          "updated": "Feb 10, 2026 11:45 PM"
         }
       },
-      "last_updated": "2026-01-18T01:37:41.015417",
+      "last_updated": "2026-02-10T23:45:06.067484",
       "company": {
         "name": "Super Micro Computer Inc",
         "market_cap": "$19.60B",
@@ -195,25 +213,25 @@
     "NVTS": {
       "presets": {
         "Revenue": {
-          "updated": "Jan 31, 2026 01:15 AM"
+          "updated": "Feb 10, 2026 11:45 PM"
         },
         "Costs": {
-          "updated": "Jan 31, 2026 01:15 AM"
+          "updated": "Feb 10, 2026 11:45 PM"
         },
         "Cash": {
-          "updated": "Jan 31, 2026 01:15 AM"
+          "updated": "Feb 10, 2026 11:45 PM"
         },
         "FCF": {
-          "updated": "Jan 31, 2026 01:15 AM"
+          "updated": "Feb 10, 2026 11:45 PM"
         },
         "Assets": {
-          "updated": "Jan 31, 2026 01:15 AM"
+          "updated": "Feb 10, 2026 11:45 PM"
         },
         "Buffet": {
-          "updated": "Jan 31, 2026 01:15 AM"
+          "updated": "Feb 10, 2026 11:45 PM"
         }
       },
-      "last_updated": "2026-01-31T01:15:56.286749",
+      "last_updated": "2026-02-10T23:45:04.965859",
       "company": {
         "name": "Navitas Semiconductor Corp",
         "market_cap": "$1.71B",
@@ -224,23 +242,26 @@
     },
     "PANW": {
       "presets": {
-        "costs": {
-          "updated": "Jan 20, 2026 12:26 AM"
+        "Revenue": {
+          "updated": "Feb 10, 2026 11:45 PM"
         },
-        "revenue": {
-          "updated": "Jan 20, 2026 12:26 AM"
+        "Costs": {
+          "updated": "Feb 10, 2026 11:45 PM"
         },
-        "cash": {
-          "updated": "Jan 20, 2026 12:26 AM"
+        "Cash": {
+          "updated": "Feb 10, 2026 11:45 PM"
         },
         "FCF": {
-          "updated": "Jan 20, 2026 12:26 AM"
+          "updated": "Feb 10, 2026 11:45 PM"
         },
-        "assets": {
-          "updated": "Jan 20, 2026 12:26 AM"
+        "Assets": {
+          "updated": "Feb 10, 2026 11:45 PM"
+        },
+        "Buffet": {
+          "updated": "Feb 10, 2026 11:45 PM"
         }
       },
-      "last_updated": "2026-01-20T00:26:28.593281",
+      "last_updated": "2026-02-10T23:45:05.239638",
       "company": {
         "name": "Palo Alto Networks Inc",
         "market_cap": "$130.05B",
@@ -251,23 +272,26 @@
     },
     "CRWD": {
       "presets": {
-        "costs": {
-          "updated": "Jan 19, 2026 04:25 PM"
+        "Revenue": {
+          "updated": "Feb 10, 2026 11:45 PM"
         },
-        "revenue": {
-          "updated": "Jan 19, 2026 04:25 PM"
+        "Costs": {
+          "updated": "Feb 10, 2026 11:45 PM"
         },
-        "cash": {
-          "updated": "Jan 19, 2026 04:25 PM"
+        "Cash": {
+          "updated": "Feb 10, 2026 11:45 PM"
         },
         "FCF": {
-          "updated": "Jan 19, 2026 04:25 PM"
+          "updated": "Feb 10, 2026 11:45 PM"
         },
-        "assets": {
-          "updated": "Jan 19, 2026 04:25 PM"
+        "Assets": {
+          "updated": "Feb 10, 2026 11:45 PM"
+        },
+        "Buffet": {
+          "updated": "Feb 10, 2026 11:45 PM"
         }
       },
-      "last_updated": "2026-01-19T16:25:51.077196",
+      "last_updated": "2026-02-10T23:45:00.854322",
       "company": {
         "name": "Crowdstrike Holdings Inc",
         "market_cap": "$121.31B",
@@ -278,23 +302,26 @@
     },
     "KO": {
       "presets": {
-        "costs": {
-          "updated": "Jan 18, 2026 01:23 AM"
+        "Revenue": {
+          "updated": "Feb 10, 2026 11:45 PM"
         },
-        "revenue": {
-          "updated": "Jan 18, 2026 01:23 AM"
+        "Costs": {
+          "updated": "Feb 10, 2026 11:45 PM"
         },
-        "cash": {
-          "updated": "Jan 18, 2026 01:23 AM"
-        },
-        "assets": {
-          "updated": "Jan 18, 2026 01:23 AM"
+        "Cash": {
+          "updated": "Feb 10, 2026 11:45 PM"
         },
         "FCF": {
-          "updated": "Jan 18, 2026 01:23 AM"
+          "updated": "Feb 10, 2026 11:45 PM"
+        },
+        "Assets": {
+          "updated": "Feb 10, 2026 11:45 PM"
+        },
+        "Buffet": {
+          "updated": "Feb 10, 2026 11:45 PM"
         }
       },
-      "last_updated": "2026-01-18T01:23:17.351286",
+      "last_updated": "2026-02-10T23:45:03.717754",
       "company": {
         "name": "The Coca-Cola Company",
         "market_cap": "$305.43B",
@@ -305,23 +332,26 @@
     },
     "MCD": {
       "presets": {
-        "costs": {
-          "updated": "Jan 19, 2026 04:25 PM"
+        "Revenue": {
+          "updated": "Feb 10, 2026 11:45 PM"
         },
-        "revenue": {
-          "updated": "Jan 19, 2026 04:25 PM"
+        "Costs": {
+          "updated": "Feb 10, 2026 11:45 PM"
         },
-        "cash": {
-          "updated": "Jan 19, 2026 04:25 PM"
+        "Cash": {
+          "updated": "Feb 10, 2026 11:45 PM"
         },
         "FCF": {
-          "updated": "Jan 19, 2026 04:25 PM"
+          "updated": "Feb 10, 2026 11:45 PM"
         },
-        "assets": {
-          "updated": "Jan 19, 2026 04:25 PM"
+        "Assets": {
+          "updated": "Feb 10, 2026 11:45 PM"
+        },
+        "Buffet": {
+          "updated": "Feb 10, 2026 11:45 PM"
         }
       },
-      "last_updated": "2026-01-19T16:25:59.445819",
+      "last_updated": "2026-02-10T23:45:04.172349",
       "company": {
         "name": "McDonald\u2019s Corporation",
         "market_cap": "$220.23B",
@@ -332,23 +362,26 @@
     },
     "SOUN": {
       "presets": {
-        "costs": {
-          "updated": "Jan 19, 2026 12:26 PM"
+        "Revenue": {
+          "updated": "Feb 10, 2026 11:45 PM"
         },
-        "revenue": {
-          "updated": "Jan 19, 2026 12:26 PM"
+        "Costs": {
+          "updated": "Feb 10, 2026 11:45 PM"
         },
-        "cash": {
-          "updated": "Jan 19, 2026 12:26 PM"
+        "Cash": {
+          "updated": "Feb 10, 2026 11:45 PM"
         },
         "FCF": {
-          "updated": "Jan 19, 2026 12:26 PM"
+          "updated": "Feb 10, 2026 11:45 PM"
         },
-        "assets": {
-          "updated": "Jan 19, 2026 12:26 PM"
+        "Assets": {
+          "updated": "Feb 10, 2026 11:45 PM"
+        },
+        "Buffet": {
+          "updated": "Feb 10, 2026 11:45 PM"
         }
       },
-      "last_updated": "2026-01-19T12:26:48.799576",
+      "last_updated": "2026-02-10T23:45:06.261300",
       "company": {
         "name": "SoundHound AI Inc",
         "market_cap": "$4.97B",
@@ -359,23 +392,26 @@
     },
     "LAC": {
       "presets": {
-        "costs": {
-          "updated": "Jan 19, 2026 12:26 PM"
+        "Revenue": {
+          "updated": "Feb 10, 2026 11:45 PM"
         },
-        "revenue": {
-          "updated": "Jan 19, 2026 12:26 PM"
+        "Costs": {
+          "updated": "Feb 10, 2026 11:45 PM"
         },
-        "cash": {
-          "updated": "Jan 19, 2026 12:26 PM"
+        "Cash": {
+          "updated": "Feb 10, 2026 11:45 PM"
         },
         "FCF": {
-          "updated": "Jan 19, 2026 12:26 PM"
+          "updated": "Feb 10, 2026 11:45 PM"
         },
-        "assets": {
-          "updated": "Jan 19, 2026 12:26 PM"
+        "Assets": {
+          "updated": "Feb 10, 2026 11:45 PM"
+        },
+        "Buffet": {
+          "updated": "Feb 10, 2026 11:45 PM"
         }
       },
-      "last_updated": "2026-01-19T12:26:44.038272",
+      "last_updated": "2026-02-10T23:45:03.945164",
       "company": {
         "name": "Lithium Americas Corp",
         "market_cap": "$1.55B",
@@ -386,23 +422,26 @@
     },
     "SOFI": {
       "presets": {
-        "costs": {
-          "updated": "Jan 18, 2026 01:35 AM"
+        "Revenue": {
+          "updated": "Feb 10, 2026 11:45 PM"
         },
-        "revenue": {
-          "updated": "Jan 18, 2026 01:35 AM"
+        "Costs": {
+          "updated": "Feb 10, 2026 11:45 PM"
         },
-        "cash": {
-          "updated": "Jan 18, 2026 01:35 AM"
+        "Cash": {
+          "updated": "Feb 10, 2026 11:45 PM"
         },
         "FCF": {
-          "updated": "Jan 18, 2026 01:35 AM"
+          "updated": "Feb 10, 2026 11:45 PM"
         },
-        "assets": {
-          "updated": "Jan 18, 2026 01:35 AM"
+        "Assets": {
+          "updated": "Feb 10, 2026 11:45 PM"
+        },
+        "Buffet": {
+          "updated": "Feb 10, 2026 11:45 PM"
         }
       },
-      "last_updated": "2026-01-18T01:35:01.191019",
+      "last_updated": "2026-02-10T23:45:06.211429",
       "company": {
         "name": "SoFi Technologies Inc.",
         "market_cap": "$34.36B",
@@ -413,23 +452,26 @@
     },
     "AMZN": {
       "presets": {
-        "costs": {
-          "updated": "Jan 28, 2026 11:57 PM"
+        "Revenue": {
+          "updated": "Feb 10, 2026 11:44 PM"
         },
-        "revenue": {
-          "updated": "Jan 28, 2026 11:57 PM"
+        "Costs": {
+          "updated": "Feb 10, 2026 11:44 PM"
         },
-        "cash": {
-          "updated": "Jan 28, 2026 11:57 PM"
-        },
-        "assets": {
-          "updated": "Jan 28, 2026 11:57 PM"
+        "Cash": {
+          "updated": "Feb 10, 2026 11:44 PM"
         },
         "FCF": {
-          "updated": "Jan 28, 2026 11:57 PM"
+          "updated": "Feb 10, 2026 11:44 PM"
+        },
+        "Assets": {
+          "updated": "Feb 10, 2026 11:44 PM"
+        },
+        "Buffet": {
+          "updated": "Feb 10, 2026 11:44 PM"
         }
       },
-      "last_updated": "2026-01-28T23:57:38.700870",
+      "last_updated": "2026-02-10T23:44:59.691118",
       "company": {
         "name": "Amazon.com Inc",
         "market_cap": "$2.42T",
@@ -440,23 +482,26 @@
     },
     "ORCL": {
       "presets": {
-        "costs": {
-          "updated": "Jan 20, 2026 12:26 AM"
+        "Revenue": {
+          "updated": "Feb 10, 2026 11:45 PM"
         },
-        "revenue": {
-          "updated": "Jan 20, 2026 12:26 AM"
+        "Costs": {
+          "updated": "Feb 10, 2026 11:45 PM"
         },
-        "cash": {
-          "updated": "Jan 20, 2026 12:26 AM"
+        "Cash": {
+          "updated": "Feb 10, 2026 11:45 PM"
         },
         "FCF": {
-          "updated": "Jan 20, 2026 12:26 AM"
+          "updated": "Feb 10, 2026 11:45 PM"
         },
-        "assets": {
-          "updated": "Jan 20, 2026 12:26 AM"
+        "Assets": {
+          "updated": "Feb 10, 2026 11:45 PM"
+        },
+        "Buffet": {
+          "updated": "Feb 10, 2026 11:45 PM"
         }
       },
-      "last_updated": "2026-01-20T00:26:32.742598",
+      "last_updated": "2026-02-10T23:45:05.122699",
       "company": {
         "name": "Oracle Corporation",
         "market_cap": "$635.76B",
@@ -467,23 +512,26 @@
     },
     "APLD": {
       "presets": {
-        "costs": {
-          "updated": "Jan 18, 2026 12:15 PM"
+        "Revenue": {
+          "updated": "Feb 10, 2026 11:44 PM"
         },
-        "revenue": {
-          "updated": "Jan 18, 2026 12:15 PM"
+        "Costs": {
+          "updated": "Feb 10, 2026 11:44 PM"
         },
-        "cash": {
-          "updated": "Jan 18, 2026 12:15 PM"
+        "Cash": {
+          "updated": "Feb 10, 2026 11:44 PM"
         },
         "FCF": {
-          "updated": "Jan 18, 2026 12:15 PM"
+          "updated": "Feb 10, 2026 11:44 PM"
         },
-        "assets": {
-          "updated": "Jan 18, 2026 12:15 PM"
+        "Assets": {
+          "updated": "Feb 10, 2026 11:44 PM"
+        },
+        "Buffet": {
+          "updated": "Feb 10, 2026 11:44 PM"
         }
       },
-      "last_updated": "2026-01-18T12:15:43.493187",
+      "last_updated": "2026-02-10T23:44:59.817086",
       "company": {
         "name": "Applied Digital Corporation",
         "market_cap": "$10.53B",
@@ -494,23 +542,26 @@
     },
     "MU": {
       "presets": {
-        "costs": {
-          "updated": "Jan 19, 2026 10:01 AM"
+        "Revenue": {
+          "updated": "Feb 10, 2026 11:45 PM"
         },
-        "revenue": {
-          "updated": "Jan 19, 2026 10:01 AM"
+        "Costs": {
+          "updated": "Feb 10, 2026 11:45 PM"
         },
-        "cash": {
-          "updated": "Jan 19, 2026 10:01 AM"
+        "Cash": {
+          "updated": "Feb 10, 2026 11:45 PM"
         },
         "FCF": {
-          "updated": "Jan 19, 2026 10:01 AM"
+          "updated": "Feb 10, 2026 11:45 PM"
         },
-        "assets": {
-          "updated": "Jan 19, 2026 10:01 AM"
+        "Assets": {
+          "updated": "Feb 10, 2026 11:45 PM"
+        },
+        "Buffet": {
+          "updated": "Feb 10, 2026 11:45 PM"
         }
       },
-      "last_updated": "2026-01-19T10:01:11.564029",
+      "last_updated": "2026-02-10T23:45:04.756342",
       "company": {
         "name": "Micron Technology Inc",
         "market_cap": "$266.96B",
@@ -521,23 +572,26 @@
     },
     "ZS": {
       "presets": {
-        "costs": {
-          "updated": "Jan 18, 2026 10:50 AM"
+        "Revenue": {
+          "updated": "Feb 10, 2026 11:45 PM"
         },
-        "revenue": {
-          "updated": "Jan 18, 2026 10:50 AM"
+        "Costs": {
+          "updated": "Feb 10, 2026 11:45 PM"
         },
-        "cash": {
-          "updated": "Jan 18, 2026 10:50 AM"
+        "Cash": {
+          "updated": "Feb 10, 2026 11:45 PM"
         },
         "FCF": {
-          "updated": "Jan 18, 2026 10:50 AM"
+          "updated": "Feb 10, 2026 11:45 PM"
         },
-        "assets": {
-          "updated": "Jan 18, 2026 10:50 AM"
+        "Assets": {
+          "updated": "Feb 10, 2026 11:45 PM"
+        },
+        "Buffet": {
+          "updated": "Feb 10, 2026 11:45 PM"
         }
       },
-      "last_updated": "2026-01-18T10:50:12.295580",
+      "last_updated": "2026-02-10T23:45:07.829409",
       "company": {
         "name": "Zscaler Inc",
         "market_cap": "$35.52B",
@@ -548,23 +602,26 @@
     },
     "WMT": {
       "presets": {
-        "costs": {
-          "updated": "Jan 20, 2026 12:26 AM"
+        "Revenue": {
+          "updated": "Feb 10, 2026 11:45 PM"
         },
-        "revenue": {
-          "updated": "Jan 20, 2026 12:26 AM"
+        "Costs": {
+          "updated": "Feb 10, 2026 11:45 PM"
         },
-        "cash": {
-          "updated": "Jan 20, 2026 12:26 AM"
+        "Cash": {
+          "updated": "Feb 10, 2026 11:45 PM"
         },
         "FCF": {
-          "updated": "Jan 20, 2026 12:26 AM"
+          "updated": "Feb 10, 2026 11:45 PM"
         },
-        "assets": {
-          "updated": "Jan 20, 2026 12:26 AM"
+        "Assets": {
+          "updated": "Feb 10, 2026 11:45 PM"
+        },
+        "Buffet": {
+          "updated": "Feb 10, 2026 11:45 PM"
         }
       },
-      "last_updated": "2026-01-20T00:26:22.661176",
+      "last_updated": "2026-02-10T23:45:07.590774",
       "company": {
         "name": "Walmart Inc. Common Stock",
         "market_cap": "$930.43B",
@@ -575,23 +632,26 @@
     },
     "SNOW": {
       "presets": {
-        "costs": {
-          "updated": "Jan 20, 2026 12:26 AM"
+        "Revenue": {
+          "updated": "Feb 10, 2026 11:45 PM"
         },
-        "revenue": {
-          "updated": "Jan 20, 2026 12:26 AM"
+        "Costs": {
+          "updated": "Feb 10, 2026 11:45 PM"
         },
-        "cash": {
-          "updated": "Jan 20, 2026 12:26 AM"
+        "Cash": {
+          "updated": "Feb 10, 2026 11:45 PM"
         },
         "FCF": {
-          "updated": "Jan 20, 2026 12:26 AM"
+          "updated": "Feb 10, 2026 11:45 PM"
         },
-        "assets": {
-          "updated": "Jan 20, 2026 12:26 AM"
+        "Assets": {
+          "updated": "Feb 10, 2026 11:45 PM"
+        },
+        "Buffet": {
+          "updated": "Feb 10, 2026 11:45 PM"
         }
       },
-      "last_updated": "2026-01-20T00:26:29.539582",
+      "last_updated": "2026-02-10T23:45:06.122593",
       "company": {
         "name": "Snowflake Inc.",
         "market_cap": "$76.13B",
@@ -602,23 +662,26 @@
     },
     "PATH": {
       "presets": {
-        "costs": {
-          "updated": "Jan 19, 2026 12:26 PM"
+        "Revenue": {
+          "updated": "Feb 10, 2026 11:45 PM"
         },
-        "revenue": {
-          "updated": "Jan 19, 2026 12:26 PM"
+        "Costs": {
+          "updated": "Feb 10, 2026 11:45 PM"
         },
-        "cash": {
-          "updated": "Jan 19, 2026 12:26 PM"
+        "Cash": {
+          "updated": "Feb 10, 2026 11:45 PM"
         },
         "FCF": {
-          "updated": "Jan 19, 2026 12:26 PM"
+          "updated": "Feb 10, 2026 11:45 PM"
         },
-        "assets": {
-          "updated": "Jan 19, 2026 12:26 PM"
+        "Assets": {
+          "updated": "Feb 10, 2026 11:45 PM"
+        },
+        "Buffet": {
+          "updated": "Feb 10, 2026 11:45 PM"
         }
       },
-      "last_updated": "2026-01-19T12:26:45.871322",
+      "last_updated": "2026-02-10T23:45:05.290699",
       "company": {
         "name": "Uipath Inc",
         "market_cap": "$7.42B",
@@ -630,25 +693,25 @@
     "MRVL": {
       "presets": {
         "Revenue": {
-          "updated": "Feb 06, 2026 11:25 PM"
+          "updated": "Feb 10, 2026 11:45 PM"
         },
         "Costs": {
-          "updated": "Feb 06, 2026 11:25 PM"
+          "updated": "Feb 10, 2026 11:45 PM"
         },
         "Cash": {
-          "updated": "Feb 06, 2026 11:25 PM"
+          "updated": "Feb 10, 2026 11:45 PM"
         },
         "FCF": {
-          "updated": "Feb 06, 2026 11:25 PM"
+          "updated": "Feb 10, 2026 11:45 PM"
         },
         "Assets": {
-          "updated": "Feb 06, 2026 11:25 PM"
+          "updated": "Feb 10, 2026 11:45 PM"
         },
         "Buffet": {
-          "updated": "Feb 06, 2026 11:25 PM"
+          "updated": "Feb 10, 2026 11:45 PM"
         }
       },
-      "last_updated": "2026-02-06T23:25:22.276752",
+      "last_updated": "2026-02-10T23:45:04.551254",
       "company": {
         "name": "Marvell Technology Group Ltd",
         "market_cap": "$85.27B",
@@ -659,17 +722,26 @@
     },
     "HPE": {
       "presets": {
-        "costs": {
-          "updated": "Jan 16, 2026 06:40 PM"
+        "Revenue": {
+          "updated": "Feb 10, 2026 11:45 PM"
         },
-        "revenue": {
-          "updated": "Jan 16, 2026 06:40 PM"
+        "Costs": {
+          "updated": "Feb 10, 2026 11:45 PM"
         },
-        "cash": {
-          "updated": "Jan 16, 2026 06:40 PM"
+        "Cash": {
+          "updated": "Feb 10, 2026 11:45 PM"
+        },
+        "FCF": {
+          "updated": "Feb 10, 2026 11:45 PM"
+        },
+        "Assets": {
+          "updated": "Feb 10, 2026 11:45 PM"
+        },
+        "Buffet": {
+          "updated": "Feb 10, 2026 11:45 PM"
         }
       },
-      "last_updated": "2026-01-16T18:40:45.717398",
+      "last_updated": "2026-02-10T23:45:02.425073",
       "company": {
         "name": "Hewlett Packard Enterprise Co",
         "market_cap": "$29.48B",
@@ -680,23 +752,26 @@
     },
     "DELL": {
       "presets": {
-        "costs": {
-          "updated": "Jan 19, 2026 04:25 PM"
+        "Revenue": {
+          "updated": "Feb 10, 2026 11:45 PM"
         },
-        "revenue": {
-          "updated": "Jan 19, 2026 04:25 PM"
+        "Costs": {
+          "updated": "Feb 10, 2026 11:45 PM"
         },
-        "cash": {
-          "updated": "Jan 19, 2026 04:25 PM"
+        "Cash": {
+          "updated": "Feb 10, 2026 11:45 PM"
         },
         "FCF": {
-          "updated": "Jan 19, 2026 04:25 PM"
+          "updated": "Feb 10, 2026 11:45 PM"
         },
-        "assets": {
-          "updated": "Jan 19, 2026 04:25 PM"
+        "Assets": {
+          "updated": "Feb 10, 2026 11:45 PM"
+        },
+        "Buffet": {
+          "updated": "Feb 10, 2026 11:45 PM"
         }
       },
-      "last_updated": "2026-01-19T16:25:53.795211",
+      "last_updated": "2026-02-10T23:45:01.218511",
       "company": {
         "name": "Dell Technologies Inc",
         "market_cap": "$86.04B",
@@ -707,23 +782,26 @@
     },
     "CSCO": {
       "presets": {
-        "costs": {
-          "updated": "Jan 19, 2026 04:25 PM"
+        "Revenue": {
+          "updated": "Feb 10, 2026 11:45 PM"
         },
-        "revenue": {
-          "updated": "Jan 19, 2026 04:25 PM"
+        "Costs": {
+          "updated": "Feb 10, 2026 11:45 PM"
         },
-        "cash": {
-          "updated": "Jan 19, 2026 04:25 PM"
+        "Cash": {
+          "updated": "Feb 10, 2026 11:45 PM"
         },
         "FCF": {
-          "updated": "Jan 19, 2026 04:25 PM"
+          "updated": "Feb 10, 2026 11:45 PM"
         },
-        "assets": {
-          "updated": "Jan 19, 2026 04:25 PM"
+        "Assets": {
+          "updated": "Feb 10, 2026 11:45 PM"
+        },
+        "Buffet": {
+          "updated": "Feb 10, 2026 11:45 PM"
         }
       },
-      "last_updated": "2026-01-19T16:25:52.889480",
+      "last_updated": "2026-02-10T23:45:00.977119",
       "company": {
         "name": "Cisco Systems Inc",
         "market_cap": "$309.84B",
@@ -734,23 +812,26 @@
     },
     "AVGO": {
       "presets": {
-        "costs": {
-          "updated": "Jan 19, 2026 04:25 PM"
+        "Revenue": {
+          "updated": "Feb 10, 2026 11:45 PM"
         },
-        "revenue": {
-          "updated": "Jan 19, 2026 04:25 PM"
+        "Costs": {
+          "updated": "Feb 10, 2026 11:45 PM"
         },
-        "cash": {
-          "updated": "Jan 19, 2026 04:25 PM"
+        "Cash": {
+          "updated": "Feb 10, 2026 11:45 PM"
         },
         "FCF": {
-          "updated": "Jan 19, 2026 04:25 PM"
+          "updated": "Feb 10, 2026 11:45 PM"
         },
-        "assets": {
-          "updated": "Jan 19, 2026 04:25 PM"
+        "Assets": {
+          "updated": "Feb 10, 2026 11:45 PM"
+        },
+        "Buffet": {
+          "updated": "Feb 10, 2026 11:45 PM"
         }
       },
-      "last_updated": "2026-01-19T16:25:49.202507",
+      "last_updated": "2026-02-10T23:45:00.033720",
       "company": {
         "name": "Broadcom Inc",
         "market_cap": "$1.70T",
@@ -761,23 +842,26 @@
     },
     "AMAT": {
       "presets": {
-        "costs": {
-          "updated": "Jan 19, 2026 04:25 PM"
+        "Revenue": {
+          "updated": "Feb 10, 2026 11:44 PM"
         },
-        "revenue": {
-          "updated": "Jan 19, 2026 04:25 PM"
+        "Costs": {
+          "updated": "Feb 10, 2026 11:44 PM"
         },
-        "cash": {
-          "updated": "Jan 19, 2026 04:25 PM"
+        "Cash": {
+          "updated": "Feb 10, 2026 11:44 PM"
         },
         "FCF": {
-          "updated": "Jan 19, 2026 04:25 PM"
+          "updated": "Feb 10, 2026 11:44 PM"
         },
-        "assets": {
-          "updated": "Jan 19, 2026 04:25 PM"
+        "Assets": {
+          "updated": "Feb 10, 2026 11:44 PM"
+        },
+        "Buffet": {
+          "updated": "Feb 10, 2026 11:44 PM"
         }
       },
-      "last_updated": "2026-01-19T16:25:48.223964",
+      "last_updated": "2026-02-10T23:44:59.443144",
       "company": {
         "name": "Applied Materials Inc",
         "market_cap": "$208.14B",
@@ -788,23 +872,26 @@
     },
     "VZ": {
       "presets": {
-        "costs": {
-          "updated": "Jan 20, 2026 12:26 AM"
+        "Revenue": {
+          "updated": "Feb 10, 2026 11:45 PM"
         },
-        "revenue": {
-          "updated": "Jan 20, 2026 12:26 AM"
+        "Costs": {
+          "updated": "Feb 10, 2026 11:45 PM"
         },
-        "cash": {
-          "updated": "Jan 20, 2026 12:26 AM"
+        "Cash": {
+          "updated": "Feb 10, 2026 11:45 PM"
         },
         "FCF": {
-          "updated": "Jan 20, 2026 12:26 AM"
+          "updated": "Feb 10, 2026 11:45 PM"
         },
-        "assets": {
-          "updated": "Jan 20, 2026 12:26 AM"
+        "Assets": {
+          "updated": "Feb 10, 2026 11:45 PM"
+        },
+        "Buffet": {
+          "updated": "Feb 10, 2026 11:45 PM"
         }
       },
-      "last_updated": "2026-01-20T00:26:25.452571",
+      "last_updated": "2026-02-10T23:45:07.412554",
       "company": {
         "name": "Verizon Communications Inc",
         "market_cap": "$168.57B",
@@ -815,23 +902,26 @@
     },
     "VRT": {
       "presets": {
-        "costs": {
-          "updated": "Jan 18, 2026 10:50 AM"
+        "Revenue": {
+          "updated": "Feb 10, 2026 11:45 PM"
         },
-        "revenue": {
-          "updated": "Jan 18, 2026 10:50 AM"
+        "Costs": {
+          "updated": "Feb 10, 2026 11:45 PM"
         },
-        "cash": {
-          "updated": "Jan 18, 2026 10:50 AM"
+        "Cash": {
+          "updated": "Feb 10, 2026 11:45 PM"
         },
         "FCF": {
-          "updated": "Jan 18, 2026 10:50 AM"
+          "updated": "Feb 10, 2026 11:45 PM"
         },
-        "assets": {
-          "updated": "Jan 18, 2026 10:50 AM"
+        "Assets": {
+          "updated": "Feb 10, 2026 11:45 PM"
+        },
+        "Buffet": {
+          "updated": "Feb 10, 2026 11:45 PM"
         }
       },
-      "last_updated": "2026-01-18T10:50:14.176699",
+      "last_updated": "2026-02-10T23:45:07.317692",
       "company": {
         "name": "Vertiv Holdings Co",
         "market_cap": "$68.72B",
@@ -842,23 +932,26 @@
     },
     "UNH": {
       "presets": {
-        "costs": {
-          "updated": "Jan 18, 2026 12:16 PM"
+        "Revenue": {
+          "updated": "Feb 10, 2026 11:45 PM"
         },
-        "revenue": {
-          "updated": "Jan 18, 2026 12:16 PM"
+        "Costs": {
+          "updated": "Feb 10, 2026 11:45 PM"
         },
-        "cash": {
-          "updated": "Jan 18, 2026 12:16 PM"
+        "Cash": {
+          "updated": "Feb 10, 2026 11:45 PM"
         },
         "FCF": {
-          "updated": "Jan 18, 2026 12:16 PM"
+          "updated": "Feb 10, 2026 11:45 PM"
         },
-        "assets": {
-          "updated": "Jan 18, 2026 12:16 PM"
+        "Assets": {
+          "updated": "Feb 10, 2026 11:45 PM"
+        },
+        "Buffet": {
+          "updated": "Feb 10, 2026 11:45 PM"
         }
       },
-      "last_updated": "2026-01-18T12:16:10.332457",
+      "last_updated": "2026-02-10T23:45:07.200092",
       "company": {
         "name": "UnitedHealth Group Incorporated",
         "market_cap": "$305.02B",
@@ -869,23 +962,26 @@
     },
     "TTD": {
       "presets": {
-        "costs": {
-          "updated": "Jan 24, 2026 10:43 AM"
+        "Revenue": {
+          "updated": "Feb 10, 2026 11:45 PM"
         },
-        "revenue": {
-          "updated": "Jan 24, 2026 10:43 AM"
+        "Costs": {
+          "updated": "Feb 10, 2026 11:45 PM"
         },
-        "cash": {
-          "updated": "Jan 24, 2026 10:43 AM"
+        "Cash": {
+          "updated": "Feb 10, 2026 11:45 PM"
         },
         "FCF": {
-          "updated": "Jan 24, 2026 10:43 AM"
+          "updated": "Feb 10, 2026 11:45 PM"
         },
-        "assets": {
-          "updated": "Jan 24, 2026 10:43 AM"
+        "Assets": {
+          "updated": "Feb 10, 2026 11:45 PM"
+        },
+        "Buffet": {
+          "updated": "Feb 10, 2026 11:45 PM"
         }
       },
-      "last_updated": "2026-01-24T10:43:56.824193",
+      "last_updated": "2026-02-10T23:45:06.959252",
       "company": {
         "name": "Trade Desk Inc",
         "market_cap": "$19.58B",
@@ -896,17 +992,26 @@
     },
     "TSM": {
       "presets": {
-        "costs": {
-          "updated": "Jan 16, 2026 06:41 PM"
+        "Revenue": {
+          "updated": "Feb 10, 2026 11:45 PM"
         },
-        "revenue": {
-          "updated": "Jan 16, 2026 06:41 PM"
+        "Costs": {
+          "updated": "Feb 10, 2026 11:45 PM"
         },
-        "cash": {
-          "updated": "Jan 16, 2026 06:41 PM"
+        "Cash": {
+          "updated": "Feb 10, 2026 11:45 PM"
+        },
+        "FCF": {
+          "updated": "Feb 10, 2026 11:45 PM"
+        },
+        "Assets": {
+          "updated": "Feb 10, 2026 11:45 PM"
+        },
+        "Buffet": {
+          "updated": "Feb 10, 2026 11:45 PM"
         }
       },
-      "last_updated": "2026-01-16T18:41:37.311620",
+      "last_updated": "2026-02-10T23:45:06.865558",
       "company": {
         "name": "Taiwan Semiconductor Manufacturing",
         "market_cap": "$1.53T",
@@ -917,23 +1022,26 @@
     },
     "OSCR": {
       "presets": {
-        "costs": {
-          "updated": "Jan 19, 2026 12:26 PM"
+        "Revenue": {
+          "updated": "Feb 10, 2026 11:45 PM"
         },
-        "revenue": {
-          "updated": "Jan 19, 2026 12:26 PM"
+        "Costs": {
+          "updated": "Feb 10, 2026 11:45 PM"
         },
-        "cash": {
-          "updated": "Jan 19, 2026 12:26 PM"
+        "Cash": {
+          "updated": "Feb 10, 2026 11:45 PM"
         },
         "FCF": {
-          "updated": "Jan 19, 2026 12:26 PM"
+          "updated": "Feb 10, 2026 11:45 PM"
         },
-        "assets": {
-          "updated": "Jan 19, 2026 12:26 PM"
+        "Assets": {
+          "updated": "Feb 10, 2026 11:45 PM"
+        },
+        "Buffet": {
+          "updated": "Feb 10, 2026 11:45 PM"
         }
       },
-      "last_updated": "2026-01-19T12:26:42.210989",
+      "last_updated": "2026-02-10T23:45:05.170080",
       "company": {
         "name": "Oscar Health Inc",
         "market_cap": "$5.17B",
@@ -944,23 +1052,26 @@
     },
     "LHX": {
       "presets": {
-        "costs": {
-          "updated": "Jan 19, 2026 04:21 PM"
+        "Revenue": {
+          "updated": "Feb 10, 2026 11:45 PM"
         },
-        "revenue": {
-          "updated": "Jan 19, 2026 04:21 PM"
+        "Costs": {
+          "updated": "Feb 10, 2026 11:45 PM"
         },
-        "cash": {
-          "updated": "Jan 19, 2026 04:21 PM"
+        "Cash": {
+          "updated": "Feb 10, 2026 11:45 PM"
         },
         "FCF": {
-          "updated": "Jan 19, 2026 04:21 PM"
+          "updated": "Feb 10, 2026 11:45 PM"
         },
-        "assets": {
-          "updated": "Jan 19, 2026 04:21 PM"
+        "Assets": {
+          "updated": "Feb 10, 2026 11:45 PM"
+        },
+        "Buffet": {
+          "updated": "Feb 10, 2026 11:45 PM"
         }
       },
-      "last_updated": "2026-01-19T16:21:36.411733",
+      "last_updated": "2026-02-10T23:45:04.024950",
       "company": {
         "name": "L3Harris Technologies Inc",
         "market_cap": "$63.84B",
@@ -971,23 +1082,26 @@
     },
     "IONQ": {
       "presets": {
-        "costs": {
-          "updated": "Jan 19, 2026 12:26 PM"
+        "Revenue": {
+          "updated": "Feb 10, 2026 11:45 PM"
         },
-        "revenue": {
-          "updated": "Jan 19, 2026 12:26 PM"
+        "Costs": {
+          "updated": "Feb 10, 2026 11:45 PM"
         },
-        "cash": {
-          "updated": "Jan 19, 2026 12:26 PM"
+        "Cash": {
+          "updated": "Feb 10, 2026 11:45 PM"
         },
         "FCF": {
-          "updated": "Jan 19, 2026 12:26 PM"
+          "updated": "Feb 10, 2026 11:45 PM"
         },
-        "assets": {
-          "updated": "Jan 19, 2026 12:26 PM"
+        "Assets": {
+          "updated": "Feb 10, 2026 11:45 PM"
+        },
+        "Buffet": {
+          "updated": "Feb 10, 2026 11:45 PM"
         }
       },
-      "last_updated": "2026-01-19T12:26:43.140524",
+      "last_updated": "2026-02-10T23:45:02.899180",
       "company": {
         "name": "IONQ Inc",
         "market_cap": "$16.08B",
@@ -998,23 +1112,26 @@
     },
     "INTC": {
       "presets": {
-        "costs": {
-          "updated": "Jan 19, 2026 04:25 PM"
+        "Revenue": {
+          "updated": "Feb 10, 2026 11:45 PM"
         },
-        "revenue": {
-          "updated": "Jan 19, 2026 04:25 PM"
+        "Costs": {
+          "updated": "Feb 10, 2026 11:45 PM"
         },
-        "cash": {
-          "updated": "Jan 19, 2026 04:25 PM"
+        "Cash": {
+          "updated": "Feb 10, 2026 11:45 PM"
         },
         "FCF": {
-          "updated": "Jan 19, 2026 04:25 PM"
+          "updated": "Feb 10, 2026 11:45 PM"
         },
-        "assets": {
-          "updated": "Jan 19, 2026 04:25 PM"
+        "Assets": {
+          "updated": "Feb 10, 2026 11:45 PM"
+        },
+        "Buffet": {
+          "updated": "Feb 10, 2026 11:45 PM"
         }
       },
-      "last_updated": "2026-01-19T16:25:57.533794",
+      "last_updated": "2026-02-10T23:45:02.845667",
       "company": {
         "name": "Intel Corporation",
         "market_cap": "$217.27B",
@@ -1025,23 +1142,26 @@
     },
     "IBM": {
       "presets": {
-        "costs": {
-          "updated": "Jan 19, 2026 11:24 AM"
+        "Revenue": {
+          "updated": "Feb 10, 2026 11:45 PM"
         },
-        "revenue": {
-          "updated": "Jan 19, 2026 11:24 AM"
+        "Costs": {
+          "updated": "Feb 10, 2026 11:45 PM"
         },
-        "cash": {
-          "updated": "Jan 19, 2026 11:24 AM"
+        "Cash": {
+          "updated": "Feb 10, 2026 11:45 PM"
         },
         "FCF": {
-          "updated": "Jan 19, 2026 11:24 AM"
+          "updated": "Feb 10, 2026 11:45 PM"
         },
-        "assets": {
-          "updated": "Jan 19, 2026 11:24 AM"
+        "Assets": {
+          "updated": "Feb 10, 2026 11:45 PM"
+        },
+        "Buffet": {
+          "updated": "Feb 10, 2026 11:45 PM"
         }
       },
-      "last_updated": "2026-01-19T11:24:40.988427",
+      "last_updated": "2026-02-10T23:45:02.746190",
       "company": {
         "name": "International Business Machines",
         "market_cap": "$282.87B",
@@ -1052,23 +1172,26 @@
     },
     "HOOD": {
       "presets": {
-        "costs": {
-          "updated": "Jan 18, 2026 01:35 AM"
+        "Revenue": {
+          "updated": "Feb 10, 2026 11:45 PM"
         },
-        "revenue": {
-          "updated": "Jan 18, 2026 01:35 AM"
+        "Costs": {
+          "updated": "Feb 10, 2026 11:45 PM"
         },
-        "cash": {
-          "updated": "Jan 18, 2026 01:35 AM"
+        "Cash": {
+          "updated": "Feb 10, 2026 11:45 PM"
         },
         "FCF": {
-          "updated": "Jan 18, 2026 01:35 AM"
+          "updated": "Feb 10, 2026 11:45 PM"
         },
-        "assets": {
-          "updated": "Jan 18, 2026 01:35 AM"
+        "Assets": {
+          "updated": "Feb 10, 2026 11:45 PM"
+        },
+        "Buffet": {
+          "updated": "Feb 10, 2026 11:45 PM"
         }
       },
-      "last_updated": "2026-01-18T01:35:02.176363",
+      "last_updated": "2026-02-10T23:45:02.350384",
       "company": {
         "name": "Robinhood Markets Inc",
         "market_cap": "$115.54B",
@@ -1079,23 +1202,26 @@
     },
     "HII": {
       "presets": {
-        "costs": {
-          "updated": "Jan 19, 2026 04:25 PM"
+        "Revenue": {
+          "updated": "Feb 10, 2026 11:45 PM"
         },
-        "revenue": {
-          "updated": "Jan 19, 2026 04:25 PM"
+        "Costs": {
+          "updated": "Feb 10, 2026 11:45 PM"
         },
-        "cash": {
-          "updated": "Jan 19, 2026 04:25 PM"
+        "Cash": {
+          "updated": "Feb 10, 2026 11:45 PM"
         },
         "FCF": {
-          "updated": "Jan 19, 2026 04:25 PM"
+          "updated": "Feb 10, 2026 11:45 PM"
         },
-        "assets": {
-          "updated": "Jan 19, 2026 04:25 PM"
+        "Assets": {
+          "updated": "Feb 10, 2026 11:45 PM"
+        },
+        "Buffet": {
+          "updated": "Feb 10, 2026 11:45 PM"
         }
       },
-      "last_updated": "2026-01-19T16:25:56.632333",
+      "last_updated": "2026-02-10T23:45:02.140328",
       "company": {
         "name": "Huntington Ingalls Industries Inc",
         "market_cap": "$16.15B",
@@ -1106,23 +1232,26 @@
     },
     "GM": {
       "presets": {
-        "costs": {
-          "updated": "Jan 19, 2026 12:16 PM"
+        "Revenue": {
+          "updated": "Feb 10, 2026 11:45 PM"
         },
-        "revenue": {
-          "updated": "Jan 19, 2026 12:16 PM"
+        "Costs": {
+          "updated": "Feb 10, 2026 11:45 PM"
         },
-        "cash": {
-          "updated": "Jan 19, 2026 12:16 PM"
+        "Cash": {
+          "updated": "Feb 10, 2026 11:45 PM"
         },
         "FCF": {
-          "updated": "Jan 19, 2026 12:16 PM"
+          "updated": "Feb 10, 2026 11:45 PM"
         },
-        "assets": {
-          "updated": "Jan 19, 2026 12:16 PM"
+        "Assets": {
+          "updated": "Feb 10, 2026 11:45 PM"
+        },
+        "Buffet": {
+          "updated": "Feb 10, 2026 11:45 PM"
         }
       },
-      "last_updated": "2026-01-19T12:16:15.660727",
+      "last_updated": "2026-02-10T23:45:01.742894",
       "company": {
         "name": "General Motors Company",
         "market_cap": "$78.40B",
@@ -1133,23 +1262,26 @@
     },
     "CRWV": {
       "presets": {
-        "costs": {
-          "updated": "Jan 28, 2026 12:14 AM"
+        "Revenue": {
+          "updated": "Feb 10, 2026 11:45 PM"
         },
-        "revenue": {
-          "updated": "Jan 28, 2026 12:14 AM"
+        "Costs": {
+          "updated": "Feb 10, 2026 11:45 PM"
         },
-        "cash": {
-          "updated": "Jan 28, 2026 12:14 AM"
+        "Cash": {
+          "updated": "Feb 10, 2026 11:45 PM"
         },
         "FCF": {
-          "updated": "Jan 28, 2026 12:14 AM"
+          "updated": "Feb 10, 2026 11:45 PM"
         },
-        "assets": {
-          "updated": "Jan 28, 2026 12:14 AM"
+        "Assets": {
+          "updated": "Feb 10, 2026 11:45 PM"
+        },
+        "Buffet": {
+          "updated": "Feb 10, 2026 11:45 PM"
         }
       },
-      "last_updated": "2026-01-28T00:14:16.006087",
+      "last_updated": "2026-02-10T23:45:00.891736",
       "company": {
         "name": "CoreWeave, Inc. Class A Common Stock",
         "market_cap": "$60.14B",
@@ -1160,23 +1292,26 @@
     },
     "DDOG": {
       "presets": {
-        "costs": {
-          "updated": "Jan 18, 2026 10:50 AM"
+        "Revenue": {
+          "updated": "Feb 10, 2026 11:45 PM"
         },
-        "revenue": {
-          "updated": "Jan 18, 2026 10:50 AM"
+        "Costs": {
+          "updated": "Feb 10, 2026 11:45 PM"
         },
-        "cash": {
-          "updated": "Jan 18, 2026 10:50 AM"
+        "Cash": {
+          "updated": "Feb 10, 2026 11:45 PM"
         },
         "FCF": {
-          "updated": "Jan 18, 2026 10:50 AM"
+          "updated": "Feb 10, 2026 11:45 PM"
         },
-        "assets": {
-          "updated": "Jan 18, 2026 10:50 AM"
+        "Assets": {
+          "updated": "Feb 10, 2026 11:45 PM"
+        },
+        "Buffet": {
+          "updated": "Feb 10, 2026 11:45 PM"
         }
       },
-      "last_updated": "2026-01-18T10:50:11.279606",
+      "last_updated": "2026-02-10T23:45:01.149299",
       "company": {
         "name": "Datadog Inc",
         "market_cap": "$46.86B",
@@ -1187,23 +1322,26 @@
     },
     "CEG": {
       "presets": {
-        "costs": {
-          "updated": "Jan 18, 2026 10:50 AM"
+        "Revenue": {
+          "updated": "Feb 10, 2026 11:45 PM"
         },
-        "revenue": {
-          "updated": "Jan 18, 2026 10:50 AM"
+        "Costs": {
+          "updated": "Feb 10, 2026 11:45 PM"
         },
-        "cash": {
-          "updated": "Jan 18, 2026 10:50 AM"
+        "Cash": {
+          "updated": "Feb 10, 2026 11:45 PM"
         },
         "FCF": {
-          "updated": "Jan 18, 2026 10:50 AM"
+          "updated": "Feb 10, 2026 11:45 PM"
         },
-        "assets": {
-          "updated": "Jan 18, 2026 10:50 AM"
+        "Assets": {
+          "updated": "Feb 10, 2026 11:45 PM"
+        },
+        "Buffet": {
+          "updated": "Feb 10, 2026 11:45 PM"
         }
       },
-      "last_updated": "2026-01-18T10:50:15.084922",
+      "last_updated": "2026-02-10T23:45:00.630643",
       "company": {
         "name": "Constellation Energy Corp",
         "market_cap": "$113.83B",
@@ -1215,25 +1353,25 @@
     "CDNS": {
       "presets": {
         "Revenue": {
-          "updated": "Feb 06, 2026 10:33 AM"
+          "updated": "Feb 10, 2026 11:45 PM"
         },
         "Costs": {
-          "updated": "Feb 06, 2026 10:33 AM"
+          "updated": "Feb 10, 2026 11:45 PM"
         },
         "Cash": {
-          "updated": "Feb 06, 2026 10:33 AM"
+          "updated": "Feb 10, 2026 11:45 PM"
         },
         "FCF": {
-          "updated": "Feb 06, 2026 10:33 AM"
+          "updated": "Feb 10, 2026 11:45 PM"
         },
         "Assets": {
-          "updated": "Feb 06, 2026 10:33 AM"
+          "updated": "Feb 10, 2026 11:45 PM"
         },
         "Buffet": {
-          "updated": "Feb 06, 2026 10:33 AM"
+          "updated": "Feb 10, 2026 11:45 PM"
         }
       },
-      "last_updated": "2026-02-06T10:33:07.398345",
+      "last_updated": "2026-02-10T23:45:00.553666",
       "company": {
         "name": "Cadence Design Systems Inc",
         "market_cap": "$84.97B",
@@ -1245,25 +1383,25 @@
     "ASML": {
       "presets": {
         "Revenue": {
-          "updated": "Feb 10, 2026 03:01 PM"
+          "updated": "Feb 10, 2026 11:44 PM"
         },
         "Costs": {
-          "updated": "Feb 10, 2026 03:01 PM"
+          "updated": "Feb 10, 2026 11:44 PM"
         },
         "Cash": {
-          "updated": "Feb 10, 2026 03:01 PM"
+          "updated": "Feb 10, 2026 11:44 PM"
         },
         "FCF": {
-          "updated": "Feb 10, 2026 03:01 PM"
+          "updated": "Feb 10, 2026 11:44 PM"
         },
         "Assets": {
-          "updated": "Feb 10, 2026 03:01 PM"
+          "updated": "Feb 10, 2026 11:44 PM"
         },
         "Buffet": {
-          "updated": "Feb 10, 2026 03:01 PM"
+          "updated": "Feb 10, 2026 11:44 PM"
         }
       },
-      "last_updated": "2026-02-10T15:01:37.439779",
+      "last_updated": "2026-02-10T23:44:59.945946",
       "company": {
         "name": "ASML Holding NV ADR",
         "market_cap": "$422.23B",
@@ -1274,23 +1412,26 @@
     },
     "ARM": {
       "presets": {
-        "costs": {
-          "updated": "Jan 18, 2026 10:50 AM"
+        "Revenue": {
+          "updated": "Feb 10, 2026 11:44 PM"
         },
-        "revenue": {
-          "updated": "Jan 18, 2026 10:50 AM"
+        "Costs": {
+          "updated": "Feb 10, 2026 11:44 PM"
         },
-        "cash": {
-          "updated": "Jan 18, 2026 10:50 AM"
+        "Cash": {
+          "updated": "Feb 10, 2026 11:44 PM"
         },
         "FCF": {
-          "updated": "Jan 18, 2026 10:50 AM"
+          "updated": "Feb 10, 2026 11:44 PM"
         },
-        "assets": {
-          "updated": "Jan 18, 2026 10:50 AM"
+        "Assets": {
+          "updated": "Feb 10, 2026 11:44 PM"
+        },
+        "Buffet": {
+          "updated": "Feb 10, 2026 11:44 PM"
         }
       },
-      "last_updated": "2026-01-18T10:50:15.983143",
+      "last_updated": "2026-02-10T23:44:59.859584",
       "company": {
         "name": "Arm Holdings plc American Depositary Shares",
         "market_cap": "$119.98B",
@@ -1302,25 +1443,25 @@
     "ANET": {
       "presets": {
         "Revenue": {
-          "updated": "Jan 29, 2026 10:05 AM"
+          "updated": "Feb 10, 2026 11:44 PM"
         },
         "Costs": {
-          "updated": "Jan 29, 2026 10:05 AM"
+          "updated": "Feb 10, 2026 11:44 PM"
         },
         "Cash": {
-          "updated": "Jan 29, 2026 10:05 AM"
+          "updated": "Feb 10, 2026 11:44 PM"
         },
         "FCF": {
-          "updated": "Jan 29, 2026 10:05 AM"
+          "updated": "Feb 10, 2026 11:44 PM"
         },
         "Assets": {
-          "updated": "Jan 29, 2026 10:05 AM"
+          "updated": "Feb 10, 2026 11:44 PM"
         },
         "Buffet": {
-          "updated": "Jan 29, 2026 10:05 AM"
+          "updated": "Feb 10, 2026 11:44 PM"
         }
       },
-      "last_updated": "2026-01-29T10:05:57.642029",
+      "last_updated": "2026-02-10T23:44:59.758630",
       "company": {
         "name": "Arista Networks",
         "market_cap": "$161.93B",
@@ -1332,25 +1473,25 @@
     "META": {
       "presets": {
         "Revenue": {
-          "updated": "Feb 01, 2026 12:39 AM"
+          "updated": "Feb 10, 2026 11:45 PM"
         },
         "Costs": {
-          "updated": "Feb 01, 2026 12:39 AM"
+          "updated": "Feb 10, 2026 11:45 PM"
         },
         "Cash": {
-          "updated": "Feb 01, 2026 12:39 AM"
+          "updated": "Feb 10, 2026 11:45 PM"
         },
         "FCF": {
-          "updated": "Feb 01, 2026 12:39 AM"
+          "updated": "Feb 10, 2026 11:45 PM"
         },
         "Assets": {
-          "updated": "Feb 01, 2026 12:39 AM"
+          "updated": "Feb 10, 2026 11:45 PM"
         },
         "Buffet": {
-          "updated": "Feb 01, 2026 12:39 AM"
+          "updated": "Feb 10, 2026 11:45 PM"
         }
       },
-      "last_updated": "2026-02-01T00:39:19.774649",
+      "last_updated": "2026-02-10T23:45:04.312764",
       "company": {
         "name": "Meta Platforms Inc.",
         "market_cap": "$1.62T",
@@ -1361,23 +1502,26 @@
     },
     "NVDA": {
       "presets": {
-        "costs": {
-          "updated": "Jan 29, 2026 12:13 AM"
+        "Revenue": {
+          "updated": "Feb 10, 2026 11:45 PM"
         },
-        "revenue": {
-          "updated": "Jan 29, 2026 12:13 AM"
+        "Costs": {
+          "updated": "Feb 10, 2026 11:45 PM"
         },
-        "cash": {
-          "updated": "Jan 29, 2026 12:13 AM"
-        },
-        "assets": {
-          "updated": "Jan 29, 2026 12:13 AM"
+        "Cash": {
+          "updated": "Feb 10, 2026 11:45 PM"
         },
         "FCF": {
-          "updated": "Jan 29, 2026 12:13 AM"
+          "updated": "Feb 10, 2026 11:45 PM"
+        },
+        "Assets": {
+          "updated": "Feb 10, 2026 11:45 PM"
+        },
+        "Buffet": {
+          "updated": "Feb 10, 2026 11:45 PM"
         }
       },
-      "last_updated": "2026-01-29T00:13:28.903016",
+      "last_updated": "2026-02-10T23:45:04.916157",
       "company": {
         "name": "NVIDIA Corporation",
         "market_cap": "$4.32T",
@@ -1388,23 +1532,26 @@
     },
     "MSFT": {
       "presets": {
-        "costs": {
-          "updated": "Jan 18, 2026 01:31 AM"
+        "Revenue": {
+          "updated": "Feb 10, 2026 11:45 PM"
         },
-        "revenue": {
-          "updated": "Jan 18, 2026 01:31 AM"
+        "Costs": {
+          "updated": "Feb 10, 2026 11:45 PM"
         },
-        "cash": {
-          "updated": "Jan 18, 2026 01:31 AM"
-        },
-        "assets": {
-          "updated": "Jan 18, 2026 01:31 AM"
+        "Cash": {
+          "updated": "Feb 10, 2026 11:45 PM"
         },
         "FCF": {
-          "updated": "Jan 18, 2026 01:31 AM"
+          "updated": "Feb 10, 2026 11:45 PM"
+        },
+        "Assets": {
+          "updated": "Feb 10, 2026 11:45 PM"
+        },
+        "Buffet": {
+          "updated": "Feb 10, 2026 11:45 PM"
         }
       },
-      "last_updated": "2026-01-18T01:31:01.692712",
+      "last_updated": "2026-02-10T23:45:04.639542",
       "company": {
         "name": "Microsoft Corporation",
         "market_cap": "$3.66T",
@@ -1416,25 +1563,25 @@
     "AAPL": {
       "presets": {
         "Revenue": {
-          "updated": "Feb 06, 2026 12:09 AM"
+          "updated": "Feb 10, 2026 11:44 PM"
         },
         "Costs": {
-          "updated": "Feb 06, 2026 12:09 AM"
+          "updated": "Feb 10, 2026 11:44 PM"
         },
         "Cash": {
-          "updated": "Feb 06, 2026 12:09 AM"
+          "updated": "Feb 10, 2026 11:44 PM"
         },
         "FCF": {
-          "updated": "Feb 06, 2026 12:09 AM"
+          "updated": "Feb 10, 2026 11:44 PM"
         },
         "Assets": {
-          "updated": "Feb 06, 2026 12:09 AM"
+          "updated": "Feb 10, 2026 11:44 PM"
         },
         "Buffet": {
-          "updated": "Feb 06, 2026 12:09 AM"
+          "updated": "Feb 10, 2026 11:44 PM"
         }
       },
-      "last_updated": "2026-02-06T00:09:06.528289",
+      "last_updated": "2026-02-10T23:44:58.917751",
       "company": {
         "name": "Apple Inc",
         "market_cap": "$4.06T",
@@ -1445,23 +1592,26 @@
     },
     "RGTI": {
       "presets": {
-        "costs": {
-          "updated": "Jan 19, 2026 12:26 PM"
+        "Revenue": {
+          "updated": "Feb 10, 2026 11:45 PM"
         },
-        "revenue": {
-          "updated": "Jan 19, 2026 12:26 PM"
+        "Costs": {
+          "updated": "Feb 10, 2026 11:45 PM"
         },
-        "cash": {
-          "updated": "Jan 19, 2026 12:26 PM"
+        "Cash": {
+          "updated": "Feb 10, 2026 11:45 PM"
         },
         "FCF": {
-          "updated": "Jan 19, 2026 12:26 PM"
+          "updated": "Feb 10, 2026 11:45 PM"
         },
-        "assets": {
-          "updated": "Jan 19, 2026 12:26 PM"
+        "Assets": {
+          "updated": "Feb 10, 2026 11:45 PM"
+        },
+        "Buffet": {
+          "updated": "Feb 10, 2026 11:45 PM"
         }
       },
-      "last_updated": "2026-01-19T12:26:47.736132",
+      "last_updated": "2026-02-10T23:45:05.639378",
       "company": {
         "name": "Rigetti Computing Inc",
         "market_cap": "$8.44B",
@@ -1472,23 +1622,26 @@
     },
     "QUBT": {
       "presets": {
-        "costs": {
-          "updated": "Jan 19, 2026 12:36 PM"
+        "Revenue": {
+          "updated": "Feb 10, 2026 11:45 PM"
         },
-        "revenue": {
-          "updated": "Jan 19, 2026 12:36 PM"
+        "Costs": {
+          "updated": "Feb 10, 2026 11:45 PM"
         },
-        "cash": {
-          "updated": "Jan 19, 2026 12:36 PM"
+        "Cash": {
+          "updated": "Feb 10, 2026 11:45 PM"
         },
         "FCF": {
-          "updated": "Jan 19, 2026 12:36 PM"
+          "updated": "Feb 10, 2026 11:45 PM"
         },
-        "assets": {
-          "updated": "Jan 19, 2026 12:36 PM"
+        "Assets": {
+          "updated": "Feb 10, 2026 11:45 PM"
+        },
+        "Buffet": {
+          "updated": "Feb 10, 2026 11:45 PM"
         }
       },
-      "last_updated": "2026-01-19T12:36:27.367799",
+      "last_updated": "2026-02-10T23:45:05.566493",
       "company": {
         "name": "Quantum Computing\u00a0Inc",
         "market_cap": "$2.57B",
@@ -1499,23 +1652,26 @@
     },
     "SERV": {
       "presets": {
-        "costs": {
-          "updated": "Jan 20, 2026 12:26 AM"
+        "Revenue": {
+          "updated": "Feb 10, 2026 11:45 PM"
         },
-        "revenue": {
-          "updated": "Jan 20, 2026 12:26 AM"
+        "Costs": {
+          "updated": "Feb 10, 2026 11:45 PM"
         },
-        "cash": {
-          "updated": "Jan 20, 2026 12:26 AM"
+        "Cash": {
+          "updated": "Feb 10, 2026 11:45 PM"
         },
         "FCF": {
-          "updated": "Jan 20, 2026 12:26 AM"
+          "updated": "Feb 10, 2026 11:45 PM"
         },
-        "assets": {
-          "updated": "Jan 20, 2026 12:26 AM"
+        "Assets": {
+          "updated": "Feb 10, 2026 11:45 PM"
+        },
+        "Buffet": {
+          "updated": "Feb 10, 2026 11:45 PM"
         }
       },
-      "last_updated": "2026-01-20T00:26:31.855768",
+      "last_updated": "2026-02-10T23:45:05.908282",
       "company": {
         "name": "Serve Robotics Inc. Common Stock",
         "market_cap": "$910.19M",
@@ -1526,23 +1682,26 @@
     },
     "STLA": {
       "presets": {
-        "costs": {
-          "updated": "Jan 20, 2026 12:26 AM"
+        "Revenue": {
+          "updated": "Feb 10, 2026 11:45 PM"
         },
-        "revenue": {
-          "updated": "Jan 20, 2026 12:26 AM"
+        "Costs": {
+          "updated": "Feb 10, 2026 11:45 PM"
         },
-        "cash": {
-          "updated": "Jan 20, 2026 12:26 AM"
+        "Cash": {
+          "updated": "Feb 10, 2026 11:45 PM"
         },
         "FCF": {
-          "updated": "Jan 20, 2026 12:26 AM"
+          "updated": "Feb 10, 2026 11:45 PM"
         },
-        "assets": {
-          "updated": "Jan 20, 2026 12:26 AM"
+        "Assets": {
+          "updated": "Feb 10, 2026 11:45 PM"
+        },
+        "Buffet": {
+          "updated": "Feb 10, 2026 11:45 PM"
         }
       },
-      "last_updated": "2026-01-20T00:26:26.957938",
+      "last_updated": "2026-02-10T23:45:06.403321",
       "company": {
         "name": "Stellantis NV",
         "market_cap": "$31.92B",
@@ -1554,25 +1713,25 @@
     "MO": {
       "presets": {
         "Revenue": {
-          "updated": "Feb 03, 2026 12:34 PM"
+          "updated": "Feb 10, 2026 11:45 PM"
         },
         "Costs": {
-          "updated": "Feb 03, 2026 12:34 PM"
+          "updated": "Feb 10, 2026 11:45 PM"
         },
         "Cash": {
-          "updated": "Feb 03, 2026 12:34 PM"
+          "updated": "Feb 10, 2026 11:45 PM"
         },
         "FCF": {
-          "updated": "Feb 03, 2026 12:34 PM"
+          "updated": "Feb 10, 2026 11:45 PM"
         },
         "Assets": {
-          "updated": "Feb 03, 2026 12:34 PM"
+          "updated": "Feb 10, 2026 11:45 PM"
         },
         "Buffet": {
-          "updated": "Feb 03, 2026 12:34 PM"
+          "updated": "Feb 10, 2026 11:45 PM"
         }
       },
-      "last_updated": "2026-02-03T12:34:49.083694",
+      "last_updated": "2026-02-10T23:45:04.436355",
       "company": {
         "name": "Altria Group",
         "market_cap": "$98.59B",
@@ -1583,23 +1742,26 @@
     },
     "EBAY": {
       "presets": {
-        "costs": {
-          "updated": "Jan 19, 2026 04:25 PM"
+        "Revenue": {
+          "updated": "Feb 10, 2026 11:45 PM"
         },
-        "revenue": {
-          "updated": "Jan 19, 2026 04:25 PM"
+        "Costs": {
+          "updated": "Feb 10, 2026 11:45 PM"
         },
-        "cash": {
-          "updated": "Jan 19, 2026 04:25 PM"
+        "Cash": {
+          "updated": "Feb 10, 2026 11:45 PM"
         },
         "FCF": {
-          "updated": "Jan 19, 2026 04:25 PM"
+          "updated": "Feb 10, 2026 11:45 PM"
         },
-        "assets": {
-          "updated": "Jan 19, 2026 04:25 PM"
+        "Assets": {
+          "updated": "Feb 10, 2026 11:45 PM"
+        },
+        "Buffet": {
+          "updated": "Feb 10, 2026 11:45 PM"
         }
       },
-      "last_updated": "2026-01-19T16:25:54.698356",
+      "last_updated": "2026-02-10T23:45:01.361934",
       "company": {
         "name": "eBay Inc",
         "market_cap": "$43.90B",
@@ -1610,23 +1772,26 @@
     },
     "ADBE": {
       "presets": {
-        "costs": {
-          "updated": "Jan 20, 2026 12:26 AM"
+        "Revenue": {
+          "updated": "Feb 10, 2026 11:44 PM"
         },
-        "revenue": {
-          "updated": "Jan 20, 2026 12:26 AM"
+        "Costs": {
+          "updated": "Feb 10, 2026 11:44 PM"
         },
-        "cash": {
-          "updated": "Jan 20, 2026 12:26 AM"
+        "Cash": {
+          "updated": "Feb 10, 2026 11:44 PM"
         },
         "FCF": {
-          "updated": "Jan 20, 2026 12:26 AM"
+          "updated": "Feb 10, 2026 11:44 PM"
         },
-        "assets": {
-          "updated": "Jan 20, 2026 12:26 AM"
+        "Assets": {
+          "updated": "Feb 10, 2026 11:44 PM"
+        },
+        "Buffet": {
+          "updated": "Feb 10, 2026 11:44 PM"
         }
       },
-      "last_updated": "2026-01-20T00:26:35.237181",
+      "last_updated": "2026-02-10T23:44:59.150579",
       "company": {
         "name": "Adobe Systems Incorporated",
         "market_cap": "$151.20B",
@@ -1638,25 +1803,25 @@
     "CRM": {
       "presets": {
         "Revenue": {
-          "updated": "Feb 10, 2026 11:03 PM"
+          "updated": "Feb 10, 2026 11:45 PM"
         },
         "Costs": {
-          "updated": "Feb 10, 2026 11:03 PM"
+          "updated": "Feb 10, 2026 11:45 PM"
         },
         "Cash": {
-          "updated": "Feb 10, 2026 11:03 PM"
+          "updated": "Feb 10, 2026 11:45 PM"
         },
         "FCF": {
-          "updated": "Feb 10, 2026 11:03 PM"
+          "updated": "Feb 10, 2026 11:45 PM"
         },
         "Assets": {
-          "updated": "Feb 10, 2026 11:03 PM"
+          "updated": "Feb 10, 2026 11:45 PM"
         },
         "Buffet": {
-          "updated": "Feb 10, 2026 11:03 PM"
+          "updated": "Feb 10, 2026 11:45 PM"
         }
       },
-      "last_updated": "2026-02-10T23:03:46.595120",
+      "last_updated": "2026-02-10T23:45:00.790283",
       "company": {
         "name": "Salesforce.com Inc",
         "market_cap": "$247.43B",
@@ -1667,23 +1832,26 @@
     },
     "JNJ": {
       "presets": {
-        "costs": {
-          "updated": "Jan 19, 2026 04:25 PM"
+        "Revenue": {
+          "updated": "Feb 10, 2026 11:45 PM"
         },
-        "revenue": {
-          "updated": "Jan 19, 2026 04:25 PM"
+        "Costs": {
+          "updated": "Feb 10, 2026 11:45 PM"
         },
-        "cash": {
-          "updated": "Jan 19, 2026 04:25 PM"
+        "Cash": {
+          "updated": "Feb 10, 2026 11:45 PM"
         },
         "FCF": {
-          "updated": "Jan 19, 2026 04:25 PM"
+          "updated": "Feb 10, 2026 11:45 PM"
         },
-        "assets": {
-          "updated": "Jan 19, 2026 04:25 PM"
+        "Assets": {
+          "updated": "Feb 10, 2026 11:45 PM"
+        },
+        "Buffet": {
+          "updated": "Feb 10, 2026 11:45 PM"
         }
       },
-      "last_updated": "2026-01-19T16:25:58.478566",
+      "last_updated": "2026-02-10T23:45:03.499166",
       "company": {
         "name": "Johnson & Johnson",
         "market_cap": "$526.82B",
@@ -1695,25 +1863,25 @@
     "BE": {
       "presets": {
         "Revenue": {
-          "updated": "Jan 30, 2026 11:04 AM"
+          "updated": "Feb 10, 2026 11:45 PM"
         },
         "Costs": {
-          "updated": "Jan 30, 2026 11:04 AM"
+          "updated": "Feb 10, 2026 11:45 PM"
         },
         "Cash": {
-          "updated": "Jan 30, 2026 11:04 AM"
+          "updated": "Feb 10, 2026 11:45 PM"
         },
         "FCF": {
-          "updated": "Jan 30, 2026 11:04 AM"
+          "updated": "Feb 10, 2026 11:45 PM"
         },
         "Assets": {
-          "updated": "Jan 30, 2026 11:04 AM"
+          "updated": "Feb 10, 2026 11:45 PM"
         },
         "Buffet": {
-          "updated": "Jan 30, 2026 11:04 AM"
+          "updated": "Feb 10, 2026 11:45 PM"
         }
       },
-      "last_updated": "2026-01-30T11:04:12.525314",
+      "last_updated": "2026-02-10T23:45:00.229936",
       "company": {
         "name": "Bloom Energy Corp",
         "market_cap": "$31.56B",
@@ -1724,23 +1892,26 @@
     },
     "SYM": {
       "presets": {
-        "revenue": {
-          "updated": "Jan 28, 2026 12:14 AM"
+        "Revenue": {
+          "updated": "Feb 10, 2026 11:45 PM"
         },
-        "costs": {
-          "updated": "Jan 28, 2026 12:14 AM"
+        "Costs": {
+          "updated": "Feb 10, 2026 11:45 PM"
         },
-        "cash": {
-          "updated": "Jan 28, 2026 12:14 AM"
+        "Cash": {
+          "updated": "Feb 10, 2026 11:45 PM"
         },
         "FCF": {
-          "updated": "Jan 28, 2026 12:14 AM"
+          "updated": "Feb 10, 2026 11:45 PM"
         },
-        "assets": {
-          "updated": "Jan 28, 2026 12:14 AM"
+        "Assets": {
+          "updated": "Feb 10, 2026 11:45 PM"
+        },
+        "Buffet": {
+          "updated": "Feb 10, 2026 11:45 PM"
         }
       },
-      "last_updated": "2026-01-28T00:14:15.082814",
+      "last_updated": "2026-02-10T23:45:06.551646",
       "company": {
         "name": "Symbotic Inc",
         "market_cap": "$41.30B",
@@ -1751,23 +1922,26 @@
     },
     "ROK": {
       "presets": {
-        "revenue": {
-          "updated": "Jan 28, 2026 12:14 AM"
+        "Revenue": {
+          "updated": "Feb 10, 2026 11:45 PM"
         },
-        "costs": {
-          "updated": "Jan 28, 2026 12:14 AM"
+        "Costs": {
+          "updated": "Feb 10, 2026 11:45 PM"
         },
-        "cash": {
-          "updated": "Jan 28, 2026 12:14 AM"
+        "Cash": {
+          "updated": "Feb 10, 2026 11:45 PM"
         },
         "FCF": {
-          "updated": "Jan 28, 2026 12:14 AM"
+          "updated": "Feb 10, 2026 11:45 PM"
         },
-        "assets": {
-          "updated": "Jan 28, 2026 12:14 AM"
+        "Assets": {
+          "updated": "Feb 10, 2026 11:45 PM"
+        },
+        "Buffet": {
+          "updated": "Feb 10, 2026 11:45 PM"
         }
       },
-      "last_updated": "2026-01-28T00:14:14.121155",
+      "last_updated": "2026-02-10T23:45:05.859820",
       "company": {
         "name": "Rockwell Automation Inc",
         "market_cap": "$46.87B",
@@ -1778,23 +1952,26 @@
     },
     "UPST": {
       "presets": {
-        "revenue": {
-          "updated": "Jan 18, 2026 11:08 AM"
+        "Revenue": {
+          "updated": "Feb 10, 2026 11:45 PM"
         },
-        "costs": {
-          "updated": "Jan 18, 2026 11:08 AM"
+        "Costs": {
+          "updated": "Feb 10, 2026 11:45 PM"
         },
-        "cash": {
-          "updated": "Jan 18, 2026 11:08 AM"
+        "Cash": {
+          "updated": "Feb 10, 2026 11:45 PM"
         },
         "FCF": {
-          "updated": "Jan 18, 2026 11:08 AM"
+          "updated": "Feb 10, 2026 11:45 PM"
         },
-        "assets": {
-          "updated": "Jan 18, 2026 11:08 AM"
+        "Assets": {
+          "updated": "Feb 10, 2026 11:45 PM"
+        },
+        "Buffet": {
+          "updated": "Feb 10, 2026 11:45 PM"
         }
       },
-      "last_updated": "2026-01-18T11:08:04.652163",
+      "last_updated": "2026-02-10T23:45:07.257409",
       "company": {
         "name": "Upstart Holdings\u00a0Inc",
         "market_cap": "$4.68B",
@@ -1805,23 +1982,26 @@
     },
     "ACHR": {
       "presets": {
-        "revenue": {
-          "updated": "Jan 18, 2026 11:08 AM"
+        "Revenue": {
+          "updated": "Feb 10, 2026 11:44 PM"
         },
-        "costs": {
-          "updated": "Jan 18, 2026 11:08 AM"
+        "Costs": {
+          "updated": "Feb 10, 2026 11:44 PM"
         },
-        "cash": {
-          "updated": "Jan 18, 2026 11:08 AM"
+        "Cash": {
+          "updated": "Feb 10, 2026 11:44 PM"
         },
         "FCF": {
-          "updated": "Jan 18, 2026 11:08 AM"
+          "updated": "Feb 10, 2026 11:44 PM"
         },
-        "assets": {
-          "updated": "Jan 18, 2026 11:08 AM"
+        "Assets": {
+          "updated": "Feb 10, 2026 11:44 PM"
+        },
+        "Buffet": {
+          "updated": "Feb 10, 2026 11:44 PM"
         }
       },
-      "last_updated": "2026-01-18T11:08:05.541650",
+      "last_updated": "2026-02-10T23:44:58.979986",
       "company": {
         "name": "Archer Aviation Inc",
         "market_cap": "$6.50B",
@@ -1832,23 +2012,26 @@
     },
     "CYBN": {
       "presets": {
-        "revenue": {
-          "updated": "Jan 18, 2026 11:16 AM"
+        "Revenue": {
+          "updated": "Feb 10, 2026 11:45 PM"
         },
-        "costs": {
-          "updated": "Jan 18, 2026 11:16 AM"
+        "Costs": {
+          "updated": "Feb 10, 2026 11:45 PM"
         },
-        "cash": {
-          "updated": "Jan 18, 2026 11:16 AM"
+        "Cash": {
+          "updated": "Feb 10, 2026 11:45 PM"
         },
         "FCF": {
-          "updated": "Jan 18, 2026 11:16 AM"
+          "updated": "Feb 10, 2026 11:45 PM"
         },
-        "assets": {
-          "updated": "Jan 18, 2026 11:16 AM"
+        "Assets": {
+          "updated": "Feb 10, 2026 11:45 PM"
+        },
+        "Buffet": {
+          "updated": "Feb 10, 2026 11:45 PM"
         }
       },
-      "last_updated": "2026-01-18T11:16:05.038157",
+      "last_updated": "2026-02-10T23:45:01.074979",
       "company": {
         "name": "Cybin\u00a0Inc",
         "market_cap": "$413.12M",
@@ -1859,23 +2042,26 @@
     },
     "MP": {
       "presets": {
-        "revenue": {
-          "updated": "Jan 19, 2026 10:12 AM"
+        "Revenue": {
+          "updated": "Feb 10, 2026 11:45 PM"
         },
-        "costs": {
-          "updated": "Jan 19, 2026 10:12 AM"
+        "Costs": {
+          "updated": "Feb 10, 2026 11:45 PM"
         },
-        "cash": {
-          "updated": "Jan 19, 2026 10:12 AM"
+        "Cash": {
+          "updated": "Feb 10, 2026 11:45 PM"
         },
         "FCF": {
-          "updated": "Jan 19, 2026 10:12 AM"
+          "updated": "Feb 10, 2026 11:45 PM"
         },
-        "assets": {
-          "updated": "Jan 19, 2026 10:12 AM"
+        "Assets": {
+          "updated": "Feb 10, 2026 11:45 PM"
+        },
+        "Buffet": {
+          "updated": "Feb 10, 2026 11:45 PM"
         }
       },
-      "last_updated": "2026-01-19T10:12:06.077125",
+      "last_updated": "2026-02-10T23:45:04.486007",
       "company": {
         "name": "MP Materials Corp",
         "market_cap": "$12.23B",
@@ -1886,23 +2072,26 @@
     },
     "AFRM": {
       "presets": {
-        "revenue": {
-          "updated": "Jan 19, 2026 10:12 AM"
+        "Revenue": {
+          "updated": "Feb 10, 2026 11:44 PM"
         },
-        "costs": {
-          "updated": "Jan 19, 2026 10:12 AM"
+        "Costs": {
+          "updated": "Feb 10, 2026 11:44 PM"
         },
-        "cash": {
-          "updated": "Jan 19, 2026 10:12 AM"
+        "Cash": {
+          "updated": "Feb 10, 2026 11:44 PM"
         },
         "FCF": {
-          "updated": "Jan 19, 2026 10:12 AM"
+          "updated": "Feb 10, 2026 11:44 PM"
         },
-        "assets": {
-          "updated": "Jan 19, 2026 10:12 AM"
+        "Assets": {
+          "updated": "Feb 10, 2026 11:44 PM"
+        },
+        "Buffet": {
+          "updated": "Feb 10, 2026 11:44 PM"
         }
       },
-      "last_updated": "2026-01-19T10:12:07.145107",
+      "last_updated": "2026-02-10T23:44:59.307051",
       "company": {
         "name": "Affirm Holdings Inc",
         "market_cap": "$24.68B",
@@ -1913,23 +2102,26 @@
     },
     "AISP": {
       "presets": {
-        "revenue": {
-          "updated": "Jan 19, 2026 10:12 AM"
+        "Revenue": {
+          "updated": "Feb 10, 2026 11:44 PM"
         },
-        "costs": {
-          "updated": "Jan 19, 2026 10:12 AM"
+        "Costs": {
+          "updated": "Feb 10, 2026 11:44 PM"
         },
-        "cash": {
-          "updated": "Jan 19, 2026 10:12 AM"
+        "Cash": {
+          "updated": "Feb 10, 2026 11:44 PM"
         },
         "FCF": {
-          "updated": "Jan 19, 2026 10:12 AM"
+          "updated": "Feb 10, 2026 11:44 PM"
         },
-        "assets": {
-          "updated": "Jan 19, 2026 10:12 AM"
+        "Assets": {
+          "updated": "Feb 10, 2026 11:44 PM"
+        },
+        "Buffet": {
+          "updated": "Feb 10, 2026 11:44 PM"
         }
       },
-      "last_updated": "2026-01-19T10:12:08.070362",
+      "last_updated": "2026-02-10T23:44:59.346381",
       "company": {
         "name": "Airship AI Holdings Inc",
         "market_cap": "$147.64M",
@@ -1940,23 +2132,26 @@
     },
     "HUBC": {
       "presets": {
-        "revenue": {
-          "updated": "Jan 19, 2026 10:12 AM"
+        "Revenue": {
+          "updated": "Feb 10, 2026 11:45 PM"
         },
-        "costs": {
-          "updated": "Jan 19, 2026 10:12 AM"
+        "Costs": {
+          "updated": "Feb 10, 2026 11:45 PM"
         },
-        "cash": {
-          "updated": "Jan 19, 2026 10:12 AM"
+        "Cash": {
+          "updated": "Feb 10, 2026 11:45 PM"
         },
         "FCF": {
-          "updated": "Jan 19, 2026 10:12 AM"
+          "updated": "Feb 10, 2026 11:45 PM"
         },
-        "assets": {
-          "updated": "Jan 19, 2026 10:12 AM"
+        "Assets": {
+          "updated": "Feb 10, 2026 11:45 PM"
+        },
+        "Buffet": {
+          "updated": "Feb 10, 2026 11:45 PM"
         }
       },
-      "last_updated": "2026-01-19T10:12:09.016050",
+      "last_updated": "2026-02-10T23:45:02.576815",
       "company": {
         "name": "Hub Cyber Security Ltd. Ordinary Shares",
         "market_cap": "$10.18M",
@@ -1967,23 +2162,26 @@
     },
     "MDB": {
       "presets": {
-        "revenue": {
-          "updated": "Jan 19, 2026 10:49 AM"
+        "Revenue": {
+          "updated": "Feb 10, 2026 11:45 PM"
         },
-        "costs": {
-          "updated": "Jan 19, 2026 10:49 AM"
+        "Costs": {
+          "updated": "Feb 10, 2026 11:45 PM"
         },
-        "cash": {
-          "updated": "Jan 19, 2026 10:49 AM"
+        "Cash": {
+          "updated": "Feb 10, 2026 11:45 PM"
         },
         "FCF": {
-          "updated": "Jan 19, 2026 10:49 AM"
+          "updated": "Feb 10, 2026 11:45 PM"
         },
-        "assets": {
-          "updated": "Jan 19, 2026 10:49 AM"
+        "Assets": {
+          "updated": "Feb 10, 2026 11:45 PM"
+        },
+        "Buffet": {
+          "updated": "Feb 10, 2026 11:45 PM"
         }
       },
-      "last_updated": "2026-01-19T10:49:01.510325",
+      "last_updated": "2026-02-10T23:45:04.240807",
       "company": {
         "name": "MongoDB",
         "market_cap": "$32.54B",
@@ -1994,23 +2192,26 @@
     },
     "STX": {
       "presets": {
-        "revenue": {
-          "updated": "Jan 19, 2026 10:52 AM"
+        "Revenue": {
+          "updated": "Feb 10, 2026 11:45 PM"
         },
-        "costs": {
-          "updated": "Jan 19, 2026 10:52 AM"
+        "Costs": {
+          "updated": "Feb 10, 2026 11:45 PM"
         },
-        "cash": {
-          "updated": "Jan 19, 2026 10:52 AM"
+        "Cash": {
+          "updated": "Feb 10, 2026 11:45 PM"
         },
         "FCF": {
-          "updated": "Jan 19, 2026 10:52 AM"
+          "updated": "Feb 10, 2026 11:45 PM"
         },
-        "assets": {
-          "updated": "Jan 19, 2026 10:52 AM"
+        "Assets": {
+          "updated": "Feb 10, 2026 11:45 PM"
+        },
+        "Buffet": {
+          "updated": "Feb 10, 2026 11:45 PM"
         }
       },
-      "last_updated": "2026-01-19T10:52:39.064484",
+      "last_updated": "2026-02-10T23:45:06.497974",
       "company": {
         "name": "Seagate Technology PLC",
         "market_cap": "$71.09B",
@@ -2021,43 +2222,49 @@
     },
     "KDFJ": {
       "presets": {
-        "revenue": {
-          "updated": "Jan 19, 2026 12:36 PM"
+        "Revenue": {
+          "updated": "Feb 10, 2026 11:45 PM"
         },
-        "costs": {
-          "updated": "Jan 19, 2026 12:36 PM"
+        "Costs": {
+          "updated": "Feb 10, 2026 11:45 PM"
         },
-        "cash": {
-          "updated": "Jan 19, 2026 12:36 PM"
+        "Cash": {
+          "updated": "Feb 10, 2026 11:45 PM"
         },
         "FCF": {
-          "updated": "Jan 19, 2026 12:36 PM"
+          "updated": "Feb 10, 2026 11:45 PM"
         },
-        "assets": {
-          "updated": "Jan 19, 2026 12:36 PM"
+        "Assets": {
+          "updated": "Feb 10, 2026 11:45 PM"
+        },
+        "Buffet": {
+          "updated": "Feb 10, 2026 11:45 PM"
         }
       },
-      "last_updated": "2026-01-19T12:36:54.489073"
+      "last_updated": "2026-02-10T23:45:03.540106"
     },
     "QBTS": {
       "presets": {
-        "revenue": {
-          "updated": "Jan 20, 2026 12:16 PM"
+        "Revenue": {
+          "updated": "Feb 10, 2026 11:45 PM"
         },
-        "costs": {
-          "updated": "Jan 20, 2026 12:16 PM"
+        "Costs": {
+          "updated": "Feb 10, 2026 11:45 PM"
         },
-        "cash": {
-          "updated": "Jan 20, 2026 12:16 PM"
+        "Cash": {
+          "updated": "Feb 10, 2026 11:45 PM"
         },
         "FCF": {
-          "updated": "Jan 20, 2026 12:16 PM"
+          "updated": "Feb 10, 2026 11:45 PM"
         },
-        "assets": {
-          "updated": "Jan 20, 2026 12:16 PM"
+        "Assets": {
+          "updated": "Feb 10, 2026 11:45 PM"
+        },
+        "Buffet": {
+          "updated": "Feb 10, 2026 11:45 PM"
         }
       },
-      "last_updated": "2026-01-20T12:16:44.748486",
+      "last_updated": "2026-02-10T23:45:05.498187",
       "company": {
         "name": "D-Wave Quantum Inc.",
         "market_cap": "$10.44B",
@@ -2068,23 +2275,26 @@
     },
     "TEM": {
       "presets": {
-        "revenue": {
-          "updated": "Jan 20, 2026 12:34 PM"
+        "Revenue": {
+          "updated": "Feb 10, 2026 11:45 PM"
         },
-        "costs": {
-          "updated": "Jan 20, 2026 12:34 PM"
+        "Costs": {
+          "updated": "Feb 10, 2026 11:45 PM"
         },
-        "cash": {
-          "updated": "Jan 20, 2026 12:34 PM"
+        "Cash": {
+          "updated": "Feb 10, 2026 11:45 PM"
         },
         "FCF": {
-          "updated": "Jan 20, 2026 12:34 PM"
+          "updated": "Feb 10, 2026 11:45 PM"
         },
-        "assets": {
-          "updated": "Jan 20, 2026 12:34 PM"
+        "Assets": {
+          "updated": "Feb 10, 2026 11:45 PM"
+        },
+        "Buffet": {
+          "updated": "Feb 10, 2026 11:45 PM"
         }
       },
-      "last_updated": "2026-01-20T12:34:02.953111",
+      "last_updated": "2026-02-10T23:45:06.688416",
       "company": {
         "name": "Tempus AI, Inc. Class A Common Stock",
         "market_cap": "$12.51B",
@@ -2095,23 +2305,26 @@
     },
     "HYMC": {
       "presets": {
-        "revenue": {
-          "updated": "Jan 20, 2026 03:14 PM"
+        "Revenue": {
+          "updated": "Feb 10, 2026 11:45 PM"
         },
-        "costs": {
-          "updated": "Jan 20, 2026 03:14 PM"
+        "Costs": {
+          "updated": "Feb 10, 2026 11:45 PM"
         },
-        "cash": {
-          "updated": "Jan 20, 2026 03:14 PM"
+        "Cash": {
+          "updated": "Feb 10, 2026 11:45 PM"
         },
         "FCF": {
-          "updated": "Jan 20, 2026 03:14 PM"
+          "updated": "Feb 10, 2026 11:45 PM"
         },
-        "assets": {
-          "updated": "Jan 20, 2026 03:14 PM"
+        "Assets": {
+          "updated": "Feb 10, 2026 11:45 PM"
+        },
+        "Buffet": {
+          "updated": "Feb 10, 2026 11:45 PM"
         }
       },
-      "last_updated": "2026-01-20T15:14:44.140470",
+      "last_updated": "2026-02-10T23:45:02.660109",
       "company": {
         "name": "Hycroft Mining Holding Corporation",
         "market_cap": "$2.88B",
@@ -2122,23 +2335,26 @@
     },
     "ZM": {
       "presets": {
-        "revenue": {
-          "updated": "Jan 21, 2026 02:37 PM"
+        "Revenue": {
+          "updated": "Feb 10, 2026 11:45 PM"
         },
-        "costs": {
-          "updated": "Jan 21, 2026 02:37 PM"
+        "Costs": {
+          "updated": "Feb 10, 2026 11:45 PM"
         },
-        "cash": {
-          "updated": "Jan 21, 2026 02:37 PM"
+        "Cash": {
+          "updated": "Feb 10, 2026 11:45 PM"
         },
         "FCF": {
-          "updated": "Jan 21, 2026 02:37 PM"
+          "updated": "Feb 10, 2026 11:45 PM"
         },
-        "assets": {
-          "updated": "Jan 21, 2026 02:37 PM"
+        "Assets": {
+          "updated": "Feb 10, 2026 11:45 PM"
+        },
+        "Buffet": {
+          "updated": "Feb 10, 2026 11:45 PM"
         }
       },
-      "last_updated": "2026-01-21T14:37:02.178704",
+      "last_updated": "2026-02-10T23:45:07.763402",
       "company": {
         "name": "Zoom Video Communications Inc",
         "market_cap": "$24.34B",
@@ -2149,17 +2365,26 @@
     },
     "ALH-SEC": {
       "presets": {
-        "revenue": {
-          "updated": "Jan 21, 2026 05:16 PM"
+        "Revenue": {
+          "updated": "Feb 10, 2026 11:44 PM"
         },
-        "costs": {
-          "updated": "Jan 21, 2026 05:16 PM"
+        "Costs": {
+          "updated": "Feb 10, 2026 11:44 PM"
         },
-        "assets": {
-          "updated": "Jan 21, 2026 05:16 PM"
+        "Cash": {
+          "updated": "Feb 10, 2026 11:44 PM"
+        },
+        "FCF": {
+          "updated": "Feb 10, 2026 11:44 PM"
+        },
+        "Assets": {
+          "updated": "Feb 10, 2026 11:44 PM"
+        },
+        "Buffet": {
+          "updated": "Feb 10, 2026 11:44 PM"
         }
       },
-      "last_updated": "2026-01-21T17:16:16.174477",
+      "last_updated": "2026-02-10T23:44:59.366947",
       "company": {
         "name": "ALLIANCE LAUNDRY HOLDINGS INC.",
         "market_cap": "N/A",
@@ -2170,23 +2395,26 @@
     },
     "SRFM": {
       "presets": {
-        "revenue": {
-          "updated": "Jan 21, 2026 11:00 PM"
+        "Revenue": {
+          "updated": "Feb 10, 2026 11:45 PM"
         },
-        "costs": {
-          "updated": "Jan 21, 2026 11:00 PM"
+        "Costs": {
+          "updated": "Feb 10, 2026 11:45 PM"
         },
-        "cash": {
-          "updated": "Jan 21, 2026 11:00 PM"
+        "Cash": {
+          "updated": "Feb 10, 2026 11:45 PM"
         },
         "FCF": {
-          "updated": "Jan 21, 2026 11:00 PM"
+          "updated": "Feb 10, 2026 11:45 PM"
         },
-        "assets": {
-          "updated": "Jan 21, 2026 11:00 PM"
+        "Assets": {
+          "updated": "Feb 10, 2026 11:45 PM"
+        },
+        "Buffet": {
+          "updated": "Feb 10, 2026 11:45 PM"
         }
       },
-      "last_updated": "2026-01-21T23:00:22.142656",
+      "last_updated": "2026-02-10T23:45:06.299941",
       "company": {
         "name": "Surf Air Mobility Inc.",
         "market_cap": "$164.38M",
@@ -2197,23 +2425,26 @@
     },
     "BKE": {
       "presets": {
-        "revenue": {
-          "updated": "Jan 23, 2026 02:18 PM"
+        "Revenue": {
+          "updated": "Feb 10, 2026 11:45 PM"
         },
-        "costs": {
-          "updated": "Jan 23, 2026 02:18 PM"
+        "Costs": {
+          "updated": "Feb 10, 2026 11:45 PM"
         },
-        "cash": {
-          "updated": "Jan 23, 2026 02:18 PM"
+        "Cash": {
+          "updated": "Feb 10, 2026 11:45 PM"
         },
         "FCF": {
-          "updated": "Jan 23, 2026 02:18 PM"
+          "updated": "Feb 10, 2026 11:45 PM"
         },
-        "assets": {
-          "updated": "Jan 23, 2026 02:18 PM"
+        "Assets": {
+          "updated": "Feb 10, 2026 11:45 PM"
+        },
+        "Buffet": {
+          "updated": "Feb 10, 2026 11:45 PM"
         }
       },
-      "last_updated": "2026-01-23T14:18:46.781084",
+      "last_updated": "2026-02-10T23:45:00.308567",
       "company": {
         "name": "Buckle Inc",
         "market_cap": "$2.70B",
@@ -2224,23 +2455,26 @@
     },
     "BBAI": {
       "presets": {
-        "revenue": {
-          "updated": "Jan 24, 2026 12:12 AM"
+        "Revenue": {
+          "updated": "Feb 10, 2026 11:45 PM"
         },
-        "costs": {
-          "updated": "Jan 24, 2026 12:12 AM"
+        "Costs": {
+          "updated": "Feb 10, 2026 11:45 PM"
         },
-        "cash": {
-          "updated": "Jan 24, 2026 12:12 AM"
+        "Cash": {
+          "updated": "Feb 10, 2026 11:45 PM"
         },
         "FCF": {
-          "updated": "Jan 24, 2026 12:12 AM"
+          "updated": "Feb 10, 2026 11:45 PM"
         },
-        "assets": {
-          "updated": "Jan 24, 2026 12:12 AM"
+        "Assets": {
+          "updated": "Feb 10, 2026 11:45 PM"
+        },
+        "Buffet": {
+          "updated": "Feb 10, 2026 11:45 PM"
         }
       },
-      "last_updated": "2026-01-24T00:12:13.502444",
+      "last_updated": "2026-02-10T23:45:00.085452",
       "company": {
         "name": "BigBearai Holdings Inc",
         "market_cap": "$2.63B",
@@ -2251,23 +2485,26 @@
     },
     "MARA": {
       "presets": {
-        "revenue": {
-          "updated": "Jan 24, 2026 01:49 AM"
+        "Revenue": {
+          "updated": "Feb 10, 2026 11:45 PM"
         },
-        "costs": {
-          "updated": "Jan 24, 2026 01:49 AM"
+        "Costs": {
+          "updated": "Feb 10, 2026 11:45 PM"
         },
-        "cash": {
-          "updated": "Jan 24, 2026 01:49 AM"
+        "Cash": {
+          "updated": "Feb 10, 2026 11:45 PM"
         },
         "FCF": {
-          "updated": "Jan 24, 2026 01:49 AM"
+          "updated": "Feb 10, 2026 11:45 PM"
         },
-        "assets": {
-          "updated": "Jan 24, 2026 01:49 AM"
+        "Assets": {
+          "updated": "Feb 10, 2026 11:45 PM"
+        },
+        "Buffet": {
+          "updated": "Feb 10, 2026 11:45 PM"
         }
       },
-      "last_updated": "2026-01-24T01:49:04.523170",
+      "last_updated": "2026-02-10T23:45:04.096301",
       "company": {
         "name": "Marathon Digital Holdings Inc",
         "market_cap": "$4.47B",
@@ -2278,23 +2515,26 @@
     },
     "AMD": {
       "presets": {
-        "revenue": {
-          "updated": "Jan 24, 2026 01:43 AM"
+        "Revenue": {
+          "updated": "Feb 10, 2026 11:44 PM"
         },
-        "costs": {
-          "updated": "Jan 24, 2026 01:43 AM"
+        "Costs": {
+          "updated": "Feb 10, 2026 11:44 PM"
         },
-        "cash": {
-          "updated": "Jan 24, 2026 01:43 AM"
+        "Cash": {
+          "updated": "Feb 10, 2026 11:44 PM"
         },
         "FCF": {
-          "updated": "Jan 24, 2026 01:43 AM"
+          "updated": "Feb 10, 2026 11:44 PM"
         },
-        "assets": {
-          "updated": "Jan 24, 2026 01:43 AM"
+        "Assets": {
+          "updated": "Feb 10, 2026 11:44 PM"
+        },
+        "Buffet": {
+          "updated": "Feb 10, 2026 11:44 PM"
         }
       },
-      "last_updated": "2026-01-24T01:43:15.681452",
+      "last_updated": "2026-02-10T23:44:59.610018",
       "company": {
         "name": "Advanced Micro Devices Inc",
         "market_cap": "$354.15B",
@@ -2305,23 +2545,26 @@
     },
     "IREN": {
       "presets": {
-        "revenue": {
-          "updated": "Jan 28, 2026 12:14 AM"
+        "Revenue": {
+          "updated": "Feb 10, 2026 11:45 PM"
         },
-        "costs": {
-          "updated": "Jan 28, 2026 12:14 AM"
+        "Costs": {
+          "updated": "Feb 10, 2026 11:45 PM"
         },
-        "cash": {
-          "updated": "Jan 28, 2026 12:14 AM"
+        "Cash": {
+          "updated": "Feb 10, 2026 11:45 PM"
         },
         "FCF": {
-          "updated": "Jan 28, 2026 12:14 AM"
+          "updated": "Feb 10, 2026 11:45 PM"
         },
-        "assets": {
-          "updated": "Jan 28, 2026 12:14 AM"
+        "Assets": {
+          "updated": "Feb 10, 2026 11:45 PM"
+        },
+        "Buffet": {
+          "updated": "Feb 10, 2026 11:45 PM"
         }
       },
-      "last_updated": "2026-01-28T00:14:16.986178",
+      "last_updated": "2026-02-10T23:45:02.947065",
       "company": {
         "name": "IREN Ltd",
         "market_cap": "$17.19B",
@@ -2332,23 +2575,26 @@
     },
     "NBIS": {
       "presets": {
-        "revenue": {
-          "updated": "Jan 28, 2026 12:14 AM"
+        "Revenue": {
+          "updated": "Feb 10, 2026 11:45 PM"
         },
-        "costs": {
-          "updated": "Jan 28, 2026 12:14 AM"
+        "Costs": {
+          "updated": "Feb 10, 2026 11:45 PM"
         },
-        "cash": {
-          "updated": "Jan 28, 2026 12:14 AM"
+        "Cash": {
+          "updated": "Feb 10, 2026 11:45 PM"
         },
         "FCF": {
-          "updated": "Jan 28, 2026 12:14 AM"
+          "updated": "Feb 10, 2026 11:45 PM"
         },
-        "assets": {
-          "updated": "Jan 28, 2026 12:14 AM"
+        "Assets": {
+          "updated": "Feb 10, 2026 11:45 PM"
+        },
+        "Buffet": {
+          "updated": "Feb 10, 2026 11:45 PM"
         }
       },
-      "last_updated": "2026-01-28T00:14:17.897612",
+      "last_updated": "2026-02-10T23:45:04.834928",
       "company": {
         "name": "Nebius Group N.V.",
         "market_cap": "$22.06B",
@@ -2360,25 +2606,25 @@
     "KTOS": {
       "presets": {
         "Revenue": {
-          "updated": "Jan 29, 2026 09:07 PM"
+          "updated": "Feb 10, 2026 11:45 PM"
         },
         "Costs": {
-          "updated": "Jan 29, 2026 09:07 PM"
+          "updated": "Feb 10, 2026 11:45 PM"
         },
         "Cash": {
-          "updated": "Jan 29, 2026 09:07 PM"
+          "updated": "Feb 10, 2026 11:45 PM"
         },
         "FCF": {
-          "updated": "Jan 29, 2026 09:07 PM"
+          "updated": "Feb 10, 2026 11:45 PM"
         },
         "Assets": {
-          "updated": "Jan 29, 2026 09:07 PM"
+          "updated": "Feb 10, 2026 11:45 PM"
         },
         "Buffet": {
-          "updated": "Jan 29, 2026 09:07 PM"
+          "updated": "Feb 10, 2026 11:45 PM"
         }
       },
-      "last_updated": "2026-01-29T21:07:35.143294",
+      "last_updated": "2026-02-10T23:45:03.813590",
       "company": {
         "name": "Kratos Defense & Security Solutions",
         "market_cap": "$20.21B",
@@ -2390,25 +2636,25 @@
     "BRK-B": {
       "presets": {
         "Revenue": {
-          "updated": "Jan 29, 2026 09:13 PM"
+          "updated": "Feb 10, 2026 11:45 PM"
         },
         "Costs": {
-          "updated": "Jan 29, 2026 09:13 PM"
+          "updated": "Feb 10, 2026 11:45 PM"
         },
         "Cash": {
-          "updated": "Jan 29, 2026 09:13 PM"
+          "updated": "Feb 10, 2026 11:45 PM"
         },
         "FCF": {
-          "updated": "Jan 29, 2026 09:13 PM"
+          "updated": "Feb 10, 2026 11:45 PM"
         },
         "Assets": {
-          "updated": "Jan 29, 2026 09:13 PM"
+          "updated": "Feb 10, 2026 11:45 PM"
         },
         "Buffet": {
-          "updated": "Jan 29, 2026 09:13 PM"
+          "updated": "Feb 10, 2026 11:45 PM"
         }
       },
-      "last_updated": "2026-01-29T21:13:28.979963",
+      "last_updated": "2026-02-10T23:45:00.398263",
       "company": {
         "name": "Berkshire Hathaway Inc",
         "market_cap": "$1.02T",
@@ -2420,25 +2666,25 @@
     "TZOO": {
       "presets": {
         "Revenue": {
-          "updated": "Jan 29, 2026 09:36 PM"
+          "updated": "Feb 10, 2026 11:45 PM"
         },
         "Costs": {
-          "updated": "Jan 29, 2026 09:36 PM"
+          "updated": "Feb 10, 2026 11:45 PM"
         },
         "Cash": {
-          "updated": "Jan 29, 2026 09:36 PM"
+          "updated": "Feb 10, 2026 11:45 PM"
         },
         "FCF": {
-          "updated": "Jan 29, 2026 09:36 PM"
+          "updated": "Feb 10, 2026 11:45 PM"
         },
         "Assets": {
-          "updated": "Jan 29, 2026 09:36 PM"
+          "updated": "Feb 10, 2026 11:45 PM"
         },
         "Buffet": {
-          "updated": "Jan 29, 2026 09:36 PM"
+          "updated": "Feb 10, 2026 11:45 PM"
         }
       },
-      "last_updated": "2026-01-29T21:36:42.614309",
+      "last_updated": "2026-02-10T23:45:07.071879",
       "company": {
         "name": "Travelzoo",
         "market_cap": "$65.01M",
@@ -2450,25 +2696,25 @@
     "GAMB": {
       "presets": {
         "Revenue": {
-          "updated": "Jan 29, 2026 09:47 PM"
+          "updated": "Feb 10, 2026 11:45 PM"
         },
         "Costs": {
-          "updated": "Jan 29, 2026 09:47 PM"
+          "updated": "Feb 10, 2026 11:45 PM"
         },
         "Cash": {
-          "updated": "Jan 29, 2026 09:47 PM"
+          "updated": "Feb 10, 2026 11:45 PM"
         },
         "FCF": {
-          "updated": "Jan 29, 2026 09:47 PM"
+          "updated": "Feb 10, 2026 11:45 PM"
         },
         "Assets": {
-          "updated": "Jan 29, 2026 09:47 PM"
+          "updated": "Feb 10, 2026 11:45 PM"
         },
         "Buffet": {
-          "updated": "Jan 29, 2026 09:47 PM"
+          "updated": "Feb 10, 2026 11:45 PM"
         }
       },
-      "last_updated": "2026-01-29T21:47:58.227358",
+      "last_updated": "2026-02-10T23:45:01.659770",
       "company": {
         "name": "Gambling.com Group Ltd",
         "market_cap": "$169.99M",
@@ -2480,25 +2726,25 @@
     "SIGA": {
       "presets": {
         "Revenue": {
-          "updated": "Feb 01, 2026 11:30 AM"
+          "updated": "Feb 10, 2026 11:45 PM"
         },
         "Costs": {
-          "updated": "Feb 01, 2026 11:30 AM"
+          "updated": "Feb 10, 2026 11:45 PM"
         },
         "Cash": {
-          "updated": "Feb 01, 2026 11:30 AM"
+          "updated": "Feb 10, 2026 11:45 PM"
         },
         "FCF": {
-          "updated": "Feb 01, 2026 11:30 AM"
+          "updated": "Feb 10, 2026 11:45 PM"
         },
         "Assets": {
-          "updated": "Feb 01, 2026 11:30 AM"
+          "updated": "Feb 10, 2026 11:45 PM"
         },
         "Buffet": {
-          "updated": "Feb 01, 2026 11:30 AM"
+          "updated": "Feb 10, 2026 11:45 PM"
         }
       },
-      "last_updated": "2026-02-01T11:30:08.839539",
+      "last_updated": "2026-02-10T23:45:05.984271",
       "company": {
         "name": "SIGA Technologies Inc",
         "market_cap": "$479.80M",
@@ -2510,25 +2756,25 @@
     "STEX": {
       "presets": {
         "Revenue": {
-          "updated": "Feb 01, 2026 10:05 PM"
+          "updated": "Feb 10, 2026 11:45 PM"
         },
         "Costs": {
-          "updated": "Feb 01, 2026 10:05 PM"
+          "updated": "Feb 10, 2026 11:45 PM"
         },
         "Cash": {
-          "updated": "Feb 01, 2026 10:05 PM"
+          "updated": "Feb 10, 2026 11:45 PM"
         },
         "FCF": {
-          "updated": "Feb 01, 2026 10:05 PM"
+          "updated": "Feb 10, 2026 11:45 PM"
         },
         "Assets": {
-          "updated": "Feb 01, 2026 10:05 PM"
+          "updated": "Feb 10, 2026 11:45 PM"
         },
         "Buffet": {
-          "updated": "Feb 01, 2026 10:05 PM"
+          "updated": "Feb 10, 2026 11:45 PM"
         }
       },
-      "last_updated": "2026-02-01T22:05:19.372512",
+      "last_updated": "2026-02-10T23:45:06.330366",
       "company": {
         "name": "Streamex Corp",
         "market_cap": "N/A",
@@ -2540,25 +2786,25 @@
     "WSM": {
       "presets": {
         "Revenue": {
-          "updated": "Feb 01, 2026 10:31 PM"
+          "updated": "Feb 10, 2026 11:45 PM"
         },
         "Costs": {
-          "updated": "Feb 01, 2026 10:31 PM"
+          "updated": "Feb 10, 2026 11:45 PM"
         },
         "Cash": {
-          "updated": "Feb 01, 2026 10:31 PM"
+          "updated": "Feb 10, 2026 11:45 PM"
         },
         "FCF": {
-          "updated": "Feb 01, 2026 10:31 PM"
+          "updated": "Feb 10, 2026 11:45 PM"
         },
         "Assets": {
-          "updated": "Feb 01, 2026 10:31 PM"
+          "updated": "Feb 10, 2026 11:45 PM"
         },
         "Buffet": {
-          "updated": "Feb 01, 2026 10:31 PM"
+          "updated": "Feb 10, 2026 11:45 PM"
         }
       },
-      "last_updated": "2026-02-01T22:31:15.453704",
+      "last_updated": "2026-02-10T23:45:07.688049",
       "company": {
         "name": "Williams-Sonoma Inc",
         "market_cap": "$24.43B",
@@ -2570,25 +2816,25 @@
     "KHC": {
       "presets": {
         "Revenue": {
-          "updated": "Feb 02, 2026 08:28 AM"
+          "updated": "Feb 10, 2026 11:45 PM"
         },
         "Costs": {
-          "updated": "Feb 02, 2026 08:28 AM"
+          "updated": "Feb 10, 2026 11:45 PM"
         },
         "Cash": {
-          "updated": "Feb 02, 2026 08:28 AM"
+          "updated": "Feb 10, 2026 11:45 PM"
         },
         "FCF": {
-          "updated": "Feb 02, 2026 08:28 AM"
+          "updated": "Feb 10, 2026 11:45 PM"
         },
         "Assets": {
-          "updated": "Feb 02, 2026 08:28 AM"
+          "updated": "Feb 10, 2026 11:45 PM"
         },
         "Buffet": {
-          "updated": "Feb 02, 2026 08:28 AM"
+          "updated": "Feb 10, 2026 11:45 PM"
         }
       },
-      "last_updated": "2026-02-02T08:28:46.288410",
+      "last_updated": "2026-02-10T23:45:03.618323",
       "company": {
         "name": "Kraft Heinz Co",
         "market_cap": "$28.10B",
@@ -2600,25 +2846,25 @@
     "HLT": {
       "presets": {
         "Revenue": {
-          "updated": "Feb 02, 2026 08:33 AM"
+          "updated": "Feb 10, 2026 11:45 PM"
         },
         "Costs": {
-          "updated": "Feb 02, 2026 08:33 AM"
+          "updated": "Feb 10, 2026 11:45 PM"
         },
         "Cash": {
-          "updated": "Feb 02, 2026 08:33 AM"
+          "updated": "Feb 10, 2026 11:45 PM"
         },
         "FCF": {
-          "updated": "Feb 02, 2026 08:33 AM"
+          "updated": "Feb 10, 2026 11:45 PM"
         },
         "Assets": {
-          "updated": "Feb 02, 2026 08:33 AM"
+          "updated": "Feb 10, 2026 11:45 PM"
         },
         "Buffet": {
-          "updated": "Feb 02, 2026 08:33 AM"
+          "updated": "Feb 10, 2026 11:45 PM"
         }
       },
-      "last_updated": "2026-02-02T08:33:13.063646",
+      "last_updated": "2026-02-10T23:45:02.271337",
       "company": {
         "name": "Hilton Worldwide Holdings Inc",
         "market_cap": "$70.21B",
@@ -2630,25 +2876,25 @@
     "BBY": {
       "presets": {
         "Revenue": {
-          "updated": "Feb 02, 2026 10:27 AM"
+          "updated": "Feb 10, 2026 11:45 PM"
         },
         "Costs": {
-          "updated": "Feb 02, 2026 10:27 AM"
+          "updated": "Feb 10, 2026 11:45 PM"
         },
         "Cash": {
-          "updated": "Feb 02, 2026 10:27 AM"
+          "updated": "Feb 10, 2026 11:45 PM"
         },
         "FCF": {
-          "updated": "Feb 02, 2026 10:27 AM"
+          "updated": "Feb 10, 2026 11:45 PM"
         },
         "Assets": {
-          "updated": "Feb 02, 2026 10:27 AM"
+          "updated": "Feb 10, 2026 11:45 PM"
         },
         "Buffet": {
-          "updated": "Feb 02, 2026 10:27 AM"
+          "updated": "Feb 10, 2026 11:45 PM"
         }
       },
-      "last_updated": "2026-02-02T10:27:36.963372",
+      "last_updated": "2026-02-10T23:45:00.162129",
       "company": {
         "name": "Best Buy Co. Inc",
         "market_cap": "$13.68B",
@@ -2660,25 +2906,25 @@
     "JBL-SEC": {
       "presets": {
         "Revenue": {
-          "updated": "Feb 02, 2026 10:45 AM"
+          "updated": "Feb 10, 2026 11:45 PM"
         },
         "Costs": {
-          "updated": "Feb 02, 2026 10:45 AM"
+          "updated": "Feb 10, 2026 11:45 PM"
         },
         "Cash": {
-          "updated": "Feb 02, 2026 10:45 AM"
+          "updated": "Feb 10, 2026 11:45 PM"
         },
         "FCF": {
-          "updated": "Feb 02, 2026 10:45 AM"
+          "updated": "Feb 10, 2026 11:45 PM"
         },
         "Assets": {
-          "updated": "Feb 02, 2026 10:45 AM"
+          "updated": "Feb 10, 2026 11:45 PM"
         },
         "Buffet": {
-          "updated": "Feb 02, 2026 10:45 AM"
+          "updated": "Feb 10, 2026 11:45 PM"
         }
       },
-      "last_updated": "2026-02-02T10:45:24.842895",
+      "last_updated": "2026-02-10T23:45:03.321448",
       "company": {
         "name": "JABIL INC",
         "market_cap": "N/A",
@@ -2690,25 +2936,25 @@
     "CCSI-SEC": {
       "presets": {
         "Revenue": {
-          "updated": "Feb 02, 2026 06:31 PM"
+          "updated": "Feb 10, 2026 11:45 PM"
         },
         "Costs": {
-          "updated": "Feb 02, 2026 06:31 PM"
+          "updated": "Feb 10, 2026 11:45 PM"
         },
         "Cash": {
-          "updated": "Feb 02, 2026 06:31 PM"
+          "updated": "Feb 10, 2026 11:45 PM"
         },
         "FCF": {
-          "updated": "Feb 02, 2026 06:31 PM"
+          "updated": "Feb 10, 2026 11:45 PM"
         },
         "Assets": {
-          "updated": "Feb 02, 2026 06:31 PM"
+          "updated": "Feb 10, 2026 11:45 PM"
         },
         "Buffet": {
-          "updated": "Feb 02, 2026 06:31 PM"
+          "updated": "Feb 10, 2026 11:45 PM"
         }
       },
-      "last_updated": "2026-02-02T18:31:43.516109",
+      "last_updated": "2026-02-10T23:45:00.448348",
       "company": {
         "name": "Consensus Cloud Solutions, Inc.",
         "market_cap": "N/A",
@@ -2720,25 +2966,25 @@
     "IRWD-SEC": {
       "presets": {
         "Revenue": {
-          "updated": "Feb 03, 2026 02:18 AM"
+          "updated": "Feb 10, 2026 11:45 PM"
         },
         "Costs": {
-          "updated": "Feb 03, 2026 02:18 AM"
+          "updated": "Feb 10, 2026 11:45 PM"
         },
         "Cash": {
-          "updated": "Feb 03, 2026 02:18 AM"
+          "updated": "Feb 10, 2026 11:45 PM"
         },
         "FCF": {
-          "updated": "Feb 03, 2026 02:18 AM"
+          "updated": "Feb 10, 2026 11:45 PM"
         },
         "Assets": {
-          "updated": "Feb 03, 2026 02:18 AM"
+          "updated": "Feb 10, 2026 11:45 PM"
         },
         "Buffet": {
-          "updated": "Feb 03, 2026 02:18 AM"
+          "updated": "Feb 10, 2026 11:45 PM"
         }
       },
-      "last_updated": "2026-02-03T02:18:05.967320",
+      "last_updated": "2026-02-10T23:45:03.083809",
       "company": {
         "name": "IRONWOOD PHARMACEUTICALS,\u00a0INC.",
         "market_cap": "N/A",
@@ -2750,25 +2996,25 @@
     "COLL": {
       "presets": {
         "Revenue": {
-          "updated": "Feb 03, 2026 02:39 AM"
+          "updated": "Feb 10, 2026 11:45 PM"
         },
         "Costs": {
-          "updated": "Feb 03, 2026 02:39 AM"
+          "updated": "Feb 10, 2026 11:45 PM"
         },
         "Cash": {
-          "updated": "Feb 03, 2026 02:39 AM"
+          "updated": "Feb 10, 2026 11:45 PM"
         },
         "FCF": {
-          "updated": "Feb 03, 2026 02:39 AM"
+          "updated": "Feb 10, 2026 11:45 PM"
         },
         "Assets": {
-          "updated": "Feb 03, 2026 02:39 AM"
+          "updated": "Feb 10, 2026 11:45 PM"
         },
         "Buffet": {
-          "updated": "Feb 03, 2026 02:39 AM"
+          "updated": "Feb 10, 2026 11:45 PM"
         }
       },
-      "last_updated": "2026-02-03T02:39:02.611106",
+      "last_updated": "2026-02-10T23:45:00.704367",
       "company": {
         "name": "Collegium Pharmaceutical Inc",
         "market_cap": "$1.45B",
@@ -2780,25 +3026,25 @@
     "SOAR": {
       "presets": {
         "Revenue": {
-          "updated": "Feb 03, 2026 11:01 AM"
+          "updated": "Feb 10, 2026 11:45 PM"
         },
         "Costs": {
-          "updated": "Feb 03, 2026 11:01 AM"
+          "updated": "Feb 10, 2026 11:45 PM"
         },
         "Cash": {
-          "updated": "Feb 03, 2026 11:01 AM"
+          "updated": "Feb 10, 2026 11:45 PM"
         },
         "FCF": {
-          "updated": "Feb 03, 2026 11:01 AM"
+          "updated": "Feb 10, 2026 11:45 PM"
         },
         "Assets": {
-          "updated": "Feb 03, 2026 11:01 AM"
+          "updated": "Feb 10, 2026 11:45 PM"
         },
         "Buffet": {
-          "updated": "Feb 03, 2026 11:01 AM"
+          "updated": "Feb 10, 2026 11:45 PM"
         }
       },
-      "last_updated": "2026-02-03T11:01:13.617024",
+      "last_updated": "2026-02-10T23:45:06.164722",
       "company": {
         "name": "Volato Group Inc.",
         "market_cap": "$10.42M",
@@ -2810,25 +3056,25 @@
     "PYPL": {
       "presets": {
         "Revenue": {
-          "updated": "Feb 03, 2026 11:10 AM"
+          "updated": "Feb 10, 2026 11:45 PM"
         },
         "Costs": {
-          "updated": "Feb 03, 2026 11:10 AM"
+          "updated": "Feb 10, 2026 11:45 PM"
         },
         "Cash": {
-          "updated": "Feb 03, 2026 11:10 AM"
+          "updated": "Feb 10, 2026 11:45 PM"
         },
         "FCF": {
-          "updated": "Feb 03, 2026 11:10 AM"
+          "updated": "Feb 10, 2026 11:45 PM"
         },
         "Assets": {
-          "updated": "Feb 03, 2026 11:10 AM"
+          "updated": "Feb 10, 2026 11:45 PM"
         },
         "Buffet": {
-          "updated": "Feb 03, 2026 11:10 AM"
+          "updated": "Feb 10, 2026 11:45 PM"
         }
       },
-      "last_updated": "2026-02-03T11:10:57.631967",
+      "last_updated": "2026-02-10T23:45:05.405171",
       "company": {
         "name": "PayPal Holdings Inc",
         "market_cap": "$49.99B",
@@ -2840,25 +3086,25 @@
     "ONCY": {
       "presets": {
         "Revenue": {
-          "updated": "Feb 04, 2026 12:32 AM"
+          "updated": "Feb 10, 2026 11:45 PM"
         },
         "Costs": {
-          "updated": "Feb 04, 2026 12:32 AM"
+          "updated": "Feb 10, 2026 11:45 PM"
         },
         "Cash": {
-          "updated": "Feb 04, 2026 12:32 AM"
+          "updated": "Feb 10, 2026 11:45 PM"
         },
         "FCF": {
-          "updated": "Feb 04, 2026 12:32 AM"
+          "updated": "Feb 10, 2026 11:45 PM"
         },
         "Assets": {
-          "updated": "Feb 04, 2026 12:32 AM"
+          "updated": "Feb 10, 2026 11:45 PM"
         },
         "Buffet": {
-          "updated": "Feb 04, 2026 12:32 AM"
+          "updated": "Feb 10, 2026 11:45 PM"
         }
       },
-      "last_updated": "2026-02-04T00:32:34.505114",
+      "last_updated": "2026-02-10T23:45:05.042422",
       "company": {
         "name": "Oncolytics Biotech Inc",
         "market_cap": "$104.19M",
@@ -2870,25 +3116,25 @@
     "GOOGL": {
       "presets": {
         "Revenue": {
-          "updated": "Feb 04, 2026 01:43 AM"
+          "updated": "Feb 10, 2026 11:45 PM"
         },
         "Costs": {
-          "updated": "Feb 04, 2026 01:43 AM"
+          "updated": "Feb 10, 2026 11:45 PM"
         },
         "Cash": {
-          "updated": "Feb 04, 2026 01:43 AM"
+          "updated": "Feb 10, 2026 11:45 PM"
         },
         "FCF": {
-          "updated": "Feb 04, 2026 01:43 AM"
+          "updated": "Feb 10, 2026 11:45 PM"
         },
         "Assets": {
-          "updated": "Feb 04, 2026 01:43 AM"
+          "updated": "Feb 10, 2026 11:45 PM"
         },
         "Buffet": {
-          "updated": "Feb 04, 2026 01:43 AM"
+          "updated": "Feb 10, 2026 11:45 PM"
         }
       },
-      "last_updated": "2026-02-04T01:43:34.084247",
+      "last_updated": "2026-02-10T23:45:01.936204",
       "company": {
         "name": "Alphabet Inc Class A",
         "market_cap": "$4.16T",
@@ -2900,25 +3146,25 @@
     "TEAM": {
       "presets": {
         "Revenue": {
-          "updated": "Feb 05, 2026 12:29 AM"
+          "updated": "Feb 10, 2026 11:45 PM"
         },
         "Costs": {
-          "updated": "Feb 05, 2026 12:29 AM"
+          "updated": "Feb 10, 2026 11:45 PM"
         },
         "Cash": {
-          "updated": "Feb 05, 2026 12:29 AM"
+          "updated": "Feb 10, 2026 11:45 PM"
         },
         "FCF": {
-          "updated": "Feb 05, 2026 12:29 AM"
+          "updated": "Feb 10, 2026 11:45 PM"
         },
         "Assets": {
-          "updated": "Feb 05, 2026 12:29 AM"
+          "updated": "Feb 10, 2026 11:45 PM"
         },
         "Buffet": {
-          "updated": "Feb 05, 2026 12:29 AM"
+          "updated": "Feb 10, 2026 11:45 PM"
         }
       },
-      "last_updated": "2026-02-05T00:29:24.957351",
+      "last_updated": "2026-02-10T23:45:06.626758",
       "company": {
         "name": "Atlassian Corp Plc",
         "market_cap": "$27.64B",
@@ -2930,25 +3176,25 @@
     "DOCU": {
       "presets": {
         "Revenue": {
-          "updated": "Feb 05, 2026 01:00 AM"
+          "updated": "Feb 10, 2026 11:45 PM"
         },
         "Costs": {
-          "updated": "Feb 05, 2026 01:00 AM"
+          "updated": "Feb 10, 2026 11:45 PM"
         },
         "Cash": {
-          "updated": "Feb 05, 2026 01:00 AM"
+          "updated": "Feb 10, 2026 11:45 PM"
         },
         "FCF": {
-          "updated": "Feb 05, 2026 01:00 AM"
+          "updated": "Feb 10, 2026 11:45 PM"
         },
         "Assets": {
-          "updated": "Feb 05, 2026 01:00 AM"
+          "updated": "Feb 10, 2026 11:45 PM"
         },
         "Buffet": {
-          "updated": "Feb 05, 2026 01:00 AM"
+          "updated": "Feb 10, 2026 11:45 PM"
         }
       },
-      "last_updated": "2026-02-05T01:00:49.017393",
+      "last_updated": "2026-02-10T23:45:01.279114",
       "company": {
         "name": "DocuSign Inc",
         "market_cap": "$9.23B",
@@ -2960,25 +3206,25 @@
     "ACI": {
       "presets": {
         "Revenue": {
-          "updated": "Feb 06, 2026 10:37 AM"
+          "updated": "Feb 10, 2026 11:44 PM"
         },
         "Costs": {
-          "updated": "Feb 06, 2026 10:37 AM"
+          "updated": "Feb 10, 2026 11:44 PM"
         },
         "Cash": {
-          "updated": "Feb 06, 2026 10:37 AM"
+          "updated": "Feb 10, 2026 11:44 PM"
         },
         "FCF": {
-          "updated": "Feb 06, 2026 10:37 AM"
+          "updated": "Feb 10, 2026 11:44 PM"
         },
         "Assets": {
-          "updated": "Feb 06, 2026 10:37 AM"
+          "updated": "Feb 10, 2026 11:44 PM"
         },
         "Buffet": {
-          "updated": "Feb 06, 2026 10:37 AM"
+          "updated": "Feb 10, 2026 11:44 PM"
         }
       },
-      "last_updated": "2026-02-06T10:37:36.847800",
+      "last_updated": "2026-02-10T23:44:59.040337",
       "company": {
         "name": "Albertsons Companies",
         "market_cap": "$9.76B",
@@ -2990,25 +3236,25 @@
     "KVUE": {
       "presets": {
         "Revenue": {
-          "updated": "Feb 06, 2026 07:17 PM"
+          "updated": "Feb 10, 2026 11:45 PM"
         },
         "Costs": {
-          "updated": "Feb 06, 2026 07:17 PM"
+          "updated": "Feb 10, 2026 11:45 PM"
         },
         "Cash": {
-          "updated": "Feb 06, 2026 07:17 PM"
+          "updated": "Feb 10, 2026 11:45 PM"
         },
         "FCF": {
-          "updated": "Feb 06, 2026 07:17 PM"
+          "updated": "Feb 10, 2026 11:45 PM"
         },
         "Assets": {
-          "updated": "Feb 06, 2026 07:17 PM"
+          "updated": "Feb 10, 2026 11:45 PM"
         },
         "Buffet": {
-          "updated": "Feb 06, 2026 07:17 PM"
+          "updated": "Feb 10, 2026 11:45 PM"
         }
       },
-      "last_updated": "2026-02-06T19:17:37.204877",
+      "last_updated": "2026-02-10T23:45:03.868517",
       "company": {
         "name": "Kenvue Inc.",
         "market_cap": "$34.62B",
@@ -3020,25 +3266,25 @@
     "RIG": {
       "presets": {
         "Revenue": {
-          "updated": "Feb 06, 2026 08:11 PM"
+          "updated": "Feb 10, 2026 11:45 PM"
         },
         "Costs": {
-          "updated": "Feb 06, 2026 08:11 PM"
+          "updated": "Feb 10, 2026 11:45 PM"
         },
         "Cash": {
-          "updated": "Feb 06, 2026 08:11 PM"
+          "updated": "Feb 10, 2026 11:45 PM"
         },
         "FCF": {
-          "updated": "Feb 06, 2026 08:11 PM"
+          "updated": "Feb 10, 2026 11:45 PM"
         },
         "Assets": {
-          "updated": "Feb 06, 2026 08:11 PM"
+          "updated": "Feb 10, 2026 11:45 PM"
         },
         "Buffet": {
-          "updated": "Feb 06, 2026 08:11 PM"
+          "updated": "Feb 10, 2026 11:45 PM"
         }
       },
-      "last_updated": "2026-02-06T20:11:43.331138",
+      "last_updated": "2026-02-10T23:45:05.739362",
       "company": {
         "name": "Transocean Ltd",
         "market_cap": "$5.44B",
@@ -3050,25 +3296,25 @@
     "JILL": {
       "presets": {
         "Revenue": {
-          "updated": "Feb 09, 2026 01:54 AM"
+          "updated": "Feb 10, 2026 11:45 PM"
         },
         "Costs": {
-          "updated": "Feb 09, 2026 01:54 AM"
+          "updated": "Feb 10, 2026 11:45 PM"
         },
         "Cash": {
-          "updated": "Feb 09, 2026 01:54 AM"
+          "updated": "Feb 10, 2026 11:45 PM"
         },
         "FCF": {
-          "updated": "Feb 09, 2026 01:54 AM"
+          "updated": "Feb 10, 2026 11:45 PM"
         },
         "Assets": {
-          "updated": "Feb 09, 2026 01:54 AM"
+          "updated": "Feb 10, 2026 11:45 PM"
         },
         "Buffet": {
-          "updated": "Feb 09, 2026 01:54 AM"
+          "updated": "Feb 10, 2026 11:45 PM"
         }
       },
-      "last_updated": "2026-02-09T01:54:49.177790",
+      "last_updated": "2026-02-10T23:45:03.403375",
       "company": {
         "name": "J.Jill Inc",
         "market_cap": "$255.83M",
@@ -3080,25 +3326,25 @@
     "AMCX": {
       "presets": {
         "Revenue": {
-          "updated": "Feb 09, 2026 02:02 AM"
+          "updated": "Feb 10, 2026 11:44 PM"
         },
         "Costs": {
-          "updated": "Feb 09, 2026 02:02 AM"
+          "updated": "Feb 10, 2026 11:44 PM"
         },
         "Cash": {
-          "updated": "Feb 09, 2026 02:02 AM"
+          "updated": "Feb 10, 2026 11:44 PM"
         },
         "FCF": {
-          "updated": "Feb 09, 2026 02:02 AM"
+          "updated": "Feb 10, 2026 11:44 PM"
         },
         "Assets": {
-          "updated": "Feb 09, 2026 02:02 AM"
+          "updated": "Feb 10, 2026 11:44 PM"
         },
         "Buffet": {
-          "updated": "Feb 09, 2026 02:02 AM"
+          "updated": "Feb 10, 2026 11:44 PM"
         }
       },
-      "last_updated": "2026-02-09T02:02:11.905230",
+      "last_updated": "2026-02-10T23:44:59.527860",
       "company": {
         "name": "AMC Networks Inc",
         "market_cap": "$332.11M",
@@ -3110,25 +3356,25 @@
     "FMST": {
       "presets": {
         "Revenue": {
-          "updated": "Feb 09, 2026 09:46 AM"
+          "updated": "Feb 10, 2026 11:45 PM"
         },
         "Costs": {
-          "updated": "Feb 09, 2026 09:46 AM"
+          "updated": "Feb 10, 2026 11:45 PM"
         },
         "Cash": {
-          "updated": "Feb 09, 2026 09:46 AM"
+          "updated": "Feb 10, 2026 11:45 PM"
         },
         "FCF": {
-          "updated": "Feb 09, 2026 09:46 AM"
+          "updated": "Feb 10, 2026 11:45 PM"
         },
         "Assets": {
-          "updated": "Feb 09, 2026 09:46 AM"
+          "updated": "Feb 10, 2026 11:45 PM"
         },
         "Buffet": {
-          "updated": "Feb 09, 2026 09:46 AM"
+          "updated": "Feb 10, 2026 11:45 PM"
         }
       },
-      "last_updated": "2026-02-09T09:46:15.571463",
+      "last_updated": "2026-02-10T23:45:01.611279",
       "company": {
         "name": "Foremost Lithium Resource & Technology Ltd. Common stock aka Foremost Clean Energy",
         "market_cap": "$31.63M",
@@ -3140,25 +3386,25 @@
     "GRVY": {
       "presets": {
         "Revenue": {
-          "updated": "Feb 09, 2026 09:58 PM"
+          "updated": "Feb 10, 2026 11:45 PM"
         },
         "Costs": {
-          "updated": "Feb 09, 2026 09:58 PM"
+          "updated": "Feb 10, 2026 11:45 PM"
         },
         "Cash": {
-          "updated": "Feb 09, 2026 09:58 PM"
+          "updated": "Feb 10, 2026 11:45 PM"
         },
         "FCF": {
-          "updated": "Feb 09, 2026 09:58 PM"
+          "updated": "Feb 10, 2026 11:45 PM"
         },
         "Assets": {
-          "updated": "Feb 09, 2026 09:58 PM"
+          "updated": "Feb 10, 2026 11:45 PM"
         },
         "Buffet": {
-          "updated": "Feb 09, 2026 09:58 PM"
+          "updated": "Feb 10, 2026 11:45 PM"
         }
       },
-      "last_updated": "2026-02-09T21:58:22.469710",
+      "last_updated": "2026-02-10T23:45:02.029466",
       "company": {
         "name": "Gravity Co Ltd",
         "market_cap": "$494.48M",
@@ -3170,25 +3416,25 @@
     "ISRG": {
       "presets": {
         "Revenue": {
-          "updated": "Feb 10, 2026 12:28 AM"
+          "updated": "Feb 10, 2026 11:45 PM"
         },
         "Costs": {
-          "updated": "Feb 10, 2026 12:28 AM"
+          "updated": "Feb 10, 2026 11:45 PM"
         },
         "Cash": {
-          "updated": "Feb 10, 2026 12:28 AM"
+          "updated": "Feb 10, 2026 11:45 PM"
         },
         "FCF": {
-          "updated": "Feb 10, 2026 12:28 AM"
+          "updated": "Feb 10, 2026 11:45 PM"
         },
         "Assets": {
-          "updated": "Feb 10, 2026 12:28 AM"
+          "updated": "Feb 10, 2026 11:45 PM"
         },
         "Buffet": {
-          "updated": "Feb 10, 2026 12:28 AM"
+          "updated": "Feb 10, 2026 11:45 PM"
         }
       },
-      "last_updated": "2026-02-10T00:28:23.182489",
+      "last_updated": "2026-02-10T23:45:03.227517",
       "company": {
         "name": "Intuitive Surgical Inc",
         "market_cap": "$173.36B",
@@ -3200,25 +3446,25 @@
     "FCX": {
       "presets": {
         "Revenue": {
-          "updated": "Feb 10, 2026 12:28 AM"
+          "updated": "Feb 10, 2026 11:45 PM"
         },
         "Costs": {
-          "updated": "Feb 10, 2026 12:28 AM"
+          "updated": "Feb 10, 2026 11:45 PM"
         },
         "Cash": {
-          "updated": "Feb 10, 2026 12:28 AM"
+          "updated": "Feb 10, 2026 11:45 PM"
         },
         "FCF": {
-          "updated": "Feb 10, 2026 12:28 AM"
+          "updated": "Feb 10, 2026 11:45 PM"
         },
         "Assets": {
-          "updated": "Feb 10, 2026 12:28 AM"
+          "updated": "Feb 10, 2026 11:45 PM"
         },
         "Buffet": {
-          "updated": "Feb 10, 2026 12:28 AM"
+          "updated": "Feb 10, 2026 11:45 PM"
         }
       },
-      "last_updated": "2026-02-10T00:28:24.321280",
+      "last_updated": "2026-02-10T23:45:01.541949",
       "company": {
         "name": "Freeport-McMoran Copper & Gold Inc",
         "market_cap": "$87.12B",
@@ -3230,25 +3476,25 @@
     "MNDY": {
       "presets": {
         "Revenue": {
-          "updated": "Feb 10, 2026 11:28 PM"
+          "updated": "Feb 10, 2026 11:45 PM"
         },
         "Costs": {
-          "updated": "Feb 10, 2026 11:28 PM"
+          "updated": "Feb 10, 2026 11:45 PM"
         },
         "Cash": {
-          "updated": "Feb 10, 2026 11:28 PM"
+          "updated": "Feb 10, 2026 11:45 PM"
         },
         "FCF": {
-          "updated": "Feb 10, 2026 11:28 PM"
+          "updated": "Feb 10, 2026 11:45 PM"
         },
         "Assets": {
-          "updated": "Feb 10, 2026 11:28 PM"
+          "updated": "Feb 10, 2026 11:45 PM"
         },
         "Buffet": {
-          "updated": "Feb 10, 2026 11:28 PM"
+          "updated": "Feb 10, 2026 11:45 PM"
         }
       },
-      "last_updated": "2026-02-10T23:28:39.315297",
+      "last_updated": "2026-02-10T23:45:04.365537",
       "company": {
         "name": "Monday.Com Ltd",
         "market_cap": "$4.00B",
@@ -3260,25 +3506,25 @@
     "WDAY": {
       "presets": {
         "Revenue": {
-          "updated": "Feb 10, 2026 11:08 PM"
+          "updated": "Feb 10, 2026 11:45 PM"
         },
         "Costs": {
-          "updated": "Feb 10, 2026 11:08 PM"
+          "updated": "Feb 10, 2026 11:45 PM"
         },
         "Cash": {
-          "updated": "Feb 10, 2026 11:08 PM"
+          "updated": "Feb 10, 2026 11:45 PM"
         },
         "FCF": {
-          "updated": "Feb 10, 2026 11:08 PM"
+          "updated": "Feb 10, 2026 11:45 PM"
         },
         "Assets": {
-          "updated": "Feb 10, 2026 11:08 PM"
+          "updated": "Feb 10, 2026 11:45 PM"
         },
         "Buffet": {
-          "updated": "Feb 10, 2026 11:08 PM"
+          "updated": "Feb 10, 2026 11:45 PM"
         }
       },
-      "last_updated": "2026-02-10T23:08:25.835985",
+      "last_updated": "2026-02-10T23:45:07.497101",
       "company": {
         "name": "Workday Inc",
         "market_cap": "$41.27B",
