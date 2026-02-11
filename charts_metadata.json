@@ -2368,29 +2368,6 @@
         "industry": "COMPUTER HARDWARE"
       }
     },
-    "KDFJ": {
-      "presets": {
-        "Revenue": {
-          "updated": "Feb 11, 2026 10:57 AM"
-        },
-        "Costs": {
-          "updated": "Feb 11, 2026 10:57 AM"
-        },
-        "Cash": {
-          "updated": "Feb 11, 2026 10:57 AM"
-        },
-        "FCF": {
-          "updated": "Feb 11, 2026 10:57 AM"
-        },
-        "Assets": {
-          "updated": "Feb 11, 2026 10:57 AM"
-        },
-        "Buffet": {
-          "updated": "Feb 11, 2026 10:57 AM"
-        }
-      },
-      "last_updated": "2026-02-11T10:57:29.898117"
-    },
     "QBTS": {
       "presets": {
         "Revenue": {
