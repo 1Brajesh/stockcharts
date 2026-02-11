@@ -1563,28 +1563,30 @@
     "AAPL": {
       "presets": {
         "Revenue": {
-          "updated": "Feb 11, 2026 12:26 AM"
+          "updated": "Feb 11, 2026 10:51 AM"
         },
         "Costs": {
-          "updated": "Feb 11, 2026 12:26 AM"
+          "updated": "Feb 11, 2026 10:51 AM"
         },
         "Cash": {
-          "updated": "Feb 11, 2026 12:26 AM"
+          "updated": "Feb 11, 2026 10:51 AM"
         },
         "FCF": {
-          "updated": "Feb 11, 2026 12:26 AM"
+          "updated": "Feb 11, 2026 10:51 AM"
         },
         "Assets": {
-          "updated": "Feb 11, 2026 12:26 AM"
+          "updated": "Feb 11, 2026 10:51 AM"
         },
         "Buffet": {
-          "updated": "Feb 11, 2026 12:26 AM"
+          "updated": "Feb 11, 2026 10:51 AM"
         }
       },
-      "last_updated": "2026-02-11T00:26:22.401405",
+      "last_updated": "2026-02-11T10:51:34.680314",
       "company": {
         "name": "Apple Inc",
         "market_cap": "$4.06T",
+        "market_cap_raw": 4063829426000.0,
+        "last_q_revenue": 143756000000.0,
         "description": "Apple Inc. is a preeminent American multinational technology company renowned for its innovative consumer electronics, software, and online services. With a staggering revenue of $274.5 billion in 2020, it stands as the world's most valuable publicly traded company, significantly influencing the global technology sector. Its flagship products\u2014iPhone, iPad, and Mac\u2014continue to define consumer expectations and set industry benchmarks, securing its position as a leader in both the smartphone and personal computer markets. As a key player among the \"Big Five\" technology firms, Apple remains at the forefront of technological advancements and consumer engagement strategies.",
         "sector": "TECHNOLOGY",
         "industry": "CONSUMER ELECTRONICS"
