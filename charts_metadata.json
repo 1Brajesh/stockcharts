@@ -3230,25 +3230,25 @@
     "MNDY": {
       "presets": {
         "Revenue": {
-          "updated": "Feb 10, 2026 11:05 PM"
+          "updated": "Feb 10, 2026 11:28 PM"
         },
         "Costs": {
-          "updated": "Feb 10, 2026 11:05 PM"
+          "updated": "Feb 10, 2026 11:28 PM"
         },
         "Cash": {
-          "updated": "Feb 10, 2026 11:05 PM"
+          "updated": "Feb 10, 2026 11:28 PM"
         },
         "FCF": {
-          "updated": "Feb 10, 2026 11:05 PM"
+          "updated": "Feb 10, 2026 11:28 PM"
         },
         "Assets": {
-          "updated": "Feb 10, 2026 11:05 PM"
+          "updated": "Feb 10, 2026 11:28 PM"
         },
         "Buffet": {
-          "updated": "Feb 10, 2026 11:05 PM"
+          "updated": "Feb 10, 2026 11:28 PM"
         }
       },
-      "last_updated": "2026-02-10T23:05:16.714345",
+      "last_updated": "2026-02-10T23:28:39.315297",
       "company": {
         "name": "Monday.Com Ltd",
         "market_cap": "$4.00B",
