@@ -1563,25 +1563,25 @@
     "AAPL": {
       "presets": {
         "Revenue": {
-          "updated": "Feb 11, 2026 12:23 AM"
+          "updated": "Feb 11, 2026 12:25 AM"
         },
         "Costs": {
-          "updated": "Feb 11, 2026 12:23 AM"
+          "updated": "Feb 11, 2026 12:25 AM"
         },
         "Cash": {
-          "updated": "Feb 11, 2026 12:23 AM"
+          "updated": "Feb 11, 2026 12:25 AM"
         },
         "FCF": {
-          "updated": "Feb 11, 2026 12:23 AM"
+          "updated": "Feb 11, 2026 12:25 AM"
         },
         "Assets": {
-          "updated": "Feb 11, 2026 12:23 AM"
+          "updated": "Feb 11, 2026 12:25 AM"
         },
         "Buffet": {
-          "updated": "Feb 11, 2026 12:23 AM"
+          "updated": "Feb 11, 2026 12:25 AM"
         }
       },
-      "last_updated": "2026-02-11T00:23:50.174729",
+      "last_updated": "2026-02-11T00:25:23.927263",
       "company": {
         "name": "Apple Inc",
         "market_cap": "$4.06T",
