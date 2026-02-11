@@ -573,25 +573,25 @@
     "ZS": {
       "presets": {
         "Revenue": {
-          "updated": "Feb 11, 2026 12:26 AM"
+          "updated": "Feb 11, 2026 12:37 AM"
         },
         "Costs": {
-          "updated": "Feb 11, 2026 12:26 AM"
+          "updated": "Feb 11, 2026 12:37 AM"
         },
         "Cash": {
-          "updated": "Feb 11, 2026 12:26 AM"
+          "updated": "Feb 11, 2026 12:37 AM"
         },
         "FCF": {
-          "updated": "Feb 11, 2026 12:26 AM"
+          "updated": "Feb 11, 2026 12:37 AM"
         },
         "Assets": {
-          "updated": "Feb 11, 2026 12:26 AM"
+          "updated": "Feb 11, 2026 12:37 AM"
         },
         "Buffet": {
-          "updated": "Feb 11, 2026 12:26 AM"
+          "updated": "Feb 11, 2026 12:37 AM"
         }
       },
-      "last_updated": "2026-02-11T00:26:29.750502",
+      "last_updated": "2026-02-11T00:37:45.423242",
       "company": {
         "name": "Zscaler Inc",
         "market_cap": "$35.52B",
