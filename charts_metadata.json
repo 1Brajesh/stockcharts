@@ -1637,23 +1637,26 @@
     },
     "CRM": {
       "presets": {
-        "costs": {
-          "updated": "Jan 19, 2026 04:25 PM"
+        "Revenue": {
+          "updated": "Feb 10, 2026 11:03 PM"
         },
-        "revenue": {
-          "updated": "Jan 19, 2026 04:25 PM"
+        "Costs": {
+          "updated": "Feb 10, 2026 11:03 PM"
         },
-        "cash": {
-          "updated": "Jan 19, 2026 04:25 PM"
+        "Cash": {
+          "updated": "Feb 10, 2026 11:03 PM"
         },
         "FCF": {
-          "updated": "Jan 19, 2026 04:25 PM"
+          "updated": "Feb 10, 2026 11:03 PM"
         },
-        "assets": {
-          "updated": "Jan 19, 2026 04:25 PM"
+        "Assets": {
+          "updated": "Feb 10, 2026 11:03 PM"
+        },
+        "Buffet": {
+          "updated": "Feb 10, 2026 11:03 PM"
         }
       },
-      "last_updated": "2026-01-19T16:25:50.137916",
+      "last_updated": "2026-02-10T23:03:46.595120",
       "company": {
         "name": "Salesforce.com Inc",
         "market_cap": "$247.43B",
