@@ -3286,6 +3286,29 @@
         "sector": "TECHNOLOGY",
         "industry": "SOFTWARE - APPLICATION"
       }
+    },
+    "MDAY": {
+      "presets": {
+        "Revenue": {
+          "updated": "Feb 10, 2026 11:27 PM"
+        },
+        "Costs": {
+          "updated": "Feb 10, 2026 11:27 PM"
+        },
+        "Cash": {
+          "updated": "Feb 10, 2026 11:27 PM"
+        },
+        "FCF": {
+          "updated": "Feb 10, 2026 11:27 PM"
+        },
+        "Assets": {
+          "updated": "Feb 10, 2026 11:27 PM"
+        },
+        "Buffet": {
+          "updated": "Feb 10, 2026 11:27 PM"
+        }
+      },
+      "last_updated": "2026-02-10T23:27:55.231307"
     }
   }
 }
