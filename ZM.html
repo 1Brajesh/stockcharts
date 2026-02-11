@@ -216,7 +216,7 @@
         <header>
             <a href="index.html" class="back-link">&larr; Back to Index</a>
             <h1>ZM</h1>
-            <div class="timestamp">Updated: Feb 11, 2026 12:03 AM</div>
+            <div class="timestamp">Updated: Feb 11, 2026 12:26 AM</div>
         </header>
 
         
@@ -577,8 +577,8 @@ Plot for ZM (in B)
     <script type="text/javascript" src="https://s3.tradingview.com/tv.js"></script>
     <script type="text/javascript">
         new TradingView.MediumWidget({
-            "symbols": [["ZM"]],
-            "chartOnly": true,
+            "symbols": [["ZM", "ZM|all"]],
+            "chartOnly": false,
             "width": "100%",
             "height": 400,
             "locale": "en",
@@ -588,7 +588,7 @@ Plot for ZM (in B)
             "underLineColor": "rgba(33,150,243,0.12)",
             "isTransparent": true,
             "autosize": false,
-            "dateRange": "ALL",
+            "dateRanges": ["all|1M","60m|1W","12m|1D","3m|60","1m|30","1d|1"],
             "container_id": "tradingview_ZM"
         });
     </script>
