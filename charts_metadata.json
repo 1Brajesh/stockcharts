@@ -3256,29 +3256,6 @@
         "sector": "TECHNOLOGY",
         "industry": "SOFTWARE - APPLICATION"
       }
-    },
-    "WDY": {
-      "presets": {
-        "Revenue": {
-          "updated": "Feb 10, 2026 11:06 PM"
-        },
-        "Costs": {
-          "updated": "Feb 10, 2026 11:06 PM"
-        },
-        "Cash": {
-          "updated": "Feb 10, 2026 11:06 PM"
-        },
-        "FCF": {
-          "updated": "Feb 10, 2026 11:06 PM"
-        },
-        "Assets": {
-          "updated": "Feb 10, 2026 11:06 PM"
-        },
-        "Buffet": {
-          "updated": "Feb 10, 2026 11:06 PM"
-        }
-      },
-      "last_updated": "2026-02-10T23:06:58.494465"
     }
   }
 }
