@@ -3775,6 +3775,38 @@
         "sector": "INDUSTRIALS",
         "industry": "MARINE SHIPPING"
       }
+    },
+    "RKLB": {
+      "presets": {
+        "Revenue": {
+          "updated": "Feb 11, 2026 09:01 PM"
+        },
+        "Costs": {
+          "updated": "Feb 11, 2026 09:01 PM"
+        },
+        "Cash": {
+          "updated": "Feb 11, 2026 09:01 PM"
+        },
+        "FCF": {
+          "updated": "Feb 11, 2026 09:01 PM"
+        },
+        "Assets": {
+          "updated": "Feb 11, 2026 09:01 PM"
+        },
+        "Buffet": {
+          "updated": "Feb 11, 2026 09:01 PM"
+        }
+      },
+      "last_updated": "2026-02-11T21:01:55.203701",
+      "company": {
+        "name": "Rocket Lab USA Inc.",
+        "market_cap": "$38.48B",
+        "market_cap_raw": 38475280000.0,
+        "last_q_revenue": 155080000.0,
+        "description": "None",
+        "sector": "INDUSTRIALS",
+        "industry": "AEROSPACE & DEFENSE"
+      }
     }
   }
 }
