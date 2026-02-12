@@ -3839,38 +3839,6 @@
         "sector": "HEALTHCARE",
         "industry": "DRUG MANUFACTURERS - SPECIALTY & GENERIC"
       }
-    },
-    "CCSI": {
-      "presets": {
-        "Revenue": {
-          "updated": "Feb 11, 2026 11:11 PM"
-        },
-        "Costs": {
-          "updated": "Feb 11, 2026 11:11 PM"
-        },
-        "Cash": {
-          "updated": "Feb 11, 2026 11:11 PM"
-        },
-        "FCF": {
-          "updated": "Feb 11, 2026 11:11 PM"
-        },
-        "Assets": {
-          "updated": "Feb 11, 2026 11:11 PM"
-        },
-        "Buffet": {
-          "updated": "Feb 11, 2026 11:11 PM"
-        }
-      },
-      "last_updated": "2026-02-11T23:11:16.720771",
-      "company": {
-        "name": "Consensus Cloud Solutions Inc",
-        "market_cap": "$460.70M",
-        "market_cap_raw": 460700000.0,
-        "last_q_revenue": 87767000.0,
-        "description": "Consensus Cloud Solutions, Inc. provides information delivery services with a worldwide software-as-a-service platform. The company is headquartered in Los Angeles, California.",
-        "sector": "TECHNOLOGY",
-        "industry": "SOFTWARE - INFRASTRUCTURE"
-      }
     }
   }
 }
