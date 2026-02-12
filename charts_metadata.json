@@ -3807,6 +3807,29 @@
         "sector": "INDUSTRIALS",
         "industry": "AEROSPACE & DEFENSE"
       }
+    },
+    "AALP": {
+      "presets": {
+        "Revenue": {
+          "updated": "Feb 11, 2026 10:50 PM"
+        },
+        "Costs": {
+          "updated": "Feb 11, 2026 10:50 PM"
+        },
+        "Cash": {
+          "updated": "Feb 11, 2026 10:50 PM"
+        },
+        "FCF": {
+          "updated": "Feb 11, 2026 10:50 PM"
+        },
+        "Assets": {
+          "updated": "Feb 11, 2026 10:50 PM"
+        },
+        "Buffet": {
+          "updated": "Feb 11, 2026 10:50 PM"
+        }
+      },
+      "last_updated": "2026-02-11T22:50:46.093005"
     }
   }
 }
