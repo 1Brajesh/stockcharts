@@ -3807,6 +3807,38 @@
         "sector": "TECHNOLOGY",
         "industry": "SOFTWARE - INFRASTRUCTURE"
       }
+    },
+    "KSCP": {
+      "presets": {
+        "Revenue": {
+          "updated": "Feb 12, 2026 10:22 AM"
+        },
+        "Costs": {
+          "updated": "Feb 12, 2026 10:22 AM"
+        },
+        "Cash": {
+          "updated": "Feb 12, 2026 10:22 AM"
+        },
+        "FCF": {
+          "updated": "Feb 12, 2026 10:22 AM"
+        },
+        "Assets": {
+          "updated": "Feb 12, 2026 10:22 AM"
+        },
+        "Buffet": {
+          "updated": "Feb 12, 2026 10:22 AM"
+        }
+      },
+      "last_updated": "2026-02-12T10:22:56.589015",
+      "company": {
+        "name": "Knightscope Inc",
+        "market_cap": "$40.97M",
+        "market_cap_raw": 40971500.0,
+        "last_q_revenue": 3131000.0,
+        "description": "Knightscope, Inc. designs, develops, builds, deploys and supports physical security technologies in the United States. The company is headquartered in Mountain View, California.",
+        "sector": "INDUSTRIALS",
+        "industry": "SECURITY & PROTECTION SERVICES"
+      }
     }
   }
 }
