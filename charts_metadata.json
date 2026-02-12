@@ -3807,6 +3807,29 @@
         "sector": "INDUSTRIALS",
         "industry": "AEROSPACE & DEFENSE"
       }
+    },
+    "JBP": {
+      "presets": {
+        "Revenue": {
+          "updated": "Feb 11, 2026 11:01 PM"
+        },
+        "Costs": {
+          "updated": "Feb 11, 2026 11:01 PM"
+        },
+        "Cash": {
+          "updated": "Feb 11, 2026 11:01 PM"
+        },
+        "FCF": {
+          "updated": "Feb 11, 2026 11:01 PM"
+        },
+        "Assets": {
+          "updated": "Feb 11, 2026 11:01 PM"
+        },
+        "Buffet": {
+          "updated": "Feb 11, 2026 11:01 PM"
+        }
+      },
+      "last_updated": "2026-02-11T23:01:42.065650"
     }
   }
 }
