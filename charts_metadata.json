@@ -3830,6 +3830,38 @@
         }
       },
       "last_updated": "2026-02-11T23:01:42.065650"
+    },
+    "JBL": {
+      "presets": {
+        "Revenue": {
+          "updated": "Feb 11, 2026 11:01 PM"
+        },
+        "Costs": {
+          "updated": "Feb 11, 2026 11:01 PM"
+        },
+        "Cash": {
+          "updated": "Feb 11, 2026 11:01 PM"
+        },
+        "FCF": {
+          "updated": "Feb 11, 2026 11:01 PM"
+        },
+        "Assets": {
+          "updated": "Feb 11, 2026 11:01 PM"
+        },
+        "Buffet": {
+          "updated": "Feb 11, 2026 11:01 PM"
+        }
+      },
+      "last_updated": "2026-02-11T23:01:48.618719",
+      "company": {
+        "name": "Jabil Circuit Inc",
+        "market_cap": "$27.66B",
+        "market_cap_raw": 27659667000.0,
+        "last_q_revenue": 8305000000.0,
+        "description": "Jabil Inc. provides global manufacturing solutions and services. The company is headquartered in Saint Petersburg, Florida.",
+        "sector": "TECHNOLOGY",
+        "industry": "ELECTRONIC COMPONENTS"
+      }
     }
   }
 }
