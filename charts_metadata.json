@@ -3807,38 +3807,6 @@
         "sector": "TECHNOLOGY",
         "industry": "ELECTRONIC COMPONENTS"
       }
-    },
-    "IRWD": {
-      "presets": {
-        "Revenue": {
-          "updated": "Feb 11, 2026 11:11 PM"
-        },
-        "Costs": {
-          "updated": "Feb 11, 2026 11:11 PM"
-        },
-        "Cash": {
-          "updated": "Feb 11, 2026 11:11 PM"
-        },
-        "FCF": {
-          "updated": "Feb 11, 2026 11:11 PM"
-        },
-        "Assets": {
-          "updated": "Feb 11, 2026 11:11 PM"
-        },
-        "Buffet": {
-          "updated": "Feb 11, 2026 11:11 PM"
-        }
-      },
-      "last_updated": "2026-02-11T23:11:16.703503",
-      "company": {
-        "name": "Ironwood Pharmaceuticals Inc",
-        "market_cap": "$746.70M",
-        "market_cap_raw": 746695000.0,
-        "last_q_revenue": 122060000.0,
-        "description": "Ironwood Pharmaceuticals, Inc., a healthcare company, focuses on the development and commercialization of gastrointestinal (GI) products. The company is headquartered in Boston, Massachusetts.",
-        "sector": "HEALTHCARE",
-        "industry": "DRUG MANUFACTURERS - SPECIALTY & GENERIC"
-      }
     }
   }
 }
