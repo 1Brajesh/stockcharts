@@ -3072,38 +3072,6 @@
         "industry": "SPECIALTY RETAIL"
       }
     },
-    "JBL-SEC": {
-      "presets": {
-        "Revenue": {
-          "updated": "Feb 11, 2026 10:57 PM"
-        },
-        "Costs": {
-          "updated": "Feb 11, 2026 10:57 PM"
-        },
-        "Cash": {
-          "updated": "Feb 11, 2026 10:57 PM"
-        },
-        "FCF": {
-          "updated": "Feb 11, 2026 10:57 PM"
-        },
-        "Assets": {
-          "updated": "Feb 11, 2026 10:57 PM"
-        },
-        "Buffet": {
-          "updated": "Feb 11, 2026 10:57 PM"
-        }
-      },
-      "last_updated": "2026-02-11T22:57:01.858157",
-      "company": {
-        "name": "JABIL INC",
-        "market_cap": "N/A",
-        "market_cap_raw": null,
-        "last_q_revenue": 8305000000.0,
-        "description": "Financial data from SEC EDGAR for JABIL INC",
-        "sector": "",
-        "industry": ""
-      }
-    },
     "CCSI-SEC": {
       "presets": {
         "Revenue": {
