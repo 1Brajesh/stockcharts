@@ -3935,29 +3935,6 @@
         "sector": "TECHNOLOGY",
         "industry": "SEMICONDUCTOR EQUIPMENT & MATERIALS"
       }
-    },
-    "OBAI": {
-      "presets": {
-        "Revenue": {
-          "updated": "Feb 13, 2026 12:13 AM"
-        },
-        "Costs": {
-          "updated": "Feb 13, 2026 12:13 AM"
-        },
-        "Cash": {
-          "updated": "Feb 13, 2026 12:13 AM"
-        },
-        "FCF": {
-          "updated": "Feb 13, 2026 12:13 AM"
-        },
-        "Assets": {
-          "updated": "Feb 13, 2026 12:13 AM"
-        },
-        "Buffet": {
-          "updated": "Feb 13, 2026 12:13 AM"
-        }
-      },
-      "last_updated": "2026-02-13T00:13:07.041518"
     }
   }
 }
