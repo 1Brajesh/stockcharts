@@ -3935,6 +3935,38 @@
         "sector": "TECHNOLOGY",
         "industry": "SEMICONDUCTOR EQUIPMENT & MATERIALS"
       }
+    },
+    "RIVN": {
+      "presets": {
+        "Revenue": {
+          "updated": "Feb 13, 2026 12:47 AM"
+        },
+        "Costs": {
+          "updated": "Feb 13, 2026 12:47 AM"
+        },
+        "Cash": {
+          "updated": "Feb 13, 2026 12:47 AM"
+        },
+        "FCF": {
+          "updated": "Feb 13, 2026 12:47 AM"
+        },
+        "Assets": {
+          "updated": "Feb 13, 2026 12:47 AM"
+        },
+        "Buffet": {
+          "updated": "Feb 13, 2026 12:47 AM"
+        }
+      },
+      "last_updated": "2026-02-13T00:47:52.509903",
+      "company": {
+        "name": "Rivian Automotive Inc",
+        "market_cap": "$23.94B",
+        "market_cap_raw": 23942083000.0,
+        "last_q_revenue": 1558000000.0,
+        "description": "None",
+        "sector": "CONSUMER CYCLICAL",
+        "industry": "AUTO MANUFACTURERS"
+      }
     }
   }
 }
