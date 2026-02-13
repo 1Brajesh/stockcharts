@@ -5110,6 +5110,38 @@
         "sector": "HEALTHCARE",
         "industry": "DRUG MANUFACTURERS - SPECIALTY & GENERIC"
       }
+    },
+    "TLSA": {
+      "presets": {
+        "Revenue": {
+          "updated": "Feb 13, 2026 01:13 AM"
+        },
+        "Costs": {
+          "updated": "Feb 13, 2026 01:13 AM"
+        },
+        "Cash": {
+          "updated": "Feb 13, 2026 01:13 AM"
+        },
+        "FCF": {
+          "updated": "Feb 13, 2026 01:13 AM"
+        },
+        "Assets": {
+          "updated": "Feb 13, 2026 01:13 AM"
+        },
+        "Buffet": {
+          "updated": "Feb 13, 2026 01:13 AM"
+        }
+      },
+      "last_updated": "2026-02-13T01:13:00.437184",
+      "company": {
+        "name": "Tiziana Life Sciences Ltd",
+        "market_cap": "$174.30M",
+        "market_cap_raw": 174301000.0,
+        "last_q_revenue": null,
+        "description": "Tiziana Life Sciences Ltd (TLSA) is an innovative clinical-stage biotechnology company based in the UK, dedicated to the discovery and development of transformative therapeutic molecules and diagnostics aimed at addressing significant unmet medical needs within oncology and immunology. The company boasts a promising pipeline that includes advanced candidates targeting various cancers and autoimmune disorders, underpinned by its proprietary technologies designed to optimize patient outcomes. With a strong emphasis on scientific rigor and a strategic focus on efficient clinical trial management and regulatory navigation, Tiziana is poised to make a meaningful impact in the biopharmaceutical sector, positioning itself for sustainable growth and development.",
+        "sector": "HEALTHCARE",
+        "industry": "BIOTECHNOLOGY"
+      }
     }
   }
 }
