@@ -1571,25 +1571,25 @@
     "META": {
       "presets": {
         "Revenue": {
-          "updated": "Feb 11, 2026 10:57 PM"
+          "updated": "Feb 13, 2026 10:58 AM"
         },
         "Costs": {
-          "updated": "Feb 11, 2026 10:57 PM"
+          "updated": "Feb 13, 2026 10:58 AM"
         },
         "Cash": {
-          "updated": "Feb 11, 2026 10:57 PM"
+          "updated": "Feb 13, 2026 10:58 AM"
         },
         "FCF": {
-          "updated": "Feb 11, 2026 10:57 PM"
+          "updated": "Feb 13, 2026 10:58 AM"
         },
         "Assets": {
-          "updated": "Feb 11, 2026 10:57 PM"
+          "updated": "Feb 13, 2026 10:58 AM"
         },
         "Buffet": {
-          "updated": "Feb 11, 2026 10:57 PM"
+          "updated": "Feb 13, 2026 10:58 AM"
         }
       },
-      "last_updated": "2026-02-11T22:57:02.712835",
+      "last_updated": "2026-02-13T10:58:59.631523",
       "company": {
         "name": "Meta Platforms Inc.",
         "market_cap": "$1.62T",
