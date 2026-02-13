@@ -4447,29 +4447,6 @@
         "sector": "TECHNOLOGY",
         "industry": "INFORMATION TECHNOLOGY SERVICES"
       }
-    },
-    "LGID": {
-      "presets": {
-        "Revenue": {
-          "updated": "Feb 13, 2026 01:07 AM"
-        },
-        "Costs": {
-          "updated": "Feb 13, 2026 01:07 AM"
-        },
-        "Cash": {
-          "updated": "Feb 13, 2026 01:07 AM"
-        },
-        "FCF": {
-          "updated": "Feb 13, 2026 01:07 AM"
-        },
-        "Assets": {
-          "updated": "Feb 13, 2026 01:07 AM"
-        },
-        "Buffet": {
-          "updated": "Feb 13, 2026 01:07 AM"
-        }
-      },
-      "last_updated": "2026-02-13T01:07:35.466600"
     }
   }
 }
