@@ -3999,6 +3999,477 @@
         "sector": "CONSUMER CYCLICAL",
         "industry": "HOME IMPROVEMENT RETAIL"
       }
+    },
+    "AI": {
+      "presets": {
+        "Revenue": {
+          "updated": "Feb 13, 2026 01:07 AM"
+        },
+        "Costs": {
+          "updated": "Feb 13, 2026 01:07 AM"
+        },
+        "Cash": {
+          "updated": "Feb 13, 2026 01:07 AM"
+        },
+        "FCF": {
+          "updated": "Feb 13, 2026 01:07 AM"
+        },
+        "Assets": {
+          "updated": "Feb 13, 2026 01:07 AM"
+        },
+        "Buffet": {
+          "updated": "Feb 13, 2026 01:07 AM"
+        }
+      },
+      "last_updated": "2026-02-13T01:07:35.128391",
+      "company": {
+        "name": "C3 Ai Inc",
+        "market_cap": "$2.03B",
+        "market_cap_raw": 2032477000.0,
+        "last_q_revenue": 75147000.0,
+        "description": "C3.ai, Inc. (ticker: AI) stands at the forefront of the artificial intelligence sector, offering cutting-edge software solutions designed to facilitate digital transformation across various industries, including energy, manufacturing, and finance. The company's robust AI platform supports the creation and management of large-scale applications, harnessing advanced machine learning models to optimize efficiency and improve decision-making. C3.ai's innovative tools for predictive maintenance and data analytics are tailored to meet the growing demand for AI technologies, positioning the company as a key player in the enterprise landscape. With a focus on scalability and performance, C3.ai is poised to address the dynamic needs of organizations navigating an increasingly digital environment.",
+        "sector": "TECHNOLOGY",
+        "industry": "SOFTWARE - INFRASTRUCTURE"
+      }
+    },
+    "AVAV": {
+      "presets": {
+        "Revenue": {
+          "updated": "Feb 13, 2026 01:07 AM"
+        },
+        "Costs": {
+          "updated": "Feb 13, 2026 01:07 AM"
+        },
+        "Cash": {
+          "updated": "Feb 13, 2026 01:07 AM"
+        },
+        "FCF": {
+          "updated": "Feb 13, 2026 01:07 AM"
+        },
+        "Assets": {
+          "updated": "Feb 13, 2026 01:07 AM"
+        },
+        "Buffet": {
+          "updated": "Feb 13, 2026 01:07 AM"
+        }
+      },
+      "last_updated": "2026-02-13T01:07:35.151694",
+      "company": {
+        "name": "AeroVironment Inc",
+        "market_cap": "$18.17B",
+        "market_cap_raw": 18168332000.0,
+        "last_q_revenue": 472508000.0,
+        "description": "AeroVironment Inc. is a leading innovator in unmanned aircraft systems (UAS) and related technologies, primarily serving government agencies, defense contractors, and commercial sectors. Headquartered in Arlington, Virginia, the company excels in designing and developing a diverse array of aerial and ground-based robotic systems that significantly improve data gathering and situational awareness across various applications. With a strong emphasis on research and development, AeroVironment is well-positioned to capitalize on the growing need for advanced surveillance and reconnaissance solutions in an increasingly complex security landscape.",
+        "sector": "INDUSTRIALS",
+        "industry": "AEROSPACE & DEFENSE"
+      }
+    },
+    "BRO": {
+      "presets": {
+        "Revenue": {
+          "updated": "Feb 13, 2026 01:07 AM"
+        },
+        "Costs": {
+          "updated": "Feb 13, 2026 01:07 AM"
+        },
+        "Cash": {
+          "updated": "Feb 13, 2026 01:07 AM"
+        },
+        "FCF": {
+          "updated": "Feb 13, 2026 01:07 AM"
+        },
+        "Assets": {
+          "updated": "Feb 13, 2026 01:07 AM"
+        },
+        "Buffet": {
+          "updated": "Feb 13, 2026 01:07 AM"
+        }
+      },
+      "last_updated": "2026-02-13T01:07:35.168919",
+      "company": {
+        "name": "Brown & Brown Inc",
+        "market_cap": "$27.44B",
+        "market_cap_raw": 27439991000.0,
+        "last_q_revenue": 1606000000.0,
+        "description": "Brown & Brown, Inc. is a prominent insurance brokerage firm headquartered in Daytona Beach, Florida, providing a wide array of insurance products and services across domestic and international markets, including Bermuda, Canada, and the UK. Leveraging a robust network of independent agents, the company prioritizes innovation to deliver tailored insurance solutions that address diverse client needs in a dynamic market landscape. With a strategic emphasis on growth through acquisitions and a track record of strong operational performance, Brown & Brown is well-positioned to maintain its leadership role and capitalize on opportunities within the competitive insurance sector.",
+        "sector": "FINANCIAL SERVICES",
+        "industry": "INSURANCE BROKERS"
+      }
+    },
+    "COKE": {
+      "presets": {
+        "Revenue": {
+          "updated": "Feb 13, 2026 01:07 AM"
+        },
+        "Costs": {
+          "updated": "Feb 13, 2026 01:07 AM"
+        },
+        "Cash": {
+          "updated": "Feb 13, 2026 01:07 AM"
+        },
+        "FCF": {
+          "updated": "Feb 13, 2026 01:07 AM"
+        },
+        "Assets": {
+          "updated": "Feb 13, 2026 01:07 AM"
+        },
+        "Buffet": {
+          "updated": "Feb 13, 2026 01:07 AM"
+        }
+      },
+      "last_updated": "2026-02-13T01:07:35.195785",
+      "company": {
+        "name": "Coca-Cola Consolidated Inc.",
+        "market_cap": "$13.80B",
+        "market_cap_raw": 13797521000.0,
+        "last_q_revenue": 1888317000.0,
+        "description": "Coca-Cola Consolidated, Inc. (COKE), headquartered in Charlotte, North Carolina, stands as the largest independent bottler of Coca-Cola products in the United States. The company excels in the production, marketing, and distribution of a diverse portfolio of non-alcoholic beverages, leveraging a robust distribution network that solidifies its competitive advantage. By prioritizing operational efficiency and customer-centric approaches, Coca-Cola Consolidated maintains a strategic partnership with The Coca-Cola Company, positioning itself as a critical player in the beverage industry and driving ongoing growth and innovation.",
+        "sector": "CONSUMER DEFENSIVE",
+        "industry": "BEVERAGES - NON-ALCOHOLIC"
+      }
+    },
+    "CRNC": {
+      "presets": {
+        "Revenue": {
+          "updated": "Feb 13, 2026 01:07 AM"
+        },
+        "Costs": {
+          "updated": "Feb 13, 2026 01:07 AM"
+        },
+        "Cash": {
+          "updated": "Feb 13, 2026 01:07 AM"
+        },
+        "FCF": {
+          "updated": "Feb 13, 2026 01:07 AM"
+        },
+        "Assets": {
+          "updated": "Feb 13, 2026 01:07 AM"
+        },
+        "Buffet": {
+          "updated": "Feb 13, 2026 01:07 AM"
+        }
+      },
+      "last_updated": "2026-02-13T01:07:35.223064",
+      "company": {
+        "name": "Cerence\u00a0Inc",
+        "market_cap": "$555.95M",
+        "market_cap_raw": 555948000.0,
+        "last_q_revenue": 60639000.0,
+        "description": "Cerence Inc. is a premier innovator in AI-driven voice and navigation solutions for connected and autonomous vehicles, with its headquarters located in Burlington, Massachusetts. The company excels in delivering advanced software and cloud-based services complemented by intelligent virtual assistants, significantly enhancing user experiences within the automotive landscape. With a strong focus on safety, innovation, and seamless driver-vehicle interactions, Cerence is well-positioned to lead the transformation of mobility technology as the automotive industry embraces smart solutions. Its expertise in artificial intelligence is pivotal in shaping the future of transportation dynamics, providing a competitive edge in an increasingly tech-centric market.",
+        "sector": "TECHNOLOGY",
+        "industry": "SOFTWARE - APPLICATION"
+      }
+    },
+    "DKNG": {
+      "presets": {
+        "Revenue": {
+          "updated": "Feb 13, 2026 01:07 AM"
+        },
+        "Costs": {
+          "updated": "Feb 13, 2026 01:07 AM"
+        },
+        "Cash": {
+          "updated": "Feb 13, 2026 01:07 AM"
+        },
+        "FCF": {
+          "updated": "Feb 13, 2026 01:07 AM"
+        },
+        "Assets": {
+          "updated": "Feb 13, 2026 01:07 AM"
+        },
+        "Buffet": {
+          "updated": "Feb 13, 2026 01:07 AM"
+        }
+      },
+      "last_updated": "2026-02-13T01:07:35.247596",
+      "company": {
+        "name": "DraftKings Inc",
+        "market_cap": "$16.51B",
+        "market_cap_raw": 16506137000.0,
+        "last_q_revenue": 1144019000.0,
+        "description": "DraftKings Inc. is a leading digital sports entertainment and gaming company based in Boston, Massachusetts, recognized for its innovative online sports betting platform and daily fantasy sports offerings. The company leverages cutting-edge technology to engage a diverse audience of sports enthusiasts across various jurisdictions in the U.S., positioning itself at the forefront of the expanding regulated sports betting industry. As more states move towards legalizing sports wagering, DraftKings is strategically poised to capitalize on increasing consumer demand, aiming for sustained long-term growth and enhanced shareholder returns.",
+        "sector": "CONSUMER CYCLICAL",
+        "industry": "GAMBLING"
+      }
+    },
+    "DOCN": {
+      "presets": {
+        "Revenue": {
+          "updated": "Feb 13, 2026 01:07 AM"
+        },
+        "Costs": {
+          "updated": "Feb 13, 2026 01:07 AM"
+        },
+        "Cash": {
+          "updated": "Feb 13, 2026 01:07 AM"
+        },
+        "FCF": {
+          "updated": "Feb 13, 2026 01:07 AM"
+        },
+        "Assets": {
+          "updated": "Feb 13, 2026 01:07 AM"
+        },
+        "Buffet": {
+          "updated": "Feb 13, 2026 01:07 AM"
+        }
+      },
+      "last_updated": "2026-02-13T01:07:35.266954",
+      "company": {
+        "name": "DigitalOcean Holdings Inc",
+        "market_cap": "$4.42B",
+        "market_cap_raw": 4419070000.0,
+        "last_q_revenue": 229634000.0,
+        "description": "DigitalOcean Holdings, Inc. is a prominent cloud infrastructure provider focused on serving developers, startups, and small to medium-sized enterprises (SMBs) globally. Based in New York City, the company offers a comprehensive portfolio of services, such as scalable compute resources, managed databases, and Kubernetes solutions, all designed to streamline cloud adoption and boost developer efficiency. By emphasizing user-friendly tools and cost-effective pricing, DigitalOcean enables its clientele to drive innovation and maintain a competitive edge in the dynamic digital economy.",
+        "sector": "TECHNOLOGY",
+        "industry": "SOFTWARE - INFRASTRUCTURE"
+      }
+    },
+    "EDBL": {
+      "presets": {
+        "Revenue": {
+          "updated": "Feb 13, 2026 01:07 AM"
+        },
+        "Costs": {
+          "updated": "Feb 13, 2026 01:07 AM"
+        },
+        "Cash": {
+          "updated": "Feb 13, 2026 01:07 AM"
+        },
+        "FCF": {
+          "updated": "Feb 13, 2026 01:07 AM"
+        },
+        "Assets": {
+          "updated": "Feb 13, 2026 01:07 AM"
+        },
+        "Buffet": {
+          "updated": "Feb 13, 2026 01:07 AM"
+        }
+      },
+      "last_updated": "2026-02-13T01:07:35.285105",
+      "company": {
+        "name": "Edible Garden AG Inc",
+        "market_cap": "$1.98M",
+        "market_cap_raw": 1984600.0,
+        "last_q_revenue": 2817000.0,
+        "description": "Edible Garden AG Inc. is a pioneering player in the controlled environment agriculture sector, based in Belvidere, New Jersey. The company focuses on the sustainable cultivation of fresh organic produce, employing cutting-edge farming techniques to enhance crop yields and quality while reducing environmental impact. With a strong emphasis on supply chain sustainability and consumer health, Edible Garden is well-positioned to meet the growing demand for organic products in a rapidly evolving market. Its commitment to innovative agricultural practices and adherence to stringent quality standards make it an attractive investment opportunity for institutional investors interested in the convergence of sustainability and food production innovation.",
+        "sector": "CONSUMER DEFENSIVE",
+        "industry": "FARM PRODUCTS"
+      }
+    },
+    "ERIC": {
+      "presets": {
+        "Revenue": {
+          "updated": "Feb 13, 2026 01:07 AM"
+        },
+        "Costs": {
+          "updated": "Feb 13, 2026 01:07 AM"
+        },
+        "Cash": {
+          "updated": "Feb 13, 2026 01:07 AM"
+        },
+        "FCF": {
+          "updated": "Feb 13, 2026 01:07 AM"
+        },
+        "Assets": {
+          "updated": "Feb 13, 2026 01:07 AM"
+        },
+        "Buffet": {
+          "updated": "Feb 13, 2026 01:07 AM"
+        }
+      },
+      "last_updated": "2026-02-13T01:07:35.306951",
+      "company": {
+        "name": "Telefonaktiebolaget LM Ericsson B ADR",
+        "market_cap": "$32.27B",
+        "market_cap_raw": 32266215000.0,
+        "last_q_revenue": 55338681000.0,
+        "description": "Telefonaktiebolaget LM Ericsson (ADR) is a leading global provider of telecommunications infrastructure, services, and software solutions, headquartered in Stockholm, Sweden. With a strong focus on innovation, Ericsson is a pioneer in the deployment of 5G networks and Internet of Things (IoT) technologies, positioning itself as a critical enabler of digital transformation across various industries. The company is dedicated to sustainable development and enhancing customer experiences, strategically capitalizing on the growing demand for advanced communication technologies. As a key player in the telecommunications sector, Ericsson is well-positioned to navigate and excel in the dynamic market landscape.",
+        "sector": "TECHNOLOGY",
+        "industry": "COMMUNICATION EQUIPMENT"
+      }
+    },
+    "GS": {
+      "presets": {
+        "Revenue": {
+          "updated": "Feb 13, 2026 01:07 AM"
+        },
+        "Costs": {
+          "updated": "Feb 13, 2026 01:07 AM"
+        },
+        "Cash": {
+          "updated": "Feb 13, 2026 01:07 AM"
+        },
+        "FCF": {
+          "updated": "Feb 13, 2026 01:07 AM"
+        },
+        "Assets": {
+          "updated": "Feb 13, 2026 01:07 AM"
+        },
+        "Buffet": {
+          "updated": "Feb 13, 2026 01:07 AM"
+        }
+      },
+      "last_updated": "2026-02-13T01:07:35.333095",
+      "company": {
+        "name": "Goldman Sachs Group Inc",
+        "market_cap": "$270.08B",
+        "market_cap_raw": 270081704000.0,
+        "last_q_revenue": 32154000000.0,
+        "description": "Goldman Sachs Group, Inc. is a leading global investment banking, securities, and investment management firm based in New York City, recognized for its profound influence in capital markets. Catering to a broad range of institutional investors and corporations, Goldman Sachs excels in providing strategic advisory services, securities underwriting, and comprehensive asset management. The firm\u2019s commitment to risk management and its significant global presence enable it to navigate complex market environments effectively. Leveraging advanced technology and extensive industry expertise, Goldman Sachs continually delivers innovative financial solutions that drive superior client outcomes and facilitate strategic transactions.",
+        "sector": "FINANCIAL SERVICES",
+        "industry": "CAPITAL MARKETS"
+      }
+    },
+    "GTBP": {
+      "presets": {
+        "Revenue": {
+          "updated": "Feb 13, 2026 01:07 AM"
+        },
+        "Costs": {
+          "updated": "Feb 13, 2026 01:07 AM"
+        },
+        "Cash": {
+          "updated": "Feb 13, 2026 01:07 AM"
+        },
+        "FCF": {
+          "updated": "Feb 13, 2026 01:07 AM"
+        },
+        "Assets": {
+          "updated": "Feb 13, 2026 01:07 AM"
+        },
+        "Buffet": {
+          "updated": "Feb 13, 2026 01:07 AM"
+        }
+      },
+      "last_updated": "2026-02-13T01:07:35.362565",
+      "company": {
+        "name": "GT Biopharma Inc",
+        "market_cap": "$7.02M",
+        "market_cap_raw": 7019800.0,
+        "last_q_revenue": 0.0,
+        "description": "GT Biopharma Inc. (GTBP) is an innovative clinical-stage biopharmaceutical company based in Beverly Hills, California, dedicated to advancing immuno-oncology treatments through its proprietary Tri-specific Killer Engager (TriKE) technology. This cutting-edge platform is designed to enhance the immune system's ability to target and destroy cancer cells, positioning GT Biopharma at the forefront of one of the most dynamic sectors in oncology. With a strong pipeline of candidates aimed at addressing significant unmet medical needs, the company is well-equipped to impact treatment paradigms and improve patient outcomes in the fight against cancer. As it progresses through clinical trials, GT Biopharma demonstrates substantial promise for revolutionizing cancer therapy.",
+        "sector": "HEALTHCARE",
+        "industry": "BIOTECHNOLOGY"
+      }
+    },
+    "HMC": {
+      "presets": {
+        "Revenue": {
+          "updated": "Feb 13, 2026 01:07 AM"
+        },
+        "Costs": {
+          "updated": "Feb 13, 2026 01:07 AM"
+        },
+        "Cash": {
+          "updated": "Feb 13, 2026 01:07 AM"
+        },
+        "FCF": {
+          "updated": "Feb 13, 2026 01:07 AM"
+        },
+        "Assets": {
+          "updated": "Feb 13, 2026 01:07 AM"
+        },
+        "Buffet": {
+          "updated": "Feb 13, 2026 01:07 AM"
+        }
+      },
+      "last_updated": "2026-02-13T01:07:35.382751",
+      "company": {
+        "name": "Honda Motor Co Ltd ADR",
+        "market_cap": "$39.08B",
+        "market_cap_raw": 39081202000.0,
+        "last_q_revenue": 5292412000000.0,
+        "description": "Honda Motor Co., Ltd. (HMC) is a leading global automotive and motorcycle manufacturer based in Tokyo, Japan, well-known for its commitment to innovation and sustainability. The company is actively transitioning towards electrification, backed by a comprehensive portfolio that includes vehicles, power equipment, and advanced technologies. Honda's strategic global presence across North America, Europe, and Asia, combined with its rigorous quality standards and efficient supply chain, ensures its competitive edge in the dynamic automotive market. With a focus on environmental initiatives and cutting-edge mobility solutions, Honda continues to redefine the future of transportation.",
+        "sector": "CONSUMER CYCLICAL",
+        "industry": "AUTO MANUFACTURERS"
+      }
+    },
+    "HWM": {
+      "presets": {
+        "Revenue": {
+          "updated": "Feb 13, 2026 01:07 AM"
+        },
+        "Costs": {
+          "updated": "Feb 13, 2026 01:07 AM"
+        },
+        "Cash": {
+          "updated": "Feb 13, 2026 01:07 AM"
+        },
+        "FCF": {
+          "updated": "Feb 13, 2026 01:07 AM"
+        },
+        "Assets": {
+          "updated": "Feb 13, 2026 01:07 AM"
+        },
+        "Buffet": {
+          "updated": "Feb 13, 2026 01:07 AM"
+        }
+      },
+      "last_updated": "2026-02-13T01:07:35.409406",
+      "company": {
+        "name": "Howmet Aerospace\u00a0Inc",
+        "market_cap": "$88.41B",
+        "market_cap_raw": 88405098000.0,
+        "last_q_revenue": 2089000000.0,
+        "description": "Howmet Aerospace Inc. is a prominent player in the aerospace and transportation sectors, headquartered in Pittsburgh, Pennsylvania. The company focuses on delivering advanced engineered solutions, specifically high-performance components for jet engines, including titanium structures and critical fasteners, alongside forged aluminum wheels for heavy-duty vehicles. With a strong emphasis on innovation and sustainability, Howmet Aerospace integrates state-of-the-art technology to improve operational efficiency and address the dynamic needs of its diverse global customer base. As a key industry leader, Howmet Aerospace is instrumental in shaping the future of aviation and transportation.",
+        "sector": "INDUSTRIALS",
+        "industry": "AEROSPACE & DEFENSE"
+      }
+    },
+    "INFY": {
+      "presets": {
+        "Revenue": {
+          "updated": "Feb 13, 2026 01:07 AM"
+        },
+        "Costs": {
+          "updated": "Feb 13, 2026 01:07 AM"
+        },
+        "Cash": {
+          "updated": "Feb 13, 2026 01:07 AM"
+        },
+        "FCF": {
+          "updated": "Feb 13, 2026 01:07 AM"
+        },
+        "Assets": {
+          "updated": "Feb 13, 2026 01:07 AM"
+        },
+        "Buffet": {
+          "updated": "Feb 13, 2026 01:07 AM"
+        }
+      },
+      "last_updated": "2026-02-13T01:07:35.434772",
+      "company": {
+        "name": "Infosys Ltd ADR",
+        "market_cap": "$70.88B",
+        "market_cap_raw": 70878503000.0,
+        "last_q_revenue": 5076000000.0,
+        "description": "Infosys Ltd ADR, based in Bengaluru, India, is a premier global leader in digital consulting, technology, and outsourcing services, with a robust focus on artificial intelligence, automation, and digital transformation. Servicing a diverse client base spanning North America, Europe, and beyond, Infosys combines innovative solutions with deep industry expertise to drive business success. The company is also deeply committed to sustainability and corporate responsibility, continually investing in talent development and research initiatives. With a solid reputation for reliability and performance, Infosys stands as a trusted partner for enterprises navigating the complexities of the digital era.",
+        "sector": "TECHNOLOGY",
+        "industry": "INFORMATION TECHNOLOGY SERVICES"
+      }
+    },
+    "LGID": {
+      "presets": {
+        "Revenue": {
+          "updated": "Feb 13, 2026 01:07 AM"
+        },
+        "Costs": {
+          "updated": "Feb 13, 2026 01:07 AM"
+        },
+        "Cash": {
+          "updated": "Feb 13, 2026 01:07 AM"
+        },
+        "FCF": {
+          "updated": "Feb 13, 2026 01:07 AM"
+        },
+        "Assets": {
+          "updated": "Feb 13, 2026 01:07 AM"
+        },
+        "Buffet": {
+          "updated": "Feb 13, 2026 01:07 AM"
+        }
+      },
+      "last_updated": "2026-02-13T01:07:35.466600"
     }
   }
 }
