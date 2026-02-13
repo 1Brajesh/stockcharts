@@ -3967,6 +3967,38 @@
         "sector": "CONSUMER CYCLICAL",
         "industry": "AUTO MANUFACTURERS"
       }
+    },
+    "HD": {
+      "presets": {
+        "Revenue": {
+          "updated": "Feb 13, 2026 12:50 AM"
+        },
+        "Costs": {
+          "updated": "Feb 13, 2026 12:50 AM"
+        },
+        "Cash": {
+          "updated": "Feb 13, 2026 12:50 AM"
+        },
+        "FCF": {
+          "updated": "Feb 13, 2026 12:50 AM"
+        },
+        "Assets": {
+          "updated": "Feb 13, 2026 12:50 AM"
+        },
+        "Buffet": {
+          "updated": "Feb 13, 2026 12:50 AM"
+        }
+      },
+      "last_updated": "2026-02-13T00:50:35.873662",
+      "company": {
+        "name": "The Home Depot Inc",
+        "market_cap": "$343.42B",
+        "market_cap_raw": 343421583000.0,
+        "last_q_revenue": 41352000000.0,
+        "description": "The Home Depot, Inc. (HD) stands as the premier home improvement retailer in the U.S., operating over 2,200 stores across North America. Based in Cobb County, Georgia, the company caters to a varied clientele, from professional contractors to DIY enthusiasts, offering an extensive selection of tools, construction products, and services. With a commitment to operational excellence, Home Depot leverages its strong supply chain and rapidly growing e-commerce platform to enhance customer accessibility and engagement. The company prioritizes innovation and exceptional customer service, positioning itself for sustainable growth while aiming to deliver long-term value to its shareholders.",
+        "sector": "CONSUMER CYCLICAL",
+        "industry": "HOME IMPROVEMENT RETAIL"
+      }
     }
   }
 }

@@ -213,22 +213,58 @@
             text-align: center;
         }
         .portfolio-section {
-            margin-bottom: 32px;
+            margin-bottom: 16px;
+            border: 1px solid #30363d;
+            border-radius: 6px;
+            background: #0d1117;
         }
-        .portfolio-section h2 {
+        .portfolio-section summary {
+            cursor: pointer;
+            padding: 12px 16px;
             color: #c9d1d9;
             font-size: 18px;
-            margin: 0 0 16px 0;
-            padding-bottom: 8px;
-            border-bottom: 1px solid #30363d;
+            font-weight: 600;
+            list-style: none;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            user-select: none;
+            border-radius: 6px;
+            transition: background 0.15s;
         }
-        .portfolio-section h2 .ticker-count {
+        .portfolio-section summary:hover {
+            background: #161b22;
+        }
+        .portfolio-section summary::-webkit-details-marker { display: none; }
+        .portfolio-section summary::before {
+            content: "\25B6";
+            font-size: 12px;
+            color: #8b949e;
+            transition: transform 0.15s;
+            display: inline-block;
+        }
+        .portfolio-section[open] summary::before {
+            transform: rotate(90deg);
+        }
+        .portfolio-section[open] summary {
+            border-bottom: 1px solid #30363d;
+            border-radius: 6px 6px 0 0;
+        }
+        .portfolio-section .ticker-grid {
+            padding: 16px;
+        }
+        .portfolio-section .ticker-count {
             color: #8b949e;
             font-weight: normal;
             font-size: 14px;
         }
-        .portfolio-section.other h2 {
+        .portfolio-section.other .group-title {
             color: #8b949e;
+        }
+        .accordion-controls {
+            display: flex;
+            justify-content: flex-end;
+            margin-bottom: 16px;
         }
     </style>
 </head>
@@ -236,7 +272,7 @@
     <div class="container">
         <header>
             <h1>Stock Charts</h1>
-            <div class="subtitle">Last updated: Feb 13, 2026 12:49 AM</div>
+            <div class="subtitle">Last updated: Feb 13, 2026 12:50 AM</div>
         </header>
 
         <nav class="nav">
@@ -246,11 +282,15 @@
             <a href="mfs.html">Mutual Funds</a>
         </nav>
 
-        <div class="count">124 tickers</div>
+        <div class="count">125 tickers</div>
+
+        <div class="accordion-controls">
+            <button class="sort-btn" id="toggle-all" onclick="toggleAll()">Expand All</button>
+        </div>
 
         
-        <div class="portfolio-section">
-            <h2>Archana <span class="ticker-count">(1)</span></h2>
+        <details class="portfolio-section" data-group="archana">
+            <summary><span class="group-title">Archana</span> <span class="ticker-count">(1)</span></summary>
             <div class="ticker-grid">
                 <a href="HYMC.html" class="ticker-card" data-symbol="HYMC" data-be="0">
                 <div class="ticker-row">
@@ -260,10 +300,10 @@
                 <div class="company-name">Hycroft Mining Holding Corporation</div>
             </a>
             </div>
-        </div>
+        </details>
         
-        <div class="portfolio-section">
-            <h2>Auto <span class="ticker-count">(5)</span></h2>
+        <details class="portfolio-section" data-group="auto">
+            <summary><span class="group-title">Auto</span> <span class="ticker-count">(5)</span></summary>
             <div class="ticker-grid">
                 <a href="F.html" class="ticker-card" data-symbol="F" data-be="1">
                 <div class="ticker-row">
@@ -297,10 +337,10 @@
                 <div class="company-name">Tesla Inc</div>
             </a>
             </div>
-        </div>
+        </details>
         
-        <div class="portfolio-section">
-            <h2>Bny50B <span class="ticker-count">(8)</span></h2>
+        <details class="portfolio-section" data-group="bny50b">
+            <summary><span class="group-title">Bny50B</span> <span class="ticker-count">(8)</span></summary>
             <div class="ticker-grid">
                 <a href="BBY.html" class="ticker-card" data-symbol="BBY" data-be="1">
                 <div class="ticker-row">
@@ -352,10 +392,10 @@
                 <div class="company-name">Zoom Video Communications Inc</div>
             </a>
             </div>
-        </div>
+        </details>
         
-        <div class="portfolio-section">
-            <h2>Bny50B2 <span class="ticker-count">(4)</span></h2>
+        <details class="portfolio-section" data-group="bny50b2">
+            <summary><span class="group-title">Bny50B2</span> <span class="ticker-count">(4)</span></summary>
             <div class="ticker-grid">
                 <a href="ADBE.html" class="ticker-card" data-symbol="ADBE" data-be="24">
                 <div class="ticker-row">
@@ -383,10 +423,10 @@
                 <div class="company-name">Johnson &amp; Johnson</div>
             </a>
             </div>
-        </div>
+        </details>
         
-        <div class="portfolio-section">
-            <h2>Bny50M <span class="ticker-count">(10)</span></h2>
+        <details class="portfolio-section" data-group="bny50m">
+            <summary><span class="group-title">Bny50M</span> <span class="ticker-count">(10)</span></summary>
             <div class="ticker-grid">
                 <a href="AMCX.html" class="ticker-card" data-symbol="AMCX" data-be="1">
                 <div class="ticker-row">
@@ -450,10 +490,10 @@
                 <div class="company-name">Travelzoo</div>
             </a>
             </div>
-        </div>
+        </details>
         
-        <div class="portfolio-section">
-            <h2>Bridget <span class="ticker-count">(2)</span></h2>
+        <details class="portfolio-section" data-group="bridget">
+            <summary><span class="group-title">Bridget</span> <span class="ticker-count">(2)</span></summary>
             <div class="ticker-grid">
                 <a href="IRWD.html" class="ticker-card" data-symbol="IRWD" data-be="6">
                 <div class="ticker-row">
@@ -469,10 +509,10 @@
                 <div class="company-name">Transocean Ltd</div>
             </a>
             </div>
-        </div>
+        </details>
         
-        <div class="portfolio-section">
-            <h2>Charlie <span class="ticker-count">(24)</span></h2>
+        <details class="portfolio-section" data-group="charlie">
+            <summary><span class="group-title">Charlie</span> <span class="ticker-count">(24)</span></summary>
             <div class="ticker-grid">
                 <a href="ADBE.html" class="ticker-card" data-symbol="ADBE" data-be="24">
                 <div class="ticker-row">
@@ -620,10 +660,10 @@
                 <div class="company-name">UnitedHealth Group Incorporated</div>
             </a>
             </div>
-        </div>
+        </details>
         
-        <div class="portfolio-section">
-            <h2>Cyber <span class="ticker-count">(4)</span></h2>
+        <details class="portfolio-section" data-group="cyber">
+            <summary><span class="group-title">Cyber</span> <span class="ticker-count">(4)</span></summary>
             <div class="ticker-grid">
                 <a href="CRWD.html" class="ticker-card glow" data-symbol="CRWD" data-be="98">
                 <div class="ticker-row">
@@ -651,10 +691,10 @@
                 <div class="company-name">Zscaler Inc</div>
             </a>
             </div>
-        </div>
+        </details>
         
-        <div class="portfolio-section">
-            <h2>M7 <span class="ticker-count">(7)</span></h2>
+        <details class="portfolio-section" data-group="m7">
+            <summary><span class="group-title">M7</span> <span class="ticker-count">(7)</span></summary>
             <div class="ticker-grid">
                 <a href="AAPL.html" class="ticker-card gold-border" data-symbol="AAPL" data-be="28">
                 <div class="ticker-row">
@@ -700,10 +740,10 @@
                 <div class="company-name">Tesla Inc</div>
             </a>
             </div>
-        </div>
+        </details>
         
-        <div class="portfolio-section">
-            <h2>Main <span class="ticker-count">(15)</span></h2>
+        <details class="portfolio-section" data-group="main">
+            <summary><span class="group-title">Main</span> <span class="ticker-count">(15)</span></summary>
             <div class="ticker-grid">
                 <a href="ACHR.html" class="ticker-card" data-symbol="ACHR" data-be="0">
                 <div class="ticker-row">
@@ -797,10 +837,10 @@
                 <div class="company-name">Upstart Holdings Inc</div>
             </a>
             </div>
-        </div>
+        </details>
         
-        <div class="portfolio-section">
-            <h2>Nash <span class="ticker-count">(8)</span></h2>
+        <details class="portfolio-section" data-group="nash">
+            <summary><span class="group-title">Nash</span> <span class="ticker-count">(8)</span></summary>
             <div class="ticker-grid">
                 <a href="ANET.html" class="ticker-card red-border-right" data-symbol="ANET" data-be="70">
                 <div class="ticker-row">
@@ -852,10 +892,10 @@
                 <div class="company-name">Zscaler Inc</div>
             </a>
             </div>
-        </div>
+        </details>
         
-        <div class="portfolio-section">
-            <h2>Quantum <span class="ticker-count">(3)</span></h2>
+        <details class="portfolio-section" data-group="quantum">
+            <summary><span class="group-title">Quantum</span> <span class="ticker-count">(3)</span></summary>
             <div class="ticker-grid">
                 <a href="IONQ.html" class="ticker-card owned green-border-right" data-symbol="IONQ" data-be="403">
                 <div class="ticker-row">
@@ -877,10 +917,10 @@
                 <div class="company-name">Rigetti Computing Inc</div>
             </a>
             </div>
-        </div>
+        </details>
         
-        <div class="portfolio-section">
-            <h2>Robots <span class="ticker-count">(4)</span></h2>
+        <details class="portfolio-section" data-group="robots">
+            <summary><span class="group-title">Robots</span> <span class="ticker-count">(4)</span></summary>
             <div class="ticker-grid">
                 <a href="ISRG.html" class="ticker-card" data-symbol="ISRG" data-be="60">
                 <div class="ticker-row">
@@ -908,10 +948,10 @@
                 <div class="company-name">Teradyne Inc</div>
             </a>
             </div>
-        </div>
+        </details>
         
-        <div class="portfolio-section">
-            <h2>Sas <span class="ticker-count">(4)</span></h2>
+        <details class="portfolio-section" data-group="sas">
+            <summary><span class="group-title">Sas</span> <span class="ticker-count">(4)</span></summary>
             <div class="ticker-grid">
                 <a href="ADBE.html" class="ticker-card" data-symbol="ADBE" data-be="24">
                 <div class="ticker-row">
@@ -939,10 +979,10 @@
                 <div class="company-name">Atlassian Corp Plc</div>
             </a>
             </div>
-        </div>
+        </details>
         
-        <div class="portfolio-section">
-            <h2>Storage <span class="ticker-count">(3)</span></h2>
+        <details class="portfolio-section" data-group="storage">
+            <summary><span class="group-title">Storage</span> <span class="ticker-count">(3)</span></summary>
             <div class="ticker-grid">
                 <a href="SNDK.html" class="ticker-card" data-symbol="SNDK" data-be="29">
                 <div class="ticker-row">
@@ -964,10 +1004,10 @@
                 <div class="company-name">Western Digital Corporation</div>
             </a>
             </div>
-        </div>
+        </details>
         
-        <div class="portfolio-section">
-            <h2>Tsy <span class="ticker-count">(5)</span></h2>
+        <details class="portfolio-section" data-group="tsy">
+            <summary><span class="group-title">Tsy</span> <span class="ticker-count">(5)</span></summary>
             <div class="ticker-grid">
                 <a href="CRWV.html" class="ticker-card cyan-border-right" data-symbol="CRWV" data-be="44">
                 <div class="ticker-row">
@@ -1001,10 +1041,10 @@
                 <div class="company-name">Symbotic Inc</div>
             </a>
             </div>
-        </div>
+        </details>
         
-        <div class="portfolio-section other">
-            <h2>Other <span class="ticker-count">(32)</span></h2>
+        <details class="portfolio-section other" data-group="other">
+            <summary><span class="group-title">Other</span> <span class="ticker-count">(33)</span></summary>
             <div class="ticker-grid">
                 <a href="ACI.html" class="ticker-card" data-symbol="ACI" data-be="1">
                 <div class="ticker-row">
@@ -1054,6 +1094,12 @@
                     <span class="market-cap">$494.48M</span>
                 </div>
                 <div class="company-name">Gravity Co Ltd</div>
+            </a><a href="HD.html" class="ticker-card" data-symbol="HD" data-be="8">
+                <div class="ticker-row">
+                    <span class="ticker-symbol">HD<span class="be-ratio">8x</span></span>
+                    <span class="market-cap">$343.42B</span>
+                </div>
+                <div class="company-name">The Home Depot Inc</div>
             </a><a href="HPE.html" class="ticker-card" data-symbol="HPE" data-be="3">
                 <div class="ticker-row">
                     <span class="ticker-symbol">HPE<span class="be-ratio">3x</span></span>
@@ -1200,13 +1246,58 @@
                 <div class="company-name">Walmart Inc. Common Stock</div>
             </a>
             </div>
-        </div>
+        </details>
         
 
         <footer>
             Generated by StocksFin
         </footer>
     </div>
+    <script>
+    const STORAGE_KEY = 'portfolios-expanded';
+
+    function saveState() {
+        const open = [];
+        document.querySelectorAll('details.portfolio-section[open]').forEach(d => {
+            open.push(d.dataset.group);
+        });
+        localStorage.setItem(STORAGE_KEY, JSON.stringify(open));
+        updateToggleBtn();
+    }
+
+    function restoreState() {
+        try {
+            const open = JSON.parse(localStorage.getItem(STORAGE_KEY));
+            if (Array.isArray(open) && open.length) {
+                open.forEach(g => {
+                    const el = document.querySelector('details[data-group="' + g + '"]');
+                    if (el) el.open = true;
+                });
+            }
+        } catch(e) {}
+        updateToggleBtn();
+    }
+
+    function updateToggleBtn() {
+        const all = document.querySelectorAll('details.portfolio-section');
+        const closed = document.querySelectorAll('details.portfolio-section:not([open])');
+        const btn = document.getElementById('toggle-all');
+        if (btn) btn.textContent = closed.length === 0 && all.length ? 'Collapse All' : 'Expand All';
+    }
+
+    function toggleAll() {
+        const all = document.querySelectorAll('details.portfolio-section');
+        const anyClosed = document.querySelectorAll('details.portfolio-section:not([open])').length > 0;
+        all.forEach(d => d.open = anyClosed);
+        saveState();
+    }
+
+    document.querySelectorAll('details.portfolio-section').forEach(d => {
+        d.addEventListener('toggle', saveState);
+    });
+
+    restoreState();
+    </script>
 
 <script data-goatcounter="https://stocksfin.goatcounter.com/count"
         async src="//gc.zgo.at/count.js"></script>
