@@ -5142,6 +5142,70 @@
         "sector": "HEALTHCARE",
         "industry": "BIOTECHNOLOGY"
       }
+    },
+    "HPQ": {
+      "presets": {
+        "Revenue": {
+          "updated": "Feb 13, 2026 01:15 AM"
+        },
+        "Costs": {
+          "updated": "Feb 13, 2026 01:15 AM"
+        },
+        "Cash": {
+          "updated": "Feb 13, 2026 01:15 AM"
+        },
+        "FCF": {
+          "updated": "Feb 13, 2026 01:15 AM"
+        },
+        "Assets": {
+          "updated": "Feb 13, 2026 01:15 AM"
+        },
+        "Buffet": {
+          "updated": "Feb 13, 2026 01:15 AM"
+        }
+      },
+      "last_updated": "2026-02-13T01:15:05.736384",
+      "company": {
+        "name": "HP Inc",
+        "market_cap": "$18.47B",
+        "market_cap_raw": 18469708000.0,
+        "last_q_revenue": 14639000000.0,
+        "description": "HP Inc. is an American multinational information technology company headquartered in Palo Alto, California, that develops personal computers (PCs), printers and related supplies, as well as 3D printing solutions.",
+        "sector": "TECHNOLOGY",
+        "industry": "COMPUTER HARDWARE"
+      }
+    },
+    "IPGP": {
+      "presets": {
+        "Revenue": {
+          "updated": "Feb 13, 2026 01:15 AM"
+        },
+        "Costs": {
+          "updated": "Feb 13, 2026 01:15 AM"
+        },
+        "Cash": {
+          "updated": "Feb 13, 2026 01:15 AM"
+        },
+        "FCF": {
+          "updated": "Feb 13, 2026 01:15 AM"
+        },
+        "Assets": {
+          "updated": "Feb 13, 2026 01:15 AM"
+        },
+        "Buffet": {
+          "updated": "Feb 13, 2026 01:15 AM"
+        }
+      },
+      "last_updated": "2026-02-13T01:15:05.764835",
+      "company": {
+        "name": "IPG Photonics Corporation",
+        "market_cap": "$4.68B",
+        "market_cap_raw": 4682189000.0,
+        "last_q_revenue": 250792000.0,
+        "description": "IPG Photonics is a manufacturer of fiber lasers.",
+        "sector": "TECHNOLOGY",
+        "industry": "SEMICONDUCTOR EQUIPMENT & MATERIALS"
+      }
     }
   }
 }
