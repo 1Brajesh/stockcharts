@@ -2339,25 +2339,25 @@
     "STX": {
       "presets": {
         "Revenue": {
-          "updated": "Feb 11, 2026 10:57 PM"
+          "updated": "Feb 13, 2026 12:13 AM"
         },
         "Costs": {
-          "updated": "Feb 11, 2026 10:57 PM"
+          "updated": "Feb 13, 2026 12:13 AM"
         },
         "Cash": {
-          "updated": "Feb 11, 2026 10:57 PM"
+          "updated": "Feb 13, 2026 12:13 AM"
         },
         "FCF": {
-          "updated": "Feb 11, 2026 10:57 PM"
+          "updated": "Feb 13, 2026 12:13 AM"
         },
         "Assets": {
-          "updated": "Feb 11, 2026 10:57 PM"
+          "updated": "Feb 13, 2026 12:13 AM"
         },
         "Buffet": {
-          "updated": "Feb 11, 2026 10:57 PM"
+          "updated": "Feb 13, 2026 12:13 AM"
         }
       },
-      "last_updated": "2026-02-11T22:57:04.687394",
+      "last_updated": "2026-02-13T00:13:06.978988",
       "company": {
         "name": "Seagate Technology PLC",
         "market_cap": "$71.09B",
@@ -3839,6 +3839,125 @@
         "sector": "INDUSTRIALS",
         "industry": "SECURITY & PROTECTION SERVICES"
       }
+    },
+    "WDC": {
+      "presets": {
+        "Revenue": {
+          "updated": "Feb 13, 2026 12:13 AM"
+        },
+        "Costs": {
+          "updated": "Feb 13, 2026 12:13 AM"
+        },
+        "Cash": {
+          "updated": "Feb 13, 2026 12:13 AM"
+        },
+        "FCF": {
+          "updated": "Feb 13, 2026 12:13 AM"
+        },
+        "Assets": {
+          "updated": "Feb 13, 2026 12:13 AM"
+        },
+        "Buffet": {
+          "updated": "Feb 13, 2026 12:13 AM"
+        }
+      },
+      "last_updated": "2026-02-13T00:13:06.933639",
+      "company": {
+        "name": "Western Digital Corporation",
+        "market_cap": "$93.59B",
+        "market_cap_raw": 93591511000.0,
+        "last_q_revenue": 3017000000.0,
+        "description": "Western Digital Corporation (WDC, commonly known as Western Digital or WD) is an American computer hard disk drive manufacturer and data storage company, headquartered in San Jose, California. It designs, manufactures and sells data technology products, including storage devices, data center systems and cloud storage services.",
+        "sector": "TECHNOLOGY",
+        "industry": "COMPUTER HARDWARE"
+      }
+    },
+    "SNDK": {
+      "presets": {
+        "Revenue": {
+          "updated": "Feb 13, 2026 12:13 AM"
+        },
+        "Costs": {
+          "updated": "Feb 13, 2026 12:13 AM"
+        },
+        "Cash": {
+          "updated": "Feb 13, 2026 12:13 AM"
+        },
+        "FCF": {
+          "updated": "Feb 13, 2026 12:13 AM"
+        },
+        "Assets": {
+          "updated": "Feb 13, 2026 12:13 AM"
+        },
+        "Buffet": {
+          "updated": "Feb 13, 2026 12:13 AM"
+        }
+      },
+      "last_updated": "2026-02-13T00:13:06.963374",
+      "company": {
+        "name": "Sandisk Corp",
+        "market_cap": "$88.44B",
+        "market_cap_raw": 88442962000.0,
+        "last_q_revenue": 3025000000.0,
+        "description": "Sandisk Corporation (Ticker: SNDK) is a U.S.-based technology company that develops, manufactures, and sells data storage products and solutions built on NAND flash memory technology, including solid-state drives (SSDs), embedded storage, memory cards, and USB flash drives for consumer, enterprise, and cloud computing markets.",
+        "sector": "TECHNOLOGY",
+        "industry": "COMPUTER HARDWARE"
+      }
+    },
+    "TER": {
+      "presets": {
+        "Revenue": {
+          "updated": "Feb 13, 2026 12:13 AM"
+        },
+        "Costs": {
+          "updated": "Feb 13, 2026 12:13 AM"
+        },
+        "Cash": {
+          "updated": "Feb 13, 2026 12:13 AM"
+        },
+        "FCF": {
+          "updated": "Feb 13, 2026 12:13 AM"
+        },
+        "Assets": {
+          "updated": "Feb 13, 2026 12:13 AM"
+        },
+        "Buffet": {
+          "updated": "Feb 13, 2026 12:13 AM"
+        }
+      },
+      "last_updated": "2026-02-13T00:13:07.009877",
+      "company": {
+        "name": "Teradyne Inc",
+        "market_cap": "$32.45B",
+        "market_cap_raw": 32452592000.0,
+        "last_q_revenue": 769210000.0,
+        "description": "Teradyne, Inc. is a prominent American provider of automated test equipment (ATE) and connectivity solutions, based in North Reading, Massachusetts. The company focuses on delivering innovative testing solutions for key sectors including semiconductor, electronics, and automotive industries, thereby ensuring the performance and reliability of a diverse range of electronic devices. With a robust emphasis on technological advancement and quality assurance, Teradyne has established itself as a leader in the global testing solutions market, catering to a growing demand for sophisticated and reliable electronic testing systems. Its strong commitment to customer satisfaction and ongoing innovation underpins its competitive advantage in a rapidly changing technological landscape.",
+        "sector": "TECHNOLOGY",
+        "industry": "SEMICONDUCTOR EQUIPMENT & MATERIALS"
+      }
+    },
+    "OBAI": {
+      "presets": {
+        "Revenue": {
+          "updated": "Feb 13, 2026 12:13 AM"
+        },
+        "Costs": {
+          "updated": "Feb 13, 2026 12:13 AM"
+        },
+        "Cash": {
+          "updated": "Feb 13, 2026 12:13 AM"
+        },
+        "FCF": {
+          "updated": "Feb 13, 2026 12:13 AM"
+        },
+        "Assets": {
+          "updated": "Feb 13, 2026 12:13 AM"
+        },
+        "Buffet": {
+          "updated": "Feb 13, 2026 12:13 AM"
+        }
+      },
+      "last_updated": "2026-02-13T00:13:07.041518"
     }
   }
 }
