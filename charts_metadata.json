@@ -5046,6 +5046,70 @@
         }
       },
       "last_updated": "2026-02-13T01:09:02.228175"
+    },
+    "ZETA": {
+      "presets": {
+        "Revenue": {
+          "updated": "Feb 13, 2026 01:09 AM"
+        },
+        "Costs": {
+          "updated": "Feb 13, 2026 01:09 AM"
+        },
+        "Cash": {
+          "updated": "Feb 13, 2026 01:09 AM"
+        },
+        "FCF": {
+          "updated": "Feb 13, 2026 01:09 AM"
+        },
+        "Assets": {
+          "updated": "Feb 13, 2026 01:09 AM"
+        },
+        "Buffet": {
+          "updated": "Feb 13, 2026 01:09 AM"
+        }
+      },
+      "last_updated": "2026-02-13T01:09:20.670857",
+      "company": {
+        "name": "Zeta Global Holdings Corp",
+        "market_cap": "$5.09B",
+        "market_cap_raw": 5090469000.0,
+        "last_q_revenue": 337169000.0,
+        "description": "None",
+        "sector": "TECHNOLOGY",
+        "industry": "SOFTWARE - INFRASTRUCTURE"
+      }
+    },
+    "ZTS": {
+      "presets": {
+        "Revenue": {
+          "updated": "Feb 13, 2026 01:09 AM"
+        },
+        "Costs": {
+          "updated": "Feb 13, 2026 01:09 AM"
+        },
+        "Cash": {
+          "updated": "Feb 13, 2026 01:09 AM"
+        },
+        "FCF": {
+          "updated": "Feb 13, 2026 01:09 AM"
+        },
+        "Assets": {
+          "updated": "Feb 13, 2026 01:09 AM"
+        },
+        "Buffet": {
+          "updated": "Feb 13, 2026 01:09 AM"
+        }
+      },
+      "last_updated": "2026-02-13T01:09:20.693483",
+      "company": {
+        "name": "Zoetis Inc",
+        "market_cap": "$52.33B",
+        "market_cap_raw": 52326674000.0,
+        "last_q_revenue": 2400000000.0,
+        "description": "Zoetis Inc. (ZTS) is a leading global animal health company dedicated to improving the health and well-being of livestock and companion animals. As the largest manufacturer of medicines and vaccines for animals, Zoetis leverages advanced research and development to offer a comprehensive range of innovative products that enhance productivity in animal agriculture and support the well-being of pets globally. Committed to sustainability and animal welfare, Zoetis is well-positioned to meet the increasing demand for premium animal health solutions in an expanding market, making it an attractive investment opportunity for institutional investors.",
+        "sector": "HEALTHCARE",
+        "industry": "DRUG MANUFACTURERS - SPECIALTY & GENERIC"
+      }
     }
   }
 }
