@@ -3,25 +3,25 @@
     "TSLA": {
       "presets": {
         "Revenue": {
-          "updated": "Feb 11, 2026 10:57 PM"
+          "updated": "Feb 13, 2026 01:09 AM"
         },
         "Costs": {
-          "updated": "Feb 11, 2026 10:57 PM"
+          "updated": "Feb 13, 2026 01:09 AM"
         },
         "Cash": {
-          "updated": "Feb 11, 2026 10:57 PM"
+          "updated": "Feb 13, 2026 01:09 AM"
         },
         "FCF": {
-          "updated": "Feb 11, 2026 10:57 PM"
+          "updated": "Feb 13, 2026 01:09 AM"
         },
         "Assets": {
-          "updated": "Feb 11, 2026 10:57 PM"
+          "updated": "Feb 13, 2026 01:09 AM"
         },
         "Buffet": {
-          "updated": "Feb 11, 2026 10:57 PM"
+          "updated": "Feb 13, 2026 01:09 AM"
         }
       },
-      "last_updated": "2026-02-11T22:57:04.918716",
+      "last_updated": "2026-02-13T01:09:02.064609",
       "company": {
         "name": "Tesla Inc",
         "market_cap": "$1.42T",
@@ -4447,6 +4447,605 @@
         "sector": "TECHNOLOGY",
         "industry": "INFORMATION TECHNOLOGY SERVICES"
       }
+    },
+    "LCID": {
+      "presets": {
+        "Revenue": {
+          "updated": "Feb 13, 2026 01:09 AM"
+        },
+        "Costs": {
+          "updated": "Feb 13, 2026 01:09 AM"
+        },
+        "Cash": {
+          "updated": "Feb 13, 2026 01:09 AM"
+        },
+        "FCF": {
+          "updated": "Feb 13, 2026 01:09 AM"
+        },
+        "Assets": {
+          "updated": "Feb 13, 2026 01:09 AM"
+        },
+        "Buffet": {
+          "updated": "Feb 13, 2026 01:09 AM"
+        }
+      },
+      "last_updated": "2026-02-13T01:09:01.711630",
+      "company": {
+        "name": "Lucid Group Inc",
+        "market_cap": "$3.70B",
+        "market_cap_raw": 3698762000.0,
+        "last_q_revenue": 336580000.0,
+        "description": "None",
+        "sector": "CONSUMER CYCLICAL",
+        "industry": "AUTO MANUFACTURERS"
+      }
+    },
+    "MA": {
+      "presets": {
+        "Revenue": {
+          "updated": "Feb 13, 2026 01:09 AM"
+        },
+        "Costs": {
+          "updated": "Feb 13, 2026 01:09 AM"
+        },
+        "Cash": {
+          "updated": "Feb 13, 2026 01:09 AM"
+        },
+        "FCF": {
+          "updated": "Feb 13, 2026 01:09 AM"
+        },
+        "Assets": {
+          "updated": "Feb 13, 2026 01:09 AM"
+        },
+        "Buffet": {
+          "updated": "Feb 13, 2026 01:09 AM"
+        }
+      },
+      "last_updated": "2026-02-13T01:09:01.733018",
+      "company": {
+        "name": "Mastercard Inc",
+        "market_cap": "$522.43B",
+        "market_cap_raw": 522428449000.0,
+        "last_q_revenue": 8602000000.0,
+        "description": "Mastercard Incorporated is a global leader in financial services, headquartered in Purchase, New York, with significant operational presence in O'Fallon, Missouri. The company excels in facilitating electronic payments, connecting merchants with card-issuing banks through a comprehensive suite of debit, credit, and prepaid card services. With a strong focus on innovation and digital transformation, Mastercard has achieved substantial growth since its IPO in 2006, adeptly adapting to shifting consumer behaviors and technological advancements. As a pivotal player in the global payment systems landscape, Mastercard continues to solidify its market leadership by expanding its service offerings and international footprint.",
+        "sector": "FINANCIAL SERVICES",
+        "industry": "CREDIT SERVICES"
+      }
+    },
+    "NOC": {
+      "presets": {
+        "Revenue": {
+          "updated": "Feb 13, 2026 01:09 AM"
+        },
+        "Costs": {
+          "updated": "Feb 13, 2026 01:09 AM"
+        },
+        "Cash": {
+          "updated": "Feb 13, 2026 01:09 AM"
+        },
+        "FCF": {
+          "updated": "Feb 13, 2026 01:09 AM"
+        },
+        "Assets": {
+          "updated": "Feb 13, 2026 01:09 AM"
+        },
+        "Buffet": {
+          "updated": "Feb 13, 2026 01:09 AM"
+        }
+      },
+      "last_updated": "2026-02-13T01:09:01.766842",
+      "company": {
+        "name": "Northrop Grumman Corporation",
+        "market_cap": "$89.56B",
+        "market_cap_raw": 89560949000.0,
+        "last_q_revenue": 10423000000.0,
+        "description": "Northrop Grumman Corporation (NYSE: NOC) is a leading aerospace and defense technology company that specializes in providing cutting-edge systems and solutions to the U.S. government and its allies. With expertise spanning autonomous systems, cybersecurity, C4ISR, and space solutions, Northrop Grumman plays a crucial role in bolstering national security and advancing technological innovations. The company's commitment to engineering excellence and sustainability underpins its ability to deliver mission-critical capabilities that address the complex challenges of an ever-changing global environment, making it a key player in the defense sector.",
+        "sector": "INDUSTRIALS",
+        "industry": "AEROSPACE & DEFENSE"
+      }
+    },
+    "NOK": {
+      "presets": {
+        "Revenue": {
+          "updated": "Feb 13, 2026 01:09 AM"
+        },
+        "Costs": {
+          "updated": "Feb 13, 2026 01:09 AM"
+        },
+        "Cash": {
+          "updated": "Feb 13, 2026 01:09 AM"
+        },
+        "FCF": {
+          "updated": "Feb 13, 2026 01:09 AM"
+        },
+        "Assets": {
+          "updated": "Feb 13, 2026 01:09 AM"
+        },
+        "Buffet": {
+          "updated": "Feb 13, 2026 01:09 AM"
+        }
+      },
+      "last_updated": "2026-02-13T01:09:01.792847",
+      "company": {
+        "name": "Nokia Corp ADR",
+        "market_cap": "$36.84B",
+        "market_cap_raw": 36837835000.0,
+        "last_q_revenue": 4833000000.0,
+        "description": "Nokia Corporation (ADR) is a prominent global telecommunications leader headquartered in Espoo, Finland, renowned for its cutting-edge solutions in fixed and mobile networks, particularly in 5G technology, software, and the Internet of Things (IoT). The company plays a crucial role in facilitating digital transformation for communication service providers and enterprises, enhancing both connectivity and operational efficiency through its extensive product portfolio. With a strong commitment to sustainability, Nokia is integral to advancing the telecommunications industry while driving innovation that supports global connectivity and sector-wide performance improvements.",
+        "sector": "TECHNOLOGY",
+        "industry": "COMMUNICATION EQUIPMENT"
+      }
+    },
+    "PEP": {
+      "presets": {
+        "Revenue": {
+          "updated": "Feb 13, 2026 01:09 AM"
+        },
+        "Costs": {
+          "updated": "Feb 13, 2026 01:09 AM"
+        },
+        "Cash": {
+          "updated": "Feb 13, 2026 01:09 AM"
+        },
+        "FCF": {
+          "updated": "Feb 13, 2026 01:09 AM"
+        },
+        "Assets": {
+          "updated": "Feb 13, 2026 01:09 AM"
+        },
+        "Buffet": {
+          "updated": "Feb 13, 2026 01:09 AM"
+        }
+      },
+      "last_updated": "2026-02-13T01:09:01.819914",
+      "company": {
+        "name": "PepsiCo Inc",
+        "market_cap": "$202.84B",
+        "market_cap_raw": 202842489000.0,
+        "last_q_revenue": 23937000000.0,
+        "description": "PepsiCo, Inc. is a premier global food and beverage corporation based in Purchase, New York, with operations spanning over 200 countries. The company boasts an impressive portfolio of iconic brands such as Pepsi, Mountain Dew, Gatorade, and Frito-Lay, enabling it to effectively meet diverse consumer demands. With a strong focus on innovation, sustainability, and social responsibility, PepsiCo continuously adapts to changing market dynamics while leveraging strategic acquisitions and comprehensive marketing initiatives to enhance its competitive position and deliver long-term shareholder value.",
+        "sector": "CONSUMER DEFENSIVE",
+        "industry": "BEVERAGES - NON-ALCOHOLIC"
+      }
+    },
+    "PLTK": {
+      "presets": {
+        "Revenue": {
+          "updated": "Feb 13, 2026 01:09 AM"
+        },
+        "Costs": {
+          "updated": "Feb 13, 2026 01:09 AM"
+        },
+        "Cash": {
+          "updated": "Feb 13, 2026 01:09 AM"
+        },
+        "FCF": {
+          "updated": "Feb 13, 2026 01:09 AM"
+        },
+        "Assets": {
+          "updated": "Feb 13, 2026 01:09 AM"
+        },
+        "Buffet": {
+          "updated": "Feb 13, 2026 01:09 AM"
+        }
+      },
+      "last_updated": "2026-02-13T01:09:01.850765",
+      "company": {
+        "name": "Playtika Holding Corp",
+        "market_cap": "$1.37B",
+        "market_cap_raw": 1365083000.0,
+        "last_q_revenue": 674600000.0,
+        "description": "Playtika Holding Corp. is a leading mobile gaming company headquartered in Herzliya Pituach, Israel, specializing in social and casino-style games since its establishment in 2010. With a robust portfolio of engaging titles, the company utilizes advanced data analytics to optimize player experiences and retention, ensuring strong engagement in the booming global gaming market. Through strategic acquisitions and a commitment to continuous innovation, Playtika aims to reinforce its industry leadership while delivering sustainable growth and maximizing value for its shareholders.",
+        "sector": "COMMUNICATION SERVICES",
+        "industry": "ELECTRONIC GAMING & MULTIMEDIA"
+      }
+    },
+    "PM": {
+      "presets": {
+        "Revenue": {
+          "updated": "Feb 13, 2026 01:09 AM"
+        },
+        "Costs": {
+          "updated": "Feb 13, 2026 01:09 AM"
+        },
+        "Cash": {
+          "updated": "Feb 13, 2026 01:09 AM"
+        },
+        "FCF": {
+          "updated": "Feb 13, 2026 01:09 AM"
+        },
+        "Assets": {
+          "updated": "Feb 13, 2026 01:09 AM"
+        },
+        "Buffet": {
+          "updated": "Feb 13, 2026 01:09 AM"
+        }
+      },
+      "last_updated": "2026-02-13T01:09:01.876683",
+      "company": {
+        "name": "Philip Morris International Inc",
+        "market_cap": "$233.14B",
+        "market_cap_raw": 233137783000.0,
+        "last_q_revenue": 10845000000.0,
+        "description": "Philip Morris International Inc. (PM) is a leading global tobacco company based in Switzerland, famed for its extensive portfolio of iconic brands, particularly Marlboro. The company is actively transforming its business model by prioritizing smoke-free alternatives and investing heavily in research and development, with innovations such as IQOS, a cutting-edge heated tobacco product. Operating in over 180 markets, PMI is committed to sustainability and responsible growth while delivering robust financial performance, positioning itself as a forward-thinking leader within the industry.",
+        "sector": "CONSUMER DEFENSIVE",
+        "industry": "TOBACCO"
+      }
+    },
+    "POET": {
+      "presets": {
+        "Revenue": {
+          "updated": "Feb 13, 2026 01:09 AM"
+        },
+        "Costs": {
+          "updated": "Feb 13, 2026 01:09 AM"
+        },
+        "Cash": {
+          "updated": "Feb 13, 2026 01:09 AM"
+        },
+        "FCF": {
+          "updated": "Feb 13, 2026 01:09 AM"
+        },
+        "Assets": {
+          "updated": "Feb 13, 2026 01:09 AM"
+        },
+        "Buffet": {
+          "updated": "Feb 13, 2026 01:09 AM"
+        }
+      },
+      "last_updated": "2026-02-13T01:09:01.899379",
+      "company": {
+        "name": "POET Technologies Inc",
+        "market_cap": "$951.38M",
+        "market_cap_raw": 951377000.0,
+        "last_q_revenue": 298434.0,
+        "description": "None",
+        "sector": "TECHNOLOGY",
+        "industry": "SEMICONDUCTORS"
+      }
+    },
+    "PSNY": {
+      "presets": {
+        "Revenue": {
+          "updated": "Feb 13, 2026 01:09 AM"
+        },
+        "Costs": {
+          "updated": "Feb 13, 2026 01:09 AM"
+        },
+        "Cash": {
+          "updated": "Feb 13, 2026 01:09 AM"
+        },
+        "FCF": {
+          "updated": "Feb 13, 2026 01:09 AM"
+        },
+        "Assets": {
+          "updated": "Feb 13, 2026 01:09 AM"
+        },
+        "Buffet": {
+          "updated": "Feb 13, 2026 01:09 AM"
+        }
+      },
+      "last_updated": "2026-02-13T01:09:01.943978",
+      "company": {
+        "name": "Polestar Automotive Holding UK PLC Class A ADS",
+        "market_cap": "$1.33B",
+        "market_cap_raw": 1327524000.0,
+        "last_q_revenue": 711302500.0,
+        "description": "None",
+        "sector": "CONSUMER CYCLICAL",
+        "industry": "AUTO MANUFACTURERS"
+      }
+    },
+    "RR": {
+      "presets": {
+        "Revenue": {
+          "updated": "Feb 13, 2026 01:09 AM"
+        },
+        "Costs": {
+          "updated": "Feb 13, 2026 01:09 AM"
+        },
+        "Cash": {
+          "updated": "Feb 13, 2026 01:09 AM"
+        },
+        "FCF": {
+          "updated": "Feb 13, 2026 01:09 AM"
+        },
+        "Assets": {
+          "updated": "Feb 13, 2026 01:09 AM"
+        },
+        "Buffet": {
+          "updated": "Feb 13, 2026 01:09 AM"
+        }
+      },
+      "last_updated": "2026-02-13T01:09:01.962635",
+      "company": {
+        "name": "Richtech Robotics Inc. Class B Common Stock",
+        "market_cap": "$666.41M",
+        "market_cap_raw": 666413000.0,
+        "last_q_revenue": 1177000.0,
+        "description": "Richtech Robotics Inc. (Ticker: RR) is a pioneering player in the robotics industry, dedicated to delivering cutting-edge automation solutions specifically designed for the service sector. Headquartered in Las Vegas, Nevada, the company leverages its advanced robotic technologies to drive operational efficiency and elevate customer experiences. With a diverse product portfolio that addresses the unique challenges of various service industries, Richtech Robotics is strategically positioned to seize emerging opportunities in the expanding automation market, making it an attractive investment for institutions seeking growth in innovative technology.",
+        "sector": "INDUSTRIALS",
+        "industry": "SPECIALTY INDUSTRIAL MACHINERY"
+      }
+    },
+    "SCHW": {
+      "presets": {
+        "Revenue": {
+          "updated": "Feb 13, 2026 01:09 AM"
+        },
+        "Costs": {
+          "updated": "Feb 13, 2026 01:09 AM"
+        },
+        "Cash": {
+          "updated": "Feb 13, 2026 01:09 AM"
+        },
+        "FCF": {
+          "updated": "Feb 13, 2026 01:09 AM"
+        },
+        "Assets": {
+          "updated": "Feb 13, 2026 01:09 AM"
+        },
+        "Buffet": {
+          "updated": "Feb 13, 2026 01:09 AM"
+        }
+      },
+      "last_updated": "2026-02-13T01:09:01.977854",
+      "company": {
+        "name": "Charles Schwab Corp",
+        "market_cap": "$181.36B",
+        "market_cap_raw": 181358576000.0,
+        "last_q_revenue": 7041000000.0,
+        "description": "The Charles Schwab Corporation is a leading American financial services firm that specializes in a broad range of offerings, including banking, electronic trading, and comprehensive wealth management services. Catering to both retail and institutional investors, Schwab stands out for its commitment to innovation, cost efficiency, and superior customer service, providing an extensive suite of financial products like brokerage accounts, investment advisory services, and tailored institutional trading solutions. With a focus on accessibility and empowering clients, Schwab is well-positioned to help investors successfully navigate the complexities of today's financial landscape.",
+        "sector": "FINANCIAL SERVICES",
+        "industry": "CAPITAL MARKETS"
+      }
+    },
+    "SMLR": {
+      "presets": {
+        "Revenue": {
+          "updated": "Feb 13, 2026 01:09 AM"
+        },
+        "Costs": {
+          "updated": "Feb 13, 2026 01:09 AM"
+        },
+        "Cash": {
+          "updated": "Feb 13, 2026 01:09 AM"
+        },
+        "FCF": {
+          "updated": "Feb 13, 2026 01:09 AM"
+        },
+        "Assets": {
+          "updated": "Feb 13, 2026 01:09 AM"
+        },
+        "Buffet": {
+          "updated": "Feb 13, 2026 01:09 AM"
+        }
+      },
+      "last_updated": "2026-02-13T01:09:02.004248",
+      "company": {
+        "name": "Semler Scientific Inc",
+        "market_cap": "$348.27M",
+        "market_cap_raw": 348270000.0,
+        "last_q_revenue": 7491000.0,
+        "description": "Semler Scientific, Inc. is a pioneering healthcare company based in Santa Clara, California, specializing in the development and commercialization of proprietary solutions aimed at enhancing the evaluation and management of chronic conditions. By addressing the critical need for effective chronic disease management tools, Semler is well-positioned to leverage substantial market opportunities and drive innovation in patient care. With a strong commitment to improving clinical outcomes and a strategic vision tailored to meet the demands of an evolving healthcare landscape, Semler presents a compelling investment opportunity for institutional investors seeking growth in the healthcare sector.",
+        "sector": "HEALTHCARE",
+        "industry": "MEDICAL DEVICES"
+      }
+    },
+    "SPOT": {
+      "presets": {
+        "Revenue": {
+          "updated": "Feb 13, 2026 01:09 AM"
+        },
+        "Costs": {
+          "updated": "Feb 13, 2026 01:09 AM"
+        },
+        "Cash": {
+          "updated": "Feb 13, 2026 01:09 AM"
+        },
+        "FCF": {
+          "updated": "Feb 13, 2026 01:09 AM"
+        },
+        "Assets": {
+          "updated": "Feb 13, 2026 01:09 AM"
+        },
+        "Buffet": {
+          "updated": "Feb 13, 2026 01:09 AM"
+        }
+      },
+      "last_updated": "2026-02-13T01:09:02.020338",
+      "company": {
+        "name": "Spotify Technology SA",
+        "market_cap": "$120.77B",
+        "market_cap_raw": 120771256000.0,
+        "last_q_revenue": 4272000000.0,
+        "description": "Spotify Technology SA is a premier global audio streaming service based in Luxembourg, transforming the interaction between users and audio content with its vast library of music and podcasts. Renowned for its cutting-edge recommendation algorithms and robust creator partnerships, Spotify has established a dynamic ecosystem that appeals to both listeners and artists. As the company adapts to the rapidly changing digital media environment, its strategic focus on growth and monetization indicates substantial opportunities ahead, making it an attractive investment for institutional investors looking to capitalize on the expanding audio streaming sector.",
+        "sector": "COMMUNICATION SERVICES",
+        "industry": "INTERNET CONTENT & INFORMATION"
+      }
+    },
+    "SURG": {
+      "presets": {
+        "Revenue": {
+          "updated": "Feb 13, 2026 01:09 AM"
+        },
+        "Costs": {
+          "updated": "Feb 13, 2026 01:09 AM"
+        },
+        "Cash": {
+          "updated": "Feb 13, 2026 01:09 AM"
+        },
+        "FCF": {
+          "updated": "Feb 13, 2026 01:09 AM"
+        },
+        "Assets": {
+          "updated": "Feb 13, 2026 01:09 AM"
+        },
+        "Buffet": {
+          "updated": "Feb 13, 2026 01:09 AM"
+        }
+      },
+      "last_updated": "2026-02-13T01:09:02.043438",
+      "company": {
+        "name": "Surgepays Inc",
+        "market_cap": "$29.06M",
+        "market_cap_raw": 29057000.0,
+        "last_q_revenue": 18680317.0,
+        "description": "Surgepays Inc. is a forward-thinking telecommunications service provider based in Bartlett, Tennessee, specializing in enhancing connectivity solutions for underserved markets across the United States. Through its commitment to innovative technology and a diverse portfolio of services, SurgePays aims to deliver affordable and reliable communication options that meet the unique needs of its clientele. The company is strategically positioned to benefit from the increasing demand for accessible telecommunications, presenting a compelling investment opportunity for institutional investors looking for growth in this critical sector.",
+        "sector": "COMMUNICATION SERVICES",
+        "industry": "TELECOM SERVICES"
+      }
+    },
+    "TM": {
+      "presets": {
+        "Revenue": {
+          "updated": "Feb 13, 2026 01:09 AM"
+        },
+        "Costs": {
+          "updated": "Feb 13, 2026 01:09 AM"
+        },
+        "Cash": {
+          "updated": "Feb 13, 2026 01:09 AM"
+        },
+        "FCF": {
+          "updated": "Feb 13, 2026 01:09 AM"
+        },
+        "Assets": {
+          "updated": "Feb 13, 2026 01:09 AM"
+        },
+        "Buffet": {
+          "updated": "Feb 13, 2026 01:09 AM"
+        }
+      },
+      "last_updated": "2026-02-13T01:09:02.095331",
+      "company": {
+        "name": "Toyota Motor Corporation ADR",
+        "market_cap": "$285.93B",
+        "market_cap_raw": 285926457000.0,
+        "last_q_revenue": 12377427000000.0,
+        "description": "Toyota Motor Corporation (ADR) is a leading global automotive manufacturer based in Toyota City, Japan, recognized for its diverse lineup that includes passenger cars, minivans, and commercial vehicles. A pioneer in hybrid technology and sustainable transportation solutions, Toyota is actively investing in innovations such as hydrogen fuel cell technology. With a strong emphasis on quality and customer-centric approaches, the company is well-positioned to adapt to the evolving global market while maintaining its reputation for reliability and excellence in the automotive sector. Toyota's commitment to advanced technologies and sustainable practices underscores its role as a key player in shaping the future of mobility.",
+        "sector": "CONSUMER CYCLICAL",
+        "industry": "AUTO MANUFACTURERS"
+      }
+    },
+    "TRMB": {
+      "presets": {
+        "Revenue": {
+          "updated": "Feb 13, 2026 01:09 AM"
+        },
+        "Costs": {
+          "updated": "Feb 13, 2026 01:09 AM"
+        },
+        "Cash": {
+          "updated": "Feb 13, 2026 01:09 AM"
+        },
+        "FCF": {
+          "updated": "Feb 13, 2026 01:09 AM"
+        },
+        "Assets": {
+          "updated": "Feb 13, 2026 01:09 AM"
+        },
+        "Buffet": {
+          "updated": "Feb 13, 2026 01:09 AM"
+        }
+      },
+      "last_updated": "2026-02-13T01:09:02.131675",
+      "company": {
+        "name": "Trimble Inc",
+        "market_cap": "$19.02B",
+        "market_cap_raw": 19016110000.0,
+        "last_q_revenue": 901200000.0,
+        "description": "Trimble Inc. is a premier technology company headquartered in Sunnyvale, California, recognized for its innovative hardware, software, and services tailored for diverse sectors including Agriculture, Construction, Geospatial, and Transportation. With a strong emphasis on enhancing productivity and operational efficiency, Trimble offers cutting-edge solutions such as Global Navigation Satellite System (GNSS) receivers and unmanned aerial vehicles (UAVs). The company's strategic commitment to integrating advanced technology into industrial workflows positions Trimble as a leader in reshaping industry standards, making it an essential partner in the digital transformation of complex operations.",
+        "sector": "TECHNOLOGY",
+        "industry": "SCIENTIFIC & TECHNICAL INSTRUMENTS"
+      }
+    },
+    "V": {
+      "presets": {
+        "Revenue": {
+          "updated": "Feb 13, 2026 01:09 AM"
+        },
+        "Costs": {
+          "updated": "Feb 13, 2026 01:09 AM"
+        },
+        "Cash": {
+          "updated": "Feb 13, 2026 01:09 AM"
+        },
+        "FCF": {
+          "updated": "Feb 13, 2026 01:09 AM"
+        },
+        "Assets": {
+          "updated": "Feb 13, 2026 01:09 AM"
+        },
+        "Buffet": {
+          "updated": "Feb 13, 2026 01:09 AM"
+        }
+      },
+      "last_updated": "2026-02-13T01:09:02.164135",
+      "company": {
+        "name": "Visa Inc. Class A",
+        "market_cap": "$684.36B",
+        "market_cap_raw": 684360794000.0,
+        "last_q_revenue": 10724000000.0,
+        "description": "Visa Inc. (NYSE: V), based in Foster City, California, stands at the forefront of the global financial services industry, recognized for its integral role in electronic funds transfers. Operating the largest retail electronic payments network worldwide, Visa provides a wide range of payment solutions through its extensive portfolio of branded credit, debit, and prepaid cards for consumers and businesses. With a strong emphasis on innovation in payment technology, the company is poised to take advantage of the ongoing shift toward digital transactions and e-commerce, reinforcing its leadership position and substantial market valuation in an increasingly cashless economy.",
+        "sector": "FINANCIAL SERVICES",
+        "industry": "CREDIT SERVICES"
+      }
+    },
+    "VST": {
+      "presets": {
+        "Revenue": {
+          "updated": "Feb 13, 2026 01:09 AM"
+        },
+        "Costs": {
+          "updated": "Feb 13, 2026 01:09 AM"
+        },
+        "Cash": {
+          "updated": "Feb 13, 2026 01:09 AM"
+        },
+        "FCF": {
+          "updated": "Feb 13, 2026 01:09 AM"
+        },
+        "Assets": {
+          "updated": "Feb 13, 2026 01:09 AM"
+        },
+        "Buffet": {
+          "updated": "Feb 13, 2026 01:09 AM"
+        }
+      },
+      "last_updated": "2026-02-13T01:09:02.203193",
+      "company": {
+        "name": "Vistra Energy Corp",
+        "market_cap": "$56.37B",
+        "market_cap_raw": 56370397000.0,
+        "last_q_revenue": 4971000000.0,
+        "description": "Vistra Energy Corp (VST), based in Irving, Texas, stands as a prominent integrated energy provider with a substantial portfolio of generation assets spanning the United States. The company is at the forefront of the energy transition, making strategic investments in renewable energy and energy storage technologies that promote sustainability and innovation. With a strong operational foundation and a commitment to growth, Vistra is well-equipped to seize emerging market opportunities and deliver enhanced shareholder value in an increasingly competitive energy sector.",
+        "sector": "UTILITIES",
+        "industry": "UTILITIES - INDEPENDENT POWER PRODUCERS"
+      }
+    },
+    "WDY": {
+      "presets": {
+        "Revenue": {
+          "updated": "Feb 13, 2026 01:09 AM"
+        },
+        "Costs": {
+          "updated": "Feb 13, 2026 01:09 AM"
+        },
+        "Cash": {
+          "updated": "Feb 13, 2026 01:09 AM"
+        },
+        "FCF": {
+          "updated": "Feb 13, 2026 01:09 AM"
+        },
+        "Assets": {
+          "updated": "Feb 13, 2026 01:09 AM"
+        },
+        "Buffet": {
+          "updated": "Feb 13, 2026 01:09 AM"
+        }
+      },
+      "last_updated": "2026-02-13T01:09:02.228175"
     }
   }
 }
