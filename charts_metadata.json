@@ -5183,6 +5183,102 @@
         "sector": "TECHNOLOGY",
         "industry": "SEMICONDUCTOR EQUIPMENT & MATERIALS"
       }
+    },
+    "AAL": {
+      "presets": {
+        "Revenue": {
+          "updated": "Feb 15, 2026 11:33 AM"
+        },
+        "Costs": {
+          "updated": "Feb 15, 2026 11:33 AM"
+        },
+        "Cash": {
+          "updated": "Feb 15, 2026 11:33 AM"
+        },
+        "FCF": {
+          "updated": "Feb 15, 2026 11:33 AM"
+        },
+        "Assets": {
+          "updated": "Feb 15, 2026 11:33 AM"
+        },
+        "Buffet": {
+          "updated": "Feb 15, 2026 11:33 AM"
+        }
+      },
+      "last_updated": "2026-02-15T11:33:46.497570",
+      "company": {
+        "name": "American Airlines Group",
+        "market_cap": "$9.16B",
+        "market_cap_raw": 9164979000.0,
+        "last_q_revenue": 13999000000.0,
+        "description": "American Airlines Group Inc. is an American publicly traded airline holding company headquartered in Fort Worth, Texas.",
+        "sector": "INDUSTRIALS",
+        "industry": "AIRLINES"
+      }
+    },
+    "DAL": {
+      "presets": {
+        "Revenue": {
+          "updated": "Feb 15, 2026 11:33 AM"
+        },
+        "Costs": {
+          "updated": "Feb 15, 2026 11:33 AM"
+        },
+        "Cash": {
+          "updated": "Feb 15, 2026 11:33 AM"
+        },
+        "FCF": {
+          "updated": "Feb 15, 2026 11:33 AM"
+        },
+        "Assets": {
+          "updated": "Feb 15, 2026 11:33 AM"
+        },
+        "Buffet": {
+          "updated": "Feb 15, 2026 11:33 AM"
+        }
+      },
+      "last_updated": "2026-02-15T11:33:46.533512",
+      "company": {
+        "name": "Delta Air Lines Inc",
+        "market_cap": "$45.07B",
+        "market_cap_raw": 45066019000.0,
+        "last_q_revenue": 16003000000.0,
+        "description": "Delta Air Lines, Inc., typically referred to as Delta, is one of the major airlines of the United States and a legacy carrier. It is headquartered in Atlanta, Georgia.",
+        "sector": "INDUSTRIALS",
+        "industry": "AIRLINES"
+      }
+    },
+    "UAL": {
+      "presets": {
+        "Revenue": {
+          "updated": "Feb 15, 2026 11:33 AM"
+        },
+        "Costs": {
+          "updated": "Feb 15, 2026 11:33 AM"
+        },
+        "Cash": {
+          "updated": "Feb 15, 2026 11:33 AM"
+        },
+        "FCF": {
+          "updated": "Feb 15, 2026 11:33 AM"
+        },
+        "Assets": {
+          "updated": "Feb 15, 2026 11:33 AM"
+        },
+        "Buffet": {
+          "updated": "Feb 15, 2026 11:33 AM"
+        }
+      },
+      "last_updated": "2026-02-15T11:33:46.566057",
+      "company": {
+        "name": "United Airlines Holdings Inc",
+        "market_cap": "$35.38B",
+        "market_cap_raw": 35381326000.0,
+        "last_q_revenue": 15397000000.0,
+        "description": "United Airlines Holdings, Inc. (formerly known as United Continental Holdings, Inc., UAL Corporation, Allegis Corporation and founded originally as UAL, Inc.) is a publicly traded airline holding company headquartered in the Willis Tower in Chicago. UAH owns and operates United Airlines, Inc.",
+        "sector": "INDUSTRIALS",
+        "industry": "AIRLINES"
+      }
     }
   }
 }
