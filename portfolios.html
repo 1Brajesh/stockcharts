@@ -269,13 +269,74 @@
             justify-content: flex-end;
             margin-bottom: 16px;
         }
+        /* Section divider between custom and dynamic groups */
+        .section-divider {
+            color: #8b949e;
+            font-size: 14px;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+            margin: 32px 0 16px;
+            padding-bottom: 8px;
+            border-bottom: 1px solid #30363d;
+        }
+        /* Nested industry accordions inside sector sections */
+        .sector-industries {
+            padding: 8px 8px 8px 16px;
+        }
+        .industry-section {
+            margin-bottom: 8px;
+            border: 1px solid #21262d;
+            border-radius: 4px;
+            background: #161b22;
+        }
+        .industry-section summary {
+            cursor: pointer;
+            padding: 8px 12px;
+            color: #c9d1d9;
+            font-size: 15px;
+            font-weight: 500;
+            list-style: none;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            user-select: none;
+            border-radius: 4px;
+            transition: background 0.15s;
+        }
+        .industry-section summary:hover {
+            background: #1c2129;
+        }
+        .industry-section summary::-webkit-details-marker { display: none; }
+        .industry-section summary::before {
+            content: "\25B6";
+            font-size: 10px;
+            color: #8b949e;
+            transition: transform 0.15s;
+            display: inline-block;
+        }
+        .industry-section[open] summary::before {
+            transform: rotate(90deg);
+        }
+        .industry-section[open] summary {
+            border-bottom: 1px solid #21262d;
+            border-radius: 4px 4px 0 0;
+        }
+        .industry-section .ticker-grid {
+            padding: 12px;
+        }
+        .industry-section .ticker-count {
+            color: #8b949e;
+            font-weight: normal;
+            font-size: 13px;
+        }
     </style>
 </head>
 <body>
     <div class="container">
         <header>
             <h1>Stock Charts</h1>
-            <div class="subtitle">Last updated: Feb 13, 2026 11:08 AM</div>
+            <div class="subtitle">Last updated: Feb 15, 2026 11:07 AM</div>
         </header>
 
         <nav class="nav">
@@ -1593,6 +1654,1360 @@
             </a>
             </div>
         </details>
+        <h2 class="section-divider">By Sector &amp; Industry</h2>
+        <details class="portfolio-section sector-section" data-group="sec-basic-materials">
+            <summary><span class="group-title">Basic Materials</span> <span class="ticker-count">(5)</span></summary>
+            <div class="sector-industries">
+                
+                <details class="industry-section" data-group="ind-basic-materials-copper">
+                    <summary><span class="group-title">Copper</span> <span class="ticker-count">(1)</span></summary>
+                    <div class="ticker-grid">
+                        <a href="FCX.html" class="ticker-card" data-symbol="FCX" data-be="15">
+                <div class="ticker-row">
+                    <span class="ticker-symbol">FCX<span class="be-ratio">15x</span></span>
+                    <span class="market-cap">$87.12B</span>
+                </div>
+                <div class="company-name">Freeport-McMoran Copper &amp; Gold Inc</div>
+            </a>
+                    </div>
+                </details>
+                <details class="industry-section" data-group="ind-basic-materials-gold">
+                    <summary><span class="group-title">Gold</span> <span class="ticker-count">(1)</span></summary>
+                    <div class="ticker-grid">
+                        <a href="HYMC.html" class="ticker-card" data-symbol="HYMC" data-be="0">
+                <div class="ticker-row">
+                    <span class="ticker-symbol">HYMC</span>
+                    <span class="market-cap">$2.88B</span>
+                </div>
+                <div class="company-name">Hycroft Mining Holding Corporation</div>
+            </a>
+                    </div>
+                </details>
+                <details class="industry-section" data-group="ind-basic-materials-other-industrial-metals-and-mining">
+                    <summary><span class="group-title">Other Industrial Metals &amp; Mining</span> <span class="ticker-count">(3)</span></summary>
+                    <div class="ticker-grid">
+                        <a href="FMST.html" class="ticker-card" data-symbol="FMST" data-be="0">
+                <div class="ticker-row">
+                    <span class="ticker-symbol">FMST</span>
+                    <span class="market-cap">$31.63M</span>
+                </div>
+                <div class="company-name">Foremost Lithium Resource &amp; Technology Ltd. Common stock aka Foremost Clean Energy</div>
+            </a><a href="LAC.html" class="ticker-card owned" data-symbol="LAC" data-be="0">
+                <div class="ticker-row">
+                    <span class="ticker-symbol">LAC</span>
+                    <span class="market-cap">$1.55B</span>
+                </div>
+                <div class="company-name">Lithium Americas Corp</div>
+            </a><a href="MP.html" class="ticker-card" data-symbol="MP" data-be="228">
+                <div class="ticker-row">
+                    <span class="ticker-symbol">MP<span class="be-ratio">228x</span></span>
+                    <span class="market-cap">$12.23B</span>
+                </div>
+                <div class="company-name">MP Materials Corp</div>
+            </a>
+                    </div>
+                </details>
+            </div>
+        </details>
+        
+        <details class="portfolio-section sector-section" data-group="sec-communication-services">
+            <summary><span class="group-title">Communication Services</span> <span class="ticker-count">(12)</span></summary>
+            <div class="sector-industries">
+                
+                <details class="industry-section" data-group="ind-communication-services-advertising-agencies">
+                    <summary><span class="group-title">Advertising Agencies</span> <span class="ticker-count">(1)</span></summary>
+                    <div class="ticker-grid">
+                        <a href="TTD.html" class="ticker-card" data-symbol="TTD" data-be="26">
+                <div class="ticker-row">
+                    <span class="ticker-symbol">TTD<span class="be-ratio">26x</span></span>
+                    <span class="market-cap">$19.58B</span>
+                </div>
+                <div class="company-name">Trade Desk Inc</div>
+            </a>
+                    </div>
+                </details>
+                <details class="industry-section" data-group="ind-communication-services-electronic-gaming-and-multimedia">
+                    <summary><span class="group-title">Electronic Gaming &amp; Multimedia</span> <span class="ticker-count">(2)</span></summary>
+                    <div class="ticker-grid">
+                        <a href="GRVY.html" class="ticker-card" data-symbol="GRVY" data-be="0">
+                <div class="ticker-row">
+                    <span class="ticker-symbol">GRVY<span class="be-ratio">0x</span></span>
+                    <span class="market-cap">$494.48M</span>
+                </div>
+                <div class="company-name">Gravity Co Ltd</div>
+            </a><a href="PLTK.html" class="ticker-card" data-symbol="PLTK" data-be="2">
+                <div class="ticker-row">
+                    <span class="ticker-symbol">PLTK<span class="be-ratio">2x</span></span>
+                    <span class="market-cap">$1.37B</span>
+                </div>
+                <div class="company-name">Playtika Holding Corp</div>
+            </a>
+                    </div>
+                </details>
+                <details class="industry-section" data-group="ind-communication-services-entertainment">
+                    <summary><span class="group-title">Entertainment</span> <span class="ticker-count">(1)</span></summary>
+                    <div class="ticker-grid">
+                        <a href="AMCX.html" class="ticker-card" data-symbol="AMCX" data-be="1">
+                <div class="ticker-row">
+                    <span class="ticker-symbol">AMCX<span class="be-ratio">1x</span></span>
+                    <span class="market-cap">$332.11M</span>
+                </div>
+                <div class="company-name">AMC Networks Inc</div>
+            </a>
+                    </div>
+                </details>
+                <details class="industry-section" data-group="ind-communication-services-internet-content-and-information">
+                    <summary><span class="group-title">Internet Content &amp; Information</span> <span class="ticker-count">(6)</span></summary>
+                    <div class="ticker-grid">
+                        <a href="GOOG.html" class="ticker-card gold-border" data-symbol="GOOG" data-be="38">
+                <div class="ticker-row">
+                    <span class="ticker-symbol">GOOG<span class="be-ratio">38x</span></span>
+                    <span class="market-cap">$3.89T</span>
+                </div>
+                <div class="company-name">Alphabet Inc Class C</div>
+            </a><a href="GOOGL.html" class="ticker-card" data-symbol="GOOGL" data-be="41">
+                <div class="ticker-row">
+                    <span class="ticker-symbol">GOOGL<span class="be-ratio">41x</span></span>
+                    <span class="market-cap">$4.16T</span>
+                </div>
+                <div class="company-name">Alphabet Inc Class A</div>
+            </a><a href="META.html" class="ticker-card gold-border" data-symbol="META" data-be="32">
+                <div class="ticker-row">
+                    <span class="ticker-symbol">META<span class="be-ratio">32x</span></span>
+                    <span class="market-cap">$1.62T</span>
+                </div>
+                <div class="company-name">Meta Platforms Inc.</div>
+            </a><a href="NBIS.html" class="ticker-card cyan-border-right" data-symbol="NBIS" data-be="151">
+                <div class="ticker-row">
+                    <span class="ticker-symbol">NBIS<span class="be-ratio">151x</span></span>
+                    <span class="market-cap">$22.06B</span>
+                </div>
+                <div class="company-name">Nebius Group N.V.</div>
+            </a><a href="SPOT.html" class="ticker-card" data-symbol="SPOT" data-be="28">
+                <div class="ticker-row">
+                    <span class="ticker-symbol">SPOT<span class="be-ratio">28x</span></span>
+                    <span class="market-cap">$120.77B</span>
+                </div>
+                <div class="company-name">Spotify Technology SA</div>
+            </a><a href="TZOO.html" class="ticker-card" data-symbol="TZOO" data-be="3">
+                <div class="ticker-row">
+                    <span class="ticker-symbol">TZOO<span class="be-ratio">3x</span></span>
+                    <span class="market-cap">$65.01M</span>
+                </div>
+                <div class="company-name">Travelzoo</div>
+            </a>
+                    </div>
+                </details>
+                <details class="industry-section" data-group="ind-communication-services-telecom-services">
+                    <summary><span class="group-title">Telecom Services</span> <span class="ticker-count">(2)</span></summary>
+                    <div class="ticker-grid">
+                        <a href="SURG.html" class="ticker-card" data-symbol="SURG" data-be="2">
+                <div class="ticker-row">
+                    <span class="ticker-symbol">SURG<span class="be-ratio">2x</span></span>
+                    <span class="market-cap">$29.06M</span>
+                </div>
+                <div class="company-name">Surgepays Inc</div>
+            </a><a href="VZ.html" class="ticker-card" data-symbol="VZ" data-be="5">
+                <div class="ticker-row">
+                    <span class="ticker-symbol">VZ<span class="be-ratio">5x</span></span>
+                    <span class="market-cap">$168.57B</span>
+                </div>
+                <div class="company-name">Verizon Communications Inc</div>
+            </a>
+                    </div>
+                </details>
+            </div>
+        </details>
+        
+        <details class="portfolio-section sector-section" data-group="sec-consumer-cyclical">
+            <summary><span class="group-title">Consumer Cyclical</span> <span class="ticker-count">(20)</span></summary>
+            <div class="sector-industries">
+                
+                <details class="industry-section" data-group="ind-consumer-cyclical-apparel-retail">
+                    <summary><span class="group-title">Apparel Retail</span> <span class="ticker-count">(2)</span></summary>
+                    <div class="ticker-grid">
+                        <a href="BKE.html" class="ticker-card" data-symbol="BKE" data-be="8">
+                <div class="ticker-row">
+                    <span class="ticker-symbol">BKE<span class="be-ratio">8x</span></span>
+                    <span class="market-cap">$2.70B</span>
+                </div>
+                <div class="company-name">Buckle Inc</div>
+            </a><a href="JILL.html" class="ticker-card" data-symbol="JILL" data-be="2">
+                <div class="ticker-row">
+                    <span class="ticker-symbol">JILL<span class="be-ratio">2x</span></span>
+                    <span class="market-cap">$255.83M</span>
+                </div>
+                <div class="company-name">J.Jill Inc</div>
+            </a>
+                    </div>
+                </details>
+                <details class="industry-section" data-group="ind-consumer-cyclical-auto-manufacturers">
+                    <summary><span class="group-title">Auto Manufacturers</span> <span class="ticker-count">(9)</span></summary>
+                    <div class="ticker-grid">
+                        <a href="F.html" class="ticker-card" data-symbol="F" data-be="1">
+                <div class="ticker-row">
+                    <span class="ticker-symbol">F<span class="be-ratio">1x</span></span>
+                    <span class="market-cap">$53.67B</span>
+                </div>
+                <div class="company-name">Ford Motor Company</div>
+            </a><a href="GM.html" class="ticker-card" data-symbol="GM" data-be="2">
+                <div class="ticker-row">
+                    <span class="ticker-symbol">GM<span class="be-ratio">2x</span></span>
+                    <span class="market-cap">$78.40B</span>
+                </div>
+                <div class="company-name">General Motors Company</div>
+            </a><a href="HMC.html" class="ticker-card" data-symbol="HMC" data-be="0">
+                <div class="ticker-row">
+                    <span class="ticker-symbol">HMC<span class="be-ratio">0x</span></span>
+                    <span class="market-cap">$39.08B</span>
+                </div>
+                <div class="company-name">Honda Motor Co Ltd ADR</div>
+            </a><a href="LCID.html" class="ticker-card" data-symbol="LCID" data-be="11">
+                <div class="ticker-row">
+                    <span class="ticker-symbol">LCID<span class="be-ratio">11x</span></span>
+                    <span class="market-cap">$3.70B</span>
+                </div>
+                <div class="company-name">Lucid Group Inc</div>
+            </a><a href="PSNY.html" class="ticker-card" data-symbol="PSNY" data-be="2">
+                <div class="ticker-row">
+                    <span class="ticker-symbol">PSNY<span class="be-ratio">2x</span></span>
+                    <span class="market-cap">$1.33B</span>
+                </div>
+                <div class="company-name">Polestar Automotive Holding UK PLC Class A ADS</div>
+            </a><a href="RIVN.html" class="ticker-card" data-symbol="RIVN" data-be="15">
+                <div class="ticker-row">
+                    <span class="ticker-symbol">RIVN<span class="be-ratio">15x</span></span>
+                    <span class="market-cap">$23.94B</span>
+                </div>
+                <div class="company-name">Rivian Automotive Inc</div>
+            </a><a href="STLA.html" class="ticker-card" data-symbol="STLA" data-be="0">
+                <div class="ticker-row">
+                    <span class="ticker-symbol">STLA<span class="be-ratio">0x</span></span>
+                    <span class="market-cap">$31.92B</span>
+                </div>
+                <div class="company-name">Stellantis NV</div>
+            </a><a href="TM.html" class="ticker-card" data-symbol="TM" data-be="0">
+                <div class="ticker-row">
+                    <span class="ticker-symbol">TM<span class="be-ratio">0x</span></span>
+                    <span class="market-cap">$285.93B</span>
+                </div>
+                <div class="company-name">Toyota Motor Corporation ADR</div>
+            </a><a href="TSLA.html" class="ticker-card owned gold-border" data-symbol="TSLA" data-be="50">
+                <div class="ticker-row">
+                    <span class="ticker-symbol">TSLA<span class="be-ratio">50x</span></span>
+                    <span class="market-cap">$1.42T</span>
+                </div>
+                <div class="company-name">Tesla Inc</div>
+            </a>
+                    </div>
+                </details>
+                <details class="industry-section" data-group="ind-consumer-cyclical-gambling">
+                    <summary><span class="group-title">Gambling</span> <span class="ticker-count">(2)</span></summary>
+                    <div class="ticker-grid">
+                        <a href="DKNG.html" class="ticker-card" data-symbol="DKNG" data-be="14">
+                <div class="ticker-row">
+                    <span class="ticker-symbol">DKNG<span class="be-ratio">14x</span></span>
+                    <span class="market-cap">$16.51B</span>
+                </div>
+                <div class="company-name">DraftKings Inc</div>
+            </a><a href="GAMB.html" class="ticker-card" data-symbol="GAMB" data-be="4">
+                <div class="ticker-row">
+                    <span class="ticker-symbol">GAMB<span class="be-ratio">4x</span></span>
+                    <span class="market-cap">$169.99M</span>
+                </div>
+                <div class="company-name">Gambling.com Group Ltd</div>
+            </a>
+                    </div>
+                </details>
+                <details class="industry-section" data-group="ind-consumer-cyclical-home-improvement-retail">
+                    <summary><span class="group-title">Home Improvement Retail</span> <span class="ticker-count">(1)</span></summary>
+                    <div class="ticker-grid">
+                        <a href="HD.html" class="ticker-card" data-symbol="HD" data-be="8">
+                <div class="ticker-row">
+                    <span class="ticker-symbol">HD<span class="be-ratio">8x</span></span>
+                    <span class="market-cap">$343.42B</span>
+                </div>
+                <div class="company-name">The Home Depot Inc</div>
+            </a>
+                    </div>
+                </details>
+                <details class="industry-section" data-group="ind-consumer-cyclical-internet-retail">
+                    <summary><span class="group-title">Internet Retail</span> <span class="ticker-count">(2)</span></summary>
+                    <div class="ticker-grid">
+                        <a href="AMZN.html" class="ticker-card gold-border" data-symbol="AMZN" data-be="13">
+                <div class="ticker-row">
+                    <span class="ticker-symbol">AMZN<span class="be-ratio">13x</span></span>
+                    <span class="market-cap">$2.42T</span>
+                </div>
+                <div class="company-name">Amazon.com Inc</div>
+            </a><a href="EBAY.html" class="ticker-card" data-symbol="EBAY" data-be="16">
+                <div class="ticker-row">
+                    <span class="ticker-symbol">EBAY<span class="be-ratio">16x</span></span>
+                    <span class="market-cap">$43.90B</span>
+                </div>
+                <div class="company-name">eBay Inc</div>
+            </a>
+                    </div>
+                </details>
+                <details class="industry-section" data-group="ind-consumer-cyclical-lodging">
+                    <summary><span class="group-title">Lodging</span> <span class="ticker-count">(1)</span></summary>
+                    <div class="ticker-grid">
+                        <a href="HLT.html" class="ticker-card" data-symbol="HLT" data-be="23">
+                <div class="ticker-row">
+                    <span class="ticker-symbol">HLT<span class="be-ratio">23x</span></span>
+                    <span class="market-cap">$70.21B</span>
+                </div>
+                <div class="company-name">Hilton Worldwide Holdings Inc</div>
+            </a>
+                    </div>
+                </details>
+                <details class="industry-section" data-group="ind-consumer-cyclical-restaurants">
+                    <summary><span class="group-title">Restaurants</span> <span class="ticker-count">(1)</span></summary>
+                    <div class="ticker-grid">
+                        <a href="MCD.html" class="ticker-card" data-symbol="MCD" data-be="31">
+                <div class="ticker-row">
+                    <span class="ticker-symbol">MCD<span class="be-ratio">31x</span></span>
+                    <span class="market-cap">$220.23B</span>
+                </div>
+                <div class="company-name">McDonald’s Corporation</div>
+            </a>
+                    </div>
+                </details>
+                <details class="industry-section" data-group="ind-consumer-cyclical-specialty-retail">
+                    <summary><span class="group-title">Specialty Retail</span> <span class="ticker-count">(2)</span></summary>
+                    <div class="ticker-grid">
+                        <a href="BBY.html" class="ticker-card" data-symbol="BBY" data-be="1">
+                <div class="ticker-row">
+                    <span class="ticker-symbol">BBY<span class="be-ratio">1x</span></span>
+                    <span class="market-cap">$13.68B</span>
+                </div>
+                <div class="company-name">Best Buy Co. Inc</div>
+            </a><a href="WSM.html" class="ticker-card" data-symbol="WSM" data-be="13">
+                <div class="ticker-row">
+                    <span class="ticker-symbol">WSM<span class="be-ratio">13x</span></span>
+                    <span class="market-cap">$24.43B</span>
+                </div>
+                <div class="company-name">Williams-Sonoma Inc</div>
+            </a>
+                    </div>
+                </details>
+            </div>
+        </details>
+        
+        <details class="portfolio-section sector-section" data-group="sec-consumer-defensive">
+            <summary><span class="group-title">Consumer Defensive</span> <span class="ticker-count">(10)</span></summary>
+            <div class="sector-industries">
+                
+                <details class="industry-section" data-group="ind-consumer-defensive-beverages---non-alcoholic">
+                    <summary><span class="group-title">Beverages - Non-Alcoholic</span> <span class="ticker-count">(3)</span></summary>
+                    <div class="ticker-grid">
+                        <a href="COKE.html" class="ticker-card" data-symbol="COKE" data-be="7">
+                <div class="ticker-row">
+                    <span class="ticker-symbol">COKE<span class="be-ratio">7x</span></span>
+                    <span class="market-cap">$13.80B</span>
+                </div>
+                <div class="company-name">Coca-Cola Consolidated Inc.</div>
+            </a><a href="KO.html" class="ticker-card" data-symbol="KO" data-be="25">
+                <div class="ticker-row">
+                    <span class="ticker-symbol">KO<span class="be-ratio">25x</span></span>
+                    <span class="market-cap">$305.43B</span>
+                </div>
+                <div class="company-name">The Coca-Cola Company</div>
+            </a><a href="PEP.html" class="ticker-card" data-symbol="PEP" data-be="8">
+                <div class="ticker-row">
+                    <span class="ticker-symbol">PEP<span class="be-ratio">8x</span></span>
+                    <span class="market-cap">$202.84B</span>
+                </div>
+                <div class="company-name">PepsiCo Inc</div>
+            </a>
+                    </div>
+                </details>
+                <details class="industry-section" data-group="ind-consumer-defensive-discount-stores">
+                    <summary><span class="group-title">Discount Stores</span> <span class="ticker-count">(1)</span></summary>
+                    <div class="ticker-grid">
+                        <a href="WMT.html" class="ticker-card" data-symbol="WMT" data-be="5">
+                <div class="ticker-row">
+                    <span class="ticker-symbol">WMT<span class="be-ratio">5x</span></span>
+                    <span class="market-cap">$930.43B</span>
+                </div>
+                <div class="company-name">Walmart Inc. Common Stock</div>
+            </a>
+                    </div>
+                </details>
+                <details class="industry-section" data-group="ind-consumer-defensive-farm-products">
+                    <summary><span class="group-title">Farm Products</span> <span class="ticker-count">(1)</span></summary>
+                    <div class="ticker-grid">
+                        <a href="EDBL.html" class="ticker-card" data-symbol="EDBL" data-be="1">
+                <div class="ticker-row">
+                    <span class="ticker-symbol">EDBL<span class="be-ratio">1x</span></span>
+                    <span class="market-cap">$1.98M</span>
+                </div>
+                <div class="company-name">Edible Garden AG Inc</div>
+            </a>
+                    </div>
+                </details>
+                <details class="industry-section" data-group="ind-consumer-defensive-grocery-stores">
+                    <summary><span class="group-title">Grocery Stores</span> <span class="ticker-count">(1)</span></summary>
+                    <div class="ticker-grid">
+                        <a href="ACI.html" class="ticker-card" data-symbol="ACI" data-be="1">
+                <div class="ticker-row">
+                    <span class="ticker-symbol">ACI<span class="be-ratio">1x</span></span>
+                    <span class="market-cap">$9.76B</span>
+                </div>
+                <div class="company-name">Albertsons Companies</div>
+            </a>
+                    </div>
+                </details>
+                <details class="industry-section" data-group="ind-consumer-defensive-household-and-personal-products">
+                    <summary><span class="group-title">Household &amp; Personal Products</span> <span class="ticker-count">(1)</span></summary>
+                    <div class="ticker-grid">
+                        <a href="KVUE.html" class="ticker-card" data-symbol="KVUE" data-be="9">
+                <div class="ticker-row">
+                    <span class="ticker-symbol">KVUE<span class="be-ratio">9x</span></span>
+                    <span class="market-cap">$34.62B</span>
+                </div>
+                <div class="company-name">Kenvue Inc.</div>
+            </a>
+                    </div>
+                </details>
+                <details class="industry-section" data-group="ind-consumer-defensive-packaged-foods">
+                    <summary><span class="group-title">Packaged Foods</span> <span class="ticker-count">(1)</span></summary>
+                    <div class="ticker-grid">
+                        <a href="KHC.html" class="ticker-card" data-symbol="KHC" data-be="5">
+                <div class="ticker-row">
+                    <span class="ticker-symbol">KHC<span class="be-ratio">5x</span></span>
+                    <span class="market-cap">$28.10B</span>
+                </div>
+                <div class="company-name">Kraft Heinz Co</div>
+            </a>
+                    </div>
+                </details>
+                <details class="industry-section" data-group="ind-consumer-defensive-tobacco">
+                    <summary><span class="group-title">Tobacco</span> <span class="ticker-count">(2)</span></summary>
+                    <div class="ticker-grid">
+                        <a href="MO.html" class="ticker-card" data-symbol="MO" data-be="19">
+                <div class="ticker-row">
+                    <span class="ticker-symbol">MO<span class="be-ratio">19x</span></span>
+                    <span class="market-cap">$98.59B</span>
+                </div>
+                <div class="company-name">Altria Group</div>
+            </a><a href="PM.html" class="ticker-card" data-symbol="PM" data-be="21">
+                <div class="ticker-row">
+                    <span class="ticker-symbol">PM<span class="be-ratio">21x</span></span>
+                    <span class="market-cap">$233.14B</span>
+                </div>
+                <div class="company-name">Philip Morris International Inc</div>
+            </a>
+                    </div>
+                </details>
+            </div>
+        </details>
+        
+        <details class="portfolio-section sector-section" data-group="sec-energy">
+            <summary><span class="group-title">Energy</span> <span class="ticker-count">(1)</span></summary>
+            <div class="sector-industries">
+                
+                <details class="industry-section" data-group="ind-energy-oil-and-gas-drilling">
+                    <summary><span class="group-title">Oil &amp; Gas Drilling</span> <span class="ticker-count">(1)</span></summary>
+                    <div class="ticker-grid">
+                        <a href="RIG.html" class="ticker-card" data-symbol="RIG" data-be="5">
+                <div class="ticker-row">
+                    <span class="ticker-symbol">RIG<span class="be-ratio">5x</span></span>
+                    <span class="market-cap">$5.44B</span>
+                </div>
+                <div class="company-name">Transocean Ltd</div>
+            </a>
+                    </div>
+                </details>
+            </div>
+        </details>
+        
+        <details class="portfolio-section sector-section" data-group="sec-financial-services">
+            <summary><span class="group-title">Financial Services</span> <span class="ticker-count">(14)</span></summary>
+            <div class="sector-industries">
+                
+                <details class="industry-section" data-group="ind-financial-services-capital-markets">
+                    <summary><span class="group-title">Capital Markets</span> <span class="ticker-count">(6)</span></summary>
+                    <div class="ticker-grid">
+                        <a href="GS.html" class="ticker-card" data-symbol="GS" data-be="8">
+                <div class="ticker-row">
+                    <span class="ticker-symbol">GS<span class="be-ratio">8x</span></span>
+                    <span class="market-cap">$270.08B</span>
+                </div>
+                <div class="company-name">Goldman Sachs Group Inc</div>
+            </a><a href="HOOD.html" class="ticker-card owned" data-symbol="HOOD" data-be="91">
+                <div class="ticker-row">
+                    <span class="ticker-symbol">HOOD<span class="be-ratio">91x</span></span>
+                    <span class="market-cap">$115.54B</span>
+                </div>
+                <div class="company-name">Robinhood Markets Inc</div>
+            </a><a href="IREN.html" class="ticker-card cyan-border-right" data-symbol="IREN" data-be="72">
+                <div class="ticker-row">
+                    <span class="ticker-symbol">IREN<span class="be-ratio">72x</span></span>
+                    <span class="market-cap">$17.19B</span>
+                </div>
+                <div class="company-name">IREN Ltd</div>
+            </a><a href="MARA.html" class="ticker-card owned" data-symbol="MARA" data-be="18">
+                <div class="ticker-row">
+                    <span class="ticker-symbol">MARA<span class="be-ratio">18x</span></span>
+                    <span class="market-cap">$4.47B</span>
+                </div>
+                <div class="company-name">Marathon Digital Holdings Inc</div>
+            </a><a href="SCHW.html" class="ticker-card" data-symbol="SCHW" data-be="26">
+                <div class="ticker-row">
+                    <span class="ticker-symbol">SCHW<span class="be-ratio">26x</span></span>
+                    <span class="market-cap">$181.36B</span>
+                </div>
+                <div class="company-name">Charles Schwab Corp</div>
+            </a><a href="STEX.html" class="ticker-card" data-symbol="STEX" data-be="0">
+                <div class="ticker-row">
+                    <span class="ticker-symbol">STEX</span>
+                    <span class="market-cap">N/A</span>
+                </div>
+                <div class="company-name">Streamex Corp</div>
+            </a>
+                    </div>
+                </details>
+                <details class="industry-section" data-group="ind-financial-services-credit-services">
+                    <summary><span class="group-title">Credit Services</span> <span class="ticker-count">(6)</span></summary>
+                    <div class="ticker-grid">
+                        <a href="AFRM.html" class="ticker-card" data-symbol="AFRM" data-be="26">
+                <div class="ticker-row">
+                    <span class="ticker-symbol">AFRM<span class="be-ratio">26x</span></span>
+                    <span class="market-cap">$24.68B</span>
+                </div>
+                <div class="company-name">Affirm Holdings Inc</div>
+            </a><a href="MA.html" class="ticker-card" data-symbol="MA" data-be="61">
+                <div class="ticker-row">
+                    <span class="ticker-symbol">MA<span class="be-ratio">61x</span></span>
+                    <span class="market-cap">$522.43B</span>
+                </div>
+                <div class="company-name">Mastercard Inc</div>
+            </a><a href="PYPL.html" class="ticker-card" data-symbol="PYPL" data-be="6">
+                <div class="ticker-row">
+                    <span class="ticker-symbol">PYPL<span class="be-ratio">6x</span></span>
+                    <span class="market-cap">$49.99B</span>
+                </div>
+                <div class="company-name">PayPal Holdings Inc</div>
+            </a><a href="SOFI.html" class="ticker-card owned" data-symbol="SOFI" data-be="27">
+                <div class="ticker-row">
+                    <span class="ticker-symbol">SOFI<span class="be-ratio">27x</span></span>
+                    <span class="market-cap">$34.36B</span>
+                </div>
+                <div class="company-name">SoFi Technologies Inc.</div>
+            </a><a href="UPST.html" class="ticker-card" data-symbol="UPST" data-be="16">
+                <div class="ticker-row">
+                    <span class="ticker-symbol">UPST<span class="be-ratio">16x</span></span>
+                    <span class="market-cap">$4.68B</span>
+                </div>
+                <div class="company-name">Upstart Holdings Inc</div>
+            </a><a href="V.html" class="ticker-card" data-symbol="V" data-be="64">
+                <div class="ticker-row">
+                    <span class="ticker-symbol">V<span class="be-ratio">64x</span></span>
+                    <span class="market-cap">$684.36B</span>
+                </div>
+                <div class="company-name">Visa Inc. Class A</div>
+            </a>
+                    </div>
+                </details>
+                <details class="industry-section" data-group="ind-financial-services-insurance---diversified">
+                    <summary><span class="group-title">Insurance - Diversified</span> <span class="ticker-count">(1)</span></summary>
+                    <div class="ticker-grid">
+                        <a href="BRK-B.html" class="ticker-card" data-symbol="BRK-B" data-be="11">
+                <div class="ticker-row">
+                    <span class="ticker-symbol">BRK-B<span class="be-ratio">11x</span></span>
+                    <span class="market-cap">$1.02T</span>
+                </div>
+                <div class="company-name">Berkshire Hathaway Inc</div>
+            </a>
+                    </div>
+                </details>
+                <details class="industry-section" data-group="ind-financial-services-insurance-brokers">
+                    <summary><span class="group-title">Insurance Brokers</span> <span class="ticker-count">(1)</span></summary>
+                    <div class="ticker-grid">
+                        <a href="BRO.html" class="ticker-card" data-symbol="BRO" data-be="17">
+                <div class="ticker-row">
+                    <span class="ticker-symbol">BRO<span class="be-ratio">17x</span></span>
+                    <span class="market-cap">$27.44B</span>
+                </div>
+                <div class="company-name">Brown &amp; Brown Inc</div>
+            </a>
+                    </div>
+                </details>
+            </div>
+        </details>
+        
+        <details class="portfolio-section sector-section" data-group="sec-healthcare">
+            <summary><span class="group-title">Healthcare</span> <span class="ticker-count">(15)</span></summary>
+            <div class="sector-industries">
+                
+                <details class="industry-section" data-group="ind-healthcare-biotechnology">
+                    <summary><span class="group-title">Biotechnology</span> <span class="ticker-count">(4)</span></summary>
+                    <div class="ticker-grid">
+                        <a href="CYBN.html" class="ticker-card" data-symbol="CYBN" data-be="0">
+                <div class="ticker-row">
+                    <span class="ticker-symbol">CYBN</span>
+                    <span class="market-cap">$413.12M</span>
+                </div>
+                <div class="company-name">Cybin Inc</div>
+            </a><a href="GTBP.html" class="ticker-card" data-symbol="GTBP" data-be="0">
+                <div class="ticker-row">
+                    <span class="ticker-symbol">GTBP</span>
+                    <span class="market-cap">$7.02M</span>
+                </div>
+                <div class="company-name">GT Biopharma Inc</div>
+            </a><a href="ONCY.html" class="ticker-card" data-symbol="ONCY" data-be="0">
+                <div class="ticker-row">
+                    <span class="ticker-symbol">ONCY</span>
+                    <span class="market-cap">$104.19M</span>
+                </div>
+                <div class="company-name">Oncolytics Biotech Inc</div>
+            </a><a href="TLSA.html" class="ticker-card" data-symbol="TLSA" data-be="0">
+                <div class="ticker-row">
+                    <span class="ticker-symbol">TLSA</span>
+                    <span class="market-cap">$174.30M</span>
+                </div>
+                <div class="company-name">Tiziana Life Sciences Ltd</div>
+            </a>
+                    </div>
+                </details>
+                <details class="industry-section" data-group="ind-healthcare-drug-manufacturers---general">
+                    <summary><span class="group-title">Drug Manufacturers - General</span> <span class="ticker-count">(1)</span></summary>
+                    <div class="ticker-grid">
+                        <a href="JNJ.html" class="ticker-card" data-symbol="JNJ" data-be="22">
+                <div class="ticker-row">
+                    <span class="ticker-symbol">JNJ<span class="be-ratio">22x</span></span>
+                    <span class="market-cap">$526.82B</span>
+                </div>
+                <div class="company-name">Johnson &amp; Johnson</div>
+            </a>
+                    </div>
+                </details>
+                <details class="industry-section" data-group="ind-healthcare-drug-manufacturers---specialty-and-generic">
+                    <summary><span class="group-title">Drug Manufacturers - Specialty &amp; Generic</span> <span class="ticker-count">(5)</span></summary>
+                    <div class="ticker-grid">
+                        <a href="COLL.html" class="ticker-card" data-symbol="COLL" data-be="7">
+                <div class="ticker-row">
+                    <span class="ticker-symbol">COLL<span class="be-ratio">7x</span></span>
+                    <span class="market-cap">$1.45B</span>
+                </div>
+                <div class="company-name">Collegium Pharmaceutical Inc</div>
+            </a><a href="HIMS.html" class="ticker-card owned" data-symbol="HIMS" data-be="15">
+                <div class="ticker-row">
+                    <span class="ticker-symbol">HIMS<span class="be-ratio">15x</span></span>
+                    <span class="market-cap">$8.74B</span>
+                </div>
+                <div class="company-name">Hims Hers Health Inc</div>
+            </a><a href="IRWD.html" class="ticker-card" data-symbol="IRWD" data-be="6">
+                <div class="ticker-row">
+                    <span class="ticker-symbol">IRWD<span class="be-ratio">6x</span></span>
+                    <span class="market-cap">$746.70M</span>
+                </div>
+                <div class="company-name">Ironwood Pharmaceuticals Inc</div>
+            </a><a href="SIGA.html" class="ticker-card" data-symbol="SIGA" data-be="183">
+                <div class="ticker-row">
+                    <span class="ticker-symbol">SIGA<span class="be-ratio">183x</span></span>
+                    <span class="market-cap">$479.80M</span>
+                </div>
+                <div class="company-name">SIGA Technologies Inc</div>
+            </a><a href="ZTS.html" class="ticker-card" data-symbol="ZTS" data-be="22">
+                <div class="ticker-row">
+                    <span class="ticker-symbol">ZTS<span class="be-ratio">22x</span></span>
+                    <span class="market-cap">$52.33B</span>
+                </div>
+                <div class="company-name">Zoetis Inc</div>
+            </a>
+                    </div>
+                </details>
+                <details class="industry-section" data-group="ind-healthcare-health-information-services">
+                    <summary><span class="group-title">Health Information Services</span> <span class="ticker-count">(1)</span></summary>
+                    <div class="ticker-grid">
+                        <a href="TEM.html" class="ticker-card" data-symbol="TEM" data-be="37">
+                <div class="ticker-row">
+                    <span class="ticker-symbol">TEM<span class="be-ratio">37x</span></span>
+                    <span class="market-cap">$12.51B</span>
+                </div>
+                <div class="company-name">Tempus AI, Inc. Class A Common Stock</div>
+            </a>
+                    </div>
+                </details>
+                <details class="industry-section" data-group="ind-healthcare-healthcare-plans">
+                    <summary><span class="group-title">Healthcare Plans</span> <span class="ticker-count">(2)</span></summary>
+                    <div class="ticker-grid">
+                        <a href="OSCR.html" class="ticker-card owned" data-symbol="OSCR" data-be="2">
+                <div class="ticker-row">
+                    <span class="ticker-symbol">OSCR<span class="be-ratio">2x</span></span>
+                    <span class="market-cap">$5.17B</span>
+                </div>
+                <div class="company-name">Oscar Health Inc</div>
+            </a><a href="UNH.html" class="ticker-card" data-symbol="UNH" data-be="3">
+                <div class="ticker-row">
+                    <span class="ticker-symbol">UNH<span class="be-ratio">3x</span></span>
+                    <span class="market-cap">$305.02B</span>
+                </div>
+                <div class="company-name">UnitedHealth Group Incorporated</div>
+            </a>
+                    </div>
+                </details>
+                <details class="industry-section" data-group="ind-healthcare-medical-devices">
+                    <summary><span class="group-title">Medical Devices</span> <span class="ticker-count">(1)</span></summary>
+                    <div class="ticker-grid">
+                        <a href="SMLR.html" class="ticker-card" data-symbol="SMLR" data-be="46">
+                <div class="ticker-row">
+                    <span class="ticker-symbol">SMLR<span class="be-ratio">46x</span></span>
+                    <span class="market-cap">$348.27M</span>
+                </div>
+                <div class="company-name">Semler Scientific Inc</div>
+            </a>
+                    </div>
+                </details>
+                <details class="industry-section" data-group="ind-healthcare-medical-instruments-and-supplies">
+                    <summary><span class="group-title">Medical Instruments &amp; Supplies</span> <span class="ticker-count">(1)</span></summary>
+                    <div class="ticker-grid">
+                        <a href="ISRG.html" class="ticker-card" data-symbol="ISRG" data-be="60">
+                <div class="ticker-row">
+                    <span class="ticker-symbol">ISRG<span class="be-ratio">60x</span></span>
+                    <span class="market-cap">$173.36B</span>
+                </div>
+                <div class="company-name">Intuitive Surgical Inc</div>
+            </a>
+                    </div>
+                </details>
+            </div>
+        </details>
+        
+        <details class="portfolio-section sector-section" data-group="sec-industrials">
+            <summary><span class="group-title">Industrials</span> <span class="ticker-count">(18)</span></summary>
+            <div class="sector-industries">
+                
+                <details class="industry-section" data-group="ind-industrials-aerospace-and-defense">
+                    <summary><span class="group-title">Aerospace &amp; Defense</span> <span class="ticker-count">(8)</span></summary>
+                    <div class="ticker-grid">
+                        <a href="ACHR.html" class="ticker-card" data-symbol="ACHR" data-be="0">
+                <div class="ticker-row">
+                    <span class="ticker-symbol">ACHR</span>
+                    <span class="market-cap">$6.50B</span>
+                </div>
+                <div class="company-name">Archer Aviation Inc</div>
+            </a><a href="AVAV.html" class="ticker-card" data-symbol="AVAV" data-be="38">
+                <div class="ticker-row">
+                    <span class="ticker-symbol">AVAV<span class="be-ratio">38x</span></span>
+                    <span class="market-cap">$18.17B</span>
+                </div>
+                <div class="company-name">AeroVironment Inc</div>
+            </a><a href="HII.html" class="ticker-card" data-symbol="HII" data-be="5">
+                <div class="ticker-row">
+                    <span class="ticker-symbol">HII<span class="be-ratio">5x</span></span>
+                    <span class="market-cap">$16.15B</span>
+                </div>
+                <div class="company-name">Huntington Ingalls Industries Inc</div>
+            </a><a href="HWM.html" class="ticker-card" data-symbol="HWM" data-be="42">
+                <div class="ticker-row">
+                    <span class="ticker-symbol">HWM<span class="be-ratio">42x</span></span>
+                    <span class="market-cap">$88.41B</span>
+                </div>
+                <div class="company-name">Howmet Aerospace Inc</div>
+            </a><a href="KTOS.html" class="ticker-card" data-symbol="KTOS" data-be="58">
+                <div class="ticker-row">
+                    <span class="ticker-symbol">KTOS<span class="be-ratio">58x</span></span>
+                    <span class="market-cap">$20.21B</span>
+                </div>
+                <div class="company-name">Kratos Defense &amp; Security Solutions</div>
+            </a><a href="LHX.html" class="ticker-card" data-symbol="LHX" data-be="11">
+                <div class="ticker-row">
+                    <span class="ticker-symbol">LHX<span class="be-ratio">11x</span></span>
+                    <span class="market-cap">$63.84B</span>
+                </div>
+                <div class="company-name">L3Harris Technologies Inc</div>
+            </a><a href="NOC.html" class="ticker-card" data-symbol="NOC" data-be="9">
+                <div class="ticker-row">
+                    <span class="ticker-symbol">NOC<span class="be-ratio">9x</span></span>
+                    <span class="market-cap">$89.56B</span>
+                </div>
+                <div class="company-name">Northrop Grumman Corporation</div>
+            </a><a href="RKLB.html" class="ticker-card" data-symbol="RKLB" data-be="248">
+                <div class="ticker-row">
+                    <span class="ticker-symbol">RKLB<span class="be-ratio">248x</span></span>
+                    <span class="market-cap">$38.48B</span>
+                </div>
+                <div class="company-name">Rocket Lab USA Inc.</div>
+            </a>
+                    </div>
+                </details>
+                <details class="industry-section" data-group="ind-industrials-airlines">
+                    <summary><span class="group-title">Airlines</span> <span class="ticker-count">(1)</span></summary>
+                    <div class="ticker-grid">
+                        <a href="SRFM.html" class="ticker-card" data-symbol="SRFM" data-be="6">
+                <div class="ticker-row">
+                    <span class="ticker-symbol">SRFM<span class="be-ratio">6x</span></span>
+                    <span class="market-cap">$164.38M</span>
+                </div>
+                <div class="company-name">Surf Air Mobility Inc.</div>
+            </a>
+                    </div>
+                </details>
+                <details class="industry-section" data-group="ind-industrials-airports-and-air-services">
+                    <summary><span class="group-title">Airports &amp; Air Services</span> <span class="ticker-count">(1)</span></summary>
+                    <div class="ticker-grid">
+                        <a href="SOAR.html" class="ticker-card" data-symbol="SOAR" data-be="27">
+                <div class="ticker-row">
+                    <span class="ticker-symbol">SOAR<span class="be-ratio">27x</span></span>
+                    <span class="market-cap">$10.42M</span>
+                </div>
+                <div class="company-name">Volato Group Inc.</div>
+            </a>
+                    </div>
+                </details>
+                <details class="industry-section" data-group="ind-industrials-electrical-equipment-and-parts">
+                    <summary><span class="group-title">Electrical Equipment &amp; Parts</span> <span class="ticker-count">(2)</span></summary>
+                    <div class="ticker-grid">
+                        <a href="BE.html" class="ticker-card red-border-right" data-symbol="BE" data-be="61">
+                <div class="ticker-row">
+                    <span class="ticker-symbol">BE<span class="be-ratio">61x</span></span>
+                    <span class="market-cap">$31.56B</span>
+                </div>
+                <div class="company-name">Bloom Energy Corp</div>
+            </a><a href="VRT.html" class="ticker-card red-border-right" data-symbol="VRT" data-be="26">
+                <div class="ticker-row">
+                    <span class="ticker-symbol">VRT<span class="be-ratio">26x</span></span>
+                    <span class="market-cap">$68.72B</span>
+                </div>
+                <div class="company-name">Vertiv Holdings Co</div>
+            </a>
+                    </div>
+                </details>
+                <details class="industry-section" data-group="ind-industrials-marine-shipping">
+                    <summary><span class="group-title">Marine Shipping</span> <span class="ticker-count">(1)</span></summary>
+                    <div class="ticker-grid">
+                        <a href="UFG.html" class="ticker-card" data-symbol="UFG" data-be="0">
+                <div class="ticker-row">
+                    <span class="ticker-symbol">UFG<span class="be-ratio">0x</span></span>
+                    <span class="market-cap">$41.17M</span>
+                </div>
+                <div class="company-name">Uni-Fuels Holdings Limited Class A Ordinary Shares</div>
+            </a>
+                    </div>
+                </details>
+                <details class="industry-section" data-group="ind-industrials-security-and-protection-services">
+                    <summary><span class="group-title">Security &amp; Protection Services</span> <span class="ticker-count">(1)</span></summary>
+                    <div class="ticker-grid">
+                        <a href="KSCP.html" class="ticker-card" data-symbol="KSCP" data-be="13">
+                <div class="ticker-row">
+                    <span class="ticker-symbol">KSCP<span class="be-ratio">13x</span></span>
+                    <span class="market-cap">$40.97M</span>
+                </div>
+                <div class="company-name">Knightscope Inc</div>
+            </a>
+                    </div>
+                </details>
+                <details class="industry-section" data-group="ind-industrials-specialty-industrial-machinery">
+                    <summary><span class="group-title">Specialty Industrial Machinery</span> <span class="ticker-count">(4)</span></summary>
+                    <div class="ticker-grid">
+                        <a href="ROK.html" class="ticker-card cyan-border-right" data-symbol="ROK" data-be="20">
+                <div class="ticker-row">
+                    <span class="ticker-symbol">ROK<span class="be-ratio">20x</span></span>
+                    <span class="market-cap">$46.87B</span>
+                </div>
+                <div class="company-name">Rockwell Automation Inc</div>
+            </a><a href="RR.html" class="ticker-card" data-symbol="RR" data-be="566">
+                <div class="ticker-row">
+                    <span class="ticker-symbol">RR<span class="be-ratio">566x</span></span>
+                    <span class="market-cap">$666.41M</span>
+                </div>
+                <div class="company-name">Richtech Robotics Inc. Class B Common Stock</div>
+            </a><a href="SERV.html" class="ticker-card" data-symbol="SERV" data-be="1326">
+                <div class="ticker-row">
+                    <span class="ticker-symbol">SERV<span class="be-ratio">1326x</span></span>
+                    <span class="market-cap">$910.19M</span>
+                </div>
+                <div class="company-name">Serve Robotics Inc. Common Stock</div>
+            </a><a href="SYM.html" class="ticker-card cyan-border-right" data-symbol="SYM" data-be="67">
+                <div class="ticker-row">
+                    <span class="ticker-symbol">SYM<span class="be-ratio">67x</span></span>
+                    <span class="market-cap">$41.30B</span>
+                </div>
+                <div class="company-name">Symbotic Inc</div>
+            </a>
+                    </div>
+                </details>
+            </div>
+        </details>
+        
+        <details class="portfolio-section sector-section" data-group="sec-technology">
+            <summary><span class="group-title">Technology</span> <span class="ticker-count">(64)</span></summary>
+            <div class="sector-industries">
+                
+                <details class="industry-section" data-group="ind-technology-communication-equipment">
+                    <summary><span class="group-title">Communication Equipment</span> <span class="ticker-count">(4)</span></summary>
+                    <div class="ticker-grid">
+                        <a href="CSCO.html" class="ticker-card" data-symbol="CSCO" data-be="21">
+                <div class="ticker-row">
+                    <span class="ticker-symbol">CSCO<span class="be-ratio">21x</span></span>
+                    <span class="market-cap">$309.84B</span>
+                </div>
+                <div class="company-name">Cisco Systems Inc</div>
+            </a><a href="ERIC.html" class="ticker-card" data-symbol="ERIC" data-be="1">
+                <div class="ticker-row">
+                    <span class="ticker-symbol">ERIC<span class="be-ratio">1x</span></span>
+                    <span class="market-cap">$32.27B</span>
+                </div>
+                <div class="company-name">Telefonaktiebolaget LM Ericsson B ADR</div>
+            </a><a href="HPE.html" class="ticker-card" data-symbol="HPE" data-be="3">
+                <div class="ticker-row">
+                    <span class="ticker-symbol">HPE<span class="be-ratio">3x</span></span>
+                    <span class="market-cap">$29.48B</span>
+                </div>
+                <div class="company-name">Hewlett Packard Enterprise Co</div>
+            </a><a href="NOK.html" class="ticker-card" data-symbol="NOK" data-be="8">
+                <div class="ticker-row">
+                    <span class="ticker-symbol">NOK<span class="be-ratio">8x</span></span>
+                    <span class="market-cap">$36.84B</span>
+                </div>
+                <div class="company-name">Nokia Corp ADR</div>
+            </a>
+                    </div>
+                </details>
+                <details class="industry-section" data-group="ind-technology-computer-hardware">
+                    <summary><span class="group-title">Computer Hardware</span> <span class="ticker-count">(11)</span></summary>
+                    <div class="ticker-grid">
+                        <a href="ANET.html" class="ticker-card red-border-right" data-symbol="ANET" data-be="70">
+                <div class="ticker-row">
+                    <span class="ticker-symbol">ANET<span class="be-ratio">70x</span></span>
+                    <span class="market-cap">$161.93B</span>
+                </div>
+                <div class="company-name">Arista Networks</div>
+            </a><a href="DELL.html" class="ticker-card" data-symbol="DELL" data-be="3">
+                <div class="ticker-row">
+                    <span class="ticker-symbol">DELL<span class="be-ratio">3x</span></span>
+                    <span class="market-cap">$86.04B</span>
+                </div>
+                <div class="company-name">Dell Technologies Inc</div>
+            </a><a href="HPQ.html" class="ticker-card" data-symbol="HPQ" data-be="1">
+                <div class="ticker-row">
+                    <span class="ticker-symbol">HPQ<span class="be-ratio">1x</span></span>
+                    <span class="market-cap">$18.47B</span>
+                </div>
+                <div class="company-name">HP Inc</div>
+            </a><a href="IONQ.html" class="ticker-card owned green-border-right" data-symbol="IONQ" data-be="403">
+                <div class="ticker-row">
+                    <span class="ticker-symbol">IONQ<span class="be-ratio">403x</span></span>
+                    <span class="market-cap">$16.08B</span>
+                </div>
+                <div class="company-name">IONQ Inc</div>
+            </a><a href="QBTS.html" class="ticker-card" data-symbol="QBTS" data-be="2792">
+                <div class="ticker-row">
+                    <span class="ticker-symbol">QBTS<span class="be-ratio">2792x</span></span>
+                    <span class="market-cap">$10.44B</span>
+                </div>
+                <div class="company-name">D-Wave Quantum Inc.</div>
+            </a><a href="QUBT.html" class="ticker-card owned green-border-right" data-symbol="QUBT" data-be="6689">
+                <div class="ticker-row">
+                    <span class="ticker-symbol">QUBT<span class="be-ratio">6689x</span></span>
+                    <span class="market-cap">$2.57B</span>
+                </div>
+                <div class="company-name">Quantum Computing Inc</div>
+            </a><a href="RGTI.html" class="ticker-card owned green-border-right" data-symbol="RGTI" data-be="4334">
+                <div class="ticker-row">
+                    <span class="ticker-symbol">RGTI<span class="be-ratio">4334x</span></span>
+                    <span class="market-cap">$8.44B</span>
+                </div>
+                <div class="company-name">Rigetti Computing Inc</div>
+            </a><a href="SMCI.html" class="ticker-card owned" data-symbol="SMCI" data-be="4">
+                <div class="ticker-row">
+                    <span class="ticker-symbol">SMCI<span class="be-ratio">4x</span></span>
+                    <span class="market-cap">$19.60B</span>
+                </div>
+                <div class="company-name">Super Micro Computer Inc</div>
+            </a><a href="SNDK.html" class="ticker-card" data-symbol="SNDK" data-be="29">
+                <div class="ticker-row">
+                    <span class="ticker-symbol">SNDK<span class="be-ratio">29x</span></span>
+                    <span class="market-cap">$88.44B</span>
+                </div>
+                <div class="company-name">Sandisk Corp</div>
+            </a><a href="STX.html" class="ticker-card" data-symbol="STX" data-be="27">
+                <div class="ticker-row">
+                    <span class="ticker-symbol">STX<span class="be-ratio">27x</span></span>
+                    <span class="market-cap">$71.09B</span>
+                </div>
+                <div class="company-name">Seagate Technology PLC</div>
+            </a><a href="WDC.html" class="ticker-card" data-symbol="WDC" data-be="31">
+                <div class="ticker-row">
+                    <span class="ticker-symbol">WDC<span class="be-ratio">31x</span></span>
+                    <span class="market-cap">$93.59B</span>
+                </div>
+                <div class="company-name">Western Digital Corporation</div>
+            </a>
+                    </div>
+                </details>
+                <details class="industry-section" data-group="ind-technology-consumer-electronics">
+                    <summary><span class="group-title">Consumer Electronics</span> <span class="ticker-count">(1)</span></summary>
+                    <div class="ticker-grid">
+                        <a href="AAPL.html" class="ticker-card gold-border" data-symbol="AAPL" data-be="28">
+                <div class="ticker-row">
+                    <span class="ticker-symbol">AAPL<span class="be-ratio">28x</span></span>
+                    <span class="market-cap">$4.06T</span>
+                </div>
+                <div class="company-name">Apple Inc</div>
+            </a>
+                    </div>
+                </details>
+                <details class="industry-section" data-group="ind-technology-electronic-components">
+                    <summary><span class="group-title">Electronic Components</span> <span class="ticker-count">(1)</span></summary>
+                    <div class="ticker-grid">
+                        <a href="JBL.html" class="ticker-card" data-symbol="JBL" data-be="3">
+                <div class="ticker-row">
+                    <span class="ticker-symbol">JBL<span class="be-ratio">3x</span></span>
+                    <span class="market-cap">$27.66B</span>
+                </div>
+                <div class="company-name">Jabil Circuit Inc</div>
+            </a>
+                    </div>
+                </details>
+                <details class="industry-section" data-group="ind-technology-information-technology-services">
+                    <summary><span class="group-title">Information Technology Services</span> <span class="ticker-count">(4)</span></summary>
+                    <div class="ticker-grid">
+                        <a href="APLD.html" class="ticker-card" data-symbol="APLD" data-be="83">
+                <div class="ticker-row">
+                    <span class="ticker-symbol">APLD<span class="be-ratio">83x</span></span>
+                    <span class="market-cap">$10.53B</span>
+                </div>
+                <div class="company-name">Applied Digital Corporation</div>
+            </a><a href="BBAI.html" class="ticker-card owned" data-symbol="BBAI" data-be="79">
+                <div class="ticker-row">
+                    <span class="ticker-symbol">BBAI<span class="be-ratio">79x</span></span>
+                    <span class="market-cap">$2.63B</span>
+                </div>
+                <div class="company-name">BigBearai Holdings Inc</div>
+            </a><a href="IBM.html" class="ticker-card" data-symbol="IBM" data-be="17">
+                <div class="ticker-row">
+                    <span class="ticker-symbol">IBM<span class="be-ratio">17x</span></span>
+                    <span class="market-cap">$282.87B</span>
+                </div>
+                <div class="company-name">International Business Machines</div>
+            </a><a href="INFY.html" class="ticker-card" data-symbol="INFY" data-be="14">
+                <div class="ticker-row">
+                    <span class="ticker-symbol">INFY<span class="be-ratio">14x</span></span>
+                    <span class="market-cap">$70.88B</span>
+                </div>
+                <div class="company-name">Infosys Ltd ADR</div>
+            </a>
+                    </div>
+                </details>
+                <details class="industry-section" data-group="ind-technology-scientific-and-technical-instruments">
+                    <summary><span class="group-title">Scientific &amp; Technical Instruments</span> <span class="ticker-count">(1)</span></summary>
+                    <div class="ticker-grid">
+                        <a href="TRMB.html" class="ticker-card" data-symbol="TRMB" data-be="21">
+                <div class="ticker-row">
+                    <span class="ticker-symbol">TRMB<span class="be-ratio">21x</span></span>
+                    <span class="market-cap">$19.02B</span>
+                </div>
+                <div class="company-name">Trimble Inc</div>
+            </a>
+                    </div>
+                </details>
+                <details class="industry-section" data-group="ind-technology-semiconductor-equipment-and-materials">
+                    <summary><span class="group-title">Semiconductor Equipment &amp; Materials</span> <span class="ticker-count">(4)</span></summary>
+                    <div class="ticker-grid">
+                        <a href="AMAT.html" class="ticker-card" data-symbol="AMAT" data-be="31">
+                <div class="ticker-row">
+                    <span class="ticker-symbol">AMAT<span class="be-ratio">31x</span></span>
+                    <span class="market-cap">$208.14B</span>
+                </div>
+                <div class="company-name">Applied Materials Inc</div>
+            </a><a href="ASML.html" class="ticker-card red-border-right" data-symbol="ASML" data-be="56">
+                <div class="ticker-row">
+                    <span class="ticker-symbol">ASML<span class="be-ratio">56x</span></span>
+                    <span class="market-cap">$422.23B</span>
+                </div>
+                <div class="company-name">ASML Holding NV ADR</div>
+            </a><a href="IPGP.html" class="ticker-card" data-symbol="IPGP" data-be="19">
+                <div class="ticker-row">
+                    <span class="ticker-symbol">IPGP<span class="be-ratio">19x</span></span>
+                    <span class="market-cap">$4.68B</span>
+                </div>
+                <div class="company-name">IPG Photonics Corporation</div>
+            </a><a href="TER.html" class="ticker-card" data-symbol="TER" data-be="42">
+                <div class="ticker-row">
+                    <span class="ticker-symbol">TER<span class="be-ratio">42x</span></span>
+                    <span class="market-cap">$32.45B</span>
+                </div>
+                <div class="company-name">Teradyne Inc</div>
+            </a>
+                    </div>
+                </details>
+                <details class="industry-section" data-group="ind-technology-semiconductors">
+                    <summary><span class="group-title">Semiconductors</span> <span class="ticker-count">(11)</span></summary>
+                    <div class="ticker-grid">
+                        <a href="ADI.html" class="ticker-card" data-symbol="ADI" data-be="49">
+                <div class="ticker-row">
+                    <span class="ticker-symbol">ADI<span class="be-ratio">49x</span></span>
+                    <span class="market-cap">$151.07B</span>
+                </div>
+                <div class="company-name">Analog Devices Inc</div>
+            </a><a href="AMD.html" class="ticker-card owned" data-symbol="AMD" data-be="38">
+                <div class="ticker-row">
+                    <span class="ticker-symbol">AMD<span class="be-ratio">38x</span></span>
+                    <span class="market-cap">$354.15B</span>
+                </div>
+                <div class="company-name">Advanced Micro Devices Inc</div>
+            </a><a href="ARM.html" class="ticker-card red-border-right" data-symbol="ARM" data-be="106">
+                <div class="ticker-row">
+                    <span class="ticker-symbol">ARM<span class="be-ratio">106x</span></span>
+                    <span class="market-cap">$119.98B</span>
+                </div>
+                <div class="company-name">Arm Holdings plc American Depositary Shares</div>
+            </a><a href="AVGO.html" class="ticker-card" data-symbol="AVGO" data-be="94">
+                <div class="ticker-row">
+                    <span class="ticker-symbol">AVGO<span class="be-ratio">94x</span></span>
+                    <span class="market-cap">$1.70T</span>
+                </div>
+                <div class="company-name">Broadcom Inc</div>
+            </a><a href="INTC.html" class="ticker-card" data-symbol="INTC" data-be="16">
+                <div class="ticker-row">
+                    <span class="ticker-symbol">INTC<span class="be-ratio">16x</span></span>
+                    <span class="market-cap">$217.27B</span>
+                </div>
+                <div class="company-name">Intel Corporation</div>
+            </a><a href="MRVL.html" class="ticker-card" data-symbol="MRVL" data-be="41">
+                <div class="ticker-row">
+                    <span class="ticker-symbol">MRVL<span class="be-ratio">41x</span></span>
+                    <span class="market-cap">$85.27B</span>
+                </div>
+                <div class="company-name">Marvell Technology Group Ltd</div>
+            </a><a href="MU.html" class="ticker-card" data-symbol="MU" data-be="24">
+                <div class="ticker-row">
+                    <span class="ticker-symbol">MU<span class="be-ratio">24x</span></span>
+                    <span class="market-cap">$266.96B</span>
+                </div>
+                <div class="company-name">Micron Technology Inc</div>
+            </a><a href="NVDA.html" class="ticker-card gold-border" data-symbol="NVDA" data-be="76">
+                <div class="ticker-row">
+                    <span class="ticker-symbol">NVDA<span class="be-ratio">76x</span></span>
+                    <span class="market-cap">$4.32T</span>
+                </div>
+                <div class="company-name">NVIDIA Corporation</div>
+            </a><a href="NVTS.html" class="ticker-card owned" data-symbol="NVTS" data-be="169">
+                <div class="ticker-row">
+                    <span class="ticker-symbol">NVTS<span class="be-ratio">169x</span></span>
+                    <span class="market-cap">$1.71B</span>
+                </div>
+                <div class="company-name">Navitas Semiconductor Corp</div>
+            </a><a href="POET.html" class="ticker-card" data-symbol="POET" data-be="3188">
+                <div class="ticker-row">
+                    <span class="ticker-symbol">POET<span class="be-ratio">3188x</span></span>
+                    <span class="market-cap">$951.38M</span>
+                </div>
+                <div class="company-name">POET Technologies Inc</div>
+            </a><a href="TSM.html" class="ticker-card" data-symbol="TSM" data-be="2">
+                <div class="ticker-row">
+                    <span class="ticker-symbol">TSM<span class="be-ratio">2x</span></span>
+                    <span class="market-cap">$1.53T</span>
+                </div>
+                <div class="company-name">Taiwan Semiconductor Manufacturing</div>
+            </a>
+                    </div>
+                </details>
+                <details class="industry-section" data-group="ind-technology-software---application">
+                    <summary><span class="group-title">Software - Application</span> <span class="ticker-count">(12)</span></summary>
+                    <div class="ticker-grid">
+                        <a href="ADBE.html" class="ticker-card" data-symbol="ADBE" data-be="24">
+                <div class="ticker-row">
+                    <span class="ticker-symbol">ADBE<span class="be-ratio">24x</span></span>
+                    <span class="market-cap">$151.20B</span>
+                </div>
+                <div class="company-name">Adobe Systems Incorporated</div>
+            </a><a href="CDNS.html" class="ticker-card owned" data-symbol="CDNS" data-be="63">
+                <div class="ticker-row">
+                    <span class="ticker-symbol">CDNS<span class="be-ratio">63x</span></span>
+                    <span class="market-cap">$84.97B</span>
+                </div>
+                <div class="company-name">Cadence Design Systems Inc</div>
+            </a><a href="CRM.html" class="ticker-card" data-symbol="CRM" data-be="24">
+                <div class="ticker-row">
+                    <span class="ticker-symbol">CRM<span class="be-ratio">24x</span></span>
+                    <span class="market-cap">$247.43B</span>
+                </div>
+                <div class="company-name">Salesforce.com Inc</div>
+            </a><a href="CRNC.html" class="ticker-card" data-symbol="CRNC" data-be="9">
+                <div class="ticker-row">
+                    <span class="ticker-symbol">CRNC<span class="be-ratio">9x</span></span>
+                    <span class="market-cap">$555.95M</span>
+                </div>
+                <div class="company-name">Cerence Inc</div>
+            </a><a href="DDOG.html" class="ticker-card glow red-border-right" data-symbol="DDOG" data-be="53">
+                <div class="ticker-row">
+                    <span class="ticker-symbol">DDOG<span class="be-ratio">53x</span></span>
+                    <span class="market-cap">$46.86B</span>
+                </div>
+                <div class="company-name">Datadog Inc</div>
+            </a><a href="DOCU.html" class="ticker-card" data-symbol="DOCU" data-be="11">
+                <div class="ticker-row">
+                    <span class="ticker-symbol">DOCU<span class="be-ratio">11x</span></span>
+                    <span class="market-cap">$9.23B</span>
+                </div>
+                <div class="company-name">DocuSign Inc</div>
+            </a><a href="MNDY.html" class="ticker-card" data-symbol="MNDY" data-be="13">
+                <div class="ticker-row">
+                    <span class="ticker-symbol">MNDY<span class="be-ratio">13x</span></span>
+                    <span class="market-cap">$4.00B</span>
+                </div>
+                <div class="company-name">Monday.Com Ltd</div>
+            </a><a href="SNOW.html" class="ticker-card" data-symbol="SNOW" data-be="63">
+                <div class="ticker-row">
+                    <span class="ticker-symbol">SNOW<span class="be-ratio">63x</span></span>
+                    <span class="market-cap">$76.13B</span>
+                </div>
+                <div class="company-name">Snowflake Inc.</div>
+            </a><a href="SOUN.html" class="ticker-card owned" data-symbol="SOUN" data-be="118">
+                <div class="ticker-row">
+                    <span class="ticker-symbol">SOUN<span class="be-ratio">118x</span></span>
+                    <span class="market-cap">$4.97B</span>
+                </div>
+                <div class="company-name">SoundHound AI Inc</div>
+            </a><a href="TEAM.html" class="ticker-card" data-symbol="TEAM" data-be="19">
+                <div class="ticker-row">
+                    <span class="ticker-symbol">TEAM<span class="be-ratio">19x</span></span>
+                    <span class="market-cap">$27.64B</span>
+                </div>
+                <div class="company-name">Atlassian Corp Plc</div>
+            </a><a href="WDAY.html" class="ticker-card" data-symbol="WDAY" data-be="17">
+                <div class="ticker-row">
+                    <span class="ticker-symbol">WDAY<span class="be-ratio">17x</span></span>
+                    <span class="market-cap">$41.27B</span>
+                </div>
+                <div class="company-name">Workday Inc</div>
+            </a><a href="ZM.html" class="ticker-card" data-symbol="ZM" data-be="20">
+                <div class="ticker-row">
+                    <span class="ticker-symbol">ZM<span class="be-ratio">20x</span></span>
+                    <span class="market-cap">$24.34B</span>
+                </div>
+                <div class="company-name">Zoom Video Communications Inc</div>
+            </a>
+                    </div>
+                </details>
+                <details class="industry-section" data-group="ind-technology-software---infrastructure">
+                    <summary><span class="group-title">Software - Infrastructure</span> <span class="ticker-count">(15)</span></summary>
+                    <div class="ticker-grid">
+                        <a href="AI.html" class="ticker-card" data-symbol="AI" data-be="27">
+                <div class="ticker-row">
+                    <span class="ticker-symbol">AI<span class="be-ratio">27x</span></span>
+                    <span class="market-cap">$2.03B</span>
+                </div>
+                <div class="company-name">C3 Ai Inc</div>
+            </a><a href="AISP.html" class="ticker-card" data-symbol="AISP" data-be="125">
+                <div class="ticker-row">
+                    <span class="ticker-symbol">AISP<span class="be-ratio">125x</span></span>
+                    <span class="market-cap">$147.64M</span>
+                </div>
+                <div class="company-name">Airship AI Holdings Inc</div>
+            </a><a href="CCSI.html" class="ticker-card" data-symbol="CCSI" data-be="5">
+                <div class="ticker-row">
+                    <span class="ticker-symbol">CCSI<span class="be-ratio">5x</span></span>
+                    <span class="market-cap">$460.70M</span>
+                </div>
+                <div class="company-name">Consensus Cloud Solutions Inc</div>
+            </a><a href="CRWD.html" class="ticker-card glow" data-symbol="CRWD" data-be="98">
+                <div class="ticker-row">
+                    <span class="ticker-symbol">CRWD<span class="be-ratio">98x</span></span>
+                    <span class="market-cap">$121.31B</span>
+                </div>
+                <div class="company-name">Crowdstrike Holdings Inc</div>
+            </a><a href="CRWV.html" class="ticker-card cyan-border-right" data-symbol="CRWV" data-be="44">
+                <div class="ticker-row">
+                    <span class="ticker-symbol">CRWV<span class="be-ratio">44x</span></span>
+                    <span class="market-cap">$60.14B</span>
+                </div>
+                <div class="company-name">CoreWeave, Inc. Class A Common Stock</div>
+            </a><a href="DOCN.html" class="ticker-card" data-symbol="DOCN" data-be="19">
+                <div class="ticker-row">
+                    <span class="ticker-symbol">DOCN<span class="be-ratio">19x</span></span>
+                    <span class="market-cap">$4.42B</span>
+                </div>
+                <div class="company-name">DigitalOcean Holdings Inc</div>
+            </a><a href="HUBC.html" class="ticker-card" data-symbol="HUBC" data-be="1">
+                <div class="ticker-row">
+                    <span class="ticker-symbol">HUBC<span class="be-ratio">1x</span></span>
+                    <span class="market-cap">$10.18M</span>
+                </div>
+                <div class="company-name">Hub Cyber Security Ltd. Ordinary Shares</div>
+            </a><a href="MDB.html" class="ticker-card" data-symbol="MDB" data-be="52">
+                <div class="ticker-row">
+                    <span class="ticker-symbol">MDB<span class="be-ratio">52x</span></span>
+                    <span class="market-cap">$32.54B</span>
+                </div>
+                <div class="company-name">MongoDB</div>
+            </a><a href="MSFT.html" class="ticker-card gold-border" data-symbol="MSFT" data-be="47">
+                <div class="ticker-row">
+                    <span class="ticker-symbol">MSFT<span class="be-ratio">47x</span></span>
+                    <span class="market-cap">$3.66T</span>
+                </div>
+                <div class="company-name">Microsoft Corporation</div>
+            </a><a href="ORCL.html" class="ticker-card" data-symbol="ORCL" data-be="40">
+                <div class="ticker-row">
+                    <span class="ticker-symbol">ORCL<span class="be-ratio">40x</span></span>
+                    <span class="market-cap">$635.76B</span>
+                </div>
+                <div class="company-name">Oracle Corporation</div>
+            </a><a href="PANW.html" class="ticker-card glow" data-symbol="PANW" data-be="53">
+                <div class="ticker-row">
+                    <span class="ticker-symbol">PANW<span class="be-ratio">53x</span></span>
+                    <span class="market-cap">$130.05B</span>
+                </div>
+                <div class="company-name">Palo Alto Networks Inc</div>
+            </a><a href="PATH.html" class="ticker-card owned" data-symbol="PATH" data-be="21">
+                <div class="ticker-row">
+                    <span class="ticker-symbol">PATH<span class="be-ratio">21x</span></span>
+                    <span class="market-cap">$7.42B</span>
+                </div>
+                <div class="company-name">Uipath Inc</div>
+            </a><a href="PLTR.html" class="ticker-card owned" data-symbol="PLTR" data-be="219">
+                <div class="ticker-row">
+                    <span class="ticker-symbol">PLTR<span class="be-ratio">219x</span></span>
+                    <span class="market-cap">$307.77B</span>
+                </div>
+                <div class="company-name">Palantir Technologies Inc.</div>
+            </a><a href="ZETA.html" class="ticker-card" data-symbol="ZETA" data-be="15">
+                <div class="ticker-row">
+                    <span class="ticker-symbol">ZETA<span class="be-ratio">15x</span></span>
+                    <span class="market-cap">$5.09B</span>
+                </div>
+                <div class="company-name">Zeta Global Holdings Corp</div>
+            </a><a href="ZS.html" class="ticker-card glow red-border-right" data-symbol="ZS" data-be="45">
+                <div class="ticker-row">
+                    <span class="ticker-symbol">ZS<span class="be-ratio">45x</span></span>
+                    <span class="market-cap">$35.52B</span>
+                </div>
+                <div class="company-name">Zscaler Inc</div>
+            </a>
+                    </div>
+                </details>
+            </div>
+        </details>
+        
+        <details class="portfolio-section sector-section" data-group="sec-utilities">
+            <summary><span class="group-title">Utilities</span> <span class="ticker-count">(2)</span></summary>
+            <div class="sector-industries">
+                
+                <details class="industry-section" data-group="ind-utilities-utilities---independent-power-producers">
+                    <summary><span class="group-title">Utilities - Independent Power Producers</span> <span class="ticker-count">(2)</span></summary>
+                    <div class="ticker-grid">
+                        <a href="CEG.html" class="ticker-card red-border-right" data-symbol="CEG" data-be="16">
+                <div class="ticker-row">
+                    <span class="ticker-symbol">CEG<span class="be-ratio">16x</span></span>
+                    <span class="market-cap">$113.83B</span>
+                </div>
+                <div class="company-name">Constellation Energy Corp</div>
+            </a><a href="VST.html" class="ticker-card" data-symbol="VST" data-be="11">
+                <div class="ticker-row">
+                    <span class="ticker-symbol">VST<span class="be-ratio">11x</span></span>
+                    <span class="market-cap">$56.37B</span>
+                </div>
+                <div class="company-name">Vistra Energy Corp</div>
+            </a>
+                    </div>
+                </details>
+            </div>
+        </details>
         
 
         <footer>
@@ -1604,7 +3019,7 @@
 
     function saveState() {
         const open = [];
-        document.querySelectorAll('details.portfolio-section[open]').forEach(d => {
+        document.querySelectorAll('details.portfolio-section[open], details.industry-section[open]').forEach(d => {
             open.push(d.dataset.group);
         });
         localStorage.setItem(STORAGE_KEY, JSON.stringify(open));
@@ -1625,20 +3040,20 @@
     }
 
     function updateToggleBtn() {
-        const all = document.querySelectorAll('details.portfolio-section');
-        const closed = document.querySelectorAll('details.portfolio-section:not([open])');
+        const all = document.querySelectorAll('details.portfolio-section, details.industry-section');
+        const closed = document.querySelectorAll('details.portfolio-section:not([open]), details.industry-section:not([open])');
         const btn = document.getElementById('toggle-all');
         if (btn) btn.textContent = closed.length === 0 && all.length ? 'Collapse All' : 'Expand All';
     }
 
     function toggleAll() {
-        const all = document.querySelectorAll('details.portfolio-section');
-        const anyClosed = document.querySelectorAll('details.portfolio-section:not([open])').length > 0;
+        const all = document.querySelectorAll('details.portfolio-section, details.industry-section');
+        const anyClosed = document.querySelectorAll('details.portfolio-section:not([open]), details.industry-section:not([open])').length > 0;
         all.forEach(d => d.open = anyClosed);
         saveState();
     }
 
-    document.querySelectorAll('details.portfolio-section').forEach(d => {
+    document.querySelectorAll('details.portfolio-section, details.industry-section').forEach(d => {
         d.addEventListener('toggle', saveState);
     });
 
