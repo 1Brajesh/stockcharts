@@ -1539,25 +1539,25 @@
     "ANET": {
       "presets": {
         "Revenue": {
-          "updated": "Feb 15, 2026 09:09 PM"
+          "updated": "Feb 15, 2026 09:14 PM"
         },
         "Costs": {
-          "updated": "Feb 15, 2026 09:09 PM"
+          "updated": "Feb 15, 2026 09:14 PM"
         },
         "Cash": {
-          "updated": "Feb 15, 2026 09:09 PM"
+          "updated": "Feb 15, 2026 09:14 PM"
         },
         "FCF": {
-          "updated": "Feb 15, 2026 09:09 PM"
+          "updated": "Feb 15, 2026 09:14 PM"
         },
         "Assets": {
-          "updated": "Feb 15, 2026 09:09 PM"
+          "updated": "Feb 15, 2026 09:14 PM"
         },
         "Buffet": {
-          "updated": "Feb 15, 2026 09:09 PM"
+          "updated": "Feb 15, 2026 09:14 PM"
         }
       },
-      "last_updated": "2026-02-15T21:09:31.570077",
+      "last_updated": "2026-02-15T21:14:45.861479",
       "company": {
         "name": "Arista Networks",
         "market_cap": "$161.93B",
@@ -3907,25 +3907,25 @@
     "TER": {
       "presets": {
         "Revenue": {
-          "updated": "Feb 15, 2026 09:11 PM"
+          "updated": "Feb 15, 2026 09:14 PM"
         },
         "Costs": {
-          "updated": "Feb 15, 2026 09:11 PM"
+          "updated": "Feb 15, 2026 09:14 PM"
         },
         "Cash": {
-          "updated": "Feb 15, 2026 09:11 PM"
+          "updated": "Feb 15, 2026 09:14 PM"
         },
         "FCF": {
-          "updated": "Feb 15, 2026 09:11 PM"
+          "updated": "Feb 15, 2026 09:14 PM"
         },
         "Assets": {
-          "updated": "Feb 15, 2026 09:11 PM"
+          "updated": "Feb 15, 2026 09:14 PM"
         },
         "Buffet": {
-          "updated": "Feb 15, 2026 09:11 PM"
+          "updated": "Feb 15, 2026 09:14 PM"
         }
       },
-      "last_updated": "2026-02-15T21:11:45.322875",
+      "last_updated": "2026-02-15T21:14:45.823563",
       "company": {
         "name": "Teradyne Inc",
         "market_cap": "$32.45B",
