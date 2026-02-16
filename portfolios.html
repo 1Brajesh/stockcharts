@@ -336,7 +336,7 @@
     <div class="container">
         <header>
             <h1>Stock Charts</h1>
-            <div class="subtitle">Last updated: Feb 15, 2026 07:51 PM</div>
+            <div class="subtitle">Last updated: Feb 15, 2026 07:56 PM</div>
         </header>
 
         <nav class="nav">
@@ -2277,15 +2277,21 @@
 
     // Open section targeted by URL hash
     (function() {
-        const hash = location.hash.slice(1);
-        if (!hash) return;
-        const el = document.getElementById(hash);
-        if (!el || el.tagName !== 'DETAILS') return;
-        el.open = true;
-        const parent = el.closest('details.sector-section');
-        if (parent) parent.open = true;
-        el.scrollIntoView({block: 'start'});
-        saveState();
+        function openHash() {
+            const hash = location.hash.slice(1);
+            if (!hash) return;
+            const el = document.getElementById(hash);
+            if (!el || el.tagName !== 'DETAILS') return;
+            el.open = true;
+            const parent = el.closest('details.sector-section');
+            if (parent) parent.open = true;
+            requestAnimationFrame(() => {
+                el.scrollIntoView({block: 'start'});
+            });
+            saveState();
+        }
+        openHash();
+        window.addEventListener('hashchange', openHash);
     })();
     </script>
 
