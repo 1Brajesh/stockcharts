@@ -109,6 +109,14 @@
             padding: 2px 8px;
             border-radius: 4px;
         }
+        .company-meta a.sector-link {
+            text-decoration: none;
+        }
+        .company-meta a.sector-link:hover .sector,
+        .company-meta a.sector-link:hover .industry {
+            background-color: #30363d;
+            color: #c9d1d9;
+        }
         .company-meta .be-ratio {
             color: #f0b429;
             font-weight: 700;
@@ -227,7 +235,7 @@
                 <a href="portfolios.html" class="back-link">&larr; Back to Portfolios</a>
             </div>
             <h1>ASML</h1>
-            <div class="timestamp">Updated: Feb 11, 2026 10:56 PM</div>
+            <div class="timestamp">Updated: Feb 15, 2026 08:15 PM</div>
         </header>
 
         
@@ -236,8 +244,8 @@
             <div class="company-meta">
                 <span class="market-cap">Market Cap: <strong>$422.23B</strong></span>
                 <span class="be-ratio">P/S: 56x</span>
-                <span class="sector">TECHNOLOGY</span>
-                <span class="industry">SEMICONDUCTOR EQUIPMENT &amp; MATERIALS</span>
+                <a class="sector-link" href="portfolios.html#sec-technology"><span class="sector">TECHNOLOGY</span></a>
+                <a class="sector-link" href="portfolios.html#ind-technology-semiconductor-equipment-and-materials"><span class="industry">SEMICONDUCTOR EQUIPMENT &amp; MATERIALS</span></a>
             </div>
             <p class="description">ASML Holding NV is a leading supplier of advanced semiconductor manufacturing equipment, specializing in cutting-edge lithography systems essential for the production of memory and logic chips. Headquartered in Veldhoven, Netherlands, the company is instrumental in the semiconductor supply chain, particularly through its pioneering extreme ultraviolet (EUV) lithography technology that enhances chip performance and efficiency. With a steadfast commitment to innovation and strategic partnerships with major semiconductor manufacturers, ASML is ideally positioned to benefit from the growing demand for high-performance computing solutions and the ongoing digital transformation across various industries.</p>
         </div>

@@ -109,6 +109,14 @@
             padding: 2px 8px;
             border-radius: 4px;
         }
+        .company-meta a.sector-link {
+            text-decoration: none;
+        }
+        .company-meta a.sector-link:hover .sector,
+        .company-meta a.sector-link:hover .industry {
+            background-color: #30363d;
+            color: #c9d1d9;
+        }
         .company-meta .be-ratio {
             color: #f0b429;
             font-weight: 700;
@@ -227,7 +235,7 @@
                 <a href="portfolios.html" class="back-link">&larr; Back to Portfolios</a>
             </div>
             <h1>UNH</h1>
-            <div class="timestamp">Updated: Feb 11, 2026 10:57 PM</div>
+            <div class="timestamp">Updated: Feb 15, 2026 08:16 PM</div>
         </header>
 
         
@@ -236,8 +244,8 @@
             <div class="company-meta">
                 <span class="market-cap">Market Cap: <strong>$305.02B</strong></span>
                 <span class="be-ratio">P/S: 3x</span>
-                <span class="sector">HEALTHCARE</span>
-                <span class="industry">HEALTHCARE PLANS</span>
+                <a class="sector-link" href="portfolios.html#sec-healthcare"><span class="sector">HEALTHCARE</span></a>
+                <a class="sector-link" href="portfolios.html#ind-healthcare-healthcare-plans"><span class="industry">HEALTHCARE PLANS</span></a>
             </div>
             <p class="description">UnitedHealth Group Incorporated is a premier American multinational managed healthcare and insurance company based in Minnetonka, Minnesota. As the largest insurance provider by net premiums and the second-largest healthcare entity by revenue, generating $257.1 billion as of 2020, UnitedHealth Group boasts a robust portfolio, with its UnitedHealthcare division contributing approximately 80% of total revenue. The company is strategically positioned to leverage the evolving healthcare landscape, demonstrating a commitment to innovation through investments in digital health, telemedicine, and data analytics, ultimately enhancing patient care while driving growth and operational efficiency.</p>
         </div>

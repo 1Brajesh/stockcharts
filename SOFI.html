@@ -109,6 +109,14 @@
             padding: 2px 8px;
             border-radius: 4px;
         }
+        .company-meta a.sector-link {
+            text-decoration: none;
+        }
+        .company-meta a.sector-link:hover .sector,
+        .company-meta a.sector-link:hover .industry {
+            background-color: #30363d;
+            color: #c9d1d9;
+        }
         .company-meta .be-ratio {
             color: #f0b429;
             font-weight: 700;
@@ -227,7 +235,7 @@
                 <a href="portfolios.html" class="back-link">&larr; Back to Portfolios</a>
             </div>
             <h1>SOFI</h1>
-            <div class="timestamp">Updated: Feb 11, 2026 10:57 PM</div>
+            <div class="timestamp">Updated: Feb 15, 2026 08:15 PM</div>
         </header>
 
         
@@ -236,8 +244,8 @@
             <div class="company-meta">
                 <span class="market-cap">Market Cap: <strong>$34.36B</strong></span>
                 <span class="be-ratio">P/S: 27x</span>
-                <span class="sector">FINANCIAL SERVICES</span>
-                <span class="industry">CREDIT SERVICES</span>
+                <a class="sector-link" href="portfolios.html#sec-financial-services"><span class="sector">FINANCIAL SERVICES</span></a>
+                <a class="sector-link" href="portfolios.html#ind-financial-services-credit-services"><span class="industry">CREDIT SERVICES</span></a>
             </div>
             <p class="description">SoFi Technologies, Inc. is a prominent digital financial services provider based in San Francisco, California, focusing on a diverse range of offerings, including personal loans, student and home refinancing, investment management, and insurance solutions. By leveraging cutting-edge technology, SoFi aims to empower individuals on their journey to financial independence while enhancing the accessibility and efficiency of financial services. The company has established a comprehensive platform that integrates borrowing, investing, and community engagement, making it a holistic financial partner for its members and differentiating it in the competitive fintech landscape.</p>
         </div>

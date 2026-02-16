@@ -109,6 +109,14 @@
             padding: 2px 8px;
             border-radius: 4px;
         }
+        .company-meta a.sector-link {
+            text-decoration: none;
+        }
+        .company-meta a.sector-link:hover .sector,
+        .company-meta a.sector-link:hover .industry {
+            background-color: #30363d;
+            color: #c9d1d9;
+        }
         .company-meta .be-ratio {
             color: #f0b429;
             font-weight: 700;
@@ -227,7 +235,7 @@
                 <a href="portfolios.html" class="back-link">&larr; Back to Portfolios</a>
             </div>
             <h1>KHC</h1>
-            <div class="timestamp">Updated: Feb 11, 2026 10:57 PM</div>
+            <div class="timestamp">Updated: Feb 15, 2026 08:15 PM</div>
         </header>
 
         
@@ -236,8 +244,8 @@
             <div class="company-meta">
                 <span class="market-cap">Market Cap: <strong>$28.10B</strong></span>
                 <span class="be-ratio">P/S: 5x</span>
-                <span class="sector">CONSUMER DEFENSIVE</span>
-                <span class="industry">PACKAGED FOODS</span>
+                <a class="sector-link" href="portfolios.html#sec-consumer-defensive"><span class="sector">CONSUMER DEFENSIVE</span></a>
+                <a class="sector-link" href="portfolios.html#ind-consumer-defensive-packaged-foods"><span class="industry">PACKAGED FOODS</span></a>
             </div>
             <p class="description">The Kraft Heinz Company (KHC) is a powerhouse in the global food and beverage industry, formed through the landmark merger of Kraft Foods and Heinz. With its dual headquarters in Chicago and Pittsburgh, KHC offers a robust portfolio of well-known brands, including Kraft, Heinz, Oscar Mayer, and Philadelphia, which resonate strongly with consumers. The company is dedicated to innovation and sustainability, aiming to adapt to evolving consumer preferences while fostering operational excellence. Kraft Heinz&#39;s strategic positioning and ability to capitalize on emerging market trends underscore its potential for sustainable growth and the creation of long-term shareholder value.</p>
         </div>

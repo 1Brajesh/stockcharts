@@ -109,6 +109,14 @@
             padding: 2px 8px;
             border-radius: 4px;
         }
+        .company-meta a.sector-link {
+            text-decoration: none;
+        }
+        .company-meta a.sector-link:hover .sector,
+        .company-meta a.sector-link:hover .industry {
+            background-color: #30363d;
+            color: #c9d1d9;
+        }
         .company-meta .be-ratio {
             color: #f0b429;
             font-weight: 700;
@@ -227,7 +235,7 @@
                 <a href="portfolios.html" class="back-link">&larr; Back to Portfolios</a>
             </div>
             <h1>GS</h1>
-            <div class="timestamp">Updated: Feb 13, 2026 01:07 AM</div>
+            <div class="timestamp">Updated: Feb 15, 2026 08:15 PM</div>
         </header>
 
         
@@ -236,8 +244,8 @@
             <div class="company-meta">
                 <span class="market-cap">Market Cap: <strong>$270.08B</strong></span>
                 <span class="be-ratio">P/S: 8x</span>
-                <span class="sector">FINANCIAL SERVICES</span>
-                <span class="industry">CAPITAL MARKETS</span>
+                <a class="sector-link" href="portfolios.html#sec-financial-services"><span class="sector">FINANCIAL SERVICES</span></a>
+                <a class="sector-link" href="portfolios.html#ind-financial-services-capital-markets"><span class="industry">CAPITAL MARKETS</span></a>
             </div>
             <p class="description">Goldman Sachs Group, Inc. is a leading global investment banking, securities, and investment management firm based in New York City, recognized for its profound influence in capital markets. Catering to a broad range of institutional investors and corporations, Goldman Sachs excels in providing strategic advisory services, securities underwriting, and comprehensive asset management. The firm’s commitment to risk management and its significant global presence enable it to navigate complex market environments effectively. Leveraging advanced technology and extensive industry expertise, Goldman Sachs continually delivers innovative financial solutions that drive superior client outcomes and facilitate strategic transactions.</p>
         </div>

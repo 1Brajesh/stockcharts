@@ -109,6 +109,14 @@
             padding: 2px 8px;
             border-radius: 4px;
         }
+        .company-meta a.sector-link {
+            text-decoration: none;
+        }
+        .company-meta a.sector-link:hover .sector,
+        .company-meta a.sector-link:hover .industry {
+            background-color: #30363d;
+            color: #c9d1d9;
+        }
         .company-meta .be-ratio {
             color: #f0b429;
             font-weight: 700;
@@ -227,7 +235,7 @@
                 <a href="portfolios.html" class="back-link">&larr; Back to Portfolios</a>
             </div>
             <h1>DDOG</h1>
-            <div class="timestamp">Updated: Feb 11, 2026 10:56 PM</div>
+            <div class="timestamp">Updated: Feb 15, 2026 08:15 PM</div>
         </header>
 
         
@@ -236,8 +244,8 @@
             <div class="company-meta">
                 <span class="market-cap">Market Cap: <strong>$46.86B</strong></span>
                 <span class="be-ratio">P/S: 53x</span>
-                <span class="sector">TECHNOLOGY</span>
-                <span class="industry">SOFTWARE - APPLICATION</span>
+                <a class="sector-link" href="portfolios.html#sec-technology"><span class="sector">TECHNOLOGY</span></a>
+                <a class="sector-link" href="portfolios.html#ind-technology-software---application"><span class="industry">SOFTWARE - APPLICATION</span></a>
             </div>
             <p class="description">Datadog, Inc. is a premier provider of cloud-based observability solutions that enhance application performance and operational efficiency for developers and IT teams. With its robust platform offering real-time insights across extensive technology stacks, Datadog enables organizations to effectively monitor their cloud environments and improve infrastructure visibility. Headquartered in New York, the company is strategically positioned in the burgeoning observability market and caters to a diverse global clientele. By emphasizing scalability and innovation, Datadog remains a vital partner for enterprises undertaking digital transformation initiatives, solidifying its role in the evolving digital landscape.</p>
         </div>

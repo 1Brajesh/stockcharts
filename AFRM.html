@@ -109,6 +109,14 @@
             padding: 2px 8px;
             border-radius: 4px;
         }
+        .company-meta a.sector-link {
+            text-decoration: none;
+        }
+        .company-meta a.sector-link:hover .sector,
+        .company-meta a.sector-link:hover .industry {
+            background-color: #30363d;
+            color: #c9d1d9;
+        }
         .company-meta .be-ratio {
             color: #f0b429;
             font-weight: 700;
@@ -227,7 +235,7 @@
                 <a href="portfolios.html" class="back-link">&larr; Back to Portfolios</a>
             </div>
             <h1>AFRM</h1>
-            <div class="timestamp">Updated: Feb 11, 2026 10:56 PM</div>
+            <div class="timestamp">Updated: Feb 15, 2026 08:15 PM</div>
         </header>
 
         
@@ -236,8 +244,8 @@
             <div class="company-meta">
                 <span class="market-cap">Market Cap: <strong>$24.68B</strong></span>
                 <span class="be-ratio">P/S: 26x</span>
-                <span class="sector">FINANCIAL SERVICES</span>
-                <span class="industry">CREDIT SERVICES</span>
+                <a class="sector-link" href="portfolios.html#sec-financial-services"><span class="sector">FINANCIAL SERVICES</span></a>
+                <a class="sector-link" href="portfolios.html#ind-financial-services-credit-services"><span class="industry">CREDIT SERVICES</span></a>
             </div>
             <p class="description">Affirm Holdings, Inc. is a prominent financial technology company headquartered in San Francisco, California, focused on providing innovative point-of-sale financing and buy now, pay later (BNPL) solutions across the U.S. and Canada. By enhancing consumer purchasing power and advocating for responsible spending practices, Affirm facilitates seamless integrations with merchants, thereby optimizing conversion rates and driving sales growth. As e-commerce continues to evolve, Affirm’s differentiated financing solutions are not only transforming consumer payment experiences but are also reinforcing transparency in credit access, cementing its role as a key player in the retail industry&#39;s digital transformation.</p>
         </div>

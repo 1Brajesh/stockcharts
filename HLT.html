@@ -109,6 +109,14 @@
             padding: 2px 8px;
             border-radius: 4px;
         }
+        .company-meta a.sector-link {
+            text-decoration: none;
+        }
+        .company-meta a.sector-link:hover .sector,
+        .company-meta a.sector-link:hover .industry {
+            background-color: #30363d;
+            color: #c9d1d9;
+        }
         .company-meta .be-ratio {
             color: #f0b429;
             font-weight: 700;
@@ -227,7 +235,7 @@
                 <a href="portfolios.html" class="back-link">&larr; Back to Portfolios</a>
             </div>
             <h1>HLT</h1>
-            <div class="timestamp">Updated: Feb 11, 2026 10:57 PM</div>
+            <div class="timestamp">Updated: Feb 15, 2026 08:15 PM</div>
         </header>
 
         
@@ -236,8 +244,8 @@
             <div class="company-meta">
                 <span class="market-cap">Market Cap: <strong>$70.21B</strong></span>
                 <span class="be-ratio">P/S: 23x</span>
-                <span class="sector">CONSUMER CYCLICAL</span>
-                <span class="industry">LODGING</span>
+                <a class="sector-link" href="portfolios.html#sec-consumer-cyclical"><span class="sector">CONSUMER CYCLICAL</span></a>
+                <a class="sector-link" href="portfolios.html#ind-consumer-cyclical-lodging"><span class="industry">LODGING</span></a>
             </div>
             <p class="description">Hilton Worldwide Holdings Inc. is a leading global hospitality company renowned for its diverse portfolio of prestigious brands, including Hilton, DoubleTree, and Waldorf Astoria, which cater to a wide range of market segments. With a commitment to delivering exceptional customer experiences and operational excellence, Hilton is strategically positioned for growth through global expansion and innovation. The company’s strong loyalty program and significant presence in key travel markets enhance its competitive edge, making it an attractive investment opportunity for institutional investors looking to capitalize on the recovery and growth potential within the dynamic tourism and travel industries.</p>
         </div>

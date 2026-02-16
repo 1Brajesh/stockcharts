@@ -109,6 +109,14 @@
             padding: 2px 8px;
             border-radius: 4px;
         }
+        .company-meta a.sector-link {
+            text-decoration: none;
+        }
+        .company-meta a.sector-link:hover .sector,
+        .company-meta a.sector-link:hover .industry {
+            background-color: #30363d;
+            color: #c9d1d9;
+        }
         .company-meta .be-ratio {
             color: #f0b429;
             font-weight: 700;
@@ -227,7 +235,7 @@
                 <a href="portfolios.html" class="back-link">&larr; Back to Portfolios</a>
             </div>
             <h1>STLA</h1>
-            <div class="timestamp">Updated: Feb 11, 2026 10:57 PM</div>
+            <div class="timestamp">Updated: Feb 15, 2026 08:15 PM</div>
         </header>
 
         
@@ -236,8 +244,8 @@
             <div class="company-meta">
                 <span class="market-cap">Market Cap: <strong>$31.92B</strong></span>
                 <span class="be-ratio">P/S: 0x</span>
-                <span class="sector">CONSUMER CYCLICAL</span>
-                <span class="industry">AUTO MANUFACTURERS</span>
+                <a class="sector-link" href="portfolios.html#sec-consumer-cyclical"><span class="sector">CONSUMER CYCLICAL</span></a>
+                <a class="sector-link" href="portfolios.html#ind-consumer-cyclical-auto-manufacturers"><span class="industry">AUTO MANUFACTURERS</span></a>
             </div>
             <p class="description">Stellantis NV, headquartered in Lijnden, Netherlands, is a prominent global automotive manufacturer formed by the merger of Fiat Chrysler Automobiles and PSA Group. The company features a diversified portfolio of well-known brands, offering a range of passenger cars, trucks, SUVs, and light commercial vehicles, while prioritizing innovation and sustainability. Stellantis is proactively advancing its electric and connected vehicle initiatives, aligning with market trends and consumer demands. As the automotive industry faces transformative changes, Stellantis is dedicated to enhancing mobility through advanced technologies and optimizing operational efficiencies, positioning itself for sustainable long-term growth.</p>
         </div>

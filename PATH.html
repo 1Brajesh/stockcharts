@@ -109,6 +109,14 @@
             padding: 2px 8px;
             border-radius: 4px;
         }
+        .company-meta a.sector-link {
+            text-decoration: none;
+        }
+        .company-meta a.sector-link:hover .sector,
+        .company-meta a.sector-link:hover .industry {
+            background-color: #30363d;
+            color: #c9d1d9;
+        }
         .company-meta .be-ratio {
             color: #f0b429;
             font-weight: 700;
@@ -227,7 +235,7 @@
                 <a href="portfolios.html" class="back-link">&larr; Back to Portfolios</a>
             </div>
             <h1>PATH</h1>
-            <div class="timestamp">Updated: Feb 11, 2026 10:57 PM</div>
+            <div class="timestamp">Updated: Feb 15, 2026 08:15 PM</div>
         </header>
 
         
@@ -236,8 +244,8 @@
             <div class="company-meta">
                 <span class="market-cap">Market Cap: <strong>$7.42B</strong></span>
                 <span class="be-ratio">P/S: 21x</span>
-                <span class="sector">TECHNOLOGY</span>
-                <span class="industry">SOFTWARE - INFRASTRUCTURE</span>
+                <a class="sector-link" href="portfolios.html#sec-technology"><span class="sector">TECHNOLOGY</span></a>
+                <a class="sector-link" href="portfolios.html#ind-technology-software---infrastructure"><span class="industry">SOFTWARE - INFRASTRUCTURE</span></a>
             </div>
             <p class="description">UiPath Inc. (PATH) is a leading force in the robotic process automation (RPA) industry, delivering a comprehensive automation platform that enhances operational efficiency and drives digital transformation across a variety of sectors. Leveraging cutting-edge artificial intelligence and machine learning capabilities, the company is ideally placed to capitalize on the rapidly growing demand for automation solutions. With a strategic presence in key markets, including the United States, Romania, and Japan, and headquartered in New York, UiPath is well-positioned to support organizations in navigating their automation journeys effectively.</p>
         </div>

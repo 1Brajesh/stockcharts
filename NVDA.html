@@ -109,6 +109,14 @@
             padding: 2px 8px;
             border-radius: 4px;
         }
+        .company-meta a.sector-link {
+            text-decoration: none;
+        }
+        .company-meta a.sector-link:hover .sector,
+        .company-meta a.sector-link:hover .industry {
+            background-color: #30363d;
+            color: #c9d1d9;
+        }
         .company-meta .be-ratio {
             color: #f0b429;
             font-weight: 700;
@@ -227,7 +235,7 @@
                 <a href="portfolios.html" class="back-link">&larr; Back to Portfolios</a>
             </div>
             <h1>NVDA</h1>
-            <div class="timestamp">Updated: Feb 11, 2026 10:57 PM</div>
+            <div class="timestamp">Updated: Feb 15, 2026 08:15 PM</div>
         </header>
 
         
@@ -236,8 +244,8 @@
             <div class="company-meta">
                 <span class="market-cap">Market Cap: <strong>$4.32T</strong></span>
                 <span class="be-ratio">P/S: 76x</span>
-                <span class="sector">TECHNOLOGY</span>
-                <span class="industry">SEMICONDUCTORS</span>
+                <a class="sector-link" href="portfolios.html#sec-technology"><span class="sector">TECHNOLOGY</span></a>
+                <a class="sector-link" href="portfolios.html#ind-technology-semiconductors"><span class="industry">SEMICONDUCTORS</span></a>
             </div>
             <p class="description">NVIDIA Corporation is a prominent American multinational technology firm based in Santa Clara, California, recognized for its leadership in the design and manufacturing of advanced graphics processing units (GPUs) for gaming and professional markets. The company is at the cutting edge of AI and visual computing technologies, developing critical solutions such as System on a Chip (SoC) products that enhance mobile computing and automotive applications, particularly in the expanding field of autonomous driving. With a diverse portfolio that encompasses gaming, data centers, and AI infrastructure, NVIDIA is committed to delivering innovative products and services that meet the demands of a dynamic technology landscape.</p>
         </div>

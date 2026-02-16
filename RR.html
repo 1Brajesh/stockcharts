@@ -109,6 +109,14 @@
             padding: 2px 8px;
             border-radius: 4px;
         }
+        .company-meta a.sector-link {
+            text-decoration: none;
+        }
+        .company-meta a.sector-link:hover .sector,
+        .company-meta a.sector-link:hover .industry {
+            background-color: #30363d;
+            color: #c9d1d9;
+        }
         .company-meta .be-ratio {
             color: #f0b429;
             font-weight: 700;
@@ -227,7 +235,7 @@
                 <a href="portfolios.html" class="back-link">&larr; Back to Portfolios</a>
             </div>
             <h1>RR</h1>
-            <div class="timestamp">Updated: Feb 13, 2026 01:09 AM</div>
+            <div class="timestamp">Updated: Feb 15, 2026 08:15 PM</div>
         </header>
 
         
@@ -236,8 +244,8 @@
             <div class="company-meta">
                 <span class="market-cap">Market Cap: <strong>$666.41M</strong></span>
                 <span class="be-ratio">P/S: 566x</span>
-                <span class="sector">INDUSTRIALS</span>
-                <span class="industry">SPECIALTY INDUSTRIAL MACHINERY</span>
+                <a class="sector-link" href="portfolios.html#sec-industrials"><span class="sector">INDUSTRIALS</span></a>
+                <a class="sector-link" href="portfolios.html#ind-industrials-specialty-industrial-machinery"><span class="industry">SPECIALTY INDUSTRIAL MACHINERY</span></a>
             </div>
             <p class="description">Richtech Robotics Inc. (Ticker: RR) is a pioneering player in the robotics industry, dedicated to delivering cutting-edge automation solutions specifically designed for the service sector. Headquartered in Las Vegas, Nevada, the company leverages its advanced robotic technologies to drive operational efficiency and elevate customer experiences. With a diverse product portfolio that addresses the unique challenges of various service industries, Richtech Robotics is strategically positioned to seize emerging opportunities in the expanding automation market, making it an attractive investment for institutions seeking growth in innovative technology.</p>
         </div>

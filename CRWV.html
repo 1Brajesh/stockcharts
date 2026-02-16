@@ -109,6 +109,14 @@
             padding: 2px 8px;
             border-radius: 4px;
         }
+        .company-meta a.sector-link {
+            text-decoration: none;
+        }
+        .company-meta a.sector-link:hover .sector,
+        .company-meta a.sector-link:hover .industry {
+            background-color: #30363d;
+            color: #c9d1d9;
+        }
         .company-meta .be-ratio {
             color: #f0b429;
             font-weight: 700;
@@ -227,7 +235,7 @@
                 <a href="portfolios.html" class="back-link">&larr; Back to Portfolios</a>
             </div>
             <h1>CRWV</h1>
-            <div class="timestamp">Updated: Feb 11, 2026 10:56 PM</div>
+            <div class="timestamp">Updated: Feb 15, 2026 08:15 PM</div>
         </header>
 
         
@@ -236,8 +244,8 @@
             <div class="company-meta">
                 <span class="market-cap">Market Cap: <strong>$60.14B</strong></span>
                 <span class="be-ratio">P/S: 44x</span>
-                <span class="sector">TECHNOLOGY</span>
-                <span class="industry">SOFTWARE - INFRASTRUCTURE</span>
+                <a class="sector-link" href="portfolios.html#sec-technology"><span class="sector">TECHNOLOGY</span></a>
+                <a class="sector-link" href="portfolios.html#ind-technology-software---infrastructure"><span class="industry">SOFTWARE - INFRASTRUCTURE</span></a>
             </div>
             <p class="description">CoreWeave, Inc. (Ticker: CRWV) is a leading cloud infrastructure provider based in Livingston, New Jersey, specializing in high-performance computing solutions designed for generative AI applications. The company offers scalable and efficient computational resources that enable developers and enterprises to fully leverage the transformative capabilities of artificial intelligence. By prioritizing innovation and exceptional customer support, CoreWeave is well-positioned to capitalize on the surging demand for advanced computing power in the rapidly evolving AI landscape, driving substantial growth and value for its investors.</p>
         </div>

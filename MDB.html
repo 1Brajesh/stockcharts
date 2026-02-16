@@ -109,6 +109,14 @@
             padding: 2px 8px;
             border-radius: 4px;
         }
+        .company-meta a.sector-link {
+            text-decoration: none;
+        }
+        .company-meta a.sector-link:hover .sector,
+        .company-meta a.sector-link:hover .industry {
+            background-color: #30363d;
+            color: #c9d1d9;
+        }
         .company-meta .be-ratio {
             color: #f0b429;
             font-weight: 700;
@@ -227,7 +235,7 @@
                 <a href="portfolios.html" class="back-link">&larr; Back to Portfolios</a>
             </div>
             <h1>MDB</h1>
-            <div class="timestamp">Updated: Feb 11, 2026 10:57 PM</div>
+            <div class="timestamp">Updated: Feb 15, 2026 08:15 PM</div>
         </header>
 
         
@@ -236,8 +244,8 @@
             <div class="company-meta">
                 <span class="market-cap">Market Cap: <strong>$32.54B</strong></span>
                 <span class="be-ratio">P/S: 52x</span>
-                <span class="sector">TECHNOLOGY</span>
-                <span class="industry">SOFTWARE - INFRASTRUCTURE</span>
+                <a class="sector-link" href="portfolios.html#sec-technology"><span class="sector">TECHNOLOGY</span></a>
+                <a class="sector-link" href="portfolios.html#ind-technology-software---infrastructure"><span class="industry">SOFTWARE - INFRASTRUCTURE</span></a>
             </div>
             <p class="description">MongoDB, Inc. is a leading provider of modern, document-oriented database solutions, headquartered in New York, NY. The company’s platform excels in delivering real-time data access, scalability, and flexibility, making it indispensable for organizations facing the demands of the digital landscape. As cloud adoption continues to rise and the need for sophisticated data management solutions grows, MongoDB is strategically positioned to capitalize on significant market opportunities. Its commitment to innovation and its comprehensive suite of technology offerings enhance its appeal as a critical investment for institutional investors focused on the future of information management.</p>
         </div>

@@ -109,6 +109,14 @@
             padding: 2px 8px;
             border-radius: 4px;
         }
+        .company-meta a.sector-link {
+            text-decoration: none;
+        }
+        .company-meta a.sector-link:hover .sector,
+        .company-meta a.sector-link:hover .industry {
+            background-color: #30363d;
+            color: #c9d1d9;
+        }
         .company-meta .be-ratio {
             color: #f0b429;
             font-weight: 700;
@@ -227,7 +235,7 @@
                 <a href="portfolios.html" class="back-link">&larr; Back to Portfolios</a>
             </div>
             <h1>COLL</h1>
-            <div class="timestamp">Updated: Feb 11, 2026 10:56 PM</div>
+            <div class="timestamp">Updated: Feb 15, 2026 08:15 PM</div>
         </header>
 
         
@@ -236,8 +244,8 @@
             <div class="company-meta">
                 <span class="market-cap">Market Cap: <strong>$1.45B</strong></span>
                 <span class="be-ratio">P/S: 7x</span>
-                <span class="sector">HEALTHCARE</span>
-                <span class="industry">DRUG MANUFACTURERS - SPECIALTY &amp; GENERIC</span>
+                <a class="sector-link" href="portfolios.html#sec-healthcare"><span class="sector">HEALTHCARE</span></a>
+                <a class="sector-link" href="portfolios.html#ind-healthcare-drug-manufacturers---specialty-and-generic"><span class="industry">DRUG MANUFACTURERS - SPECIALTY &amp; GENERIC</span></a>
             </div>
             <p class="description">Collegium Pharmaceutical, Inc. is a specialized pharmaceutical firm based in Stoughton, Massachusetts, focused on developing and commercializing innovative pain management solutions. The company offers proprietary drug formulations aimed at effectively addressing a spectrum of pain-related conditions, reflecting its dedication to improving patient outcomes and overall quality of care. With a strategic emphasis on advancing specialty pharmaceuticals, Collegium is well-positioned for sustained growth, presenting an attractive investment opportunity for institutional investors seeking exposure to a leader in the healthcare sector dedicated to pain management innovations.</p>
         </div>

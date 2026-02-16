@@ -109,6 +109,14 @@
             padding: 2px 8px;
             border-radius: 4px;
         }
+        .company-meta a.sector-link {
+            text-decoration: none;
+        }
+        .company-meta a.sector-link:hover .sector,
+        .company-meta a.sector-link:hover .industry {
+            background-color: #30363d;
+            color: #c9d1d9;
+        }
         .company-meta .be-ratio {
             color: #f0b429;
             font-weight: 700;
@@ -227,7 +235,7 @@
                 <a href="portfolios.html" class="back-link">&larr; Back to Portfolios</a>
             </div>
             <h1>MA</h1>
-            <div class="timestamp">Updated: Feb 13, 2026 01:09 AM</div>
+            <div class="timestamp">Updated: Feb 15, 2026 08:15 PM</div>
         </header>
 
         
@@ -236,8 +244,8 @@
             <div class="company-meta">
                 <span class="market-cap">Market Cap: <strong>$522.43B</strong></span>
                 <span class="be-ratio">P/S: 61x</span>
-                <span class="sector">FINANCIAL SERVICES</span>
-                <span class="industry">CREDIT SERVICES</span>
+                <a class="sector-link" href="portfolios.html#sec-financial-services"><span class="sector">FINANCIAL SERVICES</span></a>
+                <a class="sector-link" href="portfolios.html#ind-financial-services-credit-services"><span class="industry">CREDIT SERVICES</span></a>
             </div>
             <p class="description">Mastercard Incorporated is a global leader in financial services, headquartered in Purchase, New York, with significant operational presence in O&#39;Fallon, Missouri. The company excels in facilitating electronic payments, connecting merchants with card-issuing banks through a comprehensive suite of debit, credit, and prepaid card services. With a strong focus on innovation and digital transformation, Mastercard has achieved substantial growth since its IPO in 2006, adeptly adapting to shifting consumer behaviors and technological advancements. As a pivotal player in the global payment systems landscape, Mastercard continues to solidify its market leadership by expanding its service offerings and international footprint.</p>
         </div>

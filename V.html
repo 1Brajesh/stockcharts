@@ -109,6 +109,14 @@
             padding: 2px 8px;
             border-radius: 4px;
         }
+        .company-meta a.sector-link {
+            text-decoration: none;
+        }
+        .company-meta a.sector-link:hover .sector,
+        .company-meta a.sector-link:hover .industry {
+            background-color: #30363d;
+            color: #c9d1d9;
+        }
         .company-meta .be-ratio {
             color: #f0b429;
             font-weight: 700;
@@ -227,7 +235,7 @@
                 <a href="portfolios.html" class="back-link">&larr; Back to Portfolios</a>
             </div>
             <h1>V</h1>
-            <div class="timestamp">Updated: Feb 13, 2026 01:09 AM</div>
+            <div class="timestamp">Updated: Feb 15, 2026 08:16 PM</div>
         </header>
 
         
@@ -236,8 +244,8 @@
             <div class="company-meta">
                 <span class="market-cap">Market Cap: <strong>$684.36B</strong></span>
                 <span class="be-ratio">P/S: 64x</span>
-                <span class="sector">FINANCIAL SERVICES</span>
-                <span class="industry">CREDIT SERVICES</span>
+                <a class="sector-link" href="portfolios.html#sec-financial-services"><span class="sector">FINANCIAL SERVICES</span></a>
+                <a class="sector-link" href="portfolios.html#ind-financial-services-credit-services"><span class="industry">CREDIT SERVICES</span></a>
             </div>
             <p class="description">Visa Inc. (NYSE: V), based in Foster City, California, stands at the forefront of the global financial services industry, recognized for its integral role in electronic funds transfers. Operating the largest retail electronic payments network worldwide, Visa provides a wide range of payment solutions through its extensive portfolio of branded credit, debit, and prepaid cards for consumers and businesses. With a strong emphasis on innovation in payment technology, the company is poised to take advantage of the ongoing shift toward digital transactions and e-commerce, reinforcing its leadership position and substantial market valuation in an increasingly cashless economy.</p>
         </div>

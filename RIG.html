@@ -109,6 +109,14 @@
             padding: 2px 8px;
             border-radius: 4px;
         }
+        .company-meta a.sector-link {
+            text-decoration: none;
+        }
+        .company-meta a.sector-link:hover .sector,
+        .company-meta a.sector-link:hover .industry {
+            background-color: #30363d;
+            color: #c9d1d9;
+        }
         .company-meta .be-ratio {
             color: #f0b429;
             font-weight: 700;
@@ -227,7 +235,7 @@
                 <a href="portfolios.html" class="back-link">&larr; Back to Portfolios</a>
             </div>
             <h1>RIG</h1>
-            <div class="timestamp">Updated: Feb 11, 2026 10:57 PM</div>
+            <div class="timestamp">Updated: Feb 15, 2026 08:15 PM</div>
         </header>
 
         
@@ -236,8 +244,8 @@
             <div class="company-meta">
                 <span class="market-cap">Market Cap: <strong>$5.44B</strong></span>
                 <span class="be-ratio">P/S: 5x</span>
-                <span class="sector">ENERGY</span>
-                <span class="industry">OIL &amp; GAS DRILLING</span>
+                <a class="sector-link" href="portfolios.html#sec-energy"><span class="sector">ENERGY</span></a>
+                <a class="sector-link" href="portfolios.html#ind-energy-oil-and-gas-drilling"><span class="industry">OIL &amp; GAS DRILLING</span></a>
             </div>
             <p class="description">Transocean Ltd. (RIG) is a leading provider of offshore contract drilling services, renowned for its cutting-edge fleet and commitment to safety and efficiency in the oil and gas industry. Headquartered in Steinhausen, Switzerland, the company operates strategically across key oil-producing regions worldwide, serving a wide range of clients, including major international oil corporations. With a strong focus on innovation and sustainability, Transocean is well-positioned to adapt to the evolving energy landscape, delivering exceptional value to its stakeholders while reinforcing its leadership in offshore drilling.</p>
         </div>

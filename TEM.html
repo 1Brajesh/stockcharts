@@ -109,6 +109,14 @@
             padding: 2px 8px;
             border-radius: 4px;
         }
+        .company-meta a.sector-link {
+            text-decoration: none;
+        }
+        .company-meta a.sector-link:hover .sector,
+        .company-meta a.sector-link:hover .industry {
+            background-color: #30363d;
+            color: #c9d1d9;
+        }
         .company-meta .be-ratio {
             color: #f0b429;
             font-weight: 700;
@@ -227,7 +235,7 @@
                 <a href="portfolios.html" class="back-link">&larr; Back to Portfolios</a>
             </div>
             <h1>TEM</h1>
-            <div class="timestamp">Updated: Feb 11, 2026 10:57 PM</div>
+            <div class="timestamp">Updated: Feb 15, 2026 08:15 PM</div>
         </header>
 
         
@@ -236,8 +244,8 @@
             <div class="company-meta">
                 <span class="market-cap">Market Cap: <strong>$12.51B</strong></span>
                 <span class="be-ratio">P/S: 37x</span>
-                <span class="sector">HEALTHCARE</span>
-                <span class="industry">HEALTH INFORMATION SERVICES</span>
+                <a class="sector-link" href="portfolios.html#sec-healthcare"><span class="sector">HEALTHCARE</span></a>
+                <a class="sector-link" href="portfolios.html#ind-healthcare-health-information-services"><span class="industry">HEALTH INFORMATION SERVICES</span></a>
             </div>
             <p class="description">Tempus AI, Inc. (Ticker: TEM) is a pioneering healthcare technology firm headquartered in Chicago, Illinois, committed to enhancing medical decision-making through the integration of artificial intelligence and advanced data analytics. By combining genomic sequencing with extensive clinical data, Tempus is at the forefront of precision medicine, particularly in oncology, ultimately aiming to improve patient outcomes significantly. With the healthcare industry increasingly embracing technology-driven solutions, Tempus&#39;s innovative platform and strategic focus on transforming healthcare practices make it an attractive investment opportunity for institutional investors seeking to leverage growth in this dynamic sector.</p>
         </div>

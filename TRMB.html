@@ -109,6 +109,14 @@
             padding: 2px 8px;
             border-radius: 4px;
         }
+        .company-meta a.sector-link {
+            text-decoration: none;
+        }
+        .company-meta a.sector-link:hover .sector,
+        .company-meta a.sector-link:hover .industry {
+            background-color: #30363d;
+            color: #c9d1d9;
+        }
         .company-meta .be-ratio {
             color: #f0b429;
             font-weight: 700;
@@ -227,7 +235,7 @@
                 <a href="portfolios.html" class="back-link">&larr; Back to Portfolios</a>
             </div>
             <h1>TRMB</h1>
-            <div class="timestamp">Updated: Feb 13, 2026 01:09 AM</div>
+            <div class="timestamp">Updated: Feb 15, 2026 08:15 PM</div>
         </header>
 
         
@@ -236,8 +244,8 @@
             <div class="company-meta">
                 <span class="market-cap">Market Cap: <strong>$19.02B</strong></span>
                 <span class="be-ratio">P/S: 21x</span>
-                <span class="sector">TECHNOLOGY</span>
-                <span class="industry">SCIENTIFIC &amp; TECHNICAL INSTRUMENTS</span>
+                <a class="sector-link" href="portfolios.html#sec-technology"><span class="sector">TECHNOLOGY</span></a>
+                <a class="sector-link" href="portfolios.html#ind-technology-scientific-and-technical-instruments"><span class="industry">SCIENTIFIC &amp; TECHNICAL INSTRUMENTS</span></a>
             </div>
             <p class="description">Trimble Inc. is a premier technology company headquartered in Sunnyvale, California, recognized for its innovative hardware, software, and services tailored for diverse sectors including Agriculture, Construction, Geospatial, and Transportation. With a strong emphasis on enhancing productivity and operational efficiency, Trimble offers cutting-edge solutions such as Global Navigation Satellite System (GNSS) receivers and unmanned aerial vehicles (UAVs). The company&#39;s strategic commitment to integrating advanced technology into industrial workflows positions Trimble as a leader in reshaping industry standards, making it an essential partner in the digital transformation of complex operations.</p>
         </div>

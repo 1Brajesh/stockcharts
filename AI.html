@@ -109,6 +109,14 @@
             padding: 2px 8px;
             border-radius: 4px;
         }
+        .company-meta a.sector-link {
+            text-decoration: none;
+        }
+        .company-meta a.sector-link:hover .sector,
+        .company-meta a.sector-link:hover .industry {
+            background-color: #30363d;
+            color: #c9d1d9;
+        }
         .company-meta .be-ratio {
             color: #f0b429;
             font-weight: 700;
@@ -227,7 +235,7 @@
                 <a href="portfolios.html" class="back-link">&larr; Back to Portfolios</a>
             </div>
             <h1>AI</h1>
-            <div class="timestamp">Updated: Feb 13, 2026 01:07 AM</div>
+            <div class="timestamp">Updated: Feb 15, 2026 08:15 PM</div>
         </header>
 
         
@@ -236,8 +244,8 @@
             <div class="company-meta">
                 <span class="market-cap">Market Cap: <strong>$2.03B</strong></span>
                 <span class="be-ratio">P/S: 27x</span>
-                <span class="sector">TECHNOLOGY</span>
-                <span class="industry">SOFTWARE - INFRASTRUCTURE</span>
+                <a class="sector-link" href="portfolios.html#sec-technology"><span class="sector">TECHNOLOGY</span></a>
+                <a class="sector-link" href="portfolios.html#ind-technology-software---infrastructure"><span class="industry">SOFTWARE - INFRASTRUCTURE</span></a>
             </div>
             <p class="description">C3.ai, Inc. (ticker: AI) stands at the forefront of the artificial intelligence sector, offering cutting-edge software solutions designed to facilitate digital transformation across various industries, including energy, manufacturing, and finance. The company&#39;s robust AI platform supports the creation and management of large-scale applications, harnessing advanced machine learning models to optimize efficiency and improve decision-making. C3.ai&#39;s innovative tools for predictive maintenance and data analytics are tailored to meet the growing demand for AI technologies, positioning the company as a key player in the enterprise landscape. With a focus on scalability and performance, C3.ai is poised to address the dynamic needs of organizations navigating an increasingly digital environment.</p>
         </div>

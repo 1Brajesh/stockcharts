@@ -109,6 +109,14 @@
             padding: 2px 8px;
             border-radius: 4px;
         }
+        .company-meta a.sector-link {
+            text-decoration: none;
+        }
+        .company-meta a.sector-link:hover .sector,
+        .company-meta a.sector-link:hover .industry {
+            background-color: #30363d;
+            color: #c9d1d9;
+        }
         .company-meta .be-ratio {
             color: #f0b429;
             font-weight: 700;
@@ -227,7 +235,7 @@
                 <a href="portfolios.html" class="back-link">&larr; Back to Portfolios</a>
             </div>
             <h1>PYPL</h1>
-            <div class="timestamp">Updated: Feb 11, 2026 10:57 PM</div>
+            <div class="timestamp">Updated: Feb 15, 2026 08:15 PM</div>
         </header>
 
         
@@ -236,8 +244,8 @@
             <div class="company-meta">
                 <span class="market-cap">Market Cap: <strong>$49.99B</strong></span>
                 <span class="be-ratio">P/S: 6x</span>
-                <span class="sector">FINANCIAL SERVICES</span>
-                <span class="industry">CREDIT SERVICES</span>
+                <a class="sector-link" href="portfolios.html#sec-financial-services"><span class="sector">FINANCIAL SERVICES</span></a>
+                <a class="sector-link" href="portfolios.html#ind-financial-services-credit-services"><span class="industry">CREDIT SERVICES</span></a>
             </div>
             <p class="description">PayPal Holdings, Inc. is a leading global technology platform transforming digital and mobile payment solutions for both consumers and merchants. Recognized for its robust security measures and innovative approach, PayPal offers a comprehensive suite of services, from peer-to-peer transfers to advanced e-commerce payment processing. With a substantial and expanding user base, the company is strategically positioned to leverage the increasing demand for fintech innovations, while continuously enhancing its products and maintaining a strong focus on customer security. This solidifies PayPal&#39;s pivotal role in the ever-evolving financial technology landscape.</p>
         </div>

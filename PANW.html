@@ -109,6 +109,14 @@
             padding: 2px 8px;
             border-radius: 4px;
         }
+        .company-meta a.sector-link {
+            text-decoration: none;
+        }
+        .company-meta a.sector-link:hover .sector,
+        .company-meta a.sector-link:hover .industry {
+            background-color: #30363d;
+            color: #c9d1d9;
+        }
         .company-meta .be-ratio {
             color: #f0b429;
             font-weight: 700;
@@ -227,7 +235,7 @@
                 <a href="portfolios.html" class="back-link">&larr; Back to Portfolios</a>
             </div>
             <h1>PANW</h1>
-            <div class="timestamp">Updated: Feb 11, 2026 10:57 PM</div>
+            <div class="timestamp">Updated: Feb 15, 2026 08:15 PM</div>
         </header>
 
         
@@ -236,8 +244,8 @@
             <div class="company-meta">
                 <span class="market-cap">Market Cap: <strong>$130.05B</strong></span>
                 <span class="be-ratio">P/S: 53x</span>
-                <span class="sector">TECHNOLOGY</span>
-                <span class="industry">SOFTWARE - INFRASTRUCTURE</span>
+                <a class="sector-link" href="portfolios.html#sec-technology"><span class="sector">TECHNOLOGY</span></a>
+                <a class="sector-link" href="portfolios.html#ind-technology-software---infrastructure"><span class="industry">SOFTWARE - INFRASTRUCTURE</span></a>
             </div>
             <p class="description">Palo Alto Networks, Inc. (PANW) is a premier player in the cybersecurity sector, headquartered in Santa Clara, California, renowned for its cutting-edge platform that safeguards organizations from a diverse range of cyber threats through advanced firewall technologies, cloud security solutions, and AI-enhanced threat intelligence. The company serves a varied global clientele and maintains a strong commitment to enterprise security, risk management, and continuous innovation. As the cybersecurity landscape evolves and the demand for comprehensive protection intensifies, Palo Alto Networks is poised for growth, driving expansion of its product portfolio and reinforcing its status as an essential partner for organizations seeking to navigate today’s complex security challenges.</p>
         </div>

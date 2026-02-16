@@ -109,6 +109,14 @@
             padding: 2px 8px;
             border-radius: 4px;
         }
+        .company-meta a.sector-link {
+            text-decoration: none;
+        }
+        .company-meta a.sector-link:hover .sector,
+        .company-meta a.sector-link:hover .industry {
+            background-color: #30363d;
+            color: #c9d1d9;
+        }
         .company-meta .be-ratio {
             color: #f0b429;
             font-weight: 700;
@@ -227,7 +235,7 @@
                 <a href="portfolios.html" class="back-link">&larr; Back to Portfolios</a>
             </div>
             <h1>ADI</h1>
-            <div class="timestamp">Updated: Feb 11, 2026 10:56 PM</div>
+            <div class="timestamp">Updated: Feb 15, 2026 08:15 PM</div>
         </header>
 
         
@@ -236,8 +244,8 @@
             <div class="company-meta">
                 <span class="market-cap">Market Cap: <strong>$151.07B</strong></span>
                 <span class="be-ratio">P/S: 49x</span>
-                <span class="sector">TECHNOLOGY</span>
-                <span class="industry">SEMICONDUCTORS</span>
+                <a class="sector-link" href="portfolios.html#sec-technology"><span class="sector">TECHNOLOGY</span></a>
+                <a class="sector-link" href="portfolios.html#ind-technology-semiconductors"><span class="industry">SEMICONDUCTORS</span></a>
             </div>
             <p class="description">Analog Devices, Inc. (ADI) is a prominent multinational semiconductor company based in Wilmington, Massachusetts, known for its expertise in high-performance analog, mixed-signal, and digital signal processing integrated circuits. Catering to a wide array of industries—including automotive, industrial, communications, and consumer electronics—ADI provides cutting-edge solutions in data conversion, signal processing, and power management. The company&#39;s relentless focus on innovation and its robust research and development initiatives enhance its reputation as a leader in the semiconductor space, driving advancements in product performance and energy efficiency. With a proven track record of growth and a strategic vision for future advancements, ADI is well-positioned to capitalize on emerging market opportunities.</p>
         </div>

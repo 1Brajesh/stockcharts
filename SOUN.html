@@ -109,6 +109,14 @@
             padding: 2px 8px;
             border-radius: 4px;
         }
+        .company-meta a.sector-link {
+            text-decoration: none;
+        }
+        .company-meta a.sector-link:hover .sector,
+        .company-meta a.sector-link:hover .industry {
+            background-color: #30363d;
+            color: #c9d1d9;
+        }
         .company-meta .be-ratio {
             color: #f0b429;
             font-weight: 700;
@@ -227,7 +235,7 @@
                 <a href="portfolios.html" class="back-link">&larr; Back to Portfolios</a>
             </div>
             <h1>SOUN</h1>
-            <div class="timestamp">Updated: Feb 11, 2026 10:57 PM</div>
+            <div class="timestamp">Updated: Feb 15, 2026 08:15 PM</div>
         </header>
 
         
@@ -236,8 +244,8 @@
             <div class="company-meta">
                 <span class="market-cap">Market Cap: <strong>$4.97B</strong></span>
                 <span class="be-ratio">P/S: 118x</span>
-                <span class="sector">TECHNOLOGY</span>
-                <span class="industry">SOFTWARE - APPLICATION</span>
+                <a class="sector-link" href="portfolios.html#sec-technology"><span class="sector">TECHNOLOGY</span></a>
+                <a class="sector-link" href="portfolios.html#ind-technology-software---application"><span class="industry">SOFTWARE - APPLICATION</span></a>
             </div>
             <p class="description">SoundHound AI, Inc. is a premier provider of voice artificial intelligence solutions, enabling businesses to optimize customer engagement through intuitive conversational interfaces. Headquartered in Santa Clara, California, the company harnesses cutting-edge natural language processing and machine learning capabilities to ensure precise and context-aware interactions. As the demand for advanced voice AI technology escalates in a rapidly evolving digital marketplace, SoundHound is strategically positioned to expand its innovative product offerings and cement its leadership in the industry.</p>
         </div>

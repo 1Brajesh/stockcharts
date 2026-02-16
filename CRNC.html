@@ -109,6 +109,14 @@
             padding: 2px 8px;
             border-radius: 4px;
         }
+        .company-meta a.sector-link {
+            text-decoration: none;
+        }
+        .company-meta a.sector-link:hover .sector,
+        .company-meta a.sector-link:hover .industry {
+            background-color: #30363d;
+            color: #c9d1d9;
+        }
         .company-meta .be-ratio {
             color: #f0b429;
             font-weight: 700;
@@ -227,7 +235,7 @@
                 <a href="portfolios.html" class="back-link">&larr; Back to Portfolios</a>
             </div>
             <h1>CRNC</h1>
-            <div class="timestamp">Updated: Feb 13, 2026 01:07 AM</div>
+            <div class="timestamp">Updated: Feb 15, 2026 08:15 PM</div>
         </header>
 
         
@@ -236,8 +244,8 @@
             <div class="company-meta">
                 <span class="market-cap">Market Cap: <strong>$555.95M</strong></span>
                 <span class="be-ratio">P/S: 9x</span>
-                <span class="sector">TECHNOLOGY</span>
-                <span class="industry">SOFTWARE - APPLICATION</span>
+                <a class="sector-link" href="portfolios.html#sec-technology"><span class="sector">TECHNOLOGY</span></a>
+                <a class="sector-link" href="portfolios.html#ind-technology-software---application"><span class="industry">SOFTWARE - APPLICATION</span></a>
             </div>
             <p class="description">Cerence Inc. is a premier innovator in AI-driven voice and navigation solutions for connected and autonomous vehicles, with its headquarters located in Burlington, Massachusetts. The company excels in delivering advanced software and cloud-based services complemented by intelligent virtual assistants, significantly enhancing user experiences within the automotive landscape. With a strong focus on safety, innovation, and seamless driver-vehicle interactions, Cerence is well-positioned to lead the transformation of mobility technology as the automotive industry embraces smart solutions. Its expertise in artificial intelligence is pivotal in shaping the future of transportation dynamics, providing a competitive edge in an increasingly tech-centric market.</p>
         </div>

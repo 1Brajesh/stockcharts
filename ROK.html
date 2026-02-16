@@ -109,6 +109,14 @@
             padding: 2px 8px;
             border-radius: 4px;
         }
+        .company-meta a.sector-link {
+            text-decoration: none;
+        }
+        .company-meta a.sector-link:hover .sector,
+        .company-meta a.sector-link:hover .industry {
+            background-color: #30363d;
+            color: #c9d1d9;
+        }
         .company-meta .be-ratio {
             color: #f0b429;
             font-weight: 700;
@@ -227,7 +235,7 @@
                 <a href="portfolios.html" class="back-link">&larr; Back to Portfolios</a>
             </div>
             <h1>ROK</h1>
-            <div class="timestamp">Updated: Feb 11, 2026 10:57 PM</div>
+            <div class="timestamp">Updated: Feb 15, 2026 08:15 PM</div>
         </header>
 
         
@@ -236,8 +244,8 @@
             <div class="company-meta">
                 <span class="market-cap">Market Cap: <strong>$46.87B</strong></span>
                 <span class="be-ratio">P/S: 20x</span>
-                <span class="sector">INDUSTRIALS</span>
-                <span class="industry">SPECIALTY INDUSTRIAL MACHINERY</span>
+                <a class="sector-link" href="portfolios.html#sec-industrials"><span class="sector">INDUSTRIALS</span></a>
+                <a class="sector-link" href="portfolios.html#ind-industrials-specialty-industrial-machinery"><span class="industry">SPECIALTY INDUSTRIAL MACHINERY</span></a>
             </div>
             <p class="description">Rockwell Automation, Inc. (Ticker: ROK) is a premier global provider of industrial automation and information technology solutions, dedicated to enhancing operational efficiency and productivity across diverse sectors including manufacturing, infrastructure, and logistics. Renowned for its innovative offerings, such as the Allen-Bradley line of programmable automation controllers and FactoryTalk software, the company empowers organizations to harness data for operational excellence. Rockwell&#39;s strategic emphasis on the Internet of Things (IoT) and smart manufacturing places it at the vanguard of digital transformation, positioning the company for sustainable growth while delivering significant value to its shareholders.</p>
         </div>

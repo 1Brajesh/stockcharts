@@ -109,6 +109,14 @@
             padding: 2px 8px;
             border-radius: 4px;
         }
+        .company-meta a.sector-link {
+            text-decoration: none;
+        }
+        .company-meta a.sector-link:hover .sector,
+        .company-meta a.sector-link:hover .industry {
+            background-color: #30363d;
+            color: #c9d1d9;
+        }
         .company-meta .be-ratio {
             color: #f0b429;
             font-weight: 700;
@@ -227,7 +235,7 @@
                 <a href="portfolios.html" class="back-link">&larr; Back to Portfolios</a>
             </div>
             <h1>LHX</h1>
-            <div class="timestamp">Updated: Feb 11, 2026 10:57 PM</div>
+            <div class="timestamp">Updated: Feb 15, 2026 08:15 PM</div>
         </header>
 
         
@@ -236,8 +244,8 @@
             <div class="company-meta">
                 <span class="market-cap">Market Cap: <strong>$63.84B</strong></span>
                 <span class="be-ratio">P/S: 11x</span>
-                <span class="sector">INDUSTRIALS</span>
-                <span class="industry">AEROSPACE &amp; DEFENSE</span>
+                <a class="sector-link" href="portfolios.html#sec-industrials"><span class="sector">INDUSTRIALS</span></a>
+                <a class="sector-link" href="portfolios.html#ind-industrials-aerospace-and-defense"><span class="industry">AEROSPACE &amp; DEFENSE</span></a>
             </div>
             <p class="description">L3Harris Technologies Inc. (LHX) stands at the forefront of the defense and aerospace industries, delivering cutting-edge communication and electronic systems that bolster national security and enhance operational effectiveness. With a robust portfolio encompassing advanced capabilities in C6ISR, tactical communications, and next-generation avionics, L3Harris is adept at addressing the intricate challenges of modern warfare and diverse commercial applications. The company&#39;s unwavering dedication to innovation and operational excellence positions it as a key player in the dynamic geopolitical landscape, providing tailored solutions that safeguard national interests while streamlining operations for government and commercial clients alike.</p>
         </div>

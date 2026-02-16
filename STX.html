@@ -109,6 +109,14 @@
             padding: 2px 8px;
             border-radius: 4px;
         }
+        .company-meta a.sector-link {
+            text-decoration: none;
+        }
+        .company-meta a.sector-link:hover .sector,
+        .company-meta a.sector-link:hover .industry {
+            background-color: #30363d;
+            color: #c9d1d9;
+        }
         .company-meta .be-ratio {
             color: #f0b429;
             font-weight: 700;
@@ -227,7 +235,7 @@
                 <a href="portfolios.html" class="back-link">&larr; Back to Portfolios</a>
             </div>
             <h1>STX</h1>
-            <div class="timestamp">Updated: Feb 13, 2026 12:13 AM</div>
+            <div class="timestamp">Updated: Feb 15, 2026 08:15 PM</div>
         </header>
 
         
@@ -236,8 +244,8 @@
             <div class="company-meta">
                 <span class="market-cap">Market Cap: <strong>$71.09B</strong></span>
                 <span class="be-ratio">P/S: 27x</span>
-                <span class="sector">TECHNOLOGY</span>
-                <span class="industry">COMPUTER HARDWARE</span>
+                <a class="sector-link" href="portfolios.html#sec-technology"><span class="sector">TECHNOLOGY</span></a>
+                <a class="sector-link" href="portfolios.html#ind-technology-computer-hardware"><span class="industry">COMPUTER HARDWARE</span></a>
             </div>
             <p class="description">Seagate Technology PLC, headquartered in Ireland, stands as a premier global leader in data storage solutions, focusing on both hard disk drives (HDDs) and cutting-edge flash storage technologies. With a strategic foothold in rapidly expanding markets such as cloud computing, big data, and the Internet of Things (IoT), Seagate is well-positioned to meet the surging demand for data storage. The company emphasizes sustainability and innovation through ongoing research and development, complemented by strategic alliances that enhance its competitive edge. For institutional investors, Seagate presents a notable opportunity to engage with the burgeoning data economy, bolstered by its solid market positioning and a comprehensive portfolio of advanced storage solutions.</p>
         </div>

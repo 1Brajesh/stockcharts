@@ -109,6 +109,14 @@
             padding: 2px 8px;
             border-radius: 4px;
         }
+        .company-meta a.sector-link {
+            text-decoration: none;
+        }
+        .company-meta a.sector-link:hover .sector,
+        .company-meta a.sector-link:hover .industry {
+            background-color: #30363d;
+            color: #c9d1d9;
+        }
         .company-meta .be-ratio {
             color: #f0b429;
             font-weight: 700;
@@ -227,7 +235,7 @@
                 <a href="portfolios.html" class="back-link">&larr; Back to Portfolios</a>
             </div>
             <h1>ARM</h1>
-            <div class="timestamp">Updated: Feb 11, 2026 10:56 PM</div>
+            <div class="timestamp">Updated: Feb 15, 2026 08:15 PM</div>
         </header>
 
         
@@ -236,8 +244,8 @@
             <div class="company-meta">
                 <span class="market-cap">Market Cap: <strong>$119.98B</strong></span>
                 <span class="be-ratio">P/S: 106x</span>
-                <span class="sector">TECHNOLOGY</span>
-                <span class="industry">SEMICONDUCTORS</span>
+                <a class="sector-link" href="portfolios.html#sec-technology"><span class="sector">TECHNOLOGY</span></a>
+                <a class="sector-link" href="portfolios.html#ind-technology-semiconductors"><span class="industry">SEMICONDUCTORS</span></a>
             </div>
             <p class="description">Arm Holdings plc is a leading technology company recognized for its innovative design and licensing of CPU architecture, crucial for semiconductor and OEMs across various electronic devices. With a robust portfolio of advanced designs, Arm enables its partners to create energy-efficient, high-performance processors that are pivotal in accelerating advancements in smartphones, servers, and other electronics. As a key contributor to the semiconductor ecosystem, Arm&#39;s intellectual property is vital for progressing technologies such as artificial intelligence, the Internet of Things (IoT), and automotive applications, positioning the company for significant growth amidst increasing global connectivity.</p>
         </div>

@@ -109,6 +109,14 @@
             padding: 2px 8px;
             border-radius: 4px;
         }
+        .company-meta a.sector-link {
+            text-decoration: none;
+        }
+        .company-meta a.sector-link:hover .sector,
+        .company-meta a.sector-link:hover .industry {
+            background-color: #30363d;
+            color: #c9d1d9;
+        }
         .company-meta .be-ratio {
             color: #f0b429;
             font-weight: 700;
@@ -227,7 +235,7 @@
                 <a href="portfolios.html" class="back-link">&larr; Back to Portfolios</a>
             </div>
             <h1>CRM</h1>
-            <div class="timestamp">Updated: Feb 11, 2026 10:56 PM</div>
+            <div class="timestamp">Updated: Feb 15, 2026 08:15 PM</div>
         </header>
 
         
@@ -236,8 +244,8 @@
             <div class="company-meta">
                 <span class="market-cap">Market Cap: <strong>$247.43B</strong></span>
                 <span class="be-ratio">P/S: 24x</span>
-                <span class="sector">TECHNOLOGY</span>
-                <span class="industry">SOFTWARE - APPLICATION</span>
+                <a class="sector-link" href="portfolios.html#sec-technology"><span class="sector">TECHNOLOGY</span></a>
+                <a class="sector-link" href="portfolios.html#ind-technology-software---application"><span class="industry">SOFTWARE - APPLICATION</span></a>
             </div>
             <p class="description">Salesforce.com, Inc. (CRM) is a leading provider of cloud-based Customer Relationship Management (CRM) solutions, headquartered in San Francisco. The company offers a comprehensive suite of enterprise applications designed to enhance customer engagement through customer service, marketing automation, and advanced analytics. Renowned for its innovative integration of artificial intelligence and data analytics, Salesforce stands at the forefront of the cloud computing industry, consistently delivering sustainable growth for its clients. Its strategic acquisitions and continuous platform enhancements reinforce its commanding position in the enterprise software market, positioning Salesforce as an essential partner for organizations pursuing success in the digital era.</p>
         </div>

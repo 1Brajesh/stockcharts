@@ -109,6 +109,14 @@
             padding: 2px 8px;
             border-radius: 4px;
         }
+        .company-meta a.sector-link {
+            text-decoration: none;
+        }
+        .company-meta a.sector-link:hover .sector,
+        .company-meta a.sector-link:hover .industry {
+            background-color: #30363d;
+            color: #c9d1d9;
+        }
         .company-meta .be-ratio {
             color: #f0b429;
             font-weight: 700;
@@ -227,7 +235,7 @@
                 <a href="portfolios.html" class="back-link">&larr; Back to Portfolios</a>
             </div>
             <h1>UPST</h1>
-            <div class="timestamp">Updated: Feb 11, 2026 10:57 PM</div>
+            <div class="timestamp">Updated: Feb 15, 2026 08:16 PM</div>
         </header>
 
         
@@ -236,8 +244,8 @@
             <div class="company-meta">
                 <span class="market-cap">Market Cap: <strong>$4.68B</strong></span>
                 <span class="be-ratio">P/S: 16x</span>
-                <span class="sector">FINANCIAL SERVICES</span>
-                <span class="industry">CREDIT SERVICES</span>
+                <a class="sector-link" href="portfolios.html#sec-financial-services"><span class="sector">FINANCIAL SERVICES</span></a>
+                <a class="sector-link" href="portfolios.html#ind-financial-services-credit-services"><span class="industry">CREDIT SERVICES</span></a>
             </div>
             <p class="description">Upstart Holdings, Inc. is an innovative fintech company based in San Mateo, California, revolutionizing the personal lending industry through its cutting-edge cloud-based artificial intelligence platform. By leveraging sophisticated machine learning algorithms, Upstart significantly optimizes the credit decision-making process, leading to higher loan approval rates, lower consumer borrowing costs, and enhanced risk assessment for lenders. This disruptive model not only redefines traditional lending norms but also establishes Upstart as a frontrunner in the rapidly growing AI-powered financial services sector, adeptly addressing the dynamic requirements of both borrowers and financial institutions.</p>
         </div>

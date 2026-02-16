@@ -109,6 +109,14 @@
             padding: 2px 8px;
             border-radius: 4px;
         }
+        .company-meta a.sector-link {
+            text-decoration: none;
+        }
+        .company-meta a.sector-link:hover .sector,
+        .company-meta a.sector-link:hover .industry {
+            background-color: #30363d;
+            color: #c9d1d9;
+        }
         .company-meta .be-ratio {
             color: #f0b429;
             font-weight: 700;
@@ -227,7 +235,7 @@
                 <a href="portfolios.html" class="back-link">&larr; Back to Portfolios</a>
             </div>
             <h1>QUBT</h1>
-            <div class="timestamp">Updated: Feb 11, 2026 10:57 PM</div>
+            <div class="timestamp">Updated: Feb 15, 2026 08:15 PM</div>
         </header>
 
         
@@ -236,8 +244,8 @@
             <div class="company-meta">
                 <span class="market-cap">Market Cap: <strong>$2.57B</strong></span>
                 <span class="be-ratio">P/S: 6689x</span>
-                <span class="sector">TECHNOLOGY</span>
-                <span class="industry">COMPUTER HARDWARE</span>
+                <a class="sector-link" href="portfolios.html#sec-technology"><span class="sector">TECHNOLOGY</span></a>
+                <a class="sector-link" href="portfolios.html#ind-technology-computer-hardware"><span class="industry">COMPUTER HARDWARE</span></a>
             </div>
             <p class="description">Quantum Computing, Inc. is an innovative technology firm based in Leesburg, Virginia, focused on advancing the field of quantum computing through the development of sophisticated software applications and tools. The company aims to facilitate the widespread adoption of quantum technologies across diverse sectors such as finance, pharmaceuticals, and cybersecurity, addressing complex computational challenges with greater efficiency. With a robust commitment to research and development, Quantum Computing, Inc. is strategically positioned to emerge as a leader in delivering practical quantum solutions, thereby unlocking the transformative potential inherent in quantum systems.</p>
         </div>

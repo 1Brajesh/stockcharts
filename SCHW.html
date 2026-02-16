@@ -109,6 +109,14 @@
             padding: 2px 8px;
             border-radius: 4px;
         }
+        .company-meta a.sector-link {
+            text-decoration: none;
+        }
+        .company-meta a.sector-link:hover .sector,
+        .company-meta a.sector-link:hover .industry {
+            background-color: #30363d;
+            color: #c9d1d9;
+        }
         .company-meta .be-ratio {
             color: #f0b429;
             font-weight: 700;
@@ -227,7 +235,7 @@
                 <a href="portfolios.html" class="back-link">&larr; Back to Portfolios</a>
             </div>
             <h1>SCHW</h1>
-            <div class="timestamp">Updated: Feb 13, 2026 01:09 AM</div>
+            <div class="timestamp">Updated: Feb 15, 2026 08:15 PM</div>
         </header>
 
         
@@ -236,8 +244,8 @@
             <div class="company-meta">
                 <span class="market-cap">Market Cap: <strong>$181.36B</strong></span>
                 <span class="be-ratio">P/S: 26x</span>
-                <span class="sector">FINANCIAL SERVICES</span>
-                <span class="industry">CAPITAL MARKETS</span>
+                <a class="sector-link" href="portfolios.html#sec-financial-services"><span class="sector">FINANCIAL SERVICES</span></a>
+                <a class="sector-link" href="portfolios.html#ind-financial-services-capital-markets"><span class="industry">CAPITAL MARKETS</span></a>
             </div>
             <p class="description">The Charles Schwab Corporation is a leading American financial services firm that specializes in a broad range of offerings, including banking, electronic trading, and comprehensive wealth management services. Catering to both retail and institutional investors, Schwab stands out for its commitment to innovation, cost efficiency, and superior customer service, providing an extensive suite of financial products like brokerage accounts, investment advisory services, and tailored institutional trading solutions. With a focus on accessibility and empowering clients, Schwab is well-positioned to help investors successfully navigate the complexities of today&#39;s financial landscape.</p>
         </div>

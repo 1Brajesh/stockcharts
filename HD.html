@@ -109,6 +109,14 @@
             padding: 2px 8px;
             border-radius: 4px;
         }
+        .company-meta a.sector-link {
+            text-decoration: none;
+        }
+        .company-meta a.sector-link:hover .sector,
+        .company-meta a.sector-link:hover .industry {
+            background-color: #30363d;
+            color: #c9d1d9;
+        }
         .company-meta .be-ratio {
             color: #f0b429;
             font-weight: 700;
@@ -227,7 +235,7 @@
                 <a href="portfolios.html" class="back-link">&larr; Back to Portfolios</a>
             </div>
             <h1>HD</h1>
-            <div class="timestamp">Updated: Feb 13, 2026 12:50 AM</div>
+            <div class="timestamp">Updated: Feb 15, 2026 08:15 PM</div>
         </header>
 
         
@@ -236,8 +244,8 @@
             <div class="company-meta">
                 <span class="market-cap">Market Cap: <strong>$343.42B</strong></span>
                 <span class="be-ratio">P/S: 8x</span>
-                <span class="sector">CONSUMER CYCLICAL</span>
-                <span class="industry">HOME IMPROVEMENT RETAIL</span>
+                <a class="sector-link" href="portfolios.html#sec-consumer-cyclical"><span class="sector">CONSUMER CYCLICAL</span></a>
+                <a class="sector-link" href="portfolios.html#ind-consumer-cyclical-home-improvement-retail"><span class="industry">HOME IMPROVEMENT RETAIL</span></a>
             </div>
             <p class="description">The Home Depot, Inc. (HD) stands as the premier home improvement retailer in the U.S., operating over 2,200 stores across North America. Based in Cobb County, Georgia, the company caters to a varied clientele, from professional contractors to DIY enthusiasts, offering an extensive selection of tools, construction products, and services. With a commitment to operational excellence, Home Depot leverages its strong supply chain and rapidly growing e-commerce platform to enhance customer accessibility and engagement. The company prioritizes innovation and exceptional customer service, positioning itself for sustainable growth while aiming to deliver long-term value to its shareholders.</p>
         </div>

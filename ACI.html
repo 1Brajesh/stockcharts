@@ -109,6 +109,14 @@
             padding: 2px 8px;
             border-radius: 4px;
         }
+        .company-meta a.sector-link {
+            text-decoration: none;
+        }
+        .company-meta a.sector-link:hover .sector,
+        .company-meta a.sector-link:hover .industry {
+            background-color: #30363d;
+            color: #c9d1d9;
+        }
         .company-meta .be-ratio {
             color: #f0b429;
             font-weight: 700;
@@ -227,7 +235,7 @@
                 <a href="portfolios.html" class="back-link">&larr; Back to Portfolios</a>
             </div>
             <h1>ACI</h1>
-            <div class="timestamp">Updated: Feb 11, 2026 10:56 PM</div>
+            <div class="timestamp">Updated: Feb 15, 2026 08:15 PM</div>
         </header>
 
         
@@ -236,8 +244,8 @@
             <div class="company-meta">
                 <span class="market-cap">Market Cap: <strong>$9.76B</strong></span>
                 <span class="be-ratio">P/S: 1x</span>
-                <span class="sector">CONSUMER DEFENSIVE</span>
-                <span class="industry">GROCERY STORES</span>
+                <a class="sector-link" href="portfolios.html#sec-consumer-defensive"><span class="sector">CONSUMER DEFENSIVE</span></a>
+                <a class="sector-link" href="portfolios.html#ind-consumer-defensive-grocery-stores"><span class="industry">GROCERY STORES</span></a>
             </div>
             <p class="description">Albertsons Companies, Inc. (ACI) is a prominent grocery retailer in the United States, operating an extensive portfolio of supermarkets and pharmacies that cater to a diverse customer base through well-known local brands. With a strong focus on quality, customer service, and innovation, the company is actively enhancing its supply chain efficiencies and expanding its e-commerce capabilities to meet the demands of a rapidly changing retail environment. Committed to sustainability and adapting to evolving consumer preferences, Albertsons is strategically positioned to drive growth and maintain a resilient presence in the competitive grocery market.</p>
         </div>

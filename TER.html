@@ -109,6 +109,14 @@
             padding: 2px 8px;
             border-radius: 4px;
         }
+        .company-meta a.sector-link {
+            text-decoration: none;
+        }
+        .company-meta a.sector-link:hover .sector,
+        .company-meta a.sector-link:hover .industry {
+            background-color: #30363d;
+            color: #c9d1d9;
+        }
         .company-meta .be-ratio {
             color: #f0b429;
             font-weight: 700;
@@ -227,7 +235,7 @@
                 <a href="portfolios.html" class="back-link">&larr; Back to Portfolios</a>
             </div>
             <h1>TER</h1>
-            <div class="timestamp">Updated: Feb 13, 2026 12:13 AM</div>
+            <div class="timestamp">Updated: Feb 15, 2026 08:15 PM</div>
         </header>
 
         
@@ -236,8 +244,8 @@
             <div class="company-meta">
                 <span class="market-cap">Market Cap: <strong>$32.45B</strong></span>
                 <span class="be-ratio">P/S: 42x</span>
-                <span class="sector">TECHNOLOGY</span>
-                <span class="industry">SEMICONDUCTOR EQUIPMENT &amp; MATERIALS</span>
+                <a class="sector-link" href="portfolios.html#sec-technology"><span class="sector">TECHNOLOGY</span></a>
+                <a class="sector-link" href="portfolios.html#ind-technology-semiconductor-equipment-and-materials"><span class="industry">SEMICONDUCTOR EQUIPMENT &amp; MATERIALS</span></a>
             </div>
             <p class="description">Teradyne, Inc. is a prominent American provider of automated test equipment (ATE) and connectivity solutions, based in North Reading, Massachusetts. The company focuses on delivering innovative testing solutions for key sectors including semiconductor, electronics, and automotive industries, thereby ensuring the performance and reliability of a diverse range of electronic devices. With a robust emphasis on technological advancement and quality assurance, Teradyne has established itself as a leader in the global testing solutions market, catering to a growing demand for sophisticated and reliable electronic testing systems. Its strong commitment to customer satisfaction and ongoing innovation underpins its competitive advantage in a rapidly changing technological landscape.</p>
         </div>

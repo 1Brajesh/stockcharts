@@ -109,6 +109,14 @@
             padding: 2px 8px;
             border-radius: 4px;
         }
+        .company-meta a.sector-link {
+            text-decoration: none;
+        }
+        .company-meta a.sector-link:hover .sector,
+        .company-meta a.sector-link:hover .industry {
+            background-color: #30363d;
+            color: #c9d1d9;
+        }
         .company-meta .be-ratio {
             color: #f0b429;
             font-weight: 700;
@@ -227,7 +235,7 @@
                 <a href="portfolios.html" class="back-link">&larr; Back to Portfolios</a>
             </div>
             <h1>ERIC</h1>
-            <div class="timestamp">Updated: Feb 13, 2026 01:07 AM</div>
+            <div class="timestamp">Updated: Feb 15, 2026 08:15 PM</div>
         </header>
 
         
@@ -236,8 +244,8 @@
             <div class="company-meta">
                 <span class="market-cap">Market Cap: <strong>$32.27B</strong></span>
                 <span class="be-ratio">P/S: 1x</span>
-                <span class="sector">TECHNOLOGY</span>
-                <span class="industry">COMMUNICATION EQUIPMENT</span>
+                <a class="sector-link" href="portfolios.html#sec-technology"><span class="sector">TECHNOLOGY</span></a>
+                <a class="sector-link" href="portfolios.html#ind-technology-communication-equipment"><span class="industry">COMMUNICATION EQUIPMENT</span></a>
             </div>
             <p class="description">Telefonaktiebolaget LM Ericsson (ADR) is a leading global provider of telecommunications infrastructure, services, and software solutions, headquartered in Stockholm, Sweden. With a strong focus on innovation, Ericsson is a pioneer in the deployment of 5G networks and Internet of Things (IoT) technologies, positioning itself as a critical enabler of digital transformation across various industries. The company is dedicated to sustainable development and enhancing customer experiences, strategically capitalizing on the growing demand for advanced communication technologies. As a key player in the telecommunications sector, Ericsson is well-positioned to navigate and excel in the dynamic market landscape.</p>
         </div>
