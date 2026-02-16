@@ -336,7 +336,7 @@
     <div class="container">
         <header>
             <h1>Stock Charts</h1>
-            <div class="subtitle">Last updated: Feb 16, 2026 01:09 AM</div>
+            <div class="subtitle">Last updated: Feb 16, 2026 01:28 AM</div>
         </header>
 
         <nav class="nav">
@@ -2263,25 +2263,31 @@
         try {
             const open = JSON.parse(localStorage.getItem(STORAGE_KEY));
             if (Array.isArray(open) && open.length) {
-                open.forEach(g => {
-                    const el = document.querySelector('details[data-group="' + g + '"]');
-                    if (el) el.open = true;
+                const openSet = new Set(open);
+                const hasIndustryState = open.some(g => g.startsWith('ind-'));
+                document.querySelectorAll('details.portfolio-section').forEach(d => {
+                    d.open = openSet.has(d.dataset.group);
                 });
+                if (hasIndustryState) {
+                    document.querySelectorAll('details.industry-section').forEach(d => {
+                        d.open = openSet.has(d.dataset.group);
+                    });
+                }
             }
         } catch(e) {}
         updateToggleBtn();
     }
 
     function updateToggleBtn() {
-        const all = document.querySelectorAll('details.portfolio-section, details.industry-section');
-        const closed = document.querySelectorAll('details.portfolio-section:not([open]), details.industry-section:not([open])');
+        const all = document.querySelectorAll('details.portfolio-section');
+        const closed = document.querySelectorAll('details.portfolio-section:not([open])');
         const btn = document.getElementById('toggle-all');
         if (btn) btn.textContent = closed.length === 0 && all.length ? 'Collapse All' : 'Expand All';
     }
 
     function toggleAll() {
-        const all = document.querySelectorAll('details.portfolio-section, details.industry-section');
-        const anyClosed = document.querySelectorAll('details.portfolio-section:not([open]), details.industry-section:not([open])').length > 0;
+        const all = document.querySelectorAll('details.portfolio-section');
+        const anyClosed = document.querySelectorAll('details.portfolio-section:not([open])').length > 0;
         all.forEach(d => d.open = anyClosed);
         saveState();
     }
