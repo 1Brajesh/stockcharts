@@ -3523,25 +3523,25 @@
     "ISRG": {
       "presets": {
         "Revenue": {
-          "updated": "Feb 15, 2026 08:15 PM"
+          "updated": "Feb 15, 2026 09:50 PM"
         },
         "Costs": {
-          "updated": "Feb 15, 2026 08:15 PM"
+          "updated": "Feb 15, 2026 09:50 PM"
         },
         "Cash": {
-          "updated": "Feb 15, 2026 08:15 PM"
+          "updated": "Feb 15, 2026 09:50 PM"
         },
         "FCF": {
-          "updated": "Feb 15, 2026 08:15 PM"
+          "updated": "Feb 15, 2026 09:50 PM"
         },
         "Assets": {
-          "updated": "Feb 15, 2026 08:15 PM"
+          "updated": "Feb 15, 2026 09:50 PM"
         },
         "Buffet": {
-          "updated": "Feb 15, 2026 08:15 PM"
+          "updated": "Feb 15, 2026 09:50 PM"
         }
       },
-      "last_updated": "2026-02-15T20:15:54.807334",
+      "last_updated": "2026-02-15T21:50:36.696966",
       "company": {
         "name": "Intuitive Surgical Inc",
         "market_cap": "$173.36B",
