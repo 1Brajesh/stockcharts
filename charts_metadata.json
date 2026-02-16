@@ -5279,6 +5279,29 @@
         "sector": "INDUSTRIALS",
         "industry": "AIRLINES"
       }
+    },
+    "--AAPL": {
+      "presets": {
+        "Revenue": {
+          "updated": "Feb 15, 2026 07:23 PM"
+        },
+        "Costs": {
+          "updated": "Feb 15, 2026 07:23 PM"
+        },
+        "Cash": {
+          "updated": "Feb 15, 2026 07:23 PM"
+        },
+        "FCF": {
+          "updated": "Feb 15, 2026 07:23 PM"
+        },
+        "Assets": {
+          "updated": "Feb 15, 2026 07:23 PM"
+        },
+        "Buffet": {
+          "updated": "Feb 15, 2026 07:23 PM"
+        }
+      },
+      "last_updated": "2026-02-15T19:23:09.855499"
     }
   }
 }
