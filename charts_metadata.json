@@ -5376,29 +5376,6 @@
         "industry": "LODGING"
       }
     },
-    "--PORFOLIO": {
-      "presets": {
-        "Revenue": {
-          "updated": "Feb 15, 2026 10:36 PM"
-        },
-        "Costs": {
-          "updated": "Feb 15, 2026 10:36 PM"
-        },
-        "Cash": {
-          "updated": "Feb 15, 2026 10:36 PM"
-        },
-        "FCF": {
-          "updated": "Feb 15, 2026 10:36 PM"
-        },
-        "Assets": {
-          "updated": "Feb 15, 2026 10:36 PM"
-        },
-        "Buffet": {
-          "updated": "Feb 15, 2026 10:36 PM"
-        }
-      },
-      "last_updated": "2026-02-15T22:36:56.100949"
-    },
     "M7": {
       "presets": {
         "Revenue": {
