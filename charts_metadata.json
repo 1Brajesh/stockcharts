@@ -3907,25 +3907,25 @@
     "TER": {
       "presets": {
         "Revenue": {
-          "updated": "Feb 15, 2026 08:15 PM"
+          "updated": "Feb 15, 2026 09:11 PM"
         },
         "Costs": {
-          "updated": "Feb 15, 2026 08:15 PM"
+          "updated": "Feb 15, 2026 09:11 PM"
         },
         "Cash": {
-          "updated": "Feb 15, 2026 08:15 PM"
+          "updated": "Feb 15, 2026 09:11 PM"
         },
         "FCF": {
-          "updated": "Feb 15, 2026 08:15 PM"
+          "updated": "Feb 15, 2026 09:11 PM"
         },
         "Assets": {
-          "updated": "Feb 15, 2026 08:15 PM"
+          "updated": "Feb 15, 2026 09:11 PM"
         },
         "Buffet": {
-          "updated": "Feb 15, 2026 08:15 PM"
+          "updated": "Feb 15, 2026 09:11 PM"
         }
       },
-      "last_updated": "2026-02-15T20:15:59.301165",
+      "last_updated": "2026-02-15T21:11:45.322875",
       "company": {
         "name": "Teradyne Inc",
         "market_cap": "$32.45B",
