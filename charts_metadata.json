@@ -5407,6 +5407,38 @@
         "sector": "CONSUMER CYCLICAL",
         "industry": "LODGING"
       }
+    },
+    "T": {
+      "presets": {
+        "Revenue": {
+          "updated": "Feb 16, 2026 11:44 AM"
+        },
+        "Costs": {
+          "updated": "Feb 16, 2026 11:44 AM"
+        },
+        "Cash": {
+          "updated": "Feb 16, 2026 11:44 AM"
+        },
+        "FCF": {
+          "updated": "Feb 16, 2026 11:44 AM"
+        },
+        "Assets": {
+          "updated": "Feb 16, 2026 11:44 AM"
+        },
+        "Buffet": {
+          "updated": "Feb 16, 2026 11:44 AM"
+        }
+      },
+      "last_updated": "2026-02-16T11:44:58.459744",
+      "company": {
+        "name": "AT&T Inc",
+        "market_cap": "$203.40B",
+        "market_cap_raw": 203396317000.0,
+        "last_q_revenue": 33466000000.0,
+        "description": "AT&T Inc. is an American multinational conglomerate holding company, Delaware-registered but headquartered at Whitacre Tower in Downtown Dallas, Texas. It is the world largest telecommunications company, and the second largest provider of mobile telephone services.",
+        "sector": "COMMUNICATION SERVICES",
+        "industry": "TELECOM SERVICES"
+      }
     }
   }
 }
