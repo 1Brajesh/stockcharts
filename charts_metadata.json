@@ -5279,6 +5279,102 @@
         "sector": "INDUSTRIALS",
         "industry": "AIRLINES"
       }
+    },
+    "ABNB": {
+      "presets": {
+        "Revenue": {
+          "updated": "Feb 15, 2026 09:45 PM"
+        },
+        "Costs": {
+          "updated": "Feb 15, 2026 09:45 PM"
+        },
+        "Cash": {
+          "updated": "Feb 15, 2026 09:45 PM"
+        },
+        "FCF": {
+          "updated": "Feb 15, 2026 09:45 PM"
+        },
+        "Assets": {
+          "updated": "Feb 15, 2026 09:45 PM"
+        },
+        "Buffet": {
+          "updated": "Feb 15, 2026 09:45 PM"
+        }
+      },
+      "last_updated": "2026-02-15T21:45:13.406412",
+      "company": {
+        "name": "Airbnb\u00a0Inc",
+        "market_cap": "$72.75B",
+        "market_cap_raw": 72751022000.0,
+        "last_q_revenue": 2778000000.0,
+        "description": "Airbnb, Inc. is an American company that operates an online marketplace for lodging, primarily homestays for vacation rentals, and tourism activities, based in San Francisco, California.",
+        "sector": "CONSUMER CYCLICAL",
+        "industry": "TRAVEL SERVICES"
+      }
+    },
+    "H": {
+      "presets": {
+        "Revenue": {
+          "updated": "Feb 15, 2026 09:45 PM"
+        },
+        "Costs": {
+          "updated": "Feb 15, 2026 09:45 PM"
+        },
+        "Cash": {
+          "updated": "Feb 15, 2026 09:45 PM"
+        },
+        "FCF": {
+          "updated": "Feb 15, 2026 09:45 PM"
+        },
+        "Assets": {
+          "updated": "Feb 15, 2026 09:45 PM"
+        },
+        "Buffet": {
+          "updated": "Feb 15, 2026 09:45 PM"
+        }
+      },
+      "last_updated": "2026-02-15T21:45:13.437486",
+      "company": {
+        "name": "Hyatt Hotels Corporation",
+        "market_cap": "$15.79B",
+        "market_cap_raw": 15792263000.0,
+        "last_q_revenue": 1789000000.0,
+        "description": "Hyatt Hotels Corporation is a hotel company in the United States and internationally. The company is headquartered in Chicago, Illinois.",
+        "sector": "CONSUMER CYCLICAL",
+        "industry": "LODGING"
+      }
+    },
+    "MAR": {
+      "presets": {
+        "Revenue": {
+          "updated": "Feb 15, 2026 09:45 PM"
+        },
+        "Costs": {
+          "updated": "Feb 15, 2026 09:45 PM"
+        },
+        "Cash": {
+          "updated": "Feb 15, 2026 09:45 PM"
+        },
+        "FCF": {
+          "updated": "Feb 15, 2026 09:45 PM"
+        },
+        "Assets": {
+          "updated": "Feb 15, 2026 09:45 PM"
+        },
+        "Buffet": {
+          "updated": "Feb 15, 2026 09:45 PM"
+        }
+      },
+      "last_updated": "2026-02-15T21:45:13.462613",
+      "company": {
+        "name": "Marriott International Inc",
+        "market_cap": "$93.78B",
+        "market_cap_raw": 93775389000.0,
+        "last_q_revenue": 6690000000.0,
+        "description": "Marriott International, Inc. is an American multinational company that operates, franchises, and licenses lodging including hotel, residential, and timeshare properties. It is headquartered in Bethesda, Maryland.",
+        "sector": "CONSUMER CYCLICAL",
+        "industry": "LODGING"
+      }
     }
   }
 }
