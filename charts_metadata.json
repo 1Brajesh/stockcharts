@@ -5375,6 +5375,38 @@
         "sector": "CONSUMER CYCLICAL",
         "industry": "LODGING"
       }
+    },
+    "IHG": {
+      "presets": {
+        "Revenue": {
+          "updated": "Feb 16, 2026 11:40 AM"
+        },
+        "Costs": {
+          "updated": "Feb 16, 2026 11:40 AM"
+        },
+        "Cash": {
+          "updated": "Feb 16, 2026 11:40 AM"
+        },
+        "FCF": {
+          "updated": "Feb 16, 2026 11:40 AM"
+        },
+        "Assets": {
+          "updated": "Feb 16, 2026 11:40 AM"
+        },
+        "Buffet": {
+          "updated": "Feb 16, 2026 11:40 AM"
+        }
+      },
+      "last_updated": "2026-02-16T11:40:08.567634",
+      "company": {
+        "name": "InterContinental Hotels Group PLC ADR",
+        "market_cap": "$21.99B",
+        "market_cap_raw": 21990240000.0,
+        "last_q_revenue": 2540652000.0,
+        "description": "InterContinental Hotels Group PLC owns, manages, franchises, and leases hotels in the Americas, Europe, Asia, the Middle East, Africa, and Greater China. The company is headquartered in Denham, the United Kingdom.",
+        "sector": "CONSUMER CYCLICAL",
+        "industry": "LODGING"
+      }
     }
   }
 }
