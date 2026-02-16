@@ -5251,25 +5251,25 @@
     "UAL": {
       "presets": {
         "Revenue": {
-          "updated": "Feb 15, 2026 08:16 PM"
+          "updated": "Feb 15, 2026 09:55 PM"
         },
         "Costs": {
-          "updated": "Feb 15, 2026 08:16 PM"
+          "updated": "Feb 15, 2026 09:55 PM"
         },
         "Cash": {
-          "updated": "Feb 15, 2026 08:16 PM"
+          "updated": "Feb 15, 2026 09:55 PM"
         },
         "FCF": {
-          "updated": "Feb 15, 2026 08:16 PM"
+          "updated": "Feb 15, 2026 09:55 PM"
         },
         "Assets": {
-          "updated": "Feb 15, 2026 08:16 PM"
+          "updated": "Feb 15, 2026 09:55 PM"
         },
         "Buffet": {
-          "updated": "Feb 15, 2026 08:16 PM"
+          "updated": "Feb 15, 2026 09:55 PM"
         }
       },
-      "last_updated": "2026-02-15T20:16:00.085669",
+      "last_updated": "2026-02-15T21:55:01.481384",
       "company": {
         "name": "United Airlines Holdings Inc",
         "market_cap": "$35.38B",
