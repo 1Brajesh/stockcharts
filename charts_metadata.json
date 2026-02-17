@@ -5503,6 +5503,38 @@
         "sector": "COMMUNICATION SERVICES",
         "industry": "TELECOM SERVICES"
       }
+    },
+    "VVPR": {
+      "presets": {
+        "Revenue": {
+          "updated": "Feb 17, 2026 01:05 AM"
+        },
+        "Costs": {
+          "updated": "Feb 17, 2026 01:05 AM"
+        },
+        "Cash": {
+          "updated": "Feb 17, 2026 01:05 AM"
+        },
+        "FCF": {
+          "updated": "Feb 17, 2026 01:05 AM"
+        },
+        "Assets": {
+          "updated": "Feb 17, 2026 01:05 AM"
+        },
+        "Buffet": {
+          "updated": "Feb 17, 2026 01:05 AM"
+        }
+      },
+      "last_updated": "2026-02-17T01:05:20.288664",
+      "company": {
+        "name": "VivoPower International PLC",
+        "market_cap": "$35.43M",
+        "market_cap_raw": 35427400.0,
+        "last_q_revenue": -2000.0,
+        "description": "VivoPower International PLC is a critical and solar energy services company in the United States, Australia, and the United Kingdom. The company is headquartered in London, the United Kingdom.",
+        "sector": "TECHNOLOGY",
+        "industry": "SOLAR"
+      }
     }
   }
 }
