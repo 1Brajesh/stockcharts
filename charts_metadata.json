@@ -5535,6 +5535,38 @@
         "sector": "TECHNOLOGY",
         "industry": "SOLAR"
       }
+    },
+    "WIT": {
+      "presets": {
+        "Revenue": {
+          "updated": "Feb 17, 2026 01:54 AM"
+        },
+        "Costs": {
+          "updated": "Feb 17, 2026 01:54 AM"
+        },
+        "Cash": {
+          "updated": "Feb 17, 2026 01:54 AM"
+        },
+        "FCF": {
+          "updated": "Feb 17, 2026 01:54 AM"
+        },
+        "Assets": {
+          "updated": "Feb 17, 2026 01:54 AM"
+        },
+        "Buffet": {
+          "updated": "Feb 17, 2026 01:54 AM"
+        }
+      },
+      "last_updated": "2026-02-17T01:54:48.995610",
+      "company": {
+        "name": "Wipro Limited ADR",
+        "market_cap": "$24.95B",
+        "market_cap_raw": 24947880000.0,
+        "last_q_revenue": 237515261000.0,
+        "description": "Wipro Limited is a global information technology (IT), consulting and business process services company. The company is headquartered in Bengaluru, India.",
+        "sector": "TECHNOLOGY",
+        "industry": "INFORMATION TECHNOLOGY SERVICES"
+      }
     }
   }
 }
