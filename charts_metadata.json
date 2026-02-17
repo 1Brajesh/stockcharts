@@ -5567,6 +5567,38 @@
         "sector": "TECHNOLOGY",
         "industry": "INFORMATION TECHNOLOGY SERVICES"
       }
+    },
+    "FIGR": {
+      "presets": {
+        "Revenue": {
+          "updated": "Feb 17, 2026 02:52 PM"
+        },
+        "Costs": {
+          "updated": "Feb 17, 2026 02:52 PM"
+        },
+        "Cash": {
+          "updated": "Feb 17, 2026 02:52 PM"
+        },
+        "FCF": {
+          "updated": "Feb 17, 2026 02:52 PM"
+        },
+        "Assets": {
+          "updated": "Feb 17, 2026 02:52 PM"
+        },
+        "Buffet": {
+          "updated": "Feb 17, 2026 02:52 PM"
+        }
+      },
+      "last_updated": "2026-02-17T14:52:06.779188",
+      "company": {
+        "name": "Figure Technology Solutions, Inc. Class A Common Stock",
+        "market_cap": "$8.05B",
+        "market_cap_raw": 8046157000.0,
+        "last_q_revenue": 156365000.0,
+        "description": "Figure Technology Solutions, Inc. develops and operates a blockchain-based consumer lending platform. The company is headquartered in Reno, Nevada.",
+        "sector": "FINANCIAL SERVICES",
+        "industry": "CAPITAL MARKETS"
+      }
     }
   }
 }
