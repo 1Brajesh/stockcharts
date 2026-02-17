@@ -5439,6 +5439,38 @@
         "sector": "COMMUNICATION SERVICES",
         "industry": "TELECOM SERVICES"
       }
+    },
+    "WH": {
+      "presets": {
+        "Revenue": {
+          "updated": "Feb 16, 2026 11:36 PM"
+        },
+        "Costs": {
+          "updated": "Feb 16, 2026 11:36 PM"
+        },
+        "Cash": {
+          "updated": "Feb 16, 2026 11:36 PM"
+        },
+        "FCF": {
+          "updated": "Feb 16, 2026 11:36 PM"
+        },
+        "Assets": {
+          "updated": "Feb 16, 2026 11:36 PM"
+        },
+        "Buffet": {
+          "updated": "Feb 16, 2026 11:36 PM"
+        }
+      },
+      "last_updated": "2026-02-16T23:36:21.601988",
+      "company": {
+        "name": "Wyndham Hotels & Resorts Inc",
+        "market_cap": "$5.94B",
+        "market_cap_raw": 5937462000.0,
+        "last_q_revenue": 382000000.0,
+        "description": "Wyndham Hotels & Resorts, Inc. is a global hotel franchisor. The company is headquartered in Parsippany, New Jersey.",
+        "sector": "CONSUMER CYCLICAL",
+        "industry": "LODGING"
+      }
     }
   }
 }
