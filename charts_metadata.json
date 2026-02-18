@@ -5599,6 +5599,38 @@
         "sector": "FINANCIAL SERVICES",
         "industry": "CAPITAL MARKETS"
       }
+    },
+    "GOVX": {
+      "presets": {
+        "Revenue": {
+          "updated": "Feb 17, 2026 10:51 PM"
+        },
+        "Costs": {
+          "updated": "Feb 17, 2026 10:51 PM"
+        },
+        "Cash": {
+          "updated": "Feb 17, 2026 10:51 PM"
+        },
+        "FCF": {
+          "updated": "Feb 17, 2026 10:51 PM"
+        },
+        "Assets": {
+          "updated": "Feb 17, 2026 10:51 PM"
+        },
+        "Buffet": {
+          "updated": "Feb 17, 2026 10:51 PM"
+        }
+      },
+      "last_updated": "2026-02-17T22:51:51.075482",
+      "company": {
+        "name": "GeoVax Labs Inc",
+        "market_cap": "$2.91M",
+        "market_cap_raw": 2910000.0,
+        "last_q_revenue": 0.0,
+        "description": "GeoVax Labs, Inc., a clinical-stage biotechnology company, develops human vaccines and immunotherapies against infectious diseases and cancers using a modified vaccinia ankara virus-like particle vaccine platform. The company is headquartered in Smyrna, Georgia.",
+        "sector": "HEALTHCARE",
+        "industry": "BIOTECHNOLOGY"
+      }
     }
   }
 }
