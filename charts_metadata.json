@@ -5727,6 +5727,38 @@
         "sector": "CONSUMER CYCLICAL",
         "industry": "INTERNET RETAIL"
       }
+    },
+    "DVLT": {
+      "presets": {
+        "Revenue": {
+          "updated": "Feb 19, 2026 10:54 PM"
+        },
+        "Costs": {
+          "updated": "Feb 19, 2026 10:54 PM"
+        },
+        "Cash": {
+          "updated": "Feb 19, 2026 10:54 PM"
+        },
+        "FCF": {
+          "updated": "Feb 19, 2026 10:54 PM"
+        },
+        "Assets": {
+          "updated": "Feb 19, 2026 10:54 PM"
+        },
+        "Buffet": {
+          "updated": "Feb 19, 2026 10:54 PM"
+        }
+      },
+      "last_updated": "2026-02-19T22:54:42.497896",
+      "company": {
+        "name": "Datavault AI Inc.",
+        "market_cap": "$65.00M",
+        "market_cap_raw": 65004000.0,
+        "last_q_revenue": 2904000.0,
+        "description": "Datavault AI Inc., a data sciences technology company, owns and operates data management and supercomputer platforms. The company is headquartered in Beaverton, Oregon.",
+        "sector": "TECHNOLOGY",
+        "industry": "SOFTWARE - INFRASTRUCTURE"
+      }
     }
   }
 }
