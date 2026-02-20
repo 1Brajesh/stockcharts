@@ -5759,6 +5759,38 @@
         "sector": "TECHNOLOGY",
         "industry": "SOFTWARE - INFRASTRUCTURE"
       }
+    },
+    "RKT": {
+      "presets": {
+        "Revenue": {
+          "updated": "Feb 19, 2026 11:48 PM"
+        },
+        "Costs": {
+          "updated": "Feb 19, 2026 11:48 PM"
+        },
+        "Cash": {
+          "updated": "Feb 19, 2026 11:48 PM"
+        },
+        "FCF": {
+          "updated": "Feb 19, 2026 11:48 PM"
+        },
+        "Assets": {
+          "updated": "Feb 19, 2026 11:48 PM"
+        },
+        "Buffet": {
+          "updated": "Feb 19, 2026 11:48 PM"
+        }
+      },
+      "last_updated": "2026-02-19T23:48:58.217047",
+      "company": {
+        "name": "Rocket Companies\u00a0Inc",
+        "market_cap": "$51.95B",
+        "market_cap_raw": 51953172000.0,
+        "last_q_revenue": 1789972000.0,
+        "description": "Rocket Companies, Inc. is engaged in the technology-driven real estate, mortgage and e-commerce businesses in the United States and Canada. The company is headquartered in Detroit, Michigan.",
+        "sector": "FINANCIAL SERVICES",
+        "industry": "MORTGAGE FINANCE"
+      }
     }
   }
 }
