@@ -5727,29 +5727,6 @@
         "sector": "CONSUMER CYCLICAL",
         "industry": "INTERNET RETAIL"
       }
-    },
-    "DLVT": {
-      "presets": {
-        "Revenue": {
-          "updated": "Feb 19, 2026 10:52 PM"
-        },
-        "Costs": {
-          "updated": "Feb 19, 2026 10:52 PM"
-        },
-        "Cash": {
-          "updated": "Feb 19, 2026 10:52 PM"
-        },
-        "FCF": {
-          "updated": "Feb 19, 2026 10:52 PM"
-        },
-        "Assets": {
-          "updated": "Feb 19, 2026 10:52 PM"
-        },
-        "Buffet": {
-          "updated": "Feb 19, 2026 10:52 PM"
-        }
-      },
-      "last_updated": "2026-02-19T22:52:45.813313"
     }
   }
 }
