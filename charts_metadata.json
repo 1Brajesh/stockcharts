@@ -5791,6 +5791,134 @@
         "sector": "FINANCIAL SERVICES",
         "industry": "MORTGAGE FINANCE"
       }
+    },
+    "LDOS": {
+      "presets": {
+        "Revenue": {
+          "updated": "Feb 20, 2026 11:48 PM"
+        },
+        "Costs": {
+          "updated": "Feb 20, 2026 11:48 PM"
+        },
+        "Cash": {
+          "updated": "Feb 20, 2026 11:48 PM"
+        },
+        "FCF": {
+          "updated": "Feb 20, 2026 11:48 PM"
+        },
+        "Assets": {
+          "updated": "Feb 20, 2026 11:48 PM"
+        },
+        "Buffet": {
+          "updated": "Feb 20, 2026 11:48 PM"
+        }
+      },
+      "last_updated": "2026-02-20T23:48:11.091479",
+      "company": {
+        "name": "Leidos Holdings Inc",
+        "market_cap": "$22.61B",
+        "market_cap_raw": 22614972000.0,
+        "last_q_revenue": 4207000000.0,
+        "description": "Leidos, formerly known as Science Applications International Corporation (SAIC), is an American defense, aviation, information technology (Lockheed Martin IS&GS), and biomedical research company headquartered in Reston, Virginia, that provides scientific, engineering, systems integration, and technical services.",
+        "sector": "TECHNOLOGY",
+        "industry": "INFORMATION TECHNOLOGY SERVICES"
+      }
+    },
+    "IBEX": {
+      "presets": {
+        "Revenue": {
+          "updated": "Feb 20, 2026 11:48 PM"
+        },
+        "Costs": {
+          "updated": "Feb 20, 2026 11:48 PM"
+        },
+        "Cash": {
+          "updated": "Feb 20, 2026 11:48 PM"
+        },
+        "FCF": {
+          "updated": "Feb 20, 2026 11:48 PM"
+        },
+        "Assets": {
+          "updated": "Feb 20, 2026 11:48 PM"
+        },
+        "Buffet": {
+          "updated": "Feb 20, 2026 11:48 PM"
+        }
+      },
+      "last_updated": "2026-02-20T23:48:11.122182",
+      "company": {
+        "name": "IBEX Ltd",
+        "market_cap": "$397.95M",
+        "market_cap_raw": 397955000.0,
+        "last_q_revenue": 164221000.0,
+        "description": "IBEX Limited provides comprehensive technology-enabled customer lifecycle experience solutions in the United States and internationally. ",
+        "sector": "TECHNOLOGY",
+        "industry": "INFORMATION TECHNOLOGY SERVICES"
+      }
+    },
+    "TENB": {
+      "presets": {
+        "Revenue": {
+          "updated": "Feb 20, 2026 11:48 PM"
+        },
+        "Costs": {
+          "updated": "Feb 20, 2026 11:48 PM"
+        },
+        "Cash": {
+          "updated": "Feb 20, 2026 11:48 PM"
+        },
+        "FCF": {
+          "updated": "Feb 20, 2026 11:48 PM"
+        },
+        "Assets": {
+          "updated": "Feb 20, 2026 11:48 PM"
+        },
+        "Buffet": {
+          "updated": "Feb 20, 2026 11:48 PM"
+        }
+      },
+      "last_updated": "2026-02-20T23:48:11.148840",
+      "company": {
+        "name": "Tenable Holdings Inc",
+        "market_cap": "$2.64B",
+        "market_cap_raw": 2642292000.0,
+        "last_q_revenue": 260533000.0,
+        "description": "Tenable Holdings, Inc. offers cyber exposure solutions in the Americas, Europe, the Middle East, Africa, Asia Pacific, and Japan. The company is headquartered in Columbia, Maryland.",
+        "sector": "TECHNOLOGY",
+        "industry": "SOFTWARE - INFRASTRUCTURE"
+      }
+    },
+    "FIVN": {
+      "presets": {
+        "Revenue": {
+          "updated": "Feb 20, 2026 11:48 PM"
+        },
+        "Costs": {
+          "updated": "Feb 20, 2026 11:48 PM"
+        },
+        "Cash": {
+          "updated": "Feb 20, 2026 11:48 PM"
+        },
+        "FCF": {
+          "updated": "Feb 20, 2026 11:48 PM"
+        },
+        "Assets": {
+          "updated": "Feb 20, 2026 11:48 PM"
+        },
+        "Buffet": {
+          "updated": "Feb 20, 2026 11:48 PM"
+        }
+      },
+      "last_updated": "2026-02-20T23:48:11.175895",
+      "company": {
+        "name": "Five9 Inc",
+        "market_cap": "$1.34B",
+        "market_cap_raw": 1343752000.0,
+        "last_q_revenue": 300282000.0,
+        "description": "Five9, Inc. provides cloud software for contact centers in the United States and internationally. The company is headquartered in San Ramon, California.",
+        "sector": "TECHNOLOGY",
+        "industry": "SOFTWARE - INFRASTRUCTURE"
+      }
     }
   }
 }
