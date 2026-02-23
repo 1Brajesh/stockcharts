@@ -5951,6 +5951,134 @@
         "sector": "INDUSTRIALS",
         "industry": "SPECIALTY BUSINESS SERVICES"
       }
+    },
+    "PLD": {
+      "presets": {
+        "Revenue": {
+          "updated": "Feb 22, 2026 10:52 PM"
+        },
+        "Costs": {
+          "updated": "Feb 22, 2026 10:52 PM"
+        },
+        "Cash": {
+          "updated": "Feb 22, 2026 10:52 PM"
+        },
+        "FCF": {
+          "updated": "Feb 22, 2026 10:52 PM"
+        },
+        "Assets": {
+          "updated": "Feb 22, 2026 10:52 PM"
+        },
+        "Buffet": {
+          "updated": "Feb 22, 2026 10:52 PM"
+        }
+      },
+      "last_updated": "2026-02-22T22:52:25.361743",
+      "company": {
+        "name": "Prologis Inc",
+        "market_cap": "$131.44B",
+        "market_cap_raw": 131443966000.0,
+        "last_q_revenue": 2252712000.0,
+        "description": "Prologis, Inc. is a real estate investment trust headquartered in San Francisco, California that invests in logistics facilities, with a focus on the consumption side of the global supply chain.",
+        "sector": "REAL ESTATE",
+        "industry": "REIT - INDUSTRIAL"
+      }
+    },
+    "AMT": {
+      "presets": {
+        "Revenue": {
+          "updated": "Feb 22, 2026 10:52 PM"
+        },
+        "Costs": {
+          "updated": "Feb 22, 2026 10:52 PM"
+        },
+        "Cash": {
+          "updated": "Feb 22, 2026 10:52 PM"
+        },
+        "FCF": {
+          "updated": "Feb 22, 2026 10:52 PM"
+        },
+        "Assets": {
+          "updated": "Feb 22, 2026 10:52 PM"
+        },
+        "Buffet": {
+          "updated": "Feb 22, 2026 10:52 PM"
+        }
+      },
+      "last_updated": "2026-02-22T22:52:25.398316",
+      "company": {
+        "name": "American Tower Corp",
+        "market_cap": "$87.71B",
+        "market_cap_raw": 87708140000.0,
+        "last_q_revenue": 2717400000.0,
+        "description": "American Tower Corporation (also referred to as American Tower or ATC) is an American real estate investment trust and an owner and operator of wireless and broadcast communications infrastructure in several countries worldwide and is headquartered in Boston, Massachusetts.",
+        "sector": "REAL ESTATE",
+        "industry": "REIT - SPECIALTY"
+      }
+    },
+    "WELL": {
+      "presets": {
+        "Revenue": {
+          "updated": "Feb 22, 2026 10:52 PM"
+        },
+        "Costs": {
+          "updated": "Feb 22, 2026 10:52 PM"
+        },
+        "Cash": {
+          "updated": "Feb 22, 2026 10:52 PM"
+        },
+        "FCF": {
+          "updated": "Feb 22, 2026 10:52 PM"
+        },
+        "Assets": {
+          "updated": "Feb 22, 2026 10:52 PM"
+        },
+        "Buffet": {
+          "updated": "Feb 22, 2026 10:52 PM"
+        }
+      },
+      "last_updated": "2026-02-22T22:52:25.434613",
+      "company": {
+        "name": "Welltower Inc",
+        "market_cap": "$145.27B",
+        "market_cap_raw": 145265099000.0,
+        "last_q_revenue": 3134347000.0,
+        "description": "Welltower Inc. is a real estate investment trust that invests in healthcare infrastructure.",
+        "sector": "REAL ESTATE",
+        "industry": "REIT - HEALTHCARE FACILITIES"
+      }
+    },
+    "Z": {
+      "presets": {
+        "Revenue": {
+          "updated": "Feb 22, 2026 10:52 PM"
+        },
+        "Costs": {
+          "updated": "Feb 22, 2026 10:52 PM"
+        },
+        "Cash": {
+          "updated": "Feb 22, 2026 10:52 PM"
+        },
+        "FCF": {
+          "updated": "Feb 22, 2026 10:52 PM"
+        },
+        "Assets": {
+          "updated": "Feb 22, 2026 10:52 PM"
+        },
+        "Buffet": {
+          "updated": "Feb 22, 2026 10:52 PM"
+        }
+      },
+      "last_updated": "2026-02-22T22:52:25.462687",
+      "company": {
+        "name": "Zillow Group Inc Class C",
+        "market_cap": "$11.00B",
+        "market_cap_raw": 11003621000.0,
+        "last_q_revenue": 654000000.0,
+        "description": "Zillow Group, Inc., a digital real estate company, operates real estate brands on mobile apps and websites in the United States. The company is headquartered in Seattle, Washington.",
+        "sector": "COMMUNICATION SERVICES",
+        "industry": "INTERNET CONTENT & INFORMATION"
+      }
     }
   }
 }
