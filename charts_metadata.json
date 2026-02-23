@@ -5919,6 +5919,38 @@
         "sector": "TECHNOLOGY",
         "industry": "SOFTWARE - INFRASTRUCTURE"
       }
+    },
+    "SMX": {
+      "presets": {
+        "Revenue": {
+          "updated": "Feb 22, 2026 10:38 PM"
+        },
+        "Costs": {
+          "updated": "Feb 22, 2026 10:38 PM"
+        },
+        "Cash": {
+          "updated": "Feb 22, 2026 10:38 PM"
+        },
+        "FCF": {
+          "updated": "Feb 22, 2026 10:38 PM"
+        },
+        "Assets": {
+          "updated": "Feb 22, 2026 10:38 PM"
+        },
+        "Buffet": {
+          "updated": "Feb 22, 2026 10:38 PM"
+        }
+      },
+      "last_updated": "2026-02-22T22:38:25.200820",
+      "company": {
+        "name": "SMX (Security Matters) Public Limited Company Class A Ordinary Shares",
+        "market_cap": "$366.36M",
+        "market_cap_raw": 366356000.0,
+        "last_q_revenue": null,
+        "description": "SMX (Security Matters) Public Limited Company engages in the development and commercialization of track and trace technologies for various industries in Australia. The company is headquartered in Melbourne, Australia.",
+        "sector": "INDUSTRIALS",
+        "industry": "SPECIALTY BUSINESS SERVICES"
+      }
     }
   }
 }
