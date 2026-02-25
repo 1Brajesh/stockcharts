@@ -6239,6 +6239,38 @@
         "sector": "FINANCIAL SERVICES",
         "industry": "BANKS - DIVERSIFIED"
       }
+    },
+    "BK": {
+      "presets": {
+        "Revenue": {
+          "updated": "Feb 24, 2026 11:32 PM"
+        },
+        "Costs": {
+          "updated": "Feb 24, 2026 11:32 PM"
+        },
+        "Cash": {
+          "updated": "Feb 24, 2026 11:32 PM"
+        },
+        "FCF": {
+          "updated": "Feb 24, 2026 11:32 PM"
+        },
+        "Assets": {
+          "updated": "Feb 24, 2026 11:32 PM"
+        },
+        "Buffet": {
+          "updated": "Feb 24, 2026 11:32 PM"
+        }
+      },
+      "last_updated": "2026-02-24T23:32:28.234393",
+      "company": {
+        "name": "The Bank of New York Mellon Corporation",
+        "market_cap": "$80.57B",
+        "market_cap_raw": 80571720000.0,
+        "last_q_revenue": 8869000000.0,
+        "description": "The Bank of New York Mellon Corporation, commonly known as BNY Mellon, is a multinational American investment banking services holding company headquartered in New York City.",
+        "sector": "FINANCIAL SERVICES",
+        "industry": "BANKS - DIVERSIFIED"
+      }
     }
   }
 }
