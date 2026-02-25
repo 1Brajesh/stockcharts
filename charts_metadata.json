@@ -6111,6 +6111,70 @@
         "sector": "HEALTHCARE",
         "industry": "MEDICAL DEVICES"
       }
+    },
+    "LTM": {
+      "presets": {
+        "Revenue": {
+          "updated": "Feb 24, 2026 11:23 PM"
+        },
+        "Costs": {
+          "updated": "Feb 24, 2026 11:23 PM"
+        },
+        "Cash": {
+          "updated": "Feb 24, 2026 11:23 PM"
+        },
+        "FCF": {
+          "updated": "Feb 24, 2026 11:23 PM"
+        },
+        "Assets": {
+          "updated": "Feb 24, 2026 11:23 PM"
+        },
+        "Buffet": {
+          "updated": "Feb 24, 2026 11:23 PM"
+        }
+      },
+      "last_updated": "2026-02-24T23:23:35.976773",
+      "company": {
+        "name": "LATAM Airlines Group S.A.",
+        "market_cap": "$16.34B",
+        "market_cap_raw": 16335604000.0,
+        "last_q_revenue": 3907635822.0,
+        "description": "LATAM Airlines Group SA, provides passenger and cargo air transport services in Peru, Argentina, the United States, Europe, Colombia, Brazil, Ecuador, Chile, Asia Pacific and the rest of Latin America. ",
+        "sector": "INDUSTRIALS",
+        "industry": "AIRLINES"
+      }
+    },
+    "EXPE": {
+      "presets": {
+        "Revenue": {
+          "updated": "Feb 24, 2026 11:23 PM"
+        },
+        "Costs": {
+          "updated": "Feb 24, 2026 11:23 PM"
+        },
+        "Cash": {
+          "updated": "Feb 24, 2026 11:23 PM"
+        },
+        "FCF": {
+          "updated": "Feb 24, 2026 11:23 PM"
+        },
+        "Assets": {
+          "updated": "Feb 24, 2026 11:23 PM"
+        },
+        "Buffet": {
+          "updated": "Feb 24, 2026 11:23 PM"
+        }
+      },
+      "last_updated": "2026-02-24T23:23:36.005337",
+      "company": {
+        "name": "Expedia Group Inc.",
+        "market_cap": "$23.10B",
+        "market_cap_raw": 23099048000.0,
+        "last_q_revenue": 3547000000.0,
+        "description": "Expedia Group, Inc. is an American online travel shopping company for consumer and small business travel. Its websites, which are primarily travel fare aggregators and travel metasearch engines, include Expedia.com, Vrbo (previously HomeAway), Hotels.com, Hotwire.com, Orbitz, Travelocity, trivago and CarRentals.com.",
+        "sector": "CONSUMER CYCLICAL",
+        "industry": "TRAVEL SERVICES"
+      }
     }
   }
 }
