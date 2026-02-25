@@ -6079,6 +6079,38 @@
         "sector": "COMMUNICATION SERVICES",
         "industry": "INTERNET CONTENT & INFORMATION"
       }
+    },
+    "VNRX": {
+      "presets": {
+        "Revenue": {
+          "updated": "Feb 24, 2026 08:33 PM"
+        },
+        "Costs": {
+          "updated": "Feb 24, 2026 08:33 PM"
+        },
+        "Cash": {
+          "updated": "Feb 24, 2026 08:33 PM"
+        },
+        "FCF": {
+          "updated": "Feb 24, 2026 08:33 PM"
+        },
+        "Assets": {
+          "updated": "Feb 24, 2026 08:33 PM"
+        },
+        "Buffet": {
+          "updated": "Feb 24, 2026 08:33 PM"
+        }
+      },
+      "last_updated": "2026-02-24T20:33:00.393146",
+      "company": {
+        "name": "Volitionrx Ltd",
+        "market_cap": "$26.23M",
+        "market_cap_raw": 26231900.0,
+        "last_q_revenue": 627277.0,
+        "description": "VolitionRx Limited, a multinational epigenetics company, is dedicated to developing blood tests to help diagnose a variety of cancers and other diseases globally. The company is headquartered in Austin, Texas.",
+        "sector": "HEALTHCARE",
+        "industry": "MEDICAL DEVICES"
+      }
     }
   }
 }
