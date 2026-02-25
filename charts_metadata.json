@@ -6175,6 +6175,70 @@
         "sector": "CONSUMER CYCLICAL",
         "industry": "TRAVEL SERVICES"
       }
+    },
+    "BAC": {
+      "presets": {
+        "Revenue": {
+          "updated": "Feb 24, 2026 11:29 PM"
+        },
+        "Costs": {
+          "updated": "Feb 24, 2026 11:29 PM"
+        },
+        "Cash": {
+          "updated": "Feb 24, 2026 11:29 PM"
+        },
+        "FCF": {
+          "updated": "Feb 24, 2026 11:29 PM"
+        },
+        "Assets": {
+          "updated": "Feb 24, 2026 11:29 PM"
+        },
+        "Buffet": {
+          "updated": "Feb 24, 2026 11:29 PM"
+        }
+      },
+      "last_updated": "2026-02-24T23:29:50.957453",
+      "company": {
+        "name": "Bank of America Corp",
+        "market_cap": "$372.94B",
+        "market_cap_raw": 372938441000.0,
+        "last_q_revenue": 46878000000.0,
+        "description": "The Bank of America Corporation is an American multinational investment bank and financial services holding company headquartered in Charlotte, North Carolina. Founded in San Francisco, Bank of America was formed through NationsBank's acquisition of BankAmerica in 1998. It is the second largest banking institution in the United States, after JPMorgan Chase, and the eighth largest bank in the world. Bank of America is one of the Big Four banking institutions of the United States. It services approximately 10 percent of all American bank deposits, in direct competition with JPMorgan Chase, Citigroup and Wells Fargo. Its primary financial services revolve around commercial banking, wealth management, and investment banking.",
+        "sector": "FINANCIAL SERVICES",
+        "industry": "BANKS - DIVERSIFIED"
+      }
+    },
+    "JPM": {
+      "presets": {
+        "Revenue": {
+          "updated": "Feb 24, 2026 11:29 PM"
+        },
+        "Costs": {
+          "updated": "Feb 24, 2026 11:29 PM"
+        },
+        "Cash": {
+          "updated": "Feb 24, 2026 11:29 PM"
+        },
+        "FCF": {
+          "updated": "Feb 24, 2026 11:29 PM"
+        },
+        "Assets": {
+          "updated": "Feb 24, 2026 11:29 PM"
+        },
+        "Buffet": {
+          "updated": "Feb 24, 2026 11:29 PM"
+        }
+      },
+      "last_updated": "2026-02-24T23:29:51.066471",
+      "company": {
+        "name": "JPMorgan Chase & Co",
+        "market_cap": "$802.83B",
+        "market_cap_raw": 802825699000.0,
+        "last_q_revenue": 69611000000.0,
+        "description": "JPMorgan Chase & Co. is an American multinational investment bank and financial services holding company headquartered in New York City. JPMorgan Chase is incorporated in Delaware. As a Bulge Bracket bank, it is a major provider of various investment banking and financial services. It is one of America's Big Four banks, along with Bank of America, Citigroup, and Wells Fargo. JPMorgan Chase is considered to be a universal bank and a custodian bank. The J.P. Morgan brand is used by the investment banking, asset management, private banking, private wealth management, and treasury services divisions.",
+        "sector": "FINANCIAL SERVICES",
+        "industry": "BANKS - DIVERSIFIED"
+      }
     }
   }
 }
