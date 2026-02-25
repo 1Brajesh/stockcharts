@@ -6271,6 +6271,70 @@
         "sector": "FINANCIAL SERVICES",
         "industry": "BANKS - DIVERSIFIED"
       }
+    },
+    "C-SEC": {
+      "presets": {
+        "Revenue": {
+          "updated": "Feb 25, 2026 09:52 AM"
+        },
+        "Costs": {
+          "updated": "Feb 25, 2026 09:52 AM"
+        },
+        "Cash": {
+          "updated": "Feb 25, 2026 09:52 AM"
+        },
+        "FCF": {
+          "updated": "Feb 25, 2026 09:52 AM"
+        },
+        "Assets": {
+          "updated": "Feb 25, 2026 09:52 AM"
+        },
+        "Buffet": {
+          "updated": "Feb 25, 2026 09:52 AM"
+        }
+      },
+      "last_updated": "2026-02-25T09:52:33.082593",
+      "company": {
+        "name": "Citigroup\u00a0Inc",
+        "market_cap": "N/A",
+        "market_cap_raw": null,
+        "last_q_revenue": 22090000000.0,
+        "description": "Financial data from SEC EDGAR for Citigroup\u00a0Inc",
+        "sector": "",
+        "industry": ""
+      }
+    },
+    "COF-SEC": {
+      "presets": {
+        "Revenue": {
+          "updated": "Feb 25, 2026 09:52 AM"
+        },
+        "Costs": {
+          "updated": "Feb 25, 2026 09:52 AM"
+        },
+        "Cash": {
+          "updated": "Feb 25, 2026 09:52 AM"
+        },
+        "FCF": {
+          "updated": "Feb 25, 2026 09:52 AM"
+        },
+        "Assets": {
+          "updated": "Feb 25, 2026 09:52 AM"
+        },
+        "Buffet": {
+          "updated": "Feb 25, 2026 09:52 AM"
+        }
+      },
+      "last_updated": "2026-02-25T09:52:33.110498",
+      "company": {
+        "name": "CAPITAL\u00a0ONE\u00a0FINANCIAL\u00a0CORP",
+        "market_cap": "N/A",
+        "market_cap_raw": null,
+        "last_q_revenue": 2283000000.0,
+        "description": "Financial data from SEC EDGAR for CAPITAL\u00a0ONE\u00a0FINANCIAL\u00a0CORP",
+        "sector": "",
+        "industry": ""
+      }
     }
   }
 }
