@@ -6367,6 +6367,38 @@
         "sector": "FINANCIAL SERVICES",
         "industry": "INSURANCE - PROPERTY & CASUALTY"
       }
+    },
+    "LMND": {
+      "presets": {
+        "Revenue": {
+          "updated": "Feb 26, 2026 12:18 AM"
+        },
+        "Costs": {
+          "updated": "Feb 26, 2026 12:18 AM"
+        },
+        "Cash": {
+          "updated": "Feb 26, 2026 12:18 AM"
+        },
+        "FCF": {
+          "updated": "Feb 26, 2026 12:18 AM"
+        },
+        "Assets": {
+          "updated": "Feb 26, 2026 12:18 AM"
+        },
+        "Buffet": {
+          "updated": "Feb 26, 2026 12:18 AM"
+        }
+      },
+      "last_updated": "2026-02-26T00:18:06.820890",
+      "company": {
+        "name": "Lemonade\u00a0Inc",
+        "market_cap": "$3.90B",
+        "market_cap_raw": 3902454000.0,
+        "last_q_revenue": 194500000.0,
+        "description": "Lemonade, Inc. offers various insurance products in the United States and Europe. The company is headquartered in New York, New York.",
+        "sector": "FINANCIAL SERVICES",
+        "industry": "INSURANCE - PROPERTY & CASUALTY"
+      }
     }
   }
 }
