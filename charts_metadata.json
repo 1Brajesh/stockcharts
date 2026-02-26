@@ -6271,6 +6271,102 @@
         "sector": "FINANCIAL SERVICES",
         "industry": "BANKS - DIVERSIFIED"
       }
+    },
+    "C": {
+      "presets": {
+        "Revenue": {
+          "updated": "Feb 26, 2026 12:03 AM"
+        },
+        "Costs": {
+          "updated": "Feb 26, 2026 12:03 AM"
+        },
+        "Cash": {
+          "updated": "Feb 26, 2026 12:03 AM"
+        },
+        "FCF": {
+          "updated": "Feb 26, 2026 12:03 AM"
+        },
+        "Assets": {
+          "updated": "Feb 26, 2026 12:03 AM"
+        },
+        "Buffet": {
+          "updated": "Feb 26, 2026 12:03 AM"
+        }
+      },
+      "last_updated": "2026-02-26T00:03:22.833956",
+      "company": {
+        "name": "Citigroup Inc.",
+        "market_cap": "$196.03B",
+        "market_cap_raw": 196032004000.0,
+        "last_q_revenue": 40855000000.0,
+        "description": "Citigroup Inc. is an American multinational investment bank and financial services corporation headquartered in New York City. The company was formed by the merger of banking giant Citicorp and financial conglomerate Travelers Group in 1998; Travelers was subsequently spun off from the company in 2002. Citigroup owns Citicorp, the holding company for Citibank, as well as several international subsidiaries. Citigroup is incorporated in Delaware.",
+        "sector": "FINANCIAL SERVICES",
+        "industry": "BANKS - DIVERSIFIED"
+      }
+    },
+    "COF": {
+      "presets": {
+        "Revenue": {
+          "updated": "Feb 26, 2026 12:03 AM"
+        },
+        "Costs": {
+          "updated": "Feb 26, 2026 12:03 AM"
+        },
+        "Cash": {
+          "updated": "Feb 26, 2026 12:03 AM"
+        },
+        "FCF": {
+          "updated": "Feb 26, 2026 12:03 AM"
+        },
+        "Assets": {
+          "updated": "Feb 26, 2026 12:03 AM"
+        },
+        "Buffet": {
+          "updated": "Feb 26, 2026 12:03 AM"
+        }
+      },
+      "last_updated": "2026-02-26T00:03:22.859839",
+      "company": {
+        "name": "Capital One Financial Corporation",
+        "market_cap": "$124.96B",
+        "market_cap_raw": 124959801000.0,
+        "last_q_revenue": 19719000000.0,
+        "description": "Capital One Financial Corporation is an American bank holding company specializing in credit cards, auto loans, banking, and savings accounts, headquartered in McLean, Virginia with operations primarily in the United States.",
+        "sector": "FINANCIAL SERVICES",
+        "industry": "CREDIT SERVICES"
+      }
+    },
+    "PGR": {
+      "presets": {
+        "Revenue": {
+          "updated": "Feb 26, 2026 12:03 AM"
+        },
+        "Costs": {
+          "updated": "Feb 26, 2026 12:03 AM"
+        },
+        "Cash": {
+          "updated": "Feb 26, 2026 12:03 AM"
+        },
+        "FCF": {
+          "updated": "Feb 26, 2026 12:03 AM"
+        },
+        "Assets": {
+          "updated": "Feb 26, 2026 12:03 AM"
+        },
+        "Buffet": {
+          "updated": "Feb 26, 2026 12:03 AM"
+        }
+      },
+      "last_updated": "2026-02-26T00:03:22.885389",
+      "company": {
+        "name": "Progressive Corp",
+        "market_cap": "$119.90B",
+        "market_cap_raw": 119901348000.0,
+        "last_q_revenue": 14999000000.0,
+        "description": "The Progressive Corporation is an American insurance company, one of the largest providers of car insurance in the United States. The company insures motorcycles, boats, RVs, and commercial vehicles and provides home insurance through select companies.",
+        "sector": "FINANCIAL SERVICES",
+        "industry": "INSURANCE - PROPERTY & CASUALTY"
+      }
     }
   }
 }
