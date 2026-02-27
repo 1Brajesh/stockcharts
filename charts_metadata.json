@@ -6399,6 +6399,38 @@
         "sector": "FINANCIAL SERVICES",
         "industry": "INSURANCE - PROPERTY & CASUALTY"
       }
+    },
+    "USAU": {
+      "presets": {
+        "Revenue": {
+          "updated": "Feb 26, 2026 11:55 PM"
+        },
+        "Costs": {
+          "updated": "Feb 26, 2026 11:55 PM"
+        },
+        "Cash": {
+          "updated": "Feb 26, 2026 11:55 PM"
+        },
+        "FCF": {
+          "updated": "Feb 26, 2026 11:55 PM"
+        },
+        "Assets": {
+          "updated": "Feb 26, 2026 11:55 PM"
+        },
+        "Buffet": {
+          "updated": "Feb 26, 2026 11:55 PM"
+        }
+      },
+      "last_updated": "2026-02-26T23:55:55.539213",
+      "company": {
+        "name": "US Gold Corp",
+        "market_cap": "$304.58M",
+        "market_cap_raw": 304584000.0,
+        "last_q_revenue": 0.0,
+        "description": "US Gold Corp. The company is headquartered in Elko, Nevada.",
+        "sector": "BASIC MATERIALS",
+        "industry": "GOLD"
+      }
     }
   }
 }
