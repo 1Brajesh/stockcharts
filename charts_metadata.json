@@ -6431,6 +6431,166 @@
         "sector": "BASIC MATERIALS",
         "industry": "GOLD"
       }
+    },
+    "LLY": {
+      "presets": {
+        "Revenue": {
+          "updated": "Feb 28, 2026 09:57 AM"
+        },
+        "Costs": {
+          "updated": "Feb 28, 2026 09:57 AM"
+        },
+        "Cash": {
+          "updated": "Feb 28, 2026 09:57 AM"
+        },
+        "FCF": {
+          "updated": "Feb 28, 2026 09:57 AM"
+        },
+        "Assets": {
+          "updated": "Feb 28, 2026 09:57 AM"
+        },
+        "Buffet": {
+          "updated": "Feb 28, 2026 09:57 AM"
+        }
+      },
+      "last_updated": "2026-02-28T09:57:13.081112",
+      "company": {
+        "name": "Eli Lilly and Company",
+        "market_cap": "$992.40B",
+        "market_cap_raw": 992402604000.0,
+        "last_q_revenue": 19292000000.0,
+        "description": "Eli Lilly and Company is an American pharmaceutical company headquartered in Indianapolis, Indiana, with offices in 18 countries. Its products are sold in approximately 125 countries.",
+        "sector": "HEALTHCARE",
+        "industry": "DRUG MANUFACTURERS - GENERAL"
+      }
+    },
+    "XOM": {
+      "presets": {
+        "Revenue": {
+          "updated": "Feb 28, 2026 09:57 AM"
+        },
+        "Costs": {
+          "updated": "Feb 28, 2026 09:57 AM"
+        },
+        "Cash": {
+          "updated": "Feb 28, 2026 09:57 AM"
+        },
+        "FCF": {
+          "updated": "Feb 28, 2026 09:57 AM"
+        },
+        "Assets": {
+          "updated": "Feb 28, 2026 09:57 AM"
+        },
+        "Buffet": {
+          "updated": "Feb 28, 2026 09:57 AM"
+        }
+      },
+      "last_updated": "2026-02-28T09:57:13.103796",
+      "company": {
+        "name": "Exxon Mobil Corp",
+        "market_cap": "$635.43B",
+        "market_cap_raw": 635431420000.0,
+        "last_q_revenue": 80039000000.0,
+        "description": "Exxon Mobil Corporation, stylized as ExxonMobil, is an American multinational oil and gas corporation headquartered in Irving, Texas. It is the largest direct descendant of John D. Rockefeller's Standard Oil, and was formed on November 30, 1999 by the merger of Exxon (formerly the Standard Oil Company of New Jersey) and Mobil (formerly the Standard Oil Company of New York). ExxonMobil's primary brands are Exxon, Mobil, Esso, and ExxonMobil Chemical. ExxonMobil is incorporated in New Jersey.",
+        "sector": "ENERGY",
+        "industry": "OIL & GAS INTEGRATED"
+      }
+    },
+    "CVX": {
+      "presets": {
+        "Revenue": {
+          "updated": "Feb 28, 2026 09:57 AM"
+        },
+        "Costs": {
+          "updated": "Feb 28, 2026 09:57 AM"
+        },
+        "Cash": {
+          "updated": "Feb 28, 2026 09:57 AM"
+        },
+        "FCF": {
+          "updated": "Feb 28, 2026 09:57 AM"
+        },
+        "Assets": {
+          "updated": "Feb 28, 2026 09:57 AM"
+        },
+        "Buffet": {
+          "updated": "Feb 28, 2026 09:57 AM"
+        }
+      },
+      "last_updated": "2026-02-28T09:57:13.140718",
+      "company": {
+        "name": "Chevron Corp",
+        "market_cap": "$373.40B",
+        "market_cap_raw": 373399257000.0,
+        "last_q_revenue": 45787000000.0,
+        "description": "Chevron Corporation is an American multinational energy corporation. One of the successor companies of Standard Oil, it is headquartered in San Ramon, California, and active in more than 180 countries. Chevron is engaged in every aspect of the oil and natural gas industries, including hydrocarbon exploration and production; refining, marketing and transport; chemicals manufacturing and sales; and power generation.",
+        "sector": "ENERGY",
+        "industry": "OIL & GAS INTEGRATED"
+      }
+    },
+    "LRCX": {
+      "presets": {
+        "Revenue": {
+          "updated": "Feb 28, 2026 09:57 AM"
+        },
+        "Costs": {
+          "updated": "Feb 28, 2026 09:57 AM"
+        },
+        "Cash": {
+          "updated": "Feb 28, 2026 09:57 AM"
+        },
+        "FCF": {
+          "updated": "Feb 28, 2026 09:57 AM"
+        },
+        "Assets": {
+          "updated": "Feb 28, 2026 09:57 AM"
+        },
+        "Buffet": {
+          "updated": "Feb 28, 2026 09:57 AM"
+        }
+      },
+      "last_updated": "2026-02-28T09:57:13.175390",
+      "company": {
+        "name": "Lam Research Corp",
+        "market_cap": "$293.77B",
+        "market_cap_raw": 293772853000.0,
+        "last_q_revenue": 5344791000.0,
+        "description": "Lam Research Corporation is an American corporation that engages in the design, manufacture, marketing, and service of semiconductor processing equipment used in the fabrication of integrated circuits. Its products are used primarily in front-end wafer processing, which involves the steps that create the active components of semiconductor devices (transistors, capacitors) and their wiring (interconnects). The company also builds equipment for back-end wafer-level packaging (WLP), and for related manufacturing markets such as for microelectromechanical systems (MEMS). The company is headquartered in Fremont, California, in the Silicon Valley.",
+        "sector": "TECHNOLOGY",
+        "industry": "SEMICONDUCTOR EQUIPMENT & MATERIALS"
+      }
+    },
+    "MRK": {
+      "presets": {
+        "Revenue": {
+          "updated": "Feb 28, 2026 09:57 AM"
+        },
+        "Costs": {
+          "updated": "Feb 28, 2026 09:57 AM"
+        },
+        "Cash": {
+          "updated": "Feb 28, 2026 09:57 AM"
+        },
+        "FCF": {
+          "updated": "Feb 28, 2026 09:57 AM"
+        },
+        "Assets": {
+          "updated": "Feb 28, 2026 09:57 AM"
+        },
+        "Buffet": {
+          "updated": "Feb 28, 2026 09:57 AM"
+        }
+      },
+      "last_updated": "2026-02-28T09:57:13.211440",
+      "company": {
+        "name": "Merck & Company Inc",
+        "market_cap": "$306.13B",
+        "market_cap_raw": 306131567000.0,
+        "last_q_revenue": 16400000000.0,
+        "description": "Merck & Co. is an American multinational pharmaceutical company headquartered in Kenilworth, New Jersey. It is named after the Merck family, which set up Merck Group in Germany in 1668.",
+        "sector": "HEALTHCARE",
+        "industry": "DRUG MANUFACTURERS - GENERAL"
+      }
     }
   }
 }
