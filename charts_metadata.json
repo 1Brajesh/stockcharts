@@ -6623,6 +6623,166 @@
         "sector": "INDUSTRIALS",
         "industry": "AEROSPACE & DEFENSE"
       }
+    },
+    "QCOM": {
+      "presets": {
+        "Revenue": {
+          "updated": "Mar 01, 2026 10:07 AM"
+        },
+        "Costs": {
+          "updated": "Mar 01, 2026 10:07 AM"
+        },
+        "Cash": {
+          "updated": "Mar 01, 2026 10:07 AM"
+        },
+        "FCF": {
+          "updated": "Mar 01, 2026 10:07 AM"
+        },
+        "Assets": {
+          "updated": "Mar 01, 2026 10:07 AM"
+        },
+        "Buffet": {
+          "updated": "Mar 01, 2026 10:07 AM"
+        }
+      },
+      "last_updated": "2026-03-01T10:07:54.408442",
+      "company": {
+        "name": "Qualcomm Incorporated",
+        "market_cap": "$152.05B",
+        "market_cap_raw": 152046911000.0,
+        "last_q_revenue": 12252000000.0,
+        "description": "Qualcomm is an American multinational corporation headquartered in San Diego, California, and incorporated in Delaware. It creates semiconductors, software, and services related to wireless technology. It owns patents critical to the 5G, 4G, CDMA2000, TD-SCDMA and WCDMA mobile communications standards.",
+        "sector": "TECHNOLOGY",
+        "industry": "SEMICONDUCTORS"
+      }
+    },
+    "ALL": {
+      "presets": {
+        "Revenue": {
+          "updated": "Mar 01, 2026 10:07 AM"
+        },
+        "Costs": {
+          "updated": "Mar 01, 2026 10:07 AM"
+        },
+        "Cash": {
+          "updated": "Mar 01, 2026 10:07 AM"
+        },
+        "FCF": {
+          "updated": "Mar 01, 2026 10:07 AM"
+        },
+        "Assets": {
+          "updated": "Mar 01, 2026 10:07 AM"
+        },
+        "Buffet": {
+          "updated": "Mar 01, 2026 10:07 AM"
+        }
+      },
+      "last_updated": "2026-03-01T10:07:54.443516",
+      "company": {
+        "name": "The Allstate Corporation",
+        "market_cap": "$56.14B",
+        "market_cap_raw": 56135963000.0,
+        "last_q_revenue": 16590000000.0,
+        "description": "The Allstate Corporation is an American insurance company, headquartered in Northfield Township, Illinois.",
+        "sector": "FINANCIAL SERVICES",
+        "industry": "INSURANCE - PROPERTY & CASUALTY"
+      }
+    },
+    "UBER": {
+      "presets": {
+        "Revenue": {
+          "updated": "Mar 01, 2026 10:07 AM"
+        },
+        "Costs": {
+          "updated": "Mar 01, 2026 10:07 AM"
+        },
+        "Cash": {
+          "updated": "Mar 01, 2026 10:07 AM"
+        },
+        "FCF": {
+          "updated": "Mar 01, 2026 10:07 AM"
+        },
+        "Assets": {
+          "updated": "Mar 01, 2026 10:07 AM"
+        },
+        "Buffet": {
+          "updated": "Mar 01, 2026 10:07 AM"
+        }
+      },
+      "last_updated": "2026-03-01T10:07:54.471597",
+      "company": {
+        "name": "Uber Technologies Inc",
+        "market_cap": "$156.71B",
+        "market_cap_raw": 156709962000.0,
+        "last_q_revenue": 14366000000.0,
+        "description": "Uber Technologies, Inc., commonly known as Uber, is an American technology company. Its services include ride-hailing, food delivery (Uber Eats), package delivery, couriers, freight transportation, and, through a partnership with Lime, electric bicycle and motorized scooter rental. The company is based in San Francisco, California.",
+        "sector": "TECHNOLOGY",
+        "industry": "SOFTWARE - APPLICATION"
+      }
+    },
+    "NOW": {
+      "presets": {
+        "Revenue": {
+          "updated": "Mar 01, 2026 10:07 AM"
+        },
+        "Costs": {
+          "updated": "Mar 01, 2026 10:07 AM"
+        },
+        "Cash": {
+          "updated": "Mar 01, 2026 10:07 AM"
+        },
+        "FCF": {
+          "updated": "Mar 01, 2026 10:07 AM"
+        },
+        "Assets": {
+          "updated": "Mar 01, 2026 10:07 AM"
+        },
+        "Buffet": {
+          "updated": "Mar 01, 2026 10:07 AM"
+        }
+      },
+      "last_updated": "2026-03-01T10:07:54.496910",
+      "company": {
+        "name": "ServiceNow Inc",
+        "market_cap": "$113.97B",
+        "market_cap_raw": 113965998000.0,
+        "last_q_revenue": 3568000000.0,
+        "description": "ServiceNow is an American software company based in Santa Clara, California that develops a cloud computing platform to help companies manage digital workflows for enterprise operations.",
+        "sector": "TECHNOLOGY",
+        "industry": "SOFTWARE - APPLICATION"
+      }
+    },
+    "INTU": {
+      "presets": {
+        "Revenue": {
+          "updated": "Mar 01, 2026 10:07 AM"
+        },
+        "Costs": {
+          "updated": "Mar 01, 2026 10:07 AM"
+        },
+        "Cash": {
+          "updated": "Mar 01, 2026 10:07 AM"
+        },
+        "FCF": {
+          "updated": "Mar 01, 2026 10:07 AM"
+        },
+        "Assets": {
+          "updated": "Mar 01, 2026 10:07 AM"
+        },
+        "Buffet": {
+          "updated": "Mar 01, 2026 10:07 AM"
+        }
+      },
+      "last_updated": "2026-03-01T10:07:54.527635",
+      "company": {
+        "name": "Intuit Inc",
+        "market_cap": "$113.87B",
+        "market_cap_raw": 113873953000.0,
+        "last_q_revenue": 4651000000.0,
+        "description": "Intuit Inc. is an American business that specializes in financial software. Intuit's products include the tax preparation application TurboTax, personal finance app Mint and the small business accounting program QuickBooks.",
+        "sector": "TECHNOLOGY",
+        "industry": "SOFTWARE - APPLICATION"
+      }
     }
   }
 }
