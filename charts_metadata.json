@@ -6783,6 +6783,38 @@
         "sector": "TECHNOLOGY",
         "industry": "SOFTWARE - APPLICATION"
       }
+    },
+    "USGO": {
+      "presets": {
+        "Revenue": {
+          "updated": "Mar 02, 2026 09:53 AM"
+        },
+        "Costs": {
+          "updated": "Mar 02, 2026 09:53 AM"
+        },
+        "Cash": {
+          "updated": "Mar 02, 2026 09:53 AM"
+        },
+        "FCF": {
+          "updated": "Mar 02, 2026 09:53 AM"
+        },
+        "Assets": {
+          "updated": "Mar 02, 2026 09:53 AM"
+        },
+        "Buffet": {
+          "updated": "Mar 02, 2026 09:53 AM"
+        }
+      },
+      "last_updated": "2026-03-02T09:53:10.978438",
+      "company": {
+        "name": "U.S. GoldMining Inc. Common stock",
+        "market_cap": "$159.88M",
+        "market_cap_raw": 159876000.0,
+        "last_q_revenue": 0.0,
+        "description": "U.S. GoldMining Inc., an exploration stage company, engages in the exploration and development of mineral properties in the United States. The company is headquartered in Anchorage, Alaska.",
+        "sector": "BASIC MATERIALS",
+        "industry": "OTHER INDUSTRIAL METALS & MINING"
+      }
     }
   }
 }
