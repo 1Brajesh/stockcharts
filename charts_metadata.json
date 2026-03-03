@@ -6815,6 +6815,166 @@
         "sector": "BASIC MATERIALS",
         "industry": "OTHER INDUSTRIAL METALS & MINING"
       }
+    },
+    "WFC": {
+      "presets": {
+        "Revenue": {
+          "updated": "Mar 02, 2026 11:32 PM"
+        },
+        "Costs": {
+          "updated": "Mar 02, 2026 11:32 PM"
+        },
+        "Cash": {
+          "updated": "Mar 02, 2026 11:32 PM"
+        },
+        "FCF": {
+          "updated": "Mar 02, 2026 11:32 PM"
+        },
+        "Assets": {
+          "updated": "Mar 02, 2026 11:32 PM"
+        },
+        "Buffet": {
+          "updated": "Mar 02, 2026 11:32 PM"
+        }
+      },
+      "last_updated": "2026-03-02T23:32:18.182081",
+      "company": {
+        "name": "Wells Fargo & Company",
+        "market_cap": "$255.68B",
+        "market_cap_raw": 255678431000.0,
+        "last_q_revenue": 31816000000.0,
+        "description": "Wells Fargo & Company is an American multinational financial services company with corporate headquarters in San Francisco, California, operational headquarters in Manhattan, and managerial offices throughout the United States and overseas.",
+        "sector": "FINANCIAL SERVICES",
+        "industry": "BANKS - DIVERSIFIED"
+      }
+    },
+    "BLK": {
+      "presets": {
+        "Revenue": {
+          "updated": "Mar 02, 2026 11:32 PM"
+        },
+        "Costs": {
+          "updated": "Mar 02, 2026 11:32 PM"
+        },
+        "Cash": {
+          "updated": "Mar 02, 2026 11:32 PM"
+        },
+        "FCF": {
+          "updated": "Mar 02, 2026 11:32 PM"
+        },
+        "Assets": {
+          "updated": "Mar 02, 2026 11:32 PM"
+        },
+        "Buffet": {
+          "updated": "Mar 02, 2026 11:32 PM"
+        }
+      },
+      "last_updated": "2026-03-02T23:32:18.208926",
+      "company": {
+        "name": "BlackRock Inc",
+        "market_cap": "$164.96B",
+        "market_cap_raw": 164961108000.0,
+        "last_q_revenue": 6970000000.0,
+        "description": "BlackRock, Inc. is an American multinational investment management corporation based in New York City.",
+        "sector": "FINANCIAL SERVICES",
+        "industry": "ASSET MANAGEMENT"
+      }
+    },
+    "TPR": {
+      "presets": {
+        "Revenue": {
+          "updated": "Mar 02, 2026 11:32 PM"
+        },
+        "Costs": {
+          "updated": "Mar 02, 2026 11:32 PM"
+        },
+        "Cash": {
+          "updated": "Mar 02, 2026 11:32 PM"
+        },
+        "FCF": {
+          "updated": "Mar 02, 2026 11:32 PM"
+        },
+        "Assets": {
+          "updated": "Mar 02, 2026 11:32 PM"
+        },
+        "Buffet": {
+          "updated": "Mar 02, 2026 11:32 PM"
+        }
+      },
+      "last_updated": "2026-03-02T23:32:18.239053",
+      "company": {
+        "name": "Tapestry Inc",
+        "market_cap": "$31.82B",
+        "market_cap_raw": 31816899000.0,
+        "last_q_revenue": 2502400000.0,
+        "description": "Tapestry, Inc. is an American multinational luxury fashion holding company. It is based in New York City and is the parent company of three major brands: Coach New York, Kate Spade New York and Stuart Weitzman.",
+        "sector": "CONSUMER CYCLICAL",
+        "industry": "LUXURY GOODS"
+      }
+    },
+    "LMT": {
+      "presets": {
+        "Revenue": {
+          "updated": "Mar 02, 2026 11:32 PM"
+        },
+        "Costs": {
+          "updated": "Mar 02, 2026 11:32 PM"
+        },
+        "Cash": {
+          "updated": "Mar 02, 2026 11:32 PM"
+        },
+        "FCF": {
+          "updated": "Mar 02, 2026 11:32 PM"
+        },
+        "Assets": {
+          "updated": "Mar 02, 2026 11:32 PM"
+        },
+        "Buffet": {
+          "updated": "Mar 02, 2026 11:32 PM"
+        }
+      },
+      "last_updated": "2026-03-02T23:32:18.263425",
+      "company": {
+        "name": "Lockheed Martin Corporation",
+        "market_cap": "$156.59B",
+        "market_cap_raw": 156586885000.0,
+        "last_q_revenue": 20330000000.0,
+        "description": "Lockheed Martin Corporation is an American aerospace, defense, information security, and technology company with worldwide interests. It is headquartered in North Bethesda, Maryland, in the Washington, D.C., area.",
+        "sector": "INDUSTRIALS",
+        "industry": "AEROSPACE & DEFENSE"
+      }
+    },
+    "NKE": {
+      "presets": {
+        "Revenue": {
+          "updated": "Mar 02, 2026 11:32 PM"
+        },
+        "Costs": {
+          "updated": "Mar 02, 2026 11:32 PM"
+        },
+        "Cash": {
+          "updated": "Mar 02, 2026 11:32 PM"
+        },
+        "FCF": {
+          "updated": "Mar 02, 2026 11:32 PM"
+        },
+        "Assets": {
+          "updated": "Mar 02, 2026 11:32 PM"
+        },
+        "Buffet": {
+          "updated": "Mar 02, 2026 11:32 PM"
+        }
+      },
+      "last_updated": "2026-03-02T23:32:18.301135",
+      "company": {
+        "name": "Nike Inc",
+        "market_cap": "$90.32B",
+        "market_cap_raw": 90318184000.0,
+        "last_q_revenue": 12427000000.0,
+        "description": "Nike, Inc. is an American multinational corporation that is engaged in the design, development, manufacturing, and worldwide marketing and sales of footwear, apparel, equipment, accessories, and services. The company is headquartered near Beaverton, Oregon, in the Portland metropolitan area. It is the world's largest supplier of athletic shoes and apparel and a major manufacturer of sports equipment.",
+        "sector": "CONSUMER CYCLICAL",
+        "industry": "FOOTWEAR & ACCESSORIES"
+      }
     }
   }
 }
