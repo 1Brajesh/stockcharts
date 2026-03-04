@@ -7039,6 +7039,38 @@
         "sector": "",
         "industry": ""
       }
+    },
+    "LASR": {
+      "presets": {
+        "Revenue": {
+          "updated": "Mar 03, 2026 11:33 PM"
+        },
+        "Costs": {
+          "updated": "Mar 03, 2026 11:33 PM"
+        },
+        "Cash": {
+          "updated": "Mar 03, 2026 11:33 PM"
+        },
+        "FCF": {
+          "updated": "Mar 03, 2026 11:33 PM"
+        },
+        "Assets": {
+          "updated": "Mar 03, 2026 11:33 PM"
+        },
+        "Buffet": {
+          "updated": "Mar 03, 2026 11:33 PM"
+        }
+      },
+      "last_updated": "2026-03-03T23:33:19.042118",
+      "company": {
+        "name": "nLIGHT Inc",
+        "market_cap": "$3.77B",
+        "market_cap_raw": 3772828000.0,
+        "last_q_revenue": 81185000.0,
+        "description": "nLIGHT, Inc. designs, develops, manufactures and sells fiber and semiconductor lasers for industrial, microfabrication, aerospace and defense applications. The company is headquartered in Vancouver, Washington.",
+        "sector": "TECHNOLOGY",
+        "industry": "SEMICONDUCTORS"
+      }
     }
   }
 }
