@@ -7071,6 +7071,38 @@
         "sector": "TECHNOLOGY",
         "industry": "SEMICONDUCTORS"
       }
+    },
+    "UMAC": {
+      "presets": {
+        "Revenue": {
+          "updated": "Mar 04, 2026 01:33 PM"
+        },
+        "Costs": {
+          "updated": "Mar 04, 2026 01:33 PM"
+        },
+        "Cash": {
+          "updated": "Mar 04, 2026 01:33 PM"
+        },
+        "FCF": {
+          "updated": "Mar 04, 2026 01:33 PM"
+        },
+        "Assets": {
+          "updated": "Mar 04, 2026 01:33 PM"
+        },
+        "Buffet": {
+          "updated": "Mar 04, 2026 01:33 PM"
+        }
+      },
+      "last_updated": "2026-03-04T13:33:46.687040",
+      "company": {
+        "name": "Unusual Machines, Inc.",
+        "market_cap": "$528.58M",
+        "market_cap_raw": 528584000.0,
+        "last_q_revenue": 2134588.0,
+        "description": "Unusual Machines, Inc. (UMAC) is a leader in the automation and manufacturing technology sector, focusing on innovative solutions that enhance operational efficiency and productivity across diverse industries. The company utilizes advanced robotics and artificial intelligence to optimize production processes, significantly lowering operational costs for its clientele. Committed to sustainability, UMAC is at the forefront of revolutionizing traditional manufacturing practices, integrating environmentally friendly methods into its operations. With a robust growth strategy that includes forming strategic partnerships, Unusual Machines, Inc. is poised to strengthen its market position and deliver long-term value to its shareholders.",
+        "sector": "TECHNOLOGY",
+        "industry": "COMPUTER HARDWARE"
+      }
     }
   }
 }
