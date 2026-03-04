@@ -7008,38 +7008,6 @@
         "industry": ""
       }
     },
-    "LASR-SEC": {
-      "presets": {
-        "Revenue": {
-          "updated": "Mar 03, 2026 09:42 AM"
-        },
-        "Costs": {
-          "updated": "Mar 03, 2026 09:42 AM"
-        },
-        "Cash": {
-          "updated": "Mar 03, 2026 09:42 AM"
-        },
-        "FCF": {
-          "updated": "Mar 03, 2026 09:42 AM"
-        },
-        "Assets": {
-          "updated": "Mar 03, 2026 09:42 AM"
-        },
-        "Buffet": {
-          "updated": "Mar 03, 2026 09:42 AM"
-        }
-      },
-      "last_updated": "2026-03-03T09:42:41.980852",
-      "company": {
-        "name": "NLIGHT, INC.",
-        "market_cap": "N/A",
-        "market_cap_raw": null,
-        "last_q_revenue": 66742000.0,
-        "description": "Financial data from SEC EDGAR for NLIGHT, INC.",
-        "sector": "",
-        "industry": ""
-      }
-    },
     "LASR": {
       "presets": {
         "Revenue": {
