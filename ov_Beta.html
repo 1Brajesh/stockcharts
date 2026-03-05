@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Beta - Overview Chart</title>
+    <style>
+        * { box-sizing: border-box; }
+        body {
+            background-color: #0d1117;
+            color: #c9d1d9;
+            font-family: 'SF Mono', 'Monaco', 'Menlo', 'Ubuntu Mono', monospace;
+            font-size: 13px;
+            margin: 0;
+            padding: 20px;
+            line-height: 1.5;
+        }
+        .container { max-width: 1200px; margin: 0 auto; }
+        header {
+            border-bottom: 1px solid #30363d;
+            padding-bottom: 16px;
+            margin-bottom: 24px;
+        }
+        h1 { color: #58a6ff; margin: 0 0 8px 0; font-size: 24px; }
+        .subtitle { color: #8b949e; font-size: 14px; }
+        .timestamp { color: #8b949e; font-size: 12px; }
+        .nav {
+            display: flex;
+            justify-content: center;
+            gap: 24px;
+            margin-bottom: 24px;
+        }
+        .nav a {
+            color: #8b949e;
+            text-decoration: none;
+            padding: 8px 16px;
+            border-radius: 6px;
+            transition: background-color 0.2s, color 0.2s;
+        }
+        .nav a:hover {
+            background-color: #21262d;
+            color: #c9d1d9;
+        }
+        .nav a.active {
+            background-color: #21262d;
+            color: #58a6ff;
+            font-weight: 600;
+        }
+        .chart-section {
+            background-color: #161b22;
+            border: 1px solid #30363d;
+            border-radius: 6px;
+            margin-bottom: 24px;
+            overflow: hidden;
+        }
+        .chart-section pre {
+            margin: 0;
+            padding: 16px;
+            overflow-x: auto;
+            white-space: pre;
+        }
+        .chart-section a {
+            color: inherit;
+            text-decoration: underline;
+            text-decoration-color: #58a6ff;
+            text-underline-offset: 2px;
+        }
+        .chart-section a:hover {
+            color: #58a6ff;
+        }
+        footer {
+            margin-top: 32px;
+            padding-top: 16px;
+            border-top: 1px solid #30363d;
+            color: #8b949e;
+            font-size: 12px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <a href="overview.html" style="color: #58a6ff; text-decoration: none; font-size: 14px;">&larr; Back to Overview</a>
+            <h1>Beta</h1>
+            <div class="subtitle">Beta Value</div>
+            <div class="timestamp">Updated: Mar 04, 2026 11:39 PM</div>
+        </header>
+
+        <nav class="nav">
+            <a href="index.html">Stocks</a>
+            <a href="portfolios.html">Portfolios</a>
+            <a href="overview.html" class="active">Overview</a>
+            <a href="etfs.html">ETFs</a>
+            <a href="mfs.html">Mutual Funds</a>
+        </nav>
+
+        <div class="chart-section">
+            <pre>
+  <span style="font-weight:bold;">Beta</span>
+  Beta Value
+  Legend: <span style="font-weight:bold;"><span style="color:#00cdcd;">beta</span></span>
+
+               -22.24                   -11.12                    0.00                     11.12                    22.24
+               |                        |                        |                        |                        |
+
+  <a href="AAL.html">AAL</a>   |                                                   |<span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span>  <span style="color:#00cdcd;">1.23</span>
+  <a href="AAPL.html">AAPL</a>  |                                                   |<span style="color:#00cdcd;">█</span>  <span style="color:#00cdcd;">1.11</span>
+  <a href="ABNB.html">ABNB</a>  |                                                   |<span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span>  <span style="color:#00cdcd;">1.14</span>
+  <a href="ACHR.html">ACHR</a>  |                                                   |<span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span>  <span style="color:#00cdcd;">3.11</span>
+  <a href="ACI.html">ACI</a>   |                                                   |  <span style="color:#00cdcd;">0.32</span>
+  <a href="ADBE.html">ADBE</a>  |                                                   |<span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span>  <span style="color:#00cdcd;">1.54</span>
+  <a href="ADI.html">ADI</a>   |                                                   |<span style="color:#00cdcd;">█</span>  <span style="color:#00cdcd;">1.03</span>
+  <a href="AFRM.html">AFRM</a>  |                                                   |<span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span>  <span style="color:#00cdcd;">3.57</span>
+  <a href="AI.html">AI</a>    |                                                   |<span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span>  <span style="color:#00cdcd;">1.96</span>
+  <a href="AISP.html">AISP</a>  |                                                   |  <span style="color:#00cdcd;">0.34</span>
+  <a href="ALL.html">ALL</a>   |                                                   |  <span style="color:#00cdcd;">0.23</span>
+  <a href="AMAT.html">AMAT</a>  |                                                   |<span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span>  <span style="color:#00cdcd;">1.67</span>
+  <a href="AMCX.html">AMCX</a>  |                                                   |<span style="color:#00cdcd;">█</span>  <span style="color:#00cdcd;">1.07</span>
+  <a href="AMD.html">AMD</a>   |                                                   |<span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span>  <span style="color:#00cdcd;">1.91</span>
+  <a href="AMT.html">AMT</a>   |                                                   |<span style="color:#00cdcd;">█</span>  <span style="color:#00cdcd;">0.94</span>
+  <a href="AMZN.html">AMZN</a>  |                                                   |<span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span>  <span style="color:#00cdcd;">1.37</span>
+  <a href="ANET.html">ANET</a>  |                                                   |<span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span>  <span style="color:#00cdcd;">1.41</span>
+  <a href="APLD.html">APLD</a>  |                                                   |<span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span>  <span style="color:#00cdcd;">6.92</span>
+  <a href="ARM.html">ARM</a>   |                                                   |<span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span>  <span style="color:#00cdcd;">4.36</span>
+  <a href="ASML.html">ASML</a>  |                                                   |<span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span>  <span style="color:#00cdcd;">1.35</span>
+  <a href="AVAV.html">AVAV</a>  |                                                   |<span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span>  <span style="color:#00cdcd;">1.16</span>
+  <a href="AVGO.html">AVGO</a>  |                                                   |<span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span>  <span style="color:#00cdcd;">1.20</span>
+  <a href="BAC.html">BAC</a>   |                                                   |<span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span>  <span style="color:#00cdcd;">1.27</span>
+  <a href="BBAI.html">BBAI</a>  |                                                   |<span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span>  <span style="color:#00cdcd;">3.19</span>
+  <a href="BBY.html">BBY</a>   |                                                   |<span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span>  <span style="color:#00cdcd;">1.43</span>
+  <a href="BE.html">BE</a>    |                                                   |<span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span>  <span style="color:#00cdcd;">3.02</span>
+  <a href="BK.html">BK</a>    |                                                   |<span style="color:#00cdcd;">█</span>  <span style="color:#00cdcd;">1.09</span>
+  <a href="BKE.html">BKE</a>   |                                                   |<span style="color:#00cdcd;">█</span>  <span style="color:#00cdcd;">1.03</span>
+  <a href="BLK.html">BLK</a>   |                                                   |<span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span>  <span style="color:#00cdcd;">1.49</span>
+  <a href="BRK-B.html">BRK-B</a> |                                                   |<span style="color:#00cdcd;">█</span>  <span style="color:#00cdcd;">0.71</span>
+  <a href="BRO.html">BRO</a>   |                                                   |<span style="color:#00cdcd;">█</span>  <span style="color:#00cdcd;">0.81</span>
+  <a href="C.html">C</a>     |                                                   |<span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span>  <span style="color:#00cdcd;">1.14</span>
+  <a href="CCSI.html">CCSI</a>  |                                                   |<span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span>  <span style="color:#00cdcd;">1.94</span>
+  <a href="CDNS.html">CDNS</a>  |                                                   |<span style="color:#00cdcd;">█</span>  <span style="color:#00cdcd;">1.04</span>
+  <a href="CEG.html">CEG</a>   |                                                   |<span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span>  <span style="color:#00cdcd;">1.13</span>
+  <a href="COF.html">COF</a>   |                                                   |<span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span>  <span style="color:#00cdcd;">1.12</span>
+  <a href="COKE.html">COKE</a>  |                                                   |  <span style="color:#00cdcd;">0.64</span>
+  <a href="COLL.html">COLL</a>  |                                                   |  <span style="color:#00cdcd;">0.65</span>
+  <a href="CRM.html">CRM</a>   |                                                   |<span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span>  <span style="color:#00cdcd;">1.25</span>
+  <a href="CRNC.html">CRNC</a>  |                                                   |<span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span>  <span style="color:#00cdcd;">2.55</span>
+  <a href="CRWD.html">CRWD</a>  |                                                   |<span style="color:#00cdcd;">█</span>  <span style="color:#00cdcd;">1.09</span>
+  <a href="CSCO.html">CSCO</a>  |                                                   |<span style="color:#00cdcd;">█</span>  <span style="color:#00cdcd;">0.86</span>
+  <a href="CVX.html">CVX</a>   |                                                   |<span style="color:#00cdcd;">█</span>  <span style="color:#00cdcd;">0.67</span>
+  <a href="CYBN.html">CYBN</a>  |                                                   |<span style="color:#00cdcd;">█</span>  <span style="color:#00cdcd;">0.79</span>
+  <a href="DAL.html">DAL</a>   |                                                   |<span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span>  <span style="color:#00cdcd;">1.34</span>
+  <a href="DDOG.html">DDOG</a>  |                                                   |<span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span>  <span style="color:#00cdcd;">1.26</span>
+  <a href="DELL.html">DELL</a>  |                                                   |<span style="color:#00cdcd;">█</span>  <span style="color:#00cdcd;">1.11</span>
+  <a href="DKNG.html">DKNG</a>  |                                                   |<span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span>  <span style="color:#00cdcd;">1.61</span>
+  <a href="DOCN.html">DOCN</a>  |                                                   |<span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span>  <span style="color:#00cdcd;">1.77</span>
+  <a href="DOCU.html">DOCU</a>  |                                                   |<span style="color:#00cdcd;">█</span>  <span style="color:#00cdcd;">1.01</span>
+  <a href="DVLT.html">DVLT</a>  |                                                   |  <span style="color:#00cdcd;">0.07</span>
+  <a href="EBAY.html">EBAY</a>  |                                                   |<span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span>  <span style="color:#00cdcd;">1.35</span>
+  <a href="EDBL.html">EDBL</a>  |                                                   |<span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span>  <span style="color:#00cdcd;">2.15</span>
+  <a href="ERIC.html">ERIC</a>  |                                                   |  <span style="color:#00cdcd;">0.50</span>
+  <a href="ETSY.html">ETSY</a>  |                                                   |<span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span>  <span style="color:#00cdcd;">1.76</span>
+  <a href="EXPE.html">EXPE</a>  |                                                   |<span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span>  <span style="color:#00cdcd;">1.38</span>
+  <a href="F.html">F</a>     |                                                   |<span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span>  <span style="color:#00cdcd;">1.61</span>
+  <a href="FCX.html">FCX</a>   |                                                   |<span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span>  <span style="color:#00cdcd;">1.43</span>
+  <a href="FIVN.html">FIVN</a>  |                                                   |<span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span>  <span style="color:#00cdcd;">1.31</span>
+  <a href="FMST.html">FMST</a>  |                                                   |<span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span>  <span style="color:#00cdcd;">2.37</span>
+  <a href="GAMB.html">GAMB</a>  |                                                   |<span style="color:#00cdcd;">█</span>  <span style="color:#00cdcd;">0.87</span>
+  <a href="GE.html">GE</a>    |                                                   |<span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span>  <span style="color:#00cdcd;">1.38</span>
+  <a href="GM.html">GM</a>    |                                                   |<span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span>  <span style="color:#00cdcd;">1.30</span>
+  <a href="GOOG.html">GOOG</a>  |                                                   |<span style="color:#00cdcd;">█</span>  <span style="color:#00cdcd;">1.07</span>
+  <a href="GOOGL.html">GOOGL</a> |                                                   |<span style="color:#00cdcd;">█</span>  <span style="color:#00cdcd;">1.09</span>
+  <a href="GOVX.html">GOVX</a>  |                                                   |<span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span>  <span style="color:#00cdcd;">3.76</span>
+  <a href="GRVY.html">GRVY</a>  |                                                   |<span style="color:#00cdcd;">█</span>  <span style="color:#00cdcd;">1.02</span>
+  <a href="GS.html">GS</a>    |                                                   |<span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span>  <span style="color:#00cdcd;">1.35</span>
+  <a href="GTBP.html">GTBP</a>  |                                                   |<span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span>  <span style="color:#00cdcd;">1.18</span>
+  <a href="H.html">H</a>     |                                                   |<span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span>  <span style="color:#00cdcd;">1.23</span>
+  <a href="HD.html">HD</a>    |                                                   |<span style="color:#00cdcd;">█</span>  <span style="color:#00cdcd;">1.05</span>
+  <a href="HII.html">HII</a>   |                                                   |  <span style="color:#00cdcd;">0.35</span>
+  <a href="HIMS.html">HIMS</a>  |                                                   |<span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span>  <span style="color:#00cdcd;">2.40</span>
+  <a href="HLT.html">HLT</a>   |                                                   |<span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span>  <span style="color:#00cdcd;">1.15</span>
+  <a href="HMC.html">HMC</a>   |                                                   |  <span style="color:#00cdcd;">0.10</span>
+  <a href="HOOD.html">HOOD</a>  |                                                   |<span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span>  <span style="color:#00cdcd;">2.42</span>
+  <a href="HPE.html">HPE</a>   |                                                   |<span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span>  <span style="color:#00cdcd;">1.33</span>
+  <a href="HPQ.html">HPQ</a>   |                                                   |<span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span>  <span style="color:#00cdcd;">1.20</span>
+  <a href="HUBC.html">HUBC</a>  |                                                 <span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span>| <span style="color:#00cdcd;">-1.11</span>
+  <a href="HWM.html">HWM</a>   |                                                   |<span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span>  <span style="color:#00cdcd;">1.29</span>
+  <a href="HYMC.html">HYMC</a>  |                                                   |<span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span>  <span style="color:#00cdcd;">2.65</span>
+  <a href="IBEX.html">IBEX</a>  |                                                   |  <span style="color:#00cdcd;">0.62</span>
+  <a href="IBM.html">IBM</a>   |                                                   |<span style="color:#00cdcd;">█</span>  <span style="color:#00cdcd;">0.69</span>
+  <a href="IHG.html">IHG</a>   |                                                   |<span style="color:#00cdcd;">█</span>  <span style="color:#00cdcd;">1.08</span>
+  <a href="INFY.html">INFY</a>  |                                                   |  <span style="color:#00cdcd;">0.26</span>
+  <a href="INTC.html">INTC</a>  |                                                   |<span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span>  <span style="color:#00cdcd;">1.35</span>
+  <a href="INTU.html">INTU</a>  |                                                   |<span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span>  <span style="color:#00cdcd;">1.23</span>
+  <a href="IONQ.html">IONQ</a>  |                                                   |<span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span>  <span style="color:#00cdcd;">2.59</span>
+  <a href="IPGP.html">IPGP</a>  |                                                   |<span style="color:#00cdcd;">█</span>  <span style="color:#00cdcd;">1.03</span>
+  <a href="IREN.html">IREN</a>  |                                                   |<span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span>  <span style="color:#00cdcd;">4.27</span>
+  <a href="IRWD.html">IRWD</a>  |                                                   |  <span style="color:#00cdcd;">0.19</span>
+  <a href="ISRG.html">ISRG</a>  |                                                   |<span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span>  <span style="color:#00cdcd;">1.66</span>
+  <a href="JBL.html">JBL</a>   |                                                   |<span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span>  <span style="color:#00cdcd;">1.24</span>
+  <a href="JILL.html">JILL</a>  |                                                   |<span style="color:#00cdcd;">█</span>  <span style="color:#00cdcd;">0.93</span>
+  <a href="JNJ.html">JNJ</a>   |                                                   |  <span style="color:#00cdcd;">0.33</span>
+  <a href="JPM.html">JPM</a>   |                                                   |<span style="color:#00cdcd;">█</span>  <span style="color:#00cdcd;">1.05</span>
+  <a href="KHC.html">KHC</a>   |                                                   |  <span style="color:#00cdcd;">0.05</span>
+  <a href="KO.html">KO</a>    |                                                   |  <span style="color:#00cdcd;">0.39</span>
+  <a href="KSCP.html">KSCP</a>  |                                                   |<span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span>  <span style="color:#00cdcd;">1.76</span>
+  <a href="KTOS.html">KTOS</a>  |                                                   |<span style="color:#00cdcd;">█</span>  <span style="color:#00cdcd;">1.09</span>
+  <a href="KVUE.html">KVUE</a>  |                                                   |  <span style="color:#00cdcd;">0.55</span>
+  <a href="LAC.html">LAC</a>   |                                                   |<span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span>  <span style="color:#00cdcd;">3.40</span>
+  <a href="LASR.html">LASR</a>  |                                                   |<span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span>  <span style="color:#00cdcd;">2.34</span>
+  <a href="LCID.html">LCID</a>  |                                                   |<span style="color:#00cdcd;">█</span>  <span style="color:#00cdcd;">0.87</span>
+  <a href="LDOS.html">LDOS</a>  |                                                   |  <span style="color:#00cdcd;">0.62</span>
+  <a href="LHX.html">LHX</a>   |                                                   |  <span style="color:#00cdcd;">0.66</span>
+  <a href="LLY.html">LLY</a>   |                                                   |  <span style="color:#00cdcd;">0.39</span>
+  <a href="LMND.html">LMND</a>  |                                                   |<span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span>  <span style="color:#00cdcd;">2.05</span>
+  <a href="LMT.html">LMT</a>   |                                                   |  <span style="color:#00cdcd;">0.23</span>
+  <a href="LOW.html">LOW</a>   |                                                   |<span style="color:#00cdcd;">█</span>  <span style="color:#00cdcd;">0.98</span>
+  <a href="LRCX.html">LRCX</a>  |                                                   |<span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span>  <span style="color:#00cdcd;">1.78</span>
+  <a href="LTM.html">LTM</a>   |                                                   |<span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span>  <span style="color:#00cdcd;">1.16</span>
+  <a href="MA.html">MA</a>    |                                                   |<span style="color:#00cdcd;">█</span>  <span style="color:#00cdcd;">0.87</span>
+  <a href="MAR.html">MAR</a>   |                                                   |<span style="color:#00cdcd;">█</span>  <span style="color:#00cdcd;">1.10</span>
+  <a href="MARA.html">MARA</a>  |                                                   |<span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span>  <span style="color:#00cdcd;">5.41</span>
+  <a href="MCD.html">MCD</a>   |                                                   |  <span style="color:#00cdcd;">0.53</span>
+  <a href="MDB.html">MDB</a>   |                                                   |<span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span>  <span style="color:#00cdcd;">1.38</span>
+  <a href="META.html">META</a>  |                                                   |<span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span>  <span style="color:#00cdcd;">1.27</span>
+  <a href="MNDY.html">MNDY</a>  |                                                   |<span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span>  <span style="color:#00cdcd;">1.25</span>
+  <a href="MO.html">MO</a>    |                                                   |  <span style="color:#00cdcd;">0.50</span>
+  <a href="MP.html">MP</a>    |                                                   |<span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span>  <span style="color:#00cdcd;">1.63</span>
+  <a href="MRK.html">MRK</a>   |                                                   |  <span style="color:#00cdcd;">0.30</span>
+  <a href="MRVL.html">MRVL</a>  |                                                   |<span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span>  <span style="color:#00cdcd;">1.93</span>
+  <a href="MSFT.html">MSFT</a>  |                                                   |<span style="color:#00cdcd;">█</span>  <span style="color:#00cdcd;">1.06</span>
+  <a href="MU.html">MU</a>    |                                                   |<span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span>  <span style="color:#00cdcd;">1.55</span>
+  <a href="NBIS.html">NBIS</a>  |                                                   |<span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span>  <span style="color:#00cdcd;">1.15</span>
+  <a href="NKE.html">NKE</a>   |                                                   |<span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span>  <span style="color:#00cdcd;">1.28</span>
+  <a href="NOC.html">NOC</a>   |                                                   |  <span style="color:#00cdcd;">0.05</span>
+  <a href="NOK.html">NOK</a>   |                                                   |  <span style="color:#00cdcd;">0.47</span>
+  <a href="NOW.html">NOW</a>   |                                                   |<span style="color:#00cdcd;">█</span>  <span style="color:#00cdcd;">0.98</span>
+  <a href="NVDA.html">NVDA</a>  |                                                   |<span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span>  <span style="color:#00cdcd;">2.27</span>
+  <a href="NVTS.html">NVTS</a>  |                                                   |<span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span>  <span style="color:#00cdcd;">3.13</span>
+  <a href="ONCY.html">ONCY</a>  |                                                   |<span style="color:#00cdcd;">█</span>  <span style="color:#00cdcd;">0.95</span>
+  <a href="ORCL.html">ORCL</a>  |                                                   |<span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span>  <span style="color:#00cdcd;">1.66</span>
+  <a href="OSCR.html">OSCR</a>  |                                                   |<span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span>  <span style="color:#00cdcd;">1.88</span>
+  <a href="PANW.html">PANW</a>  |                                                   |<span style="color:#00cdcd;">█</span>  <span style="color:#00cdcd;">0.77</span>
+  <a href="PATH.html">PATH</a>  |                                                   |<span style="color:#00cdcd;">█</span>  <span style="color:#00cdcd;">1.09</span>
+  <a href="PEP.html">PEP</a>   |                                                   |  <span style="color:#00cdcd;">0.42</span>
+  <a href="PGR.html">PGR</a>   |                                                   |  <span style="color:#00cdcd;">0.32</span>
+  <a href="PLD.html">PLD</a>   |                                                   |<span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span>  <span style="color:#00cdcd;">1.44</span>
+  <a href="PLTK.html">PLTK</a>  |                                                   |<span style="color:#00cdcd;">█</span>  <span style="color:#00cdcd;">0.84</span>
+  <a href="PLTR.html">PLTR</a>  |                                                   |<span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span>  <span style="color:#00cdcd;">1.69</span>
+  <a href="PM.html">PM</a>    |                                                   |  <span style="color:#00cdcd;">0.44</span>
+  <a href="POET.html">POET</a>  |                                                   |  <span style="color:#00cdcd;">0.47</span>
+  <a href="PSNY.html">PSNY</a>  |                                                   |<span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span>  <span style="color:#00cdcd;">1.86</span>
+  <a href="PYPL.html">PYPL</a>  |                                                   |<span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span>  <span style="color:#00cdcd;">1.42</span>
+  <a href="QBTS.html">QBTS</a>  |                                                   |<span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span>  <span style="color:#00cdcd;">1.56</span>
+  <a href="QCOM.html">QCOM</a>  |                                                   |<span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span>  <span style="color:#00cdcd;">1.24</span>
+  <a href="QUBT.html">QUBT</a>  |                                                   |<span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span>  <span style="color:#00cdcd;">3.77</span>
+  <a href="RGTI.html">RGTI</a>  |                                                   |<span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span>  <span style="color:#00cdcd;">1.65</span>
+  <a href="RIG.html">RIG</a>   |                                                   |<span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span>  <span style="color:#00cdcd;">1.46</span>
+  <a href="RIVN.html">RIVN</a>  |                                                   |<span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span>  <span style="color:#00cdcd;">1.78</span>
+  <a href="RKLB.html">RKLB</a>  |                                                   |<span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span>  <span style="color:#00cdcd;">2.18</span>
+  <a href="RKT.html">RKT</a>   |                                                   |<span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span>  <span style="color:#00cdcd;">2.31</span>
+  <a href="ROK.html">ROK</a>   |                                                   |<span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span>  <span style="color:#00cdcd;">1.52</span>
+  <a href="RR.html">RR</a>    |                                          <span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span>| <span style="color:#00cdcd;">-3.86</span>
+  <a href="SCHW.html">SCHW</a>  |                                                   |<span style="color:#00cdcd;">█</span>  <span style="color:#00cdcd;">0.96</span>
+  <a href="SIGA.html">SIGA</a>  |                                                   |<span style="color:#00cdcd;">█</span>  <span style="color:#00cdcd;">0.99</span>
+  <a href="SMCI.html">SMCI</a>  |                                                   |<span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span>  <span style="color:#00cdcd;">1.48</span>
+  <a href="SMLR.html">SMLR</a>  |                                                   |<span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span>  <span style="color:#00cdcd;">1.33</span>
+  <a href="SMX.html">SMX</a>   |                                            <span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span>| <span style="color:#00cdcd;">-2.92</span>
+  <a href="SNOW.html">SNOW</a>  |                                                   |<span style="color:#00cdcd;">█</span>  <span style="color:#00cdcd;">1.09</span>
+  <a href="SOAR.html">SOAR</a>  |                                                   |<span style="color:#00cdcd;">█</span>  <span style="color:#00cdcd;">0.89</span>
+  <a href="SOFI.html">SOFI</a>  |                                                   |<span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span>  <span style="color:#00cdcd;">1.94</span>
+  <a href="SOUN.html">SOUN</a>  |                                                   |<span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span>  <span style="color:#00cdcd;">2.78</span>
+  <a href="SPOT.html">SPOT</a>  |                                                   |<span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span>  <span style="color:#00cdcd;">1.66</span>
+  <a href="SRFM.html">SRFM</a>  |                                                   |<span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span>  <span style="color:#00cdcd;">3.06</span>
+  <a href="STLA.html">STLA</a>  |                                                   |<span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span>  <span style="color:#00cdcd;">1.15</span>
+  <a href="STX.html">STX</a>   |                                                   |<span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span>  <span style="color:#00cdcd;">1.62</span>
+  <a href="SURG.html">SURG</a>  |                                                   |  <span style="color:#00cdcd;">0.50</span>
+  <a href="SYM.html">SYM</a>   |                                                   |<span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span>  <span style="color:#00cdcd;">2.14</span>
+  <a href="T.html">T</a>     |                                                   |  <span style="color:#00cdcd;">0.61</span>
+  <a href="TEAM.html">TEAM</a>  |                                                   |<span style="color:#00cdcd;">█</span>  <span style="color:#00cdcd;">0.88</span>
+  <a href="TENB.html">TENB</a>  |                                                   |  <span style="color:#00cdcd;">0.65</span>
+  <a href="TER.html">TER</a>   |                                                   |<span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span>  <span style="color:#00cdcd;">1.85</span>
+  <a href="TGT.html">TGT</a>   |                                                   |<span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span>  <span style="color:#00cdcd;">1.14</span>
+  <a href="TLSA.html">TLSA</a>  |                                                   |  <span style="color:#00cdcd;">0.25</span>
+  <a href="TM.html">TM</a>    |                                                   |  <span style="color:#00cdcd;">0.23</span>
+  <a href="TMUS.html">TMUS</a>  |                                                   |  <span style="color:#00cdcd;">0.43</span>
+  <a href="TPR.html">TPR</a>   |                                                   |<span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span>  <span style="color:#00cdcd;">1.61</span>
+  <a href="TRMB.html">TRMB</a>  |                                                   |<span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span>  <span style="color:#00cdcd;">1.60</span>
+  <a href="TSLA.html">TSLA</a>  |                                                   |<span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span>  <span style="color:#00cdcd;">1.87</span>
+  <a href="TSM.html">TSM</a>   |                                                   |<span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span>  <span style="color:#00cdcd;">1.26</span>
+  <a href="TTD.html">TTD</a>   |                                                   |<span style="color:#00cdcd;">█</span>  <span style="color:#00cdcd;">1.07</span>
+  <a href="TZOO.html">TZOO</a>  |                                                   |<span style="color:#00cdcd;">█</span>  <span style="color:#00cdcd;">0.85</span>
+  <a href="UAL.html">UAL</a>   |                                                   |<span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span>  <span style="color:#00cdcd;">1.26</span>
+  <a href="UBER.html">UBER</a>  |                                                   |<span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span>  <span style="color:#00cdcd;">1.21</span>
+  <a href="UMAC.html">UMAC</a>  |                                                   |<span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span> <span style="color:#00cdcd;">22.24</span>
+  <a href="UNH.html">UNH</a>   |                                                   |  <span style="color:#00cdcd;">0.43</span>
+  <a href="UPST.html">UPST</a>  |                                                   |<span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span>  <span style="color:#00cdcd;">2.28</span>
+  <a href="USAU.html">USAU</a>  |                                                   |<span style="color:#00cdcd;">█</span>  <span style="color:#00cdcd;">0.78</span>
+  <a href="USGO.html">USGO</a>  |                                                   |<span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span>  <span style="color:#00cdcd;">2.17</span>
+  <a href="V.html">V</a>     |                                                   |<span style="color:#00cdcd;">█</span>  <span style="color:#00cdcd;">0.82</span>
+  <a href="VNRX.html">VNRX</a>  |                                                   |<span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span>  <span style="color:#00cdcd;">1.30</span>
+  <a href="VRT.html">VRT</a>   |                                                   |<span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span>  <span style="color:#00cdcd;">2.02</span>
+  <a href="VST.html">VST</a>   |                                                   |<span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span>  <span style="color:#00cdcd;">1.42</span>
+  <a href="VVPR.html">VVPR</a>  |                                               <span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span>| <span style="color:#00cdcd;">-1.64</span>
+  <a href="VZ.html">VZ</a>    |                                                   |  <span style="color:#00cdcd;">0.32</span>
+  <a href="WDAY.html">WDAY</a>  |                                                   |<span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span>  <span style="color:#00cdcd;">1.12</span>
+  <a href="WDC.html">WDC</a>   |                                                   |<span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span>  <span style="color:#00cdcd;">1.84</span>
+  <a href="WELL.html">WELL</a>  |                                                   |<span style="color:#00cdcd;">█</span>  <span style="color:#00cdcd;">0.83</span>
+  <a href="WFC.html">WFC</a>   |                                                   |<span style="color:#00cdcd;">█</span>  <span style="color:#00cdcd;">1.06</span>
+  <a href="WH.html">WH</a>    |                                                   |<span style="color:#00cdcd;">█</span>  <span style="color:#00cdcd;">0.76</span>
+  <a href="WIT.html">WIT</a>   |                                                   |  <span style="color:#00cdcd;">0.43</span>
+  <a href="WMT.html">WMT</a>   |                                                   |  <span style="color:#00cdcd;">0.64</span>
+  <a href="WSM.html">WSM</a>   |                                                   |<span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span>  <span style="color:#00cdcd;">1.58</span>
+  <a href="XOM.html">XOM</a>   |                                                   |  <span style="color:#00cdcd;">0.36</span>
+  <a href="Z.html">Z</a>     |                                                   |<span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span>  <span style="color:#00cdcd;">2.02</span>
+  <a href="ZETA.html">ZETA</a>  |                                                   |<span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span>  <span style="color:#00cdcd;">1.28</span>
+  <a href="ZM.html">ZM</a>    |                                                   |<span style="color:#00cdcd;">█</span>  <span style="color:#00cdcd;">0.87</span>
+  <a href="ZS.html">ZS</a>    |                                                   |<span style="color:#00cdcd;">█</span>  <span style="color:#00cdcd;">1.02</span>
+  <a href="ZTS.html">ZTS</a>   |                                                   |<span style="color:#00cdcd;">█</span>  <span style="color:#00cdcd;">0.97</span>
+
+               |                        |                        |                        |                        |
+               -22.24                   -11.12                    0.00                     11.12                    22.24
+</pre>
+        </div>
+
+        <footer>
+            Generated by StocksFin
+        </footer>
+    </div>
+
+<script data-goatcounter="https://stocksfin.goatcounter.com/count"
+        async src="//gc.zgo.at/count.js"></script>
+</body>
+</html>
