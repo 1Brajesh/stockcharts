@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>m7Ratios - Overview Chart</title>
+    <style>
+        * { box-sizing: border-box; }
+        body {
+            background-color: #0d1117;
+            color: #c9d1d9;
+            font-family: 'SF Mono', 'Monaco', 'Menlo', 'Ubuntu Mono', monospace;
+            font-size: 13px;
+            margin: 0;
+            padding: 20px;
+            line-height: 1.5;
+        }
+        .container { max-width: 1200px; margin: 0 auto; }
+        header {
+            border-bottom: 1px solid #30363d;
+            padding-bottom: 16px;
+            margin-bottom: 24px;
+        }
+        h1 { color: #58a6ff; margin: 0 0 8px 0; font-size: 24px; }
+        .subtitle { color: #8b949e; font-size: 14px; }
+        .timestamp { color: #8b949e; font-size: 12px; }
+        .nav {
+            display: flex;
+            justify-content: center;
+            gap: 24px;
+            margin-bottom: 24px;
+        }
+        .nav a {
+            color: #8b949e;
+            text-decoration: none;
+            padding: 8px 16px;
+            border-radius: 6px;
+            transition: background-color 0.2s, color 0.2s;
+        }
+        .nav a:hover {
+            background-color: #21262d;
+            color: #c9d1d9;
+        }
+        .nav a.active {
+            background-color: #21262d;
+            color: #58a6ff;
+            font-weight: 600;
+        }
+        .chart-section {
+            background-color: #161b22;
+            border: 1px solid #30363d;
+            border-radius: 6px;
+            margin-bottom: 24px;
+            overflow: hidden;
+        }
+        .chart-section pre {
+            margin: 0;
+            padding: 16px;
+            overflow-x: auto;
+            white-space: pre;
+        }
+        footer {
+            margin-top: 32px;
+            padding-top: 16px;
+            border-top: 1px solid #30363d;
+            color: #8b949e;
+            font-size: 12px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <a href="overview.html" style="color: #58a6ff; text-decoration: none; font-size: 14px;">&larr; Back to Overview</a>
+            <h1>m7Ratios</h1>
+            <div class="subtitle">Ratios chart</div>
+            <div class="timestamp">Updated: Mar 04, 2026 11:09 PM</div>
+        </header>
+
+        <nav class="nav">
+            <a href="index.html">Stocks</a>
+            <a href="portfolios.html">Portfolios</a>
+            <a href="overview.html" class="active">Overview</a>
+            <a href="etfs.html">ETFs</a>
+            <a href="mfs.html">Mutual Funds</a>
+        </nav>
+
+        <div class="chart-section">
+            <pre>
+  <span style="font-weight:bold;">m7Ratios</span>
+  Ratios chart
+  Legend: <span style="font-weight:bold;"><span style="color:#00cdcd;">pe</span></span>, <span style="font-weight:bold;"><span style="color:#00cd00;">fpe</span></span>, <span style="font-weight:bold;"><span style="color:#cd00cd;">ps</span></span>, <span style="font-weight:bold;"><span style="color:#cdcd00;">pb</span></span>
+
+               0.00                     73.55                   147.09                   220.64                   294.19
+               |                        |                        |                        |                        |
+
+  AAPL | <span style="color:#cd00cd;">█</span><span style="color:#cd00cd;">█</span><span style="color:#cd00cd;">█</span><span style="color:#00cd00;">█</span><span style="color:#00cd00;">█</span><span style="color:#00cd00;">█</span><span style="color:#00cd00;">█</span><span style="color:#00cd00;">█</span><span style="color:#00cd00;">█</span><span style="color:#00cd00;">█</span><span style="color:#00cd00;">█</span><span style="color:#00cdcd;">█</span><span style="color:#cdcd00;">█</span><span style="color:#cdcd00;">█</span><span style="color:#cdcd00;">█</span> <span style="color:#cdcd00;">44.86</span>
+  AMZN | <span style="color:#cd00cd;">█</span><span style="color:#cdcd00;">█</span><span style="color:#00cd00;">█</span><span style="color:#00cd00;">█</span><span style="color:#00cd00;">█</span><span style="color:#00cd00;">█</span><span style="color:#00cd00;">█</span><span style="color:#00cd00;">█</span><span style="color:#00cd00;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span> <span style="color:#00cdcd;">31.95</span>
+  GOOG | <span style="color:#cdcd00;">█</span><span style="color:#cdcd00;">█</span><span style="color:#cdcd00;">█</span><span style="color:#00cd00;">█</span><span style="color:#00cd00;">█</span><span style="color:#00cd00;">█</span><span style="color:#00cd00;">█</span><span style="color:#00cd00;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span> <span style="color:#00cdcd;">31.73</span>
+  META | <span style="color:#cdcd00;">█</span><span style="color:#cdcd00;">█</span><span style="color:#cdcd00;">█</span><span style="color:#00cd00;">█</span><span style="color:#00cd00;">█</span><span style="color:#00cd00;">█</span><span style="color:#00cd00;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span> <span style="color:#00cdcd;">28.49</span>
+  MSFT | <span style="color:#cdcd00;">█</span><span style="color:#cdcd00;">█</span><span style="color:#cdcd00;">█</span><span style="color:#cd00cd;">█</span><span style="color:#00cd00;">█</span><span style="color:#00cd00;">█</span><span style="color:#00cd00;">█</span><span style="color:#00cd00;">█</span><span style="color:#00cd00;">█</span><span style="color:#00cd00;">█</span><span style="color:#00cd00;">█</span><span style="color:#00cdcd;">█</span> <span style="color:#00cdcd;">34.97</span>
+  NVDA | <span style="color:#cd00cd;">█</span><span style="color:#cd00cd;">█</span><span style="color:#cd00cd;">█</span><span style="color:#cd00cd;">█</span><span style="color:#cd00cd;">█</span><span style="color:#cd00cd;">█</span><span style="color:#cd00cd;">█</span><span style="color:#cd00cd;">█</span><span style="color:#cdcd00;">█</span><span style="color:#cdcd00;">█</span><span style="color:#cdcd00;">█</span><span style="color:#cdcd00;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span> <span style="color:#00cdcd;">43.81</span>
+  TSLA | <span style="color:#cd00cd;">█</span><span style="color:#cd00cd;">█</span><span style="color:#cd00cd;">█</span><span style="color:#cd00cd;">█</span><span style="color:#cd00cd;">█</span><span style="color:#cdcd00;">█</span><span style="color:#00cd00;">█</span><span style="color:#00cd00;">█</span><span style="color:#00cd00;">█</span><span style="color:#00cd00;">█</span><span style="color:#00cd00;">█</span><span style="color:#00cd00;">█</span><span style="color:#00cd00;">█</span><span style="color:#00cd00;">█</span><span style="color:#00cd00;">█</span><span style="color:#00cd00;">█</span><span style="color:#00cd00;">█</span><span style="color:#00cd00;">█</span><span style="color:#00cd00;">█</span><span style="color:#00cd00;">█</span><span style="color:#00cd00;">█</span><span style="color:#00cd00;">█</span><span style="color:#00cd00;">█</span><span style="color:#00cd00;">█</span><span style="color:#00cd00;">█</span><span style="color:#00cd00;">█</span><span style="color:#00cd00;">█</span><span style="color:#00cd00;">█</span><span style="color:#00cd00;">█</span><span style="color:#00cd00;">█</span><span style="color:#00cd00;">█</span><span style="color:#00cd00;">█</span><span style="color:#00cd00;">█</span><span style="color:#00cd00;">█</span><span style="color:#00cd00;">█</span><span style="color:#00cd00;">█</span><span style="color:#00cd00;">█</span><span style="color:#00cd00;">█</span><span style="color:#00cd00;">█</span><span style="color:#00cd00;">█</span><span style="color:#00cd00;">█</span><span style="color:#00cd00;">█</span><span style="color:#00cd00;">█</span><span style="color:#00cd00;">█</span><span style="color:#00cd00;">█</span><span style="color:#00cd00;">█</span><span style="color:#00cd00;">█</span><span style="color:#00cd00;">█</span><span style="color:#00cd00;">█</span><span style="color:#00cd00;">█</span><span style="color:#00cd00;">█</span><span style="color:#00cd00;">█</span><span style="color:#00cd00;">█</span><span style="color:#00cd00;">█</span><span style="color:#00cd00;">█</span><span style="color:#00cd00;">█</span><span style="color:#00cd00;">█</span><span style="color:#00cd00;">█</span><span style="color:#00cd00;">█</span><span style="color:#00cd00;">█</span><span style="color:#00cd00;">█</span><span style="color:#00cd00;">█</span><span style="color:#00cd00;">█</span><span style="color:#00cd00;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span> <span style="color:#00cdcd;">294.19</span>
+
+               |                        |                        |                        |                        |
+               0.00                     73.55                   147.09                   220.64                   294.19
+</pre>
+        </div>
+
+        <footer>
+            Generated by StocksFin
+        </footer>
+    </div>
+
+<script data-goatcounter="https://stocksfin.goatcounter.com/count"
+        async src="//gc.zgo.at/count.js"></script>
+</body>
+</html>
