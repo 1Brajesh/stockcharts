@@ -222,6 +222,132 @@
             font-style: italic;
             margin-top: 4px;
         }
+        .controls-bar {
+            position: sticky;
+            top: 0;
+            z-index: 100;
+            background: #0d1117;
+            padding: 12px 0 8px 0;
+            border-bottom: 1px solid #30363d;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.4);
+            margin-bottom: 16px;
+        }
+        .search-box {
+            position: relative;
+            max-width: 360px;
+            margin: 0 auto 10px auto;
+        }
+        .search-box input {
+            width: 100%;
+            padding: 8px 36px 8px 12px;
+            background-color: #161b22;
+            color: #c9d1d9;
+            border: 1px solid #30363d;
+            border-radius: 6px;
+            font-size: 14px;
+            outline: none;
+            transition: border-color 0.2s;
+        }
+        .search-box input:focus {
+            border-color: #58a6ff;
+        }
+        .search-box input::placeholder {
+            color: #484f58;
+        }
+        .search-clear {
+            position: absolute;
+            right: 8px;
+            top: 50%;
+            transform: translateY(-50%);
+            background: none;
+            border: none;
+            color: #484f58;
+            font-size: 18px;
+            cursor: pointer;
+            padding: 0 4px;
+            display: none;
+        }
+        .search-clear:hover {
+            color: #c9d1d9;
+        }
+        .alpha-bar {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 2px;
+            justify-content: center;
+            margin-top: 8px;
+        }
+        .alpha-link {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            width: 28px;
+            height: 28px;
+            font-size: 12px;
+            font-weight: 600;
+            color: #58a6ff;
+            text-decoration: none;
+            border-radius: 4px;
+            transition: background-color 0.2s;
+        }
+        .alpha-link:hover {
+            background-color: #21262d;
+        }
+        .alpha-link.disabled {
+            color: #30363d;
+            cursor: default;
+        }
+        .alpha-link.disabled:hover {
+            background-color: transparent;
+        }
+        .letter-heading {
+            grid-column: 1 / -1;
+            font-size: 20px;
+            font-weight: 700;
+            color: #58a6ff;
+            padding: 16px 0 4px 0;
+            border-bottom: 1px solid #21262d;
+            margin-bottom: 4px;
+            scroll-margin-top: 120px;
+        }
+        .ticker-grid.sort-be .letter-heading {
+            display: none;
+        }
+        .letter-heading.hidden {
+            display: none;
+        }
+        .no-results {
+            grid-column: 1 / -1;
+            text-align: center;
+            color: #8b949e;
+            padding: 40px 0;
+            font-size: 14px;
+            display: none;
+        }
+        .back-to-top {
+            position: fixed;
+            bottom: 32px;
+            right: 32px;
+            width: 44px;
+            height: 44px;
+            border-radius: 50%;
+            background-color: #21262d;
+            color: #58a6ff;
+            border: 1px solid #30363d;
+            font-size: 20px;
+            cursor: pointer;
+            opacity: 0;
+            visibility: hidden;
+            transition: opacity 0.3s, visibility 0.3s, background-color 0.2s;
+            z-index: 99;
+        }
+        .back-to-top.visible {
+            opacity: 1;
+            visibility: visible;
+        }
+        .back-to-top:hover {
+            background-color: #30363d;
+        }
     </style>
 </head>
 <body>
@@ -230,7 +356,7 @@
             <div class="jerry-logo">&#x1F9D1;&#x200D;&#x1F33E; &#x1F410;</div>
             <h1>Stock Charts by Jerry the Goat Farmer</h1>
             <div class="jerry-tagline">"I don't always read financial statements because the goats keep eating them... dang it."</div>
-            <div class="subtitle">Last updated: Mar 05, 2026 12:34 AM</div>
+            <div class="subtitle">Last updated: Mar 05, 2026 09:43 AM</div>
         </header>
 
         <nav class="nav">
@@ -243,13 +369,48 @@
 
         <div class="count">224 tickers</div>
 
-        <div class="sort-controls">
-            <button class="sort-btn active" id="sort-az" onclick="sortCards('az')">A-Z</button>
-            <button class="sort-btn" id="sort-be" onclick="sortCards('be')">P/S Ratio</button>
+        <div class="controls-bar" id="controls-bar">
+            <div class="search-box">
+                <input type="text" id="search-input" placeholder="Search tickers or companies..." autocomplete="off">
+                <button class="search-clear" id="search-clear" onclick="clearSearch()">&times;</button>
+            </div>
+            <div class="sort-controls">
+                <button class="sort-btn active" id="sort-az" onclick="sortCards('az')">A-Z</button>
+                <button class="sort-btn" id="sort-be" onclick="sortCards('be')">P/S Ratio</button>
+            </div>
+            <div class="alpha-bar" id="alpha-bar">
+                <a href="#letter-A" class="alpha-link">A</a>
+            <a href="#letter-B" class="alpha-link">B</a>
+            <a href="#letter-C" class="alpha-link">C</a>
+            <a href="#letter-D" class="alpha-link">D</a>
+            <a href="#letter-E" class="alpha-link">E</a>
+            <a href="#letter-F" class="alpha-link">F</a>
+            <a href="#letter-G" class="alpha-link">G</a>
+            <a href="#letter-H" class="alpha-link">H</a>
+            <a href="#letter-I" class="alpha-link">I</a>
+            <a href="#letter-J" class="alpha-link">J</a>
+            <a href="#letter-K" class="alpha-link">K</a>
+            <a href="#letter-L" class="alpha-link">L</a>
+            <a href="#letter-M" class="alpha-link">M</a>
+            <a href="#letter-N" class="alpha-link">N</a>
+            <a href="#letter-O" class="alpha-link">O</a>
+            <a href="#letter-P" class="alpha-link">P</a>
+            <a href="#letter-Q" class="alpha-link">Q</a>
+            <a href="#letter-R" class="alpha-link">R</a>
+            <a href="#letter-S" class="alpha-link">S</a>
+            <a href="#letter-T" class="alpha-link">T</a>
+            <a href="#letter-U" class="alpha-link">U</a>
+            <a href="#letter-V" class="alpha-link">V</a>
+            <a href="#letter-W" class="alpha-link">W</a>
+            <a href="#letter-X" class="alpha-link">X</a>
+            <span class="alpha-link disabled">Y</span>
+            <a href="#letter-Z" class="alpha-link">Z</a>
+            </div>
         </div>
 
         <div class="ticker-grid" id="ticker-grid">
-        <a href="AAL.html" class="ticker-card" data-symbol="AAL" data-be="1">
+        <div class="letter-heading" id="letter-A" data-letter="A">A</div>
+<a href="AAL.html" class="ticker-card" data-symbol="AAL" data-be="1">
                 <div class="ticker-row">
                     <span class="ticker-symbol">AAL<span class="be-ratio">1x</span></span>
                     <span class="market-cap">$9.16B</span>
@@ -417,6 +578,7 @@
                 </div>
                 <div class="company-name">American Express Company</div>
             </a>
+<div class="letter-heading" id="letter-B" data-letter="B">B</div>
 <a href="BAC.html" class="ticker-card" data-symbol="BAC" data-be="8">
                 <div class="ticker-row">
                     <span class="ticker-symbol">BAC<span class="be-ratio">8x</span></span>
@@ -480,6 +642,7 @@
                 </div>
                 <div class="company-name">Brown &amp; Brown Inc</div>
             </a>
+<div class="letter-heading" id="letter-C" data-letter="C">C</div>
 <a href="C.html" class="ticker-card" data-symbol="C" data-be="5">
                 <div class="ticker-row">
                     <span class="ticker-symbol">C<span class="be-ratio">5x</span></span>
@@ -578,6 +741,7 @@
                 </div>
                 <div class="company-name">Cybin Inc</div>
             </a>
+<div class="letter-heading" id="letter-D" data-letter="D">D</div>
 <a href="DAL.html" class="ticker-card" data-symbol="DAL" data-be="3">
                 <div class="ticker-row">
                     <span class="ticker-symbol">DAL<span class="be-ratio">3x</span></span>
@@ -627,6 +791,7 @@
                 </div>
                 <div class="company-name">Datavault AI Inc.</div>
             </a>
+<div class="letter-heading" id="letter-E" data-letter="E">E</div>
 <a href="EBAY.html" class="ticker-card" data-symbol="EBAY" data-be="16">
                 <div class="ticker-row">
                     <span class="ticker-symbol">EBAY<span class="be-ratio">16x</span></span>
@@ -662,6 +827,7 @@
                 </div>
                 <div class="company-name">Expedia Group Inc.</div>
             </a>
+<div class="letter-heading" id="letter-F" data-letter="F">F</div>
 <a href="F.html" class="ticker-card" data-symbol="F" data-be="1">
                 <div class="ticker-row">
                     <span class="ticker-symbol">F<span class="be-ratio">1x</span></span>
@@ -697,6 +863,7 @@
                 </div>
                 <div class="company-name">Foremost Lithium Resource &amp; Technology Ltd. Common stock aka Foremost Clean Energy</div>
             </a>
+<div class="letter-heading" id="letter-G" data-letter="G">G</div>
 <a href="GAMB.html" class="ticker-card" data-symbol="GAMB" data-be="4">
                 <div class="ticker-row">
                     <span class="ticker-symbol">GAMB<span class="be-ratio">4x</span></span>
@@ -760,6 +927,7 @@
                 </div>
                 <div class="company-name">GT Biopharma Inc</div>
             </a>
+<div class="letter-heading" id="letter-H" data-letter="H">H</div>
 <a href="H.html" class="ticker-card" data-symbol="H" data-be="9">
                 <div class="ticker-row">
                     <span class="ticker-symbol">H<span class="be-ratio">9x</span></span>
@@ -844,6 +1012,7 @@
                 </div>
                 <div class="company-name">Hycroft Mining Holding Corporation</div>
             </a>
+<div class="letter-heading" id="letter-I" data-letter="I">I</div>
 <a href="IBEX.html" class="ticker-card" data-symbol="IBEX" data-be="2">
                 <div class="ticker-row">
                     <span class="ticker-symbol">IBEX<span class="be-ratio">2x</span></span>
@@ -921,6 +1090,7 @@
                 </div>
                 <div class="company-name">Intuitive Surgical Inc</div>
             </a>
+<div class="letter-heading" id="letter-J" data-letter="J">J</div>
 <a href="JBL.html" class="ticker-card" data-symbol="JBL" data-be="3">
                 <div class="ticker-row">
                     <span class="ticker-symbol">JBL<span class="be-ratio">3x</span></span>
@@ -949,6 +1119,7 @@
                 </div>
                 <div class="company-name">JPMorgan Chase &amp; Co</div>
             </a>
+<div class="letter-heading" id="letter-K" data-letter="K">K</div>
 <a href="KHC.html" class="ticker-card" data-symbol="KHC" data-be="5">
                 <div class="ticker-row">
                     <span class="ticker-symbol">KHC<span class="be-ratio">5x</span></span>
@@ -984,6 +1155,7 @@
                 </div>
                 <div class="company-name">Kenvue Inc.</div>
             </a>
+<div class="letter-heading" id="letter-L" data-letter="L">L</div>
 <a href="LAC.html" class="ticker-card owned" data-symbol="LAC" data-be="0">
                 <div class="ticker-row">
                     <span class="ticker-symbol">LAC</span>
@@ -1061,6 +1233,7 @@
                 </div>
                 <div class="company-name">LATAM Airlines Group S.A.</div>
             </a>
+<div class="letter-heading" id="letter-M" data-letter="M">M</div>
 <a href="MA.html" class="ticker-card" data-symbol="MA" data-be="61">
                 <div class="ticker-row">
                     <span class="ticker-symbol">MA<span class="be-ratio">61x</span></span>
@@ -1152,6 +1325,7 @@
                 </div>
                 <div class="company-name">Micron Technology Inc</div>
             </a>
+<div class="letter-heading" id="letter-N" data-letter="N">N</div>
 <a href="NBIS.html" class="ticker-card cyan-border-right" data-symbol="NBIS" data-be="151">
                 <div class="ticker-row">
                     <span class="ticker-symbol">NBIS<span class="be-ratio">151x</span></span>
@@ -1215,6 +1389,7 @@
                 </div>
                 <div class="company-name">Navitas Semiconductor Corp</div>
             </a>
+<div class="letter-heading" id="letter-O" data-letter="O">O</div>
 <a href="ONCY.html" class="ticker-card" data-symbol="ONCY" data-be="0">
                 <div class="ticker-row">
                     <span class="ticker-symbol">ONCY</span>
@@ -1236,6 +1411,7 @@
                 </div>
                 <div class="company-name">Oscar Health Inc</div>
             </a>
+<div class="letter-heading" id="letter-P" data-letter="P">P</div>
 <a href="PANW.html" class="ticker-card" data-symbol="PANW" data-be="53">
                 <div class="ticker-row">
                     <span class="ticker-symbol">PANW<span class="be-ratio">53x</span></span>
@@ -1313,6 +1489,7 @@
                 </div>
                 <div class="company-name">PayPal Holdings Inc</div>
             </a>
+<div class="letter-heading" id="letter-Q" data-letter="Q">Q</div>
 <a href="QBTS.html" class="ticker-card" data-symbol="QBTS" data-be="2792">
                 <div class="ticker-row">
                     <span class="ticker-symbol">QBTS<span class="be-ratio">2792x</span></span>
@@ -1334,6 +1511,7 @@
                 </div>
                 <div class="company-name">Quantum Computing Inc</div>
             </a>
+<div class="letter-heading" id="letter-R" data-letter="R">R</div>
 <a href="RGTI.html" class="ticker-card owned" data-symbol="RGTI" data-be="4334">
                 <div class="ticker-row">
                     <span class="ticker-symbol">RGTI<span class="be-ratio">4334x</span></span>
@@ -1383,6 +1561,7 @@
                 </div>
                 <div class="company-name">Richtech Robotics Inc. Class B Common Stock</div>
             </a>
+<div class="letter-heading" id="letter-S" data-letter="S">S</div>
 <a href="SBUX.html" class="ticker-card" data-symbol="SBUX" data-be="11">
                 <div class="ticker-row">
                     <span class="ticker-symbol">SBUX<span class="be-ratio">11x</span></span>
@@ -1516,6 +1695,7 @@
                 </div>
                 <div class="company-name">Symbotic Inc</div>
             </a>
+<div class="letter-heading" id="letter-T" data-letter="T">T</div>
 <a href="T.html" class="ticker-card" data-symbol="T" data-be="6">
                 <div class="ticker-row">
                     <span class="ticker-symbol">T<span class="be-ratio">6x</span></span>
@@ -1621,6 +1801,7 @@
                 </div>
                 <div class="company-name">Travelzoo</div>
             </a>
+<div class="letter-heading" id="letter-U" data-letter="U">U</div>
 <a href="UAL.html" class="ticker-card" data-symbol="UAL" data-be="2">
                 <div class="ticker-row">
                     <span class="ticker-symbol">UAL<span class="be-ratio">2x</span></span>
@@ -1677,6 +1858,7 @@
                 </div>
                 <div class="company-name">U.S. GoldMining Inc. Common stock</div>
             </a>
+<div class="letter-heading" id="letter-V" data-letter="V">V</div>
 <a href="V.html" class="ticker-card" data-symbol="V" data-be="64">
                 <div class="ticker-row">
                     <span class="ticker-symbol">V<span class="be-ratio">64x</span></span>
@@ -1719,6 +1901,7 @@
                 </div>
                 <div class="company-name">Verizon Communications Inc</div>
             </a>
+<div class="letter-heading" id="letter-W" data-letter="W">W</div>
 <a href="WDAY.html" class="ticker-card" data-symbol="WDAY" data-be="17">
                 <div class="ticker-row">
                     <span class="ticker-symbol">WDAY<span class="be-ratio">17x</span></span>
@@ -1775,6 +1958,7 @@
                 </div>
                 <div class="company-name">Williams-Sonoma Inc</div>
             </a>
+<div class="letter-heading" id="letter-X" data-letter="X">X</div>
 <a href="XOM.html" class="ticker-card" data-symbol="XOM" data-be="8">
                 <div class="ticker-row">
                     <span class="ticker-symbol">XOM<span class="be-ratio">8x</span></span>
@@ -1782,6 +1966,7 @@
                 </div>
                 <div class="company-name">Exxon Mobil Corp</div>
             </a>
+<div class="letter-heading" id="letter-Z" data-letter="Z">Z</div>
 <a href="Z.html" class="ticker-card" data-symbol="Z" data-be="17">
                 <div class="ticker-row">
                     <span class="ticker-symbol">Z<span class="be-ratio">17x</span></span>
@@ -1817,26 +2002,114 @@
                 </div>
                 <div class="company-name">Zoetis Inc</div>
             </a>
+            <div class="no-results" id="no-results">No tickers match your search.</div>
         </div>
 
         <footer>
             &#x1F410; Generated by StocksFin &mdash; Jerry approved
         </footer>
     </div>
+
+    <button class="back-to-top" id="back-to-top" onclick="window.scrollTo({top:0,behavior:'smooth'});">&uarr;</button>
+
     <script>
+    var currentSort = 'az';
+
     function sortCards(mode) {
+        currentSort = mode;
         var grid = document.getElementById('ticker-grid');
         var cards = Array.from(grid.querySelectorAll('.ticker-card'));
-        cards.sort(function(a, b) {
-            if (mode === 'be') {
+        var headings = Array.from(grid.querySelectorAll('.letter-heading'));
+        var noResults = document.getElementById('no-results');
+
+        if (mode === 'az') {
+            grid.classList.remove('sort-be');
+            // Rebuild DOM in A-Z order with headings interleaved
+            cards.sort(function(a, b) {
+                return a.dataset.symbol.localeCompare(b.dataset.symbol);
+            });
+            // Remove all cards and headings from DOM
+            headings.forEach(function(h) { h.remove(); });
+            cards.forEach(function(c) { c.remove(); });
+            // Re-insert grouped by letter
+            var curLetter = null;
+            cards.forEach(function(c) {
+                var letter = c.dataset.symbol[0].toUpperCase();
+                if (letter !== curLetter) {
+                    curLetter = letter;
+                    var heading = document.createElement('div');
+                    heading.className = 'letter-heading';
+                    heading.id = 'letter-' + letter;
+                    heading.setAttribute('data-letter', letter);
+                    heading.textContent = letter;
+                    grid.insertBefore(heading, noResults);
+                }
+                grid.insertBefore(c, noResults);
+            });
+        } else {
+            grid.classList.add('sort-be');
+            cards.sort(function(a, b) {
                 return (parseFloat(b.dataset.be) || 0) - (parseFloat(a.dataset.be) || 0);
-            }
-            return a.dataset.symbol.localeCompare(b.dataset.symbol);
-        });
-        cards.forEach(function(c) { grid.appendChild(c); });
+            });
+            cards.forEach(function(c) { grid.insertBefore(c, noResults); });
+        }
+
         document.getElementById('sort-az').classList.toggle('active', mode === 'az');
         document.getElementById('sort-be').classList.toggle('active', mode === 'be');
+
+        // Re-apply search filter if active
+        var query = document.getElementById('search-input').value.trim();
+        if (query) filterCards();
     }
+
+    function filterCards() {
+        var input = document.getElementById('search-input');
+        var query = input.value.trim().toLowerCase();
+        var grid = document.getElementById('ticker-grid');
+        var cards = Array.from(grid.querySelectorAll('.ticker-card'));
+        var headings = Array.from(grid.querySelectorAll('.letter-heading'));
+        var noResults = document.getElementById('no-results');
+        var clearBtn = document.getElementById('search-clear');
+        var matchCount = 0;
+
+        // Show/hide clear button
+        clearBtn.style.display = query ? 'block' : 'none';
+
+        // Filter cards
+        cards.forEach(function(card) {
+            var sym = (card.dataset.symbol || '').toLowerCase();
+            var name = (card.querySelector('.company-name') || {}).textContent || '';
+            var match = !query || sym.indexOf(query) !== -1 || name.toLowerCase().indexOf(query) !== -1;
+            card.style.display = match ? '' : 'none';
+            if (match) matchCount++;
+        });
+
+        // Toggle letter heading visibility based on matching cards
+        headings.forEach(function(h) {
+            var letter = h.getAttribute('data-letter');
+            var hasVisible = cards.some(function(c) {
+                return c.style.display !== 'none' && c.dataset.symbol[0].toUpperCase() === letter;
+            });
+            h.classList.toggle('hidden', !hasVisible);
+        });
+
+        noResults.style.display = (query && matchCount === 0) ? 'block' : 'none';
+    }
+
+    function clearSearch() {
+        var input = document.getElementById('search-input');
+        input.value = '';
+        filterCards();
+        input.focus();
+    }
+
+    document.getElementById('search-input').addEventListener('input', filterCards);
+
+    // Back-to-top button visibility
+    var backBtn = document.getElementById('back-to-top');
+    window.addEventListener('scroll', function() {
+        backBtn.classList.toggle('visible', window.scrollY > 300);
+    }, {passive: true});
     </script>
 
 <script data-goatcounter="https://stocksfin.goatcounter.com/count"
