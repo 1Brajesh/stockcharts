@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MarketCap - Overview Chart</title>
+    <style>
+        * { box-sizing: border-box; }
+        body {
+            background-color: #0d1117;
+            color: #c9d1d9;
+            font-family: 'SF Mono', 'Monaco', 'Menlo', 'Ubuntu Mono', monospace;
+            font-size: 13px;
+            margin: 0;
+            padding: 20px;
+            line-height: 1.5;
+        }
+        .container { max-width: 1200px; margin: 0 auto; }
+        header {
+            border-bottom: 1px solid #30363d;
+            padding-bottom: 16px;
+            margin-bottom: 24px;
+        }
+        h1 { color: #58a6ff; margin: 0 0 8px 0; font-size: 24px; }
+        .subtitle { color: #8b949e; font-size: 14px; }
+        .timestamp { color: #8b949e; font-size: 12px; }
+        .nav {
+            display: flex;
+            justify-content: center;
+            gap: 24px;
+            margin-bottom: 24px;
+        }
+        .nav a {
+            color: #8b949e;
+            text-decoration: none;
+            padding: 8px 16px;
+            border-radius: 6px;
+            transition: background-color 0.2s, color 0.2s;
+        }
+        .nav a:hover {
+            background-color: #21262d;
+            color: #c9d1d9;
+        }
+        .nav a.active {
+            background-color: #21262d;
+            color: #58a6ff;
+            font-weight: 600;
+        }
+        .chart-section {
+            background-color: #161b22;
+            border: 1px solid #30363d;
+            border-radius: 6px;
+            margin-bottom: 24px;
+            overflow: hidden;
+        }
+        .chart-section pre {
+            margin: 0;
+            padding: 16px;
+            overflow-x: auto;
+            white-space: pre;
+        }
+        footer {
+            margin-top: 32px;
+            padding-top: 16px;
+            border-top: 1px solid #30363d;
+            color: #8b949e;
+            font-size: 12px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <a href="overview.html" style="color: #58a6ff; text-decoration: none; font-size: 14px;">&larr; Back to Overview</a>
+            <h1>MarketCap</h1>
+            <div class="subtitle">Market Cap</div>
+            <div class="timestamp">Updated: Mar 04, 2026 11:24 PM</div>
+        </header>
+
+        <nav class="nav">
+            <a href="index.html">Stocks</a>
+            <a href="portfolios.html">Portfolios</a>
+            <a href="overview.html" class="active">Overview</a>
+            <a href="etfs.html">ETFs</a>
+            <a href="mfs.html">Mutual Funds</a>
+        </nav>
+
+        <div class="chart-section">
+            <pre>
+  <span style="font-weight:bold;">MarketCap</span> (in T)
+  Market Cap
+  Legend: <span style="font-weight:bold;"><span style="color:#00cdcd;">mktcap</span></span>
+
+               0.00T                    1.08T                    2.16T                    3.24T                    4.32T
+               |                        |                        |                        |                        |
+
+  AAL   | <span style="color:#00cdcd;">█</span> <span style="color:#00cdcd;">0.01T</span>
+  AAPL  | <span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span> <span style="color:#00cdcd;">4.06T</span>
+  ABNB  | <span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span> <span style="color:#00cdcd;">0.07T</span>
+  ACHR  | <span style="color:#00cdcd;">█</span> <span style="color:#00cdcd;">0.01T</span>
+  ACI   | <span style="color:#00cdcd;">█</span> <span style="color:#00cdcd;">0.01T</span>
+  ADBE  | <span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span> <span style="color:#00cdcd;">0.15T</span>
+  ADI   | <span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span> <span style="color:#00cdcd;">0.15T</span>
+  AFRM  | <span style="color:#00cdcd;">█</span> <span style="color:#00cdcd;">0.02T</span>
+  AI    | <span style="color:#00cdcd;">█</span> <span style="color:#00cdcd;">0.00T</span>
+  AISP  | <span style="color:#00cdcd;">█</span> <span style="color:#00cdcd;">0.00T</span>
+  ALL   | <span style="color:#00cdcd;">█</span> <span style="color:#00cdcd;">0.06T</span>
+  AMAT  | <span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span> <span style="color:#00cdcd;">0.21T</span>
+  AMCX  | <span style="color:#00cdcd;">█</span> <span style="color:#00cdcd;">0.00T</span>
+  AMD   | <span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span> <span style="color:#00cdcd;">0.35T</span>
+  AMT   | <span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span> <span style="color:#00cdcd;">0.09T</span>
+  AMZN  | <span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span> <span style="color:#00cdcd;">2.42T</span>
+  ANET  | <span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span> <span style="color:#00cdcd;">0.16T</span>
+  APLD  | <span style="color:#00cdcd;">█</span> <span style="color:#00cdcd;">0.01T</span>
+  ARM   | <span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span> <span style="color:#00cdcd;">0.12T</span>
+  ASML  | <span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span> <span style="color:#00cdcd;">0.42T</span>
+  AVAV  | <span style="color:#00cdcd;">█</span> <span style="color:#00cdcd;">0.02T</span>
+  AVGO  | <span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span> <span style="color:#00cdcd;">1.70T</span>
+  BAC   | <span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span> <span style="color:#00cdcd;">0.37T</span>
+  BBAI  | <span style="color:#00cdcd;">█</span> <span style="color:#00cdcd;">0.00T</span>
+  BBY   | <span style="color:#00cdcd;">█</span> <span style="color:#00cdcd;">0.01T</span>
+  BE    | <span style="color:#00cdcd;">█</span> <span style="color:#00cdcd;">0.03T</span>
+  BK    | <span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span> <span style="color:#00cdcd;">0.08T</span>
+  BKE   | <span style="color:#00cdcd;">█</span> <span style="color:#00cdcd;">0.00T</span>
+  BLK   | <span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span> <span style="color:#00cdcd;">0.16T</span>
+  BRK-B | <span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span> <span style="color:#00cdcd;">1.02T</span>
+  BRO   | <span style="color:#00cdcd;">█</span> <span style="color:#00cdcd;">0.03T</span>
+  C     | <span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span> <span style="color:#00cdcd;">0.20T</span>
+  CCSI  | <span style="color:#00cdcd;">█</span> <span style="color:#00cdcd;">0.00T</span>
+  CDNS  | <span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span> <span style="color:#00cdcd;">0.08T</span>
+  CEG   | <span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span> <span style="color:#00cdcd;">0.11T</span>
+  COF   | <span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span> <span style="color:#00cdcd;">0.12T</span>
+  COKE  | <span style="color:#00cdcd;">█</span> <span style="color:#00cdcd;">0.01T</span>
+  COLL  | <span style="color:#00cdcd;">█</span> <span style="color:#00cdcd;">0.00T</span>
+  CRM   | <span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span> <span style="color:#00cdcd;">0.25T</span>
+  CRNC  | <span style="color:#00cdcd;">█</span> <span style="color:#00cdcd;">0.00T</span>
+  CRWD  | <span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span> <span style="color:#00cdcd;">0.12T</span>
+  CRWV  | <span style="color:#00cdcd;">█</span> <span style="color:#00cdcd;">0.06T</span>
+  CSCO  | <span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span> <span style="color:#00cdcd;">0.31T</span>
+  CVX   | <span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span> <span style="color:#00cdcd;">0.37T</span>
+  CYBN  | <span style="color:#00cdcd;">█</span> <span style="color:#00cdcd;">0.00T</span>
+  DAL   | <span style="color:#00cdcd;">█</span> <span style="color:#00cdcd;">0.05T</span>
+  DDOG  | <span style="color:#00cdcd;">█</span> <span style="color:#00cdcd;">0.05T</span>
+  DELL  | <span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span> <span style="color:#00cdcd;">0.09T</span>
+  DKNG  | <span style="color:#00cdcd;">█</span> <span style="color:#00cdcd;">0.02T</span>
+  DOCN  | <span style="color:#00cdcd;">█</span> <span style="color:#00cdcd;">0.00T</span>
+  DOCU  | <span style="color:#00cdcd;">█</span> <span style="color:#00cdcd;">0.01T</span>
+  DVLT  | <span style="color:#00cdcd;">█</span> <span style="color:#00cdcd;">0.00T</span>
+  EBAY  | <span style="color:#00cdcd;">█</span> <span style="color:#00cdcd;">0.04T</span>
+  EDBL  | <span style="color:#00cdcd;">█</span> <span style="color:#00cdcd;">0.00T</span>
+  ERIC  | <span style="color:#00cdcd;">█</span> <span style="color:#00cdcd;">0.03T</span>
+  ETSY  | <span style="color:#00cdcd;">█</span> <span style="color:#00cdcd;">0.00T</span>
+  EXPE  | <span style="color:#00cdcd;">█</span> <span style="color:#00cdcd;">0.02T</span>
+  F     | <span style="color:#00cdcd;">█</span> <span style="color:#00cdcd;">0.05T</span>
+  FCX   | <span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span> <span style="color:#00cdcd;">0.09T</span>
+  FIGR  | <span style="color:#00cdcd;">█</span> <span style="color:#00cdcd;">0.01T</span>
+  FIVN  | <span style="color:#00cdcd;">█</span> <span style="color:#00cdcd;">0.00T</span>
+  FMST  | <span style="color:#00cdcd;">█</span> <span style="color:#00cdcd;">0.00T</span>
+  GAMB  | <span style="color:#00cdcd;">█</span> <span style="color:#00cdcd;">0.00T</span>
+  GE    | <span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span> <span style="color:#00cdcd;">0.36T</span>
+  GM    | <span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span> <span style="color:#00cdcd;">0.08T</span>
+  GOOG  | <span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span> <span style="color:#00cdcd;">3.89T</span>
+  GOOGL | <span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span> <span style="color:#00cdcd;">4.16T</span>
+  GOVX  | <span style="color:#00cdcd;">█</span> <span style="color:#00cdcd;">0.00T</span>
+  GRVY  | <span style="color:#00cdcd;">█</span> <span style="color:#00cdcd;">0.00T</span>
+  GS    | <span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span> <span style="color:#00cdcd;">0.27T</span>
+  GTBP  | <span style="color:#00cdcd;">█</span> <span style="color:#00cdcd;">0.00T</span>
+  H     | <span style="color:#00cdcd;">█</span> <span style="color:#00cdcd;">0.02T</span>
+  HD    | <span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span> <span style="color:#00cdcd;">0.34T</span>
+  HII   | <span style="color:#00cdcd;">█</span> <span style="color:#00cdcd;">0.02T</span>
+  HIMS  | <span style="color:#00cdcd;">█</span> <span style="color:#00cdcd;">0.01T</span>
+  HLT   | <span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span> <span style="color:#00cdcd;">0.07T</span>
+  HMC   | <span style="color:#00cdcd;">█</span> <span style="color:#00cdcd;">0.04T</span>
+  HOOD  | <span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span> <span style="color:#00cdcd;">0.12T</span>
+  HPE   | <span style="color:#00cdcd;">█</span> <span style="color:#00cdcd;">0.03T</span>
+  HPQ   | <span style="color:#00cdcd;">█</span> <span style="color:#00cdcd;">0.02T</span>
+  HUBC  | <span style="color:#00cdcd;">█</span> <span style="color:#00cdcd;">0.00T</span>
+  HWM   | <span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span> <span style="color:#00cdcd;">0.09T</span>
+  HYMC  | <span style="color:#00cdcd;">█</span> <span style="color:#00cdcd;">0.00T</span>
+  IBEX  | <span style="color:#00cdcd;">█</span> <span style="color:#00cdcd;">0.00T</span>
+  IBM   | <span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span> <span style="color:#00cdcd;">0.28T</span>
+  IHG   | <span style="color:#00cdcd;">█</span> <span style="color:#00cdcd;">0.02T</span>
+  INFY  | <span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span> <span style="color:#00cdcd;">0.07T</span>
+  INTC  | <span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span> <span style="color:#00cdcd;">0.22T</span>
+  INTU  | <span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span> <span style="color:#00cdcd;">0.11T</span>
+  IONQ  | <span style="color:#00cdcd;">█</span> <span style="color:#00cdcd;">0.02T</span>
+  IPGP  | <span style="color:#00cdcd;">█</span> <span style="color:#00cdcd;">0.00T</span>
+  IREN  | <span style="color:#00cdcd;">█</span> <span style="color:#00cdcd;">0.02T</span>
+  IRWD  | <span style="color:#00cdcd;">█</span> <span style="color:#00cdcd;">0.00T</span>
+  ISRG  | <span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span> <span style="color:#00cdcd;">0.17T</span>
+  JBL   | <span style="color:#00cdcd;">█</span> <span style="color:#00cdcd;">0.03T</span>
+  JILL  | <span style="color:#00cdcd;">█</span> <span style="color:#00cdcd;">0.00T</span>
+  JNJ   | <span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span> <span style="color:#00cdcd;">0.53T</span>
+  JPM   | <span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span> <span style="color:#00cdcd;">0.80T</span>
+  KHC   | <span style="color:#00cdcd;">█</span> <span style="color:#00cdcd;">0.03T</span>
+  KO    | <span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span> <span style="color:#00cdcd;">0.31T</span>
+  KSCP  | <span style="color:#00cdcd;">█</span> <span style="color:#00cdcd;">0.00T</span>
+  KTOS  | <span style="color:#00cdcd;">█</span> <span style="color:#00cdcd;">0.02T</span>
+  KVUE  | <span style="color:#00cdcd;">█</span> <span style="color:#00cdcd;">0.03T</span>
+  LAC   | <span style="color:#00cdcd;">█</span> <span style="color:#00cdcd;">0.00T</span>
+  LASR  | <span style="color:#00cdcd;">█</span> <span style="color:#00cdcd;">0.00T</span>
+  LCID  | <span style="color:#00cdcd;">█</span> <span style="color:#00cdcd;">0.00T</span>
+  LDOS  | <span style="color:#00cdcd;">█</span> <span style="color:#00cdcd;">0.02T</span>
+  LHX   | <span style="color:#00cdcd;">█</span> <span style="color:#00cdcd;">0.06T</span>
+  LLY   | <span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span> <span style="color:#00cdcd;">0.99T</span>
+  LMND  | <span style="color:#00cdcd;">█</span> <span style="color:#00cdcd;">0.00T</span>
+  LMT   | <span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span> <span style="color:#00cdcd;">0.16T</span>
+  LOW   | <span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span> <span style="color:#00cdcd;">0.16T</span>
+  LRCX  | <span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span> <span style="color:#00cdcd;">0.29T</span>
+  LTM   | <span style="color:#00cdcd;">█</span> <span style="color:#00cdcd;">0.02T</span>
+  MA    | <span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span> <span style="color:#00cdcd;">0.52T</span>
+  MAR   | <span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span> <span style="color:#00cdcd;">0.09T</span>
+  MARA  | <span style="color:#00cdcd;">█</span> <span style="color:#00cdcd;">0.00T</span>
+  MCD   | <span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span> <span style="color:#00cdcd;">0.22T</span>
+  MDB   | <span style="color:#00cdcd;">█</span> <span style="color:#00cdcd;">0.03T</span>
+  META  | <span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span> <span style="color:#00cdcd;">1.62T</span>
+  MNDY  | <span style="color:#00cdcd;">█</span> <span style="color:#00cdcd;">0.00T</span>
+  MO    | <span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span> <span style="color:#00cdcd;">0.10T</span>
+  MP    | <span style="color:#00cdcd;">█</span> <span style="color:#00cdcd;">0.01T</span>
+  MRK   | <span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span> <span style="color:#00cdcd;">0.31T</span>
+  MRVL  | <span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span> <span style="color:#00cdcd;">0.09T</span>
+  MSFT  | <span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span> <span style="color:#00cdcd;">3.66T</span>
+  MU    | <span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span> <span style="color:#00cdcd;">0.27T</span>
+  NBIS  | <span style="color:#00cdcd;">█</span> <span style="color:#00cdcd;">0.02T</span>
+  NKE   | <span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span> <span style="color:#00cdcd;">0.09T</span>
+  NOC   | <span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span> <span style="color:#00cdcd;">0.09T</span>
+  NOK   | <span style="color:#00cdcd;">█</span> <span style="color:#00cdcd;">0.04T</span>
+  NOW   | <span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span> <span style="color:#00cdcd;">0.11T</span>
+  NVDA  | <span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span> <span style="color:#00cdcd;">4.32T</span>
+  NVTS  | <span style="color:#00cdcd;">█</span> <span style="color:#00cdcd;">0.00T</span>
+  ONCY  | <span style="color:#00cdcd;">█</span> <span style="color:#00cdcd;">0.00T</span>
+  ORCL  | <span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span> <span style="color:#00cdcd;">0.64T</span>
+  OSCR  | <span style="color:#00cdcd;">█</span> <span style="color:#00cdcd;">0.01T</span>
+  PANW  | <span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span> <span style="color:#00cdcd;">0.13T</span>
+  PATH  | <span style="color:#00cdcd;">█</span> <span style="color:#00cdcd;">0.01T</span>
+  PEP   | <span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span> <span style="color:#00cdcd;">0.20T</span>
+  PGR   | <span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span> <span style="color:#00cdcd;">0.12T</span>
+  PLD   | <span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span> <span style="color:#00cdcd;">0.13T</span>
+  PLTK  | <span style="color:#00cdcd;">█</span> <span style="color:#00cdcd;">0.00T</span>
+  PLTR  | <span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span> <span style="color:#00cdcd;">0.31T</span>
+  PM    | <span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span> <span style="color:#00cdcd;">0.23T</span>
+  POET  | <span style="color:#00cdcd;">█</span> <span style="color:#00cdcd;">0.00T</span>
+  PSNY  | <span style="color:#00cdcd;">█</span> <span style="color:#00cdcd;">0.00T</span>
+  PYPL  | <span style="color:#00cdcd;">█</span> <span style="color:#00cdcd;">0.05T</span>
+  QBTS  | <span style="color:#00cdcd;">█</span> <span style="color:#00cdcd;">0.01T</span>
+  QCOM  | <span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span> <span style="color:#00cdcd;">0.15T</span>
+  QUBT  | <span style="color:#00cdcd;">█</span> <span style="color:#00cdcd;">0.00T</span>
+  RGTI  | <span style="color:#00cdcd;">█</span> <span style="color:#00cdcd;">0.01T</span>
+  RIG   | <span style="color:#00cdcd;">█</span> <span style="color:#00cdcd;">0.01T</span>
+  RIVN  | <span style="color:#00cdcd;">█</span> <span style="color:#00cdcd;">0.02T</span>
+  RKLB  | <span style="color:#00cdcd;">█</span> <span style="color:#00cdcd;">0.04T</span>
+  RKT   | <span style="color:#00cdcd;">█</span> <span style="color:#00cdcd;">0.05T</span>
+  ROK   | <span style="color:#00cdcd;">█</span> <span style="color:#00cdcd;">0.05T</span>
+  RR    | <span style="color:#00cdcd;">█</span> <span style="color:#00cdcd;">0.00T</span>
+  SCHW  | <span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span> <span style="color:#00cdcd;">0.18T</span>
+  SERV  | <span style="color:#00cdcd;">█</span> <span style="color:#00cdcd;">0.00T</span>
+  SIGA  | <span style="color:#00cdcd;">█</span> <span style="color:#00cdcd;">0.00T</span>
+  SMCI  | <span style="color:#00cdcd;">█</span> <span style="color:#00cdcd;">0.02T</span>
+  SMLR  | <span style="color:#00cdcd;">█</span> <span style="color:#00cdcd;">0.00T</span>
+  SMX   | <span style="color:#00cdcd;">█</span> <span style="color:#00cdcd;">0.00T</span>
+  SNDK  | <span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span> <span style="color:#00cdcd;">0.09T</span>
+  SNOW  | <span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span> <span style="color:#00cdcd;">0.08T</span>
+  SOAR  | <span style="color:#00cdcd;">█</span> <span style="color:#00cdcd;">0.00T</span>
+  SOFI  | <span style="color:#00cdcd;">█</span> <span style="color:#00cdcd;">0.03T</span>
+  SOUN  | <span style="color:#00cdcd;">█</span> <span style="color:#00cdcd;">0.00T</span>
+  SPOT  | <span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span> <span style="color:#00cdcd;">0.12T</span>
+  SRFM  | <span style="color:#00cdcd;">█</span> <span style="color:#00cdcd;">0.00T</span>
+  STLA  | <span style="color:#00cdcd;">█</span> <span style="color:#00cdcd;">0.03T</span>
+  STX   | <span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span> <span style="color:#00cdcd;">0.07T</span>
+  SURG  | <span style="color:#00cdcd;">█</span> <span style="color:#00cdcd;">0.00T</span>
+  SYM   | <span style="color:#00cdcd;">█</span> <span style="color:#00cdcd;">0.04T</span>
+  T     | <span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span> <span style="color:#00cdcd;">0.20T</span>
+  TEAM  | <span style="color:#00cdcd;">█</span> <span style="color:#00cdcd;">0.03T</span>
+  TEM   | <span style="color:#00cdcd;">█</span> <span style="color:#00cdcd;">0.01T</span>
+  TENB  | <span style="color:#00cdcd;">█</span> <span style="color:#00cdcd;">0.00T</span>
+  TER   | <span style="color:#00cdcd;">█</span> <span style="color:#00cdcd;">0.03T</span>
+  TGT   | <span style="color:#00cdcd;">█</span> <span style="color:#00cdcd;">0.05T</span>
+  TLSA  | <span style="color:#00cdcd;">█</span> <span style="color:#00cdcd;">0.00T</span>
+  TM    | <span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span> <span style="color:#00cdcd;">0.29T</span>
+  TMUS  | <span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span> <span style="color:#00cdcd;">0.25T</span>
+  TPR   | <span style="color:#00cdcd;">█</span> <span style="color:#00cdcd;">0.03T</span>
+  TRMB  | <span style="color:#00cdcd;">█</span> <span style="color:#00cdcd;">0.02T</span>
+  TSLA  | <span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span> <span style="color:#00cdcd;">1.42T</span>
+  TSM   | <span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span> <span style="color:#00cdcd;">1.53T</span>
+  TTD   | <span style="color:#00cdcd;">█</span> <span style="color:#00cdcd;">0.02T</span>
+  TZOO  | <span style="color:#00cdcd;">█</span> <span style="color:#00cdcd;">0.00T</span>
+  UAL   | <span style="color:#00cdcd;">█</span> <span style="color:#00cdcd;">0.04T</span>
+  UBER  | <span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span> <span style="color:#00cdcd;">0.16T</span>
+  UFG   | <span style="color:#00cdcd;">█</span> <span style="color:#00cdcd;">0.00T</span>
+  UMAC  | <span style="color:#00cdcd;">█</span> <span style="color:#00cdcd;">0.00T</span>
+  UNH   | <span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span> <span style="color:#00cdcd;">0.31T</span>
+  UPST  | <span style="color:#00cdcd;">█</span> <span style="color:#00cdcd;">0.00T</span>
+  USAU  | <span style="color:#00cdcd;">█</span> <span style="color:#00cdcd;">0.00T</span>
+  USGO  | <span style="color:#00cdcd;">█</span> <span style="color:#00cdcd;">0.00T</span>
+  V     | <span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span> <span style="color:#00cdcd;">0.68T</span>
+  VNRX  | <span style="color:#00cdcd;">█</span> <span style="color:#00cdcd;">0.00T</span>
+  VRT   | <span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span> <span style="color:#00cdcd;">0.07T</span>
+  VST   | <span style="color:#00cdcd;">█</span> <span style="color:#00cdcd;">0.06T</span>
+  VVPR  | <span style="color:#00cdcd;">█</span> <span style="color:#00cdcd;">0.00T</span>
+  VZ    | <span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span> <span style="color:#00cdcd;">0.17T</span>
+  WDAY  | <span style="color:#00cdcd;">█</span> <span style="color:#00cdcd;">0.04T</span>
+  WDC   | <span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span> <span style="color:#00cdcd;">0.09T</span>
+  WELL  | <span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span> <span style="color:#00cdcd;">0.15T</span>
+  WFC   | <span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span> <span style="color:#00cdcd;">0.26T</span>
+  WH    | <span style="color:#00cdcd;">█</span> <span style="color:#00cdcd;">0.01T</span>
+  WIT   | <span style="color:#00cdcd;">█</span> <span style="color:#00cdcd;">0.02T</span>
+  WMT   | <span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span> <span style="color:#00cdcd;">0.93T</span>
+  WSM   | <span style="color:#00cdcd;">█</span> <span style="color:#00cdcd;">0.02T</span>
+  XOM   | <span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span><span style="color:#00cdcd;">█</span> <span style="color:#00cdcd;">0.64T</span>
+  Z     | <span style="color:#00cdcd;">█</span> <span style="color:#00cdcd;">0.01T</span>
+  ZETA  | <span style="color:#00cdcd;">█</span> <span style="color:#00cdcd;">0.01T</span>
+  ZM    | <span style="color:#00cdcd;">█</span> <span style="color:#00cdcd;">0.02T</span>
+  ZS    | <span style="color:#00cdcd;">█</span> <span style="color:#00cdcd;">0.04T</span>
+  ZTS   | <span style="color:#00cdcd;">█</span> <span style="color:#00cdcd;">0.05T</span>
+
+               |                        |                        |                        |                        |
+               0.00T                    1.08T                    2.16T                    3.24T                    4.32T
+</pre>
+        </div>
+
+        <footer>
+            Generated by StocksFin
+        </footer>
+    </div>
+
+<script data-goatcounter="https://stocksfin.goatcounter.com/count"
+        async src="//gc.zgo.at/count.js"></script>
+</body>
+</html>
