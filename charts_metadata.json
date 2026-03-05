@@ -7039,6 +7039,134 @@
         "sector": "TECHNOLOGY",
         "industry": "COMPUTER HARDWARE"
       }
+    },
+    "NET": {
+      "presets": {
+        "Revenue": {
+          "updated": "Mar 05, 2026 12:34 AM"
+        },
+        "Costs": {
+          "updated": "Mar 05, 2026 12:34 AM"
+        },
+        "Cash": {
+          "updated": "Mar 05, 2026 12:34 AM"
+        },
+        "FCF": {
+          "updated": "Mar 05, 2026 12:34 AM"
+        },
+        "Assets": {
+          "updated": "Mar 05, 2026 12:34 AM"
+        },
+        "Buffet": {
+          "updated": "Mar 05, 2026 12:34 AM"
+        }
+      },
+      "last_updated": "2026-03-05T00:34:07.211666",
+      "company": {
+        "name": "Cloudflare Inc",
+        "market_cap": "$62.96B",
+        "market_cap_raw": 62956106000.0,
+        "last_q_revenue": 614507000.0,
+        "description": "CloudFlare, Inc. operates a cloud platform that offers a range of network services to companies around the world. The company is headquartered in San Francisco, California.",
+        "sector": "TECHNOLOGY",
+        "industry": "SOFTWARE - INFRASTRUCTURE"
+      }
+    },
+    "NFLX": {
+      "presets": {
+        "Revenue": {
+          "updated": "Mar 05, 2026 12:34 AM"
+        },
+        "Costs": {
+          "updated": "Mar 05, 2026 12:34 AM"
+        },
+        "Cash": {
+          "updated": "Mar 05, 2026 12:34 AM"
+        },
+        "FCF": {
+          "updated": "Mar 05, 2026 12:34 AM"
+        },
+        "Assets": {
+          "updated": "Mar 05, 2026 12:34 AM"
+        },
+        "Buffet": {
+          "updated": "Mar 05, 2026 12:34 AM"
+        }
+      },
+      "last_updated": "2026-03-05T00:34:07.236368",
+      "company": {
+        "name": "Netflix Inc",
+        "market_cap": "$414.43B",
+        "market_cap_raw": 414432592000.0,
+        "last_q_revenue": 12050762000.0,
+        "description": "Netflix, Inc. is an American over-the-top content platform and production company headquartered in Los Gatos, California. Netflix was founded in 1997 by Reed Hastings and Marc Randolph in Scotts Valley, California. The company's primary business is a subscription-based streaming service offering online streaming from a library of films and television series, including those produced in-house.",
+        "sector": "COMMUNICATION SERVICES",
+        "industry": "ENTERTAINMENT"
+      }
+    },
+    "SBUX": {
+      "presets": {
+        "Revenue": {
+          "updated": "Mar 05, 2026 12:34 AM"
+        },
+        "Costs": {
+          "updated": "Mar 05, 2026 12:34 AM"
+        },
+        "Cash": {
+          "updated": "Mar 05, 2026 12:34 AM"
+        },
+        "FCF": {
+          "updated": "Mar 05, 2026 12:34 AM"
+        },
+        "Assets": {
+          "updated": "Mar 05, 2026 12:34 AM"
+        },
+        "Buffet": {
+          "updated": "Mar 05, 2026 12:34 AM"
+        }
+      },
+      "last_updated": "2026-03-05T00:34:07.272138",
+      "company": {
+        "name": "Starbucks Corporation",
+        "market_cap": "$110.15B",
+        "market_cap_raw": 110147518000.0,
+        "last_q_revenue": 9908400000.0,
+        "description": "Starbucks Corporation is an American multinational chain of coffeehouses and roastery reserves headquartered in Seattle, Washington. As the world's largest coffeehouse chain, Starbucks is seen to be the main representation of the United States' second wave of coffee culture.",
+        "sector": "CONSUMER CYCLICAL",
+        "industry": "RESTAURANTS"
+      }
+    },
+    "AXP": {
+      "presets": {
+        "Revenue": {
+          "updated": "Mar 05, 2026 12:34 AM"
+        },
+        "Costs": {
+          "updated": "Mar 05, 2026 12:34 AM"
+        },
+        "Cash": {
+          "updated": "Mar 05, 2026 12:34 AM"
+        },
+        "FCF": {
+          "updated": "Mar 05, 2026 12:34 AM"
+        },
+        "Assets": {
+          "updated": "Mar 05, 2026 12:34 AM"
+        },
+        "Buffet": {
+          "updated": "Mar 05, 2026 12:34 AM"
+        }
+      },
+      "last_updated": "2026-03-05T00:34:07.302298",
+      "company": {
+        "name": "American Express Company",
+        "market_cap": "$212.04B",
+        "market_cap_raw": 212042318000.0,
+        "last_q_revenue": 21040000000.0,
+        "description": "The American Express Company is a multinational financial services corporation headquartered at 200 Vesey Street in the Battery Park City neighborhood of Lower Manhattan in New York City.",
+        "sector": "FINANCIAL SERVICES",
+        "industry": "CREDIT SERVICES"
+      }
     }
   }
 }
