@@ -4643,25 +4643,25 @@
     "PM": {
       "presets": {
         "Revenue": {
-          "updated": "Feb 16, 2026 12:31 AM"
+          "updated": "Mar 06, 2026 09:35 AM"
         },
         "Costs": {
-          "updated": "Feb 16, 2026 12:31 AM"
+          "updated": "Mar 06, 2026 09:35 AM"
         },
         "Cash": {
-          "updated": "Feb 16, 2026 12:31 AM"
+          "updated": "Mar 06, 2026 09:35 AM"
         },
         "FCF": {
-          "updated": "Feb 16, 2026 12:31 AM"
+          "updated": "Mar 06, 2026 09:35 AM"
         },
         "Assets": {
-          "updated": "Feb 16, 2026 12:31 AM"
+          "updated": "Mar 06, 2026 09:35 AM"
         },
         "Buffet": {
-          "updated": "Feb 16, 2026 12:31 AM"
+          "updated": "Mar 06, 2026 09:35 AM"
         }
       },
-      "last_updated": "2026-02-16T00:31:21.889490",
+      "last_updated": "2026-03-06T09:35:29.681630",
       "company": {
         "name": "Philip Morris International Inc",
         "market_cap": "$233.14B",
