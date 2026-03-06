@@ -67,7 +67,6 @@
             display: grid;
             grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
             gap: 12px;
-            position: relative;
         }
         .ticker-card {
             display: block;
@@ -301,21 +300,8 @@
         .alpha-link.disabled:hover {
             background-color: transparent;
         }
-        .letter-heading {
-            position: absolute;
-            height: 0;
-            overflow: hidden;
-            padding: 0;
-            margin: 0;
-            border: none;
-            font-size: 0;
+        .ticker-card[id^="letter-"] {
             scroll-margin-top: 120px;
-        }
-        .ticker-grid.sort-be .letter-heading {
-            display: none;
-        }
-        .letter-heading.hidden {
-            display: none;
         }
         .no-results {
             grid-column: 1 / -1;
@@ -357,7 +343,7 @@
             <div class="jerry-logo">&#x1F9D1;&#x200D;&#x1F33E; &#x1F410;</div>
             <h1>Stock Charts by Jerry the Goat Farmer</h1>
             <div class="jerry-tagline">"I don't always read financial statements because the goats keep eating them... dang it."</div>
-            <div class="subtitle">Last updated: Mar 06, 2026 12:02 AM</div>
+            <div class="subtitle">Last updated: Mar 06, 2026 12:14 AM</div>
         </header>
 
         <nav class="nav">
@@ -410,8 +396,7 @@
         </div>
 
         <div class="ticker-grid" id="ticker-grid">
-        <div class="letter-heading" id="letter-A" data-letter="A">A</div>
-<a href="AAL.html" class="ticker-card" data-symbol="AAL" data-be="1">
+        <a id="letter-A" href="AAL.html" class="ticker-card" data-symbol="AAL" data-be="1">
                 <div class="ticker-row">
                     <span class="ticker-symbol">AAL<span class="be-ratio">1x</span></span>
                     <span class="market-cap">$9.16B</span>
@@ -579,8 +564,7 @@
                 </div>
                 <div class="company-name">American Express Company</div>
             </a>
-<div class="letter-heading" id="letter-B" data-letter="B">B</div>
-<a href="BAC.html" class="ticker-card" data-symbol="BAC" data-be="8">
+<a id="letter-B" href="BAC.html" class="ticker-card" data-symbol="BAC" data-be="8">
                 <div class="ticker-row">
                     <span class="ticker-symbol">BAC<span class="be-ratio">8x</span></span>
                     <span class="market-cap">$372.94B</span>
@@ -643,8 +627,7 @@
                 </div>
                 <div class="company-name">Brown &amp; Brown Inc</div>
             </a>
-<div class="letter-heading" id="letter-C" data-letter="C">C</div>
-<a href="C.html" class="ticker-card" data-symbol="C" data-be="5">
+<a id="letter-C" href="C.html" class="ticker-card" data-symbol="C" data-be="5">
                 <div class="ticker-row">
                     <span class="ticker-symbol">C<span class="be-ratio">5x</span></span>
                     <span class="market-cap">$196.03B</span>
@@ -742,8 +725,7 @@
                 </div>
                 <div class="company-name">Cybin Inc</div>
             </a>
-<div class="letter-heading" id="letter-D" data-letter="D">D</div>
-<a href="DAL.html" class="ticker-card" data-symbol="DAL" data-be="3">
+<a id="letter-D" href="DAL.html" class="ticker-card" data-symbol="DAL" data-be="3">
                 <div class="ticker-row">
                     <span class="ticker-symbol">DAL<span class="be-ratio">3x</span></span>
                     <span class="market-cap">$45.07B</span>
@@ -792,8 +774,7 @@
                 </div>
                 <div class="company-name">Datavault AI Inc.</div>
             </a>
-<div class="letter-heading" id="letter-E" data-letter="E">E</div>
-<a href="EBAY.html" class="ticker-card" data-symbol="EBAY" data-be="16">
+<a id="letter-E" href="EBAY.html" class="ticker-card" data-symbol="EBAY" data-be="16">
                 <div class="ticker-row">
                     <span class="ticker-symbol">EBAY<span class="be-ratio">16x</span></span>
                     <span class="market-cap">$43.90B</span>
@@ -828,8 +809,7 @@
                 </div>
                 <div class="company-name">Expedia Group Inc.</div>
             </a>
-<div class="letter-heading" id="letter-F" data-letter="F">F</div>
-<a href="F.html" class="ticker-card" data-symbol="F" data-be="1">
+<a id="letter-F" href="F.html" class="ticker-card" data-symbol="F" data-be="1">
                 <div class="ticker-row">
                     <span class="ticker-symbol">F<span class="be-ratio">1x</span></span>
                     <span class="market-cap">$53.67B</span>
@@ -864,8 +844,7 @@
                 </div>
                 <div class="company-name">Foremost Lithium Resource &amp; Technology Ltd. Common stock aka Foremost Clean Energy</div>
             </a>
-<div class="letter-heading" id="letter-G" data-letter="G">G</div>
-<a href="GAMB.html" class="ticker-card" data-symbol="GAMB" data-be="4">
+<a id="letter-G" href="GAMB.html" class="ticker-card" data-symbol="GAMB" data-be="4">
                 <div class="ticker-row">
                     <span class="ticker-symbol">GAMB<span class="be-ratio">4x</span></span>
                     <span class="market-cap">$169.99M</span>
@@ -928,8 +907,7 @@
                 </div>
                 <div class="company-name">GT Biopharma Inc</div>
             </a>
-<div class="letter-heading" id="letter-H" data-letter="H">H</div>
-<a href="H.html" class="ticker-card" data-symbol="H" data-be="9">
+<a id="letter-H" href="H.html" class="ticker-card" data-symbol="H" data-be="9">
                 <div class="ticker-row">
                     <span class="ticker-symbol">H<span class="be-ratio">9x</span></span>
                     <span class="market-cap">$15.79B</span>
@@ -1013,8 +991,7 @@
                 </div>
                 <div class="company-name">Hycroft Mining Holding Corporation</div>
             </a>
-<div class="letter-heading" id="letter-I" data-letter="I">I</div>
-<a href="IBEX.html" class="ticker-card" data-symbol="IBEX" data-be="2">
+<a id="letter-I" href="IBEX.html" class="ticker-card" data-symbol="IBEX" data-be="2">
                 <div class="ticker-row">
                     <span class="ticker-symbol">IBEX<span class="be-ratio">2x</span></span>
                     <span class="market-cap">$397.95M</span>
@@ -1091,8 +1068,7 @@
                 </div>
                 <div class="company-name">Intuitive Surgical Inc</div>
             </a>
-<div class="letter-heading" id="letter-J" data-letter="J">J</div>
-<a href="JBL.html" class="ticker-card" data-symbol="JBL" data-be="3">
+<a id="letter-J" href="JBL.html" class="ticker-card" data-symbol="JBL" data-be="3">
                 <div class="ticker-row">
                     <span class="ticker-symbol">JBL<span class="be-ratio">3x</span></span>
                     <span class="market-cap">$27.66B</span>
@@ -1120,8 +1096,7 @@
                 </div>
                 <div class="company-name">JPMorgan Chase &amp; Co</div>
             </a>
-<div class="letter-heading" id="letter-K" data-letter="K">K</div>
-<a href="KHC.html" class="ticker-card" data-symbol="KHC" data-be="5">
+<a id="letter-K" href="KHC.html" class="ticker-card" data-symbol="KHC" data-be="5">
                 <div class="ticker-row">
                     <span class="ticker-symbol">KHC<span class="be-ratio">5x</span></span>
                     <span class="market-cap">$28.10B</span>
@@ -1156,8 +1131,7 @@
                 </div>
                 <div class="company-name">Kenvue Inc.</div>
             </a>
-<div class="letter-heading" id="letter-L" data-letter="L">L</div>
-<a href="LAC.html" class="ticker-card owned" data-symbol="LAC" data-be="0">
+<a id="letter-L" href="LAC.html" class="ticker-card owned" data-symbol="LAC" data-be="0">
                 <div class="ticker-row">
                     <span class="ticker-symbol">LAC</span>
                     <span class="market-cap">$1.55B</span>
@@ -1234,8 +1208,7 @@
                 </div>
                 <div class="company-name">LATAM Airlines Group S.A.</div>
             </a>
-<div class="letter-heading" id="letter-M" data-letter="M">M</div>
-<a href="MA.html" class="ticker-card" data-symbol="MA" data-be="61">
+<a id="letter-M" href="MA.html" class="ticker-card" data-symbol="MA" data-be="61">
                 <div class="ticker-row">
                     <span class="ticker-symbol">MA<span class="be-ratio">61x</span></span>
                     <span class="market-cap">$522.43B</span>
@@ -1326,8 +1299,7 @@
                 </div>
                 <div class="company-name">Micron Technology Inc</div>
             </a>
-<div class="letter-heading" id="letter-N" data-letter="N">N</div>
-<a href="NBIS.html" class="ticker-card cyan-border-right" data-symbol="NBIS" data-be="151">
+<a id="letter-N" href="NBIS.html" class="ticker-card cyan-border-right" data-symbol="NBIS" data-be="151">
                 <div class="ticker-row">
                     <span class="ticker-symbol">NBIS<span class="be-ratio">151x</span></span>
                     <span class="market-cap">$22.06B</span>
@@ -1390,8 +1362,7 @@
                 </div>
                 <div class="company-name">Navitas Semiconductor Corp</div>
             </a>
-<div class="letter-heading" id="letter-O" data-letter="O">O</div>
-<a href="ONCY.html" class="ticker-card" data-symbol="ONCY" data-be="0">
+<a id="letter-O" href="ONCY.html" class="ticker-card" data-symbol="ONCY" data-be="0">
                 <div class="ticker-row">
                     <span class="ticker-symbol">ONCY</span>
                     <span class="market-cap">$104.19M</span>
@@ -1412,8 +1383,7 @@
                 </div>
                 <div class="company-name">Oscar Health Inc</div>
             </a>
-<div class="letter-heading" id="letter-P" data-letter="P">P</div>
-<a href="PANW.html" class="ticker-card" data-symbol="PANW" data-be="53">
+<a id="letter-P" href="PANW.html" class="ticker-card" data-symbol="PANW" data-be="53">
                 <div class="ticker-row">
                     <span class="ticker-symbol">PANW<span class="be-ratio">53x</span></span>
                     <span class="market-cap">$130.05B</span>
@@ -1490,8 +1460,7 @@
                 </div>
                 <div class="company-name">PayPal Holdings Inc</div>
             </a>
-<div class="letter-heading" id="letter-Q" data-letter="Q">Q</div>
-<a href="QBTS.html" class="ticker-card" data-symbol="QBTS" data-be="2792">
+<a id="letter-Q" href="QBTS.html" class="ticker-card" data-symbol="QBTS" data-be="2792">
                 <div class="ticker-row">
                     <span class="ticker-symbol">QBTS<span class="be-ratio">2792x</span></span>
                     <span class="market-cap">$10.44B</span>
@@ -1512,8 +1481,7 @@
                 </div>
                 <div class="company-name">Quantum Computing Inc</div>
             </a>
-<div class="letter-heading" id="letter-R" data-letter="R">R</div>
-<a href="RGTI.html" class="ticker-card owned" data-symbol="RGTI" data-be="4334">
+<a id="letter-R" href="RGTI.html" class="ticker-card owned" data-symbol="RGTI" data-be="4334">
                 <div class="ticker-row">
                     <span class="ticker-symbol">RGTI<span class="be-ratio">4334x</span></span>
                     <span class="market-cap">$8.44B</span>
@@ -1562,8 +1530,7 @@
                 </div>
                 <div class="company-name">Richtech Robotics Inc. Class B Common Stock</div>
             </a>
-<div class="letter-heading" id="letter-S" data-letter="S">S</div>
-<a href="SBUX.html" class="ticker-card" data-symbol="SBUX" data-be="11">
+<a id="letter-S" href="SBUX.html" class="ticker-card" data-symbol="SBUX" data-be="11">
                 <div class="ticker-row">
                     <span class="ticker-symbol">SBUX<span class="be-ratio">11x</span></span>
                     <span class="market-cap">$110.15B</span>
@@ -1696,8 +1663,7 @@
                 </div>
                 <div class="company-name">Symbotic Inc</div>
             </a>
-<div class="letter-heading" id="letter-T" data-letter="T">T</div>
-<a href="T.html" class="ticker-card" data-symbol="T" data-be="6">
+<a id="letter-T" href="T.html" class="ticker-card" data-symbol="T" data-be="6">
                 <div class="ticker-row">
                     <span class="ticker-symbol">T<span class="be-ratio">6x</span></span>
                     <span class="market-cap">$203.40B</span>
@@ -1802,8 +1768,7 @@
                 </div>
                 <div class="company-name">Travelzoo</div>
             </a>
-<div class="letter-heading" id="letter-U" data-letter="U">U</div>
-<a href="UAL.html" class="ticker-card" data-symbol="UAL" data-be="2">
+<a id="letter-U" href="UAL.html" class="ticker-card" data-symbol="UAL" data-be="2">
                 <div class="ticker-row">
                     <span class="ticker-symbol">UAL<span class="be-ratio">2x</span></span>
                     <span class="market-cap">$35.38B</span>
@@ -1859,8 +1824,7 @@
                 </div>
                 <div class="company-name">U.S. GoldMining Inc. Common stock</div>
             </a>
-<div class="letter-heading" id="letter-V" data-letter="V">V</div>
-<a href="V.html" class="ticker-card" data-symbol="V" data-be="64">
+<a id="letter-V" href="V.html" class="ticker-card" data-symbol="V" data-be="64">
                 <div class="ticker-row">
                     <span class="ticker-symbol">V<span class="be-ratio">64x</span></span>
                     <span class="market-cap">$684.36B</span>
@@ -1902,8 +1866,7 @@
                 </div>
                 <div class="company-name">Verizon Communications Inc</div>
             </a>
-<div class="letter-heading" id="letter-W" data-letter="W">W</div>
-<a href="WDAY.html" class="ticker-card" data-symbol="WDAY" data-be="17">
+<a id="letter-W" href="WDAY.html" class="ticker-card" data-symbol="WDAY" data-be="17">
                 <div class="ticker-row">
                     <span class="ticker-symbol">WDAY<span class="be-ratio">17x</span></span>
                     <span class="market-cap">$41.27B</span>
@@ -1959,16 +1922,14 @@
                 </div>
                 <div class="company-name">Williams-Sonoma Inc</div>
             </a>
-<div class="letter-heading" id="letter-X" data-letter="X">X</div>
-<a href="XOM.html" class="ticker-card" data-symbol="XOM" data-be="8">
+<a id="letter-X" href="XOM.html" class="ticker-card" data-symbol="XOM" data-be="8">
                 <div class="ticker-row">
                     <span class="ticker-symbol">XOM<span class="be-ratio">8x</span></span>
                     <span class="market-cap">$635.43B</span>
                 </div>
                 <div class="company-name">Exxon Mobil Corp</div>
             </a>
-<div class="letter-heading" id="letter-Z" data-letter="Z">Z</div>
-<a href="Z.html" class="ticker-card" data-symbol="Z" data-be="17">
+<a id="letter-Z" href="Z.html" class="ticker-card" data-symbol="Z" data-be="17">
                 <div class="ticker-row">
                     <span class="ticker-symbol">Z<span class="be-ratio">17x</span></span>
                     <span class="market-cap">$11.00B</span>
@@ -2016,44 +1977,41 @@
     <script>
     var currentSort = 'az';
 
+    function assignLetterIds(cards) {
+        // Strip old letter IDs, then assign to first card of each letter
+        cards.forEach(function(c) {
+            if (c.id && c.id.indexOf('letter-') === 0) c.removeAttribute('id');
+        });
+        var curLetter = null;
+        cards.forEach(function(c) {
+            if (c.style.display === 'none') return;
+            var letter = c.dataset.symbol[0].toUpperCase();
+            if (letter !== curLetter) {
+                curLetter = letter;
+                c.id = 'letter-' + letter;
+            }
+        });
+    }
+
     function sortCards(mode) {
         currentSort = mode;
         var grid = document.getElementById('ticker-grid');
         var cards = Array.from(grid.querySelectorAll('.ticker-card'));
-        var headings = Array.from(grid.querySelectorAll('.letter-heading'));
         var noResults = document.getElementById('no-results');
 
         if (mode === 'az') {
             grid.classList.remove('sort-be');
-            // Rebuild DOM in A-Z order with headings interleaved
             cards.sort(function(a, b) {
                 return a.dataset.symbol.localeCompare(b.dataset.symbol);
-            });
-            // Remove all cards and headings from DOM
-            headings.forEach(function(h) { h.remove(); });
-            cards.forEach(function(c) { c.remove(); });
-            // Re-insert grouped by letter
-            var curLetter = null;
-            cards.forEach(function(c) {
-                var letter = c.dataset.symbol[0].toUpperCase();
-                if (letter !== curLetter) {
-                    curLetter = letter;
-                    var heading = document.createElement('div');
-                    heading.className = 'letter-heading';
-                    heading.id = 'letter-' + letter;
-                    heading.setAttribute('data-letter', letter);
-                    heading.textContent = letter;
-                    grid.insertBefore(heading, noResults);
-                }
-                grid.insertBefore(c, noResults);
             });
         } else {
             grid.classList.add('sort-be');
             cards.sort(function(a, b) {
                 return (parseFloat(b.dataset.be) || 0) - (parseFloat(a.dataset.be) || 0);
             });
-            cards.forEach(function(c) { grid.insertBefore(c, noResults); });
         }
+        cards.forEach(function(c) { grid.insertBefore(c, noResults); });
+        assignLetterIds(cards);
 
         document.getElementById('sort-az').classList.toggle('active', mode === 'az');
         document.getElementById('sort-be').classList.toggle('active', mode === 'be');
@@ -2068,7 +2026,6 @@
         var query = input.value.trim().toLowerCase();
         var grid = document.getElementById('ticker-grid');
         var cards = Array.from(grid.querySelectorAll('.ticker-card'));
-        var headings = Array.from(grid.querySelectorAll('.letter-heading'));
         var noResults = document.getElementById('no-results');
         var clearBtn = document.getElementById('search-clear');
         var matchCount = 0;
@@ -2085,15 +2042,7 @@
             if (match) matchCount++;
         });
 
-        // Toggle letter heading visibility based on matching cards
-        headings.forEach(function(h) {
-            var letter = h.getAttribute('data-letter');
-            var hasVisible = cards.some(function(c) {
-                return c.style.display !== 'none' && c.dataset.symbol[0].toUpperCase() === letter;
-            });
-            h.classList.toggle('hidden', !hasVisible);
-        });
-
+        assignLetterIds(cards);
         noResults.style.display = (query && matchCount === 0) ? 'block' : 'none';
     }
 
