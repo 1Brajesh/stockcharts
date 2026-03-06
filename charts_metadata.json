@@ -7231,6 +7231,70 @@
         "sector": "INDUSTRIALS",
         "industry": "RAILROADS"
       }
+    },
+    "BA": {
+      "presets": {
+        "Revenue": {
+          "updated": "Mar 06, 2026 09:46 AM"
+        },
+        "Costs": {
+          "updated": "Mar 06, 2026 09:46 AM"
+        },
+        "Cash": {
+          "updated": "Mar 06, 2026 09:46 AM"
+        },
+        "FCF": {
+          "updated": "Mar 06, 2026 09:46 AM"
+        },
+        "Assets": {
+          "updated": "Mar 06, 2026 09:46 AM"
+        },
+        "Buffet": {
+          "updated": "Mar 06, 2026 09:46 AM"
+        }
+      },
+      "last_updated": "2026-03-06T09:46:23.950990",
+      "company": {
+        "name": "The Boeing Company",
+        "market_cap": "$174.39B",
+        "market_cap_raw": 174394163000.0,
+        "last_q_revenue": 23948000000.0,
+        "description": "The Boeing Company is an American multinational corporation that designs, manufactures, and sells airplanes, rotorcraft, rockets, satellites, telecommunications equipment, and missiles worldwide. The company also provides leasing and product support services.",
+        "sector": "INDUSTRIALS",
+        "industry": "AEROSPACE & DEFENSE"
+      }
+    },
+    "CAT": {
+      "presets": {
+        "Revenue": {
+          "updated": "Mar 06, 2026 09:46 AM"
+        },
+        "Costs": {
+          "updated": "Mar 06, 2026 09:46 AM"
+        },
+        "Cash": {
+          "updated": "Mar 06, 2026 09:46 AM"
+        },
+        "FCF": {
+          "updated": "Mar 06, 2026 09:46 AM"
+        },
+        "Assets": {
+          "updated": "Mar 06, 2026 09:46 AM"
+        },
+        "Buffet": {
+          "updated": "Mar 06, 2026 09:46 AM"
+        }
+      },
+      "last_updated": "2026-03-06T09:46:23.982915",
+      "company": {
+        "name": "Caterpillar Inc",
+        "market_cap": "$330.43B",
+        "market_cap_raw": 330431037000.0,
+        "last_q_revenue": 19133000000.0,
+        "description": "Caterpillar Inc. (often shortened to CAT) is an American Fortune 100 corporation that designs, develops, engineers, manufactures, markets, and sells machinery, engines, financial products, and insurance to customers via a worldwide dealer network.",
+        "sector": "INDUSTRIALS",
+        "industry": "FARM & HEAVY CONSTRUCTION MACHINERY"
+      }
     }
   }
 }
