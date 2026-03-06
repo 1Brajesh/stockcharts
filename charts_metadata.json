@@ -7295,6 +7295,38 @@
         "sector": "INDUSTRIALS",
         "industry": "FARM & HEAVY CONSTRUCTION MACHINERY"
       }
+    },
+    "QSR": {
+      "presets": {
+        "Revenue": {
+          "updated": "Mar 06, 2026 12:54 PM"
+        },
+        "Costs": {
+          "updated": "Mar 06, 2026 12:54 PM"
+        },
+        "Cash": {
+          "updated": "Mar 06, 2026 12:54 PM"
+        },
+        "FCF": {
+          "updated": "Mar 06, 2026 12:54 PM"
+        },
+        "Assets": {
+          "updated": "Mar 06, 2026 12:54 PM"
+        },
+        "Buffet": {
+          "updated": "Mar 06, 2026 12:54 PM"
+        }
+      },
+      "last_updated": "2026-03-06T12:54:44.383596",
+      "company": {
+        "name": "Restaurant Brands International Inc",
+        "market_cap": "$33.43B",
+        "market_cap_raw": 33428269000.0,
+        "last_q_revenue": 2466000000.0,
+        "description": "Restaurant Brands International Inc. owns, operates and franchises quick-service restaurants under the Tim Hortons (TH), Burger King (BK) and Popeyes (PLK) brands. The company is headquartered in Toronto, Canada.",
+        "sector": "CONSUMER CYCLICAL",
+        "industry": "RESTAURANTS"
+      }
     }
   }
 }
