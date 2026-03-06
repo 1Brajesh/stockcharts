@@ -303,6 +303,10 @@
         .ticker-card[id^="letter-"] {
             scroll-margin-top: 120px;
         }
+        .ticker-card.flash-highlight {
+            border-color: #ff4444 !important;
+            box-shadow: 0 0 12px rgba(255, 68, 68, 0.5);
+        }
         .no-results {
             grid-column: 1 / -1;
             text-align: center;
@@ -343,7 +347,7 @@
             <div class="jerry-logo">&#x1F9D1;&#x200D;&#x1F33E; &#x1F410;</div>
             <h1>Stock Charts by Jerry the Goat Farmer</h1>
             <div class="jerry-tagline">"I don't always read financial statements because the goats keep eating them... dang it."</div>
-            <div class="subtitle">Last updated: Mar 06, 2026 12:14 AM</div>
+            <div class="subtitle">Last updated: Mar 06, 2026 12:19 AM</div>
         </header>
 
         <nav class="nav">
@@ -2060,6 +2064,17 @@
     window.addEventListener('scroll', function() {
         backBtn.classList.toggle('visible', window.scrollY > 300);
     }, {passive: true});
+
+    document.querySelectorAll('.alpha-link[href]').forEach(function(link) {
+        link.addEventListener('click', function() {
+            var id = this.getAttribute('href').slice(1);
+            var card = document.getElementById(id);
+            if (card) {
+                card.classList.add('flash-highlight');
+                setTimeout(function() { card.classList.remove('flash-highlight'); }, 2000);
+            }
+        });
+    });
     </script>
 
 <script data-goatcounter="https://stocksfin.goatcounter.com/count"

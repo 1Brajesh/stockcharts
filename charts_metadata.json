@@ -163,25 +163,25 @@
     "HIMS": {
       "presets": {
         "Revenue": {
-          "updated": "Feb 16, 2026 12:31 AM"
+          "updated": "Mar 06, 2026 12:19 AM"
         },
         "Costs": {
-          "updated": "Feb 16, 2026 12:31 AM"
+          "updated": "Mar 06, 2026 12:19 AM"
         },
         "Cash": {
-          "updated": "Feb 16, 2026 12:31 AM"
+          "updated": "Mar 06, 2026 12:19 AM"
         },
         "FCF": {
-          "updated": "Feb 16, 2026 12:31 AM"
+          "updated": "Mar 06, 2026 12:19 AM"
         },
         "Assets": {
-          "updated": "Feb 16, 2026 12:31 AM"
+          "updated": "Mar 06, 2026 12:19 AM"
         },
         "Buffet": {
-          "updated": "Feb 16, 2026 12:31 AM"
+          "updated": "Mar 06, 2026 12:19 AM"
         }
       },
-      "last_updated": "2026-02-16T00:31:18.266957",
+      "last_updated": "2026-03-06T00:19:08.640622",
       "company": {
         "name": "Hims Hers Health Inc",
         "market_cap": "$8.74B",
