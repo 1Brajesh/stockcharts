@@ -7167,6 +7167,70 @@
         "sector": "FINANCIAL SERVICES",
         "industry": "CREDIT SERVICES"
       }
+    },
+    "VWAV": {
+      "presets": {
+        "Revenue": {
+          "updated": "Mar 06, 2026 09:37 AM"
+        },
+        "Costs": {
+          "updated": "Mar 06, 2026 09:37 AM"
+        },
+        "Cash": {
+          "updated": "Mar 06, 2026 09:37 AM"
+        },
+        "FCF": {
+          "updated": "Mar 06, 2026 09:37 AM"
+        },
+        "Assets": {
+          "updated": "Mar 06, 2026 09:37 AM"
+        },
+        "Buffet": {
+          "updated": "Mar 06, 2026 09:37 AM"
+        }
+      },
+      "last_updated": "2026-03-06T09:37:07.379485",
+      "company": {
+        "name": "VisionWave Holdings, Inc. Common Stock",
+        "market_cap": "$141.64M",
+        "market_cap_raw": 141644000.0,
+        "last_q_revenue": 0.0,
+        "description": "VisionWave Holdings Inc. engages in revolutionizing defence capabilities by integrating artificial intelligence (AI) and autonomous solutions across air, ground, and sea domains. The company is headquartered in Wilmington, Delaware.",
+        "sector": "INDUSTRIALS",
+        "industry": "AEROSPACE & DEFENSE"
+      }
+    },
+    "CSX": {
+      "presets": {
+        "Revenue": {
+          "updated": "Mar 06, 2026 09:37 AM"
+        },
+        "Costs": {
+          "updated": "Mar 06, 2026 09:37 AM"
+        },
+        "Cash": {
+          "updated": "Mar 06, 2026 09:37 AM"
+        },
+        "FCF": {
+          "updated": "Mar 06, 2026 09:37 AM"
+        },
+        "Assets": {
+          "updated": "Mar 06, 2026 09:37 AM"
+        },
+        "Buffet": {
+          "updated": "Mar 06, 2026 09:37 AM"
+        }
+      },
+      "last_updated": "2026-03-06T09:37:07.397238",
+      "company": {
+        "name": "CSX Corporation",
+        "market_cap": "$76.52B",
+        "market_cap_raw": 76520759000.0,
+        "last_q_revenue": 3508000000.0,
+        "description": "CSX Corporation is an American holding company focused on rail transportation and real estate in North America, among other industries. Based in Richmond, Virginia, USA after the merger, in 2003 the CSX Corporation headquarters moved to Jacksonville, Florida.",
+        "sector": "INDUSTRIALS",
+        "industry": "RAILROADS"
+      }
     }
   }
 }
