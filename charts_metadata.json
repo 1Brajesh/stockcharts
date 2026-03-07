@@ -7327,6 +7327,38 @@
         "sector": "CONSUMER CYCLICAL",
         "industry": "RESTAURANTS"
       }
+    },
+    "YUM": {
+      "presets": {
+        "Revenue": {
+          "updated": "Mar 07, 2026 01:14 AM"
+        },
+        "Costs": {
+          "updated": "Mar 07, 2026 01:14 AM"
+        },
+        "Cash": {
+          "updated": "Mar 07, 2026 01:14 AM"
+        },
+        "FCF": {
+          "updated": "Mar 07, 2026 01:14 AM"
+        },
+        "Assets": {
+          "updated": "Mar 07, 2026 01:14 AM"
+        },
+        "Buffet": {
+          "updated": "Mar 07, 2026 01:14 AM"
+        }
+      },
+      "last_updated": "2026-03-07T01:14:55.669814",
+      "company": {
+        "name": "Yum! Brands Inc",
+        "market_cap": "$44.04B",
+        "market_cap_raw": 44041290000.0,
+        "last_q_revenue": 2514000000.0,
+        "description": "Yum! Brands, Inc. is an American fast food corporation listed on the Fortune 1000. Yum! operates the brands KFC, Pizza Hut, Taco Bell, The Habit Burger Grill, and WingStreet worldwide, except in China, where the brands are operated by a separate company, Yum China.",
+        "sector": "CONSUMER CYCLICAL",
+        "industry": "RESTAURANTS"
+      }
     }
   }
 }
