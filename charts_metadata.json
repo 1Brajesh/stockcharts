@@ -7391,6 +7391,70 @@
         "sector": "CONSUMER CYCLICAL",
         "industry": "AUTO MANUFACTURERS"
       }
+    },
+    "SIG": {
+      "presets": {
+        "Revenue": {
+          "updated": "Mar 07, 2026 02:16 PM"
+        },
+        "Costs": {
+          "updated": "Mar 07, 2026 02:16 PM"
+        },
+        "Cash": {
+          "updated": "Mar 07, 2026 02:16 PM"
+        },
+        "FCF": {
+          "updated": "Mar 07, 2026 02:16 PM"
+        },
+        "Assets": {
+          "updated": "Mar 07, 2026 02:16 PM"
+        },
+        "Buffet": {
+          "updated": "Mar 07, 2026 02:16 PM"
+        }
+      },
+      "last_updated": "2026-03-07T14:16:41.360056",
+      "company": {
+        "name": "Signet Jewelers Ltd",
+        "market_cap": "$3.72B",
+        "market_cap_raw": 3716928000.0,
+        "last_q_revenue": 1391800000.0,
+        "description": "Signet Jewelers Limited is engaged in the retail sale of diamond jewelry, watches and other products. The company is headquartered in Hamilton, Bermuda.",
+        "sector": "CONSUMER CYCLICAL",
+        "industry": "LUXURY GOODS"
+      }
+    },
+    "CPRI": {
+      "presets": {
+        "Revenue": {
+          "updated": "Mar 07, 2026 02:16 PM"
+        },
+        "Costs": {
+          "updated": "Mar 07, 2026 02:16 PM"
+        },
+        "Cash": {
+          "updated": "Mar 07, 2026 02:16 PM"
+        },
+        "FCF": {
+          "updated": "Mar 07, 2026 02:16 PM"
+        },
+        "Assets": {
+          "updated": "Mar 07, 2026 02:16 PM"
+        },
+        "Buffet": {
+          "updated": "Mar 07, 2026 02:16 PM"
+        }
+      },
+      "last_updated": "2026-03-07T14:16:41.390524",
+      "company": {
+        "name": "Capri Holdings Ltd",
+        "market_cap": "$2.14B",
+        "market_cap_raw": 2138956000.0,
+        "last_q_revenue": 1025000000.0,
+        "description": "Capri Holdings Limited designs, markets, distributes and retails branded men's and women's clothing, footwear and accessories in the United States, Canada, Latin America, Europe, the Middle East, Africa and Asia. The company is headquartered in London, the United Kingdom.",
+        "sector": "CONSUMER CYCLICAL",
+        "industry": "LUXURY GOODS"
+      }
     }
   }
 }
