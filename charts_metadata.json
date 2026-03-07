@@ -7359,6 +7359,38 @@
         "sector": "CONSUMER CYCLICAL",
         "industry": "RESTAURANTS"
       }
+    },
+    "RACE": {
+      "presets": {
+        "Revenue": {
+          "updated": "Mar 07, 2026 11:51 AM"
+        },
+        "Costs": {
+          "updated": "Mar 07, 2026 11:51 AM"
+        },
+        "Cash": {
+          "updated": "Mar 07, 2026 11:51 AM"
+        },
+        "FCF": {
+          "updated": "Mar 07, 2026 11:51 AM"
+        },
+        "Assets": {
+          "updated": "Mar 07, 2026 11:51 AM"
+        },
+        "Buffet": {
+          "updated": "Mar 07, 2026 11:51 AM"
+        }
+      },
+      "last_updated": "2026-03-07T11:51:37.326748",
+      "company": {
+        "name": "Ferrari NV",
+        "market_cap": "$60.04B",
+        "market_cap_raw": 60044607000.0,
+        "last_q_revenue": 1801541000.0,
+        "description": "Ferrari NV designs, designs, produces and sells high performance sports cars. The company is headquartered in Maranello, Italy.",
+        "sector": "CONSUMER CYCLICAL",
+        "industry": "AUTO MANUFACTURERS"
+      }
     }
   }
 }
