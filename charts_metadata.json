@@ -1059,30 +1059,30 @@
     "TSM": {
       "presets": {
         "Revenue": {
-          "updated": "Feb 16, 2026 12:31 AM"
+          "updated": "Mar 08, 2026 11:48 AM"
         },
         "Costs": {
-          "updated": "Feb 16, 2026 12:31 AM"
+          "updated": "Mar 08, 2026 11:48 AM"
         },
         "Cash": {
-          "updated": "Feb 16, 2026 12:31 AM"
+          "updated": "Mar 08, 2026 11:48 AM"
         },
         "FCF": {
-          "updated": "Feb 16, 2026 12:31 AM"
+          "updated": "Mar 08, 2026 11:48 AM"
         },
         "Assets": {
-          "updated": "Feb 16, 2026 12:31 AM"
+          "updated": "Mar 08, 2026 11:48 AM"
         },
         "Buffet": {
-          "updated": "Feb 16, 2026 12:31 AM"
+          "updated": "Mar 08, 2026 11:48 AM"
         }
       },
-      "last_updated": "2026-02-16T00:31:24.033432",
+      "last_updated": "2026-03-08T11:48:41.290539",
       "company": {
         "name": "Taiwan Semiconductor Manufacturing",
         "market_cap": "$1.53T",
         "market_cap_raw": 1532352922000.0,
-        "last_q_revenue": 989918000000.0,
+        "last_q_revenue": 31118730625.47,
         "description": "Taiwan Semiconductor Manufacturing Company, Limited (TSMC) is the world's premier pure-play semiconductor foundry, recognized for its advanced manufacturing and design capabilities in integrated circuits. With its headquarters in Hsinchu, Taiwan, TSMC serves a diverse clientele, including industry leaders in smartphones, high-performance computing, and automotive sectors, underscoring its pivotal role in the global technology supply chain. The company's commitment to innovation is evidenced by substantial investments in state-of-the-art technologies, positioning it as a leader in semiconductor fabrication and facilitating critical advancements across consumer and enterprise landscapes. TSMC's strong international presence is further reflected in its predominantly foreign investor ownership, highlighting its strategic partnerships and influence in the global market.",
         "sector": "TECHNOLOGY",
         "industry": "SEMICONDUCTORS"
