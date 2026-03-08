@@ -7455,29 +7455,6 @@
         "sector": "CONSUMER CYCLICAL",
         "industry": "LUXURY GOODS"
       }
-    },
-    "TMS": {
-      "presets": {
-        "Revenue": {
-          "updated": "Mar 08, 2026 11:48 AM"
-        },
-        "Costs": {
-          "updated": "Mar 08, 2026 11:48 AM"
-        },
-        "Cash": {
-          "updated": "Mar 08, 2026 11:48 AM"
-        },
-        "FCF": {
-          "updated": "Mar 08, 2026 11:48 AM"
-        },
-        "Assets": {
-          "updated": "Mar 08, 2026 11:48 AM"
-        },
-        "Buffet": {
-          "updated": "Mar 08, 2026 11:48 AM"
-        }
-      },
-      "last_updated": "2026-03-08T11:48:33.463652"
     }
   }
 }
