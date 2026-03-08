@@ -1475,30 +1475,30 @@
     "ASML": {
       "presets": {
         "Revenue": {
-          "updated": "Feb 16, 2026 12:31 AM"
+          "updated": "Mar 08, 2026 11:34 AM"
         },
         "Costs": {
-          "updated": "Feb 16, 2026 12:31 AM"
+          "updated": "Mar 08, 2026 11:34 AM"
         },
         "Cash": {
-          "updated": "Feb 16, 2026 12:31 AM"
+          "updated": "Mar 08, 2026 11:34 AM"
         },
         "FCF": {
-          "updated": "Feb 16, 2026 12:31 AM"
+          "updated": "Mar 08, 2026 11:34 AM"
         },
         "Assets": {
-          "updated": "Feb 16, 2026 12:31 AM"
+          "updated": "Mar 08, 2026 11:34 AM"
         },
         "Buffet": {
-          "updated": "Feb 16, 2026 12:31 AM"
+          "updated": "Mar 08, 2026 11:34 AM"
         }
       },
-      "last_updated": "2026-02-16T00:31:15.346500",
+      "last_updated": "2026-03-08T11:34:04.000431",
       "company": {
         "name": "ASML Holding NV ADR",
         "market_cap": "$422.23B",
         "market_cap_raw": 422234784000.0,
-        "last_q_revenue": 7516000000.0,
+        "last_q_revenue": 8689247600.0,
         "description": "ASML Holding NV is a leading supplier of advanced semiconductor manufacturing equipment, specializing in cutting-edge lithography systems essential for the production of memory and logic chips. Headquartered in Veldhoven, Netherlands, the company is instrumental in the semiconductor supply chain, particularly through its pioneering extreme ultraviolet (EUV) lithography technology that enhances chip performance and efficiency. With a steadfast commitment to innovation and strategic partnerships with major semiconductor manufacturers, ASML is ideally positioned to benefit from the growing demand for high-performance computing solutions and the ongoing digital transformation across various industries.",
         "sector": "TECHNOLOGY",
         "industry": "SEMICONDUCTOR EQUIPMENT & MATERIALS"
