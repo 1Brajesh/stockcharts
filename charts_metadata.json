@@ -1475,25 +1475,25 @@
     "ASML": {
       "presets": {
         "Revenue": {
-          "updated": "Mar 08, 2026 11:45 AM"
+          "updated": "Mar 08, 2026 03:45 PM"
         },
         "Costs": {
-          "updated": "Mar 08, 2026 11:45 AM"
+          "updated": "Mar 08, 2026 03:45 PM"
         },
         "Cash": {
-          "updated": "Mar 08, 2026 11:45 AM"
+          "updated": "Mar 08, 2026 03:45 PM"
         },
         "FCF": {
-          "updated": "Mar 08, 2026 11:45 AM"
+          "updated": "Mar 08, 2026 03:45 PM"
         },
         "Assets": {
-          "updated": "Mar 08, 2026 11:45 AM"
+          "updated": "Mar 08, 2026 03:45 PM"
         },
         "Buffet": {
-          "updated": "Mar 08, 2026 11:45 AM"
+          "updated": "Mar 08, 2026 03:45 PM"
         }
       },
-      "last_updated": "2026-03-08T11:45:55.483947",
+      "last_updated": "2026-03-08T15:45:35.008506",
       "company": {
         "name": "ASML Holding NV ADR",
         "market_cap": "$422.23B",
@@ -1795,30 +1795,30 @@
     "STLA": {
       "presets": {
         "Revenue": {
-          "updated": "Feb 16, 2026 12:31 AM"
+          "updated": "Mar 08, 2026 03:45 PM"
         },
         "Costs": {
-          "updated": "Feb 16, 2026 12:31 AM"
+          "updated": "Mar 08, 2026 03:45 PM"
         },
         "Cash": {
-          "updated": "Feb 16, 2026 12:31 AM"
+          "updated": "Mar 08, 2026 03:45 PM"
         },
         "FCF": {
-          "updated": "Feb 16, 2026 12:31 AM"
+          "updated": "Mar 08, 2026 03:45 PM"
         },
         "Assets": {
-          "updated": "Feb 16, 2026 12:31 AM"
+          "updated": "Mar 08, 2026 03:45 PM"
         },
         "Buffet": {
-          "updated": "Feb 16, 2026 12:31 AM"
+          "updated": "Mar 08, 2026 03:45 PM"
         }
       },
-      "last_updated": "2026-02-16T00:31:23.211897",
+      "last_updated": "2026-03-08T15:45:35.309180",
       "company": {
         "name": "Stellantis NV",
         "market_cap": "$31.92B",
         "market_cap_raw": 31920400000.0,
-        "last_q_revenue": 74261000000.0,
+        "last_q_revenue": 85853142100.0,
         "description": "Stellantis NV, headquartered in Lijnden, Netherlands, is a prominent global automotive manufacturer formed by the merger of Fiat Chrysler Automobiles and PSA Group. The company features a diversified portfolio of well-known brands, offering a range of passenger cars, trucks, SUVs, and light commercial vehicles, while prioritizing innovation and sustainability. Stellantis is proactively advancing its electric and connected vehicle initiatives, aligning with market trends and consumer demands. As the automotive industry faces transformative changes, Stellantis is dedicated to enhancing mobility through advanced technologies and optimizing operational efficiencies, positioning itself for sustainable long-term growth.",
         "sector": "CONSUMER CYCLICAL",
         "industry": "AUTO MANUFACTURERS"
@@ -2147,25 +2147,25 @@
     "CYBN": {
       "presets": {
         "Revenue": {
-          "updated": "Feb 16, 2026 12:31 AM"
+          "updated": "Mar 08, 2026 03:45 PM"
         },
         "Costs": {
-          "updated": "Feb 16, 2026 12:31 AM"
+          "updated": "Mar 08, 2026 03:45 PM"
         },
         "Cash": {
-          "updated": "Feb 16, 2026 12:31 AM"
+          "updated": "Mar 08, 2026 03:45 PM"
         },
         "FCF": {
-          "updated": "Feb 16, 2026 12:31 AM"
+          "updated": "Mar 08, 2026 03:45 PM"
         },
         "Assets": {
-          "updated": "Feb 16, 2026 12:31 AM"
+          "updated": "Mar 08, 2026 03:45 PM"
         },
         "Buffet": {
-          "updated": "Feb 16, 2026 12:31 AM"
+          "updated": "Mar 08, 2026 03:45 PM"
         }
       },
-      "last_updated": "2026-02-16T00:31:16.705456",
+      "last_updated": "2026-03-08T15:45:35.043705",
       "company": {
         "name": "Cybin\u00a0Inc",
         "market_cap": "$413.12M",
@@ -3171,25 +3171,25 @@
     "ONCY": {
       "presets": {
         "Revenue": {
-          "updated": "Feb 16, 2026 12:31 AM"
+          "updated": "Mar 08, 2026 03:45 PM"
         },
         "Costs": {
-          "updated": "Feb 16, 2026 12:31 AM"
+          "updated": "Mar 08, 2026 03:45 PM"
         },
         "Cash": {
-          "updated": "Feb 16, 2026 12:31 AM"
+          "updated": "Mar 08, 2026 03:45 PM"
         },
         "FCF": {
-          "updated": "Feb 16, 2026 12:31 AM"
+          "updated": "Mar 08, 2026 03:45 PM"
         },
         "Assets": {
-          "updated": "Feb 16, 2026 12:31 AM"
+          "updated": "Mar 08, 2026 03:45 PM"
         },
         "Buffet": {
-          "updated": "Feb 16, 2026 12:31 AM"
+          "updated": "Mar 08, 2026 03:45 PM"
         }
       },
-      "last_updated": "2026-02-16T00:31:21.388355",
+      "last_updated": "2026-03-08T15:45:35.217961",
       "company": {
         "name": "Oncolytics Biotech Inc",
         "market_cap": "$104.19M",
@@ -3459,25 +3459,25 @@
     "FMST": {
       "presets": {
         "Revenue": {
-          "updated": "Feb 16, 2026 12:31 AM"
+          "updated": "Mar 08, 2026 03:45 PM"
         },
         "Costs": {
-          "updated": "Feb 16, 2026 12:31 AM"
+          "updated": "Mar 08, 2026 03:45 PM"
         },
         "Cash": {
-          "updated": "Feb 16, 2026 12:31 AM"
+          "updated": "Mar 08, 2026 03:45 PM"
         },
         "FCF": {
-          "updated": "Feb 16, 2026 12:31 AM"
+          "updated": "Mar 08, 2026 03:45 PM"
         },
         "Assets": {
-          "updated": "Feb 16, 2026 12:31 AM"
+          "updated": "Mar 08, 2026 03:45 PM"
         },
         "Buffet": {
-          "updated": "Feb 16, 2026 12:31 AM"
+          "updated": "Mar 08, 2026 03:45 PM"
         }
       },
-      "last_updated": "2026-02-16T00:31:17.454550",
+      "last_updated": "2026-03-08T15:45:35.094575",
       "company": {
         "name": "Foremost Lithium Resource & Technology Ltd. Common stock aka Foremost Clean Energy",
         "market_cap": "$31.63M",
@@ -3491,30 +3491,30 @@
     "GRVY": {
       "presets": {
         "Revenue": {
-          "updated": "Feb 16, 2026 12:31 AM"
+          "updated": "Mar 08, 2026 03:45 PM"
         },
         "Costs": {
-          "updated": "Feb 16, 2026 12:31 AM"
+          "updated": "Mar 08, 2026 03:45 PM"
         },
         "Cash": {
-          "updated": "Feb 16, 2026 12:31 AM"
+          "updated": "Mar 08, 2026 03:45 PM"
         },
         "FCF": {
-          "updated": "Feb 16, 2026 12:31 AM"
+          "updated": "Mar 08, 2026 03:45 PM"
         },
         "Assets": {
-          "updated": "Feb 16, 2026 12:31 AM"
+          "updated": "Mar 08, 2026 03:45 PM"
         },
         "Buffet": {
-          "updated": "Feb 16, 2026 12:31 AM"
+          "updated": "Mar 08, 2026 03:45 PM"
         }
       },
-      "last_updated": "2026-02-16T00:31:17.843791",
+      "last_updated": "2026-03-08T15:45:35.116685",
       "company": {
         "name": "Gravity Co Ltd",
         "market_cap": "$494.48M",
         "market_cap_raw": 494484000.0,
-        "last_q_revenue": 138894000000.0,
+        "last_q_revenue": 93058980.0,
         "description": "Gravity Co., Ltd. is a leading developer and publisher of online games, renowned for its innovative flagship titles and dedication to providing engaging gameplay experiences. Headquartered in Seoul, South Korea, the company has established a strong foothold in key Asian markets such as Taiwan, Thailand, and the Philippines, while actively pursuing international expansion opportunities. With a diversified portfolio that encompasses both mobile and PC gaming, Gravity is strategically positioned to leverage the growing global demand for interactive entertainment, presenting a compelling investment opportunity for institutional investors looking to engage with the dynamic and expanding gaming industry.",
         "sector": "COMMUNICATION SERVICES",
         "industry": "ELECTRONIC GAMING & MULTIMEDIA"
@@ -4259,30 +4259,30 @@
     "ERIC": {
       "presets": {
         "Revenue": {
-          "updated": "Feb 16, 2026 12:31 AM"
+          "updated": "Mar 08, 2026 03:45 PM"
         },
         "Costs": {
-          "updated": "Feb 16, 2026 12:31 AM"
+          "updated": "Mar 08, 2026 03:45 PM"
         },
         "Cash": {
-          "updated": "Feb 16, 2026 12:31 AM"
+          "updated": "Mar 08, 2026 03:45 PM"
         },
         "FCF": {
-          "updated": "Feb 16, 2026 12:31 AM"
+          "updated": "Mar 08, 2026 03:45 PM"
         },
         "Assets": {
-          "updated": "Feb 16, 2026 12:31 AM"
+          "updated": "Mar 08, 2026 03:45 PM"
         },
         "Buffet": {
-          "updated": "Feb 16, 2026 12:31 AM"
+          "updated": "Mar 08, 2026 03:45 PM"
         }
       },
-      "last_updated": "2026-02-16T00:31:17.233436",
+      "last_updated": "2026-03-08T15:45:35.064499",
       "company": {
         "name": "Telefonaktiebolaget LM Ericsson B ADR",
         "market_cap": "$32.27B",
         "market_cap_raw": 32266215000.0,
-        "last_q_revenue": 55338681000.0,
+        "last_q_revenue": 5983218189.719999,
         "description": "Telefonaktiebolaget LM Ericsson (ADR) is a leading global provider of telecommunications infrastructure, services, and software solutions, headquartered in Stockholm, Sweden. With a strong focus on innovation, Ericsson is a pioneer in the deployment of 5G networks and Internet of Things (IoT) technologies, positioning itself as a critical enabler of digital transformation across various industries. The company is dedicated to sustainable development and enhancing customer experiences, strategically capitalizing on the growing demand for advanced communication technologies. As a key player in the telecommunications sector, Ericsson is well-positioned to navigate and excel in the dynamic market landscape.",
         "sector": "TECHNOLOGY",
         "industry": "COMMUNICATION EQUIPMENT"
@@ -4355,30 +4355,30 @@
     "HMC": {
       "presets": {
         "Revenue": {
-          "updated": "Feb 16, 2026 12:31 AM"
+          "updated": "Mar 08, 2026 03:45 PM"
         },
         "Costs": {
-          "updated": "Feb 16, 2026 12:31 AM"
+          "updated": "Mar 08, 2026 03:45 PM"
         },
         "Cash": {
-          "updated": "Feb 16, 2026 12:31 AM"
+          "updated": "Mar 08, 2026 03:45 PM"
         },
         "FCF": {
-          "updated": "Feb 16, 2026 12:31 AM"
+          "updated": "Mar 08, 2026 03:45 PM"
         },
         "Assets": {
-          "updated": "Feb 16, 2026 12:31 AM"
+          "updated": "Mar 08, 2026 03:45 PM"
         },
         "Buffet": {
-          "updated": "Feb 16, 2026 12:31 AM"
+          "updated": "Mar 08, 2026 03:45 PM"
         }
       },
-      "last_updated": "2026-02-16T00:31:18.405696",
+      "last_updated": "2026-03-08T15:45:35.146033",
       "company": {
         "name": "Honda Motor Co Ltd ADR",
         "market_cap": "$39.08B",
         "market_cap_raw": 39081202000.0,
-        "last_q_revenue": 5292412000000.0,
+        "last_q_revenue": 33500967960.0,
         "description": "Honda Motor Co., Ltd. (HMC) is a leading global automotive and motorcycle manufacturer based in Tokyo, Japan, well-known for its commitment to innovation and sustainability. The company is actively transitioning towards electrification, backed by a comprehensive portfolio that includes vehicles, power equipment, and advanced technologies. Honda's strategic global presence across North America, Europe, and Asia, combined with its rigorous quality standards and efficient supply chain, ensures its competitive edge in the dynamic automotive market. With a focus on environmental initiatives and cutting-edge mobility solutions, Honda continues to redefine the future of transportation.",
         "sector": "CONSUMER CYCLICAL",
         "industry": "AUTO MANUFACTURERS"
@@ -4547,30 +4547,30 @@
     "NOK": {
       "presets": {
         "Revenue": {
-          "updated": "Feb 16, 2026 12:31 AM"
+          "updated": "Mar 08, 2026 03:45 PM"
         },
         "Costs": {
-          "updated": "Feb 16, 2026 12:31 AM"
+          "updated": "Mar 08, 2026 03:45 PM"
         },
         "Cash": {
-          "updated": "Feb 16, 2026 12:31 AM"
+          "updated": "Mar 08, 2026 03:45 PM"
         },
         "FCF": {
-          "updated": "Feb 16, 2026 12:31 AM"
+          "updated": "Mar 08, 2026 03:45 PM"
         },
         "Assets": {
-          "updated": "Feb 16, 2026 12:31 AM"
+          "updated": "Mar 08, 2026 03:45 PM"
         },
         "Buffet": {
-          "updated": "Feb 16, 2026 12:31 AM"
+          "updated": "Mar 08, 2026 03:45 PM"
         }
       },
-      "last_updated": "2026-02-16T00:31:21.200165",
+      "last_updated": "2026-03-08T15:45:35.185691",
       "company": {
         "name": "Nokia Corp ADR",
         "market_cap": "$36.84B",
         "market_cap_raw": 36837835000.0,
-        "last_q_revenue": 4833000000.0,
+        "last_q_revenue": 5587431300.0,
         "description": "Nokia Corporation (ADR) is a prominent global telecommunications leader headquartered in Espoo, Finland, renowned for its cutting-edge solutions in fixed and mobile networks, particularly in 5G technology, software, and the Internet of Things (IoT). The company plays a crucial role in facilitating digital transformation for communication service providers and enterprises, enhancing both connectivity and operational efficiency through its extensive product portfolio. With a strong commitment to sustainability, Nokia is integral to advancing the telecommunications industry while driving innovation that supports global connectivity and sector-wide performance improvements.",
         "sector": "TECHNOLOGY",
         "industry": "COMMUNICATION EQUIPMENT"
@@ -4835,30 +4835,30 @@
     "SPOT": {
       "presets": {
         "Revenue": {
-          "updated": "Feb 16, 2026 12:31 AM"
+          "updated": "Mar 08, 2026 03:45 PM"
         },
         "Costs": {
-          "updated": "Feb 16, 2026 12:31 AM"
+          "updated": "Mar 08, 2026 03:45 PM"
         },
         "Cash": {
-          "updated": "Feb 16, 2026 12:31 AM"
+          "updated": "Mar 08, 2026 03:45 PM"
         },
         "FCF": {
-          "updated": "Feb 16, 2026 12:31 AM"
+          "updated": "Mar 08, 2026 03:45 PM"
         },
         "Assets": {
-          "updated": "Feb 16, 2026 12:31 AM"
+          "updated": "Mar 08, 2026 03:45 PM"
         },
         "Buffet": {
-          "updated": "Feb 16, 2026 12:31 AM"
+          "updated": "Mar 08, 2026 03:45 PM"
         }
       },
-      "last_updated": "2026-02-16T00:31:23.056692",
+      "last_updated": "2026-03-08T15:45:35.280479",
       "company": {
         "name": "Spotify Technology SA",
         "market_cap": "$120.77B",
         "market_cap_raw": 120771256000.0,
-        "last_q_revenue": 4272000000.0,
+        "last_q_revenue": 4938859200.0,
         "description": "Spotify Technology SA is a premier global audio streaming service based in Luxembourg, transforming the interaction between users and audio content with its vast library of music and podcasts. Renowned for its cutting-edge recommendation algorithms and robust creator partnerships, Spotify has established a dynamic ecosystem that appeals to both listeners and artists. As the company adapts to the rapidly changing digital media environment, its strategic focus on growth and monetization indicates substantial opportunities ahead, making it an attractive investment for institutional investors looking to capitalize on the expanding audio streaming sector.",
         "sector": "COMMUNICATION SERVICES",
         "industry": "INTERNET CONTENT & INFORMATION"
@@ -5539,30 +5539,30 @@
     "WIT": {
       "presets": {
         "Revenue": {
-          "updated": "Feb 17, 2026 01:54 AM"
+          "updated": "Mar 08, 2026 03:45 PM"
         },
         "Costs": {
-          "updated": "Feb 17, 2026 01:54 AM"
+          "updated": "Mar 08, 2026 03:45 PM"
         },
         "Cash": {
-          "updated": "Feb 17, 2026 01:54 AM"
+          "updated": "Mar 08, 2026 03:45 PM"
         },
         "FCF": {
-          "updated": "Feb 17, 2026 01:54 AM"
+          "updated": "Mar 08, 2026 03:45 PM"
         },
         "Assets": {
-          "updated": "Feb 17, 2026 01:54 AM"
+          "updated": "Mar 08, 2026 03:45 PM"
         },
         "Buffet": {
-          "updated": "Feb 17, 2026 01:54 AM"
+          "updated": "Mar 08, 2026 03:45 PM"
         }
       },
-      "last_updated": "2026-02-17T01:54:48.995610",
+      "last_updated": "2026-03-08T15:45:35.343258",
       "company": {
         "name": "Wipro Limited ADR",
         "market_cap": "$24.95B",
         "market_cap_raw": 24947880000.0,
-        "last_q_revenue": 237515261000.0,
+        "last_q_revenue": 2586541192.29,
         "description": "Wipro Limited is a global information technology (IT), consulting and business process services company. The company is headquartered in Bengaluru, India.",
         "sector": "TECHNOLOGY",
         "industry": "INFORMATION TECHNOLOGY SERVICES"
@@ -7363,30 +7363,30 @@
     "RACE": {
       "presets": {
         "Revenue": {
-          "updated": "Mar 07, 2026 11:51 AM"
+          "updated": "Mar 08, 2026 03:45 PM"
         },
         "Costs": {
-          "updated": "Mar 07, 2026 11:51 AM"
+          "updated": "Mar 08, 2026 03:45 PM"
         },
         "Cash": {
-          "updated": "Mar 07, 2026 11:51 AM"
+          "updated": "Mar 08, 2026 03:45 PM"
         },
         "FCF": {
-          "updated": "Mar 07, 2026 11:51 AM"
+          "updated": "Mar 08, 2026 03:45 PM"
         },
         "Assets": {
-          "updated": "Mar 07, 2026 11:51 AM"
+          "updated": "Mar 08, 2026 03:45 PM"
         },
         "Buffet": {
-          "updated": "Mar 07, 2026 11:51 AM"
+          "updated": "Mar 08, 2026 03:45 PM"
         }
       },
-      "last_updated": "2026-03-07T11:51:37.326748",
+      "last_updated": "2026-03-08T15:45:35.244564",
       "company": {
         "name": "Ferrari NV",
         "market_cap": "$60.04B",
         "market_cap_raw": 60044607000.0,
-        "last_q_revenue": 1801541000.0,
+        "last_q_revenue": 2082761550.1,
         "description": "Ferrari NV designs, designs, produces and sells high performance sports cars. The company is headquartered in Maranello, Italy.",
         "sector": "CONSUMER CYCLICAL",
         "industry": "AUTO MANUFACTURERS"
