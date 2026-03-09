@@ -7456,29 +7456,6 @@
         "industry": "LUXURY GOODS"
       }
     },
-    "KTTS": {
-      "presets": {
-        "Revenue": {
-          "updated": "Mar 08, 2026 11:25 PM"
-        },
-        "Costs": {
-          "updated": "Mar 08, 2026 11:25 PM"
-        },
-        "Cash": {
-          "updated": "Mar 08, 2026 11:25 PM"
-        },
-        "FCF": {
-          "updated": "Mar 08, 2026 11:25 PM"
-        },
-        "Assets": {
-          "updated": "Mar 08, 2026 11:25 PM"
-        },
-        "Buffet": {
-          "updated": "Mar 08, 2026 11:25 PM"
-        }
-      },
-      "last_updated": "2026-03-08T23:25:03.239420"
-    },
     "KTTA": {
       "presets": {
         "Revenue": {
