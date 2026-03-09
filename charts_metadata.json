@@ -2915,25 +2915,25 @@
     "STEX": {
       "presets": {
         "Revenue": {
-          "updated": "Feb 16, 2026 12:31 AM"
+          "updated": "Mar 09, 2026 02:59 PM"
         },
         "Costs": {
-          "updated": "Feb 16, 2026 12:31 AM"
+          "updated": "Mar 09, 2026 02:59 PM"
         },
         "Cash": {
-          "updated": "Feb 16, 2026 12:31 AM"
+          "updated": "Mar 09, 2026 02:59 PM"
         },
         "FCF": {
-          "updated": "Feb 16, 2026 12:31 AM"
+          "updated": "Mar 09, 2026 02:59 PM"
         },
         "Assets": {
-          "updated": "Feb 16, 2026 12:31 AM"
+          "updated": "Mar 09, 2026 02:59 PM"
         },
         "Buffet": {
-          "updated": "Feb 16, 2026 12:31 AM"
+          "updated": "Mar 09, 2026 02:59 PM"
         }
       },
-      "last_updated": "2026-02-16T00:31:23.145030",
+      "last_updated": "2026-03-09T14:59:20.468292",
       "company": {
         "name": "Streamex Corp",
         "market_cap": "N/A",
