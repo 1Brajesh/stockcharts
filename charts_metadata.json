@@ -7478,6 +7478,38 @@
         }
       },
       "last_updated": "2026-03-08T23:25:03.239420"
+    },
+    "KTTA": {
+      "presets": {
+        "Revenue": {
+          "updated": "Mar 08, 2026 11:25 PM"
+        },
+        "Costs": {
+          "updated": "Mar 08, 2026 11:25 PM"
+        },
+        "Cash": {
+          "updated": "Mar 08, 2026 11:25 PM"
+        },
+        "FCF": {
+          "updated": "Mar 08, 2026 11:25 PM"
+        },
+        "Assets": {
+          "updated": "Mar 08, 2026 11:25 PM"
+        },
+        "Buffet": {
+          "updated": "Mar 08, 2026 11:25 PM"
+        }
+      },
+      "last_updated": "2026-03-08T23:25:56.952428",
+      "company": {
+        "name": "Pasithea Therapeutics Corp",
+        "market_cap": "$25.09M",
+        "market_cap_raw": 25086800.0,
+        "last_q_revenue": 0.0,
+        "description": "Pasithea Therapeutics Corp. The company is headquartered in Miami Beach, Florida.",
+        "sector": "HEALTHCARE",
+        "industry": "BIOTECHNOLOGY"
+      }
     }
   }
 }
