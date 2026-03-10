@@ -3,25 +3,25 @@
     "TSLA": {
       "presets": {
         "Revenue": {
-          "updated": "Mar 01, 2026 11:41 PM"
+          "updated": "Mar 10, 2026 01:19 AM"
         },
         "Costs": {
-          "updated": "Mar 01, 2026 11:41 PM"
+          "updated": "Mar 10, 2026 01:19 AM"
         },
         "Cash": {
-          "updated": "Mar 01, 2026 11:41 PM"
+          "updated": "Mar 10, 2026 01:19 AM"
         },
         "FCF": {
-          "updated": "Mar 01, 2026 11:41 PM"
+          "updated": "Mar 10, 2026 01:19 AM"
         },
         "Assets": {
-          "updated": "Mar 01, 2026 11:41 PM"
+          "updated": "Mar 10, 2026 01:19 AM"
         },
         "Buffet": {
-          "updated": "Mar 01, 2026 11:41 PM"
+          "updated": "Mar 10, 2026 01:19 AM"
         }
       },
-      "last_updated": "2026-03-01T23:41:29.458194",
+      "last_updated": "2026-03-10T01:19:16.235490",
       "company": {
         "name": "Tesla Inc",
         "market_cap": "$1.42T",
