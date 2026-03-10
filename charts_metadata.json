@@ -7491,25 +7491,43 @@
     "KNRX": {
       "presets": {
         "Revenue": {
-          "updated": "Mar 10, 2026 01:01 AM"
+          "updated": "Mar 10, 2026 01:11 AM"
         },
         "Costs": {
-          "updated": "Mar 10, 2026 01:01 AM"
+          "updated": "Mar 10, 2026 01:11 AM"
         },
         "Cash": {
-          "updated": "Mar 10, 2026 01:01 AM"
+          "updated": "Mar 10, 2026 01:11 AM"
         },
         "FCF": {
-          "updated": "Mar 10, 2026 01:01 AM"
+          "updated": "Mar 10, 2026 01:11 AM"
         },
         "Assets": {
-          "updated": "Mar 10, 2026 01:01 AM"
+          "updated": "Mar 10, 2026 01:11 AM"
         },
         "Buffet": {
-          "updated": "Mar 10, 2026 01:01 AM"
+          "updated": "Mar 10, 2026 01:11 AM"
+        },
+        "Revenue-A": {
+          "updated": "Mar 10, 2026 01:11 AM"
+        },
+        "Costs-A": {
+          "updated": "Mar 10, 2026 01:11 AM"
+        },
+        "Cash-A": {
+          "updated": "Mar 10, 2026 01:11 AM"
+        },
+        "FCF-A": {
+          "updated": "Mar 10, 2026 01:11 AM"
+        },
+        "Assets-A": {
+          "updated": "Mar 10, 2026 01:11 AM"
+        },
+        "Buffet-A": {
+          "updated": "Mar 10, 2026 01:11 AM"
         }
       },
-      "last_updated": "2026-03-10T01:01:57.923025",
+      "last_updated": "2026-03-10T01:11:44.641614",
       "company": {
         "name": "KNOREX LTD.",
         "market_cap": "$34.99M",
