@@ -7487,6 +7487,38 @@
         "sector": "HEALTHCARE",
         "industry": "BIOTECHNOLOGY"
       }
+    },
+    "KNRX": {
+      "presets": {
+        "Revenue": {
+          "updated": "Mar 10, 2026 12:11 AM"
+        },
+        "Costs": {
+          "updated": "Mar 10, 2026 12:11 AM"
+        },
+        "Cash": {
+          "updated": "Mar 10, 2026 12:11 AM"
+        },
+        "FCF": {
+          "updated": "Mar 10, 2026 12:11 AM"
+        },
+        "Assets": {
+          "updated": "Mar 10, 2026 12:11 AM"
+        },
+        "Buffet": {
+          "updated": "Mar 10, 2026 12:11 AM"
+        }
+      },
+      "last_updated": "2026-03-10T00:11:35.321849",
+      "company": {
+        "name": "KNOREX LTD.",
+        "market_cap": "$34.99M",
+        "market_cap_raw": 34986600.0,
+        "last_q_revenue": null,
+        "description": "Knorex Ltd., a B2B technology company, specializes in providing programmatic advertising products and solutions to marketers to streamline and automate their advertising and marketing workflows. The company is headquartered in Singapore.",
+        "sector": "TECHNOLOGY",
+        "industry": "SOFTWARE - APPLICATION"
+      }
     }
   }
 }
