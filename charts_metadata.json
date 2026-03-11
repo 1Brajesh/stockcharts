@@ -7646,6 +7646,29 @@
         "sector": "HEALTHCARE",
         "industry": "BIOTECHNOLOGY"
       }
+    },
+    "CTXS": {
+      "presets": {
+        "Revenue": {
+          "updated": "Mar 10, 2026 11:58 PM"
+        },
+        "Costs": {
+          "updated": "Mar 10, 2026 11:58 PM"
+        },
+        "Cash": {
+          "updated": "Mar 10, 2026 11:58 PM"
+        },
+        "FCF": {
+          "updated": "Mar 10, 2026 11:58 PM"
+        },
+        "Assets": {
+          "updated": "Mar 10, 2026 11:58 PM"
+        },
+        "Buffet": {
+          "updated": "Mar 10, 2026 11:58 PM"
+        }
+      },
+      "last_updated": "2026-03-10T23:58:02.371538"
     }
   }
 }
