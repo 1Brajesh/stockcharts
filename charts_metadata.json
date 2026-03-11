@@ -7591,6 +7591,61 @@
         "sector": "TECHNOLOGY",
         "industry": "SOFTWARE - APPLICATION"
       }
+    },
+    "CTSX": {
+      "presets": {
+        "Revenue": {
+          "updated": "Mar 10, 2026 11:57 PM"
+        },
+        "Costs": {
+          "updated": "Mar 10, 2026 11:57 PM"
+        },
+        "Cash": {
+          "updated": "Mar 10, 2026 11:57 PM"
+        },
+        "FCF": {
+          "updated": "Mar 10, 2026 11:57 PM"
+        },
+        "Assets": {
+          "updated": "Mar 10, 2026 11:57 PM"
+        },
+        "Buffet": {
+          "updated": "Mar 10, 2026 11:57 PM"
+        }
+      },
+      "last_updated": "2026-03-10T23:57:20.151241"
+    },
+    "CTXR": {
+      "presets": {
+        "Revenue": {
+          "updated": "Mar 10, 2026 11:57 PM"
+        },
+        "Costs": {
+          "updated": "Mar 10, 2026 11:57 PM"
+        },
+        "Cash": {
+          "updated": "Mar 10, 2026 11:57 PM"
+        },
+        "FCF": {
+          "updated": "Mar 10, 2026 11:57 PM"
+        },
+        "Assets": {
+          "updated": "Mar 10, 2026 11:57 PM"
+        },
+        "Buffet": {
+          "updated": "Mar 10, 2026 11:57 PM"
+        }
+      },
+      "last_updated": "2026-03-10T23:57:20.164147",
+      "company": {
+        "name": "Citius Pharmaceuticals Inc",
+        "market_cap": "$18.77M",
+        "market_cap_raw": 18773800.0,
+        "last_q_revenue": 3944111.0,
+        "description": "Citius Pharmaceuticals, Inc., a specialty pharmaceutical company, develops and markets critical care products. The company is headquartered in Cranford, New Jersey.",
+        "sector": "HEALTHCARE",
+        "industry": "BIOTECHNOLOGY"
+      }
     }
   }
 }
