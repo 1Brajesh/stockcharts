@@ -7623,6 +7623,206 @@
         "sector": "HEALTHCARE",
         "industry": "BIOTECHNOLOGY"
       }
+    },
+    "VSAT": {
+      "presets": {
+        "Revenue": {
+          "updated": "Mar 12, 2026 12:43 AM"
+        },
+        "Costs": {
+          "updated": "Mar 12, 2026 12:43 AM"
+        },
+        "Cash": {
+          "updated": "Mar 12, 2026 12:43 AM"
+        },
+        "FCF": {
+          "updated": "Mar 12, 2026 12:43 AM"
+        },
+        "Assets": {
+          "updated": "Mar 12, 2026 12:43 AM"
+        },
+        "Buffet": {
+          "updated": "Mar 12, 2026 12:43 AM"
+        },
+        "Revenue-A": {
+          "updated": "Mar 12, 2026 12:43 AM"
+        },
+        "Costs-A": {
+          "updated": "Mar 12, 2026 12:43 AM"
+        },
+        "Cash-A": {
+          "updated": "Mar 12, 2026 12:43 AM"
+        },
+        "FCF-A": {
+          "updated": "Mar 12, 2026 12:43 AM"
+        },
+        "Assets-A": {
+          "updated": "Mar 12, 2026 12:43 AM"
+        },
+        "Buffet-A": {
+          "updated": "Mar 12, 2026 12:43 AM"
+        }
+      },
+      "last_updated": "2026-03-12T00:43:30.514917",
+      "company": {
+        "name": "ViaSat Inc",
+        "market_cap": "$6.30B",
+        "market_cap_raw": 6301219000.0,
+        "last_q_revenue": 1157045000.0,
+        "description": "Viasat, Inc. provides worldwide broadband and communications products and services. The company is headquartered in Carlsbad, California.",
+        "sector": "TECHNOLOGY",
+        "industry": "COMMUNICATION EQUIPMENT"
+      }
+    },
+    "ULTA": {
+      "presets": {
+        "Revenue": {
+          "updated": "Mar 12, 2026 12:43 AM"
+        },
+        "Costs": {
+          "updated": "Mar 12, 2026 12:43 AM"
+        },
+        "Cash": {
+          "updated": "Mar 12, 2026 12:43 AM"
+        },
+        "FCF": {
+          "updated": "Mar 12, 2026 12:43 AM"
+        },
+        "Assets": {
+          "updated": "Mar 12, 2026 12:43 AM"
+        },
+        "Buffet": {
+          "updated": "Mar 12, 2026 12:43 AM"
+        },
+        "Revenue-A": {
+          "updated": "Mar 12, 2026 12:43 AM"
+        },
+        "Costs-A": {
+          "updated": "Mar 12, 2026 12:43 AM"
+        },
+        "Cash-A": {
+          "updated": "Mar 12, 2026 12:43 AM"
+        },
+        "FCF-A": {
+          "updated": "Mar 12, 2026 12:43 AM"
+        },
+        "Assets-A": {
+          "updated": "Mar 12, 2026 12:43 AM"
+        },
+        "Buffet-A": {
+          "updated": "Mar 12, 2026 12:43 AM"
+        }
+      },
+      "last_updated": "2026-03-12T00:43:30.551944",
+      "company": {
+        "name": "Ulta Beauty Inc",
+        "market_cap": "$29.02B",
+        "market_cap_raw": 29020733000.0,
+        "last_q_revenue": 2857623000.0,
+        "description": "Ulta Beauty, Inc., formerly known as Ulta Salon, Cosmetics & Fragrance Inc., is an American chain of beauty stores headquartered in Bolingbrook, Illinois. Ulta Beauty carries cosmetics and skincare brands, men's and women's fragrances, nail products, bath and body products, beauty tools and haircare products.",
+        "sector": "CONSUMER CYCLICAL",
+        "industry": "SPECIALTY RETAIL"
+      }
+    },
+    "AMGN": {
+      "presets": {
+        "Revenue": {
+          "updated": "Mar 12, 2026 12:43 AM"
+        },
+        "Costs": {
+          "updated": "Mar 12, 2026 12:43 AM"
+        },
+        "Cash": {
+          "updated": "Mar 12, 2026 12:43 AM"
+        },
+        "FCF": {
+          "updated": "Mar 12, 2026 12:43 AM"
+        },
+        "Assets": {
+          "updated": "Mar 12, 2026 12:43 AM"
+        },
+        "Buffet": {
+          "updated": "Mar 12, 2026 12:43 AM"
+        },
+        "Revenue-A": {
+          "updated": "Mar 12, 2026 12:43 AM"
+        },
+        "Costs-A": {
+          "updated": "Mar 12, 2026 12:43 AM"
+        },
+        "Cash-A": {
+          "updated": "Mar 12, 2026 12:43 AM"
+        },
+        "FCF-A": {
+          "updated": "Mar 12, 2026 12:43 AM"
+        },
+        "Assets-A": {
+          "updated": "Mar 12, 2026 12:43 AM"
+        },
+        "Buffet-A": {
+          "updated": "Mar 12, 2026 12:43 AM"
+        }
+      },
+      "last_updated": "2026-03-12T00:43:30.592212",
+      "company": {
+        "name": "Amgen Inc",
+        "market_cap": "$202.38B",
+        "market_cap_raw": 202382164000.0,
+        "last_q_revenue": 9896000000.0,
+        "description": "Amgen Inc. (formerly Applied Molecular Genetics Inc.) is an American multinational biopharmaceutical company headquartered in Thousand Oaks, California. Focused on molecular biology and biochemistry, its goal is to provide a healthcare business based on recombinant DNA technology.",
+        "sector": "HEALTHCARE",
+        "industry": "DRUG MANUFACTURERS - GENERAL"
+      }
+    },
+    "CVS": {
+      "presets": {
+        "Revenue": {
+          "updated": "Mar 12, 2026 12:43 AM"
+        },
+        "Costs": {
+          "updated": "Mar 12, 2026 12:43 AM"
+        },
+        "Cash": {
+          "updated": "Mar 12, 2026 12:43 AM"
+        },
+        "FCF": {
+          "updated": "Mar 12, 2026 12:43 AM"
+        },
+        "Assets": {
+          "updated": "Mar 12, 2026 12:43 AM"
+        },
+        "Buffet": {
+          "updated": "Mar 12, 2026 12:43 AM"
+        },
+        "Revenue-A": {
+          "updated": "Mar 12, 2026 12:43 AM"
+        },
+        "Costs-A": {
+          "updated": "Mar 12, 2026 12:43 AM"
+        },
+        "Cash-A": {
+          "updated": "Mar 12, 2026 12:43 AM"
+        },
+        "FCF-A": {
+          "updated": "Mar 12, 2026 12:43 AM"
+        },
+        "Assets-A": {
+          "updated": "Mar 12, 2026 12:43 AM"
+        },
+        "Buffet-A": {
+          "updated": "Mar 12, 2026 12:43 AM"
+        }
+      },
+      "last_updated": "2026-03-12T00:43:30.643276",
+      "company": {
+        "name": "CVS Health Corp",
+        "market_cap": "$97.10B",
+        "market_cap_raw": 97095148000.0,
+        "last_q_revenue": 105693000000.0,
+        "description": "CVS Health (previously CVS Corporation and CVS Caremark Corporation) is an American healthcare company that owns CVS Pharmacy, a retail pharmacy chain; CVS Caremark, a pharmacy benefits manager; Aetna, a health insurance provider, among many other brands. The company's headquarters is in Woonsocket, Rhode Island.",
+        "sector": "HEALTHCARE",
+        "industry": "HEALTHCARE PLANS"
+      }
     }
   }
 }
