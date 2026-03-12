@@ -3,25 +3,43 @@
     "TSLA": {
       "presets": {
         "Revenue": {
-          "updated": "Mar 10, 2026 01:19 AM"
+          "updated": "Mar 12, 2026 12:49 AM"
         },
         "Costs": {
-          "updated": "Mar 10, 2026 01:19 AM"
+          "updated": "Mar 12, 2026 12:49 AM"
         },
         "Cash": {
-          "updated": "Mar 10, 2026 01:19 AM"
+          "updated": "Mar 12, 2026 12:49 AM"
         },
         "FCF": {
-          "updated": "Mar 10, 2026 01:19 AM"
+          "updated": "Mar 12, 2026 12:49 AM"
         },
         "Assets": {
-          "updated": "Mar 10, 2026 01:19 AM"
+          "updated": "Mar 12, 2026 12:49 AM"
         },
         "Buffet": {
-          "updated": "Mar 10, 2026 01:19 AM"
+          "updated": "Mar 12, 2026 12:49 AM"
+        },
+        "Revenue-A": {
+          "updated": "Mar 12, 2026 12:49 AM"
+        },
+        "Costs-A": {
+          "updated": "Mar 12, 2026 12:49 AM"
+        },
+        "Cash-A": {
+          "updated": "Mar 12, 2026 12:49 AM"
+        },
+        "FCF-A": {
+          "updated": "Mar 12, 2026 12:49 AM"
+        },
+        "Assets-A": {
+          "updated": "Mar 12, 2026 12:49 AM"
+        },
+        "Buffet-A": {
+          "updated": "Mar 12, 2026 12:49 AM"
         }
       },
-      "last_updated": "2026-03-10T01:19:16.235490",
+      "last_updated": "2026-03-12T00:49:17.461582",
       "company": {
         "name": "Tesla Inc",
         "market_cap": "$1.42T",
@@ -149,25 +167,43 @@
     "GOOG": {
       "presets": {
         "Revenue": {
-          "updated": "Feb 16, 2026 12:31 AM"
+          "updated": "Mar 12, 2026 12:49 AM"
         },
         "Costs": {
-          "updated": "Feb 16, 2026 12:31 AM"
+          "updated": "Mar 12, 2026 12:49 AM"
         },
         "Cash": {
-          "updated": "Feb 16, 2026 12:31 AM"
+          "updated": "Mar 12, 2026 12:49 AM"
         },
         "FCF": {
-          "updated": "Feb 16, 2026 12:31 AM"
+          "updated": "Mar 12, 2026 12:49 AM"
         },
         "Assets": {
-          "updated": "Feb 16, 2026 12:31 AM"
+          "updated": "Mar 12, 2026 12:49 AM"
         },
         "Buffet": {
-          "updated": "Feb 16, 2026 12:31 AM"
+          "updated": "Mar 12, 2026 12:49 AM"
+        },
+        "Revenue-A": {
+          "updated": "Mar 12, 2026 12:49 AM"
+        },
+        "Costs-A": {
+          "updated": "Mar 12, 2026 12:49 AM"
+        },
+        "Cash-A": {
+          "updated": "Mar 12, 2026 12:49 AM"
+        },
+        "FCF-A": {
+          "updated": "Mar 12, 2026 12:49 AM"
+        },
+        "Assets-A": {
+          "updated": "Mar 12, 2026 12:49 AM"
+        },
+        "Buffet-A": {
+          "updated": "Mar 12, 2026 12:49 AM"
         }
       },
-      "last_updated": "2026-02-16T00:31:17.655047",
+      "last_updated": "2026-03-12T00:49:17.500916",
       "company": {
         "name": "Alphabet Inc Class C",
         "market_cap": "$3.89T",
@@ -519,25 +555,43 @@
     "AMZN": {
       "presets": {
         "Revenue": {
-          "updated": "Mar 05, 2026 05:43 PM"
+          "updated": "Mar 12, 2026 12:49 AM"
         },
         "Costs": {
-          "updated": "Mar 05, 2026 05:43 PM"
+          "updated": "Mar 12, 2026 12:49 AM"
         },
         "Cash": {
-          "updated": "Mar 05, 2026 05:43 PM"
+          "updated": "Mar 12, 2026 12:49 AM"
         },
         "FCF": {
-          "updated": "Mar 05, 2026 05:43 PM"
+          "updated": "Mar 12, 2026 12:49 AM"
         },
         "Assets": {
-          "updated": "Mar 05, 2026 05:43 PM"
+          "updated": "Mar 12, 2026 12:49 AM"
         },
         "Buffet": {
-          "updated": "Mar 05, 2026 05:43 PM"
+          "updated": "Mar 12, 2026 12:49 AM"
+        },
+        "Revenue-A": {
+          "updated": "Mar 12, 2026 12:49 AM"
+        },
+        "Costs-A": {
+          "updated": "Mar 12, 2026 12:49 AM"
+        },
+        "Cash-A": {
+          "updated": "Mar 12, 2026 12:49 AM"
+        },
+        "FCF-A": {
+          "updated": "Mar 12, 2026 12:49 AM"
+        },
+        "Assets-A": {
+          "updated": "Mar 12, 2026 12:49 AM"
+        },
+        "Buffet-A": {
+          "updated": "Mar 12, 2026 12:49 AM"
         }
       },
-      "last_updated": "2026-03-05T17:43:05.632749",
+      "last_updated": "2026-03-12T00:49:17.420877",
       "company": {
         "name": "Amazon.com Inc",
         "market_cap": "$2.42T",
@@ -1607,25 +1661,43 @@
     "META": {
       "presets": {
         "Revenue": {
-          "updated": "Feb 16, 2026 12:31 AM"
+          "updated": "Mar 12, 2026 12:49 AM"
         },
         "Costs": {
-          "updated": "Feb 16, 2026 12:31 AM"
+          "updated": "Mar 12, 2026 12:49 AM"
         },
         "Cash": {
-          "updated": "Feb 16, 2026 12:31 AM"
+          "updated": "Mar 12, 2026 12:49 AM"
         },
         "FCF": {
-          "updated": "Feb 16, 2026 12:31 AM"
+          "updated": "Mar 12, 2026 12:49 AM"
         },
         "Assets": {
-          "updated": "Feb 16, 2026 12:31 AM"
+          "updated": "Mar 12, 2026 12:49 AM"
         },
         "Buffet": {
-          "updated": "Feb 16, 2026 12:31 AM"
+          "updated": "Mar 12, 2026 12:49 AM"
+        },
+        "Revenue-A": {
+          "updated": "Mar 12, 2026 12:49 AM"
+        },
+        "Costs-A": {
+          "updated": "Mar 12, 2026 12:49 AM"
+        },
+        "Cash-A": {
+          "updated": "Mar 12, 2026 12:49 AM"
+        },
+        "FCF-A": {
+          "updated": "Mar 12, 2026 12:49 AM"
+        },
+        "Assets-A": {
+          "updated": "Mar 12, 2026 12:49 AM"
+        },
+        "Buffet-A": {
+          "updated": "Mar 12, 2026 12:49 AM"
         }
       },
-      "last_updated": "2026-02-16T00:31:20.572668",
+      "last_updated": "2026-03-12T00:49:17.605869",
       "company": {
         "name": "Meta Platforms Inc.",
         "market_cap": "$1.62T",
@@ -1639,25 +1711,43 @@
     "NVDA": {
       "presets": {
         "Revenue": {
-          "updated": "Feb 16, 2026 12:31 AM"
+          "updated": "Mar 12, 2026 12:49 AM"
         },
         "Costs": {
-          "updated": "Feb 16, 2026 12:31 AM"
+          "updated": "Mar 12, 2026 12:49 AM"
         },
         "Cash": {
-          "updated": "Feb 16, 2026 12:31 AM"
+          "updated": "Mar 12, 2026 12:49 AM"
         },
         "FCF": {
-          "updated": "Feb 16, 2026 12:31 AM"
+          "updated": "Mar 12, 2026 12:49 AM"
         },
         "Assets": {
-          "updated": "Feb 16, 2026 12:31 AM"
+          "updated": "Mar 12, 2026 12:49 AM"
         },
         "Buffet": {
-          "updated": "Feb 16, 2026 12:31 AM"
+          "updated": "Mar 12, 2026 12:49 AM"
+        },
+        "Revenue-A": {
+          "updated": "Mar 12, 2026 12:49 AM"
+        },
+        "Costs-A": {
+          "updated": "Mar 12, 2026 12:49 AM"
+        },
+        "Cash-A": {
+          "updated": "Mar 12, 2026 12:49 AM"
+        },
+        "FCF-A": {
+          "updated": "Mar 12, 2026 12:49 AM"
+        },
+        "Assets-A": {
+          "updated": "Mar 12, 2026 12:49 AM"
+        },
+        "Buffet-A": {
+          "updated": "Mar 12, 2026 12:49 AM"
         }
       },
-      "last_updated": "2026-02-16T00:31:21.275033",
+      "last_updated": "2026-03-12T00:49:17.648837",
       "company": {
         "name": "NVIDIA Corporation",
         "market_cap": "$4.32T",
@@ -1671,25 +1761,43 @@
     "MSFT": {
       "presets": {
         "Revenue": {
-          "updated": "Feb 16, 2026 12:31 AM"
+          "updated": "Mar 12, 2026 12:49 AM"
         },
         "Costs": {
-          "updated": "Feb 16, 2026 12:31 AM"
+          "updated": "Mar 12, 2026 12:49 AM"
         },
         "Cash": {
-          "updated": "Feb 16, 2026 12:31 AM"
+          "updated": "Mar 12, 2026 12:49 AM"
         },
         "FCF": {
-          "updated": "Feb 16, 2026 12:31 AM"
+          "updated": "Mar 12, 2026 12:49 AM"
         },
         "Assets": {
-          "updated": "Feb 16, 2026 12:31 AM"
+          "updated": "Mar 12, 2026 12:49 AM"
         },
         "Buffet": {
-          "updated": "Feb 16, 2026 12:31 AM"
+          "updated": "Mar 12, 2026 12:49 AM"
+        },
+        "Revenue-A": {
+          "updated": "Mar 12, 2026 12:49 AM"
+        },
+        "Costs-A": {
+          "updated": "Mar 12, 2026 12:49 AM"
+        },
+        "Cash-A": {
+          "updated": "Mar 12, 2026 12:49 AM"
+        },
+        "FCF-A": {
+          "updated": "Mar 12, 2026 12:49 AM"
+        },
+        "Assets-A": {
+          "updated": "Mar 12, 2026 12:49 AM"
+        },
+        "Buffet-A": {
+          "updated": "Mar 12, 2026 12:49 AM"
         }
       },
-      "last_updated": "2026-02-16T00:31:20.862288",
+      "last_updated": "2026-03-12T00:49:17.553770",
       "company": {
         "name": "Microsoft Corporation",
         "market_cap": "$3.66T",
@@ -1703,43 +1811,43 @@
     "AAPL": {
       "presets": {
         "Revenue": {
-          "updated": "Mar 10, 2026 01:12 AM"
+          "updated": "Mar 12, 2026 12:49 AM"
         },
         "Costs": {
-          "updated": "Mar 10, 2026 01:12 AM"
+          "updated": "Mar 12, 2026 12:49 AM"
         },
         "Cash": {
-          "updated": "Mar 10, 2026 01:12 AM"
+          "updated": "Mar 12, 2026 12:49 AM"
         },
         "FCF": {
-          "updated": "Mar 10, 2026 01:12 AM"
+          "updated": "Mar 12, 2026 12:49 AM"
         },
         "Assets": {
-          "updated": "Mar 10, 2026 01:12 AM"
+          "updated": "Mar 12, 2026 12:49 AM"
         },
         "Buffet": {
-          "updated": "Mar 10, 2026 01:12 AM"
+          "updated": "Mar 12, 2026 12:49 AM"
         },
         "Revenue-A": {
-          "updated": "Mar 10, 2026 01:12 AM"
+          "updated": "Mar 12, 2026 12:49 AM"
         },
         "Costs-A": {
-          "updated": "Mar 10, 2026 01:12 AM"
+          "updated": "Mar 12, 2026 12:49 AM"
         },
         "Cash-A": {
-          "updated": "Mar 10, 2026 01:12 AM"
+          "updated": "Mar 12, 2026 12:49 AM"
         },
         "FCF-A": {
-          "updated": "Mar 10, 2026 01:12 AM"
+          "updated": "Mar 12, 2026 12:49 AM"
         },
         "Assets-A": {
-          "updated": "Mar 10, 2026 01:12 AM"
+          "updated": "Mar 12, 2026 12:49 AM"
         },
         "Buffet-A": {
-          "updated": "Mar 10, 2026 01:12 AM"
+          "updated": "Mar 12, 2026 12:49 AM"
         }
       },
-      "last_updated": "2026-03-10T01:12:13.525915",
+      "last_updated": "2026-03-12T00:49:17.678057",
       "company": {
         "name": "Apple Inc",
         "market_cap": "$4.06T",
