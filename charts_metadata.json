@@ -11999,6 +11999,56 @@
         "sector": "HEALTHCARE",
         "industry": "HEALTHCARE PLANS"
       }
+    },
+    "DEVS": {
+      "presets": {
+        "Revenue": {
+          "updated": "Mar 13, 2026 03:09 AM"
+        },
+        "Costs": {
+          "updated": "Mar 13, 2026 03:09 AM"
+        },
+        "Cash": {
+          "updated": "Mar 13, 2026 03:09 AM"
+        },
+        "FCF": {
+          "updated": "Mar 13, 2026 03:09 AM"
+        },
+        "Assets": {
+          "updated": "Mar 13, 2026 03:09 AM"
+        },
+        "Buffet": {
+          "updated": "Mar 13, 2026 03:09 AM"
+        },
+        "Revenue-q": {
+          "updated": "Mar 13, 2026 03:09 AM"
+        },
+        "Costs-q": {
+          "updated": "Mar 13, 2026 03:09 AM"
+        },
+        "Cash-q": {
+          "updated": "Mar 13, 2026 03:09 AM"
+        },
+        "FCF-q": {
+          "updated": "Mar 13, 2026 03:09 AM"
+        },
+        "Assets-q": {
+          "updated": "Mar 13, 2026 03:09 AM"
+        },
+        "Buffet-q": {
+          "updated": "Mar 13, 2026 03:09 AM"
+        }
+      },
+      "last_updated": "2026-03-13T03:09:21.345394",
+      "company": {
+        "name": "DevvStream Corp. Common Stock",
+        "market_cap": "$3.59M",
+        "market_cap_raw": 3591200.0,
+        "last_q_revenue": 10164.0,
+        "description": "DevvStream Holdings Inc. is a carbon credit generation in Canada and the United States. ",
+        "sector": "INDUSTRIALS",
+        "industry": "POLLUTION & TREATMENT CONTROLS"
+      }
     }
   }
 }
