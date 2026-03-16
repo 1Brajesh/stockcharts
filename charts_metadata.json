@@ -12049,47 +12049,6 @@
         "sector": "INDUSTRIALS",
         "industry": "POLLUTION & TREATMENT CONTROLS"
       }
-    },
-    "VMET": {
-      "presets": {
-        "Revenue": {
-          "updated": "Mar 16, 2026 12:00 AM"
-        },
-        "Costs": {
-          "updated": "Mar 16, 2026 12:00 AM"
-        },
-        "Cash": {
-          "updated": "Mar 16, 2026 12:00 AM"
-        },
-        "FCF": {
-          "updated": "Mar 16, 2026 12:00 AM"
-        },
-        "Assets": {
-          "updated": "Mar 16, 2026 12:00 AM"
-        },
-        "Buffet": {
-          "updated": "Mar 16, 2026 12:00 AM"
-        },
-        "Revenue-q": {
-          "updated": "Mar 16, 2026 12:00 AM"
-        },
-        "Costs-q": {
-          "updated": "Mar 16, 2026 12:00 AM"
-        },
-        "Cash-q": {
-          "updated": "Mar 16, 2026 12:00 AM"
-        },
-        "FCF-q": {
-          "updated": "Mar 16, 2026 12:00 AM"
-        },
-        "Assets-q": {
-          "updated": "Mar 16, 2026 12:00 AM"
-        },
-        "Buffet-q": {
-          "updated": "Mar 16, 2026 12:00 AM"
-        }
-      },
-      "last_updated": "2026-03-16T00:00:39.765861"
     }
   }
 }
