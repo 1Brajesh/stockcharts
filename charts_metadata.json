@@ -12049,6 +12049,156 @@
         "sector": "INDUSTRIALS",
         "industry": "POLLUTION & TREATMENT CONTROLS"
       }
+    },
+    "DIS": {
+      "presets": {
+        "Revenue": {
+          "updated": "Mar 16, 2026 12:05 AM"
+        },
+        "Costs": {
+          "updated": "Mar 16, 2026 12:05 AM"
+        },
+        "Cash": {
+          "updated": "Mar 16, 2026 12:05 AM"
+        },
+        "FCF": {
+          "updated": "Mar 16, 2026 12:05 AM"
+        },
+        "Assets": {
+          "updated": "Mar 16, 2026 12:05 AM"
+        },
+        "Buffet": {
+          "updated": "Mar 16, 2026 12:05 AM"
+        },
+        "Revenue-q": {
+          "updated": "Mar 16, 2026 12:05 AM"
+        },
+        "Costs-q": {
+          "updated": "Mar 16, 2026 12:05 AM"
+        },
+        "Cash-q": {
+          "updated": "Mar 16, 2026 12:05 AM"
+        },
+        "FCF-q": {
+          "updated": "Mar 16, 2026 12:05 AM"
+        },
+        "Assets-q": {
+          "updated": "Mar 16, 2026 12:05 AM"
+        },
+        "Buffet-q": {
+          "updated": "Mar 16, 2026 12:05 AM"
+        }
+      },
+      "last_updated": "2026-03-16T00:05:40.916225",
+      "company": {
+        "name": "Walt Disney Company",
+        "market_cap": "$176.08B",
+        "market_cap_raw": 176079602000.0,
+        "last_q_revenue": 25981000000.0,
+        "description": "The Walt Disney Company, commonly known as Disney, is an American diversified multinational mass media and entertainment conglomerate headquartered at the Walt Disney Studios complex in Burbank, California.",
+        "sector": "COMMUNICATION SERVICES",
+        "industry": "ENTERTAINMENT"
+      }
+    },
+    "ABBV": {
+      "presets": {
+        "Revenue": {
+          "updated": "Mar 16, 2026 12:05 AM"
+        },
+        "Costs": {
+          "updated": "Mar 16, 2026 12:05 AM"
+        },
+        "Cash": {
+          "updated": "Mar 16, 2026 12:05 AM"
+        },
+        "FCF": {
+          "updated": "Mar 16, 2026 12:05 AM"
+        },
+        "Assets": {
+          "updated": "Mar 16, 2026 12:05 AM"
+        },
+        "Buffet": {
+          "updated": "Mar 16, 2026 12:05 AM"
+        },
+        "Revenue-q": {
+          "updated": "Mar 16, 2026 12:05 AM"
+        },
+        "Costs-q": {
+          "updated": "Mar 16, 2026 12:05 AM"
+        },
+        "Cash-q": {
+          "updated": "Mar 16, 2026 12:05 AM"
+        },
+        "FCF-q": {
+          "updated": "Mar 16, 2026 12:05 AM"
+        },
+        "Assets-q": {
+          "updated": "Mar 16, 2026 12:05 AM"
+        },
+        "Buffet-q": {
+          "updated": "Mar 16, 2026 12:05 AM"
+        }
+      },
+      "last_updated": "2026-03-16T00:05:40.969378",
+      "company": {
+        "name": "AbbVie Inc",
+        "market_cap": "$388.43B",
+        "market_cap_raw": 388431348000.0,
+        "last_q_revenue": 16618000000.0,
+        "description": "AbbVie is an American publicly traded biopharmaceutical company founded in 2013. It originated as a spin-off of Abbott Laboratories.",
+        "sector": "HEALTHCARE",
+        "industry": "DRUG MANUFACTURERS - GENERAL"
+      }
+    },
+    "COST": {
+      "presets": {
+        "Revenue": {
+          "updated": "Mar 16, 2026 12:05 AM"
+        },
+        "Costs": {
+          "updated": "Mar 16, 2026 12:05 AM"
+        },
+        "Cash": {
+          "updated": "Mar 16, 2026 12:05 AM"
+        },
+        "FCF": {
+          "updated": "Mar 16, 2026 12:05 AM"
+        },
+        "Assets": {
+          "updated": "Mar 16, 2026 12:05 AM"
+        },
+        "Buffet": {
+          "updated": "Mar 16, 2026 12:05 AM"
+        },
+        "Revenue-q": {
+          "updated": "Mar 16, 2026 12:05 AM"
+        },
+        "Costs-q": {
+          "updated": "Mar 16, 2026 12:05 AM"
+        },
+        "Cash-q": {
+          "updated": "Mar 16, 2026 12:05 AM"
+        },
+        "FCF-q": {
+          "updated": "Mar 16, 2026 12:05 AM"
+        },
+        "Assets-q": {
+          "updated": "Mar 16, 2026 12:05 AM"
+        },
+        "Buffet-q": {
+          "updated": "Mar 16, 2026 12:05 AM"
+        }
+      },
+      "last_updated": "2026-03-16T00:05:41.018926",
+      "company": {
+        "name": "Costco Wholesale Corp",
+        "market_cap": "$447.43B",
+        "market_cap_raw": 447432327000.0,
+        "last_q_revenue": 69597000000.0,
+        "description": "Costco Wholesale Corporation (doing business as Costco Wholesale and also known simply as Costco) is an American multinational corporation which operates a chain of membership-only (needing a membership to shop there) big-box retail stores. As of 2020, Costco was the fifth largest retailer in the world, and the world's largest retailer of choice and prime beef, organic foods, rotisserie chicken, and wine as of 2016.",
+        "sector": "CONSUMER DEFENSIVE",
+        "industry": "DISCOUNT STORES"
+      }
     }
   }
 }
