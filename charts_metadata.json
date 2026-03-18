@@ -12249,6 +12249,206 @@
         "sector": "BASIC MATERIALS",
         "industry": "AGRICULTURAL INPUTS"
       }
+    },
+    "DE": {
+      "presets": {
+        "Revenue": {
+          "updated": "Mar 18, 2026 12:05 AM"
+        },
+        "Costs": {
+          "updated": "Mar 18, 2026 12:05 AM"
+        },
+        "Cash": {
+          "updated": "Mar 18, 2026 12:05 AM"
+        },
+        "FCF": {
+          "updated": "Mar 18, 2026 12:05 AM"
+        },
+        "Assets": {
+          "updated": "Mar 18, 2026 12:05 AM"
+        },
+        "Buffet": {
+          "updated": "Mar 18, 2026 12:05 AM"
+        },
+        "Revenue-q": {
+          "updated": "Mar 18, 2026 12:05 AM"
+        },
+        "Costs-q": {
+          "updated": "Mar 18, 2026 12:05 AM"
+        },
+        "Cash-q": {
+          "updated": "Mar 18, 2026 12:05 AM"
+        },
+        "FCF-q": {
+          "updated": "Mar 18, 2026 12:05 AM"
+        },
+        "Assets-q": {
+          "updated": "Mar 18, 2026 12:05 AM"
+        },
+        "Buffet-q": {
+          "updated": "Mar 18, 2026 12:05 AM"
+        }
+      },
+      "last_updated": "2026-03-18T00:05:53.742563",
+      "company": {
+        "name": "Deere & Company",
+        "market_cap": "$154.63B",
+        "market_cap_raw": 154631012000.0,
+        "last_q_revenue": 9611000000.0,
+        "description": "John Deere is the brand name of Deere & Company, an American corporation that manufactures agricultural, construction, and forestry machinery, diesel engines, drivetrains (axles, transmissions, gearboxes) used in heavy equipment, and lawn care equipment.",
+        "sector": "INDUSTRIALS",
+        "industry": "FARM & HEAVY CONSTRUCTION MACHINERY"
+      }
+    },
+    "GLW": {
+      "presets": {
+        "Revenue": {
+          "updated": "Mar 18, 2026 12:05 AM"
+        },
+        "Costs": {
+          "updated": "Mar 18, 2026 12:05 AM"
+        },
+        "Cash": {
+          "updated": "Mar 18, 2026 12:05 AM"
+        },
+        "FCF": {
+          "updated": "Mar 18, 2026 12:05 AM"
+        },
+        "Assets": {
+          "updated": "Mar 18, 2026 12:05 AM"
+        },
+        "Buffet": {
+          "updated": "Mar 18, 2026 12:05 AM"
+        },
+        "Revenue-q": {
+          "updated": "Mar 18, 2026 12:05 AM"
+        },
+        "Costs-q": {
+          "updated": "Mar 18, 2026 12:05 AM"
+        },
+        "Cash-q": {
+          "updated": "Mar 18, 2026 12:05 AM"
+        },
+        "FCF-q": {
+          "updated": "Mar 18, 2026 12:05 AM"
+        },
+        "Assets-q": {
+          "updated": "Mar 18, 2026 12:05 AM"
+        },
+        "Buffet-q": {
+          "updated": "Mar 18, 2026 12:05 AM"
+        }
+      },
+      "last_updated": "2026-03-18T00:05:53.822352",
+      "company": {
+        "name": "Corning Incorporated",
+        "market_cap": "$111.44B",
+        "market_cap_raw": 111438881000.0,
+        "last_q_revenue": 4215000000.0,
+        "description": "Corning Incorporated is an American multinational technology company that specializes in specialty glass, ceramics, and related materials and technologies including advanced optics, primarily for industrial and scientific applications.",
+        "sector": "TECHNOLOGY",
+        "industry": "ELECTRONIC COMPONENTS"
+      }
+    },
+    "MS": {
+      "presets": {
+        "Revenue": {
+          "updated": "Mar 18, 2026 12:05 AM"
+        },
+        "Costs": {
+          "updated": "Mar 18, 2026 12:05 AM"
+        },
+        "Cash": {
+          "updated": "Mar 18, 2026 12:05 AM"
+        },
+        "FCF": {
+          "updated": "Mar 18, 2026 12:05 AM"
+        },
+        "Assets": {
+          "updated": "Mar 18, 2026 12:05 AM"
+        },
+        "Buffet": {
+          "updated": "Mar 18, 2026 12:05 AM"
+        },
+        "Revenue-q": {
+          "updated": "Mar 18, 2026 12:05 AM"
+        },
+        "Costs-q": {
+          "updated": "Mar 18, 2026 12:05 AM"
+        },
+        "Cash-q": {
+          "updated": "Mar 18, 2026 12:05 AM"
+        },
+        "FCF-q": {
+          "updated": "Mar 18, 2026 12:05 AM"
+        },
+        "Assets-q": {
+          "updated": "Mar 18, 2026 12:05 AM"
+        },
+        "Buffet-q": {
+          "updated": "Mar 18, 2026 12:05 AM"
+        }
+      },
+      "last_updated": "2026-03-18T00:05:53.873907",
+      "company": {
+        "name": "Morgan Stanley",
+        "market_cap": "$250.61B",
+        "market_cap_raw": 250611974000.0,
+        "last_q_revenue": 28861000000.0,
+        "description": "Morgan Stanley is an American multinational investment bank and financial services company headquartered at 1585 Broadway in the Morgan Stanley Building, Midtown Manhattan, New York City.",
+        "sector": "FINANCIAL SERVICES",
+        "industry": "CAPITAL MARKETS"
+      }
+    },
+    "MRSH": {
+      "presets": {
+        "Revenue": {
+          "updated": "Mar 18, 2026 12:05 AM"
+        },
+        "Costs": {
+          "updated": "Mar 18, 2026 12:05 AM"
+        },
+        "Cash": {
+          "updated": "Mar 18, 2026 12:05 AM"
+        },
+        "FCF": {
+          "updated": "Mar 18, 2026 12:05 AM"
+        },
+        "Assets": {
+          "updated": "Mar 18, 2026 12:05 AM"
+        },
+        "Buffet": {
+          "updated": "Mar 18, 2026 12:05 AM"
+        },
+        "Revenue-q": {
+          "updated": "Mar 18, 2026 12:05 AM"
+        },
+        "Costs-q": {
+          "updated": "Mar 18, 2026 12:05 AM"
+        },
+        "Cash-q": {
+          "updated": "Mar 18, 2026 12:05 AM"
+        },
+        "FCF-q": {
+          "updated": "Mar 18, 2026 12:05 AM"
+        },
+        "Assets-q": {
+          "updated": "Mar 18, 2026 12:05 AM"
+        },
+        "Buffet-q": {
+          "updated": "Mar 18, 2026 12:05 AM"
+        }
+      },
+      "last_updated": "2026-03-18T00:05:53.924014",
+      "company": {
+        "name": "Marsh & McLennan Companies, Inc.",
+        "market_cap": "$85.13B",
+        "market_cap_raw": 85126709000.0,
+        "last_q_revenue": 6595000000.0,
+        "description": "Marsh & McLennan Companies, Inc., a professional services company, provides advisory services and insurance solutions to clients in the areas of risk, strategy, and people globally. The company is headquartered in New York, New York.",
+        "sector": "FINANCIAL SERVICES",
+        "industry": "INSURANCE BROKERS"
+      }
     }
   }
 }
