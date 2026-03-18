@@ -12449,6 +12449,56 @@
         "sector": "FINANCIAL SERVICES",
         "industry": "INSURANCE BROKERS"
       }
+    },
+    "WBD": {
+      "presets": {
+        "Revenue": {
+          "updated": "Mar 18, 2026 10:42 AM"
+        },
+        "Costs": {
+          "updated": "Mar 18, 2026 10:42 AM"
+        },
+        "Cash": {
+          "updated": "Mar 18, 2026 10:42 AM"
+        },
+        "FCF": {
+          "updated": "Mar 18, 2026 10:42 AM"
+        },
+        "Assets": {
+          "updated": "Mar 18, 2026 10:42 AM"
+        },
+        "Buffet": {
+          "updated": "Mar 18, 2026 10:42 AM"
+        },
+        "Revenue-q": {
+          "updated": "Mar 18, 2026 10:42 AM"
+        },
+        "Costs-q": {
+          "updated": "Mar 18, 2026 10:42 AM"
+        },
+        "Cash-q": {
+          "updated": "Mar 18, 2026 10:42 AM"
+        },
+        "FCF-q": {
+          "updated": "Mar 18, 2026 10:42 AM"
+        },
+        "Assets-q": {
+          "updated": "Mar 18, 2026 10:42 AM"
+        },
+        "Buffet-q": {
+          "updated": "Mar 18, 2026 10:42 AM"
+        }
+      },
+      "last_updated": "2026-03-18T10:42:08.350797",
+      "company": {
+        "name": "Warner Bros Discovery Inc",
+        "market_cap": "$68.58B",
+        "market_cap_raw": 68575240000.0,
+        "last_q_revenue": 9460000000.0,
+        "description": "Warner Bros. The company is headquartered in New York, New York.",
+        "sector": "COMMUNICATION SERVICES",
+        "industry": "ENTERTAINMENT"
+      }
     }
   }
 }
