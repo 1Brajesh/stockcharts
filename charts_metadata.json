@@ -12599,6 +12599,56 @@
         "sector": "BASIC MATERIALS",
         "industry": "SPECIALTY CHEMICALS"
       }
+    },
+    "ASTS": {
+      "presets": {
+        "Revenue": {
+          "updated": "Mar 19, 2026 11:20 AM"
+        },
+        "Costs": {
+          "updated": "Mar 19, 2026 11:20 AM"
+        },
+        "Cash": {
+          "updated": "Mar 19, 2026 11:20 AM"
+        },
+        "FCF": {
+          "updated": "Mar 19, 2026 11:20 AM"
+        },
+        "Assets": {
+          "updated": "Mar 19, 2026 11:20 AM"
+        },
+        "Buffet": {
+          "updated": "Mar 19, 2026 11:20 AM"
+        },
+        "Revenue-q": {
+          "updated": "Mar 19, 2026 11:20 AM"
+        },
+        "Costs-q": {
+          "updated": "Mar 19, 2026 11:20 AM"
+        },
+        "Cash-q": {
+          "updated": "Mar 19, 2026 11:20 AM"
+        },
+        "FCF-q": {
+          "updated": "Mar 19, 2026 11:20 AM"
+        },
+        "Assets-q": {
+          "updated": "Mar 19, 2026 11:20 AM"
+        },
+        "Buffet-q": {
+          "updated": "Mar 19, 2026 11:20 AM"
+        }
+      },
+      "last_updated": "2026-03-19T11:20:48.306280",
+      "company": {
+        "name": "Ast Spacemobile Inc",
+        "market_cap": "$34.67B",
+        "market_cap_raw": 34665169000.0,
+        "last_q_revenue": 54305000.0,
+        "description": "AST SpaceMobile, Inc. operates a space-based cellular broadband network for mobile phones. The company is headquartered in Midland, Texas.",
+        "sector": "TECHNOLOGY",
+        "industry": "COMMUNICATION EQUIPMENT"
+      }
     }
   }
 }
