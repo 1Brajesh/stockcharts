@@ -12549,6 +12549,56 @@
         "sector": "TECHNOLOGY",
         "industry": "SOFTWARE - INFRASTRUCTURE"
       }
+    },
+    "ALB": {
+      "presets": {
+        "Revenue": {
+          "updated": "Mar 19, 2026 12:57 AM"
+        },
+        "Costs": {
+          "updated": "Mar 19, 2026 12:57 AM"
+        },
+        "Cash": {
+          "updated": "Mar 19, 2026 12:57 AM"
+        },
+        "FCF": {
+          "updated": "Mar 19, 2026 12:57 AM"
+        },
+        "Assets": {
+          "updated": "Mar 19, 2026 12:57 AM"
+        },
+        "Buffet": {
+          "updated": "Mar 19, 2026 12:57 AM"
+        },
+        "Revenue-q": {
+          "updated": "Mar 19, 2026 12:57 AM"
+        },
+        "Costs-q": {
+          "updated": "Mar 19, 2026 12:57 AM"
+        },
+        "Cash-q": {
+          "updated": "Mar 19, 2026 12:57 AM"
+        },
+        "FCF-q": {
+          "updated": "Mar 19, 2026 12:57 AM"
+        },
+        "Assets-q": {
+          "updated": "Mar 19, 2026 12:57 AM"
+        },
+        "Buffet-q": {
+          "updated": "Mar 19, 2026 12:57 AM"
+        }
+      },
+      "last_updated": "2026-03-19T00:57:48.158825",
+      "company": {
+        "name": "Albemarle Corp",
+        "market_cap": "$19.60B",
+        "market_cap_raw": 19600349000.0,
+        "last_q_revenue": 1428031000.0,
+        "description": "Albemarle Corporation is a fine chemical manufacturing company based in Charlotte, North Carolina.",
+        "sector": "BASIC MATERIALS",
+        "industry": "SPECIALTY CHEMICALS"
+      }
     }
   }
 }
