@@ -12499,6 +12499,56 @@
         "sector": "COMMUNICATION SERVICES",
         "industry": "ENTERTAINMENT"
       }
+    },
+    "ZENA": {
+      "presets": {
+        "Revenue": {
+          "updated": "Mar 19, 2026 12:04 AM"
+        },
+        "Costs": {
+          "updated": "Mar 19, 2026 12:04 AM"
+        },
+        "Cash": {
+          "updated": "Mar 19, 2026 12:04 AM"
+        },
+        "FCF": {
+          "updated": "Mar 19, 2026 12:04 AM"
+        },
+        "Assets": {
+          "updated": "Mar 19, 2026 12:04 AM"
+        },
+        "Buffet": {
+          "updated": "Mar 19, 2026 12:04 AM"
+        },
+        "Revenue-q": {
+          "updated": "Mar 19, 2026 12:04 AM"
+        },
+        "Costs-q": {
+          "updated": "Mar 19, 2026 12:04 AM"
+        },
+        "Cash-q": {
+          "updated": "Mar 19, 2026 12:04 AM"
+        },
+        "FCF-q": {
+          "updated": "Mar 19, 2026 12:04 AM"
+        },
+        "Assets-q": {
+          "updated": "Mar 19, 2026 12:04 AM"
+        },
+        "Buffet-q": {
+          "updated": "Mar 19, 2026 12:04 AM"
+        }
+      },
+      "last_updated": "2026-03-19T00:04:51.386107",
+      "company": {
+        "name": "ZenaTech Inc.",
+        "market_cap": "$128.39M",
+        "market_cap_raw": 128389000.0,
+        "last_q_revenue": 3168019.7024,
+        "description": "ZenaTech, Inc., an enterprise software technology company, develops cloud-based software applications in Canada. The company is headquartered in Toronto, Canada.",
+        "sector": "TECHNOLOGY",
+        "industry": "SOFTWARE - INFRASTRUCTURE"
+      }
     }
   }
 }
