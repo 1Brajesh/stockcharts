@@ -12649,6 +12649,106 @@
         "sector": "TECHNOLOGY",
         "industry": "COMMUNICATION EQUIPMENT"
       }
+    },
+    "CRCL": {
+      "presets": {
+        "Revenue": {
+          "updated": "Mar 20, 2026 12:01 AM"
+        },
+        "Costs": {
+          "updated": "Mar 20, 2026 12:01 AM"
+        },
+        "Cash": {
+          "updated": "Mar 20, 2026 12:01 AM"
+        },
+        "FCF": {
+          "updated": "Mar 20, 2026 12:01 AM"
+        },
+        "Assets": {
+          "updated": "Mar 20, 2026 12:01 AM"
+        },
+        "Buffet": {
+          "updated": "Mar 20, 2026 12:01 AM"
+        },
+        "Revenue-q": {
+          "updated": "Mar 20, 2026 12:01 AM"
+        },
+        "Costs-q": {
+          "updated": "Mar 20, 2026 12:01 AM"
+        },
+        "Cash-q": {
+          "updated": "Mar 20, 2026 12:01 AM"
+        },
+        "FCF-q": {
+          "updated": "Mar 20, 2026 12:01 AM"
+        },
+        "Assets-q": {
+          "updated": "Mar 20, 2026 12:01 AM"
+        },
+        "Buffet-q": {
+          "updated": "Mar 20, 2026 12:01 AM"
+        }
+      },
+      "last_updated": "2026-03-20T00:01:00.359905",
+      "company": {
+        "name": "Circle Internet Group, Inc.",
+        "market_cap": "$35.27B",
+        "market_cap_raw": 35266441000.0,
+        "last_q_revenue": 770232000.0,
+        "description": "Circle Internet Group, Inc. is a platform, network, and market infrastructure for stablecoin and blockchain applications. The company is headquartered in New York, New York.",
+        "sector": "FINANCIAL SERVICES",
+        "industry": "CAPITAL MARKETS"
+      }
+    },
+    "IMSR": {
+      "presets": {
+        "Revenue": {
+          "updated": "Mar 20, 2026 12:01 AM"
+        },
+        "Costs": {
+          "updated": "Mar 20, 2026 12:01 AM"
+        },
+        "Cash": {
+          "updated": "Mar 20, 2026 12:01 AM"
+        },
+        "FCF": {
+          "updated": "Mar 20, 2026 12:01 AM"
+        },
+        "Assets": {
+          "updated": "Mar 20, 2026 12:01 AM"
+        },
+        "Buffet": {
+          "updated": "Mar 20, 2026 12:01 AM"
+        },
+        "Revenue-q": {
+          "updated": "Mar 20, 2026 12:01 AM"
+        },
+        "Costs-q": {
+          "updated": "Mar 20, 2026 12:01 AM"
+        },
+        "Cash-q": {
+          "updated": "Mar 20, 2026 12:01 AM"
+        },
+        "FCF-q": {
+          "updated": "Mar 20, 2026 12:01 AM"
+        },
+        "Assets-q": {
+          "updated": "Mar 20, 2026 12:01 AM"
+        },
+        "Buffet-q": {
+          "updated": "Mar 20, 2026 12:01 AM"
+        }
+      },
+      "last_updated": "2026-03-20T00:01:00.388441",
+      "company": {
+        "name": "Terrestrial Energy Inc",
+        "market_cap": "$524.15M",
+        "market_cap_raw": 524155000.0,
+        "last_q_revenue": null,
+        "description": "Terrestrial Energy Inc. produces emission-free nuclear energy. The company is headquartered in Charlotte, North Carolina.",
+        "sector": "UTILITIES",
+        "industry": "UTILITIES - REGULATED ELECTRIC"
+      }
     }
   }
 }
