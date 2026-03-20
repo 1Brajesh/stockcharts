@@ -1,0 +1,483 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Allocation</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+        body {
+            background-color: #0d1117;
+            color: #c9d1d9;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;
+            font-size: 14px;
+            margin: 0;
+            padding: 20px;
+            line-height: 1.5;
+        }
+        .container {
+            margin: 0 auto;
+        }
+        header {
+            text-align: center;
+            padding-bottom: 24px;
+            margin-bottom: 24px;
+            border-bottom: 1px solid #30363d;
+        }
+        h1 {
+            color: #58a6ff;
+            margin: 0 0 8px 0;
+            font-size: 28px;
+        }
+        .subtitle {
+            color: #8b949e;
+            font-size: 14px;
+        }
+        .count {
+            color: #8b949e;
+            font-size: 13px;
+            margin-bottom: 16px;
+            text-align: center;
+        }
+        .nav {
+            display: flex;
+            justify-content: center;
+            gap: 24px;
+            margin-bottom: 24px;
+        }
+        .nav a {
+            color: #8b949e;
+            text-decoration: none;
+            padding: 8px 16px;
+            border-radius: 6px;
+            transition: background-color 0.2s, color 0.2s;
+        }
+        .nav a:hover {
+            background-color: #21262d;
+            color: #c9d1d9;
+        }
+        .nav a.active {
+            background-color: #21262d;
+            color: #58a6ff;
+            font-weight: 600;
+        }
+        .ticker-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+            gap: 12px;
+        }
+        .ticker-card {
+            display: block;
+            background-color: #161b22;
+            border: 1px solid #30363d;
+            border-radius: 6px;
+            padding: 12px 14px;
+            text-decoration: none;
+            transition: border-color 0.2s, background-color 0.2s;
+            cursor: pointer;
+        }
+        .ticker-card:hover {
+            border-color: #58a6ff;
+            background-color: #1c2128;
+        }
+        .ticker-row {
+            display: flex;
+            justify-content: space-between;
+            align-items: baseline;
+            margin-bottom: 4px;
+        }
+        .ticker-symbol {
+            color: #58a6ff;
+            font-weight: 600;
+            font-size: 16px;
+        }
+        .be-ratio {
+            color: #f0b429;
+            font-weight: 700;
+            font-size: 16px;
+            margin-left: 6px;
+        }
+        .market-cap {
+            color: #7ee787;
+            font-size: 13px;
+            font-weight: 500;
+        }
+        .company-name {
+            color: #8b949e;
+            font-size: 12px;
+            line-height: 1.4;
+            text-align: center;
+        }
+        /* Highlight styles */
+        .ticker-card.owned {
+            background-color: #1e1a2e;
+            border-color: #a371f7;
+        }
+        /* Left borders */
+        .ticker-card.gold-border {
+            border-left: 3px solid #f0b429;
+        }
+        .ticker-card.red-border {
+            border-left: 3px solid #f85149;
+        }
+        .ticker-card.green-border {
+            border-left: 3px solid #3fb950;
+        }
+        .ticker-card.cyan-border {
+            border-left: 3px solid #58a6ff;
+        }
+        .ticker-card.purple-border {
+            border-left: 3px solid #a371f7;
+        }
+        /* Right borders */
+        .ticker-card.gold-border-right {
+            border-right: 3px solid #f0b429;
+        }
+        .ticker-card.red-border-right {
+            border-right: 3px solid #f85149;
+        }
+        .ticker-card.green-border-right {
+            border-right: 3px solid #3fb950;
+        }
+        .ticker-card.cyan-border-right {
+            border-right: 3px solid #58a6ff;
+        }
+        .ticker-card.purple-border-right {
+            border-right: 3px solid #a371f7;
+        }
+        /* Glow effects */
+        .ticker-card.glow {
+            box-shadow: 0 0 12px rgba(88, 166, 255, 0.6), 0 0 4px rgba(88, 166, 255, 0.8);
+            border-color: #58a6ff;
+        }
+        .ticker-card.purple-glow {
+            box-shadow: 0 0 12px rgba(163, 113, 247, 0.6), 0 0 4px rgba(163, 113, 247, 0.8);
+            border-color: #a371f7;
+        }
+        .ticker-card.green-glow {
+            box-shadow: 0 0 12px rgba(63, 185, 80, 0.6), 0 0 4px rgba(63, 185, 80, 0.8);
+            border-color: #3fb950;
+        }
+        .ticker-card.gold-glow {
+            box-shadow: 0 0 12px rgba(240, 180, 41, 0.6), 0 0 4px rgba(240, 180, 41, 0.8);
+            border-color: #f0b429;
+        }
+        .ticker-card.red-glow {
+            box-shadow: 0 0 12px rgba(248, 81, 73, 0.6), 0 0 4px rgba(248, 81, 73, 0.8);
+            border-color: #f85149;
+        }
+        .sort-controls {
+            display: flex;
+            justify-content: center;
+            gap: 8px;
+            margin-bottom: 16px;
+        }
+        .sort-btn {
+            background-color: #21262d;
+            color: #8b949e;
+            border: 1px solid #30363d;
+            border-radius: 20px;
+            padding: 4px 14px;
+            font-size: 12px;
+            cursor: pointer;
+            transition: background-color 0.2s, color 0.2s, border-color 0.2s;
+        }
+        .sort-btn:hover {
+            color: #c9d1d9;
+            border-color: #58a6ff;
+        }
+        .sort-btn.active {
+            background-color: #1f6feb;
+            color: #ffffff;
+            border-color: #1f6feb;
+        }
+        .empty-msg {
+            color: #8b949e;
+            text-align: center;
+            padding: 40px;
+        }
+        .empty-msg code {
+            background-color: #21262d;
+            padding: 2px 6px;
+            border-radius: 4px;
+            font-family: 'SF Mono', monospace;
+        }
+        footer {
+            margin-top: 32px;
+            padding-top: 16px;
+            border-top: 1px solid #30363d;
+            color: #8b949e;
+            font-size: 12px;
+            text-align: center;
+        }
+        .charts-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 24px;
+            margin-bottom: 32px;
+        }
+        @media (max-width: 800px) {
+            .charts-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+        .chart-panel {
+            background-color: #161b22;
+            border: 1px solid #30363d;
+            border-radius: 6px;
+            padding: 20px;
+        }
+        .chart-panel h3 {
+            color: #c9d1d9;
+            margin: 0 0 16px 0;
+            font-size: 16px;
+            text-align: center;
+        }
+        .chart-body {
+            display: flex;
+            align-items: center;
+            gap: 20px;
+        }
+        @media (max-width: 500px) {
+            .chart-body {
+                flex-direction: column;
+            }
+        }
+        .pie-svg {
+            width: 180px;
+            height: 180px;
+            flex-shrink: 0;
+        }
+        .pie-svg .slice {
+            transition: filter 0.15s;
+        }
+        .pie-svg .slice:hover {
+            filter: brightness(1.2);
+        }
+        .legend {
+            flex: 1;
+            min-width: 0;
+        }
+        .legend-row {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            padding: 3px 0;
+            font-size: 13px;
+        }
+        .legend-swatch {
+            width: 12px;
+            height: 12px;
+            border-radius: 2px;
+            flex-shrink: 0;
+        }
+        .legend-label {
+            color: #c9d1d9;
+            flex: 1;
+            min-width: 0;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+        .legend-value {
+            color: #8b949e;
+            white-space: nowrap;
+        }
+        .legend-pct {
+            color: #8b949e;
+            width: 48px;
+            text-align: right;
+            flex-shrink: 0;
+        }
+        /* Holdings table */
+        .holdings-section {
+            background-color: #161b22;
+            border: 1px solid #30363d;
+            border-radius: 6px;
+            padding: 20px;
+        }
+        .holdings-section h3 {
+            color: #c9d1d9;
+            margin: 0 0 16px 0;
+            font-size: 16px;
+        }
+        .holdings-tbl {
+            width: 100%;
+            border-collapse: collapse;
+            font-size: 13px;
+        }
+        .holdings-tbl th {
+            color: #8b949e;
+            font-weight: 600;
+            text-align: left;
+            padding: 8px 12px;
+            border-bottom: 1px solid #30363d;
+        }
+        .holdings-tbl td {
+            padding: 6px 12px;
+            border-bottom: 1px solid #21262d;
+        }
+        .holdings-tbl .rank {
+            color: #8b949e;
+            width: 30px;
+        }
+        .holdings-tbl .symbol {
+            color: #58a6ff;
+            font-weight: 600;
+        }
+        .holdings-tbl .num {
+            text-align: right;
+        }
+        .holdings-tbl th.num,
+        .holdings-tbl th:nth-child(n+3) {
+            text-align: right;
+        }
+        .holdings-tbl .total-row td {
+            font-weight: 600;
+            border-top: 1px solid #30363d;
+            border-bottom: none;
+            color: #c9d1d9;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Portfolio Allocation</h1>
+            <div class="subtitle">24 holdings</div>
+            <div class="subtitle">Updated: Mar 20, 2026 02:15 PM</div>
+        </header>
+
+        <nav class="nav">
+            <a href="index.html">Stocks</a>
+            <a href="portfolios.html">Portfolios</a>
+            <a href="overview.html">Overview</a>
+            <a href="etfs.html">ETFs</a>
+            <a href="mfs.html">Mutual Funds</a>
+        </nav>
+
+        <div class="charts-grid">
+            <div class="chart-panel" id="shares-chart">
+        <h3>Shares Distribution</h3>
+        <div class="chart-body">
+            <svg viewBox="0 0 200 200" class="pie-svg">
+            <path d="M 100,100 L 100.0000,10.0000 A 90,90 0 0 1 186.1792,74.0551 Z" fill="#00cdcd" class="slice"><title>LAC: 5,000 sh (20.3%)</title></path>
+            <path d="M 100,100 L 186.1792,74.0551 A 90,90 0 0 1 167.0496,160.0363 Z" fill="#00cd00" class="slice"><title>BBAI: 4,000 sh (16.3%)</title></path>
+            <path d="M 100,100 L 167.0496,160.0363 A 90,90 0 0 1 88.2408,189.2285 Z" fill="#cd00cd" class="slice"><title>NVTS: 3,800 sh (15.5%)</title></path>
+            <path d="M 100,100 L 88.2408,189.2285 A 90,90 0 0 1 46.0807,172.0605 Z" fill="#cdcd00" class="slice"><title>PATH: 2,000 sh (8.1%)</title></path>
+            <path d="M 100,100 L 46.0807,172.0605 A 90,90 0 0 1 21.8667,144.6675 Z" fill="#5c5cff" class="slice"><title>SMCI: 1,600 sh (6.5%)</title></path>
+            <path d="M 100,100 L 21.8667,144.6675 A 90,90 0 0 1 11.3697,115.6422 Z" fill="#cd0000" class="slice"><title>PLTR: 1,348 sh (5.5%)</title></path>
+            <path d="M 100,100 L 11.3697,115.6422 A 90,90 0 0 1 10.7844,88.1438 Z" fill="#ff8700" class="slice"><title>HIMS: 1,200 sh (4.9%)</title></path>
+            <path d="M 100,100 L 10.7844,88.1438 A 90,90 0 0 1 18.5313,61.7528 Z" fill="#008787" class="slice"><title>SOUN: 1,200 sh (4.9%)</title></path>
+            <path d="M 100,100 L 18.5313,61.7528 A 90,90 0 0 1 31.2961,41.8641 Z" fill="#87ff00" class="slice"><title>SOFI: 1,030 sh (4.2%)</title></path>
+            <path d="M 100,100 L 31.2961,41.8641 A 90,90 0 0 1 48.2319,26.3789 Z" fill="#af5fff" class="slice"><title>OSCR: 1,000 sh (4.1%)</title></path>
+            <path d="M 100,100 L 48.2319,26.3789 A 90,90 0 0 1 64.2646,17.3987 Z" fill="#ffd700" class="slice"><title>MARA: 800 sh (3.3%)</title></path>
+            <path d="M 100,100 L 64.2646,17.3987 A 90,90 0 0 1 100.0000,10.0000 Z" fill="#ff5faf" class="slice"><title>Other: 1,597 sh (6.5%)</title></path>
+            </svg>
+            <div class="legend">
+                <div class="legend-row"><span class="legend-swatch" style="background:#00cdcd;"></span><span class="legend-label">LAC</span><span class="legend-value">5,000 sh</span><span class="legend-pct">20.3%</span></div>
+                <div class="legend-row"><span class="legend-swatch" style="background:#00cd00;"></span><span class="legend-label">BBAI</span><span class="legend-value">4,000 sh</span><span class="legend-pct">16.3%</span></div>
+                <div class="legend-row"><span class="legend-swatch" style="background:#cd00cd;"></span><span class="legend-label">NVTS</span><span class="legend-value">3,800 sh</span><span class="legend-pct">15.5%</span></div>
+                <div class="legend-row"><span class="legend-swatch" style="background:#cdcd00;"></span><span class="legend-label">PATH</span><span class="legend-value">2,000 sh</span><span class="legend-pct">8.1%</span></div>
+                <div class="legend-row"><span class="legend-swatch" style="background:#5c5cff;"></span><span class="legend-label">SMCI</span><span class="legend-value">1,600 sh</span><span class="legend-pct">6.5%</span></div>
+                <div class="legend-row"><span class="legend-swatch" style="background:#cd0000;"></span><span class="legend-label">PLTR</span><span class="legend-value">1,348 sh</span><span class="legend-pct">5.5%</span></div>
+                <div class="legend-row"><span class="legend-swatch" style="background:#ff8700;"></span><span class="legend-label">HIMS</span><span class="legend-value">1,200 sh</span><span class="legend-pct">4.9%</span></div>
+                <div class="legend-row"><span class="legend-swatch" style="background:#008787;"></span><span class="legend-label">SOUN</span><span class="legend-value">1,200 sh</span><span class="legend-pct">4.9%</span></div>
+                <div class="legend-row"><span class="legend-swatch" style="background:#87ff00;"></span><span class="legend-label">SOFI</span><span class="legend-value">1,030 sh</span><span class="legend-pct">4.2%</span></div>
+                <div class="legend-row"><span class="legend-swatch" style="background:#af5fff;"></span><span class="legend-label">OSCR</span><span class="legend-value">1,000 sh</span><span class="legend-pct">4.1%</span></div>
+                <div class="legend-row"><span class="legend-swatch" style="background:#ffd700;"></span><span class="legend-label">MARA</span><span class="legend-value">800 sh</span><span class="legend-pct">3.3%</span></div>
+                <div class="legend-row"><span class="legend-swatch" style="background:#ff5faf;"></span><span class="legend-label">Other</span><span class="legend-value">1,597 sh</span><span class="legend-pct">6.5%</span></div>
+            </div>
+        </div>
+    </div>
+            <div class="chart-panel" id="basis-chart">
+        <h3>Cost Basis Distribution</h3>
+        <div class="chart-body">
+            <svg viewBox="0 0 200 200" class="pie-svg">
+            <path d="M 100,100 L 100.0000,10.0000 A 90,90 0 0 1 189.4218,89.8150 Z" fill="#00cdcd" class="slice"><title>PLTR: $105,130 (23.2%)</title></path>
+            <path d="M 100,100 L 189.4218,89.8150 A 90,90 0 0 1 162.9211,164.3501 Z" fill="#00cd00" class="slice"><title>SMCI: $65,647 (14.5%)</title></path>
+            <path d="M 100,100 L 162.9211,164.3501 A 90,90 0 0 1 124.6043,186.5715 Z" fill="#cd00cd" class="slice"><title>HIMS: $35,871 (7.9%)</title></path>
+            <path d="M 100,100 L 124.6043,186.5715 A 90,90 0 0 1 84.0653,188.5781 Z" fill="#cdcd00" class="slice"><title>LAC: $32,815 (7.2%)</title></path>
+            <path d="M 100,100 L 84.0653,188.5781 A 90,90 0 0 1 50.9287,175.4454 Z" fill="#5c5cff" class="slice"><title>NVTS: $28,759 (6.3%)</title></path>
+            <path d="M 100,100 L 50.9287,175.4454 A 90,90 0 0 1 26.3572,151.7371 Z" fill="#cd0000" class="slice"><title>PATH: $27,534 (6.1%)</title></path>
+            <path d="M 100,100 L 26.3572,151.7371 A 90,90 0 0 1 13.7160,125.5943 Z" fill="#ff8700" class="slice"><title>BBAI: $23,377 (5.2%)</title></path>
+            <path d="M 100,100 L 13.7160,125.5943 A 90,90 0 0 1 10.0114,98.5671 Z" fill="#008787" class="slice"><title>OSCR: $21,950 (4.8%)</title></path>
+            <path d="M 100,100 L 10.0114,98.5671 A 90,90 0 0 1 12.5275,78.8209 Z" fill="#87ff00" class="slice"><title>CDNS: $15,988 (3.5%)</title></path>
+            <path d="M 100,100 L 12.5275,78.8209 A 90,90 0 0 1 18.8358,61.1107 Z" fill="#af5fff" class="slice"><title>SOUN: $15,096 (3.3%)</title></path>
+            <path d="M 100,100 L 18.8358,61.1107 A 90,90 0 0 1 28.6462,45.1490 Z" fill="#ffd700" class="slice"><title>MARA: $15,044 (3.3%)</title></path>
+            <path d="M 100,100 L 28.6462,45.1490 A 90,90 0 0 1 100.0000,10.0000 Z" fill="#ff5faf" class="slice"><title>Other: $66,035 (14.6%)</title></path>
+            </svg>
+            <div class="legend">
+                <div class="legend-row"><span class="legend-swatch" style="background:#00cdcd;"></span><span class="legend-label">PLTR</span><span class="legend-value">$105,130</span><span class="legend-pct">23.2%</span></div>
+                <div class="legend-row"><span class="legend-swatch" style="background:#00cd00;"></span><span class="legend-label">SMCI</span><span class="legend-value">$65,647</span><span class="legend-pct">14.5%</span></div>
+                <div class="legend-row"><span class="legend-swatch" style="background:#cd00cd;"></span><span class="legend-label">HIMS</span><span class="legend-value">$35,871</span><span class="legend-pct">7.9%</span></div>
+                <div class="legend-row"><span class="legend-swatch" style="background:#cdcd00;"></span><span class="legend-label">LAC</span><span class="legend-value">$32,815</span><span class="legend-pct">7.2%</span></div>
+                <div class="legend-row"><span class="legend-swatch" style="background:#5c5cff;"></span><span class="legend-label">NVTS</span><span class="legend-value">$28,759</span><span class="legend-pct">6.3%</span></div>
+                <div class="legend-row"><span class="legend-swatch" style="background:#cd0000;"></span><span class="legend-label">PATH</span><span class="legend-value">$27,534</span><span class="legend-pct">6.1%</span></div>
+                <div class="legend-row"><span class="legend-swatch" style="background:#ff8700;"></span><span class="legend-label">BBAI</span><span class="legend-value">$23,377</span><span class="legend-pct">5.2%</span></div>
+                <div class="legend-row"><span class="legend-swatch" style="background:#008787;"></span><span class="legend-label">OSCR</span><span class="legend-value">$21,950</span><span class="legend-pct">4.8%</span></div>
+                <div class="legend-row"><span class="legend-swatch" style="background:#87ff00;"></span><span class="legend-label">CDNS</span><span class="legend-value">$15,988</span><span class="legend-pct">3.5%</span></div>
+                <div class="legend-row"><span class="legend-swatch" style="background:#af5fff;"></span><span class="legend-label">SOUN</span><span class="legend-value">$15,096</span><span class="legend-pct">3.3%</span></div>
+                <div class="legend-row"><span class="legend-swatch" style="background:#ffd700;"></span><span class="legend-label">MARA</span><span class="legend-value">$15,044</span><span class="legend-pct">3.3%</span></div>
+                <div class="legend-row"><span class="legend-swatch" style="background:#ff5faf;"></span><span class="legend-label">Other</span><span class="legend-value">$66,035</span><span class="legend-pct">14.6%</span></div>
+            </div>
+        </div>
+    </div>
+        </div>
+
+        <div class="holdings-section">
+        <h3>Holdings Summary</h3>
+        <table class="holdings-tbl">
+            <thead>
+                <tr>
+                    <th>#</th><th>Symbol</th><th>Shares</th><th>Shares%</th>
+                    <th>Cost Basis</th><th>Basis%</th><th>Avg Cost</th>
+                </tr>
+            </thead>
+            <tbody>
+            <tr><td class="rank">1</td><td class="symbol">PLTR</td><td class="num">1,348</td><td class="num">5.5%</td><td class="num">$105,130</td><td class="num">23.2%</td><td class="num">$77.99</td></tr>
+            <tr><td class="rank">2</td><td class="symbol">SMCI</td><td class="num">1,600</td><td class="num">6.5%</td><td class="num">$65,647</td><td class="num">14.5%</td><td class="num">$41.03</td></tr>
+            <tr><td class="rank">3</td><td class="symbol">HIMS</td><td class="num">1,200</td><td class="num">4.9%</td><td class="num">$35,871</td><td class="num">7.9%</td><td class="num">$29.89</td></tr>
+            <tr><td class="rank">4</td><td class="symbol">LAC</td><td class="num">5,000</td><td class="num">20.3%</td><td class="num">$32,815</td><td class="num">7.2%</td><td class="num">$6.56</td></tr>
+            <tr><td class="rank">5</td><td class="symbol">NVTS</td><td class="num">3,800</td><td class="num">15.5%</td><td class="num">$28,759</td><td class="num">6.3%</td><td class="num">$7.57</td></tr>
+            <tr><td class="rank">6</td><td class="symbol">PATH</td><td class="num">2,000</td><td class="num">8.1%</td><td class="num">$27,534</td><td class="num">6.1%</td><td class="num">$13.77</td></tr>
+            <tr><td class="rank">7</td><td class="symbol">BBAI</td><td class="num">4,000</td><td class="num">16.3%</td><td class="num">$23,377</td><td class="num">5.2%</td><td class="num">$5.84</td></tr>
+            <tr><td class="rank">8</td><td class="symbol">OSCR</td><td class="num">1,000</td><td class="num">4.1%</td><td class="num">$21,950</td><td class="num">4.8%</td><td class="num">$21.95</td></tr>
+            <tr><td class="rank">9</td><td class="symbol">CDNS</td><td class="num">50</td><td class="num">0.2%</td><td class="num">$15,988</td><td class="num">3.5%</td><td class="num">$319.75</td></tr>
+            <tr><td class="rank">10</td><td class="symbol">SOUN</td><td class="num">1,200</td><td class="num">4.9%</td><td class="num">$15,096</td><td class="num">3.3%</td><td class="num">$12.58</td></tr>
+            <tr><td class="rank">11</td><td class="symbol">MARA</td><td class="num">800</td><td class="num">3.3%</td><td class="num">$15,044</td><td class="num">3.3%</td><td class="num">$18.80</td></tr>
+            <tr><td class="rank">12</td><td class="symbol">SOFI</td><td class="num">1,030</td><td class="num">4.2%</td><td class="num">$13,708</td><td class="num">3.0%</td><td class="num">$13.31</td></tr>
+            <tr><td class="rank">13</td><td class="symbol">TSLA</td><td class="num">41</td><td class="num">0.2%</td><td class="num">$10,176</td><td class="num">2.2%</td><td class="num">$248.19</td></tr>
+            <tr><td class="rank">14</td><td class="symbol">IONQ</td><td class="num">320</td><td class="num">1.3%</td><td class="num">$7,819</td><td class="num">1.7%</td><td class="num">$24.43</td></tr>
+            <tr><td class="rank">15</td><td class="symbol">CRWV</td><td class="num">100</td><td class="num">0.4%</td><td class="num">$7,292</td><td class="num">1.6%</td><td class="num">$72.92</td></tr>
+            <tr><td class="rank">16</td><td class="symbol">ETHE</td><td class="num">250</td><td class="num">1.0%</td><td class="num">$6,026</td><td class="num">1.3%</td><td class="num">$24.11</td></tr>
+            <tr><td class="rank">17</td><td class="symbol">HOOD</td><td class="num">90</td><td class="num">0.4%</td><td class="num">$5,422</td><td class="num">1.2%</td><td class="num">$60.25</td></tr>
+            <tr><td class="rank">18</td><td class="symbol">AMD</td><td class="num">50</td><td class="num">0.2%</td><td class="num">$4,930</td><td class="num">1.1%</td><td class="num">$98.60</td></tr>
+            <tr><td class="rank">19</td><td class="symbol">RGTI</td><td class="num">320</td><td class="num">1.3%</td><td class="num">$2,679</td><td class="num">0.6%</td><td class="num">$8.37</td></tr>
+            <tr><td class="rank">20</td><td class="symbol">QUBT</td><td class="num">320</td><td class="num">1.3%</td><td class="num">$2,532</td><td class="num">0.6%</td><td class="num">$7.91</td></tr>
+            <tr><td class="rank">21</td><td class="symbol">ZS</td><td class="num">15</td><td class="num">0.1%</td><td class="num">$2,155</td><td class="num">0.5%</td><td class="num">$143.66</td></tr>
+            <tr><td class="rank">22</td><td class="symbol">DDOG</td><td class="num">20</td><td class="num">0.1%</td><td class="num">$2,062</td><td class="num">0.5%</td><td class="num">$103.11</td></tr>
+            <tr><td class="rank">23</td><td class="symbol">VOO</td><td class="num">2</td><td class="num">0.0%</td><td class="num">$1,234</td><td class="num">0.3%</td><td class="num">$616.87</td></tr>
+            <tr><td class="rank">24</td><td class="symbol">DQIAX</td><td class="num">19</td><td class="num">0.1%</td><td class="num">$0</td><td class="num">0.0%</td><td class="num">$0.00</td></tr>
+            </tbody>
+            <tfoot>
+                <tr class="total-row">
+                    <td></td><td>Total</td>
+                    <td class="num">24,575</td><td></td>
+                    <td class="num">$453,245</td><td></td><td></td>
+                </tr>
+            </tfoot>
+        </table>
+    </div>
+
+        <footer>
+            Generated by StocksFin
+        </footer>
+    </div>
+
+<script data-goatcounter="https://stocksfin.goatcounter.com/count"
+        async src="//gc.zgo.at/count.js"></script>
+</body>
+</html>
