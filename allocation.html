@@ -214,9 +214,14 @@
         }
         .charts-grid {
             display: grid;
-            grid-template-columns: 1fr;
+            grid-template-columns: 1fr 1fr;
             gap: 24px;
             margin-bottom: 32px;
+        }
+        @media (max-width: 800px) {
+            .charts-grid {
+                grid-template-columns: 1fr;
+            }
         }
         .chart-panel {
             background-color: #161b22;
@@ -237,8 +242,10 @@
             gap: 20px;
         }
         .pie-svg {
-            width: 360px;
-            height: 360px;
+            width: 100%;
+            max-width: 300px;
+            height: auto;
+            aspect-ratio: 1;
             flex-shrink: 0;
         }
         .pie-svg .slice {
@@ -249,8 +256,8 @@
         }
         .legend {
             display: grid;
-            grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
-            gap: 4px 16px;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 4px 12px;
             width: 100%;
         }
         .legend-row {
@@ -277,12 +284,6 @@
         .legend-value {
             color: #8b949e;
             white-space: nowrap;
-        }
-        .legend-pct {
-            color: #8b949e;
-            width: 48px;
-            text-align: right;
-            flex-shrink: 0;
         }
         /* Holdings table */
         .holdings-section {
@@ -340,7 +341,7 @@
         <header>
             <h1>Portfolio Allocation</h1>
             <div class="subtitle">24 holdings</div>
-            <div class="subtitle">Updated: Mar 20, 2026 02:43 PM</div>
+            <div class="subtitle">Updated: Mar 20, 2026 02:51 PM</div>
         </header>
 
         <nav class="nav">
@@ -370,18 +371,18 @@
             <path d="M 100,100 L 64.2646,17.3987 A 90,90 0 0 1 100.0000,10.0000 Z" fill="#ff5faf" class="slice"><title>Other: 1,597 sh (6.5%)</title></path>
             </svg>
             <div class="legend">
-                <div class="legend-row"><span class="legend-swatch" style="background:#cdcd00;"></span><span class="legend-label">LAC</span><span class="legend-value">5,000 sh</span><span class="legend-pct">20.3%</span></div>
-                <div class="legend-row"><span class="legend-swatch" style="background:#ff8700;"></span><span class="legend-label">BBAI</span><span class="legend-value">4,000 sh</span><span class="legend-pct">16.3%</span></div>
-                <div class="legend-row"><span class="legend-swatch" style="background:#5c5cff;"></span><span class="legend-label">NVTS</span><span class="legend-value">3,800 sh</span><span class="legend-pct">15.5%</span></div>
-                <div class="legend-row"><span class="legend-swatch" style="background:#cd0000;"></span><span class="legend-label">PATH</span><span class="legend-value">2,000 sh</span><span class="legend-pct">8.1%</span></div>
-                <div class="legend-row"><span class="legend-swatch" style="background:#00cd00;"></span><span class="legend-label">SMCI</span><span class="legend-value">1,600 sh</span><span class="legend-pct">6.5%</span></div>
-                <div class="legend-row"><span class="legend-swatch" style="background:#00cdcd;"></span><span class="legend-label">PLTR</span><span class="legend-value">1,348 sh</span><span class="legend-pct">5.5%</span></div>
-                <div class="legend-row"><span class="legend-swatch" style="background:#cd00cd;"></span><span class="legend-label">HIMS</span><span class="legend-value">1,200 sh</span><span class="legend-pct">4.9%</span></div>
-                <div class="legend-row"><span class="legend-swatch" style="background:#af5fff;"></span><span class="legend-label">SOUN</span><span class="legend-value">1,200 sh</span><span class="legend-pct">4.9%</span></div>
-                <div class="legend-row"><span class="legend-swatch" style="background:#87ff00;"></span><span class="legend-label">SOFI</span><span class="legend-value">1,030 sh</span><span class="legend-pct">4.2%</span></div>
-                <div class="legend-row"><span class="legend-swatch" style="background:#008787;"></span><span class="legend-label">OSCR</span><span class="legend-value">1,000 sh</span><span class="legend-pct">4.1%</span></div>
-                <div class="legend-row"><span class="legend-swatch" style="background:#ffd700;"></span><span class="legend-label">MARA</span><span class="legend-value">800 sh</span><span class="legend-pct">3.3%</span></div>
-                <div class="legend-row"><span class="legend-swatch" style="background:#ff5faf;"></span><span class="legend-label">Other</span><span class="legend-value">1,597 sh</span><span class="legend-pct">6.5%</span></div>
+                <div class="legend-row"><span class="legend-swatch" style="background:#cdcd00;"></span><span class="legend-label">LAC</span><span class="legend-value">5,000 sh</span></div>
+                <div class="legend-row"><span class="legend-swatch" style="background:#ff8700;"></span><span class="legend-label">BBAI</span><span class="legend-value">4,000 sh</span></div>
+                <div class="legend-row"><span class="legend-swatch" style="background:#5c5cff;"></span><span class="legend-label">NVTS</span><span class="legend-value">3,800 sh</span></div>
+                <div class="legend-row"><span class="legend-swatch" style="background:#cd0000;"></span><span class="legend-label">PATH</span><span class="legend-value">2,000 sh</span></div>
+                <div class="legend-row"><span class="legend-swatch" style="background:#00cd00;"></span><span class="legend-label">SMCI</span><span class="legend-value">1,600 sh</span></div>
+                <div class="legend-row"><span class="legend-swatch" style="background:#00cdcd;"></span><span class="legend-label">PLTR</span><span class="legend-value">1,348 sh</span></div>
+                <div class="legend-row"><span class="legend-swatch" style="background:#cd00cd;"></span><span class="legend-label">HIMS</span><span class="legend-value">1,200 sh</span></div>
+                <div class="legend-row"><span class="legend-swatch" style="background:#af5fff;"></span><span class="legend-label">SOUN</span><span class="legend-value">1,200 sh</span></div>
+                <div class="legend-row"><span class="legend-swatch" style="background:#87ff00;"></span><span class="legend-label">SOFI</span><span class="legend-value">1,030 sh</span></div>
+                <div class="legend-row"><span class="legend-swatch" style="background:#008787;"></span><span class="legend-label">OSCR</span><span class="legend-value">1,000 sh</span></div>
+                <div class="legend-row"><span class="legend-swatch" style="background:#ffd700;"></span><span class="legend-label">MARA</span><span class="legend-value">800 sh</span></div>
+                <div class="legend-row"><span class="legend-swatch" style="background:#ff5faf;"></span><span class="legend-label">Other</span><span class="legend-value">1,597 sh</span></div>
             </div>
         </div>
     </div>
@@ -403,18 +404,18 @@
             <path d="M 100,100 L 28.6462,45.1490 A 90,90 0 0 1 100.0000,10.0000 Z" fill="#ff5faf" class="slice"><title>Other: $66,035 (14.6%)</title></path>
             </svg>
             <div class="legend">
-                <div class="legend-row"><span class="legend-swatch" style="background:#00cdcd;"></span><span class="legend-label">PLTR</span><span class="legend-value">$105,130</span><span class="legend-pct">23.2%</span></div>
-                <div class="legend-row"><span class="legend-swatch" style="background:#00cd00;"></span><span class="legend-label">SMCI</span><span class="legend-value">$65,647</span><span class="legend-pct">14.5%</span></div>
-                <div class="legend-row"><span class="legend-swatch" style="background:#cd00cd;"></span><span class="legend-label">HIMS</span><span class="legend-value">$35,871</span><span class="legend-pct">7.9%</span></div>
-                <div class="legend-row"><span class="legend-swatch" style="background:#cdcd00;"></span><span class="legend-label">LAC</span><span class="legend-value">$32,815</span><span class="legend-pct">7.2%</span></div>
-                <div class="legend-row"><span class="legend-swatch" style="background:#5c5cff;"></span><span class="legend-label">NVTS</span><span class="legend-value">$28,759</span><span class="legend-pct">6.3%</span></div>
-                <div class="legend-row"><span class="legend-swatch" style="background:#cd0000;"></span><span class="legend-label">PATH</span><span class="legend-value">$27,534</span><span class="legend-pct">6.1%</span></div>
-                <div class="legend-row"><span class="legend-swatch" style="background:#ff8700;"></span><span class="legend-label">BBAI</span><span class="legend-value">$23,377</span><span class="legend-pct">5.2%</span></div>
-                <div class="legend-row"><span class="legend-swatch" style="background:#008787;"></span><span class="legend-label">OSCR</span><span class="legend-value">$21,950</span><span class="legend-pct">4.8%</span></div>
-                <div class="legend-row"><span class="legend-swatch" style="background:#87ff00;"></span><span class="legend-label">CDNS</span><span class="legend-value">$15,988</span><span class="legend-pct">3.5%</span></div>
-                <div class="legend-row"><span class="legend-swatch" style="background:#af5fff;"></span><span class="legend-label">SOUN</span><span class="legend-value">$15,096</span><span class="legend-pct">3.3%</span></div>
-                <div class="legend-row"><span class="legend-swatch" style="background:#ffd700;"></span><span class="legend-label">MARA</span><span class="legend-value">$15,044</span><span class="legend-pct">3.3%</span></div>
-                <div class="legend-row"><span class="legend-swatch" style="background:#ff5faf;"></span><span class="legend-label">Other</span><span class="legend-value">$66,035</span><span class="legend-pct">14.6%</span></div>
+                <div class="legend-row"><span class="legend-swatch" style="background:#00cdcd;"></span><span class="legend-label">PLTR</span><span class="legend-value">$105,130</span></div>
+                <div class="legend-row"><span class="legend-swatch" style="background:#00cd00;"></span><span class="legend-label">SMCI</span><span class="legend-value">$65,647</span></div>
+                <div class="legend-row"><span class="legend-swatch" style="background:#cd00cd;"></span><span class="legend-label">HIMS</span><span class="legend-value">$35,871</span></div>
+                <div class="legend-row"><span class="legend-swatch" style="background:#cdcd00;"></span><span class="legend-label">LAC</span><span class="legend-value">$32,815</span></div>
+                <div class="legend-row"><span class="legend-swatch" style="background:#5c5cff;"></span><span class="legend-label">NVTS</span><span class="legend-value">$28,759</span></div>
+                <div class="legend-row"><span class="legend-swatch" style="background:#cd0000;"></span><span class="legend-label">PATH</span><span class="legend-value">$27,534</span></div>
+                <div class="legend-row"><span class="legend-swatch" style="background:#ff8700;"></span><span class="legend-label">BBAI</span><span class="legend-value">$23,377</span></div>
+                <div class="legend-row"><span class="legend-swatch" style="background:#008787;"></span><span class="legend-label">OSCR</span><span class="legend-value">$21,950</span></div>
+                <div class="legend-row"><span class="legend-swatch" style="background:#87ff00;"></span><span class="legend-label">CDNS</span><span class="legend-value">$15,988</span></div>
+                <div class="legend-row"><span class="legend-swatch" style="background:#af5fff;"></span><span class="legend-label">SOUN</span><span class="legend-value">$15,096</span></div>
+                <div class="legend-row"><span class="legend-swatch" style="background:#ffd700;"></span><span class="legend-label">MARA</span><span class="legend-value">$15,044</span></div>
+                <div class="legend-row"><span class="legend-swatch" style="background:#ff5faf;"></span><span class="legend-label">Other</span><span class="legend-value">$66,035</span></div>
             </div>
         </div>
     </div>
