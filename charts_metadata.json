@@ -12749,6 +12749,56 @@
         "sector": "UTILITIES",
         "industry": "UTILITIES - REGULATED ELECTRIC"
       }
+    },
+    "RTX": {
+      "presets": {
+        "Revenue": {
+          "updated": "Mar 20, 2026 06:37 PM"
+        },
+        "Costs": {
+          "updated": "Mar 20, 2026 06:37 PM"
+        },
+        "Cash": {
+          "updated": "Mar 20, 2026 06:37 PM"
+        },
+        "FCF": {
+          "updated": "Mar 20, 2026 06:37 PM"
+        },
+        "Assets": {
+          "updated": "Mar 20, 2026 06:37 PM"
+        },
+        "Buffet": {
+          "updated": "Mar 20, 2026 06:37 PM"
+        },
+        "Revenue-q": {
+          "updated": "Mar 20, 2026 06:37 PM"
+        },
+        "Costs-q": {
+          "updated": "Mar 20, 2026 06:37 PM"
+        },
+        "Cash-q": {
+          "updated": "Mar 20, 2026 06:37 PM"
+        },
+        "FCF-q": {
+          "updated": "Mar 20, 2026 06:37 PM"
+        },
+        "Assets-q": {
+          "updated": "Mar 20, 2026 06:37 PM"
+        },
+        "Buffet-q": {
+          "updated": "Mar 20, 2026 06:37 PM"
+        }
+      },
+      "last_updated": "2026-03-20T18:37:43.476421",
+      "company": {
+        "name": "Raytheon Technologies Corp",
+        "market_cap": "$270.18B",
+        "market_cap_raw": 270177403000.0,
+        "last_q_revenue": 24238000000.0,
+        "description": "Raytheon Technologies Corporation is an American multinational aerospace and defense conglomerate headquartered in Waltham, Massachusetts. It is one of the largest aerospace, intelligence services providers, and defense manufacturers in the world by revenue and market capitalization. Raytheon Technologies (RTX) researches, develops, and manufactures advanced technology products in the aerospace and defense industry, including aircraft engines, avionics, aerostructures, cybersecurity, guided missiles, air defense systems, satellites, and drones.",
+        "sector": "INDUSTRIALS",
+        "industry": "AEROSPACE & DEFENSE"
+      }
     }
   }
 }
