@@ -12799,6 +12799,106 @@
         "sector": "INDUSTRIALS",
         "industry": "AEROSPACE & DEFENSE"
       }
+    },
+    "BABA": {
+      "presets": {
+        "Revenue": {
+          "updated": "Mar 20, 2026 11:59 PM"
+        },
+        "Costs": {
+          "updated": "Mar 20, 2026 11:59 PM"
+        },
+        "Cash": {
+          "updated": "Mar 20, 2026 11:59 PM"
+        },
+        "FCF": {
+          "updated": "Mar 20, 2026 11:59 PM"
+        },
+        "Assets": {
+          "updated": "Mar 20, 2026 11:59 PM"
+        },
+        "Buffet": {
+          "updated": "Mar 20, 2026 11:59 PM"
+        },
+        "Revenue-q": {
+          "updated": "Mar 20, 2026 11:59 PM"
+        },
+        "Costs-q": {
+          "updated": "Mar 20, 2026 11:59 PM"
+        },
+        "Cash-q": {
+          "updated": "Mar 20, 2026 11:59 PM"
+        },
+        "FCF-q": {
+          "updated": "Mar 20, 2026 11:59 PM"
+        },
+        "Assets-q": {
+          "updated": "Mar 20, 2026 11:59 PM"
+        },
+        "Buffet-q": {
+          "updated": "Mar 20, 2026 11:59 PM"
+        }
+      },
+      "last_updated": "2026-03-20T23:59:31.034441",
+      "company": {
+        "name": "Alibaba Group Holding Ltd",
+        "market_cap": "$298.19B",
+        "market_cap_raw": 298187850000.0,
+        "last_q_revenue": 40746224243.850006,
+        "description": "Alibaba Group Holding Limited, also known as Alibaba Group and Alibaba.com, is a Chinese multinational technology company specializing in e-commerce, retail, Internet, and technology. Founded on 28 June 1999 in Hangzhou, Zhejiang, the company provides consumer-to-consumer (C2C), business-to-consumer (B2C), and business-to-business (B2B) sales services via web portals, as well as electronic payment services, shopping search engines and cloud computing services. It owns and operates a diverse portfolio of companies around the world in numerous business sectors.",
+        "sector": "CONSUMER CYCLICAL",
+        "industry": "INTERNET RETAIL"
+      }
+    },
+    "MELI": {
+      "presets": {
+        "Revenue": {
+          "updated": "Mar 20, 2026 11:59 PM"
+        },
+        "Costs": {
+          "updated": "Mar 20, 2026 11:59 PM"
+        },
+        "Cash": {
+          "updated": "Mar 20, 2026 11:59 PM"
+        },
+        "FCF": {
+          "updated": "Mar 20, 2026 11:59 PM"
+        },
+        "Assets": {
+          "updated": "Mar 20, 2026 11:59 PM"
+        },
+        "Buffet": {
+          "updated": "Mar 20, 2026 11:59 PM"
+        },
+        "Revenue-q": {
+          "updated": "Mar 20, 2026 11:59 PM"
+        },
+        "Costs-q": {
+          "updated": "Mar 20, 2026 11:59 PM"
+        },
+        "Cash-q": {
+          "updated": "Mar 20, 2026 11:59 PM"
+        },
+        "FCF-q": {
+          "updated": "Mar 20, 2026 11:59 PM"
+        },
+        "Assets-q": {
+          "updated": "Mar 20, 2026 11:59 PM"
+        },
+        "Buffet-q": {
+          "updated": "Mar 20, 2026 11:59 PM"
+        }
+      },
+      "last_updated": "2026-03-20T23:59:31.083817",
+      "company": {
+        "name": "MercadoLibre Inc.",
+        "market_cap": "$84.51B",
+        "market_cap_raw": 84508656000.0,
+        "last_q_revenue": 8759000000.0,
+        "description": "MercadoLibre, Inc. operates online trading platforms in Latin America. The company is headquartered in Buenos Aires, Argentina.",
+        "sector": "CONSUMER CYCLICAL",
+        "industry": "INTERNET RETAIL"
+      }
     }
   }
 }
