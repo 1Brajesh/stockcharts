@@ -12899,6 +12899,106 @@
         "sector": "CONSUMER CYCLICAL",
         "industry": "INTERNET RETAIL"
       }
+    },
+    "VHUB": {
+      "presets": {
+        "Revenue": {
+          "updated": "Mar 22, 2026 10:46 PM"
+        },
+        "Costs": {
+          "updated": "Mar 22, 2026 10:46 PM"
+        },
+        "Cash": {
+          "updated": "Mar 22, 2026 10:46 PM"
+        },
+        "FCF": {
+          "updated": "Mar 22, 2026 10:46 PM"
+        },
+        "Assets": {
+          "updated": "Mar 22, 2026 10:46 PM"
+        },
+        "Buffet": {
+          "updated": "Mar 22, 2026 10:46 PM"
+        },
+        "Revenue-q": {
+          "updated": "Mar 22, 2026 10:46 PM"
+        },
+        "Costs-q": {
+          "updated": "Mar 22, 2026 10:46 PM"
+        },
+        "Cash-q": {
+          "updated": "Mar 22, 2026 10:46 PM"
+        },
+        "FCF-q": {
+          "updated": "Mar 22, 2026 10:46 PM"
+        },
+        "Assets-q": {
+          "updated": "Mar 22, 2026 10:46 PM"
+        },
+        "Buffet-q": {
+          "updated": "Mar 22, 2026 10:46 PM"
+        }
+      },
+      "last_updated": "2026-03-22T22:46:12.184852",
+      "company": {
+        "name": "Vapor Hub International Inc",
+        "market_cap": "$235,870",
+        "market_cap_raw": 235870.0,
+        "last_q_revenue": 2495222.0,
+        "description": "Vapor Hub International Inc., designs, develops, sources, markets, and sells smokeless electronic cigarettes. The company is headquartered in Simi Valley, California.",
+        "sector": "CONSUMER STAPLES",
+        "industry": "TOBACCO"
+      }
+    },
+    "STWD": {
+      "presets": {
+        "Revenue": {
+          "updated": "Mar 22, 2026 10:46 PM"
+        },
+        "Costs": {
+          "updated": "Mar 22, 2026 10:46 PM"
+        },
+        "Cash": {
+          "updated": "Mar 22, 2026 10:46 PM"
+        },
+        "FCF": {
+          "updated": "Mar 22, 2026 10:46 PM"
+        },
+        "Assets": {
+          "updated": "Mar 22, 2026 10:46 PM"
+        },
+        "Buffet": {
+          "updated": "Mar 22, 2026 10:46 PM"
+        },
+        "Revenue-q": {
+          "updated": "Mar 22, 2026 10:46 PM"
+        },
+        "Costs-q": {
+          "updated": "Mar 22, 2026 10:46 PM"
+        },
+        "Cash-q": {
+          "updated": "Mar 22, 2026 10:46 PM"
+        },
+        "FCF-q": {
+          "updated": "Mar 22, 2026 10:46 PM"
+        },
+        "Assets-q": {
+          "updated": "Mar 22, 2026 10:46 PM"
+        },
+        "Buffet-q": {
+          "updated": "Mar 22, 2026 10:46 PM"
+        }
+      },
+      "last_updated": "2026-03-22T22:46:12.211725",
+      "company": {
+        "name": "Starwood Property Trust Inc",
+        "market_cap": "$6.50B",
+        "market_cap_raw": 6495177000.0,
+        "last_q_revenue": 506247000.0,
+        "description": "Starwood Property Trust, Inc. is a real estate investment trust (REIT) in the United States and Europe. The company is headquartered in Greenwich, Connecticut.",
+        "sector": "REAL ESTATE",
+        "industry": "REIT - MORTGAGE"
+      }
     }
   }
 }
