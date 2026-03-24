@@ -12999,6 +12999,206 @@
         "sector": "REAL ESTATE",
         "industry": "REIT - MORTGAGE"
       }
+    },
+    "APH": {
+      "presets": {
+        "Revenue": {
+          "updated": "Mar 23, 2026 10:34 PM"
+        },
+        "Costs": {
+          "updated": "Mar 23, 2026 10:34 PM"
+        },
+        "Cash": {
+          "updated": "Mar 23, 2026 10:34 PM"
+        },
+        "FCF": {
+          "updated": "Mar 23, 2026 10:34 PM"
+        },
+        "Assets": {
+          "updated": "Mar 23, 2026 10:34 PM"
+        },
+        "Buffet": {
+          "updated": "Mar 23, 2026 10:34 PM"
+        },
+        "Revenue-q": {
+          "updated": "Mar 23, 2026 10:34 PM"
+        },
+        "Costs-q": {
+          "updated": "Mar 23, 2026 10:34 PM"
+        },
+        "Cash-q": {
+          "updated": "Mar 23, 2026 10:34 PM"
+        },
+        "FCF-q": {
+          "updated": "Mar 23, 2026 10:34 PM"
+        },
+        "Assets-q": {
+          "updated": "Mar 23, 2026 10:34 PM"
+        },
+        "Buffet-q": {
+          "updated": "Mar 23, 2026 10:34 PM"
+        }
+      },
+      "last_updated": "2026-03-23T22:34:47.539578",
+      "company": {
+        "name": "Amphenol Corporation",
+        "market_cap": "$155.79B",
+        "market_cap_raw": 155790705000.0,
+        "last_q_revenue": 6439000000.0,
+        "description": "Amphenol Corporation is a major producer of electronic and fiber optic connectors, cable and interconnect systems such as coaxial cables. Amphenol is a portmanteau from the corporation's original name, American Phenolic Corp.",
+        "sector": "TECHNOLOGY",
+        "industry": "ELECTRONIC COMPONENTS"
+      }
+    },
+    "IBN": {
+      "presets": {
+        "Revenue": {
+          "updated": "Mar 23, 2026 10:34 PM"
+        },
+        "Costs": {
+          "updated": "Mar 23, 2026 10:34 PM"
+        },
+        "Cash": {
+          "updated": "Mar 23, 2026 10:34 PM"
+        },
+        "FCF": {
+          "updated": "Mar 23, 2026 10:34 PM"
+        },
+        "Assets": {
+          "updated": "Mar 23, 2026 10:34 PM"
+        },
+        "Buffet": {
+          "updated": "Mar 23, 2026 10:34 PM"
+        },
+        "Revenue-q": {
+          "updated": "Mar 23, 2026 10:34 PM"
+        },
+        "Costs-q": {
+          "updated": "Mar 23, 2026 10:34 PM"
+        },
+        "Cash-q": {
+          "updated": "Mar 23, 2026 10:34 PM"
+        },
+        "FCF-q": {
+          "updated": "Mar 23, 2026 10:34 PM"
+        },
+        "Assets-q": {
+          "updated": "Mar 23, 2026 10:34 PM"
+        },
+        "Buffet-q": {
+          "updated": "Mar 23, 2026 10:34 PM"
+        }
+      },
+      "last_updated": "2026-03-23T22:34:47.592742",
+      "company": {
+        "name": "ICICI Bank Limited",
+        "market_cap": "$95.10B",
+        "market_cap_raw": 95098110000.0,
+        "last_q_revenue": 8275979579.400001,
+        "description": "ICICI Bank Limited offers various banking products and financial services in India and internationally. The company is headquartered in Mumbai, India.",
+        "sector": "FINANCIAL SERVICES",
+        "industry": "BANKS - REGIONAL"
+      }
+    },
+    "PG": {
+      "presets": {
+        "Revenue": {
+          "updated": "Mar 23, 2026 10:34 PM"
+        },
+        "Costs": {
+          "updated": "Mar 23, 2026 10:34 PM"
+        },
+        "Cash": {
+          "updated": "Mar 23, 2026 10:34 PM"
+        },
+        "FCF": {
+          "updated": "Mar 23, 2026 10:34 PM"
+        },
+        "Assets": {
+          "updated": "Mar 23, 2026 10:34 PM"
+        },
+        "Buffet": {
+          "updated": "Mar 23, 2026 10:34 PM"
+        },
+        "Revenue-q": {
+          "updated": "Mar 23, 2026 10:34 PM"
+        },
+        "Costs-q": {
+          "updated": "Mar 23, 2026 10:34 PM"
+        },
+        "Cash-q": {
+          "updated": "Mar 23, 2026 10:34 PM"
+        },
+        "FCF-q": {
+          "updated": "Mar 23, 2026 10:34 PM"
+        },
+        "Assets-q": {
+          "updated": "Mar 23, 2026 10:34 PM"
+        },
+        "Buffet-q": {
+          "updated": "Mar 23, 2026 10:34 PM"
+        }
+      },
+      "last_updated": "2026-03-23T22:34:47.644021",
+      "company": {
+        "name": "Procter & Gamble Company",
+        "market_cap": "$337.14B",
+        "market_cap_raw": 337143890000.0,
+        "last_q_revenue": 22208000000.0,
+        "description": "The Procter & Gamble Company (P&G) is an American multinational consumer goods corporation headquartered in Cincinnati, Ohio, founded in 1837 by William Procter and James Gamble. It specializes in a wide range of personal health, consumer health, personal care, and hygiene products; these products are organized into several segments including Beauty; Grooming; Health Care; Fabric & Home Care; and Baby, Feminine, & Family Care. Before the sale of Pringles to Kellogg's, its product portfolio also included food, snacks, and beverages.",
+        "sector": "CONSUMER DEFENSIVE",
+        "industry": "HOUSEHOLD & PERSONAL PRODUCTS"
+      }
+    },
+    "SHOP": {
+      "presets": {
+        "Revenue": {
+          "updated": "Mar 23, 2026 10:34 PM"
+        },
+        "Costs": {
+          "updated": "Mar 23, 2026 10:34 PM"
+        },
+        "Cash": {
+          "updated": "Mar 23, 2026 10:34 PM"
+        },
+        "FCF": {
+          "updated": "Mar 23, 2026 10:34 PM"
+        },
+        "Assets": {
+          "updated": "Mar 23, 2026 10:34 PM"
+        },
+        "Buffet": {
+          "updated": "Mar 23, 2026 10:34 PM"
+        },
+        "Revenue-q": {
+          "updated": "Mar 23, 2026 10:34 PM"
+        },
+        "Costs-q": {
+          "updated": "Mar 23, 2026 10:34 PM"
+        },
+        "Cash-q": {
+          "updated": "Mar 23, 2026 10:34 PM"
+        },
+        "FCF-q": {
+          "updated": "Mar 23, 2026 10:34 PM"
+        },
+        "Assets-q": {
+          "updated": "Mar 23, 2026 10:34 PM"
+        },
+        "Buffet-q": {
+          "updated": "Mar 23, 2026 10:34 PM"
+        }
+      },
+      "last_updated": "2026-03-23T22:34:47.723656",
+      "company": {
+        "name": "Shopify Inc",
+        "market_cap": "$152.41B",
+        "market_cap_raw": 152407671000.0,
+        "last_q_revenue": 3672000000.0,
+        "description": "Shopify Inc., a commerce company, offers a commerce and service platform in Canada, the United States, the United Kingdom, Australia, Latin America, and internationally. The company is headquartered in Ottawa, Canada.",
+        "sector": "TECHNOLOGY",
+        "industry": "SOFTWARE - APPLICATION"
+      }
     }
   }
 }
