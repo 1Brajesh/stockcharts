@@ -13299,6 +13299,56 @@
         "sector": "TECHNOLOGY",
         "industry": "COMMUNICATION EQUIPMENT"
       }
+    },
+    "HSY": {
+      "presets": {
+        "Revenue": {
+          "updated": "Mar 25, 2026 10:51 AM"
+        },
+        "Costs": {
+          "updated": "Mar 25, 2026 10:51 AM"
+        },
+        "Cash": {
+          "updated": "Mar 25, 2026 10:51 AM"
+        },
+        "FCF": {
+          "updated": "Mar 25, 2026 10:51 AM"
+        },
+        "Assets": {
+          "updated": "Mar 25, 2026 10:51 AM"
+        },
+        "Buffet": {
+          "updated": "Mar 25, 2026 10:51 AM"
+        },
+        "Revenue-q": {
+          "updated": "Mar 25, 2026 10:51 AM"
+        },
+        "Costs-q": {
+          "updated": "Mar 25, 2026 10:51 AM"
+        },
+        "Cash-q": {
+          "updated": "Mar 25, 2026 10:51 AM"
+        },
+        "FCF-q": {
+          "updated": "Mar 25, 2026 10:51 AM"
+        },
+        "Assets-q": {
+          "updated": "Mar 25, 2026 10:51 AM"
+        },
+        "Buffet-q": {
+          "updated": "Mar 25, 2026 10:51 AM"
+        }
+      },
+      "last_updated": "2026-03-25T10:51:43.339254",
+      "company": {
+        "name": "Hershey Co",
+        "market_cap": "$43.64B",
+        "market_cap_raw": 43639357000.0,
+        "last_q_revenue": 3091021000.0,
+        "description": "The Hershey Company, commonly known as Hershey's, is an American multinational company and one of the largest chocolate manufacturers in the world. It also manufactures baked products, such as cookies and cakes, and sells beverages like milkshakes, and many more that are produced globally. Its headquarters are in Hershey, Pennsylvania.",
+        "sector": "CONSUMER DEFENSIVE",
+        "industry": "CONFECTIONERS"
+      }
     }
   }
 }
