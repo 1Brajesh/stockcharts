@@ -3403,49 +3403,49 @@
     "MP": {
       "presets": {
         "Revenue": {
-          "updated": "Mar 12, 2026 11:30 AM"
+          "updated": "Mar 25, 2026 01:26 AM"
         },
         "Costs": {
-          "updated": "Mar 12, 2026 11:30 AM"
+          "updated": "Mar 25, 2026 01:26 AM"
         },
         "Cash": {
-          "updated": "Mar 12, 2026 11:30 AM"
+          "updated": "Mar 25, 2026 01:26 AM"
         },
         "FCF": {
-          "updated": "Mar 12, 2026 11:30 AM"
+          "updated": "Mar 25, 2026 01:26 AM"
         },
         "Assets": {
-          "updated": "Mar 12, 2026 11:30 AM"
+          "updated": "Mar 25, 2026 01:26 AM"
         },
         "Buffet": {
-          "updated": "Mar 12, 2026 11:30 AM"
+          "updated": "Mar 25, 2026 01:26 AM"
         },
         "Revenue-q": {
-          "updated": "Mar 12, 2026 11:30 AM"
+          "updated": "Mar 25, 2026 01:26 AM"
         },
         "Costs-q": {
-          "updated": "Mar 12, 2026 11:30 AM"
+          "updated": "Mar 25, 2026 01:26 AM"
         },
         "Cash-q": {
-          "updated": "Mar 12, 2026 11:30 AM"
+          "updated": "Mar 25, 2026 01:26 AM"
         },
         "FCF-q": {
-          "updated": "Mar 12, 2026 11:30 AM"
+          "updated": "Mar 25, 2026 01:26 AM"
         },
         "Assets-q": {
-          "updated": "Mar 12, 2026 11:30 AM"
+          "updated": "Mar 25, 2026 01:26 AM"
         },
         "Buffet-q": {
-          "updated": "Mar 12, 2026 11:30 AM"
+          "updated": "Mar 25, 2026 01:26 AM"
         }
       },
-      "last_updated": "2026-03-12T11:30:18.736318",
+      "last_updated": "2026-03-25T01:26:52.106461",
       "company": {
         "name": "MP Materials Corp",
-        "market_cap": "$12.23B",
-        "market_cap_raw": 12225359000.0,
-        "last_q_revenue": 53553000.0,
-        "description": "MP Materials Corp. is the leading domestic producer of rare earth materials in North America, headquartered in Las Vegas, Nevada. The company plays a critical role in the supply chain for advanced technologies, particularly within the electric vehicle and renewable energy sectors, by providing high-purity rare earth oxides essential for the production of modern electronics and clean energy solutions. With a robust commitment to domestic supply chain enhancement and national security, MP Materials employs proprietary technologies that bolster its competitive advantages. As global demand for sustainable materials intensifies, MP Materials is strategically positioned to benefit from the shift towards a greener economy, making it a key player in the transition to renewable energy and electric mobility.",
+        "market_cap": "$9.47B",
+        "market_cap_raw": 9466122000.0,
+        "last_q_revenue": 103701000.0,
+        "description": "MP Materials Corp. The company is headquartered in Las Vegas, Nevada.",
         "sector": "BASIC MATERIALS",
         "industry": "OTHER INDUSTRIAL METALS & MINING"
       }
@@ -5253,49 +5253,49 @@
     "RIG": {
       "presets": {
         "Revenue": {
-          "updated": "Mar 12, 2026 11:30 AM"
+          "updated": "Mar 25, 2026 01:26 AM"
         },
         "Costs": {
-          "updated": "Mar 12, 2026 11:30 AM"
+          "updated": "Mar 25, 2026 01:26 AM"
         },
         "Cash": {
-          "updated": "Mar 12, 2026 11:30 AM"
+          "updated": "Mar 25, 2026 01:26 AM"
         },
         "FCF": {
-          "updated": "Mar 12, 2026 11:30 AM"
+          "updated": "Mar 25, 2026 01:26 AM"
         },
         "Assets": {
-          "updated": "Mar 12, 2026 11:30 AM"
+          "updated": "Mar 25, 2026 01:26 AM"
         },
         "Buffet": {
-          "updated": "Mar 12, 2026 11:30 AM"
+          "updated": "Mar 25, 2026 01:26 AM"
         },
         "Revenue-q": {
-          "updated": "Mar 12, 2026 11:30 AM"
+          "updated": "Mar 25, 2026 01:26 AM"
         },
         "Costs-q": {
-          "updated": "Mar 12, 2026 11:30 AM"
+          "updated": "Mar 25, 2026 01:26 AM"
         },
         "Cash-q": {
-          "updated": "Mar 12, 2026 11:30 AM"
+          "updated": "Mar 25, 2026 01:26 AM"
         },
         "FCF-q": {
-          "updated": "Mar 12, 2026 11:30 AM"
+          "updated": "Mar 25, 2026 01:26 AM"
         },
         "Assets-q": {
-          "updated": "Mar 12, 2026 11:30 AM"
+          "updated": "Mar 25, 2026 01:26 AM"
         },
         "Buffet-q": {
-          "updated": "Mar 12, 2026 11:30 AM"
+          "updated": "Mar 25, 2026 01:26 AM"
         }
       },
-      "last_updated": "2026-03-12T11:30:22.761133",
+      "last_updated": "2026-03-25T01:26:52.143032",
       "company": {
         "name": "Transocean Ltd",
-        "market_cap": "$5.44B",
-        "market_cap_raw": 5441119000.0,
-        "last_q_revenue": 1028000000.0,
-        "description": "Transocean Ltd. (RIG) is a leading provider of offshore contract drilling services, renowned for its cutting-edge fleet and commitment to safety and efficiency in the oil and gas industry. Headquartered in Steinhausen, Switzerland, the company operates strategically across key oil-producing regions worldwide, serving a wide range of clients, including major international oil corporations. With a strong focus on innovation and sustainability, Transocean is well-positioned to adapt to the evolving energy landscape, delivering exceptional value to its stakeholders while reinforcing its leadership in offshore drilling.",
+        "market_cap": "$7.31B",
+        "market_cap_raw": 7311887000.0,
+        "last_q_revenue": 1043000000.0,
+        "description": "Transocean Ltd., provides offshore contract drilling services for oil and gas wells globally. The company is headquartered in Steinhausen, Switzerland.",
         "sector": "ENERGY",
         "industry": "OIL & GAS DRILLING"
       }
@@ -13198,6 +13198,106 @@
         "description": "Shopify Inc., a commerce company, offers a commerce and service platform in Canada, the United States, the United Kingdom, Australia, Latin America, and internationally. The company is headquartered in Ottawa, Canada.",
         "sector": "TECHNOLOGY",
         "industry": "SOFTWARE - APPLICATION"
+      }
+    },
+    "DUOL": {
+      "presets": {
+        "Revenue": {
+          "updated": "Mar 25, 2026 01:26 AM"
+        },
+        "Costs": {
+          "updated": "Mar 25, 2026 01:26 AM"
+        },
+        "Cash": {
+          "updated": "Mar 25, 2026 01:26 AM"
+        },
+        "FCF": {
+          "updated": "Mar 25, 2026 01:26 AM"
+        },
+        "Assets": {
+          "updated": "Mar 25, 2026 01:26 AM"
+        },
+        "Buffet": {
+          "updated": "Mar 25, 2026 01:26 AM"
+        },
+        "Revenue-q": {
+          "updated": "Mar 25, 2026 01:26 AM"
+        },
+        "Costs-q": {
+          "updated": "Mar 25, 2026 01:26 AM"
+        },
+        "Cash-q": {
+          "updated": "Mar 25, 2026 01:26 AM"
+        },
+        "FCF-q": {
+          "updated": "Mar 25, 2026 01:26 AM"
+        },
+        "Assets-q": {
+          "updated": "Mar 25, 2026 01:26 AM"
+        },
+        "Buffet-q": {
+          "updated": "Mar 25, 2026 01:26 AM"
+        }
+      },
+      "last_updated": "2026-03-25T01:26:52.190498",
+      "company": {
+        "name": "Duolingo Inc",
+        "market_cap": "$4.68B",
+        "market_cap_raw": 4683292000.0,
+        "last_q_revenue": 282868000.0,
+        "description": "Duolingo Inc (DUOL) is a leading innovator in the education technology sector, renowned for its engaging language-learning platform that employs a freemium model and gamification to attract over 500 million users worldwide. Founded in 2011, the company has established itself as a significant player in the market through continuous investment in AI-driven personalized learning solutions, aimed at enhancing user acquisition and retention across more than 30 languages. Duolingo's commitment to accessible education and user-centric design positions it favorably in a rapidly evolving landscape, making it an appealing opportunity for institutional investors seeking exposure in the dynamic edtech space.",
+        "sector": "TECHNOLOGY",
+        "industry": "SOFTWARE - APPLICATION"
+      }
+    },
+    "ONDS": {
+      "presets": {
+        "Revenue": {
+          "updated": "Mar 25, 2026 01:26 AM"
+        },
+        "Costs": {
+          "updated": "Mar 25, 2026 01:26 AM"
+        },
+        "Cash": {
+          "updated": "Mar 25, 2026 01:26 AM"
+        },
+        "FCF": {
+          "updated": "Mar 25, 2026 01:26 AM"
+        },
+        "Assets": {
+          "updated": "Mar 25, 2026 01:26 AM"
+        },
+        "Buffet": {
+          "updated": "Mar 25, 2026 01:26 AM"
+        },
+        "Revenue-q": {
+          "updated": "Mar 25, 2026 01:26 AM"
+        },
+        "Costs-q": {
+          "updated": "Mar 25, 2026 01:26 AM"
+        },
+        "Cash-q": {
+          "updated": "Mar 25, 2026 01:26 AM"
+        },
+        "FCF-q": {
+          "updated": "Mar 25, 2026 01:26 AM"
+        },
+        "Assets-q": {
+          "updated": "Mar 25, 2026 01:26 AM"
+        },
+        "Buffet-q": {
+          "updated": "Mar 25, 2026 01:26 AM"
+        }
+      },
+      "last_updated": "2026-03-25T01:26:52.229854",
+      "company": {
+        "name": "Ondas Holdings Inc.",
+        "market_cap": "$5.05B",
+        "market_cap_raw": 5050253000.0,
+        "last_q_revenue": 30111120.0,
+        "description": "Ondas Holdings Inc. designs, develops, manufactures, sells, and supports the FullMAX software-defined radio (SDR) platform in the United States and internationally. The company is headquartered in Nantucket, Massachusetts.",
+        "sector": "TECHNOLOGY",
+        "industry": "COMMUNICATION EQUIPMENT"
       }
     }
   }
