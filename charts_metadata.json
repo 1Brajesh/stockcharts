@@ -13399,6 +13399,206 @@
         "sector": "HEALTHCARE",
         "industry": "BIOTECHNOLOGY"
       }
+    },
+    "CRDO": {
+      "presets": {
+        "Revenue": {
+          "updated": "Mar 26, 2026 04:52 PM"
+        },
+        "Costs": {
+          "updated": "Mar 26, 2026 04:52 PM"
+        },
+        "Cash": {
+          "updated": "Mar 26, 2026 04:52 PM"
+        },
+        "FCF": {
+          "updated": "Mar 26, 2026 04:52 PM"
+        },
+        "Assets": {
+          "updated": "Mar 26, 2026 04:52 PM"
+        },
+        "Buffet": {
+          "updated": "Mar 26, 2026 04:52 PM"
+        },
+        "Revenue-q": {
+          "updated": "Mar 26, 2026 04:52 PM"
+        },
+        "Costs-q": {
+          "updated": "Mar 26, 2026 04:52 PM"
+        },
+        "Cash-q": {
+          "updated": "Mar 26, 2026 04:52 PM"
+        },
+        "FCF-q": {
+          "updated": "Mar 26, 2026 04:52 PM"
+        },
+        "Assets-q": {
+          "updated": "Mar 26, 2026 04:52 PM"
+        },
+        "Buffet-q": {
+          "updated": "Mar 26, 2026 04:52 PM"
+        }
+      },
+      "last_updated": "2026-03-26T16:52:55.554937",
+      "company": {
+        "name": "Credo Technology Group Holding Ltd",
+        "market_cap": "$19.17B",
+        "market_cap_raw": 19166194000.0,
+        "last_q_revenue": 407012000.0,
+        "description": "Credo Technology Group Holding Ltd offers various high-speed connectivity solutions for electrical and optical Ethernet applications in the United States, Mexico, Malaysia, Hong Kong and internationally. The company is headquartered in San Jose, California.",
+        "sector": "TECHNOLOGY",
+        "industry": "SEMICONDUCTORS"
+      }
+    },
+    "PLAB": {
+      "presets": {
+        "Revenue": {
+          "updated": "Mar 26, 2026 04:52 PM"
+        },
+        "Costs": {
+          "updated": "Mar 26, 2026 04:52 PM"
+        },
+        "Cash": {
+          "updated": "Mar 26, 2026 04:52 PM"
+        },
+        "FCF": {
+          "updated": "Mar 26, 2026 04:52 PM"
+        },
+        "Assets": {
+          "updated": "Mar 26, 2026 04:52 PM"
+        },
+        "Buffet": {
+          "updated": "Mar 26, 2026 04:52 PM"
+        },
+        "Revenue-q": {
+          "updated": "Mar 26, 2026 04:52 PM"
+        },
+        "Costs-q": {
+          "updated": "Mar 26, 2026 04:52 PM"
+        },
+        "Cash-q": {
+          "updated": "Mar 26, 2026 04:52 PM"
+        },
+        "FCF-q": {
+          "updated": "Mar 26, 2026 04:52 PM"
+        },
+        "Assets-q": {
+          "updated": "Mar 26, 2026 04:52 PM"
+        },
+        "Buffet-q": {
+          "updated": "Mar 26, 2026 04:52 PM"
+        }
+      },
+      "last_updated": "2026-03-26T16:52:55.583835",
+      "company": {
+        "name": "Photronics Inc",
+        "market_cap": "$2.55B",
+        "market_cap_raw": 2550886000.0,
+        "last_q_revenue": 225066000.0,
+        "description": "Photronics, Inc. manufactures and sells photomask products and services in the United States, Taiwan, Korea, Europe, China, and internationally. The company is headquartered in Brookfield, Connecticut.",
+        "sector": "TECHNOLOGY",
+        "industry": "SEMICONDUCTOR EQUIPMENT & MATERIALS"
+      }
+    },
+    "TSSI": {
+      "presets": {
+        "Revenue": {
+          "updated": "Mar 26, 2026 04:52 PM"
+        },
+        "Costs": {
+          "updated": "Mar 26, 2026 04:52 PM"
+        },
+        "Cash": {
+          "updated": "Mar 26, 2026 04:52 PM"
+        },
+        "FCF": {
+          "updated": "Mar 26, 2026 04:52 PM"
+        },
+        "Assets": {
+          "updated": "Mar 26, 2026 04:52 PM"
+        },
+        "Buffet": {
+          "updated": "Mar 26, 2026 04:52 PM"
+        },
+        "Revenue-q": {
+          "updated": "Mar 26, 2026 04:52 PM"
+        },
+        "Costs-q": {
+          "updated": "Mar 26, 2026 04:52 PM"
+        },
+        "Cash-q": {
+          "updated": "Mar 26, 2026 04:52 PM"
+        },
+        "FCF-q": {
+          "updated": "Mar 26, 2026 04:52 PM"
+        },
+        "Assets-q": {
+          "updated": "Mar 26, 2026 04:52 PM"
+        },
+        "Buffet-q": {
+          "updated": "Mar 26, 2026 04:52 PM"
+        }
+      },
+      "last_updated": "2026-03-26T16:52:55.652045",
+      "company": {
+        "name": "TSS, Inc. Common Stock",
+        "market_cap": "$253.55M",
+        "market_cap_raw": 253548000.0,
+        "last_q_revenue": 60907000.0,
+        "description": "TSS, Inc. provides integration technology services to implement, operate, and maintain information technology systems to enterprises and users in the United States. The company is headquartered in Round Rock, Texas.",
+        "sector": "TECHNOLOGY",
+        "industry": "INFORMATION TECHNOLOGY SERVICES"
+      }
+    },
+    "CIEN": {
+      "presets": {
+        "Revenue": {
+          "updated": "Mar 26, 2026 04:52 PM"
+        },
+        "Costs": {
+          "updated": "Mar 26, 2026 04:52 PM"
+        },
+        "Cash": {
+          "updated": "Mar 26, 2026 04:52 PM"
+        },
+        "FCF": {
+          "updated": "Mar 26, 2026 04:52 PM"
+        },
+        "Assets": {
+          "updated": "Mar 26, 2026 04:52 PM"
+        },
+        "Buffet": {
+          "updated": "Mar 26, 2026 04:52 PM"
+        },
+        "Revenue-q": {
+          "updated": "Mar 26, 2026 04:52 PM"
+        },
+        "Costs-q": {
+          "updated": "Mar 26, 2026 04:52 PM"
+        },
+        "Cash-q": {
+          "updated": "Mar 26, 2026 04:52 PM"
+        },
+        "FCF-q": {
+          "updated": "Mar 26, 2026 04:52 PM"
+        },
+        "Assets-q": {
+          "updated": "Mar 26, 2026 04:52 PM"
+        },
+        "Buffet-q": {
+          "updated": "Mar 26, 2026 04:52 PM"
+        }
+      },
+      "last_updated": "2026-03-26T16:52:55.686334",
+      "company": {
+        "name": "Ciena Corp",
+        "market_cap": "$61.92B",
+        "market_cap_raw": 61918556000.0,
+        "last_q_revenue": 1427042000.0,
+        "description": "Ciena Corporation provides hardware, software, and network services that support the transport, routing, switching, aggregation, service delivery, and management of video, data, and voice traffic on communications networks worldwide. The company is headquartered in Hanover, Maryland.",
+        "sector": "TECHNOLOGY",
+        "industry": "COMMUNICATION EQUIPMENT"
+      }
     }
   }
 }
