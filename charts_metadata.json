@@ -13349,6 +13349,56 @@
         "sector": "CONSUMER DEFENSIVE",
         "industry": "CONFECTIONERS"
       }
+    },
+    "ALZN": {
+      "presets": {
+        "Revenue": {
+          "updated": "Mar 25, 2026 11:51 PM"
+        },
+        "Costs": {
+          "updated": "Mar 25, 2026 11:51 PM"
+        },
+        "Cash": {
+          "updated": "Mar 25, 2026 11:51 PM"
+        },
+        "FCF": {
+          "updated": "Mar 25, 2026 11:51 PM"
+        },
+        "Assets": {
+          "updated": "Mar 25, 2026 11:51 PM"
+        },
+        "Buffet": {
+          "updated": "Mar 25, 2026 11:51 PM"
+        },
+        "Revenue-q": {
+          "updated": "Mar 25, 2026 11:51 PM"
+        },
+        "Costs-q": {
+          "updated": "Mar 25, 2026 11:51 PM"
+        },
+        "Cash-q": {
+          "updated": "Mar 25, 2026 11:51 PM"
+        },
+        "FCF-q": {
+          "updated": "Mar 25, 2026 11:51 PM"
+        },
+        "Assets-q": {
+          "updated": "Mar 25, 2026 11:51 PM"
+        },
+        "Buffet-q": {
+          "updated": "Mar 25, 2026 11:51 PM"
+        }
+      },
+      "last_updated": "2026-03-25T23:51:14.551447",
+      "company": {
+        "name": "Alzamend Neuro Inc",
+        "market_cap": "$6.85M",
+        "market_cap_raw": 6848500.0,
+        "last_q_revenue": 0.0,
+        "description": "Alzamend Neuro Inc. is a biotechnology company focused on creating innovative therapies for neurodegenerative diseases, particularly Alzheimer's disease. By leveraging its proprietary platform and a strong intellectual property portfolio, Alzamend is strategically positioned to address significant unmet medical needs in the pharmaceutical market. The company enhances its drug development processes through advanced technology integration and strategic partnerships, aiming to bring its therapeutic candidates through clinical trials and ultimately improve patient quality of life. With a dedicated focus on addressing critical health challenges, Alzamend is poised to play a vital role in the future of neurotherapeutics.",
+        "sector": "HEALTHCARE",
+        "industry": "BIOTECHNOLOGY"
+      }
     }
   }
 }
