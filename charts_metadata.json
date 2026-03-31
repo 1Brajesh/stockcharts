@@ -13599,6 +13599,56 @@
         "sector": "TECHNOLOGY",
         "industry": "COMMUNICATION EQUIPMENT"
       }
+    },
+    "SAFX": {
+      "presets": {
+        "Revenue": {
+          "updated": "Mar 30, 2026 11:04 PM"
+        },
+        "Costs": {
+          "updated": "Mar 30, 2026 11:04 PM"
+        },
+        "Cash": {
+          "updated": "Mar 30, 2026 11:04 PM"
+        },
+        "FCF": {
+          "updated": "Mar 30, 2026 11:04 PM"
+        },
+        "Assets": {
+          "updated": "Mar 30, 2026 11:04 PM"
+        },
+        "Buffet": {
+          "updated": "Mar 30, 2026 11:04 PM"
+        },
+        "Revenue-q": {
+          "updated": "Mar 30, 2026 11:04 PM"
+        },
+        "Costs-q": {
+          "updated": "Mar 30, 2026 11:04 PM"
+        },
+        "Cash-q": {
+          "updated": "Mar 30, 2026 11:04 PM"
+        },
+        "FCF-q": {
+          "updated": "Mar 30, 2026 11:04 PM"
+        },
+        "Assets-q": {
+          "updated": "Mar 30, 2026 11:04 PM"
+        },
+        "Buffet-q": {
+          "updated": "Mar 30, 2026 11:04 PM"
+        }
+      },
+      "last_updated": "2026-03-30T23:04:38.718429",
+      "company": {
+        "name": "XCF Global, Inc. Class A Common Stock",
+        "market_cap": "$90.86M",
+        "market_cap_raw": 90859000.0,
+        "last_q_revenue": 9553439.0,
+        "description": "XCF Global, Inc. produces renewable diesel and sustainable aviation fuels in North America. The company is headquartered in New York, New York.",
+        "sector": "UTILITIES",
+        "industry": "UTILITIES - RENEWABLE"
+      }
     }
   }
 }
