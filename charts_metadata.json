@@ -4053,49 +4053,49 @@
     "BBAI": {
       "presets": {
         "Revenue": {
-          "updated": "Mar 12, 2026 11:30 AM"
+          "updated": "Apr 01, 2026 08:12 PM"
         },
         "Costs": {
-          "updated": "Mar 12, 2026 11:30 AM"
+          "updated": "Apr 01, 2026 08:12 PM"
         },
         "Cash": {
-          "updated": "Mar 12, 2026 11:30 AM"
+          "updated": "Apr 01, 2026 08:12 PM"
         },
         "FCF": {
-          "updated": "Mar 12, 2026 11:30 AM"
+          "updated": "Apr 01, 2026 08:12 PM"
         },
         "Assets": {
-          "updated": "Mar 12, 2026 11:30 AM"
+          "updated": "Apr 01, 2026 08:12 PM"
         },
         "Buffet": {
-          "updated": "Mar 12, 2026 11:30 AM"
+          "updated": "Apr 01, 2026 08:12 PM"
         },
         "Revenue-q": {
-          "updated": "Mar 12, 2026 11:30 AM"
+          "updated": "Apr 01, 2026 08:12 PM"
         },
         "Costs-q": {
-          "updated": "Mar 12, 2026 11:30 AM"
+          "updated": "Apr 01, 2026 08:12 PM"
         },
         "Cash-q": {
-          "updated": "Mar 12, 2026 11:30 AM"
+          "updated": "Apr 01, 2026 08:12 PM"
         },
         "FCF-q": {
-          "updated": "Mar 12, 2026 11:30 AM"
+          "updated": "Apr 01, 2026 08:12 PM"
         },
         "Assets-q": {
-          "updated": "Mar 12, 2026 11:30 AM"
+          "updated": "Apr 01, 2026 08:12 PM"
         },
         "Buffet-q": {
-          "updated": "Mar 12, 2026 11:30 AM"
+          "updated": "Apr 01, 2026 08:12 PM"
         }
       },
-      "last_updated": "2026-03-12T11:30:05.802790",
+      "last_updated": "2026-04-01T20:12:01.548458",
       "company": {
         "name": "BigBearai Holdings Inc",
-        "market_cap": "$2.63B",
-        "market_cap_raw": 2628038000.0,
-        "last_q_revenue": 33143000.0,
-        "description": "None",
+        "market_cap": "$1.49B",
+        "market_cap_raw": 1494818000.0,
+        "last_q_revenue": 27300000.0,
+        "description": "BigBearai Holdings Inc. is a leading provider of advanced artificial intelligence and machine learning solutions, specifically designed for the defense and intelligence sectors. The company utilizes cutting-edge analytics and sovereign data solutions to optimize operational efficiency and support critical decision-making for its clients. With a strong emphasis on innovation and proprietary technology integration, BigBearai enhances agility for organizations addressing complex challenges in national security and various commercial applications. As the demand for AI-driven insights continues to rise, BigBearai is strategically positioned to capitalize on growth opportunities, making it an attractive investment for institutional investors looking for exposure in the burgeoning AI sector.",
         "sector": "TECHNOLOGY",
         "industry": "INFORMATION TECHNOLOGY SERVICES"
       }
