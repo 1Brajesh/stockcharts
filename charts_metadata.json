@@ -13649,6 +13649,256 @@
         "sector": "UTILITIES",
         "industry": "UTILITIES - RENEWABLE"
       }
+    },
+    "GILD": {
+      "presets": {
+        "Revenue": {
+          "updated": "Apr 05, 2026 12:43 AM"
+        },
+        "Costs": {
+          "updated": "Apr 05, 2026 12:43 AM"
+        },
+        "Cash": {
+          "updated": "Apr 05, 2026 12:43 AM"
+        },
+        "FCF": {
+          "updated": "Apr 05, 2026 12:43 AM"
+        },
+        "Assets": {
+          "updated": "Apr 05, 2026 12:43 AM"
+        },
+        "Buffet": {
+          "updated": "Apr 05, 2026 12:43 AM"
+        },
+        "Revenue-q": {
+          "updated": "Apr 05, 2026 12:43 AM"
+        },
+        "Costs-q": {
+          "updated": "Apr 05, 2026 12:43 AM"
+        },
+        "Cash-q": {
+          "updated": "Apr 05, 2026 12:43 AM"
+        },
+        "FCF-q": {
+          "updated": "Apr 05, 2026 12:43 AM"
+        },
+        "Assets-q": {
+          "updated": "Apr 05, 2026 12:43 AM"
+        },
+        "Buffet-q": {
+          "updated": "Apr 05, 2026 12:43 AM"
+        }
+      },
+      "last_updated": "2026-04-05T00:43:39.755461",
+      "company": {
+        "name": "Gilead Sciences Inc",
+        "market_cap": "$173.41B",
+        "market_cap_raw": 173408584000.0,
+        "last_q_revenue": 7925000000.0,
+        "description": "Gilead Sciences, Inc. is an American biopharmaceutical company headquartered in Foster City, California, that focuses on researching and developing antiviral drugs used in the treatment of HIV, hepatitis B, hepatitis C, and influenza, including Harvoni and Sovaldi.",
+        "sector": "HEALTHCARE",
+        "industry": "DRUG MANUFACTURERS - GENERAL"
+      }
+    },
+    "OC": {
+      "presets": {
+        "Revenue": {
+          "updated": "Apr 05, 2026 12:43 AM"
+        },
+        "Costs": {
+          "updated": "Apr 05, 2026 12:43 AM"
+        },
+        "Cash": {
+          "updated": "Apr 05, 2026 12:43 AM"
+        },
+        "FCF": {
+          "updated": "Apr 05, 2026 12:43 AM"
+        },
+        "Assets": {
+          "updated": "Apr 05, 2026 12:43 AM"
+        },
+        "Buffet": {
+          "updated": "Apr 05, 2026 12:43 AM"
+        },
+        "Revenue-q": {
+          "updated": "Apr 05, 2026 12:43 AM"
+        },
+        "Costs-q": {
+          "updated": "Apr 05, 2026 12:43 AM"
+        },
+        "Cash-q": {
+          "updated": "Apr 05, 2026 12:43 AM"
+        },
+        "FCF-q": {
+          "updated": "Apr 05, 2026 12:43 AM"
+        },
+        "Assets-q": {
+          "updated": "Apr 05, 2026 12:43 AM"
+        },
+        "Buffet-q": {
+          "updated": "Apr 05, 2026 12:43 AM"
+        }
+      },
+      "last_updated": "2026-04-05T00:43:39.806993",
+      "company": {
+        "name": "Owens Corning Inc",
+        "market_cap": "$8.70B",
+        "market_cap_raw": 8699174000.0,
+        "last_q_revenue": 2142000000.0,
+        "description": "Owens Corning manufactures and markets a range of fiberglass, roofing and insulation composites in the United States, Canada, Europe, Asia Pacific and internationally. The company is headquartered in Toledo, Ohio.",
+        "sector": "INDUSTRIALS",
+        "industry": "BUILDING PRODUCTS & EQUIPMENT"
+      }
+    },
+    "BLDR": {
+      "presets": {
+        "Revenue": {
+          "updated": "Apr 05, 2026 12:43 AM"
+        },
+        "Costs": {
+          "updated": "Apr 05, 2026 12:43 AM"
+        },
+        "Cash": {
+          "updated": "Apr 05, 2026 12:43 AM"
+        },
+        "FCF": {
+          "updated": "Apr 05, 2026 12:43 AM"
+        },
+        "Assets": {
+          "updated": "Apr 05, 2026 12:43 AM"
+        },
+        "Buffet": {
+          "updated": "Apr 05, 2026 12:43 AM"
+        },
+        "Revenue-q": {
+          "updated": "Apr 05, 2026 12:43 AM"
+        },
+        "Costs-q": {
+          "updated": "Apr 05, 2026 12:43 AM"
+        },
+        "Cash-q": {
+          "updated": "Apr 05, 2026 12:43 AM"
+        },
+        "FCF-q": {
+          "updated": "Apr 05, 2026 12:43 AM"
+        },
+        "Assets-q": {
+          "updated": "Apr 05, 2026 12:43 AM"
+        },
+        "Buffet-q": {
+          "updated": "Apr 05, 2026 12:43 AM"
+        }
+      },
+      "last_updated": "2026-04-05T00:43:39.857273",
+      "company": {
+        "name": "Builders FirstSource Inc",
+        "market_cap": "$8.75B",
+        "market_cap_raw": 8751073000.0,
+        "last_q_revenue": 3357900000.0,
+        "description": "Builders FirstSource, Inc., manufactures and supplies building materials, manufactured components, and construction services to professional home builders, subcontractors, remodelers, and consumers in the United States. The company is headquartered in Dallas, Texas.",
+        "sector": "INDUSTRIALS",
+        "industry": "BUILDING PRODUCTS & EQUIPMENT"
+      }
+    },
+    "PRDO": {
+      "presets": {
+        "Revenue": {
+          "updated": "Apr 05, 2026 12:43 AM"
+        },
+        "Costs": {
+          "updated": "Apr 05, 2026 12:43 AM"
+        },
+        "Cash": {
+          "updated": "Apr 05, 2026 12:43 AM"
+        },
+        "FCF": {
+          "updated": "Apr 05, 2026 12:43 AM"
+        },
+        "Assets": {
+          "updated": "Apr 05, 2026 12:43 AM"
+        },
+        "Buffet": {
+          "updated": "Apr 05, 2026 12:43 AM"
+        },
+        "Revenue-q": {
+          "updated": "Apr 05, 2026 12:43 AM"
+        },
+        "Costs-q": {
+          "updated": "Apr 05, 2026 12:43 AM"
+        },
+        "Cash-q": {
+          "updated": "Apr 05, 2026 12:43 AM"
+        },
+        "FCF-q": {
+          "updated": "Apr 05, 2026 12:43 AM"
+        },
+        "Assets-q": {
+          "updated": "Apr 05, 2026 12:43 AM"
+        },
+        "Buffet-q": {
+          "updated": "Apr 05, 2026 12:43 AM"
+        }
+      },
+      "last_updated": "2026-04-05T00:43:39.902533",
+      "company": {
+        "name": "Perdoceo Education Corp",
+        "market_cap": "$2.41B",
+        "market_cap_raw": 2414022000.0,
+        "last_q_revenue": 211639000.0,
+        "description": "Perdoceo Education Corporation provides postsecondary education to students through online, campus-based, and blended learning programs in the United States. The company is headquartered in Schaumburg, Illinois.",
+        "sector": "CONSUMER DEFENSIVE",
+        "industry": "EDUCATION & TRAINING SERVICES"
+      }
+    },
+    "SIRI": {
+      "presets": {
+        "Revenue": {
+          "updated": "Apr 05, 2026 12:43 AM"
+        },
+        "Costs": {
+          "updated": "Apr 05, 2026 12:43 AM"
+        },
+        "Cash": {
+          "updated": "Apr 05, 2026 12:43 AM"
+        },
+        "FCF": {
+          "updated": "Apr 05, 2026 12:43 AM"
+        },
+        "Assets": {
+          "updated": "Apr 05, 2026 12:43 AM"
+        },
+        "Buffet": {
+          "updated": "Apr 05, 2026 12:43 AM"
+        },
+        "Revenue-q": {
+          "updated": "Apr 05, 2026 12:43 AM"
+        },
+        "Costs-q": {
+          "updated": "Apr 05, 2026 12:43 AM"
+        },
+        "Cash-q": {
+          "updated": "Apr 05, 2026 12:43 AM"
+        },
+        "FCF-q": {
+          "updated": "Apr 05, 2026 12:43 AM"
+        },
+        "Assets-q": {
+          "updated": "Apr 05, 2026 12:43 AM"
+        },
+        "Buffet-q": {
+          "updated": "Apr 05, 2026 12:43 AM"
+        }
+      },
+      "last_updated": "2026-04-05T00:43:39.952686",
+      "company": {
+        "name": "Sirius XM Holding Inc",
+        "market_cap": "$8.01B",
+        "market_cap_raw": 8006801000.0,
+        "last_q_revenue": 2193000000.0,
+        "description": "Sirius XM Holdings Inc. provides satellite radio services by subscription fee in the United States. ",
+        "sector": "COMMUNICATION SERVICES",
+        "industry": "ENTERTAINMENT"
+      }
     }
   }
 }
