@@ -13899,6 +13899,56 @@
         "sector": "COMMUNICATION SERVICES",
         "industry": "ENTERTAINMENT"
       }
+    },
+    "OTH": {
+      "presets": {
+        "Revenue": {
+          "updated": "Apr 05, 2026 10:24 PM"
+        },
+        "Costs": {
+          "updated": "Apr 05, 2026 10:24 PM"
+        },
+        "Cash": {
+          "updated": "Apr 05, 2026 10:24 PM"
+        },
+        "FCF": {
+          "updated": "Apr 05, 2026 10:24 PM"
+        },
+        "Assets": {
+          "updated": "Apr 05, 2026 10:24 PM"
+        },
+        "Buffet": {
+          "updated": "Apr 05, 2026 10:24 PM"
+        },
+        "Revenue-q": {
+          "updated": "Apr 05, 2026 10:24 PM"
+        },
+        "Costs-q": {
+          "updated": "Apr 05, 2026 10:24 PM"
+        },
+        "Cash-q": {
+          "updated": "Apr 05, 2026 10:24 PM"
+        },
+        "FCF-q": {
+          "updated": "Apr 05, 2026 10:24 PM"
+        },
+        "Assets-q": {
+          "updated": "Apr 05, 2026 10:24 PM"
+        },
+        "Buffet-q": {
+          "updated": "Apr 05, 2026 10:24 PM"
+        }
+      },
+      "last_updated": "2026-04-05T22:24:32.720640",
+      "company": {
+        "name": "Off The Hook YS Inc.",
+        "market_cap": "$64.12M",
+        "market_cap_raw": 64125000.0,
+        "last_q_revenue": 37274110.0,
+        "description": "Off The Hook YS Inc. is a yacht and boat dealership which engages in the buying, selling, and wholesaling of yachts and boats. The company is headquartered in Wilmington, North Carolina.",
+        "sector": "CONSUMER CYCLICAL",
+        "industry": "AUTO & TRUCK DEALERSHIPS"
+      }
     }
   }
 }
