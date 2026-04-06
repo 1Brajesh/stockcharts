@@ -14099,47 +14099,6 @@
         "sector": "TECHNOLOGY",
         "industry": "SOFTWARE - INFRASTRUCTURE"
       }
-    },
-    "IPG": {
-      "presets": {
-        "Revenue": {
-          "updated": "Apr 06, 2026 09:48 AM"
-        },
-        "Costs": {
-          "updated": "Apr 06, 2026 09:48 AM"
-        },
-        "Cash": {
-          "updated": "Apr 06, 2026 09:48 AM"
-        },
-        "FCF": {
-          "updated": "Apr 06, 2026 09:48 AM"
-        },
-        "Assets": {
-          "updated": "Apr 06, 2026 09:48 AM"
-        },
-        "Buffet": {
-          "updated": "Apr 06, 2026 09:48 AM"
-        },
-        "Revenue-q": {
-          "updated": "Apr 06, 2026 09:48 AM"
-        },
-        "Costs-q": {
-          "updated": "Apr 06, 2026 09:48 AM"
-        },
-        "Cash-q": {
-          "updated": "Apr 06, 2026 09:48 AM"
-        },
-        "FCF-q": {
-          "updated": "Apr 06, 2026 09:48 AM"
-        },
-        "Assets-q": {
-          "updated": "Apr 06, 2026 09:48 AM"
-        },
-        "Buffet-q": {
-          "updated": "Apr 06, 2026 09:48 AM"
-        }
-      },
-      "last_updated": "2026-04-06T09:48:33.165559"
     }
   }
 }
