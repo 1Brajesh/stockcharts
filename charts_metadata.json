@@ -13949,6 +13949,56 @@
         "sector": "CONSUMER CYCLICAL",
         "industry": "AUTO & TRUCK DEALERSHIPS"
       }
+    },
+    "GIB": {
+      "presets": {
+        "Revenue": {
+          "updated": "Apr 06, 2026 09:37 AM"
+        },
+        "Costs": {
+          "updated": "Apr 06, 2026 09:37 AM"
+        },
+        "Cash": {
+          "updated": "Apr 06, 2026 09:37 AM"
+        },
+        "FCF": {
+          "updated": "Apr 06, 2026 09:37 AM"
+        },
+        "Assets": {
+          "updated": "Apr 06, 2026 09:37 AM"
+        },
+        "Buffet": {
+          "updated": "Apr 06, 2026 09:37 AM"
+        },
+        "Revenue-q": {
+          "updated": "Apr 06, 2026 09:37 AM"
+        },
+        "Costs-q": {
+          "updated": "Apr 06, 2026 09:37 AM"
+        },
+        "Cash-q": {
+          "updated": "Apr 06, 2026 09:37 AM"
+        },
+        "FCF-q": {
+          "updated": "Apr 06, 2026 09:37 AM"
+        },
+        "Assets-q": {
+          "updated": "Apr 06, 2026 09:37 AM"
+        },
+        "Buffet-q": {
+          "updated": "Apr 06, 2026 09:37 AM"
+        }
+      },
+      "last_updated": "2026-04-06T09:37:49.549944",
+      "company": {
+        "name": "CGI Inc",
+        "market_cap": "$15.90B",
+        "market_cap_raw": 15897471000.0,
+        "last_q_revenue": 2929784581.81464,
+        "description": "CGI Inc., provides information technology (IT) and business process services in Canada; Western, Southern, Central and Eastern Europe; Australia; Scandinavia; Finland, Poland and the Baltic countries; the United States; the United Kingdom; and Asia Pacific. The company is headquartered in Montreal, Canada.",
+        "sector": "TECHNOLOGY",
+        "industry": "INFORMATION TECHNOLOGY SERVICES"
+      }
     }
   }
 }
