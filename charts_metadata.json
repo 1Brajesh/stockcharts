@@ -13999,6 +13999,147 @@
         "sector": "TECHNOLOGY",
         "industry": "INFORMATION TECHNOLOGY SERVICES"
       }
+    },
+    "SNA": {
+      "presets": {
+        "Revenue": {
+          "updated": "Apr 06, 2026 09:48 AM"
+        },
+        "Costs": {
+          "updated": "Apr 06, 2026 09:48 AM"
+        },
+        "Cash": {
+          "updated": "Apr 06, 2026 09:48 AM"
+        },
+        "FCF": {
+          "updated": "Apr 06, 2026 09:48 AM"
+        },
+        "Assets": {
+          "updated": "Apr 06, 2026 09:48 AM"
+        },
+        "Buffet": {
+          "updated": "Apr 06, 2026 09:48 AM"
+        },
+        "Revenue-q": {
+          "updated": "Apr 06, 2026 09:48 AM"
+        },
+        "Costs-q": {
+          "updated": "Apr 06, 2026 09:48 AM"
+        },
+        "Cash-q": {
+          "updated": "Apr 06, 2026 09:48 AM"
+        },
+        "FCF-q": {
+          "updated": "Apr 06, 2026 09:48 AM"
+        },
+        "Assets-q": {
+          "updated": "Apr 06, 2026 09:48 AM"
+        },
+        "Buffet-q": {
+          "updated": "Apr 06, 2026 09:48 AM"
+        }
+      },
+      "last_updated": "2026-04-06T09:48:33.082836",
+      "company": {
+        "name": "Snap-On Inc",
+        "market_cap": "$19.03B",
+        "market_cap_raw": 19031124000.0,
+        "last_q_revenue": 1339900000.0,
+        "description": "Snap-on Incorporated is an American designer, manufacturer and marketer of high-end tools and equipment for professional use in the transportation industry including the automotive, heavy duty, equipment, marine, aviation, and railroad industries.",
+        "sector": "INDUSTRIALS",
+        "industry": "TOOLS & ACCESSORIES"
+      }
+    },
+    "FFIV": {
+      "presets": {
+        "Revenue": {
+          "updated": "Apr 06, 2026 09:48 AM"
+        },
+        "Costs": {
+          "updated": "Apr 06, 2026 09:48 AM"
+        },
+        "Cash": {
+          "updated": "Apr 06, 2026 09:48 AM"
+        },
+        "FCF": {
+          "updated": "Apr 06, 2026 09:48 AM"
+        },
+        "Assets": {
+          "updated": "Apr 06, 2026 09:48 AM"
+        },
+        "Buffet": {
+          "updated": "Apr 06, 2026 09:48 AM"
+        },
+        "Revenue-q": {
+          "updated": "Apr 06, 2026 09:48 AM"
+        },
+        "Costs-q": {
+          "updated": "Apr 06, 2026 09:48 AM"
+        },
+        "Cash-q": {
+          "updated": "Apr 06, 2026 09:48 AM"
+        },
+        "FCF-q": {
+          "updated": "Apr 06, 2026 09:48 AM"
+        },
+        "Assets-q": {
+          "updated": "Apr 06, 2026 09:48 AM"
+        },
+        "Buffet-q": {
+          "updated": "Apr 06, 2026 09:48 AM"
+        }
+      },
+      "last_updated": "2026-04-06T09:48:33.125349",
+      "company": {
+        "name": "F5 Networks Inc",
+        "market_cap": "$17.23B",
+        "market_cap_raw": 17233646000.0,
+        "last_q_revenue": 822465000.0,
+        "description": "F5, Inc. is an American company that specializes in application delivery networking (ADN), application availability & performance, multi-cloud management, application security, network security, access & authorization and online fraud prevention. F5 is headquartered in Seattle, Washington, with additional development, manufacturing, and administrative offices worldwide.",
+        "sector": "TECHNOLOGY",
+        "industry": "SOFTWARE - INFRASTRUCTURE"
+      }
+    },
+    "IPG": {
+      "presets": {
+        "Revenue": {
+          "updated": "Apr 06, 2026 09:48 AM"
+        },
+        "Costs": {
+          "updated": "Apr 06, 2026 09:48 AM"
+        },
+        "Cash": {
+          "updated": "Apr 06, 2026 09:48 AM"
+        },
+        "FCF": {
+          "updated": "Apr 06, 2026 09:48 AM"
+        },
+        "Assets": {
+          "updated": "Apr 06, 2026 09:48 AM"
+        },
+        "Buffet": {
+          "updated": "Apr 06, 2026 09:48 AM"
+        },
+        "Revenue-q": {
+          "updated": "Apr 06, 2026 09:48 AM"
+        },
+        "Costs-q": {
+          "updated": "Apr 06, 2026 09:48 AM"
+        },
+        "Cash-q": {
+          "updated": "Apr 06, 2026 09:48 AM"
+        },
+        "FCF-q": {
+          "updated": "Apr 06, 2026 09:48 AM"
+        },
+        "Assets-q": {
+          "updated": "Apr 06, 2026 09:48 AM"
+        },
+        "Buffet-q": {
+          "updated": "Apr 06, 2026 09:48 AM"
+        }
+      },
+      "last_updated": "2026-04-06T09:48:33.165559"
     }
   }
 }
