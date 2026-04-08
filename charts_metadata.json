@@ -14099,6 +14099,106 @@
         "sector": "TECHNOLOGY",
         "industry": "SOFTWARE - INFRASTRUCTURE"
       }
+    },
+    "ALOY": {
+      "presets": {
+        "Revenue": {
+          "updated": "Apr 07, 2026 11:10 PM"
+        },
+        "Costs": {
+          "updated": "Apr 07, 2026 11:10 PM"
+        },
+        "Cash": {
+          "updated": "Apr 07, 2026 11:10 PM"
+        },
+        "FCF": {
+          "updated": "Apr 07, 2026 11:10 PM"
+        },
+        "Assets": {
+          "updated": "Apr 07, 2026 11:10 PM"
+        },
+        "Buffet": {
+          "updated": "Apr 07, 2026 11:10 PM"
+        },
+        "Revenue-q": {
+          "updated": "Apr 07, 2026 11:10 PM"
+        },
+        "Costs-q": {
+          "updated": "Apr 07, 2026 11:10 PM"
+        },
+        "Cash-q": {
+          "updated": "Apr 07, 2026 11:10 PM"
+        },
+        "FCF-q": {
+          "updated": "Apr 07, 2026 11:10 PM"
+        },
+        "Assets-q": {
+          "updated": "Apr 07, 2026 11:10 PM"
+        },
+        "Buffet-q": {
+          "updated": "Apr 07, 2026 11:10 PM"
+        }
+      },
+      "last_updated": "2026-04-07T23:10:34.590987",
+      "company": {
+        "name": "REalloys Inc.",
+        "market_cap": "$519.93M",
+        "market_cap_raw": 519929000.0,
+        "last_q_revenue": 628377.0,
+        "description": "REalloys Inc. is a rare earth metals and permanent magnet company in North America. The company is headquartered in Euclid, Ohio.",
+        "sector": "BASIC MATERIALS",
+        "industry": "OTHER INDUSTRIAL METALS & MINING"
+      }
+    },
+    "CAH": {
+      "presets": {
+        "Revenue": {
+          "updated": "Apr 07, 2026 11:10 PM"
+        },
+        "Costs": {
+          "updated": "Apr 07, 2026 11:10 PM"
+        },
+        "Cash": {
+          "updated": "Apr 07, 2026 11:10 PM"
+        },
+        "FCF": {
+          "updated": "Apr 07, 2026 11:10 PM"
+        },
+        "Assets": {
+          "updated": "Apr 07, 2026 11:10 PM"
+        },
+        "Buffet": {
+          "updated": "Apr 07, 2026 11:10 PM"
+        },
+        "Revenue-q": {
+          "updated": "Apr 07, 2026 11:10 PM"
+        },
+        "Costs-q": {
+          "updated": "Apr 07, 2026 11:10 PM"
+        },
+        "Cash-q": {
+          "updated": "Apr 07, 2026 11:10 PM"
+        },
+        "FCF-q": {
+          "updated": "Apr 07, 2026 11:10 PM"
+        },
+        "Assets-q": {
+          "updated": "Apr 07, 2026 11:10 PM"
+        },
+        "Buffet-q": {
+          "updated": "Apr 07, 2026 11:10 PM"
+        }
+      },
+      "last_updated": "2026-04-07T23:10:34.636810",
+      "company": {
+        "name": "Cardinal Health Inc",
+        "market_cap": "$50.03B",
+        "market_cap_raw": 50032890000.0,
+        "last_q_revenue": 65441000000.0,
+        "description": "Cardinal Health, Inc. is an American multinational health care services company.",
+        "sector": "HEALTHCARE",
+        "industry": "MEDICAL DISTRIBUTION"
+      }
     }
   }
 }
