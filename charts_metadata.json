@@ -14199,6 +14199,206 @@
         "sector": "HEALTHCARE",
         "industry": "MEDICAL DISTRIBUTION"
       }
+    },
+    "GEN": {
+      "presets": {
+        "Revenue": {
+          "updated": "Apr 09, 2026 01:37 AM"
+        },
+        "Costs": {
+          "updated": "Apr 09, 2026 01:37 AM"
+        },
+        "Cash": {
+          "updated": "Apr 09, 2026 01:37 AM"
+        },
+        "FCF": {
+          "updated": "Apr 09, 2026 01:37 AM"
+        },
+        "Assets": {
+          "updated": "Apr 09, 2026 01:37 AM"
+        },
+        "Buffet": {
+          "updated": "Apr 09, 2026 01:37 AM"
+        },
+        "Revenue-q": {
+          "updated": "Apr 09, 2026 01:37 AM"
+        },
+        "Costs-q": {
+          "updated": "Apr 09, 2026 01:37 AM"
+        },
+        "Cash-q": {
+          "updated": "Apr 09, 2026 01:37 AM"
+        },
+        "FCF-q": {
+          "updated": "Apr 09, 2026 01:37 AM"
+        },
+        "Assets-q": {
+          "updated": "Apr 09, 2026 01:37 AM"
+        },
+        "Buffet-q": {
+          "updated": "Apr 09, 2026 01:37 AM"
+        }
+      },
+      "last_updated": "2026-04-09T01:37:18.831252",
+      "company": {
+        "name": "Gen Digital Inc.",
+        "market_cap": "$11.83B",
+        "market_cap_raw": 11828615000.0,
+        "last_q_revenue": 1240000000.0,
+        "description": "Gen Digital Inc. provides cybersecurity solutions for consumers in the United States, Canada, Latin America, Europe, the Middle East, Africa, Asia Pacific, and Japan. The company is headquartered in Tempe, Arizona.",
+        "sector": "TECHNOLOGY",
+        "industry": "SOFTWARE - INFRASTRUCTURE"
+      }
+    },
+    "COR": {
+      "presets": {
+        "Revenue": {
+          "updated": "Apr 09, 2026 01:37 AM"
+        },
+        "Costs": {
+          "updated": "Apr 09, 2026 01:37 AM"
+        },
+        "Cash": {
+          "updated": "Apr 09, 2026 01:37 AM"
+        },
+        "FCF": {
+          "updated": "Apr 09, 2026 01:37 AM"
+        },
+        "Assets": {
+          "updated": "Apr 09, 2026 01:37 AM"
+        },
+        "Buffet": {
+          "updated": "Apr 09, 2026 01:37 AM"
+        },
+        "Revenue-q": {
+          "updated": "Apr 09, 2026 01:37 AM"
+        },
+        "Costs-q": {
+          "updated": "Apr 09, 2026 01:37 AM"
+        },
+        "Cash-q": {
+          "updated": "Apr 09, 2026 01:37 AM"
+        },
+        "FCF-q": {
+          "updated": "Apr 09, 2026 01:37 AM"
+        },
+        "Assets-q": {
+          "updated": "Apr 09, 2026 01:37 AM"
+        },
+        "Buffet-q": {
+          "updated": "Apr 09, 2026 01:37 AM"
+        }
+      },
+      "last_updated": "2026-04-09T01:37:18.921397",
+      "company": {
+        "name": "Cencora Inc.",
+        "market_cap": "$62.42B",
+        "market_cap_raw": 62422954000.0,
+        "last_q_revenue": 85932016000.0,
+        "description": "CoreSite Realty Corporation (NYSE: COR) delivers secure, reliable, high-performance data center, cloud access and interconnect solutions to a growing client ecosystem in eight key North American markets. ",
+        "sector": "HEALTHCARE",
+        "industry": "MEDICAL DISTRIBUTION"
+      }
+    },
+    "GIS": {
+      "presets": {
+        "Revenue": {
+          "updated": "Apr 09, 2026 01:37 AM"
+        },
+        "Costs": {
+          "updated": "Apr 09, 2026 01:37 AM"
+        },
+        "Cash": {
+          "updated": "Apr 09, 2026 01:37 AM"
+        },
+        "FCF": {
+          "updated": "Apr 09, 2026 01:37 AM"
+        },
+        "Assets": {
+          "updated": "Apr 09, 2026 01:37 AM"
+        },
+        "Buffet": {
+          "updated": "Apr 09, 2026 01:37 AM"
+        },
+        "Revenue-q": {
+          "updated": "Apr 09, 2026 01:37 AM"
+        },
+        "Costs-q": {
+          "updated": "Apr 09, 2026 01:37 AM"
+        },
+        "Cash-q": {
+          "updated": "Apr 09, 2026 01:37 AM"
+        },
+        "FCF-q": {
+          "updated": "Apr 09, 2026 01:37 AM"
+        },
+        "Assets-q": {
+          "updated": "Apr 09, 2026 01:37 AM"
+        },
+        "Buffet-q": {
+          "updated": "Apr 09, 2026 01:37 AM"
+        }
+      },
+      "last_updated": "2026-04-09T01:37:18.966124",
+      "company": {
+        "name": "General Mills Inc",
+        "market_cap": "$19.53B",
+        "market_cap_raw": 19532732000.0,
+        "last_q_revenue": 4436700000.0,
+        "description": "General Mills, Inc., is an American multinational manufacturer and marketer of branded consumer foods sold through retail stores. It is headquartered in Golden Valley, Minnesota, a suburb of Minneapolis.",
+        "sector": "CONSUMER DEFENSIVE",
+        "industry": "PACKAGED FOODS"
+      }
+    },
+    "NVNI": {
+      "presets": {
+        "Revenue": {
+          "updated": "Apr 09, 2026 01:37 AM"
+        },
+        "Costs": {
+          "updated": "Apr 09, 2026 01:37 AM"
+        },
+        "Cash": {
+          "updated": "Apr 09, 2026 01:37 AM"
+        },
+        "FCF": {
+          "updated": "Apr 09, 2026 01:37 AM"
+        },
+        "Assets": {
+          "updated": "Apr 09, 2026 01:37 AM"
+        },
+        "Buffet": {
+          "updated": "Apr 09, 2026 01:37 AM"
+        },
+        "Revenue-q": {
+          "updated": "Apr 09, 2026 01:37 AM"
+        },
+        "Costs-q": {
+          "updated": "Apr 09, 2026 01:37 AM"
+        },
+        "Cash-q": {
+          "updated": "Apr 09, 2026 01:37 AM"
+        },
+        "FCF-q": {
+          "updated": "Apr 09, 2026 01:37 AM"
+        },
+        "Assets-q": {
+          "updated": "Apr 09, 2026 01:37 AM"
+        },
+        "Buffet-q": {
+          "updated": "Apr 09, 2026 01:37 AM"
+        }
+      },
+      "last_updated": "2026-04-09T01:37:19.029046",
+      "company": {
+        "name": "Nvni Group Limited Ordinary Shares",
+        "market_cap": "$10.13M",
+        "market_cap_raw": 10133000.0,
+        "last_q_revenue": null,
+        "description": "Nvni Group Limited provides a business to business SaaS platform that offers cloud solutions. The company is headquartered in So Paulo, Brazil.",
+        "sector": "TECHNOLOGY",
+        "industry": "SOFTWARE - APPLICATION"
+      }
     }
   }
 }
