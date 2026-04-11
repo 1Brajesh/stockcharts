@@ -14399,6 +14399,247 @@
         "sector": "TECHNOLOGY",
         "industry": "SOFTWARE - APPLICATION"
       }
+    },
+    "IPG": {
+      "presets": {
+        "Revenue": {
+          "updated": "Apr 11, 2026 09:06 AM"
+        },
+        "Costs": {
+          "updated": "Apr 11, 2026 09:06 AM"
+        },
+        "Cash": {
+          "updated": "Apr 11, 2026 09:06 AM"
+        },
+        "FCF": {
+          "updated": "Apr 11, 2026 09:06 AM"
+        },
+        "Assets": {
+          "updated": "Apr 11, 2026 09:06 AM"
+        },
+        "Buffet": {
+          "updated": "Apr 11, 2026 09:06 AM"
+        },
+        "Revenue-q": {
+          "updated": "Apr 11, 2026 09:06 AM"
+        },
+        "Costs-q": {
+          "updated": "Apr 11, 2026 09:06 AM"
+        },
+        "Cash-q": {
+          "updated": "Apr 11, 2026 09:06 AM"
+        },
+        "FCF-q": {
+          "updated": "Apr 11, 2026 09:06 AM"
+        },
+        "Assets-q": {
+          "updated": "Apr 11, 2026 09:06 AM"
+        },
+        "Buffet-q": {
+          "updated": "Apr 11, 2026 09:06 AM"
+        }
+      },
+      "last_updated": "2026-04-11T09:06:48.223176"
+    },
+    "FOXA": {
+      "presets": {
+        "Revenue": {
+          "updated": "Apr 11, 2026 09:06 AM"
+        },
+        "Costs": {
+          "updated": "Apr 11, 2026 09:06 AM"
+        },
+        "Cash": {
+          "updated": "Apr 11, 2026 09:06 AM"
+        },
+        "FCF": {
+          "updated": "Apr 11, 2026 09:06 AM"
+        },
+        "Assets": {
+          "updated": "Apr 11, 2026 09:06 AM"
+        },
+        "Buffet": {
+          "updated": "Apr 11, 2026 09:06 AM"
+        },
+        "Revenue-q": {
+          "updated": "Apr 11, 2026 09:06 AM"
+        },
+        "Costs-q": {
+          "updated": "Apr 11, 2026 09:06 AM"
+        },
+        "Cash-q": {
+          "updated": "Apr 11, 2026 09:06 AM"
+        },
+        "FCF-q": {
+          "updated": "Apr 11, 2026 09:06 AM"
+        },
+        "Assets-q": {
+          "updated": "Apr 11, 2026 09:06 AM"
+        },
+        "Buffet-q": {
+          "updated": "Apr 11, 2026 09:06 AM"
+        }
+      },
+      "last_updated": "2026-04-11T09:06:48.245527",
+      "company": {
+        "name": "Fox Corp Class A",
+        "market_cap": "$26.70B",
+        "market_cap_raw": 26697857000.0,
+        "last_q_revenue": 5182000000.0,
+        "description": "Fox Corporation is an American mass media company headquartered in New York City.",
+        "sector": "COMMUNICATION SERVICES",
+        "industry": "ENTERTAINMENT"
+      }
+    },
+    "OMC": {
+      "presets": {
+        "Revenue": {
+          "updated": "Apr 11, 2026 09:06 AM"
+        },
+        "Costs": {
+          "updated": "Apr 11, 2026 09:06 AM"
+        },
+        "Cash": {
+          "updated": "Apr 11, 2026 09:06 AM"
+        },
+        "FCF": {
+          "updated": "Apr 11, 2026 09:06 AM"
+        },
+        "Assets": {
+          "updated": "Apr 11, 2026 09:06 AM"
+        },
+        "Buffet": {
+          "updated": "Apr 11, 2026 09:06 AM"
+        },
+        "Revenue-q": {
+          "updated": "Apr 11, 2026 09:06 AM"
+        },
+        "Costs-q": {
+          "updated": "Apr 11, 2026 09:06 AM"
+        },
+        "Cash-q": {
+          "updated": "Apr 11, 2026 09:06 AM"
+        },
+        "FCF-q": {
+          "updated": "Apr 11, 2026 09:06 AM"
+        },
+        "Assets-q": {
+          "updated": "Apr 11, 2026 09:06 AM"
+        },
+        "Buffet-q": {
+          "updated": "Apr 11, 2026 09:06 AM"
+        }
+      },
+      "last_updated": "2026-04-11T09:06:48.308982",
+      "company": {
+        "name": "Omnicom Group Inc",
+        "market_cap": "$23.24B",
+        "market_cap_raw": 23237984000.0,
+        "last_q_revenue": 5528800000.0,
+        "description": "Omnicom Group Inc. is an American global media, marketing and corporate communications holding company, headquartered in New York City.",
+        "sector": "COMMUNICATION SERVICES",
+        "industry": "ADVERTISING AGENCIES"
+      }
+    },
+    "HAL": {
+      "presets": {
+        "Revenue": {
+          "updated": "Apr 11, 2026 09:06 AM"
+        },
+        "Costs": {
+          "updated": "Apr 11, 2026 09:06 AM"
+        },
+        "Cash": {
+          "updated": "Apr 11, 2026 09:06 AM"
+        },
+        "FCF": {
+          "updated": "Apr 11, 2026 09:06 AM"
+        },
+        "Assets": {
+          "updated": "Apr 11, 2026 09:06 AM"
+        },
+        "Buffet": {
+          "updated": "Apr 11, 2026 09:06 AM"
+        },
+        "Revenue-q": {
+          "updated": "Apr 11, 2026 09:06 AM"
+        },
+        "Costs-q": {
+          "updated": "Apr 11, 2026 09:06 AM"
+        },
+        "Cash-q": {
+          "updated": "Apr 11, 2026 09:06 AM"
+        },
+        "FCF-q": {
+          "updated": "Apr 11, 2026 09:06 AM"
+        },
+        "Assets-q": {
+          "updated": "Apr 11, 2026 09:06 AM"
+        },
+        "Buffet-q": {
+          "updated": "Apr 11, 2026 09:06 AM"
+        }
+      },
+      "last_updated": "2026-04-11T09:06:48.433212",
+      "company": {
+        "name": "Halliburton Company",
+        "market_cap": "$31.57B",
+        "market_cap_raw": 31567196000.0,
+        "last_q_revenue": 5657000000.0,
+        "description": "Halliburton Company is an American multinational corporation. One of the world's largest oil field service companies, it has operations in more than 70 countries.",
+        "sector": "ENERGY",
+        "industry": "OIL & GAS EQUIPMENT & SERVICES"
+      }
+    },
+    "CTSH": {
+      "presets": {
+        "Revenue": {
+          "updated": "Apr 11, 2026 09:06 AM"
+        },
+        "Costs": {
+          "updated": "Apr 11, 2026 09:06 AM"
+        },
+        "Cash": {
+          "updated": "Apr 11, 2026 09:06 AM"
+        },
+        "FCF": {
+          "updated": "Apr 11, 2026 09:06 AM"
+        },
+        "Assets": {
+          "updated": "Apr 11, 2026 09:06 AM"
+        },
+        "Buffet": {
+          "updated": "Apr 11, 2026 09:06 AM"
+        },
+        "Revenue-q": {
+          "updated": "Apr 11, 2026 09:06 AM"
+        },
+        "Costs-q": {
+          "updated": "Apr 11, 2026 09:06 AM"
+        },
+        "Cash-q": {
+          "updated": "Apr 11, 2026 09:06 AM"
+        },
+        "FCF-q": {
+          "updated": "Apr 11, 2026 09:06 AM"
+        },
+        "Assets-q": {
+          "updated": "Apr 11, 2026 09:06 AM"
+        },
+        "Buffet-q": {
+          "updated": "Apr 11, 2026 09:06 AM"
+        }
+      },
+      "last_updated": "2026-04-11T09:06:48.541229",
+      "company": {
+        "name": "Cognizant Technology Solutions Corp Class A",
+        "market_cap": "$27.95B",
+        "market_cap_raw": 27954883000.0,
+        "last_q_revenue": 5333000000.0,
+        "description": "Cognizant is an American multinational technology company that provides business consulting, information technology and outsourcing services. It is headquartered in Teaneck, New Jersey, United States.",
+        "sector": "TECHNOLOGY",
+        "industry": "INFORMATION TECHNOLOGY SERVICES"
+      }
     }
   }
 }
