@@ -14599,6 +14599,56 @@
         "sector": "COMMUNICATION SERVICES",
         "industry": "TELECOM SERVICES"
       }
+    },
+    "COR": {
+      "presets": {
+        "Revenue": {
+          "updated": "Apr 11, 2026 11:41 PM"
+        },
+        "Costs": {
+          "updated": "Apr 11, 2026 11:41 PM"
+        },
+        "Cash": {
+          "updated": "Apr 11, 2026 11:41 PM"
+        },
+        "FCF": {
+          "updated": "Apr 11, 2026 11:41 PM"
+        },
+        "Assets": {
+          "updated": "Apr 11, 2026 11:41 PM"
+        },
+        "Buffet": {
+          "updated": "Apr 11, 2026 11:41 PM"
+        },
+        "Revenue-q": {
+          "updated": "Apr 11, 2026 11:41 PM"
+        },
+        "Costs-q": {
+          "updated": "Apr 11, 2026 11:41 PM"
+        },
+        "Cash-q": {
+          "updated": "Apr 11, 2026 11:41 PM"
+        },
+        "FCF-q": {
+          "updated": "Apr 11, 2026 11:41 PM"
+        },
+        "Assets-q": {
+          "updated": "Apr 11, 2026 11:41 PM"
+        },
+        "Buffet-q": {
+          "updated": "Apr 11, 2026 11:41 PM"
+        }
+      },
+      "last_updated": "2026-04-11T23:41:11.298925",
+      "company": {
+        "name": "Cencora Inc.",
+        "market_cap": "$62.42B",
+        "market_cap_raw": 62422954000.0,
+        "last_q_revenue": 85932016000.0,
+        "description": "Cencora, Inc. sources and distributes pharmaceutical products in the United States and internationally. ",
+        "sector": "HEALTHCARE",
+        "industry": "MEDICAL DISTRIBUTION"
+      }
     }
   }
 }
