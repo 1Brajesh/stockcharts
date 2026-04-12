@@ -14253,49 +14253,49 @@
     "COR": {
       "presets": {
         "Revenue": {
-          "updated": "Apr 09, 2026 01:37 AM"
+          "updated": "Apr 11, 2026 11:38 PM"
         },
         "Costs": {
-          "updated": "Apr 09, 2026 01:37 AM"
+          "updated": "Apr 11, 2026 11:38 PM"
         },
         "Cash": {
-          "updated": "Apr 09, 2026 01:37 AM"
+          "updated": "Apr 11, 2026 11:38 PM"
         },
         "FCF": {
-          "updated": "Apr 09, 2026 01:37 AM"
+          "updated": "Apr 11, 2026 11:38 PM"
         },
         "Assets": {
-          "updated": "Apr 09, 2026 01:37 AM"
+          "updated": "Apr 11, 2026 11:38 PM"
         },
         "Buffet": {
-          "updated": "Apr 09, 2026 01:37 AM"
+          "updated": "Apr 11, 2026 11:38 PM"
         },
         "Revenue-q": {
-          "updated": "Apr 09, 2026 01:37 AM"
+          "updated": "Apr 11, 2026 11:38 PM"
         },
         "Costs-q": {
-          "updated": "Apr 09, 2026 01:37 AM"
+          "updated": "Apr 11, 2026 11:38 PM"
         },
         "Cash-q": {
-          "updated": "Apr 09, 2026 01:37 AM"
+          "updated": "Apr 11, 2026 11:38 PM"
         },
         "FCF-q": {
-          "updated": "Apr 09, 2026 01:37 AM"
+          "updated": "Apr 11, 2026 11:38 PM"
         },
         "Assets-q": {
-          "updated": "Apr 09, 2026 01:37 AM"
+          "updated": "Apr 11, 2026 11:38 PM"
         },
         "Buffet-q": {
-          "updated": "Apr 09, 2026 01:37 AM"
+          "updated": "Apr 11, 2026 11:38 PM"
         }
       },
-      "last_updated": "2026-04-09T01:37:18.921397",
+      "last_updated": "2026-04-11T23:38:17.436628",
       "company": {
         "name": "Cencora Inc.",
         "market_cap": "$62.42B",
         "market_cap_raw": 62422954000.0,
         "last_q_revenue": 85932016000.0,
-        "description": "CoreSite Realty Corporation (NYSE: COR) delivers secure, reliable, high-performance data center, cloud access and interconnect solutions to a growing client ecosystem in eight key North American markets. ",
+        "description": "Cencora, Inc. sources and distributes pharmaceutical products in the United States and internationally. ",
         "sector": "HEALTHCARE",
         "industry": "MEDICAL DISTRIBUTION"
       }
