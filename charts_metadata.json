@@ -14649,6 +14649,156 @@
         "sector": "HEALTHCARE",
         "industry": "MEDICAL DISTRIBUTION"
       }
+    },
+    "FLY": {
+      "presets": {
+        "Revenue": {
+          "updated": "Apr 13, 2026 10:18 PM"
+        },
+        "Costs": {
+          "updated": "Apr 13, 2026 10:18 PM"
+        },
+        "Cash": {
+          "updated": "Apr 13, 2026 10:18 PM"
+        },
+        "FCF": {
+          "updated": "Apr 13, 2026 10:18 PM"
+        },
+        "Assets": {
+          "updated": "Apr 13, 2026 10:18 PM"
+        },
+        "Buffet": {
+          "updated": "Apr 13, 2026 10:18 PM"
+        },
+        "Revenue-q": {
+          "updated": "Apr 13, 2026 10:18 PM"
+        },
+        "Costs-q": {
+          "updated": "Apr 13, 2026 10:18 PM"
+        },
+        "Cash-q": {
+          "updated": "Apr 13, 2026 10:18 PM"
+        },
+        "FCF-q": {
+          "updated": "Apr 13, 2026 10:18 PM"
+        },
+        "Assets-q": {
+          "updated": "Apr 13, 2026 10:18 PM"
+        },
+        "Buffet-q": {
+          "updated": "Apr 13, 2026 10:18 PM"
+        }
+      },
+      "last_updated": "2026-04-13T22:18:09.777391",
+      "company": {
+        "name": "Firefly Aerospace Inc. Common Stock",
+        "market_cap": "$6.00B",
+        "market_cap_raw": 6004613000.0,
+        "last_q_revenue": 57673000.0,
+        "description": "Fly Leasing Limited, buys and leases commercial aircraft under multi-year contracts to various airlines worldwide. The company is headquartered in Dun Laoghaire, Ireland.",
+        "sector": "INDUSTRIALS",
+        "industry": "AEROSPACE & DEFENSE"
+      }
+    },
+    "RDW": {
+      "presets": {
+        "Revenue": {
+          "updated": "Apr 13, 2026 10:18 PM"
+        },
+        "Costs": {
+          "updated": "Apr 13, 2026 10:18 PM"
+        },
+        "Cash": {
+          "updated": "Apr 13, 2026 10:18 PM"
+        },
+        "FCF": {
+          "updated": "Apr 13, 2026 10:18 PM"
+        },
+        "Assets": {
+          "updated": "Apr 13, 2026 10:18 PM"
+        },
+        "Buffet": {
+          "updated": "Apr 13, 2026 10:18 PM"
+        },
+        "Revenue-q": {
+          "updated": "Apr 13, 2026 10:18 PM"
+        },
+        "Costs-q": {
+          "updated": "Apr 13, 2026 10:18 PM"
+        },
+        "Cash-q": {
+          "updated": "Apr 13, 2026 10:18 PM"
+        },
+        "FCF-q": {
+          "updated": "Apr 13, 2026 10:18 PM"
+        },
+        "Assets-q": {
+          "updated": "Apr 13, 2026 10:18 PM"
+        },
+        "Buffet-q": {
+          "updated": "Apr 13, 2026 10:18 PM"
+        }
+      },
+      "last_updated": "2026-04-13T22:18:09.807358",
+      "company": {
+        "name": "Redwire Corp",
+        "market_cap": "$1.78B",
+        "market_cap_raw": 1783455000.0,
+        "last_q_revenue": 108794000.0,
+        "description": "Redwire Corp (RDW) is a leading aerospace company focused on enhancing space infrastructure through innovative systems and services. The firm specializes in delivering essential solutions for next-generation space missions, encompassing satellite components, in-space robotics, and spacecraft operations. With a commitment to quality and cutting-edge technology, Redwire is poised to capitalize on the growing demand for commercial space applications and government contracts. Its experienced leadership team and diverse portfolio reinforce its competitive position within the rapidly evolving aerospace sector.",
+        "sector": "INDUSTRIALS",
+        "industry": "AEROSPACE & DEFENSE"
+      }
+    },
+    "PL": {
+      "presets": {
+        "Revenue": {
+          "updated": "Apr 13, 2026 10:18 PM"
+        },
+        "Costs": {
+          "updated": "Apr 13, 2026 10:18 PM"
+        },
+        "Cash": {
+          "updated": "Apr 13, 2026 10:18 PM"
+        },
+        "FCF": {
+          "updated": "Apr 13, 2026 10:18 PM"
+        },
+        "Assets": {
+          "updated": "Apr 13, 2026 10:18 PM"
+        },
+        "Buffet": {
+          "updated": "Apr 13, 2026 10:18 PM"
+        },
+        "Revenue-q": {
+          "updated": "Apr 13, 2026 10:18 PM"
+        },
+        "Costs-q": {
+          "updated": "Apr 13, 2026 10:18 PM"
+        },
+        "Cash-q": {
+          "updated": "Apr 13, 2026 10:18 PM"
+        },
+        "FCF-q": {
+          "updated": "Apr 13, 2026 10:18 PM"
+        },
+        "Assets-q": {
+          "updated": "Apr 13, 2026 10:18 PM"
+        },
+        "Buffet-q": {
+          "updated": "Apr 13, 2026 10:18 PM"
+        }
+      },
+      "last_updated": "2026-04-13T22:18:09.841143",
+      "company": {
+        "name": "Planet Labs PBC",
+        "market_cap": "$12.00B",
+        "market_cap_raw": 12000986000.0,
+        "last_q_revenue": 86822000.0,
+        "description": "Planet Labs PBC (Ticker: PL) is a leading provider of satellite imagery and geospatial data, renowned for its innovative constellation of Earth-observing satellites that delivers critical insights across diverse industries, including agriculture, forestry, and urban planning. Founded in 2010, the company is committed to democratizing access to satellite data, enabling organizations to make informed decisions through precise assessments of environmental changes. With continuous monitoring capabilities, Planet Labs supports global sustainability initiatives and is strategically positioned in the rapidly growing remote sensing and analytics market, emphasizing its dedication to leveraging technology for data-driven solutions.",
+        "sector": "INDUSTRIALS",
+        "industry": "AEROSPACE & DEFENSE"
+      }
     }
   }
 }
