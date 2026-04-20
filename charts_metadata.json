@@ -14799,6 +14799,56 @@
         "sector": "INDUSTRIALS",
         "industry": "AEROSPACE & DEFENSE"
       }
+    },
+    "JTAI": {
+      "presets": {
+        "Revenue": {
+          "updated": "Apr 20, 2026 10:23 AM"
+        },
+        "Costs": {
+          "updated": "Apr 20, 2026 10:23 AM"
+        },
+        "Cash": {
+          "updated": "Apr 20, 2026 10:23 AM"
+        },
+        "FCF": {
+          "updated": "Apr 20, 2026 10:23 AM"
+        },
+        "Assets": {
+          "updated": "Apr 20, 2026 10:23 AM"
+        },
+        "Buffet": {
+          "updated": "Apr 20, 2026 10:23 AM"
+        },
+        "Revenue-q": {
+          "updated": "Apr 20, 2026 10:23 AM"
+        },
+        "Costs-q": {
+          "updated": "Apr 20, 2026 10:23 AM"
+        },
+        "Cash-q": {
+          "updated": "Apr 20, 2026 10:23 AM"
+        },
+        "FCF-q": {
+          "updated": "Apr 20, 2026 10:23 AM"
+        },
+        "Assets-q": {
+          "updated": "Apr 20, 2026 10:23 AM"
+        },
+        "Buffet-q": {
+          "updated": "Apr 20, 2026 10:23 AM"
+        }
+      },
+      "last_updated": "2026-04-20T10:23:37.175095",
+      "company": {
+        "name": "Jet.AI Inc.",
+        "market_cap": "$4.71M",
+        "market_cap_raw": 4708800.0,
+        "last_q_revenue": 1766241.0,
+        "description": "Jet. The company is headquartered in Las Vegas, Nevada.",
+        "sector": "TECHNOLOGY",
+        "industry": "SOFTWARE - APPLICATION"
+      }
     }
   }
 }
