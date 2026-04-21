@@ -14849,6 +14849,206 @@
         "sector": "TECHNOLOGY",
         "industry": "SOFTWARE - APPLICATION"
       }
+    },
+    "SHFS": {
+      "presets": {
+        "Revenue": {
+          "updated": "Apr 20, 2026 11:18 PM"
+        },
+        "Costs": {
+          "updated": "Apr 20, 2026 11:18 PM"
+        },
+        "Cash": {
+          "updated": "Apr 20, 2026 11:18 PM"
+        },
+        "FCF": {
+          "updated": "Apr 20, 2026 11:18 PM"
+        },
+        "Assets": {
+          "updated": "Apr 20, 2026 11:18 PM"
+        },
+        "Buffet": {
+          "updated": "Apr 20, 2026 11:18 PM"
+        },
+        "Revenue-q": {
+          "updated": "Apr 20, 2026 11:18 PM"
+        },
+        "Costs-q": {
+          "updated": "Apr 20, 2026 11:18 PM"
+        },
+        "Cash-q": {
+          "updated": "Apr 20, 2026 11:18 PM"
+        },
+        "FCF-q": {
+          "updated": "Apr 20, 2026 11:18 PM"
+        },
+        "Assets-q": {
+          "updated": "Apr 20, 2026 11:18 PM"
+        },
+        "Buffet-q": {
+          "updated": "Apr 20, 2026 11:18 PM"
+        }
+      },
+      "last_updated": "2026-04-20T23:18:31.054024",
+      "company": {
+        "name": "SHF Holdings Inc",
+        "market_cap": "$3.70M",
+        "market_cap_raw": 3699000.0,
+        "last_q_revenue": 2062076.0,
+        "description": "SHF Holdings, Inc., provides access to banking, credit and other financial services to financial institutions serving the cannabis industry. The company is headquartered in Arvada, Colorado.",
+        "sector": "FINANCIAL SERVICES",
+        "industry": "BANKS - REGIONAL"
+      }
+    },
+    "SMR": {
+      "presets": {
+        "Revenue": {
+          "updated": "Apr 20, 2026 11:18 PM"
+        },
+        "Costs": {
+          "updated": "Apr 20, 2026 11:18 PM"
+        },
+        "Cash": {
+          "updated": "Apr 20, 2026 11:18 PM"
+        },
+        "FCF": {
+          "updated": "Apr 20, 2026 11:18 PM"
+        },
+        "Assets": {
+          "updated": "Apr 20, 2026 11:18 PM"
+        },
+        "Buffet": {
+          "updated": "Apr 20, 2026 11:18 PM"
+        },
+        "Revenue-q": {
+          "updated": "Apr 20, 2026 11:18 PM"
+        },
+        "Costs-q": {
+          "updated": "Apr 20, 2026 11:18 PM"
+        },
+        "Cash-q": {
+          "updated": "Apr 20, 2026 11:18 PM"
+        },
+        "FCF-q": {
+          "updated": "Apr 20, 2026 11:18 PM"
+        },
+        "Assets-q": {
+          "updated": "Apr 20, 2026 11:18 PM"
+        },
+        "Buffet-q": {
+          "updated": "Apr 20, 2026 11:18 PM"
+        }
+      },
+      "last_updated": "2026-04-20T23:18:31.085898",
+      "company": {
+        "name": "Nuscale Power Corp",
+        "market_cap": "$4.10B",
+        "market_cap_raw": 4095236000.0,
+        "last_q_revenue": 1808000.0,
+        "description": "NuScale Power Corporation develops and sells modular light water reactor nuclear power plants to supply power for electrical generation, district heating, desalination, hydrogen production and other process heat applications. ",
+        "sector": "INDUSTRIALS",
+        "industry": "SPECIALTY INDUSTRIAL MACHINERY"
+      }
+    },
+    "S": {
+      "presets": {
+        "Revenue": {
+          "updated": "Apr 20, 2026 11:18 PM"
+        },
+        "Costs": {
+          "updated": "Apr 20, 2026 11:18 PM"
+        },
+        "Cash": {
+          "updated": "Apr 20, 2026 11:18 PM"
+        },
+        "FCF": {
+          "updated": "Apr 20, 2026 11:18 PM"
+        },
+        "Assets": {
+          "updated": "Apr 20, 2026 11:18 PM"
+        },
+        "Buffet": {
+          "updated": "Apr 20, 2026 11:18 PM"
+        },
+        "Revenue-q": {
+          "updated": "Apr 20, 2026 11:18 PM"
+        },
+        "Costs-q": {
+          "updated": "Apr 20, 2026 11:18 PM"
+        },
+        "Cash-q": {
+          "updated": "Apr 20, 2026 11:18 PM"
+        },
+        "FCF-q": {
+          "updated": "Apr 20, 2026 11:18 PM"
+        },
+        "Assets-q": {
+          "updated": "Apr 20, 2026 11:18 PM"
+        },
+        "Buffet-q": {
+          "updated": "Apr 20, 2026 11:18 PM"
+        }
+      },
+      "last_updated": "2026-04-20T23:18:31.113181",
+      "company": {
+        "name": "SentinelOne Inc",
+        "market_cap": "$4.77B",
+        "market_cap_raw": 4770676000.0,
+        "last_q_revenue": 271153000.0,
+        "description": "SentinelOne, Inc. is a cybersecurity provider in the United States. The company is headquartered in Mountain View, California.",
+        "sector": "TECHNOLOGY",
+        "industry": "SOFTWARE - INFRASTRUCTURE"
+      }
+    },
+    "INOD": {
+      "presets": {
+        "Revenue": {
+          "updated": "Apr 20, 2026 11:18 PM"
+        },
+        "Costs": {
+          "updated": "Apr 20, 2026 11:18 PM"
+        },
+        "Cash": {
+          "updated": "Apr 20, 2026 11:18 PM"
+        },
+        "FCF": {
+          "updated": "Apr 20, 2026 11:18 PM"
+        },
+        "Assets": {
+          "updated": "Apr 20, 2026 11:18 PM"
+        },
+        "Buffet": {
+          "updated": "Apr 20, 2026 11:18 PM"
+        },
+        "Revenue-q": {
+          "updated": "Apr 20, 2026 11:18 PM"
+        },
+        "Costs-q": {
+          "updated": "Apr 20, 2026 11:18 PM"
+        },
+        "Cash-q": {
+          "updated": "Apr 20, 2026 11:18 PM"
+        },
+        "FCF-q": {
+          "updated": "Apr 20, 2026 11:18 PM"
+        },
+        "Assets-q": {
+          "updated": "Apr 20, 2026 11:18 PM"
+        },
+        "Buffet-q": {
+          "updated": "Apr 20, 2026 11:18 PM"
+        }
+      },
+      "last_updated": "2026-04-20T23:18:31.145959",
+      "company": {
+        "name": "Innodata Inc",
+        "market_cap": "$1.53B",
+        "market_cap_raw": 1530030000.0,
+        "last_q_revenue": 72376000.0,
+        "description": "Innodata Inc. is a global data engineering company in the United States, the United Kingdom, the Netherlands, Canada, and internationally. The company is headquartered in Ridgefield Park, New Jersey.",
+        "sector": "TECHNOLOGY",
+        "industry": "INFORMATION TECHNOLOGY SERVICES"
+      }
     }
   }
 }
