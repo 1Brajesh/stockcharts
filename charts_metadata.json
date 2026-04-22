@@ -10503,43 +10503,43 @@
     "NOW": {
       "presets": {
         "Revenue": {
-          "updated": "Mar 12, 2026 11:30 AM"
+          "updated": "Apr 21, 2026 10:15 PM"
         },
         "Costs": {
-          "updated": "Mar 12, 2026 11:30 AM"
+          "updated": "Apr 21, 2026 10:15 PM"
         },
         "Cash": {
-          "updated": "Mar 12, 2026 11:30 AM"
+          "updated": "Apr 21, 2026 10:15 PM"
         },
         "FCF": {
-          "updated": "Mar 12, 2026 11:30 AM"
+          "updated": "Apr 21, 2026 10:15 PM"
         },
         "Assets": {
-          "updated": "Mar 12, 2026 11:30 AM"
+          "updated": "Apr 21, 2026 10:15 PM"
         },
         "Buffet": {
-          "updated": "Mar 12, 2026 11:30 AM"
+          "updated": "Apr 21, 2026 10:15 PM"
         },
         "Revenue-q": {
-          "updated": "Mar 12, 2026 11:30 AM"
+          "updated": "Apr 21, 2026 10:15 PM"
         },
         "Costs-q": {
-          "updated": "Mar 12, 2026 11:30 AM"
+          "updated": "Apr 21, 2026 10:15 PM"
         },
         "Cash-q": {
-          "updated": "Mar 12, 2026 11:30 AM"
+          "updated": "Apr 21, 2026 10:15 PM"
         },
         "FCF-q": {
-          "updated": "Mar 12, 2026 11:30 AM"
+          "updated": "Apr 21, 2026 10:15 PM"
         },
         "Assets-q": {
-          "updated": "Mar 12, 2026 11:30 AM"
+          "updated": "Apr 21, 2026 10:15 PM"
         },
         "Buffet-q": {
-          "updated": "Mar 12, 2026 11:30 AM"
+          "updated": "Apr 21, 2026 10:15 PM"
         }
       },
-      "last_updated": "2026-03-12T11:30:20.278441",
+      "last_updated": "2026-04-21T22:15:33.536928",
       "company": {
         "name": "ServiceNow Inc",
         "market_cap": "$113.97B",
@@ -15048,6 +15048,106 @@
         "description": "Innodata Inc. is a global data engineering company in the United States, the United Kingdom, the Netherlands, Canada, and internationally. The company is headquartered in Ridgefield Park, New Jersey.",
         "sector": "TECHNOLOGY",
         "industry": "INFORMATION TECHNOLOGY SERVICES"
+      }
+    },
+    "NEE": {
+      "presets": {
+        "Revenue": {
+          "updated": "Apr 21, 2026 10:15 PM"
+        },
+        "Costs": {
+          "updated": "Apr 21, 2026 10:15 PM"
+        },
+        "Cash": {
+          "updated": "Apr 21, 2026 10:15 PM"
+        },
+        "FCF": {
+          "updated": "Apr 21, 2026 10:15 PM"
+        },
+        "Assets": {
+          "updated": "Apr 21, 2026 10:15 PM"
+        },
+        "Buffet": {
+          "updated": "Apr 21, 2026 10:15 PM"
+        },
+        "Revenue-q": {
+          "updated": "Apr 21, 2026 10:15 PM"
+        },
+        "Costs-q": {
+          "updated": "Apr 21, 2026 10:15 PM"
+        },
+        "Cash-q": {
+          "updated": "Apr 21, 2026 10:15 PM"
+        },
+        "FCF-q": {
+          "updated": "Apr 21, 2026 10:15 PM"
+        },
+        "Assets-q": {
+          "updated": "Apr 21, 2026 10:15 PM"
+        },
+        "Buffet-q": {
+          "updated": "Apr 21, 2026 10:15 PM"
+        }
+      },
+      "last_updated": "2026-04-21T22:15:33.369664",
+      "company": {
+        "name": "Nextera Energy Inc",
+        "market_cap": "$191.87B",
+        "market_cap_raw": 191868731000.0,
+        "last_q_revenue": 6563000000.0,
+        "description": "NextEra Energy, Inc. is an American energy company with about 46 gigawatts of generating capacity, revenues of over $17 billion in 2017, and about 14,000 employees throughout the US and Canada. Its subsidiaries include Florida Power & Light (FPL), NextEra Energy Resources, NextEra Energy Partners, Gulf Power Company, and NextEra Energy Services.",
+        "sector": "UTILITIES",
+        "industry": "UTILITIES - REGULATED ELECTRIC"
+      }
+    },
+    "PAYX": {
+      "presets": {
+        "Revenue": {
+          "updated": "Apr 21, 2026 10:15 PM"
+        },
+        "Costs": {
+          "updated": "Apr 21, 2026 10:15 PM"
+        },
+        "Cash": {
+          "updated": "Apr 21, 2026 10:15 PM"
+        },
+        "FCF": {
+          "updated": "Apr 21, 2026 10:15 PM"
+        },
+        "Assets": {
+          "updated": "Apr 21, 2026 10:15 PM"
+        },
+        "Buffet": {
+          "updated": "Apr 21, 2026 10:15 PM"
+        },
+        "Revenue-q": {
+          "updated": "Apr 21, 2026 10:15 PM"
+        },
+        "Costs-q": {
+          "updated": "Apr 21, 2026 10:15 PM"
+        },
+        "Cash-q": {
+          "updated": "Apr 21, 2026 10:15 PM"
+        },
+        "FCF-q": {
+          "updated": "Apr 21, 2026 10:15 PM"
+        },
+        "Assets-q": {
+          "updated": "Apr 21, 2026 10:15 PM"
+        },
+        "Buffet-q": {
+          "updated": "Apr 21, 2026 10:15 PM"
+        }
+      },
+      "last_updated": "2026-04-21T22:15:33.430530",
+      "company": {
+        "name": "Paychex Inc",
+        "market_cap": "$33.35B",
+        "market_cap_raw": 33353296000.0,
+        "last_q_revenue": 1808900000.0,
+        "description": "Paychex, Inc. is an American provider of human resource, payroll, and benefits outsourcing services for small- to medium-sized businesses.",
+        "sector": "TECHNOLOGY",
+        "industry": "SOFTWARE - APPLICATION"
       }
     }
   }
