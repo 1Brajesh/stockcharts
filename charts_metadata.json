@@ -15149,6 +15149,256 @@
         "sector": "TECHNOLOGY",
         "industry": "SOFTWARE - APPLICATION"
       }
+    },
+    "AMLX": {
+      "presets": {
+        "Revenue": {
+          "updated": "Apr 24, 2026 12:02 AM"
+        },
+        "Costs": {
+          "updated": "Apr 24, 2026 12:02 AM"
+        },
+        "Cash": {
+          "updated": "Apr 24, 2026 12:02 AM"
+        },
+        "FCF": {
+          "updated": "Apr 24, 2026 12:02 AM"
+        },
+        "Assets": {
+          "updated": "Apr 24, 2026 12:02 AM"
+        },
+        "Buffet": {
+          "updated": "Apr 24, 2026 12:02 AM"
+        },
+        "Revenue-q": {
+          "updated": "Apr 24, 2026 12:02 AM"
+        },
+        "Costs-q": {
+          "updated": "Apr 24, 2026 12:02 AM"
+        },
+        "Cash-q": {
+          "updated": "Apr 24, 2026 12:02 AM"
+        },
+        "FCF-q": {
+          "updated": "Apr 24, 2026 12:02 AM"
+        },
+        "Assets-q": {
+          "updated": "Apr 24, 2026 12:02 AM"
+        },
+        "Buffet-q": {
+          "updated": "Apr 24, 2026 12:02 AM"
+        }
+      },
+      "last_updated": "2026-04-24T00:02:00.668364",
+      "company": {
+        "name": "Amylyx Pharmaceuticals Inc",
+        "market_cap": "$1.94B",
+        "market_cap_raw": 1936607000.0,
+        "last_q_revenue": 0.0,
+        "description": "Amylyx Pharmaceuticals Inc (AMLX) is a pioneering biopharmaceutical company dedicated to creating innovative therapies for neurodegenerative conditions, with a strong emphasis on amyotrophic lateral sclerosis (ALS). The company's lead candidate, AMX0035, showcases a novel neuroprotective mechanism that aims to significantly improve patient outcomes, representing a promising advancement in ALS treatment. With a solid clinical development pipeline and a deep expertise in the nuances of neurological disorders, Amylyx is strategically positioned to address urgent unmet medical needs in ALS and potentially other related diseases, making it a compelling prospect for institutional investors.",
+        "sector": "HEALTHCARE",
+        "industry": "DRUG MANUFACTURERS - SPECIALTY & GENERIC"
+      }
+    },
+    "ASRT": {
+      "presets": {
+        "Revenue": {
+          "updated": "Apr 24, 2026 12:02 AM"
+        },
+        "Costs": {
+          "updated": "Apr 24, 2026 12:02 AM"
+        },
+        "Cash": {
+          "updated": "Apr 24, 2026 12:02 AM"
+        },
+        "FCF": {
+          "updated": "Apr 24, 2026 12:02 AM"
+        },
+        "Assets": {
+          "updated": "Apr 24, 2026 12:02 AM"
+        },
+        "Buffet": {
+          "updated": "Apr 24, 2026 12:02 AM"
+        },
+        "Revenue-q": {
+          "updated": "Apr 24, 2026 12:02 AM"
+        },
+        "Costs-q": {
+          "updated": "Apr 24, 2026 12:02 AM"
+        },
+        "Cash-q": {
+          "updated": "Apr 24, 2026 12:02 AM"
+        },
+        "FCF-q": {
+          "updated": "Apr 24, 2026 12:02 AM"
+        },
+        "Assets-q": {
+          "updated": "Apr 24, 2026 12:02 AM"
+        },
+        "Buffet-q": {
+          "updated": "Apr 24, 2026 12:02 AM"
+        }
+      },
+      "last_updated": "2026-04-24T00:02:00.705501",
+      "company": {
+        "name": "Assertio Therapeutics Inc",
+        "market_cap": "$116.39M",
+        "market_cap_raw": 116387000.0,
+        "last_q_revenue": 13542000.0,
+        "description": "Assertio Holdings, Inc., a commercial pharmaceutical company, provides medications in the areas of neurology, hospital, and pain and inflammation. The company is headquartered in Lake Forest, Illinois.",
+        "sector": "HEALTHCARE",
+        "industry": "DRUG MANUFACTURERS - SPECIALTY & GENERIC"
+      }
+    },
+    "CTMX": {
+      "presets": {
+        "Revenue": {
+          "updated": "Apr 24, 2026 12:02 AM"
+        },
+        "Costs": {
+          "updated": "Apr 24, 2026 12:02 AM"
+        },
+        "Cash": {
+          "updated": "Apr 24, 2026 12:02 AM"
+        },
+        "FCF": {
+          "updated": "Apr 24, 2026 12:02 AM"
+        },
+        "Assets": {
+          "updated": "Apr 24, 2026 12:02 AM"
+        },
+        "Buffet": {
+          "updated": "Apr 24, 2026 12:02 AM"
+        },
+        "Revenue-q": {
+          "updated": "Apr 24, 2026 12:02 AM"
+        },
+        "Costs-q": {
+          "updated": "Apr 24, 2026 12:02 AM"
+        },
+        "Cash-q": {
+          "updated": "Apr 24, 2026 12:02 AM"
+        },
+        "FCF-q": {
+          "updated": "Apr 24, 2026 12:02 AM"
+        },
+        "Assets-q": {
+          "updated": "Apr 24, 2026 12:02 AM"
+        },
+        "Buffet-q": {
+          "updated": "Apr 24, 2026 12:02 AM"
+        }
+      },
+      "last_updated": "2026-04-24T00:02:00.743671",
+      "company": {
+        "name": "CytomX Therapeutics Inc",
+        "market_cap": "$996.58M",
+        "market_cap_raw": 996577000.0,
+        "last_q_revenue": 663000.0,
+        "description": "CytomX Therapeutics, Inc. is an oncology-focused biopharmaceutical company in the United States. The company is headquartered in South San Francisco, California.",
+        "sector": "HEALTHCARE",
+        "industry": "BIOTECHNOLOGY"
+      }
+    },
+    "HRMY": {
+      "presets": {
+        "Revenue": {
+          "updated": "Apr 24, 2026 12:02 AM"
+        },
+        "Costs": {
+          "updated": "Apr 24, 2026 12:02 AM"
+        },
+        "Cash": {
+          "updated": "Apr 24, 2026 12:02 AM"
+        },
+        "FCF": {
+          "updated": "Apr 24, 2026 12:02 AM"
+        },
+        "Assets": {
+          "updated": "Apr 24, 2026 12:02 AM"
+        },
+        "Buffet": {
+          "updated": "Apr 24, 2026 12:02 AM"
+        },
+        "Revenue-q": {
+          "updated": "Apr 24, 2026 12:02 AM"
+        },
+        "Costs-q": {
+          "updated": "Apr 24, 2026 12:02 AM"
+        },
+        "Cash-q": {
+          "updated": "Apr 24, 2026 12:02 AM"
+        },
+        "FCF-q": {
+          "updated": "Apr 24, 2026 12:02 AM"
+        },
+        "Assets-q": {
+          "updated": "Apr 24, 2026 12:02 AM"
+        },
+        "Buffet-q": {
+          "updated": "Apr 24, 2026 12:02 AM"
+        }
+      },
+      "last_updated": "2026-04-24T00:02:00.785891",
+      "company": {
+        "name": "Harmony Biosciences Holdings",
+        "market_cap": "$1.85B",
+        "market_cap_raw": 1850020000.0,
+        "last_q_revenue": 243776000.0,
+        "description": "Harmony Biosciences Holdings, Inc., a commercial-stage pharmaceutical company, develops and markets therapies for patients with rare neurological disorders. The company is headquartered in Plymouth Meeting, Pennsylvania.",
+        "sector": "HEALTHCARE",
+        "industry": "BIOTECHNOLOGY"
+      }
+    },
+    "HSII": {
+      "presets": {
+        "Revenue": {
+          "updated": "Apr 24, 2026 12:02 AM"
+        },
+        "Costs": {
+          "updated": "Apr 24, 2026 12:02 AM"
+        },
+        "Cash": {
+          "updated": "Apr 24, 2026 12:02 AM"
+        },
+        "FCF": {
+          "updated": "Apr 24, 2026 12:02 AM"
+        },
+        "Assets": {
+          "updated": "Apr 24, 2026 12:02 AM"
+        },
+        "Buffet": {
+          "updated": "Apr 24, 2026 12:02 AM"
+        },
+        "Revenue-q": {
+          "updated": "Apr 24, 2026 12:02 AM"
+        },
+        "Costs-q": {
+          "updated": "Apr 24, 2026 12:02 AM"
+        },
+        "Cash-q": {
+          "updated": "Apr 24, 2026 12:02 AM"
+        },
+        "FCF-q": {
+          "updated": "Apr 24, 2026 12:02 AM"
+        },
+        "Assets-q": {
+          "updated": "Apr 24, 2026 12:02 AM"
+        },
+        "Buffet-q": {
+          "updated": "Apr 24, 2026 12:02 AM"
+        }
+      },
+      "last_updated": "2026-04-24T00:02:00.822397",
+      "company": {
+        "name": "Heidrick & Struggles International",
+        "market_cap": "$1.23B",
+        "market_cap_raw": 1227109000.0,
+        "last_q_revenue": 322837000.0,
+        "description": "Heidrick & Struggles International, Inc., provides executive search and consulting services to companies and business leaders worldwide. The company is headquartered in Chicago, Illinois.",
+        "sector": "INDUSTRIALS",
+        "industry": "STAFFING & EMPLOYMENT SERVICES"
+      }
     }
   }
 }
