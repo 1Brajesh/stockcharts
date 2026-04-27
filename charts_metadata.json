@@ -15399,6 +15399,56 @@
         "sector": "INDUSTRIALS",
         "industry": "STAFFING & EMPLOYMENT SERVICES"
       }
+    },
+    "UEC": {
+      "presets": {
+        "Revenue": {
+          "updated": "Apr 26, 2026 10:58 PM"
+        },
+        "Costs": {
+          "updated": "Apr 26, 2026 10:58 PM"
+        },
+        "Cash": {
+          "updated": "Apr 26, 2026 10:58 PM"
+        },
+        "FCF": {
+          "updated": "Apr 26, 2026 10:58 PM"
+        },
+        "Assets": {
+          "updated": "Apr 26, 2026 10:58 PM"
+        },
+        "Buffet": {
+          "updated": "Apr 26, 2026 10:58 PM"
+        },
+        "Revenue-q": {
+          "updated": "Apr 26, 2026 10:58 PM"
+        },
+        "Costs-q": {
+          "updated": "Apr 26, 2026 10:58 PM"
+        },
+        "Cash-q": {
+          "updated": "Apr 26, 2026 10:58 PM"
+        },
+        "FCF-q": {
+          "updated": "Apr 26, 2026 10:58 PM"
+        },
+        "Assets-q": {
+          "updated": "Apr 26, 2026 10:58 PM"
+        },
+        "Buffet-q": {
+          "updated": "Apr 26, 2026 10:58 PM"
+        }
+      },
+      "last_updated": "2026-04-26T22:58:09.806931",
+      "company": {
+        "name": "Uranium Energy Corp",
+        "market_cap": "$6.89B",
+        "market_cap_raw": 6887602000.0,
+        "last_q_revenue": 20200000.0,
+        "description": "Uranium Energy Corp. The company is headquartered in Corpus Christi, Texas.",
+        "sector": "ENERGY",
+        "industry": "URANIUM"
+      }
     }
   }
 }
