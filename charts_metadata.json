@@ -15449,6 +15449,156 @@
         "sector": "ENERGY",
         "industry": "URANIUM"
       }
+    },
+    "RDDT": {
+      "presets": {
+        "Revenue": {
+          "updated": "Apr 30, 2026 12:41 AM"
+        },
+        "Costs": {
+          "updated": "Apr 30, 2026 12:41 AM"
+        },
+        "Cash": {
+          "updated": "Apr 30, 2026 12:41 AM"
+        },
+        "FCF": {
+          "updated": "Apr 30, 2026 12:41 AM"
+        },
+        "Assets": {
+          "updated": "Apr 30, 2026 12:41 AM"
+        },
+        "Buffet": {
+          "updated": "Apr 30, 2026 12:41 AM"
+        },
+        "Revenue-q": {
+          "updated": "Apr 30, 2026 12:41 AM"
+        },
+        "Costs-q": {
+          "updated": "Apr 30, 2026 12:41 AM"
+        },
+        "Cash-q": {
+          "updated": "Apr 30, 2026 12:41 AM"
+        },
+        "FCF-q": {
+          "updated": "Apr 30, 2026 12:41 AM"
+        },
+        "Assets-q": {
+          "updated": "Apr 30, 2026 12:41 AM"
+        },
+        "Buffet-q": {
+          "updated": "Apr 30, 2026 12:41 AM"
+        }
+      },
+      "last_updated": "2026-04-30T00:41:59.383729",
+      "company": {
+        "name": "Reddit, Inc.",
+        "market_cap": "$28.47B",
+        "market_cap_raw": 28466930000.0,
+        "last_q_revenue": 725607000.0,
+        "description": "Reddit, Inc. operates a website that organizes digital communities. The company is headquartered in San Francisco, California.",
+        "sector": "COMMUNICATION SERVICES",
+        "industry": "INTERNET CONTENT & INFORMATION"
+      }
+    },
+    "FOUR": {
+      "presets": {
+        "Revenue": {
+          "updated": "Apr 30, 2026 12:41 AM"
+        },
+        "Costs": {
+          "updated": "Apr 30, 2026 12:41 AM"
+        },
+        "Cash": {
+          "updated": "Apr 30, 2026 12:41 AM"
+        },
+        "FCF": {
+          "updated": "Apr 30, 2026 12:41 AM"
+        },
+        "Assets": {
+          "updated": "Apr 30, 2026 12:41 AM"
+        },
+        "Buffet": {
+          "updated": "Apr 30, 2026 12:41 AM"
+        },
+        "Revenue-q": {
+          "updated": "Apr 30, 2026 12:41 AM"
+        },
+        "Costs-q": {
+          "updated": "Apr 30, 2026 12:41 AM"
+        },
+        "Cash-q": {
+          "updated": "Apr 30, 2026 12:41 AM"
+        },
+        "FCF-q": {
+          "updated": "Apr 30, 2026 12:41 AM"
+        },
+        "Assets-q": {
+          "updated": "Apr 30, 2026 12:41 AM"
+        },
+        "Buffet-q": {
+          "updated": "Apr 30, 2026 12:41 AM"
+        }
+      },
+      "last_updated": "2026-04-30T00:41:59.416194",
+      "company": {
+        "name": "Shift4 Payments Inc",
+        "market_cap": "$4.63B",
+        "market_cap_raw": 4634707000.0,
+        "last_q_revenue": 1189000000.0,
+        "description": "Shift4 Payments, Inc. provides integrated payment processing and technology solutions in the United States. The company is headquartered in Allentown, Pennsylvania.",
+        "sector": "TECHNOLOGY",
+        "industry": "SOFTWARE - INFRASTRUCTURE"
+      }
+    },
+    "LULU": {
+      "presets": {
+        "Revenue": {
+          "updated": "Apr 30, 2026 12:41 AM"
+        },
+        "Costs": {
+          "updated": "Apr 30, 2026 12:41 AM"
+        },
+        "Cash": {
+          "updated": "Apr 30, 2026 12:41 AM"
+        },
+        "FCF": {
+          "updated": "Apr 30, 2026 12:41 AM"
+        },
+        "Assets": {
+          "updated": "Apr 30, 2026 12:41 AM"
+        },
+        "Buffet": {
+          "updated": "Apr 30, 2026 12:41 AM"
+        },
+        "Revenue-q": {
+          "updated": "Apr 30, 2026 12:41 AM"
+        },
+        "Costs-q": {
+          "updated": "Apr 30, 2026 12:41 AM"
+        },
+        "Cash-q": {
+          "updated": "Apr 30, 2026 12:41 AM"
+        },
+        "FCF-q": {
+          "updated": "Apr 30, 2026 12:41 AM"
+        },
+        "Assets-q": {
+          "updated": "Apr 30, 2026 12:41 AM"
+        },
+        "Buffet-q": {
+          "updated": "Apr 30, 2026 12:41 AM"
+        }
+      },
+      "last_updated": "2026-04-30T00:41:59.455882",
+      "company": {
+        "name": "Lululemon Athletica Inc.",
+        "market_cap": "$16.70B",
+        "market_cap_raw": 16703930000.0,
+        "last_q_revenue": 3640801000.0,
+        "description": "lululemon athletica inc. The company is headquartered in Vancouver, Canada.",
+        "sector": "CONSUMER CYCLICAL",
+        "industry": "APPAREL RETAIL"
+      }
     }
   }
 }
