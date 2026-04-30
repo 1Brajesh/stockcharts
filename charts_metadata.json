@@ -15599,6 +15599,56 @@
         "sector": "CONSUMER CYCLICAL",
         "industry": "APPAREL RETAIL"
       }
+    },
+    "AVX": {
+      "presets": {
+        "Revenue": {
+          "updated": "Apr 30, 2026 12:42 AM"
+        },
+        "Costs": {
+          "updated": "Apr 30, 2026 12:42 AM"
+        },
+        "Cash": {
+          "updated": "Apr 30, 2026 12:42 AM"
+        },
+        "FCF": {
+          "updated": "Apr 30, 2026 12:42 AM"
+        },
+        "Assets": {
+          "updated": "Apr 30, 2026 12:42 AM"
+        },
+        "Buffet": {
+          "updated": "Apr 30, 2026 12:42 AM"
+        },
+        "Revenue-q": {
+          "updated": "Apr 30, 2026 12:42 AM"
+        },
+        "Costs-q": {
+          "updated": "Apr 30, 2026 12:42 AM"
+        },
+        "Cash-q": {
+          "updated": "Apr 30, 2026 12:42 AM"
+        },
+        "FCF-q": {
+          "updated": "Apr 30, 2026 12:42 AM"
+        },
+        "Assets-q": {
+          "updated": "Apr 30, 2026 12:42 AM"
+        },
+        "Buffet-q": {
+          "updated": "Apr 30, 2026 12:42 AM"
+        }
+      },
+      "last_updated": "2026-04-30T00:42:21.339068",
+      "company": {
+        "name": "Avax One Technology Ltd.",
+        "market_cap": "$45.00M",
+        "market_cap_raw": 45004800.0,
+        "last_q_revenue": 1089687.0,
+        "description": "AVX Corporation manufactures, supplies, and resells various electronic components, interconnect devices, sensing and control devices, and related products worldwide. ",
+        "sector": "FINANCIAL SERVICES",
+        "industry": "ASSET MANAGEMENT"
+      }
     }
   }
 }
