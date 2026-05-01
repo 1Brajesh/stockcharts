@@ -1103,49 +1103,49 @@
     "PATH": {
       "presets": {
         "Revenue": {
-          "updated": "Mar 12, 2026 11:30 AM"
+          "updated": "May 01, 2026 10:38 AM"
         },
         "Costs": {
-          "updated": "Mar 12, 2026 11:30 AM"
+          "updated": "May 01, 2026 10:38 AM"
         },
         "Cash": {
-          "updated": "Mar 12, 2026 11:30 AM"
+          "updated": "May 01, 2026 10:38 AM"
         },
         "FCF": {
-          "updated": "Mar 12, 2026 11:30 AM"
+          "updated": "May 01, 2026 10:38 AM"
         },
         "Assets": {
-          "updated": "Mar 12, 2026 11:30 AM"
+          "updated": "May 01, 2026 10:38 AM"
         },
         "Buffet": {
-          "updated": "Mar 12, 2026 11:30 AM"
+          "updated": "May 01, 2026 10:38 AM"
         },
         "Revenue-q": {
-          "updated": "Mar 12, 2026 11:30 AM"
+          "updated": "May 01, 2026 10:38 AM"
         },
         "Costs-q": {
-          "updated": "Mar 12, 2026 11:30 AM"
+          "updated": "May 01, 2026 10:38 AM"
         },
         "Cash-q": {
-          "updated": "Mar 12, 2026 11:30 AM"
+          "updated": "May 01, 2026 10:38 AM"
         },
         "FCF-q": {
-          "updated": "Mar 12, 2026 11:30 AM"
+          "updated": "May 01, 2026 10:38 AM"
         },
         "Assets-q": {
-          "updated": "Mar 12, 2026 11:30 AM"
+          "updated": "May 01, 2026 10:38 AM"
         },
         "Buffet-q": {
-          "updated": "Mar 12, 2026 11:30 AM"
+          "updated": "May 01, 2026 10:38 AM"
         }
       },
-      "last_updated": "2026-03-12T11:30:20.992652",
+      "last_updated": "2026-05-01T10:38:45.610255",
       "company": {
         "name": "Uipath Inc",
-        "market_cap": "$7.42B",
-        "market_cap_raw": 7415638000.0,
-        "last_q_revenue": 361728000.0,
-        "description": "UiPath Inc. (PATH) is a leading force in the robotic process automation (RPA) industry, delivering a comprehensive automation platform that enhances operational efficiency and drives digital transformation across a variety of sectors. Leveraging cutting-edge artificial intelligence and machine learning capabilities, the company is ideally placed to capitalize on the rapidly growing demand for automation solutions. With a strategic presence in key markets, including the United States, Romania, and Japan, and headquartered in New York, UiPath is well-positioned to support organizations in navigating their automation journeys effectively.",
+        "market_cap": "$5.40B",
+        "market_cap_raw": 5396395000.0,
+        "last_q_revenue": 481107000.0,
+        "description": "UiPath Inc. provides an end-to-end automation platform offering a range of robotic process automation (RPA) solutions primarily in the United States, Romania, and Japan. The company is headquartered in New York, New York.",
         "sector": "TECHNOLOGY",
         "industry": "SOFTWARE - INFRASTRUCTURE"
       }
