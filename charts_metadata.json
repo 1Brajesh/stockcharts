@@ -15649,6 +15649,56 @@
         "sector": "FINANCIAL SERVICES",
         "industry": "ASSET MANAGEMENT"
       }
+    },
+    "EZRA": {
+      "presets": {
+        "Revenue": {
+          "updated": "May 03, 2026 10:39 PM"
+        },
+        "Costs": {
+          "updated": "May 03, 2026 10:39 PM"
+        },
+        "Cash": {
+          "updated": "May 03, 2026 10:39 PM"
+        },
+        "FCF": {
+          "updated": "May 03, 2026 10:39 PM"
+        },
+        "Assets": {
+          "updated": "May 03, 2026 10:39 PM"
+        },
+        "Buffet": {
+          "updated": "May 03, 2026 10:39 PM"
+        },
+        "Revenue-q": {
+          "updated": "May 03, 2026 10:39 PM"
+        },
+        "Costs-q": {
+          "updated": "May 03, 2026 10:39 PM"
+        },
+        "Cash-q": {
+          "updated": "May 03, 2026 10:39 PM"
+        },
+        "FCF-q": {
+          "updated": "May 03, 2026 10:39 PM"
+        },
+        "Assets-q": {
+          "updated": "May 03, 2026 10:39 PM"
+        },
+        "Buffet-q": {
+          "updated": "May 03, 2026 10:39 PM"
+        }
+      },
+      "last_updated": "2026-05-03T22:39:46.080328",
+      "company": {
+        "name": "Reliance Global Group, Inc.",
+        "market_cap": "$3.61M",
+        "market_cap_raw": 3613000.0,
+        "last_q_revenue": 1689374.0,
+        "description": "Reliance Global Group, Inc. focuses on the acquisition and management of wholesale and retail insurance agencies in the United States. The company is headquartered in Lakewood, New Jersey.",
+        "sector": "FINANCIAL SERVICES",
+        "industry": "INSURANCE BROKERS"
+      }
     }
   }
 }
