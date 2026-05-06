@@ -15699,6 +15699,56 @@
         "sector": "FINANCIAL SERVICES",
         "industry": "INSURANCE BROKERS"
       }
+    },
+    "LUNR": {
+      "presets": {
+        "Revenue": {
+          "updated": "May 06, 2026 05:13 AM"
+        },
+        "Costs": {
+          "updated": "May 06, 2026 05:13 AM"
+        },
+        "Cash": {
+          "updated": "May 06, 2026 05:13 AM"
+        },
+        "FCF": {
+          "updated": "May 06, 2026 05:13 AM"
+        },
+        "Assets": {
+          "updated": "May 06, 2026 05:13 AM"
+        },
+        "Buffet": {
+          "updated": "May 06, 2026 05:13 AM"
+        },
+        "Revenue-q": {
+          "updated": "May 06, 2026 05:13 AM"
+        },
+        "Costs-q": {
+          "updated": "May 06, 2026 05:13 AM"
+        },
+        "Cash-q": {
+          "updated": "May 06, 2026 05:13 AM"
+        },
+        "FCF-q": {
+          "updated": "May 06, 2026 05:13 AM"
+        },
+        "Assets-q": {
+          "updated": "May 06, 2026 05:13 AM"
+        },
+        "Buffet-q": {
+          "updated": "May 06, 2026 05:13 AM"
+        }
+      },
+      "last_updated": "2026-05-06T05:13:58.392166",
+      "company": {
+        "name": "Intuitive Machines Inc. ",
+        "market_cap": "$4.06B",
+        "market_cap_raw": 4055033000.0,
+        "last_q_revenue": 44785000.0,
+        "description": "Intuitive Machines Inc. (LUNR) is a leading aerospace company dedicated to advancing lunar and space exploration, prominently contributing to NASA's Artemis program. The firm provides a comprehensive portfolio of mission services, encompassing spacecraft design, transportation, payload delivery, and data management. With its cutting-edge engineering expertise, Intuitive Machines is strategically aligned to capitalize on the growing demand for lunar resources and commercial exploration initiatives, solidifying its position as a frontrunner in the emerging space economy.",
+        "sector": "INDUSTRIALS",
+        "industry": "AEROSPACE & DEFENSE"
+      }
     }
   }
 }
