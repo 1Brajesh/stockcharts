@@ -15749,6 +15749,56 @@
         "sector": "INDUSTRIALS",
         "industry": "AEROSPACE & DEFENSE"
       }
+    },
+    "BNZI": {
+      "presets": {
+        "Revenue": {
+          "updated": "May 07, 2026 11:49 PM"
+        },
+        "Costs": {
+          "updated": "May 07, 2026 11:49 PM"
+        },
+        "Cash": {
+          "updated": "May 07, 2026 11:49 PM"
+        },
+        "FCF": {
+          "updated": "May 07, 2026 11:49 PM"
+        },
+        "Assets": {
+          "updated": "May 07, 2026 11:49 PM"
+        },
+        "Buffet": {
+          "updated": "May 07, 2026 11:49 PM"
+        },
+        "Revenue-q": {
+          "updated": "May 07, 2026 11:49 PM"
+        },
+        "Costs-q": {
+          "updated": "May 07, 2026 11:49 PM"
+        },
+        "Cash-q": {
+          "updated": "May 07, 2026 11:49 PM"
+        },
+        "FCF-q": {
+          "updated": "May 07, 2026 11:49 PM"
+        },
+        "Assets-q": {
+          "updated": "May 07, 2026 11:49 PM"
+        },
+        "Buffet-q": {
+          "updated": "May 07, 2026 11:49 PM"
+        }
+      },
+      "last_updated": "2026-05-07T23:49:07.740880",
+      "company": {
+        "name": "Banzai International Inc",
+        "market_cap": "$4.53M",
+        "market_cap_raw": 4529500.0,
+        "last_q_revenue": 2810846.0,
+        "description": "Banzai International Inc (BNZI) is an innovative technology and digital media company that focuses on interactive entertainment and consumer engagement solutions. Leveraging cutting-edge technologies, the firm offers a wide array of products designed to enhance user experiences and optimize business strategies for a broad spectrum of clients. With its strategic positioning in the fast-growing digital content and immersive technology markets, Banzai International represents a compelling investment opportunity for institutional investors seeking to capitalize on the evolution of the technology sector.",
+        "sector": "TECHNOLOGY",
+        "industry": "SOFTWARE - APPLICATION"
+      }
     }
   }
 }
