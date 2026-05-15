@@ -15799,6 +15799,106 @@
         "sector": "TECHNOLOGY",
         "industry": "SOFTWARE - APPLICATION"
       }
+    },
+    "CBRS": {
+      "presets": {
+        "Revenue": {
+          "updated": "May 14, 2026 10:40 PM"
+        },
+        "Costs": {
+          "updated": "May 14, 2026 10:40 PM"
+        },
+        "Cash": {
+          "updated": "May 14, 2026 10:40 PM"
+        },
+        "FCF": {
+          "updated": "May 14, 2026 10:40 PM"
+        },
+        "Assets": {
+          "updated": "May 14, 2026 10:40 PM"
+        },
+        "Buffet": {
+          "updated": "May 14, 2026 10:40 PM"
+        },
+        "Revenue-q": {
+          "updated": "May 14, 2026 10:40 PM"
+        },
+        "Costs-q": {
+          "updated": "May 14, 2026 10:40 PM"
+        },
+        "Cash-q": {
+          "updated": "May 14, 2026 10:40 PM"
+        },
+        "FCF-q": {
+          "updated": "May 14, 2026 10:40 PM"
+        },
+        "Assets-q": {
+          "updated": "May 14, 2026 10:40 PM"
+        },
+        "Buffet-q": {
+          "updated": "May 14, 2026 10:40 PM"
+        }
+      },
+      "last_updated": "2026-05-14T22:40:11.472371",
+      "company": {
+        "name": "Cerebras Systems Inc. Class A Common Stock",
+        "market_cap": "N/A",
+        "market_cap_raw": null,
+        "last_q_revenue": null,
+        "description": "Cerebras Systems Inc. designs and develops processors for artificial intelligence (AI) training and inference in the United States, Europe, and Asia. The company is headquartered in Sunnyvale, California.",
+        "sector": "TECHNOLOGY",
+        "industry": "SEMICONDUCTORS"
+      }
+    },
+    "TMCR": {
+      "presets": {
+        "Revenue": {
+          "updated": "May 14, 2026 10:40 PM"
+        },
+        "Costs": {
+          "updated": "May 14, 2026 10:40 PM"
+        },
+        "Cash": {
+          "updated": "May 14, 2026 10:40 PM"
+        },
+        "FCF": {
+          "updated": "May 14, 2026 10:40 PM"
+        },
+        "Assets": {
+          "updated": "May 14, 2026 10:40 PM"
+        },
+        "Buffet": {
+          "updated": "May 14, 2026 10:40 PM"
+        },
+        "Revenue-q": {
+          "updated": "May 14, 2026 10:40 PM"
+        },
+        "Costs-q": {
+          "updated": "May 14, 2026 10:40 PM"
+        },
+        "Cash-q": {
+          "updated": "May 14, 2026 10:40 PM"
+        },
+        "FCF-q": {
+          "updated": "May 14, 2026 10:40 PM"
+        },
+        "Assets-q": {
+          "updated": "May 14, 2026 10:40 PM"
+        },
+        "Buffet-q": {
+          "updated": "May 14, 2026 10:40 PM"
+        }
+      },
+      "last_updated": "2026-05-14T22:40:11.496086",
+      "company": {
+        "name": "The Metals Royalty Company Inc. Common Stock",
+        "market_cap": "$759.84M",
+        "market_cap_raw": 759843000.0,
+        "last_q_revenue": 0.0,
+        "description": "Metals Royalty Co Inc. (TMCR) is a dynamic player in the diversified metals and mining sector, focused on acquiring and managing royalties and streams from a variety of precious and base metal assets. The company aims to generate sustainable cash flow by leveraging its portfolio of high-quality, low-risk projects, while actively seeking new opportunities to enhance shareholder value. With a strategic emphasis on both operational efficiency and disciplined investment, Metals Royalty positions itself as a resilient and opportunistic entity poised to navigate the cyclical nature of the mining industry.",
+        "sector": "BASIC MATERIALS",
+        "industry": "OTHER INDUSTRIAL METALS & MINING"
+      }
     }
   }
 }
