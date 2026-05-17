@@ -15899,6 +15899,56 @@
         "sector": "BASIC MATERIALS",
         "industry": "OTHER INDUSTRIAL METALS & MINING"
       }
+    },
+    "FTNT": {
+      "presets": {
+        "Revenue": {
+          "updated": "May 16, 2026 11:26 PM"
+        },
+        "Costs": {
+          "updated": "May 16, 2026 11:26 PM"
+        },
+        "Cash": {
+          "updated": "May 16, 2026 11:26 PM"
+        },
+        "FCF": {
+          "updated": "May 16, 2026 11:26 PM"
+        },
+        "Assets": {
+          "updated": "May 16, 2026 11:26 PM"
+        },
+        "Buffet": {
+          "updated": "May 16, 2026 11:26 PM"
+        },
+        "Revenue-q": {
+          "updated": "May 16, 2026 11:26 PM"
+        },
+        "Costs-q": {
+          "updated": "May 16, 2026 11:26 PM"
+        },
+        "Cash-q": {
+          "updated": "May 16, 2026 11:26 PM"
+        },
+        "FCF-q": {
+          "updated": "May 16, 2026 11:26 PM"
+        },
+        "Assets-q": {
+          "updated": "May 16, 2026 11:26 PM"
+        },
+        "Buffet-q": {
+          "updated": "May 16, 2026 11:26 PM"
+        }
+      },
+      "last_updated": "2026-05-16T23:26:37.212256",
+      "company": {
+        "name": "Fortinet Inc",
+        "market_cap": "$89.28B",
+        "market_cap_raw": 89280537000.0,
+        "last_q_revenue": 1849600000.0,
+        "description": "Fortinet (Nasdaq: FTNT) is an American multinational corporation headquartered in Sunnyvale, California. It develops and sells cybersecurity solutions, including but not limited to physical products such as firewalls, plus software and services such as anti-virus protection, intrusion prevention systems and endpoint security components.",
+        "sector": "TECHNOLOGY",
+        "industry": "SOFTWARE - INFRASTRUCTURE"
+      }
     }
   }
 }
