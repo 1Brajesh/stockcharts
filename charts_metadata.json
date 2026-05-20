@@ -15999,6 +15999,56 @@
         "sector": "HEALTHCARE",
         "industry": "BIOTECHNOLOGY"
       }
+    },
+    "KVYO": {
+      "presets": {
+        "Revenue": {
+          "updated": "May 19, 2026 09:10 PM"
+        },
+        "Costs": {
+          "updated": "May 19, 2026 09:10 PM"
+        },
+        "Cash": {
+          "updated": "May 19, 2026 09:10 PM"
+        },
+        "FCF": {
+          "updated": "May 19, 2026 09:10 PM"
+        },
+        "Assets": {
+          "updated": "May 19, 2026 09:10 PM"
+        },
+        "Buffet": {
+          "updated": "May 19, 2026 09:10 PM"
+        },
+        "Revenue-q": {
+          "updated": "May 19, 2026 09:10 PM"
+        },
+        "Costs-q": {
+          "updated": "May 19, 2026 09:10 PM"
+        },
+        "Cash-q": {
+          "updated": "May 19, 2026 09:10 PM"
+        },
+        "FCF-q": {
+          "updated": "May 19, 2026 09:10 PM"
+        },
+        "Assets-q": {
+          "updated": "May 19, 2026 09:10 PM"
+        },
+        "Buffet-q": {
+          "updated": "May 19, 2026 09:10 PM"
+        }
+      },
+      "last_updated": "2026-05-19T21:10:08.976472",
+      "company": {
+        "name": "Klaviyo, Inc.",
+        "market_cap": "$4.37B",
+        "market_cap_raw": 4372478000.0,
+        "last_q_revenue": 358005000.0,
+        "description": "Klaviyo, Inc., a technology company that provides a software-as-a-service platform to enable its customers to send the right messages at the right time across email, short message service (SMS), and push notifications. The company is headquartered in Boston, Massachusetts.",
+        "sector": "TECHNOLOGY",
+        "industry": "SOFTWARE - APPLICATION"
+      }
     }
   }
 }
