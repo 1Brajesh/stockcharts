@@ -353,49 +353,49 @@
     "NVTS": {
       "presets": {
         "Revenue": {
-          "updated": "Mar 12, 2026 11:30 AM"
+          "updated": "May 22, 2026 05:50 PM"
         },
         "Costs": {
-          "updated": "Mar 12, 2026 11:30 AM"
+          "updated": "May 22, 2026 05:50 PM"
         },
         "Cash": {
-          "updated": "Mar 12, 2026 11:30 AM"
+          "updated": "May 22, 2026 05:50 PM"
         },
         "FCF": {
-          "updated": "Mar 12, 2026 11:30 AM"
+          "updated": "May 22, 2026 05:50 PM"
         },
         "Assets": {
-          "updated": "Mar 12, 2026 11:30 AM"
+          "updated": "May 22, 2026 05:50 PM"
         },
         "Buffet": {
-          "updated": "Mar 12, 2026 11:30 AM"
+          "updated": "May 22, 2026 05:50 PM"
         },
         "Revenue-q": {
-          "updated": "Mar 12, 2026 11:30 AM"
+          "updated": "May 22, 2026 05:50 PM"
         },
         "Costs-q": {
-          "updated": "Mar 12, 2026 11:30 AM"
+          "updated": "May 22, 2026 05:50 PM"
         },
         "Cash-q": {
-          "updated": "Mar 12, 2026 11:30 AM"
+          "updated": "May 22, 2026 05:50 PM"
         },
         "FCF-q": {
-          "updated": "Mar 12, 2026 11:30 AM"
+          "updated": "May 22, 2026 05:50 PM"
         },
         "Assets-q": {
-          "updated": "Mar 12, 2026 11:30 AM"
+          "updated": "May 22, 2026 05:50 PM"
         },
         "Buffet-q": {
-          "updated": "Mar 12, 2026 11:30 AM"
+          "updated": "May 22, 2026 05:50 PM"
         }
       },
-      "last_updated": "2026-03-12T11:30:20.482680",
+      "last_updated": "2026-05-22T17:50:58.946311",
       "company": {
         "name": "Navitas Semiconductor Corp",
-        "market_cap": "$1.71B",
-        "market_cap_raw": 1705672000.0,
-        "last_q_revenue": 10112000.0,
-        "description": "None",
+        "market_cap": "$5.61B",
+        "market_cap_raw": 5612622000.0,
+        "last_q_revenue": 8598000.0,
+        "description": "Navitas Semiconductor Corp (NVTS) is a leading innovator in gallium nitride (GaN) power semiconductor technology, focusing on the development of high-efficiency power converters for a wide array of applications, including consumer electronics, data centers, and electric vehicles. Committed to sustainability, Navitas harnesses its proprietary technologies to provide energy-efficient solutions that align with and exceed environmental standards. With a robust intellectual property portfolio and strategic alliances, the company is poised to capitalize on the increasing demand for advanced power solutions, positioning itself as a key player in the global electrification movement and delivering significant growth and value for shareholders.",
         "sector": "TECHNOLOGY",
         "industry": "SEMICONDUCTORS"
       }
