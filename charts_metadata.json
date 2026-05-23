@@ -16099,47 +16099,6 @@
         "sector": "INDUSTRIALS",
         "industry": "AEROSPACE & DEFENSE"
       }
-    },
-    "ORBT": {
-      "presets": {
-        "Revenue": {
-          "updated": "May 23, 2026 10:20 AM"
-        },
-        "Costs": {
-          "updated": "May 23, 2026 10:20 AM"
-        },
-        "Cash": {
-          "updated": "May 23, 2026 10:20 AM"
-        },
-        "FCF": {
-          "updated": "May 23, 2026 10:20 AM"
-        },
-        "Assets": {
-          "updated": "May 23, 2026 10:20 AM"
-        },
-        "Buffet": {
-          "updated": "May 23, 2026 10:20 AM"
-        },
-        "Revenue-q": {
-          "updated": "May 23, 2026 10:20 AM"
-        },
-        "Costs-q": {
-          "updated": "May 23, 2026 10:20 AM"
-        },
-        "Cash-q": {
-          "updated": "May 23, 2026 10:20 AM"
-        },
-        "FCF-q": {
-          "updated": "May 23, 2026 10:20 AM"
-        },
-        "Assets-q": {
-          "updated": "May 23, 2026 10:20 AM"
-        },
-        "Buffet-q": {
-          "updated": "May 23, 2026 10:20 AM"
-        }
-      },
-      "last_updated": "2026-05-23T10:20:32.343664"
     }
   }
 }
