@@ -14653,43 +14653,43 @@
     "FLY": {
       "presets": {
         "Revenue": {
-          "updated": "Apr 13, 2026 10:18 PM"
+          "updated": "May 23, 2026 10:20 AM"
         },
         "Costs": {
-          "updated": "Apr 13, 2026 10:18 PM"
+          "updated": "May 23, 2026 10:20 AM"
         },
         "Cash": {
-          "updated": "Apr 13, 2026 10:18 PM"
+          "updated": "May 23, 2026 10:20 AM"
         },
         "FCF": {
-          "updated": "Apr 13, 2026 10:18 PM"
+          "updated": "May 23, 2026 10:20 AM"
         },
         "Assets": {
-          "updated": "Apr 13, 2026 10:18 PM"
+          "updated": "May 23, 2026 10:20 AM"
         },
         "Buffet": {
-          "updated": "Apr 13, 2026 10:18 PM"
+          "updated": "May 23, 2026 10:20 AM"
         },
         "Revenue-q": {
-          "updated": "Apr 13, 2026 10:18 PM"
+          "updated": "May 23, 2026 10:20 AM"
         },
         "Costs-q": {
-          "updated": "Apr 13, 2026 10:18 PM"
+          "updated": "May 23, 2026 10:20 AM"
         },
         "Cash-q": {
-          "updated": "Apr 13, 2026 10:18 PM"
+          "updated": "May 23, 2026 10:20 AM"
         },
         "FCF-q": {
-          "updated": "Apr 13, 2026 10:18 PM"
+          "updated": "May 23, 2026 10:20 AM"
         },
         "Assets-q": {
-          "updated": "Apr 13, 2026 10:18 PM"
+          "updated": "May 23, 2026 10:20 AM"
         },
         "Buffet-q": {
-          "updated": "Apr 13, 2026 10:18 PM"
+          "updated": "May 23, 2026 10:20 AM"
         }
       },
-      "last_updated": "2026-04-13T22:18:09.777391",
+      "last_updated": "2026-05-23T10:20:32.315716",
       "company": {
         "name": "Firefly Aerospace Inc. Common Stock",
         "market_cap": "$6.00B",
@@ -16049,6 +16049,97 @@
         "sector": "TECHNOLOGY",
         "industry": "SOFTWARE - APPLICATION"
       }
+    },
+    "VOYG": {
+      "presets": {
+        "Revenue": {
+          "updated": "May 23, 2026 10:20 AM"
+        },
+        "Costs": {
+          "updated": "May 23, 2026 10:20 AM"
+        },
+        "Cash": {
+          "updated": "May 23, 2026 10:20 AM"
+        },
+        "FCF": {
+          "updated": "May 23, 2026 10:20 AM"
+        },
+        "Assets": {
+          "updated": "May 23, 2026 10:20 AM"
+        },
+        "Buffet": {
+          "updated": "May 23, 2026 10:20 AM"
+        },
+        "Revenue-q": {
+          "updated": "May 23, 2026 10:20 AM"
+        },
+        "Costs-q": {
+          "updated": "May 23, 2026 10:20 AM"
+        },
+        "Cash-q": {
+          "updated": "May 23, 2026 10:20 AM"
+        },
+        "FCF-q": {
+          "updated": "May 23, 2026 10:20 AM"
+        },
+        "Assets-q": {
+          "updated": "May 23, 2026 10:20 AM"
+        },
+        "Buffet-q": {
+          "updated": "May 23, 2026 10:20 AM"
+        }
+      },
+      "last_updated": "2026-05-23T10:20:32.285576",
+      "company": {
+        "name": "Voyager Technologies, Inc.",
+        "market_cap": "$2.38B",
+        "market_cap_raw": 2376412000.0,
+        "last_q_revenue": 35246000.0,
+        "description": "Voyager Technologies, Inc. is a defense technology and space solutions company in the United States, Europe, the Middle East, and internationally. The company is headquartered in Denver, Colorado.",
+        "sector": "INDUSTRIALS",
+        "industry": "AEROSPACE & DEFENSE"
+      }
+    },
+    "ORBT": {
+      "presets": {
+        "Revenue": {
+          "updated": "May 23, 2026 10:20 AM"
+        },
+        "Costs": {
+          "updated": "May 23, 2026 10:20 AM"
+        },
+        "Cash": {
+          "updated": "May 23, 2026 10:20 AM"
+        },
+        "FCF": {
+          "updated": "May 23, 2026 10:20 AM"
+        },
+        "Assets": {
+          "updated": "May 23, 2026 10:20 AM"
+        },
+        "Buffet": {
+          "updated": "May 23, 2026 10:20 AM"
+        },
+        "Revenue-q": {
+          "updated": "May 23, 2026 10:20 AM"
+        },
+        "Costs-q": {
+          "updated": "May 23, 2026 10:20 AM"
+        },
+        "Cash-q": {
+          "updated": "May 23, 2026 10:20 AM"
+        },
+        "FCF-q": {
+          "updated": "May 23, 2026 10:20 AM"
+        },
+        "Assets-q": {
+          "updated": "May 23, 2026 10:20 AM"
+        },
+        "Buffet-q": {
+          "updated": "May 23, 2026 10:20 AM"
+        }
+      },
+      "last_updated": "2026-05-23T10:20:32.343664"
     }
   }
 }
