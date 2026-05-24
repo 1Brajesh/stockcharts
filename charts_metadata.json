@@ -16099,6 +16099,56 @@
         "sector": "INDUSTRIALS",
         "industry": "AEROSPACE & DEFENSE"
       }
+    },
+    "MNTS": {
+      "presets": {
+        "Revenue": {
+          "updated": "May 24, 2026 06:40 PM"
+        },
+        "Costs": {
+          "updated": "May 24, 2026 06:40 PM"
+        },
+        "Cash": {
+          "updated": "May 24, 2026 06:40 PM"
+        },
+        "FCF": {
+          "updated": "May 24, 2026 06:40 PM"
+        },
+        "Assets": {
+          "updated": "May 24, 2026 06:40 PM"
+        },
+        "Buffet": {
+          "updated": "May 24, 2026 06:40 PM"
+        },
+        "Revenue-q": {
+          "updated": "May 24, 2026 06:40 PM"
+        },
+        "Costs-q": {
+          "updated": "May 24, 2026 06:40 PM"
+        },
+        "Cash-q": {
+          "updated": "May 24, 2026 06:40 PM"
+        },
+        "FCF-q": {
+          "updated": "May 24, 2026 06:40 PM"
+        },
+        "Assets-q": {
+          "updated": "May 24, 2026 06:40 PM"
+        },
+        "Buffet-q": {
+          "updated": "May 24, 2026 06:40 PM"
+        }
+      },
+      "last_updated": "2026-05-24T18:40:41.366767",
+      "company": {
+        "name": "Momentus Inc",
+        "market_cap": "$73.74M",
+        "market_cap_raw": 73744000.0,
+        "last_q_revenue": 3215000.0,
+        "description": "Momentus Inc (MNTS) is a pioneering space transportation company focused on satellite deployment via its state-of-the-art Vigoride orbital transfer vehicle. By leading the charge in the rapidly expanding small satellite sector, Momentus aims to democratize access to space through innovative and sustainable solutions. The company utilizes advanced technologies and strategic collaborations to strengthen its competitive edge and maintain a solid launch schedule. With a vision to transform space missions, Momentus is strategically positioned to impact the aerospace industry significantly in the coming years.",
+        "sector": "INDUSTRIALS",
+        "industry": "AEROSPACE & DEFENSE"
+      }
     }
   }
 }
