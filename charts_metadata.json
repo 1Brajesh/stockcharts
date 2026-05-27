@@ -16149,6 +16149,106 @@
         "sector": "INDUSTRIALS",
         "industry": "AEROSPACE & DEFENSE"
       }
+    },
+    "INFQ": {
+      "presets": {
+        "Revenue": {
+          "updated": "May 26, 2026 10:32 PM"
+        },
+        "Costs": {
+          "updated": "May 26, 2026 10:32 PM"
+        },
+        "Cash": {
+          "updated": "May 26, 2026 10:32 PM"
+        },
+        "FCF": {
+          "updated": "May 26, 2026 10:32 PM"
+        },
+        "Assets": {
+          "updated": "May 26, 2026 10:32 PM"
+        },
+        "Buffet": {
+          "updated": "May 26, 2026 10:32 PM"
+        },
+        "Revenue-q": {
+          "updated": "May 26, 2026 10:32 PM"
+        },
+        "Costs-q": {
+          "updated": "May 26, 2026 10:32 PM"
+        },
+        "Cash-q": {
+          "updated": "May 26, 2026 10:32 PM"
+        },
+        "FCF-q": {
+          "updated": "May 26, 2026 10:32 PM"
+        },
+        "Assets-q": {
+          "updated": "May 26, 2026 10:32 PM"
+        },
+        "Buffet-q": {
+          "updated": "May 26, 2026 10:32 PM"
+        }
+      },
+      "last_updated": "2026-05-26T22:32:40.961477",
+      "company": {
+        "name": "Infleqtion, Inc.",
+        "market_cap": "$3.57B",
+        "market_cap_raw": 3567519000.0,
+        "last_q_revenue": 9461000.0,
+        "description": "ColdQuanta, Inc., doing business as Infleqtion, designs and builds quantum computers, precision sensors, and quantum software for governments, enterprises, and research institutions. The company is headquartered in Louisville, Colorado with additional offices in Chicago, Illinois; Madison, Wisconsin; Boulder, Colorado; Melbourne, Australia; and Oxford, United Kingdom.",
+        "sector": "TECHNOLOGY",
+        "industry": "SOFTWARE - INFRASTRUCTURE"
+      }
+    },
+    "AMSS": {
+      "presets": {
+        "Revenue": {
+          "updated": "May 26, 2026 10:32 PM"
+        },
+        "Costs": {
+          "updated": "May 26, 2026 10:32 PM"
+        },
+        "Cash": {
+          "updated": "May 26, 2026 10:32 PM"
+        },
+        "FCF": {
+          "updated": "May 26, 2026 10:32 PM"
+        },
+        "Assets": {
+          "updated": "May 26, 2026 10:32 PM"
+        },
+        "Buffet": {
+          "updated": "May 26, 2026 10:32 PM"
+        },
+        "Revenue-q": {
+          "updated": "May 26, 2026 10:32 PM"
+        },
+        "Costs-q": {
+          "updated": "May 26, 2026 10:32 PM"
+        },
+        "Cash-q": {
+          "updated": "May 26, 2026 10:32 PM"
+        },
+        "FCF-q": {
+          "updated": "May 26, 2026 10:32 PM"
+        },
+        "Assets-q": {
+          "updated": "May 26, 2026 10:32 PM"
+        },
+        "Buffet-q": {
+          "updated": "May 26, 2026 10:32 PM"
+        }
+      },
+      "last_updated": "2026-05-26T22:32:40.989583",
+      "company": {
+        "name": "AMASS Brands Inc. Common Stock",
+        "market_cap": "$64.39M",
+        "market_cap_raw": 64393000.0,
+        "last_q_revenue": null,
+        "description": "None",
+        "sector": "CONSUMER DEFENSIVE",
+        "industry": "BEVERAGES - WINERIES & DISTILLERIES"
+      }
     }
   }
 }
