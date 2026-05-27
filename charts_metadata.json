@@ -16249,6 +16249,106 @@
         "sector": "CONSUMER DEFENSIVE",
         "industry": "BEVERAGES - WINERIES & DISTILLERIES"
       }
+    },
+    "GFS": {
+      "presets": {
+        "Revenue": {
+          "updated": "May 26, 2026 10:39 PM"
+        },
+        "Costs": {
+          "updated": "May 26, 2026 10:39 PM"
+        },
+        "Cash": {
+          "updated": "May 26, 2026 10:39 PM"
+        },
+        "FCF": {
+          "updated": "May 26, 2026 10:39 PM"
+        },
+        "Assets": {
+          "updated": "May 26, 2026 10:39 PM"
+        },
+        "Buffet": {
+          "updated": "May 26, 2026 10:39 PM"
+        },
+        "Revenue-q": {
+          "updated": "May 26, 2026 10:39 PM"
+        },
+        "Costs-q": {
+          "updated": "May 26, 2026 10:39 PM"
+        },
+        "Cash-q": {
+          "updated": "May 26, 2026 10:39 PM"
+        },
+        "FCF-q": {
+          "updated": "May 26, 2026 10:39 PM"
+        },
+        "Assets-q": {
+          "updated": "May 26, 2026 10:39 PM"
+        },
+        "Buffet-q": {
+          "updated": "May 26, 2026 10:39 PM"
+        }
+      },
+      "last_updated": "2026-05-26T22:39:04.675788",
+      "company": {
+        "name": "Globalfoundries Inc",
+        "market_cap": "$48.46B",
+        "market_cap_raw": 48458076000.0,
+        "last_q_revenue": 1634000000.0,
+        "description": "GLOBALFOUNDRIES Inc. is a global semiconductor foundry. The company is headquartered in Malta, New York.",
+        "sector": "TECHNOLOGY",
+        "industry": "SEMICONDUCTORS"
+      }
+    },
+    "LAES": {
+      "presets": {
+        "Revenue": {
+          "updated": "May 26, 2026 10:39 PM"
+        },
+        "Costs": {
+          "updated": "May 26, 2026 10:39 PM"
+        },
+        "Cash": {
+          "updated": "May 26, 2026 10:39 PM"
+        },
+        "FCF": {
+          "updated": "May 26, 2026 10:39 PM"
+        },
+        "Assets": {
+          "updated": "May 26, 2026 10:39 PM"
+        },
+        "Buffet": {
+          "updated": "May 26, 2026 10:39 PM"
+        },
+        "Revenue-q": {
+          "updated": "May 26, 2026 10:39 PM"
+        },
+        "Costs-q": {
+          "updated": "May 26, 2026 10:39 PM"
+        },
+        "Cash-q": {
+          "updated": "May 26, 2026 10:39 PM"
+        },
+        "FCF-q": {
+          "updated": "May 26, 2026 10:39 PM"
+        },
+        "Assets-q": {
+          "updated": "May 26, 2026 10:39 PM"
+        },
+        "Buffet-q": {
+          "updated": "May 26, 2026 10:39 PM"
+        }
+      },
+      "last_updated": "2026-05-26T22:39:04.723973",
+      "company": {
+        "name": "SEALSQ Corp",
+        "market_cap": "$752.98M",
+        "market_cap_raw": 752976000.0,
+        "last_q_revenue": 12655744.0,
+        "description": "SEALSQ Corp (LAES) is at the forefront of the cybersecurity landscape, delivering cutting-edge solutions that integrate blockchain technology with proprietary software to safeguard against increasingly sophisticated digital threats. The company specializes in secure identity management and access control, catering to a diverse array of industries while enhancing operational integrity. With a steadfast commitment to innovation and scalability, SEALSQ is poised for robust growth, strategically positioned to meet the surging demand for advanced security measures in an ever-evolving market.",
+        "sector": "TECHNOLOGY",
+        "industry": "SEMICONDUCTORS"
+      }
     }
   }
 }
