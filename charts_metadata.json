@@ -16349,6 +16349,56 @@
         "sector": "TECHNOLOGY",
         "industry": "SEMICONDUCTORS"
       }
+    },
+    "FLNC": {
+      "presets": {
+        "Revenue": {
+          "updated": "Jun 01, 2026 12:07 AM"
+        },
+        "Costs": {
+          "updated": "Jun 01, 2026 12:07 AM"
+        },
+        "Cash": {
+          "updated": "Jun 01, 2026 12:07 AM"
+        },
+        "FCF": {
+          "updated": "Jun 01, 2026 12:07 AM"
+        },
+        "Assets": {
+          "updated": "Jun 01, 2026 12:07 AM"
+        },
+        "Buffet": {
+          "updated": "Jun 01, 2026 12:07 AM"
+        },
+        "Revenue-q": {
+          "updated": "Jun 01, 2026 12:07 AM"
+        },
+        "Costs-q": {
+          "updated": "Jun 01, 2026 12:07 AM"
+        },
+        "Cash-q": {
+          "updated": "Jun 01, 2026 12:07 AM"
+        },
+        "FCF-q": {
+          "updated": "Jun 01, 2026 12:07 AM"
+        },
+        "Assets-q": {
+          "updated": "Jun 01, 2026 12:07 AM"
+        },
+        "Buffet-q": {
+          "updated": "Jun 01, 2026 12:07 AM"
+        }
+      },
+      "last_updated": "2026-06-01T00:07:42.611247",
+      "company": {
+        "name": "Fluence Energy Inc",
+        "market_cap": "$3.48B",
+        "market_cap_raw": 3479786000.0,
+        "last_q_revenue": 464891000.0,
+        "description": "Fluence Energy, Inc. provides energy storage products and services and digital applications for renewable energy and storage applications globally. ",
+        "sector": "UTILITIES",
+        "industry": "UTILITIES - RENEWABLE"
+      }
     }
   }
 }
