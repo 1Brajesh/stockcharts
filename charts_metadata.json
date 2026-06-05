@@ -16399,6 +16399,56 @@
         "sector": "UTILITIES",
         "industry": "UTILITIES - RENEWABLE"
       }
+    },
+    "SIDU": {
+      "presets": {
+        "Revenue": {
+          "updated": "Jun 05, 2026 01:14 AM"
+        },
+        "Costs": {
+          "updated": "Jun 05, 2026 01:14 AM"
+        },
+        "Cash": {
+          "updated": "Jun 05, 2026 01:14 AM"
+        },
+        "FCF": {
+          "updated": "Jun 05, 2026 01:14 AM"
+        },
+        "Assets": {
+          "updated": "Jun 05, 2026 01:14 AM"
+        },
+        "Buffet": {
+          "updated": "Jun 05, 2026 01:14 AM"
+        },
+        "Revenue-q": {
+          "updated": "Jun 05, 2026 01:14 AM"
+        },
+        "Costs-q": {
+          "updated": "Jun 05, 2026 01:14 AM"
+        },
+        "Cash-q": {
+          "updated": "Jun 05, 2026 01:14 AM"
+        },
+        "FCF-q": {
+          "updated": "Jun 05, 2026 01:14 AM"
+        },
+        "Assets-q": {
+          "updated": "Jun 05, 2026 01:14 AM"
+        },
+        "Buffet-q": {
+          "updated": "Jun 05, 2026 01:14 AM"
+        }
+      },
+      "last_updated": "2026-06-05T01:14:31.287567",
+      "company": {
+        "name": "Sidus Space Inc",
+        "market_cap": "$397.05M",
+        "market_cap_raw": 397046000.0,
+        "last_q_revenue": 359372.0,
+        "description": "Sidus Space, Inc., a space-as-a-service company, is dedicated to the design, manufacture, launch and data collection of commercial satellites worldwide. The company is headquartered in Merritt Island, Florida.",
+        "sector": "INDUSTRIALS",
+        "industry": "AEROSPACE & DEFENSE"
+      }
     }
   }
 }
