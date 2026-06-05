@@ -2203,49 +2203,49 @@
     "CEG": {
       "presets": {
         "Revenue": {
-          "updated": "Mar 12, 2026 11:30 AM"
+          "updated": "Jun 05, 2026 04:49 PM"
         },
         "Costs": {
-          "updated": "Mar 12, 2026 11:30 AM"
+          "updated": "Jun 05, 2026 04:49 PM"
         },
         "Cash": {
-          "updated": "Mar 12, 2026 11:30 AM"
+          "updated": "Jun 05, 2026 04:49 PM"
         },
         "FCF": {
-          "updated": "Mar 12, 2026 11:30 AM"
+          "updated": "Jun 05, 2026 04:49 PM"
         },
         "Assets": {
-          "updated": "Mar 12, 2026 11:30 AM"
+          "updated": "Jun 05, 2026 04:49 PM"
         },
         "Buffet": {
-          "updated": "Mar 12, 2026 11:30 AM"
+          "updated": "Jun 05, 2026 04:49 PM"
         },
         "Revenue-q": {
-          "updated": "Mar 12, 2026 11:30 AM"
+          "updated": "Jun 05, 2026 04:49 PM"
         },
         "Costs-q": {
-          "updated": "Mar 12, 2026 11:30 AM"
+          "updated": "Jun 05, 2026 04:49 PM"
         },
         "Cash-q": {
-          "updated": "Mar 12, 2026 11:30 AM"
+          "updated": "Jun 05, 2026 04:49 PM"
         },
         "FCF-q": {
-          "updated": "Mar 12, 2026 11:30 AM"
+          "updated": "Jun 05, 2026 04:49 PM"
         },
         "Assets-q": {
-          "updated": "Mar 12, 2026 11:30 AM"
+          "updated": "Jun 05, 2026 04:49 PM"
         },
         "Buffet-q": {
-          "updated": "Mar 12, 2026 11:30 AM"
+          "updated": "Jun 05, 2026 04:49 PM"
         }
       },
-      "last_updated": "2026-03-12T11:30:07.297388",
+      "last_updated": "2026-06-05T16:49:59.339862",
       "company": {
         "name": "Constellation Energy Corp",
-        "market_cap": "$113.83B",
-        "market_cap_raw": 113828086000.0,
-        "last_q_revenue": 7184000000.0,
-        "description": "Constellation Energy Corporation (CEG), headquartered in Baltimore, Maryland, stands as a prominent leader in the U.S. energy sector, primarily focusing on clean and reliable energy solutions through its extensive investments in nuclear and renewable sources. The company is dedicated to sustainability and innovation, adeptly positioning itself to address the increasing demand for environmentally responsible energy as the market evolves. With a diverse portfolio that spans generation and retail services, Constellation Energy is strategically poised to leverage emerging opportunities and navigate the dynamic landscape of the energy industry.",
+        "market_cap": "$96.76B",
+        "market_cap_raw": 96756449000.0,
+        "last_q_revenue": 11122000000.0,
+        "description": "Constellation Energy Corporation is an energy producer in the United States. The company is headquartered in Baltimore, Maryland.",
         "sector": "UTILITIES",
         "industry": "UTILITIES - INDEPENDENT POWER PRODUCERS"
       }
