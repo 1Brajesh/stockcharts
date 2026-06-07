@@ -15803,48 +15803,48 @@
     "CBRS": {
       "presets": {
         "Revenue": {
-          "updated": "May 14, 2026 10:40 PM"
+          "updated": "Jun 07, 2026 02:25 AM"
         },
         "Costs": {
-          "updated": "May 14, 2026 10:40 PM"
+          "updated": "Jun 07, 2026 02:25 AM"
         },
         "Cash": {
-          "updated": "May 14, 2026 10:40 PM"
+          "updated": "Jun 07, 2026 02:25 AM"
         },
         "FCF": {
-          "updated": "May 14, 2026 10:40 PM"
+          "updated": "Jun 07, 2026 02:25 AM"
         },
         "Assets": {
-          "updated": "May 14, 2026 10:40 PM"
+          "updated": "Jun 07, 2026 02:25 AM"
         },
         "Buffet": {
-          "updated": "May 14, 2026 10:40 PM"
+          "updated": "Jun 07, 2026 02:25 AM"
         },
         "Revenue-q": {
-          "updated": "May 14, 2026 10:40 PM"
+          "updated": "Jun 07, 2026 02:25 AM"
         },
         "Costs-q": {
-          "updated": "May 14, 2026 10:40 PM"
+          "updated": "Jun 07, 2026 02:25 AM"
         },
         "Cash-q": {
-          "updated": "May 14, 2026 10:40 PM"
+          "updated": "Jun 07, 2026 02:25 AM"
         },
         "FCF-q": {
-          "updated": "May 14, 2026 10:40 PM"
+          "updated": "Jun 07, 2026 02:25 AM"
         },
         "Assets-q": {
-          "updated": "May 14, 2026 10:40 PM"
+          "updated": "Jun 07, 2026 02:25 AM"
         },
         "Buffet-q": {
-          "updated": "May 14, 2026 10:40 PM"
+          "updated": "Jun 07, 2026 02:25 AM"
         }
       },
-      "last_updated": "2026-05-14T22:40:32.976629",
+      "last_updated": "2026-06-07T02:25:11.032537",
       "company": {
         "name": "Cerebras Systems Inc. Class A Common Stock",
-        "market_cap": "N/A",
-        "market_cap_raw": null,
-        "last_q_revenue": null,
+        "market_cap": "$44.14B",
+        "market_cap_raw": 44143874000.0,
+        "last_q_revenue": 171443000.0,
         "description": "Cerebras Systems Inc. designs and develops processors for artificial intelligence (AI) training and inference in the United States, Europe, and Asia. The company is headquartered in Sunnyvale, California.",
         "sector": "TECHNOLOGY",
         "industry": "SEMICONDUCTORS"
