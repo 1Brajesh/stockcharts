@@ -16449,6 +16449,56 @@
         "sector": "INDUSTRIALS",
         "industry": "AEROSPACE & DEFENSE"
       }
+    },
+    "NNE": {
+      "presets": {
+        "Revenue": {
+          "updated": "Jun 08, 2026 01:32 AM"
+        },
+        "Costs": {
+          "updated": "Jun 08, 2026 01:32 AM"
+        },
+        "Cash": {
+          "updated": "Jun 08, 2026 01:32 AM"
+        },
+        "FCF": {
+          "updated": "Jun 08, 2026 01:32 AM"
+        },
+        "Assets": {
+          "updated": "Jun 08, 2026 01:32 AM"
+        },
+        "Buffet": {
+          "updated": "Jun 08, 2026 01:32 AM"
+        },
+        "Revenue-q": {
+          "updated": "Jun 08, 2026 01:32 AM"
+        },
+        "Costs-q": {
+          "updated": "Jun 08, 2026 01:32 AM"
+        },
+        "Cash-q": {
+          "updated": "Jun 08, 2026 01:32 AM"
+        },
+        "FCF-q": {
+          "updated": "Jun 08, 2026 01:32 AM"
+        },
+        "Assets-q": {
+          "updated": "Jun 08, 2026 01:32 AM"
+        },
+        "Buffet-q": {
+          "updated": "Jun 08, 2026 01:32 AM"
+        }
+      },
+      "last_updated": "2026-06-08T01:32:07.751432",
+      "company": {
+        "name": "Nano Nuclear Energy Inc. Common Stock",
+        "market_cap": "$1.23B",
+        "market_cap_raw": 1227991000.0,
+        "last_q_revenue": 0.0,
+        "description": "Nano Nuclear Energy Inc. is a leading innovator in the nuclear energy sector, specializing in the design and development of small modular reactor (SMR) technologies aimed at delivering efficient and sustainable power solutions. The company is strategically positioned to meet the escalating demand for low-carbon energy alternatives, complying with rigorous safety and regulatory standards. With a robust focus on technological advancement and sustainability, Nano Nuclear Energy presents a compelling investment opportunity for institutional investors who are focused on capitalizing on the global transition towards environmentally sustainable energy practices. As the energy landscape continues to evolve, the company's innovative solutions and commitment to reducing carbon emissions position it as a potential leader in the industry.",
+        "sector": "INDUSTRIALS",
+        "industry": "SPECIALTY INDUSTRIAL MACHINERY"
+      }
     }
   }
 }
