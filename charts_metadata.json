@@ -16499,6 +16499,56 @@
         "sector": "INDUSTRIALS",
         "industry": "SPECIALTY INDUSTRIAL MACHINERY"
       }
+    },
+    "QNT": {
+      "presets": {
+        "Revenue": {
+          "updated": "Jun 09, 2026 12:13 AM"
+        },
+        "Costs": {
+          "updated": "Jun 09, 2026 12:13 AM"
+        },
+        "Cash": {
+          "updated": "Jun 09, 2026 12:13 AM"
+        },
+        "FCF": {
+          "updated": "Jun 09, 2026 12:13 AM"
+        },
+        "Assets": {
+          "updated": "Jun 09, 2026 12:13 AM"
+        },
+        "Buffet": {
+          "updated": "Jun 09, 2026 12:13 AM"
+        },
+        "Revenue-q": {
+          "updated": "Jun 09, 2026 12:13 AM"
+        },
+        "Costs-q": {
+          "updated": "Jun 09, 2026 12:13 AM"
+        },
+        "Cash-q": {
+          "updated": "Jun 09, 2026 12:13 AM"
+        },
+        "FCF-q": {
+          "updated": "Jun 09, 2026 12:13 AM"
+        },
+        "Assets-q": {
+          "updated": "Jun 09, 2026 12:13 AM"
+        },
+        "Buffet-q": {
+          "updated": "Jun 09, 2026 12:13 AM"
+        }
+      },
+      "last_updated": "2026-06-09T00:13:21.735598",
+      "company": {
+        "name": "Quantinuum Inc. Class A Common Stock",
+        "market_cap": "$1.76B",
+        "market_cap_raw": 1764476000.0,
+        "last_q_revenue": 5237000.0,
+        "description": "None",
+        "sector": "TECHNOLOGY",
+        "industry": "SOFTWARE - APPLICATION"
+      }
     }
   }
 }
