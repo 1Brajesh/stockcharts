@@ -16549,6 +16549,56 @@
         "sector": "TECHNOLOGY",
         "industry": "SOFTWARE - APPLICATION"
       }
+    },
+    "CLOV": {
+      "presets": {
+        "Revenue": {
+          "updated": "Jun 11, 2026 09:15 AM"
+        },
+        "Costs": {
+          "updated": "Jun 11, 2026 09:15 AM"
+        },
+        "Cash": {
+          "updated": "Jun 11, 2026 09:15 AM"
+        },
+        "FCF": {
+          "updated": "Jun 11, 2026 09:15 AM"
+        },
+        "Assets": {
+          "updated": "Jun 11, 2026 09:15 AM"
+        },
+        "Buffet": {
+          "updated": "Jun 11, 2026 09:15 AM"
+        },
+        "Revenue-q": {
+          "updated": "Jun 11, 2026 09:15 AM"
+        },
+        "Costs-q": {
+          "updated": "Jun 11, 2026 09:15 AM"
+        },
+        "Cash-q": {
+          "updated": "Jun 11, 2026 09:15 AM"
+        },
+        "FCF-q": {
+          "updated": "Jun 11, 2026 09:15 AM"
+        },
+        "Assets-q": {
+          "updated": "Jun 11, 2026 09:15 AM"
+        },
+        "Buffet-q": {
+          "updated": "Jun 11, 2026 09:15 AM"
+        }
+      },
+      "last_updated": "2026-06-11T09:15:52.322127",
+      "company": {
+        "name": "Clover Health Investments Corp",
+        "market_cap": "$2.58B",
+        "market_cap_raw": 2575486000.0,
+        "last_q_revenue": 749189000.0,
+        "description": "Clover Health Investments, Corp. The company is headquartered in Franklin, Tennessee.",
+        "sector": "HEALTHCARE",
+        "industry": "HEALTHCARE PLANS"
+      }
     }
   }
 }
