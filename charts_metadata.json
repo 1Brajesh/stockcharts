@@ -16599,6 +16599,56 @@
         "sector": "HEALTHCARE",
         "industry": "HEALTHCARE PLANS"
       }
+    },
+    "SPIR": {
+      "presets": {
+        "Revenue": {
+          "updated": "Jun 16, 2026 11:10 PM"
+        },
+        "Costs": {
+          "updated": "Jun 16, 2026 11:10 PM"
+        },
+        "Cash": {
+          "updated": "Jun 16, 2026 11:10 PM"
+        },
+        "FCF": {
+          "updated": "Jun 16, 2026 11:10 PM"
+        },
+        "Assets": {
+          "updated": "Jun 16, 2026 11:10 PM"
+        },
+        "Buffet": {
+          "updated": "Jun 16, 2026 11:10 PM"
+        },
+        "Revenue-q": {
+          "updated": "Jun 16, 2026 11:10 PM"
+        },
+        "Costs-q": {
+          "updated": "Jun 16, 2026 11:10 PM"
+        },
+        "Cash-q": {
+          "updated": "Jun 16, 2026 11:10 PM"
+        },
+        "FCF-q": {
+          "updated": "Jun 16, 2026 11:10 PM"
+        },
+        "Assets-q": {
+          "updated": "Jun 16, 2026 11:10 PM"
+        },
+        "Buffet-q": {
+          "updated": "Jun 16, 2026 11:10 PM"
+        }
+      },
+      "last_updated": "2026-06-16T23:10:25.932533",
+      "company": {
+        "name": "Spire Global Inc",
+        "market_cap": "$678.23M",
+        "market_cap_raw": 678226000.0,
+        "last_q_revenue": 15834000.0,
+        "description": "Spire Global, Inc. develops a hardware and smart analytics platform that tracks oceans, skies, and weather. The company is headquartered in San Francisco, California with additional offices in Boulder, Colorado; Washington, D.C.; Glasgow, United Kingdom; Luxembourg; and Singapore.",
+        "sector": "INDUSTRIALS",
+        "industry": "SPECIALTY BUSINESS SERVICES"
+      }
     }
   }
 }
