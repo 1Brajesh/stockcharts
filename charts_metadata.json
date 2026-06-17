@@ -16649,6 +16649,56 @@
         "sector": "INDUSTRIALS",
         "industry": "SPECIALTY BUSINESS SERVICES"
       }
+    },
+    "BRAI": {
+      "presets": {
+        "Revenue": {
+          "updated": "Jun 17, 2026 10:06 AM"
+        },
+        "Costs": {
+          "updated": "Jun 17, 2026 10:06 AM"
+        },
+        "Cash": {
+          "updated": "Jun 17, 2026 10:06 AM"
+        },
+        "FCF": {
+          "updated": "Jun 17, 2026 10:06 AM"
+        },
+        "Assets": {
+          "updated": "Jun 17, 2026 10:06 AM"
+        },
+        "Buffet": {
+          "updated": "Jun 17, 2026 10:06 AM"
+        },
+        "Revenue-q": {
+          "updated": "Jun 17, 2026 10:06 AM"
+        },
+        "Costs-q": {
+          "updated": "Jun 17, 2026 10:06 AM"
+        },
+        "Cash-q": {
+          "updated": "Jun 17, 2026 10:06 AM"
+        },
+        "FCF-q": {
+          "updated": "Jun 17, 2026 10:06 AM"
+        },
+        "Assets-q": {
+          "updated": "Jun 17, 2026 10:06 AM"
+        },
+        "Buffet-q": {
+          "updated": "Jun 17, 2026 10:06 AM"
+        }
+      },
+      "last_updated": "2026-06-17T10:06:12.613287",
+      "company": {
+        "name": "Braiin Limited Common Stock",
+        "market_cap": "$1.46B",
+        "market_cap_raw": 1463226000.0,
+        "last_q_revenue": null,
+        "description": "Braiin Limited is an innovative technology firm at the forefront of artificial intelligence and machine learning applications, catering to industries including healthcare, finance, and logistics. By emphasizing data-driven decision-making through its suite of advanced software and platforms, the company is dedicated to optimizing operational efficiency and enhancing business performance. Braiin's robust portfolio of proprietary technologies, coupled with strategic partnerships, positions it advantageously to capitalize on the growing demand for intelligent automation solutions. As the AI landscape progresses, Braiin remains focused on delivering sustainable value to its shareholders, solidifying its market presence.",
+        "sector": "TECHNOLOGY",
+        "industry": "COMPUTER HARDWARE"
+      }
     }
   }
 }
