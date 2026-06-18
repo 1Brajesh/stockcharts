@@ -16699,6 +16699,106 @@
         "sector": "TECHNOLOGY",
         "industry": "COMPUTER HARDWARE"
       }
+    },
+    "MRCY": {
+      "presets": {
+        "Revenue": {
+          "updated": "Jun 18, 2026 10:11 AM"
+        },
+        "Costs": {
+          "updated": "Jun 18, 2026 10:11 AM"
+        },
+        "Cash": {
+          "updated": "Jun 18, 2026 10:11 AM"
+        },
+        "FCF": {
+          "updated": "Jun 18, 2026 10:11 AM"
+        },
+        "Assets": {
+          "updated": "Jun 18, 2026 10:11 AM"
+        },
+        "Buffet": {
+          "updated": "Jun 18, 2026 10:11 AM"
+        },
+        "Revenue-q": {
+          "updated": "Jun 18, 2026 10:11 AM"
+        },
+        "Costs-q": {
+          "updated": "Jun 18, 2026 10:11 AM"
+        },
+        "Cash-q": {
+          "updated": "Jun 18, 2026 10:11 AM"
+        },
+        "FCF-q": {
+          "updated": "Jun 18, 2026 10:11 AM"
+        },
+        "Assets-q": {
+          "updated": "Jun 18, 2026 10:11 AM"
+        },
+        "Buffet-q": {
+          "updated": "Jun 18, 2026 10:11 AM"
+        }
+      },
+      "last_updated": "2026-06-18T10:11:00.996333",
+      "company": {
+        "name": "Mercury Systems Inc",
+        "market_cap": "$6.93B",
+        "market_cap_raw": 6935000000.0,
+        "last_q_revenue": 235759000.0,
+        "description": "Mercury Systems, Inc., a technology company, manufactures and sells components, modules, and subsystems in the United States, Europe, and Asia Pacific. The company is headquartered in Andover, Massachusetts.",
+        "sector": "INDUSTRIALS",
+        "industry": "AEROSPACE & DEFENSE"
+      }
+    },
+    "ATRO": {
+      "presets": {
+        "Revenue": {
+          "updated": "Jun 18, 2026 10:11 AM"
+        },
+        "Costs": {
+          "updated": "Jun 18, 2026 10:11 AM"
+        },
+        "Cash": {
+          "updated": "Jun 18, 2026 10:11 AM"
+        },
+        "FCF": {
+          "updated": "Jun 18, 2026 10:11 AM"
+        },
+        "Assets": {
+          "updated": "Jun 18, 2026 10:11 AM"
+        },
+        "Buffet": {
+          "updated": "Jun 18, 2026 10:11 AM"
+        },
+        "Revenue-q": {
+          "updated": "Jun 18, 2026 10:11 AM"
+        },
+        "Costs-q": {
+          "updated": "Jun 18, 2026 10:11 AM"
+        },
+        "Cash-q": {
+          "updated": "Jun 18, 2026 10:11 AM"
+        },
+        "FCF-q": {
+          "updated": "Jun 18, 2026 10:11 AM"
+        },
+        "Assets-q": {
+          "updated": "Jun 18, 2026 10:11 AM"
+        },
+        "Buffet-q": {
+          "updated": "Jun 18, 2026 10:11 AM"
+        }
+      },
+      "last_updated": "2026-06-18T10:11:01.047674",
+      "company": {
+        "name": "Astronics Corporation",
+        "market_cap": "$3.44B",
+        "market_cap_raw": 3443254000.0,
+        "last_q_revenue": 230619000.0,
+        "description": "Astronics Corporation designs and manufactures products for the aerospace, defense, and electronics industries in the United States, North America, Asia, Europe, South America, and internationally. The company is headquartered in East Aurora, New York.",
+        "sector": "INDUSTRIALS",
+        "industry": "AEROSPACE & DEFENSE"
+      }
     }
   }
 }
