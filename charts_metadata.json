@@ -2753,49 +2753,49 @@
     "SERV": {
       "presets": {
         "Revenue": {
-          "updated": "Mar 12, 2026 11:30 AM"
+          "updated": "Jun 18, 2026 11:35 PM"
         },
         "Costs": {
-          "updated": "Mar 12, 2026 11:30 AM"
+          "updated": "Jun 18, 2026 11:35 PM"
         },
         "Cash": {
-          "updated": "Mar 12, 2026 11:30 AM"
+          "updated": "Jun 18, 2026 11:35 PM"
         },
         "FCF": {
-          "updated": "Mar 12, 2026 11:30 AM"
+          "updated": "Jun 18, 2026 11:35 PM"
         },
         "Assets": {
-          "updated": "Mar 12, 2026 11:30 AM"
+          "updated": "Jun 18, 2026 11:35 PM"
         },
         "Buffet": {
-          "updated": "Mar 12, 2026 11:30 AM"
+          "updated": "Jun 18, 2026 11:35 PM"
         },
         "Revenue-q": {
-          "updated": "Mar 12, 2026 11:30 AM"
+          "updated": "Jun 18, 2026 11:35 PM"
         },
         "Costs-q": {
-          "updated": "Mar 12, 2026 11:30 AM"
+          "updated": "Jun 18, 2026 11:35 PM"
         },
         "Cash-q": {
-          "updated": "Mar 12, 2026 11:30 AM"
+          "updated": "Jun 18, 2026 11:35 PM"
         },
         "FCF-q": {
-          "updated": "Mar 12, 2026 11:30 AM"
+          "updated": "Jun 18, 2026 11:35 PM"
         },
         "Assets-q": {
-          "updated": "Mar 12, 2026 11:30 AM"
+          "updated": "Jun 18, 2026 11:35 PM"
         },
         "Buffet-q": {
-          "updated": "Mar 12, 2026 11:30 AM"
+          "updated": "Jun 18, 2026 11:35 PM"
         }
       },
-      "last_updated": "2026-03-12T11:30:23.576510",
+      "last_updated": "2026-06-18T23:35:02.554932",
       "company": {
         "name": "Serve Robotics Inc. Common Stock",
-        "market_cap": "$910.19M",
-        "market_cap_raw": 910188000.0,
-        "last_q_revenue": 686535.0,
-        "description": "Serve Robotics Inc. (SERV) is a pioneering technology firm specializing in low-emission delivery robots aimed at transforming food delivery logistics in urban settings across the United States. Headquartered in Redwood City, California, the company leverages cutting-edge automation to deliver efficient and sustainable services, addressing the growing consumer demand for environmentally friendly solutions. With a strategic focus on the intersection of robotics and sustainability, Serve Robotics represents a compelling investment opportunity for institutional investors looking to capitalize on the future of eco-conscious logistics and urban mobility.",
+        "market_cap": "$614.35M",
+        "market_cap_raw": 614351000.0,
+        "last_q_revenue": 2984000.0,
+        "description": "Serve Robotics Inc. designs, develops, and operates low-emission robots that serve people in public spaces with food delivery in the United States. The company is headquartered in Redwood City, California.",
         "sector": "INDUSTRIALS",
         "industry": "SPECIALTY INDUSTRIAL MACHINERY"
       }
