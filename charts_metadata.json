@@ -16799,6 +16799,56 @@
         "sector": "INDUSTRIALS",
         "industry": "AEROSPACE & DEFENSE"
       }
+    },
+    "BEAM": {
+      "presets": {
+        "Revenue": {
+          "updated": "Jun 23, 2026 12:00 AM"
+        },
+        "Costs": {
+          "updated": "Jun 23, 2026 12:00 AM"
+        },
+        "Cash": {
+          "updated": "Jun 23, 2026 12:00 AM"
+        },
+        "FCF": {
+          "updated": "Jun 23, 2026 12:00 AM"
+        },
+        "Assets": {
+          "updated": "Jun 23, 2026 12:00 AM"
+        },
+        "Buffet": {
+          "updated": "Jun 23, 2026 12:00 AM"
+        },
+        "Revenue-q": {
+          "updated": "Jun 23, 2026 12:00 AM"
+        },
+        "Costs-q": {
+          "updated": "Jun 23, 2026 12:00 AM"
+        },
+        "Cash-q": {
+          "updated": "Jun 23, 2026 12:00 AM"
+        },
+        "FCF-q": {
+          "updated": "Jun 23, 2026 12:00 AM"
+        },
+        "Assets-q": {
+          "updated": "Jun 23, 2026 12:00 AM"
+        },
+        "Buffet-q": {
+          "updated": "Jun 23, 2026 12:00 AM"
+        }
+      },
+      "last_updated": "2026-06-23T00:00:15.349331",
+      "company": {
+        "name": "Beam Therapeutics\u00a0Inc",
+        "market_cap": "$3.67B",
+        "market_cap_raw": 3669701000.0,
+        "last_q_revenue": 31738000.0,
+        "description": "Beam Therapeutics Inc., a biotechnology company, develops precision genetic drugs for patients with serious illnesses in the United States. The company is headquartered in Cambridge, Massachusetts.",
+        "sector": "HEALTHCARE",
+        "industry": "BIOTECHNOLOGY"
+      }
     }
   }
 }
