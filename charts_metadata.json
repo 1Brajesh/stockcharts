@@ -16849,6 +16849,56 @@
         "sector": "HEALTHCARE",
         "industry": "BIOTECHNOLOGY"
       }
+    },
+    "TMO": {
+      "presets": {
+        "Revenue": {
+          "updated": "Jun 24, 2026 12:45 AM"
+        },
+        "Costs": {
+          "updated": "Jun 24, 2026 12:45 AM"
+        },
+        "Cash": {
+          "updated": "Jun 24, 2026 12:45 AM"
+        },
+        "FCF": {
+          "updated": "Jun 24, 2026 12:45 AM"
+        },
+        "Assets": {
+          "updated": "Jun 24, 2026 12:45 AM"
+        },
+        "Buffet": {
+          "updated": "Jun 24, 2026 12:45 AM"
+        },
+        "Revenue-q": {
+          "updated": "Jun 24, 2026 12:45 AM"
+        },
+        "Costs-q": {
+          "updated": "Jun 24, 2026 12:45 AM"
+        },
+        "Cash-q": {
+          "updated": "Jun 24, 2026 12:45 AM"
+        },
+        "FCF-q": {
+          "updated": "Jun 24, 2026 12:45 AM"
+        },
+        "Assets-q": {
+          "updated": "Jun 24, 2026 12:45 AM"
+        },
+        "Buffet-q": {
+          "updated": "Jun 24, 2026 12:45 AM"
+        }
+      },
+      "last_updated": "2026-06-24T00:45:39.585723",
+      "company": {
+        "name": "Thermo Fisher Scientific Inc",
+        "market_cap": "$172.44B",
+        "market_cap_raw": 172436079000.0,
+        "last_q_revenue": 11005000000.0,
+        "description": "Thermo Fisher Scientific is an American provisioner of scientific instrumentation, reagents and consumables, and software and services to healthcare, life science, and other laboratories in academia, government, and industry (including in the biotechnology and pharmaceutical sectors). Based in Waltham, Massachusetts, Thermo Fisher was created in 2006 by the merger of Thermo Electron and Fisher Scientific, to form a company with US$ 9 billion in combined revenues.",
+        "sector": "HEALTHCARE",
+        "industry": "DIAGNOSTICS & RESEARCH"
+      }
     }
   }
 }
